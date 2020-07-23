@@ -100,7 +100,7 @@
                             <ul class="nav-menu-list">
                                 <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
                                 <li><a href="/about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
-                                <li><a href="mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
+                                <li><a href="/mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
                                 <li><a href="/about/security-of-funds.php"><?php translate('Security of Funds'); ?></a></li>
                                 <li><a href="/about/milestones.php"><?php translate('Milestones'); ?></a></li>
                                 <li><a href="/about/management.php"><?php translate('Management'); ?></a></li>
@@ -317,7 +317,7 @@
                     <ul class="text-center">
                         <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
                         <li><a href="/about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
-                        <li><a href="mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
+                        <li><a href="/mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
                         <li><a href="/about/security-of-funds.php"><?php translate('Security of Funds'); ?></a></li>
                         <li><a href="/about/milestones.php"><?php translate('Milestones'); ?></a></li>
                         <li><a href="/about/management.php"><?php translate('Management'); ?></a></li>
