@@ -1,6 +1,6 @@
 <?php
 
-$dbConnection = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite3',"","",array(
+$dbConnection = new PDO('sqlite:C:\xampp\htdocs\multibankfx\database\multibankfx.sqlite',"","",array(
     PDO::ATTR_PERSISTENT => TRUE,
     PDO::ERRMODE_EXCEPTION => TRUE));
 
@@ -76,8 +76,8 @@ function translate($text,$page_name=''){
 function get_news(){
     global $dbConnection;
     $exist = db_select($dbConnection,"select * from milestones");
-    while($row = $exist->fetchArray(SQLITE3_ASSOC) ) {
-        echo $row;
+    $result = $exist->fetchAll('SQLITE_ASSOC');
+    foreach ($result as $entry) {
+        echo $entry['title'];
     }
-    echo "hello";
 }
