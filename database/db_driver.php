@@ -76,7 +76,7 @@ function translate($text,$page_name=''){
 function get_news(){
     global $dbConnection;
     $exist = db_select($dbConnection,"select * from milestones");
-    $result = $exist->fetchAll('SQLITE_ASSOC');
+    $result = $exist->fetchAll();
     foreach ($result as $entry) {
         echo $entry['title'];
     }
