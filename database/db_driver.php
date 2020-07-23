@@ -73,9 +73,8 @@ function translate($text,$page_name=''){
         echo $text;
     }
 }
-$exist=[];
 function get_news(){
     global $dbConnection;
-    $exist = db_select($dbConnection,"select * from company_news");
-    echo json_encode($exist);
+    $exist = db_select($dbConnection,"select * from milestones");
+    echo json_encode("hello".$exist);
 }
