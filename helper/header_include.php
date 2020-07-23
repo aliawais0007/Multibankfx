@@ -10,6 +10,7 @@ $request_url = trim($_SERVER['REQUEST_URI']);
 $request_file = $request_url;
 $request_file =( $request_file=='' )?'home.php':$request_file;
 echo $request_file;
+exit();
 include $root_path.'database/db_driver.php';
 
 
