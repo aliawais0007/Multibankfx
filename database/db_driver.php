@@ -76,6 +76,8 @@ function translate($text,$page_name=''){
 
 function get_news($dbConnection){
     $db = $dbConnection;
+    return $db;
+    exit();
     $stmt = $db -> prepare("SELECT * from company_news");
     $stmt -> execute();
     $res = $stmt->fetchAll(PDO::FETCH_ASSOC);
