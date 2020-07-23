@@ -75,10 +75,7 @@ function translate($text,$page_name=''){
 }
 
 function get_news($dbConnection){
-    try{
-    $db = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite3',"","",array(
-        PDO::ATTR_PERSISTENT => TRUE,
-        PDO::ERRMODE_EXCEPTION => TRUE));
+    $db = $dbConnection;
     $stmt = $db -> prepare("SELECT * from company_news");
     $stmt -> execute();
     $res = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -87,11 +84,7 @@ function get_news($dbConnection){
         echo $title." | ".$status."<br>";
     }
             
-    /* close connection */
-    $db = null;
-        }
-        catch (PDOExecption $e){
-            echo $e->getMessage();
-        }    
+   
+        
 
 }
