@@ -76,7 +76,7 @@ function translate($text,$page_name=''){
 function get_news($dbConnection){
     // $exist = db_select($dbConnection,"select * from company_news");
     $query = $dbConnection->query("select * from company_news");
-    $result = $query->fetchAll();
+    $result = $query->execute();
     if(count($result) > 0 ){
         foreach ($result as $entry) {
             echo $entry['title'];
