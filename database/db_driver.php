@@ -1,6 +1,6 @@
 <?php
 
-$dbConnection = new PDO('sqlite:C:\xampp\htdocs\multibankfx\database\multibankfx.sqlite3',"","",array(
+$dbConnection = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite3',"","",array(
     PDO::ATTR_PERSISTENT => TRUE,
     PDO::ERRMODE_EXCEPTION => TRUE));
 
@@ -73,14 +73,13 @@ function translate($text,$page_name=''){
         echo $text;
     }
 }
-function get_news($dbConnection){
-    // $exist = db_select($dbConnection,"select * from company_news");
-    $query = $dbConnection->query("select * from company_news");
-    $result = $query->execute();
-    if(count($result) > 0 ){
-        foreach ($result as $entry) {
-            echo $entry['title'];
-        }
+
+function get_news(){
+    global $dbConnection;
+    $db = new SQLite3('/var/www/multibankfx/database/multibankfx.sqlite3');
+    $tablesquery = $db->query("SELECT * from company_news;");
+
+    while ($table = $tablesquery->fetchArray(SQLITE3_ASSOC)) {
+        echo $table['title'] . '<br />';
     }
-    else {echo "No data found";}
 }
