@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang='en'>
-<?php include_from_root('website_template/head.php');?>
+<?php include_from_root('website_template/head.php'); ?>
+
 <body>
-    <?php include_from_root('website_template/header_and_menu.php');?>
+    <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
         .nav-menu-hamburger,
         .nav-menu-mymex {
@@ -277,9 +278,9 @@
                 whereToGoItem.injectIcons('.target-icon', icons);
             });
         </script>
-        <?php include_from_root('website_template/choose_where_to.php');?>
+        <?php include_from_root('website_template/choose_where_to.php'); ?>
     </div>
-    
+
     <?php include_from_root('website_template/page_footer.php'); ?>
 
     <div class="slidebar">
@@ -789,26 +790,26 @@
 
 
             function initliveChat() {
-      var lc = document.createElement('script');
-      lc.type = 'text/javascript';
-      lc.async = true;
-      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(lc, s);
-      window.LC_API = window.LC_API || {};
-      if (window.innerWidth < 640) {
-        LC_API.on_before_load = function() {
-          LC_API.hide_chat_window();
-        }
-        LC_API.on_chat_window_minimized = function() {
-          setTimeout(function() {
-            LC_API.hide_chat_window();
-          }, 10000);
-        }
-      }
-    };
+                var lc = document.createElement('script');
+                lc.type = 'text/javascript';
+                lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(lc, s);
+                window.LC_API = window.LC_API || {};
+                if (window.innerWidth < 640) {
+                    LC_API.on_before_load = function() {
+                        LC_API.hide_chat_window();
+                    }
+                    LC_API.on_chat_window_minimized = function() {
+                        setTimeout(function() {
+                            LC_API.hide_chat_window();
+                        }, 10000);
+                    }
+                }
+            };
 
-    setTimeout(()=>initliveChat(), 10000);
+            setTimeout(() => initliveChat(), 10000);
         }
     </script>
     <script type="1fcd49307a711736d16976ef-text/javascript">
