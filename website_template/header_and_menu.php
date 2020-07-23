@@ -17,7 +17,7 @@
                                                                                                        data-entity-type=""
                                                                                                        data-entity-uuid=""
                                                                                                        height="12px"
-                                                                                                       src="public_files/images/common/icons/btn_mymex_icon.png"
+                                                                                                       src="/public_files/images/common/icons/btn_mymex_icon.png"
                                                                                                        width="auto;"/> </span>&nbsp;<?php translate('MyMultibank'); ?>
                 </a>
                 <a class="btn btn-sm btn-gold mr-1 header-mb-btn d-md-flex d-none align-items-center"
@@ -39,7 +39,7 @@
                     <div class="header-boottom-logo">
                         <a href="index.php">
                             <img alt="logo" class="logo logo-dark header-logo"
-                                 src="public_files/images/common/logo_black_360.png"/>
+                                 src="/public_files/images/common/logo_black_360.png"/>
                         </a>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                 <div class="show-1200-flex align-items-center">
                     <a class="nav-menu-mymex" style="min-width: unset !important;"
                        href="https://my.multibankfx.com/en/traders/login">
-                        <img alt="" src="public_files/images/common/icons/btn_mymex_icon.png"/>
+                        <img alt="" src="/public_files/images/common/icons/btn_mymex_icon.png"/>
                     </a>
                     <div class="nav-menu-hamburger">
                         <i class="ti-menu" style="font-size: 20px; color: #FFF;"></i>
@@ -118,7 +118,7 @@
                                 <a class="d-block w-75 mx-auto" href="account/live-account.php"><img
                                         alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type=""
                                         data-entity-uuid=""
-                                        src="public_files/images/common/menu_ads_banner.png"/></a>
+                                        src="/public_files/images/common/menu_ads_banner.png"/></a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                                 <a class="d-block w-75 mx-auto" href="account/live-account.php"><img
                                         alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type=""
                                         data-entity-uuid=""
-                                        src="public_files/images/common/menu_ads_banner.png"/></a>
+                                        src="/public_files/images/common/menu_ads_banner.png"/></a>
                             </div>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                                 <a class="d-block w-75 mx-auto" href="account/live-account.php"><img
                                         alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type=""
                                         data-entity-uuid=""
-                                        src="public_files/images/common/menu_ads_banner.png"/></a>
+                                        src="/public_files/images/common/menu_ads_banner.png"/></a>
                             </div>
                         </div>
                     </div>
@@ -231,7 +231,7 @@
                                 <a class="d-block w-75 mx-auto" href="account/live-account.php"><img
                                         alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type=""
                                         data-entity-uuid=""
-                                        src="public_files/images/common/menu_ads_banner.png"/></a>
+                                        src="/public_files/images/common/menu_ads_banner.png"/></a>
                             </div>
                         </div>
                     </div>
@@ -269,7 +269,7 @@
                                 <a class="d-block w-75 mx-auto" href="account/live-account.php"><img
                                         alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type=""
                                         data-entity-uuid=""
-                                        src="public_files/images/common/menu_ads_banner.png"/></a>
+                                        src="/public_files/images/common/menu_ads_banner.png"/></a>
                             </div>
                         </div>
                     </div>
@@ -306,7 +306,7 @@
                                 <a class="d-block w-75 mx-auto" href="account/live-account.php"><img
                                         alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type=""
                                         data-entity-uuid=""
-                                        src="public_files/images/common/menu_ads_banner.png"/></a>
+                                        src="/public_files/images/common/menu_ads_banner.png"/></a>
                             </div>
                         </div>
                     </div>

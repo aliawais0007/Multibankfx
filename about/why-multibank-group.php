@@ -407,7 +407,7 @@
         </div>
     </section>
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="aca9042ca4fa5ec4ab63856a-text/javascript">
+    <script type="text/javascript">
 $(function() {
 var icons = [
 'ic_our_regulations',
@@ -461,7 +461,7 @@ whereToGoItem.injectIcons('.target-icon', icons);
     </a>
     <a class="ib-registration-btn chat-btn"
        onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;"
-       data-cf-modified-aca9042ca4fa5ec4ab63856a-="">
+       data-cf-modified-="">
         <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid=""
                                 src="/public_files/images/home/sidebar_icon/chat.png" width="50"/> </span>
     </a>
@@ -898,7 +898,7 @@ whereToGoItem.injectIcons('.target-icon', icons);
                 </div>
                 <button type='submit' class='btn btn-mex ml-auto btn-submit'
                         onsubmit="if (!window.__cfRLUnblockHandlers) return false; "
-                        data-cf-modified-aca9042ca4fa5ec4ab63856a-="">SEND
+                        data-cf-modified-="">SEND
                 </button>
             </form>
         </div>
@@ -953,7 +953,7 @@ whereToGoItem.injectIcons('.target-icon', icons);
     }
 </style>
 <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script type="aca9042ca4fa5ec4ab63856a-text/javascript">
+<script type="text/javascript">
     $(function(){
         $('.email-us-tg').click(function(e){
             e.preventDefault();
@@ -966,16 +966,16 @@ whereToGoItem.injectIcons('.target-icon', icons);
     })
 
 </script>
-<script src="/public_files/static_js/lang_data/en.js" type="aca9042ca4fa5ec4ab63856a-text/javascript"></script>
+<script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
 <script src="/public_files/static_js/jquery.dataTables.min.js"
-        type="aca9042ca4fa5ec4ab63856a-text/javascript"></script>
-<script src="/public_files/static_js/lazysizes.min.js" type="aca9042ca4fa5ec4ab63856a-text/javascript"></script>
-<script src="/public_files/static_js/jquery.validate.min.js" type="aca9042ca4fa5ec4ab63856a-text/javascript"></script>
+        type="text/javascript"></script>
+<script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+<script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
 <script src="/public_files/static_js/intlTelInput.min.js"
-        type="aca9042ca4fa5ec4ab63856a-text/javascript"></script>
+        type="text/javascript"></script>
 <script src="/public_files/static_js/app.js"
-        type="aca9042ca4fa5ec4ab63856a-text/javascript"></script>
-<script type="aca9042ca4fa5ec4ab63856a-text/javascript" async>
+        type="text/javascript"></script>
+<script type="text/javascript" async>
     url = new URL(window.location.href);
     if (!url.searchParams.get('is_iframe')) {
         window.__lc = window.__lc || {};
@@ -984,7 +984,7 @@ whereToGoItem.injectIcons('.target-icon', icons);
         window.__lc.group = 2;
 
       
-    (function () {
+    function initliveChat() {
       var lc = document.createElement('script');
       lc.type = 'text/javascript';
       lc.async = true;
@@ -1002,11 +1002,13 @@ whereToGoItem.injectIcons('.target-icon', icons);
           }, 10000);
         }
       }
-    })();
+    };
+
+    setTimeout(()=>initliveChat(), 10000);
   }
 
 </script>
-<script type="aca9042ca4fa5ec4ab63856a-text/javascript">
+<script type="text/javascript">
 $(function() {
     $('.mex-translatable').each(function() {
         var url_parts = location.hostname.split('.');
@@ -1041,13 +1043,13 @@ $(function() {
 
 
 </script>
-<script type="aca9042ca4fa5ec4ab63856a-text/javascript">
+<script type="text/javascript">
 $(function() {
         $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
 });
 
 </script>
-<script type="aca9042ca4fa5ec4ab63856a-text/javascript">
+<script type="text/javascript">
 $(function(){
 var iframe_ibnum =getUrlVars()['ibNum'];
 var is_iframe = getUrlVars()['is_iframe'];
@@ -1066,8 +1068,8 @@ if(typeof iframe_ibnum === 'string' && typeof is_iframe === 'string'){
 });
 
 </script>
-<script src="/public_files/static_js/swiper-4.3.5.min.js" type="aca9042ca4fa5ec4ab63856a-text/javascript"></script>
-<script src="/public_files/static_js/app_home.js" type="aca9042ca4fa5ec4ab63856a-text/javascript"></script>
+<script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
+<script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(function() {
 //icons we need
@@ -1126,6 +1128,6 @@ whereToGoItem.injectIcons('.target-icon', icons);
 
 </style>
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
-        data-cf-settings="aca9042ca4fa5ec4ab63856a-|49" defer=""></script>
+        data-cf-settings="|49" defer=""></script>
 </body>
 </html>
