@@ -7,7 +7,7 @@ function get_news(){
 		PDO::ERRMODE_EXCEPTION => TRUE));
 		$stmt = $dbConnection1->query("SELECT * FROM company_news");
 		while ($row = $stmt->fetch()) {
-			echo $row['title']."<br />\n";
+			echo "ali".$row['title']."<br />\n";
 		}
 }
 ?>
