@@ -60,7 +60,7 @@
 
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display: none; visibility: hidden;"></iframe></noscript>
   <section class="flex-center page-top-banner">
-    <img src="public_files/images/partnership/franchise_program/img_topbanner_Franchise_Program.jpg" alt="Franchise Program" class="mex-img-cover" />
+    <img src="/public_files/images/partnership/franchise_program/img_topbanner_Franchise_Program.jpg" alt="Franchise Program" class="mex-img-cover" />
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -106,7 +106,7 @@
     }
   </style>
   <section class="flex-center">
-    <img class="mex-img-cover" src="public_files/images/partnership/franchise_program/Become_MultiBanks_Franchise_Partner.jpg" alt="Become MultiBank’s Franchise Partner" />
+    <img class="mex-img-cover" src="/public_files/images/partnership/franchise_program/Become_MultiBanks_Franchise_Partner.jpg" alt="Become MultiBank’s Franchise Partner" />
     <div class="container">
       <div class="row d-block">
         <div class="col-lg-6 col-sm7 col-xs-12 right">
@@ -450,22 +450,22 @@
   <?php include_from_root('website_template/page_footer.php');?>
   <div class="slidebar">
     <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-      <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/phone.png" width="50" />
+      <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" />
       </span>
     </a>
     <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
       <span class="btn">
-        <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/whatsapp.png" width="50" />
+        <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" />
       </span>
     </a>
     <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#a4c7d7e4c9d1c8d0cdc6c5cacfc2dc8ac7cbc9">
       <span class="btn">
-        <img alt="email" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/email.png" width="50" />
+        <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" />
       </span>
     </a>
     <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-9362f7f3cd03477831e71834-="">
       <span class="btn">
-        <img alt="Chat" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/chat.png" width="50" />
+        <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" />
       </span>
     </a>
   </div>
@@ -923,42 +923,43 @@ Hello, I am interested in learning more about MultiBank products and services. C
       });
     })
   </script>
-  <script src="public_files/static_js/lang_data/en.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
-  <script src="public_files/static_js/jquery.dataTables.min.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
-  <script src="public_files/static_js/lazysizes.min.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
-  <script src="public_files/static_js/jquery.validate.min.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
-  <script src="public_files/static_js/intlTelInput.min.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
-  <script src="public_files/static_js/app.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
-  <script type="9362f7f3cd03477831e71834-text/javascript" async>
-    url = new URL(window.location.href);
-    if (!url.searchParams.get('is_iframe')) {
-      window.__lc = window.__lc || {};
-      window.__lc.license = 3413162;
-      window.__lc.chat_between_groups = false;
-      window.__lc.group = 2;
+  <script src="/public_files/static_js/lang_data/en.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
+  <script src="/public_files/static_js/jquery.dataTables.min.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
+  <script src="/public_files/static_js/lazysizes.min.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
+  <script src="/public_files/static_js/jquery.validate.min.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
+  <script src="/public_files/static_js/intlTelInput.min.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
+  <script src="/public_files/static_js/app.js" type="9362f7f3cd03477831e71834-text/javascript"></script>
+  <script type="text/javascript" async>
+        url = new URL(window.location.href);
+        if (!url.searchParams.get('is_iframe')) {
+            window.__lc = window.__lc || {};
+            window.__lc.license = 3413162;
+            window.__lc.chat_between_groups = false;
+            window.__lc.group = 2;
 
-
-      (function() {
-        var lc = document.createElement('script');
-        lc.type = 'text/javascript';
-        lc.async = true;
-        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(lc, s);
-        window.LC_API = window.LC_API || {};
-        if (window.innerWidth < 640) {
-          LC_API.on_before_load = function() {
-            LC_API.hide_chat_window();
-          }
-          LC_API.on_chat_window_minimized = function() {
-            setTimeout(function() {
-              LC_API.hide_chat_window();
-            }, 200);
-          }
+            function initliveChat() {
+      var lc = document.createElement('script');
+      lc.type = 'text/javascript';
+      lc.async = true;
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(lc, s);
+      window.LC_API = window.LC_API || {};
+      if (window.innerWidth < 640) {
+        LC_API.on_before_load = function() {
+          LC_API.hide_chat_window();
         }
-      })();
-    }
-  </script>
+        LC_API.on_chat_window_minimized = function() {
+          setTimeout(function() {
+            LC_API.hide_chat_window();
+          }, 10000);
+        }
+      }
+    };
+
+    setTimeout(()=>initliveChat(), 10000);
+        }
+    </script>
   <script type="9362f7f3cd03477831e71834-text/javascript">
     $(function() {
       $('.mex-translatable').each(function() {

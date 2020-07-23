@@ -61,7 +61,7 @@
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <div class="main-container">
-    <section class="flex-center page-top-banner"><img src="public_files/images/accounts_funding/bonus_top_banner.jpg"
+    <section class="flex-center page-top-banner"><img src="/public_files/images/accounts_funding/bonus_top_banner.jpg"
                                                       alt="bonuses banner" class="mex-img-cover"/>
         <div class="container">
             <div class="row">
@@ -101,13 +101,13 @@
                             <li class="tab-title bonus-page-tab active" data-tab="imperial-bonus">
                                 <a>
                                     <span class="tab-img-cover d-none d-xl-block"><img
-                                            src="public_files/images/accounts_funding/tab_imperial_bonus.jpg"></span>
+                                            src="/public_files/images/accounts_funding/tab_imperial_bonus.jpg"></span>
                                     Imperial Bonus</a>
                             </li>
                             <li class="tab-title bonus-page-tab" data-tab="loyalty-bonus">
                                 <a>
                                     <span class="tab-img-cover d-none d-xl-block"><img
-                                            src="public_files/images/accounts_funding/tab_loyalty_bonus.jpg"></span>
+                                            src="/public_files/images/accounts_funding/tab_loyalty_bonus.jpg"></span>
                                     Loyalty Bonus</a>
                             </li>
                         </ul>
@@ -672,22 +672,22 @@
 <div class="slidebar">
     <a class="get-a-all-btn call-btn" href="tel:+12139924748">
         <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid=""
-                               src="public_files/images/home/sidebar_icon/phone.png" width="50"/> </span>
+                               src="/public_files/images/home/sidebar_icon/phone.png" width="50"/> </span>
     </a>
     <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
         <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid=""
-                                src="public_files/images/home/sidebar_icon/whatsapp.png" width="50"/> </span>
+                                src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50"/> </span>
     </a>
     <a class="email-us-tg demo-account-btn email-btn"
        href="cdn-cgi/l/email-protection.html#accfdfecc1d9c0d8c5cecdc2c7cad482cfc3c1">
         <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid=""
-                                src="public_files/images/home/sidebar_icon/email.png" width="50"/> </span>
+                                src="/public_files/images/home/sidebar_icon/email.png" width="50"/> </span>
     </a>
     <a class="ib-registration-btn chat-btn"
        onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;"
        data-cf-modified-9221275646d340e84872cc8a-="">
         <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid=""
-                                src="public_files/images/home/sidebar_icon/chat.png" width="50"/> </span>
+                                src="/public_files/images/home/sidebar_icon/chat.png" width="50"/> </span>
     </a>
 </div>
 <style type="text/css">.slidebar a span.btn {
@@ -1190,25 +1190,24 @@
     })
 
 </script>
-<script src="public_files/static_js/lang_data/en.js" type="9221275646d340e84872cc8a-text/javascript"></script>
-<script src="public_files/static_js/jquery.dataTables.min.js"
+<script src="/public_files/static_js/lang_data/en.js" type="9221275646d340e84872cc8a-text/javascript"></script>
+<script src="/public_files/static_js/jquery.dataTables.min.js"
         type="9221275646d340e84872cc8a-text/javascript"></script>
-<script src="public_files/static_js/lazysizes.min.js" type="9221275646d340e84872cc8a-text/javascript"></script>
-<script src="public_files/static_js/jquery.validate.min.js" type="9221275646d340e84872cc8a-text/javascript"></script>
-<script src="public_files/static_js/intlTelInput.min.js"
+<script src="/public_files/static_js/lazysizes.min.js" type="9221275646d340e84872cc8a-text/javascript"></script>
+<script src="/public_files/static_js/jquery.validate.min.js" type="9221275646d340e84872cc8a-text/javascript"></script>
+<script src="/public_files/static_js/intlTelInput.min.js"
         type="9221275646d340e84872cc8a-text/javascript"></script>
-<script src="public_files/static_js/app.js"
+<script src="/public_files/static_js/app.js"
         type="9221275646d340e84872cc8a-text/javascript"></script>
-<script type="9221275646d340e84872cc8a-text/javascript" async>
-    url = new URL(window.location.href);
-    if (!url.searchParams.get('is_iframe')) {
-        window.__lc = window.__lc || {};
-        window.__lc.license = 3413162;
-        window.__lc.chat_between_groups = false;
-        window.__lc.group = 2;
+        <script type="text/javascript" async>
+        url = new URL(window.location.href);
+        if (!url.searchParams.get('is_iframe')) {
+            window.__lc = window.__lc || {};
+            window.__lc.license = 3413162;
+            window.__lc.chat_between_groups = false;
+            window.__lc.group = 2;
 
-      
-    (function () {
+            function initliveChat() {
       var lc = document.createElement('script');
       lc.type = 'text/javascript';
       lc.async = true;
@@ -1223,13 +1222,14 @@
         LC_API.on_chat_window_minimized = function() {
           setTimeout(function() {
             LC_API.hide_chat_window();
-          }, 200);
+          }, 10000);
         }
       }
-    })();
-  }
+    };
 
-</script>
+    setTimeout(()=>initliveChat(), 10000);
+        }
+    </script>
 <script type="9221275646d340e84872cc8a-text/javascript">
 $(function() {
     $('.mex-translatable').each(function() {

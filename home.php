@@ -126,7 +126,7 @@
                     <div class="min1 d-none d-lg-block" style="background-image:url('public_files/images/home/en_cityscape_1920x800.jpg');">
                     </div>
                     <div class="min2 d-block d-lg-none" style="background-image:url('public_files/images/home/en_cityscape_750x600.jpg');">
-                        <img src="public_files/images/home/main_banner_mobile.gif" />
+                        <img src="/public_files/images/home/main_banner_mobile.gif" />
                     </div>
                 </a>
             </div>
@@ -135,7 +135,7 @@
                     <div class="min1 d-none d-lg-block" style="background-image:url('public_files/images/home/en_shares-1920x800.jpg');">
                     </div>
                     <div class="min2 d-block d-lg-none" style="background-image:url('public_files/images/home/en_shares-750x600.jpg');">
-                        <img src="public_files/images/home/main_banner_mobile.gif" />
+                        <img src="/public_files/images/home/main_banner_mobile.gif" />
                     </div>
                 </a>
             </div>
@@ -614,7 +614,7 @@
                     <section class="mex-block-card-v mex-qtr box-animate section-products">
                         <a href="products/forex.php">
                             <div class="card-img-box">
-                                <img class="card-img mex-img-cover lazyloadXXX" src="public_files/images/home/home_product_forex.jpg" alt="Forex">
+                                <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_forex.jpg" alt="Forex">
                             </div>
                             <div class="card-content bg-white card-content-mobile">
                                 <div class="mex-h3 text-overflow-1 ">
@@ -629,7 +629,7 @@
                     <section class="mex-block-card-v mex-qtr box-animate section-products">
                         <a href="products/metals.php">
                             <div class="card-img-box">
-                                <img alt="Metals" class="card-img mex-img-cover  lazyloadXXX" src="public_files/images/home/home_product_metals.jpg">
+                                <img alt="Metals" class="card-img mex-img-cover  lazyloadXXX" src="/public_files/images/home/home_product_metals.jpg">
                             </div>
                             <div class="card-content bg-white  card-content-mobile">
                                 <div class="mex-h3 text-overflow-1">
@@ -646,7 +646,7 @@
                     <section class="mex-block-card-v mex-qtr box-animate section-products">
                         <a href="products/shares.php">
                             <div class="card-img-box">
-                                <img alt="Shares" class="card-img mex-img-cover lazyloadXXX" src="public_files/images/home/home_product_shares.jpg">
+                                <img alt="Shares" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_shares.jpg">
                             </div>
                             <div class="card-content bg-white  card-content-mobile">
                                 <div class="mex-h3 text-overflow-1">
@@ -661,7 +661,7 @@
                     <section class="mex-block-card-v mex-qtr box-animate section-products">
                         <a href="products/indices.php">
                             <div class="card-img-box">
-                                <img alt="Indices" class="card-img mex-img-cover lazyloadXXX" src="public_files/images/home/home_product_indices.jpg">
+                                <img alt="Indices" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_indices.jpg">
                             </div>
                             <div class="card-content bg-white card-content-mobile">
                                 <div class="mex-h3 text-overflow-1">
@@ -677,7 +677,7 @@
                     <section class="mex-block-card-v mex-qtr box-animate section-products">
                         <a href="products/commodities.php">
                             <div class="card-img-box">
-                                <img alt="Commodities" class="card-img mex-img-cover lazyloadXXX" src="public_files/images/home/home_product_commodities.jpg">
+                                <img alt="Commodities" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_commodities.jpg">
                             </div>
                             <div class="card-content bg-white  card-content-mobile">
                                 <div class="mex-h3 text-overflow-1">
@@ -692,7 +692,7 @@
                     <section class="mex-block-card-v mex-qtr box-animate section-products">
                         <a href="partnership/white-label.php">
                             <div class="card-img-box">
-                                <img alt="white label" class="card-img mex-img-cover lazyloadXXX" src="public_files/images/home/home_product_white_label.jpg">
+                                <img alt="white label" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_white_label.jpg">
                             </div>
                             <div class="card-content bg-white  card-content-mobile">
                                 <div class="mex-h3 text-overflow-1">
@@ -707,7 +707,7 @@
                     <section class="mex-block-card-v mex-qtr box-animate section-products">
                         <a href="partnership/prime-of-primes.php">
                             <div class="card-img-box">
-                                <img alt="Prime of Primes" class="card-img mex-img-cover lazyloadXXX" src="public_files/images/home/home_product_prime.jpg">
+                                <img alt="Prime of Primes" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_prime.jpg">
                             </div>
                             <div class="card-content bg-white  card-content-mobile">
                                 <div class="mex-h3 text-overflow-1">
@@ -722,7 +722,7 @@
                     <section class="mex-block-card-v mex-qtr box-animate section-products">
                         <a href="social-trading.php">
                             <div class="card-img-box">
-                                <img class="card-img mex-img-cover lazyloadXXX" src="public_files/images/home/home_product_social_trading.jpg" alt="Social Trading Platform">
+                                <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_social_trading.jpg" alt="Social Trading Platform">
                             </div>
                             <div class="card-content bg-white  card-content-mobile">
                                 <div class="mex-h3 text-overflow-1">
@@ -761,7 +761,7 @@
                 <div class="col-md-12 col-lg-6 col-12">
                     <div class="row trade-with-confidence-card ">
                         <img class="mex-img-cover px-0 lazyloadXXX"
-                            src="public_files/images/home/home_trade_start_trading.png "
+                            src="/public_files/images/home/home_trade_start_trading.png "
                             alt="Start Trading">
                         <div class="col-12 both-content mx-lg-4 my-lg-5">
                             <div class="col-lg-8 col-12 px-3 px-3 p-lg-0">
@@ -786,7 +786,7 @@
                 <div class="col-md-12 col-lg-6">
                     <div class="row trade-with-confidence-card dnone-mobile">
                         <img style="z-index: -1;" class="mex-img-cover col-12 px-0 lazyloadXXX"
-                            src="public_files/images/home/home_trade_fund_account.jpg"
+                            src="/public_files/images/home/home_trade_fund_account.jpg"
                             alt="Fund Your Account">
                         <div class="col-12 both-content mx-lg-4 my-lg-5 px-3 px-3 p-lg-0">
                             <div class="mex-h2 mex-m-b-15 text-fff">Fund Your Account</div>
@@ -846,10 +846,10 @@
                     style="width: 1436px; margin-right: 30px;">
                     <a href="account/bonus-ib.php">
                         <div class="min1 d-none d-lg-block">
-                            <img class="lazyloadXXX" src="public_files/images/home/home_bonus_5000.jpg" alt="image">
+                            <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg" alt="image">
                         </div>
                         <div class="min2 d-block d-lg-none">
-                            <img class="lazyloadXXX" src="public_files/images/home/home_bonus_5000.jpg" alt="image">
+                            <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg" alt="image">
                         </div>
                     </a>
                 </div>
@@ -858,10 +858,10 @@
                     <a href="account/bonus.php">
                         <div class="min1 d-none d-lg-block">
                             <img class=" lazyloadXXX"
-                                src="public_files/images/home/home_bonus_extra.jpg" alt="image">
+                                src="/public_files/images/home/home_bonus_extra.jpg" alt="image">
                         </div>
                         <div class="min2 d-block d-lg-none">
-                            <img class="lazyloadXXX" src="public_files/images/home/home_bonus_extra.jpg"
+                            <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_extra.jpg"
                                 alt="image">
                         </div>
                     </a>
@@ -870,11 +870,11 @@
                     style="width: 1436px; margin-right: 30px;">
                     <a href="account/bonus.php">
                         <div class="min1 d-none d-lg-block">
-                            <img class=" lazyloadXXX" src="public_files/images/home/home_bonus_400.jpg"
+                            <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_400.jpg"
                                 alt="image">
                         </div>
                         <div class="min2 d-block d-lg-none">
-                            <img class="lazyloadXXX" src="public_files/images/home/home_bonus_400.jpg"
+                            <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_400.jpg"
                                 alt="image">
                         </div>
                     </a>
@@ -883,11 +883,11 @@
                     style="width: 1436px; margin-right: 30px;">
                     <a href="account/bonus-ib.php">
                         <div class="min1 d-none d-lg-block">
-                            <img class=" lazyloadXXX" src="public_files/images/home/home_bonus_5000.jpg"
+                            <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg"
                                 alt="image">
                         </div>
                         <div class="min2 d-block d-lg-none">
-                            <img class="lazyloadXXX" src="public_files/images/home/home_bonus_5000.jpg"
+                            <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg"
                                 alt="image">
                         </div>
                     </a>
@@ -896,11 +896,11 @@
                     style="width: 1436px; margin-right: 30px;">
                     <a href="account/bonus.php">
                         <div class="min1 d-none d-lg-block">
-                            <!--<img class="lazyloadXXX" src="public_files/images/about_us/global_presence/home_bonus_extra.png"-->
+                            <!--<img class="lazyloadXXX" src="/public_files/images/about_us/global_presence/home_bonus_extra.png"-->
                             <!--    alt="image">-->
                         </div>
                         <div class="min2 d-block d-lg-none">
-                            <!--<img class="lazyloadXXX" src="public_files/images/about_us/global_presence/home_bonus_extra.png"-->
+                            <!--<img class="lazyloadXXX" src="/public_files/images/about_us/global_presence/home_bonus_extra.png"-->
                             <!--    alt="image">-->
                         </div>
                     </a>
@@ -932,28 +932,28 @@
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16"
                         style="line-height: 20px;">
                         <img class="mb-platform-icon mb-2 lazyloadXXX"
-                            src="public_files/images/home/home_platforms_ecn_icon.png"
+                            src="/public_files/images/home/home_platforms_ecn_icon.png"
                             alt="ECN Pro Platform">
                         ECN Pro
                     </div>
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16"
                         style="line-height: 20px;">
                         <img class=" mb-platform-icon mb-2 lazyloadXXX"
-                            src="public_files/images/home/home_platforms_multibank_pro_icon.png"
+                            src="/public_files/images/home/home_platforms_multibank_pro_icon.png"
                             alt="MultiBank Pro Platform">
                         MultiBank Pro
                     </div>
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16"
                         style="line-height: 20px;">
                         <img class="mb-platform-icon mb-2 lazyloadXXX"
-                            src="public_files/images/home/home_platforms_maximus_icon.png"
+                            src="/public_files/images/home/home_platforms_maximus_icon.png"
                             alt="Maximus Platform">
                         Maximus
                     </div>
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16"
                         style="line-height: 20px;">
                         <img class="mb-platform-icon mb-2 lazyloadXXX"
-                            src="public_files/images/home/home_platforms_mt5_platform.png"
+                            src="/public_files/images/home/home_platforms_mt5_platform.png"
                             alt="Maximus Platform">
                         MT5
                     </div>
@@ -977,7 +977,7 @@
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box hover-img-zoom">
                             <img class="home-about-multibank card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/home/home_about_advantage.png"
+                                src="/public_files/images/home/home_about_advantage.png"
                                 alt="OUR ADVANTAGES">
                         </div>
                         <div class="card-content-box">
@@ -998,7 +998,7 @@
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box hover-img-zoom">
                             <img class="home-about-multibank card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/home/home_about_regulations.png"
+                                src="/public_files/images/home/home_about_regulations.png"
                                 alt="REGULATIONS">
                         </div>
                         <div class="card-content-box">
@@ -1021,7 +1021,7 @@
                 <div class="col-12 mb-2 mb-md-0">
                     <div class="card">
                         <img alt="Introducing Brokers" class="card-img mex-img-cover lazyloadXXX"
-                            src="public_files/images/home/home_about_advantage.png" />
+                            src="/public_files/images/home/home_about_advantage.png" />
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 OUR ADVANTAGES </div>
@@ -1035,7 +1035,7 @@
                 <div class="col-12 mb-2">
                     <div class="card">
                         <img class="card-img mex-img-cover lazyloadXXX"
-                            src="public_files/images/home/home_about_regulations.png"
+                            src="/public_files/images/home/home_about_regulations.png"
                             alt="REGULATIONS" />
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
@@ -1049,7 +1049,7 @@
                 <div class="col-12 mb-2">
                     <div class="card">
                         <img alt="Introducing Brokers" class="card-img mex-img-cover lazyloadXXX"
-                            src="public_files/images/home/home_security_of_funds_banner.jpg">
+                            src="/public_files/images/home/home_security_of_funds_banner.jpg">
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 SECURITY OF FUNDS </div>
@@ -1063,7 +1063,7 @@
                 <div class="col-12 ">
                     <div class="card">
                         <img class="card-img mex-img-cover lazyloadXXX"
-                            src="public_files/images/home/home_milestones_banner.png"
+                            src="/public_files/images/home/home_milestones_banner.png"
                             alt="REGULATIONS" />
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
@@ -1089,7 +1089,7 @@
                 <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="15" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_turkey.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_turkey.jpg"
                                 alt="British Virgin Islands"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1108,7 +1108,7 @@
                 <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="16" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_british_virgin_islands.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_british_virgin_islands.jpg"
                                 alt="British Virgin Islands"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1126,7 +1126,7 @@
                 <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="17" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_british_virgin_islands_mbg.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_british_virgin_islands_mbg.jpg"
                                 alt="British Virgin Islands MBG"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1144,7 +1144,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="0" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_cayman_islands.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_cayman_islands.jpg"
                                 alt="Cayman Islands"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1162,7 +1162,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="1" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_hong_kong.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_hong_kong.jpg"
                                 alt="Hong Kong">
                         </div>
                         <div class="card-content bg-white text-center">
@@ -1181,7 +1181,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="2" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_australia.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_australia.jpg"
                                 alt="Australia">
                         </div>
                         <div class="card-content bg-white text-center">
@@ -1203,7 +1203,7 @@
                 <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="3" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_germany.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_germany.jpg"
                                 alt="Germany"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1224,7 +1224,7 @@
                     style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_austria.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_austria.jpg"
                                 alt="Austria"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1245,7 +1245,7 @@
                     style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_spain.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_spain.jpg"
                                 alt="Spain"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1266,7 +1266,7 @@
                 <div class="swiper-slide width-30" data-swiper-slide-index="6" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_usa.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_usa.jpg"
                                 alt="USA"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1284,7 +1284,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="7" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_mexico.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_mexico.jpg"
                                 alt="Mexico"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1304,7 +1304,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="8" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_china.jpg" alt="China">
+                                src="/public_files/images/about_us/global_presence/global_presence_china.jpg" alt="China">
                         </div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1322,7 +1322,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="9" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-coverlazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_vietnam.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_vietnam.jpg"
                                 alt="UAE"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1341,7 +1341,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="10" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_philippines.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_philippines.jpg"
                                 alt="UAE"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1360,7 +1360,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="11" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_malaysia.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_malaysia.jpg"
                                 alt="UAE"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1380,7 +1380,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="12" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_uae2.jpg" alt="UAE"></div>
+                                src="/public_files/images/about_us/global_presence/global_presence_uae2.jpg" alt="UAE"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
                                 UAE
@@ -1399,7 +1399,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="13" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_kuwai.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_kuwai.jpg"
                                 alt="British Virgin Islands"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1419,7 +1419,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="14" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_cyprus.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_cyprus.jpg"
                                 alt="British Virgin Islands"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1437,7 +1437,7 @@
                 <div class="swiper-slide" data-swiper-slide-index="15" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_turkey.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_turkey.jpg"
                                 alt="British Virgin Islands"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1455,7 +1455,7 @@
                 </div>
                 <div class="swiper-slide" data-swiper-slide-index="16" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="public_files/images/about_us/global_presence/
+                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/
 global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1473,7 +1473,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                 <div class="swiper-slide" data-swiper-slide-index="17" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/about_us/global_presence/global_presence_british_virgin_islands_mbg.jpg"
+                                src="/public_files/images/about_us/global_presence/global_presence_british_virgin_islands_mbg.jpg"
                                 alt="British Virgin Islands MBG"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
@@ -1492,7 +1492,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box">
                             <!--<img class="card-img mex-img-cover lazyloadXXX"-->
-                            <!--    src="public_files/images/about_us/global_presence/global_presence_cayman_islands.png"-->
+                            <!--    src="/public_files/images/about_us/global_presence/global_presence_cayman_islands.png"-->
                             <!--    alt="Cayman Islands">-->
                                 </div>
                         <div class="card-content bg-white text-center">
@@ -1512,7 +1512,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box">
                             <!--<img class="card-img mex-img-cover lazyloadXXX"-->
-                            <!--    src="public_files/images/about_us/global_presence/global_presence_hong_kong.png"-->
+                            <!--    src="/public_files/images/about_us/global_presence/global_presence_hong_kong.png"-->
                             <!--    alt="Hong Kong">-->
                         </div>
                         <div class="card-content bg-white text-center">
@@ -1532,7 +1532,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <section class="mex-block-card-v mex-third">
                         <div class="card-img-box">
                             <!--<img class="card-img mex-img-cover lazyloadXXX"-->
-                            <!--    src="public_files/images/about_us/global_presence/global_presence_australia.png"-->
+                            <!--    src="/public_files/images/about_us/global_presence/global_presence_australia.png"-->
                             <!--    alt="Australia">-->
                         </div>
                         <div class="card-content bg-white text-center">
@@ -1565,7 +1565,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box">
                             <img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/home/home_security_of_funds_banner.jpg"
+                                src="/public_files/images/home/home_security_of_funds_banner.jpg"
                                 alt="SECURITY OF FUNDS">
                         </div>
                         <div class="card-content-box">
@@ -1584,7 +1584,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box">
                             <img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/home/home_milestones_banner.png"
+                                src="/public_files/images/home/home_milestones_banner.png"
                                 alt="MILESTONES">
                         </div>
                         <div class="card-content-box">
@@ -1624,7 +1624,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                         <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="34"
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
-                                <img class="lazyloadXXX" src="public_files/images/about_us/awards/2013Asia.png">
+                                <img class="lazyloadXXX" src="/public_files/images/about_us/awards/2013Asia.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Broker 2013</span>
                                 <span class="mex-content ">Asia Franchise Industry Association</span>
                             </a>
@@ -1633,7 +1633,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_trading_platform_2012.png">
+                                    src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2012</span>
                                 <span class="mex-content ">Jinrongjie</span>
                             </a>
@@ -1642,7 +1642,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/rtb_china_awards_2012.png">
+                                    src="/public_files/images/about_us/awards/rtb_china_awards_2012.png">
                                 <span class="mex-h3 mex-m-b-5 ">RTB China Awards 2012</span>
                                 <span class="mex-content ">Global RTB Summit</span>
                             </a>
@@ -1651,7 +1651,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_2012_11china.png">
+                                    src="/public_files/images/about_us/awards/best_forex_2012_11china.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2012</span>
                                 <span class="mex-content ">11th China International Investment &amp; Finance
                                     Expo</span>
@@ -1661,7 +1661,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_ecn_broker_2012.png">
+                                    src="/public_files/images/about_us/awards/best_ecn_broker_2012.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best ECN Broker (Asia) 2012</span>
                                 <span class="mex-content ">Global Banking &amp; Finance Review</span>
                             </a>
@@ -1670,7 +1670,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                    src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Service Provider 2011</span>
                                 <span class="mex-content ">Hexun</span>
                             </a>
@@ -1679,7 +1679,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             data-swiper-slide-index="40" style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                    src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2011</span>
                                 <span class="mex-content ">Hexun</span>
                             </a>
@@ -1688,7 +1688,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/Best_Forex_CFD_Broker_JFEX_Award.png">
+                                    src="/public_files/images/about_us/awards/Best_Forex_CFD_Broker_JFEX_Award.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex and CFD Broker 2019</span>
                                 <span class="mex-content ">16th Jordan Forex Expo &amp; Awards</span>
                             </a>
@@ -1697,7 +1697,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-wins-financial-services-provider-asia-award-2019.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/Financial_Services_Provider_of_the_Year_Asia_2019.jpg">
+                                    src="/public_files/images/about_us/awards/Financial_Services_Provider_of_the_Year_Asia_2019.jpg">
                                 <span class="mex-h3 mex-m-b-5 ">Financial Services Provider of the Year (Asia)
                                     2019</span>
                                 <span class="mex-content ">Global Brands Magazine</span>
@@ -1707,7 +1707,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-chosen-best-FX-CFD-broker-2019.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_fx_broker_euas_2019.png">
+                                    src="/public_files/images/about_us/awards/best_fx_broker_euas_2019.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best FX &amp; CFD Broker (Europe &amp; Asia)
                                     2019</span>
                                 <span class="mex-content ">International Investor</span>
@@ -1717,7 +1717,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-wins-ecn-broker-best-forex-platform-2019.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/ecn_broker_eu_2019.png">
+                                    src="/public_files/images/about_us/awards/ecn_broker_eu_2019.png">
                                 <span class="mex-h3 mex-m-b-5 ">ECN Broker of the Year (Europe) 2019</span>
                                 <span class="mex-content ">International Business Magazine</span>
                             </a>
@@ -1726,7 +1726,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-wins-ecn-broker-best-forex-platform-2019.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_mena_2019.png">
+                                    src="/public_files/images/about_us/awards/best_forex_mena_2019.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Platform MENA 2019</span>
                                 <span class="mex-content ">International Business Magazine</span>
                             </a>
@@ -1735,7 +1735,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-named-best-financial-derivatives-broker-2019.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/2019best_financial_derivatives_broker_europe.png">
+                                    src="/public_files/images/about_us/awards/2019best_financial_derivatives_broker_europe.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Financial Derivatives Broker 2019</span>
                                 <span class="mex-content ">Global Banking &amp; Finance Review</span>
                             </a>
@@ -1744,7 +1744,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-selected-best-forex-broker-forex-expo-dubai-2019.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_broker_2019.png">
+                                    src="/public_files/images/about_us/awards/best_forex_broker_2019.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Broker 2019</span>
                                 <span class="mex-content ">The Forex Expo Dubai</span>
                             </a>
@@ -1754,7 +1754,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             <a
                                 href="article/milestones_multibank-chairman-naser-taher-awarded-ceo-of-the-year-2019.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/2019CEO_of_the_year_financial_services_asia_europe.png">
+                                    src="/public_files/images/about_us/awards/2019CEO_of_the_year_financial_services_asia_europe.png">
                                 <span class="mex-h3 mex-m-b-5 ">CEO of the Year (Financial Services) (Asia &amp;
                                     Europe) 2019</span>
                                 <span class="mex-content ">Le Fonti Awards (International Alternative Investment
@@ -1765,7 +1765,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-honored-best-ecn-broker-asia-2019.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_ecn_broker_asia_2019.png">
+                                    src="/public_files/images/about_us/awards/best_ecn_broker_asia_2019.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best ECN Broker of the Year (Asia) 2019</span>
                                 <span class="mex-content ">Finance Derivative</span>
                             </a>
@@ -1774,7 +1774,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_education_provider_2019.png">
+                                    src="/public_files/images/about_us/awards/best_education_provider_2019.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Education Provider 2019</span>
                                 <span class="mex-content ">FX Daily Info</span>
                             </a>
@@ -1783,7 +1783,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_platform_2018.png">
+                                    src="/public_files/images/about_us/awards/best_forex_platform_2018.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform (Hong Kong) 2018</span>
                                 <span class="mex-content ">International Finance Magazine</span>
                             </a>
@@ -1792,7 +1792,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_ecn_broker_2018.png">
+                                    src="/public_files/images/about_us/awards/best_ecn_broker_2018.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best ECN Broker Europe 2018</span>
                                 <span class="mex-content ">International Business Magazine</span>
                             </a>+
@@ -1801,7 +1801,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_ecn_platform_2018.png">
+                                    src="/public_files/images/about_us/awards/best_forex_ecn_platform_2018.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex ECN Platform (Europe &amp; Asia)</span>
                                 <span class="mex-content ">Capital Finance International</span>
                             </a>
@@ -1810,7 +1810,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/most_admired_2017.png">
+                                    src="/public_files/images/about_us/awards/most_admired_2017.png">
                                 <span class="mex-h3 mex-m-b-5 ">30 Most Admired Companies of 2017</span>
                                 <span class="mex-content ">Insights Success Magazine</span>
                             </a>
@@ -1819,7 +1819,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/ceo_of_the_year_2017.png">
+                                    src="/public_files/images/about_us/awards/ceo_of_the_year_2017.png">
                                 <span class="mex-h3 mex-m-b-5 ">Financial Derivatives Broker of the Year (Asia &amp;
                                     Europe)
                                     2017</span>
@@ -1830,7 +1830,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/ceo_of_the_year_2017.png">
+                                    src="/public_files/images/about_us/awards/ceo_of_the_year_2017.png">
                                 <span class="mex-h3 mex-m-b-5 ">CEO of the Year-- Financial Services (Asia &amp;
                                     Europe) 2017</span>
                                 <span class="mex-content ">International Alternative Investment Review</span>
@@ -1840,7 +1840,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_platform_2016.png">
+                                    src="/public_files/images/about_us/awards/best_forex_platform_2016.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Exchange Platform (Hong Kong) 2016</span>
                                 <span class="mex-content ">Global Brands Magazine</span>
                             </a>
@@ -1849,7 +1849,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_ceo_2016.png">
+                                    src="/public_files/images/about_us/awards/best_ceo_2016.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Financial Services CEO (Hong Kong) 2016</span>
                                 <span class="mex-content ">Global Brands Magazine</span>
                             </a>
@@ -1858,7 +1858,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_china_2016.png">
+                                    src="/public_files/images/about_us/awards/best_forex_china_2016.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Platform 2016</span>
                                 <span class="mex-content ">China Forex Expo</span>
                             </a>
@@ -1867,7 +1867,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_execution_broker_2016.png">
+                                    src="/public_files/images/about_us/awards/best_execution_broker_2016.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Execution Broker 2016</span>
                                 <span class="mex-content ">China Forex Expo</span>
                             </a>
@@ -1876,7 +1876,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_broker_2015.png">
+                                    src="/public_files/images/about_us/awards/best_forex_broker_2015.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Broker 2015</span>
                                 <span class="mex-content ">IFeng</span>
                             </a>
@@ -1885,7 +1885,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_platform_2015.png">
+                                    src="/public_files/images/about_us/awards/best_forex_platform_2015.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform (Asia &amp; Europe)
                                     2015</span>
                                 <span class="mex-content ">Capital Finance International</span>
@@ -1895,7 +1895,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_broker_europe_2015.png">
+                                    src="/public_files/images/about_us/awards/best_forex_broker_europe_2015.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Broker Europe 2015</span>
                                 <span class="mex-content ">International Alternative Investment Review</span>
                             </a>
@@ -1904,7 +1904,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_platform_2014.png">
+                                    src="/public_files/images/about_us/awards/best_platform_2014.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Institutional FX Platform 2014</span>
                                 <span class="mex-content ">7th Saudi Money Expo</span>
                             </a>
@@ -1913,7 +1913,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/top_provider_2014.png">
+                                    src="/public_files/images/about_us/awards/top_provider_2014.png">
                                 <span class="mex-h3 mex-m-b-5 ">Top FX Liquidity Provider 2014</span>
                                 <span class="mex-content ">6th Saudi Money Expo</span>
                             </a>
@@ -1922,7 +1922,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/most_secure_broker_2014.png">
+                                    src="/public_files/images/about_us/awards/most_secure_broker_2014.png">
                                 <span class="mex-h3 mex-m-b-5 ">Most Secure Broker 2014</span>
                                 <span class="mex-content ">KG Forex World Conference</span>
                             </a>
@@ -1931,7 +1931,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_ecn_broker_2013.png">
+                                    src="/public_files/images/about_us/awards/best_ecn_broker_2013.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best ECN Forex Broker Asia 2013<br> Best ECN Forex
                                     Broker Europe
                                     2013</span>
@@ -1942,7 +1942,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_company_leadership_2013.png">
+                                    src="/public_files/images/about_us/awards/best_company_leadership_2013.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Company for Leadership 2013</span>
                                 <span class="mex-content ">International Alternative Investment Review</span>
                             </a>
@@ -1951,7 +1951,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_broker_2013.png"> <span
+                                    src="/public_files/images/about_us/awards/best_broker_2013.png"> <span
                                     class="mex-h3 mex-m-b-5 ">Most Secure Forex Broker 2013</span>
                                 <span class="mex-content ">Shanghai Financial Investment Management
                                     Association</span>
@@ -1961,7 +1961,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_broker_2013.png"> <span
+                                    src="/public_files/images/about_us/awards/best_broker_2013.png"> <span
                                     class="mex-h3 mex-m-b-5 ">Best Forex Broker 2013</span>
                                 <span class="mex-content ">Shanghai Financial Investment Management
                                     Association</span>
@@ -1971,7 +1971,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/broker_of_the_year_2013.png">
+                                    src="/public_files/images/about_us/awards/broker_of_the_year_2013.png">
                                 <span class="mex-h3 mex-m-b-5 ">Broker of the Year 2013</span>
                                 <span class="mex-content ">China International Online Trading Expo</span>
                             </a>
@@ -1980,7 +1980,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/most_powerful_team_2013.png">
+                                    src="/public_files/images/about_us/awards/most_powerful_team_2013.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2013</span>
                                 <span class="mex-content ">CNFOL</span>
                             </a>
@@ -1989,7 +1989,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/most_powerful_team_2013.png">
+                                    src="/public_files/images/about_us/awards/most_powerful_team_2013.png">
                                 <span class="mex-h3 mex-m-b-5 ">Most Powerful Forex Technical Research &amp;
                                     Development Team
                                     2013</span>
@@ -2000,7 +2000,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/2013Asia.png"> <span
+                                    src="/public_files/images/about_us/awards/2013Asia.png"> <span
                                     class="mex-h3 mex-m-b-5 ">Most Secure Forex Broker 2013</span>
                                 <span class="mex-content ">Asia Franchise Industry Association</span>
                             </a>
@@ -2009,7 +2009,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/2013Asia.png"> <span
+                                    src="/public_files/images/about_us/awards/2013Asia.png"> <span
                                     class="mex-h3 mex-m-b-5 ">Best Forex Broker 2013</span>
                                 <span class="mex-content ">Asia Franchise Industry Association</span>
                             </a>
@@ -2018,7 +2018,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_trading_platform_2012.png">
+                                    src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2012</span>
                                 <span class="mex-content ">Jinrongjie</span>
                             </a>
@@ -2027,7 +2027,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/rtb_china_awards_2012.png"> <span
+                                    src="/public_files/images/about_us/awards/rtb_china_awards_2012.png"> <span
                                     class="mex-h3 mex-m-b-5 ">RTB China Awards 2012</span>
                                 <span class="mex-content ">Global RTB Summit</span>
                             </a>
@@ -2036,7 +2036,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_2012_11china.png">
+                                    src="/public_files/images/about_us/awards/best_forex_2012_11china.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2012</span>
                                 <span class="mex-content ">11th China International Investment &amp; Finance
                                     Expo</span>
@@ -2046,7 +2046,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_ecn_broker_2012.png">
+                                    src="/public_files/images/about_us/awards/best_ecn_broker_2012.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best ECN Broker (Asia) 2012</span>
                                 <span class="mex-content ">Global Banking &amp; Finance Review</span>
                             </a>
@@ -2055,7 +2055,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                    src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Service Provider 2011</span>
                                 <span class="mex-content ">Hexun</span>
                             </a>
@@ -2064,7 +2064,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_provider_2011.png"
+                                    src="/public_files/images/about_us/awards/best_forex_provider_2011.png"
                                     alt="best_forex_provider_2011">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2011</span>
                                 <span class="mex-content ">Hexun</span>
@@ -2074,7 +2074,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             data-swiper-slide-index="0" style="width: 136.714px; margin-right: 20px;">
                             <a href="about/awards.php">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/Best_Forex_CFD_Broker_JFEX_Award.png">
+                                    src="/public_files/images/about_us/awards/Best_Forex_CFD_Broker_JFEX_Award.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex and CFD Broker 2019</span>
                                 <span class="mex-content ">16th Jordan Forex Expo &amp; Awards</span>
                             </a>
@@ -2083,7 +2083,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             data-swiper-slide-index="1" style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-wins-financial-services-provider-asia-award-2019">
                                 <!--<img class="lazyloadXXX"-->
-                                <!--    src="public_files/images/about_us/awards/Financial_Services_Provider_of_the_Year_Asia_2019.png">-->
+                                <!--    src="/public_files/images/about_us/awards/Financial_Services_Provider_of_the_Year_Asia_2019.png">-->
                                     
                                 <span class="mex-h3 mex-m-b-5 ">Financial Services Provider of the Year (Asia)
                                     2019</span>
@@ -2094,7 +2094,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-chosen-best-FX-CFD-broker-2019">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_fx_broker_euas_2019.png">
+                                    src="/public_files/images/about_us/awards/best_fx_broker_euas_2019.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best FX &amp; CFD Broker (Europe &amp; Asia)
                                     2019</span>
                                 <span class="mex-content ">International Investor</span>
@@ -2104,7 +2104,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-wins-ecn-broker-best-forex-platform-2019">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/ecn_broker_eu_2019.png">
+                                    src="/public_files/images/about_us/awards/ecn_broker_eu_2019.png">
                                 <span class="mex-h3 mex-m-b-5 ">ECN Broker of the Year (Europe) 2019</span>
                                 <span class="mex-content ">International Business Magazine</span>
                             </a>
@@ -2113,7 +2113,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-wins-ecn-broker-best-forex-platform-2019">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_mena_2019.png">
+                                    src="/public_files/images/about_us/awards/best_forex_mena_2019.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Platform MENA 2019</span>
                                 <span class="mex-content ">International Business Magazine</span>
                             </a>
@@ -2122,7 +2122,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-named-best-financial-derivatives-broker-2019">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/2019best_financial_derivatives_broker_europe.png">
+                                    src="/public_files/images/about_us/awards/2019best_financial_derivatives_broker_europe.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Financial Derivatives Broker 2019</span>
                                 <span class="mex-content ">Global Banking &amp; Finance Review</span>
                             </a>
@@ -2131,7 +2131,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                             style="width: 136.714px; margin-right: 20px;">
                             <a href="article/multibank-selected-best-forex-broker-forex-expo-dubai-2019">
                                 <img class="lazyloadXXX"
-                                    src="public_files/images/about_us/awards/best_forex_broker_2019.png">
+                                    src="/public_files/images/about_us/awards/best_forex_broker_2019.png">
                                 <span class="mex-h3 mex-m-b-5 ">Best Forex Broker 2019</span>
                                 <span class="mex-content ">The Forex Expo Dubai</span>
                             </a>
@@ -2149,7 +2149,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
     </div>
 </section>
     <section class="bg-white p0 index-platforms  d-md-flex d-none">
-        <!--<img class="d-none d-md-none lazyloadXXX" src="public_files/images/about_us/global_presence/home_platforms_bg.png"-->
+        <!--<img class="d-none d-md-none lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png"-->
         <!--    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">-->
         <div class="container mex-p-t-80 mex-p-b-80">
             <div class="row">
@@ -2161,7 +2161,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                         <div class="platforms_content mex-box-shadow">
                             <h4 class="uppercase  mb16  mb-xs-8  ">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/home/home_platforms_multibank_pro_icon.png"
+                                    src="/public_files/images/home/home_platforms_multibank_pro_icon.png"
                                     alt="MultiBank Pro Platform">
                                     <span>MultiBank Pro
                                     Platform</span>
@@ -2180,7 +2180,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                         <div class="platforms_content mex-box-shadow">
                             <h4 class="uppercase  mb16  mb-xs-8  ">
                                 <img class=" lazyloadXXX"
-                                    src="public_files/images/home/home_platforms_maximus_icon.png"
+                                    src="/public_files/images/home/home_platforms_maximus_icon.png"
                                     alt="Maximus Platform">
                                     <span>Maximus Platform</span>
                             </h4>
@@ -2197,7 +2197,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <div class="col-lg-6 mex-p-l-0 p0-xs mb-3">
                         <div class="platforms_content mex-box-shadow">
                             <h4 class="uppercase  mb16  mb-xs-8  "><img class=" lazyloadXXX"
-                                    src="public_files/images/home/home_platforms_mt5_platform.png"
+                                    src="/public_files/images/home/home_platforms_mt5_platform.png"
                                     alt="MT5 Platform"><span>MT5 Platform</span>
                             </h4>
                             <p class=" platforms_box_txt mex-clamp-4 mex-content">Suitable for traders looking for
@@ -2218,7 +2218,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
         </div>
     </section>
     <section class="bg-white p0 index-platforms d-none d-md-none">
-        <!--<img class=" lazyloadXXX" src="public_files/images/about_us/global_presence/home_platforms_bg.png"-->
+        <!--<img class=" lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png"-->
         <!--    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">-->
         <div class="container mex-p-t-80 mex-p-b-80">
             <div class="row">
@@ -2229,27 +2229,27 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16"
                         style="line-height: 20px;">
                         <!--<img class="mb-platform-icon mb-2 lazyloadXXX"-->
-                        <!--    src="public_files/images/about_us/global_presence/home_platforms_ecn_icon.png"-->
+                        <!--    src="/public_files/images/about_us/global_presence/home_platforms_ecn_icon.png"-->
                         <!--    alt="ECN Pro Platform">-->
                         ECN Pro<br>Platform
                     </div>
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16"
                         style="line-height: 20px;">
                         <!--<img class=" mb-platform-icon mb-2 lazyloadXXX"-->
-                        <!--    src="public_files/images/about_us/global_presence/home_platforms_multibank_pro_icon.png"-->
+                        <!--    src="/public_files/images/about_us/global_presence/home_platforms_multibank_pro_icon.png"-->
                         <!--    alt="MultiBank Pro Platform">-->
                         MultiBank Pro<br>Platform
                     </div>
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16"
                         style="line-height: 20px;">
                         <!--<img class="mb-platform-icon mb-2 lazyloadXXX" alt="Maximus Platform"-->
-                        <!--    src="public_files/images/about_us/global_presence/home_platforms_maximus_icon.png">-->
+                        <!--    src="/public_files/images/about_us/global_presence/home_platforms_maximus_icon.png">-->
                         Maximus<br>Platform
                     </div>
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16"
                         style="line-height: 20px;">
                         <!--<img class="mb-platform-icon mb-2 lazyloadXXX" alt="Maximus Platform"-->
-                        <!--    src="public_files/images/about_us/global_presence/home_platforms_mt5_platform.png">-->
+                        <!--    src="/public_files/images/about_us/global_presence/home_platforms_mt5_platform.png">-->
                         MT5<br>Platform
                     </div>
                     <div class="col-12 d-flex justify-content-center my-4">
@@ -2269,7 +2269,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/introducing-brokers">
                             <img alt="Introducing Brokers" class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/partnership/home_partnership_introducing_broker@2x.png">
+                                src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                     Introducing Brokers </div>
@@ -2285,7 +2285,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/franchise-program.php">
                             <img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/partnership/home_partnership_franchise_program@2x.png"
+                                src="/public_files/images/partnership/home_partnership_franchise_program@2x.png"
                                 alt="Franchise Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
@@ -2301,7 +2301,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/white-label.php">
-                            <img alt="White Label" class="card-img mex-img-cover lazyloadXXX" src="public_files/images/partnership/home_partnership_white_label@2x.png" >
+                            <img alt="White Label" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png" >
 ">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
@@ -2318,7 +2318,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/prime-of-primes.php">
                             <img alt="Prime of Primes" class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                                src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
                             <div class="card-content text-left">
                                 <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
                                     Prime of Primes </div>
@@ -2333,7 +2333,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/cpa-affiliate-program.php">
                             <img class="card-img mex-img-cover lazyloadXXX"
-                                src="public_files/images/partnership/partnership_cpa_affiliate_program_newx.png"
+                                src="/public_files/images/partnership/partnership_cpa_affiliate_program_newx.png"
                                 alt="CPA Affiliate Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
@@ -2352,7 +2352,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
             <div class="col-12 col-md-12 col-xl-8 mex-m-b-10 custom-card-img">
                 <div class="card">
                     <img alt="Introducing Brokers" class="card-img mex-img-cover lazyloadXXX"
-                        src="public_files/images/partnership/home_partnership_introducing_broker@2x.png">
+                        src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                             Introducing Brokers </div>
@@ -2366,7 +2366,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
             <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
                 <div class="card">
                     <img class="card-img mex-img-cover lazyloadXXX"
-                        src="public_files/images/partnership/home_partnership_franchise_program@2x.png"
+                        src="/public_files/images/partnership/home_partnership_franchise_program@2x.png"
                         alt="Franchise Program">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
@@ -2380,7 +2380,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
             <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
                 <div class="card">
                     <img alt="White Label" class="card-img mex-img-cover lazyloadXXX"
-                        src="public_files/images/partnership/home_partnership_white_label@2x.png">
+                        src="/public_files/images/partnership/home_partnership_white_label@2x.png">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                             White Label </div>
@@ -2392,7 +2392,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
             <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img d-none">
                 <div class="card">
                     <img alt="Prime of Primes" class="card-img mex-img-cover lazyloadXXX"
-                        src="public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                        src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
                             Prime of Primes </div>
@@ -2427,7 +2427,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     the MultiBank Fast &amp;
                                                     Furious Trading Contest</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/2020_winners_announced_thumbnail.png"
+                                                    src="/public_files/blog/thumbnails/2020_winners_announced_thumbnail.png"
                                                     alt="Winners Announced for the MultiBank Fast &amp; Furious Trading Contest">
                                             </div>
                                         </li>
@@ -2440,7 +2440,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Furious Trading Contest
                                                     Starts Jan 6, 2020! </a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg"
+                                                    src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg"
                                                     alt="MultiBank Fast &amp; Furious Trading Contest Starts Jan 6, 2020! ">
                                             </div>
                                         </li>
@@ -2453,7 +2453,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Hosts Investors Night
                                                     2019</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg"
+                                                    src="/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg"
                                                     alt="MultiBank Philippines Hosts Investors Night 2019"></div>
                                         </li>
                                         <li class="row mx-0 mex-new-content swiper-slide swiper-slide-next"
@@ -2465,7 +2465,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Hosted Successful Trading
                                                     Seminar in Kuala Lumpur</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/malaysia_seminar_thumbnail_en.jpg"
+                                                    src="/public_files/blog/thumbnails/malaysia_seminar_thumbnail_en.jpg"
                                                     alt="MultiBank Malaysia Hosted Successful Trading Seminar in Kuala Lumpur">
                                             </div>
                                         </li>
@@ -2477,7 +2477,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Macau Grand Prix 2019</a>
                                             </div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg"
+                                                    src="/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg"
                                                     alt="MultiBank Group Attends Macau Grand Prix 2019"></div>
                                         </li>
                                         <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
@@ -2488,7 +2488,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Championship 2019 Winners
                                                     Announced!</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/1104_demo_competition_thumbnail.jpg"
+                                                    src="/public_files/blog/thumbnails/1104_demo_competition_thumbnail.jpg"
                                                     alt="MultiBank FX Championship 2019 Winners Announced!"></div>
                                         </li>
                                         <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
@@ -2499,7 +2499,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Forex Expo Dubai and Takes
                                                     Home “Best Forex Broker” Award</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/dubai_expo_thumbnail.jpg"
+                                                    src="/public_files/blog/thumbnails/dubai_expo_thumbnail.jpg"
                                                     alt="MultiBank Attends the Forex Expo Dubai and Takes Home “Best Forex Broker” Award">
                                             </div>
                                         </li>
@@ -2511,7 +2511,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     MultiBank MENA Attends Jordan Expo
                                                     2019</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/jordan_expo_2019_thumbnail.jpg"
+                                                    src="/public_files/blog/thumbnails/jordan_expo_2019_thumbnail.jpg"
                                                     alt="Diamond Sponsor MultiBank MENA Attends Jordan Expo 2019"></div>
                                         </li>
                                         <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
@@ -2522,7 +2522,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     “Financial Services Provider
                                                     of the Year (Asia) 2019” Award from Global Brands Magazine</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/Financial_Services_Provider_of_the_Year_2019_thumbnail.jpg"
+                                                    src="/public_files/blog/thumbnails/Financial_Services_Provider_of_the_Year_2019_thumbnail.jpg"
                                                     alt="MultiBank Group Wins “Financial Services Provider of the Year (Asia) 2019” Award from Global Brands Magazine">
                                             </div>
                                         </li>
@@ -2534,7 +2534,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Championship Starting Soon! USD
                                                     12,000 CASH Giveaway to Top 3 Demo Contest Winners</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/championship_small_en.jpg"
+                                                    src="/public_files/blog/thumbnails/championship_small_en.jpg"
                                                     alt="MultiBank FX Championship Starting Soon"></div>
                                         </li>
                                         <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
@@ -2544,7 +2544,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     class="text-222 mex-clamp-4 text-left pl-3">MultiBank LATAM Launches
                                                     in Mexico</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/LATAM_thumbnail_en.jpg"
+                                                    src="/public_files/blog/thumbnails/LATAM_thumbnail_en.jpg"
                                                     alt="MultiBank LATAM Launches in Mexico"></div>
                                         </li>
                                         <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
@@ -2555,7 +2555,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Now Hiring Forex Sales
                                                     Managers. Join Us Today!</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/hiring-now-cyprus-banner_v2_26July_1.jpg"
+                                                    src="/public_files/blog/thumbnails/hiring-now-cyprus-banner_v2_26July_1.jpg"
                                                     alt="MultiBank’s Dubai Office Now Hiring Forex Sales Managers. Join Us Today!">
                                             </div>
                                         </li>
@@ -2567,7 +2567,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Filipowicz Joins MultiBank as
                                                     Head of Institutional Sales</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/news_20190704_t.jpg"
+                                                    src="/public_files/blog/thumbnails/news_20190704_t.jpg"
                                                     alt="FX Veteran Artur Filipowicz Joins MultiBank as Head of Institutional Sales">
                                             </div>
                                         </li>
@@ -2579,7 +2579,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     at Forex Day Madrid
                                                     2019</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/the_forex_day_thumbnail.jpg"
+                                                    src="/public_files/blog/thumbnails/the_forex_day_thumbnail.jpg"
                                                     alt="MultiBank Elite Sponsor at Forex Day Madrid 2019"></div>
                                         </li>
                                         <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
@@ -2591,7 +2591,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     (Europe &amp; Asia) 2019 by International Investor Magazine</a>
                                             </div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/news_best_fx_cfd_broker_europe_asia_2019_thumbnail.jpg"
+                                                    src="/public_files/blog/thumbnails/news_best_fx_cfd_broker_europe_asia_2019_thumbnail.jpg"
                                                     alt="MultiBank Chosen as Best FX &amp; CFD Broker (Europe &amp; Asia) 2019 by International Investor Magazine">
                                             </div>
                                         </li>
@@ -2603,7 +2603,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Appearance at the iFX Cyprus
                                                     Expo</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/ifx-cyprus_thumb_v2.jpg"
+                                                    src="/public_files/blog/thumbnails/ifx-cyprus_thumb_v2.jpg"
                                                     alt="MultiBank Makes an Appearance at the iFX Cyprus Expo"></div>
                                         </li>
                                         <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
@@ -2614,7 +2614,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Its Shares CFD
                                                     Offerings</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/adds_uber_465x265.jpg"
+                                                    src="/public_files/blog/thumbnails/adds_uber_465x265.jpg"
                                                     alt="MultiBank Adds Uber to Its Shares CFD Offerings"></div>
                                         </li>
                                         <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
@@ -2625,7 +2625,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     iFX Expo 2019 in
                                                     Cyprus</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/news_ifxexpo_s_0.jpg"
+                                                    src="/public_files/blog/thumbnails/news_ifxexpo_s_0.jpg"
                                                     alt="Visit Us at Booth 52 at iFX Expo 2019 in Cyprus"></div>
                                         </li>
                                         <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
@@ -2636,7 +2636,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Hiring Senior Account
                                                     Managers. Join us Today!</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/hiring-now-cyprus-thumbnail.jpg"
+                                                    src="/public_files/blog/thumbnails/hiring-now-cyprus-thumbnail.jpg"
                                                     alt="MultiBank Group Is Now Hiring Senior Account Managers. Join us Today!">
                                             </div>
                                         </li>
@@ -2648,7 +2648,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                                     Honors MultiBank Group as “Best
                                                     ECN Broker of the Year (Asia) 2019”</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="public_files/blog/thumbnails/news_best_ecn_broker_of_the_year_asia_2019_thumbnail_0.jpg"
+                                                    src="/public_files/blog/thumbnails/news_best_ecn_broker_of_the_year_asia_2019_thumbnail_0.jpg"
                                                     alt="Finance Derivative Honors MultiBank Group as “Best ECN Broker of the Year (Asia) 2019”">
                                             </div>
                                         </li>
@@ -2676,16 +2676,16 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
 
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
         <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#177464577a627b637e7576797c716f3974787a">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-785e4eb336bec21b04c19cf7-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -3165,12 +3165,43 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
             });
         })
     </script>
-    <script src="public_files/static_js/lang_data/en.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
-    <script src="public_files/static_js/jquery.dataTables.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
-    <script src="public_files/static_js/lazysizes.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
-    <script src="public_files/static_js/jquery.validate.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
-    <script src="public_files/static_js/intlTelInput.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
-    <script src="public_files/static_js/app.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
+    <script src="/public_files/static_js/lang_data/en.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
+    <script type="text/javascript" async>
+        url = new URL(window.location.href);
+        if (!url.searchParams.get('is_iframe')) {
+            window.__lc = window.__lc || {};
+            window.__lc.license = 3413162;
+            window.__lc.chat_between_groups = false;
+            window.__lc.group = 2;
+
+            function initliveChat() {
+      var lc = document.createElement('script');
+      lc.type = 'text/javascript';
+      lc.async = true;
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(lc, s);
+      window.LC_API = window.LC_API || {};
+      if (window.innerWidth < 640) {
+        LC_API.on_before_load = function() {
+          LC_API.hide_chat_window();
+        }
+        LC_API.on_chat_window_minimized = function() {
+          setTimeout(function() {
+            LC_API.hide_chat_window();
+          }, 10000);
+        }
+      }
+    };
+
+    setTimeout(()=>initliveChat(), 10000);
+        }
+    </script>
     <script type="785e4eb336bec21b04c19cf7-text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
@@ -3227,8 +3258,8 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
             }
         });
     </script>
-    <script src="public_files/static_js/swiper-4.3.5.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
-    <script src="public_files/static_js/app_home.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
+    <script src="/public_files/static_js/swiper-4.3.5.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
+    <script src="/public_files/static_js/app_home.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
     <style>
         .home-banner-form .btn-contact {
             line-height: 1.1;

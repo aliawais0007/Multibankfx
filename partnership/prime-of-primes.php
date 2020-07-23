@@ -59,7 +59,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="flex-center page-top-banner">
-        <img class="mex-img-cover" src="public_files/images/partnership/prime_of_primes/Prime_of_Primes_banner1.jpg" alt="Prime Liquidity &amp; Technology">
+        <img class="mex-img-cover" src="/public_files/images/partnership/prime_of_primes/Prime_of_Primes_banner1.jpg" alt="Prime Liquidity &amp; Technology">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-12">
@@ -80,7 +80,7 @@
                 <div class="col-sm-12 col-md-4 col-lg-4 mex-m-b-15">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box">
-                            <img class="card-img mex-img-cover" src="public_files/images/partnership/prime_of_primes/white-label-4box.png" alt="White Label">
+                            <img class="card-img mex-img-cover" src="/public_files/images/partnership/prime_of_primes/white-label-4box.png" alt="White Label">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -95,7 +95,7 @@
                 <div class="col-sm-12 col-md-4 col-lg-4 mex-m-b-15">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box">
-                            <img class="card-img mex-img-cover" src="public_files/images/partnership/prime_of_primes/Service-and-Support-4box.png" alt="Service &amp; Support">
+                            <img class="card-img mex-img-cover" src="/public_files/images/partnership/prime_of_primes/Service-and-Support-4box.png" alt="Service &amp; Support">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -110,7 +110,7 @@
                 <div class="col-sm-12 col-md-4 col-lg-4 mex-m-b-15">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box">
-                            <img class="card-img mex-img-cover" src="public_files/images/partnership/prime_of_primes/Bridge-4box.png" alt="Bridge">
+                            <img class="card-img mex-img-cover" src="/public_files/images/partnership/prime_of_primes/Bridge-4box.png" alt="Bridge">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -440,16 +440,16 @@
     <?php include_from_root('website_template/page_footer.php');?>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
         <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#ccafbf8ca1b9a0b8a5aeada2a7aab4e2afa3a1">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-e55e4685f19caaab0342d74f-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -907,13 +907,13 @@
             });
         })
     </script>
-    <script src="public_files/static_js/lang_data/en.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
-    <script src="public_files/static_js/jquery.dataTables.min.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
-    <script src="public_files/static_js/lazysizes.min.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
-    <script src="public_files/static_js/jquery.validate.min.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
-    <script src="public_files/static_js/intlTelInput.min.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
-    <script src="public_files/static_js/app.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
-    <script type="e55e4685f19caaab0342d74f-text/javascript" async>
+    <script src="/public_files/static_js/lang_data/en.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="e55e4685f19caaab0342d74f-text/javascript"></script>
+    <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
             window.__lc = window.__lc || {};
@@ -921,26 +921,27 @@
             window.__lc.chat_between_groups = false;
             window.__lc.group = 2;
 
+            function initliveChat() {
+      var lc = document.createElement('script');
+      lc.type = 'text/javascript';
+      lc.async = true;
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(lc, s);
+      window.LC_API = window.LC_API || {};
+      if (window.innerWidth < 640) {
+        LC_API.on_before_load = function() {
+          LC_API.hide_chat_window();
+        }
+        LC_API.on_chat_window_minimized = function() {
+          setTimeout(function() {
+            LC_API.hide_chat_window();
+          }, 10000);
+        }
+      }
+    };
 
-            (function() {
-                var lc = document.createElement('script');
-                lc.type = 'text/javascript';
-                lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(lc, s);
-                window.LC_API = window.LC_API || {};
-                if (window.innerWidth < 640) {
-                    LC_API.on_before_load = function() {
-                        LC_API.hide_chat_window();
-                    }
-                    LC_API.on_chat_window_minimized = function() {
-                        setTimeout(function() {
-                            LC_API.hide_chat_window();
-                        }, 200);
-                    }
-                }
-            })();
+    setTimeout(()=>initliveChat(), 10000);
         }
     </script>
     <script type="e55e4685f19caaab0342d74f-text/javascript">

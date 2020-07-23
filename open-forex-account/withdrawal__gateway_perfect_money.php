@@ -146,15 +146,15 @@
                         </div>
                     </div>
                     <div class="col-lg-12  deposit_container-bank-icon">
-                        <img class="form-icon" data-method="neteller" src="public_files/images/accounts_funding/payment_icons/neteller.jpg" alt="Neteller Pay">
-                        <img class="form-icon" data-method="skrill" src="public_files/images/accounts_funding/payment_icons/skrill.jpg" alt="Skrill">
-                        <img class="form-icon" data-method="fasapay" src="public_files/images/accounts_funding/payment_icons/fasapay.jpg" alt="FasaPay">
-                        <img class="form-icon" data-method="bank_transfer" src="public_files/images/accounts_funding/payment_icons/bank_wire.jpg" alt="Bank Transfer">
-                        <img class="form-icon" data-method="credit_card" src="public_files/images/accounts_funding/payment_icons/card.jpg" alt="Credit Card">
-                        <img class="form-icon" data-method="paytrust" src="public_files/images/accounts_funding/payment_icons/paytrust.jpg" alt="Paytrust">
-                        <img class="form-icon" data-method="ngan_luong" src="public_files/images/accounts_funding/payment_icons/nganluong.jpg" alt="Ngan Luong">
-                        <img class="form-icon" data-method="globepay" src="public_files/images/payment_gateway/globepay_logo" alt="GlobePay">
-                        <img class="form-icon" data-method="thunderxpay" src="public_files/images/payment_gateway/thunderx_logo.png" alt="Thunder X Pay">
+                        <img class="form-icon" data-method="neteller" src="/public_files/images/accounts_funding/payment_icons/neteller.jpg" alt="Neteller Pay">
+                        <img class="form-icon" data-method="skrill" src="/public_files/images/accounts_funding/payment_icons/skrill.jpg" alt="Skrill">
+                        <img class="form-icon" data-method="fasapay" src="/public_files/images/accounts_funding/payment_icons/fasapay.jpg" alt="FasaPay">
+                        <img class="form-icon" data-method="bank_transfer" src="/public_files/images/accounts_funding/payment_icons/bank_wire.jpg" alt="Bank Transfer">
+                        <img class="form-icon" data-method="credit_card" src="/public_files/images/accounts_funding/payment_icons/card.jpg" alt="Credit Card">
+                        <img class="form-icon" data-method="paytrust" src="/public_files/images/accounts_funding/payment_icons/paytrust.jpg" alt="Paytrust">
+                        <img class="form-icon" data-method="ngan_luong" src="/public_files/images/accounts_funding/payment_icons/nganluong.jpg" alt="Ngan Luong">
+                        <img class="form-icon" data-method="globepay" src="/public_files/images/payment_gateway/globepay_logo" alt="GlobePay">
+                        <img class="form-icon" data-method="thunderxpay" src="/public_files/images/payment_gateway/thunderx_logo.png" alt="Thunder X Pay">
 
                     </div>
                 </form>
@@ -907,16 +907,16 @@
     <?php include_from_root('website_template/page_footer.php'); ?>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
         <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#cdaebe8da0b8a1b9a4afaca3a6abb5e3aea2a0">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-acf47c9d128c0d62d1535fa6-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -1374,13 +1374,13 @@
             });
         })
     </script>
-    <script src="public_files/static_js/lang_data/en.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
-    <script src="public_files/static_js/jquery.dataTables.min.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
-    <script src="public_files/static_js/lazysizes.min.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
-    <script src="public_files/static_js/jquery.validate.min.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
-    <script src="public_files/static_js/intlTelInput.min.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
-    <script src="public_files/static_js/app.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
-    <script type="acf47c9d128c0d62d1535fa6-text/javascript" async>
+    <script src="/public_files/static_js/lang_data/en.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="acf47c9d128c0d62d1535fa6-text/javascript"></script>
+    <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
             window.__lc = window.__lc || {};
@@ -1388,26 +1388,27 @@
             window.__lc.chat_between_groups = false;
             window.__lc.group = 2;
 
+            function initliveChat() {
+      var lc = document.createElement('script');
+      lc.type = 'text/javascript';
+      lc.async = true;
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(lc, s);
+      window.LC_API = window.LC_API || {};
+      if (window.innerWidth < 640) {
+        LC_API.on_before_load = function() {
+          LC_API.hide_chat_window();
+        }
+        LC_API.on_chat_window_minimized = function() {
+          setTimeout(function() {
+            LC_API.hide_chat_window();
+          }, 10000);
+        }
+      }
+    };
 
-            (function() {
-                var lc = document.createElement('script');
-                lc.type = 'text/javascript';
-                lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(lc, s);
-                window.LC_API = window.LC_API || {};
-                if (window.innerWidth < 640) {
-                    LC_API.on_before_load = function() {
-                        LC_API.hide_chat_window();
-                    }
-                    LC_API.on_chat_window_minimized = function() {
-                        setTimeout(function() {
-                            LC_API.hide_chat_window();
-                        }, 200);
-                    }
-                }
-            })();
+    setTimeout(()=>initliveChat(), 10000);
         }
     </script>
     <script type="acf47c9d128c0d62d1535fa6-text/javascript">

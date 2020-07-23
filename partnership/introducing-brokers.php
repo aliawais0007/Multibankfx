@@ -62,7 +62,7 @@
 
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display: none; visibility: hidden;"></iframe></noscript>
   <section class="flex-center page-top-banner">
-    <img src="public_files/images/partnership/introducing_brokers/img_topbanner_Introducing_Brokers.jpg" alt="Introducing Brokers" class="mex-img-cover" />
+    <img src="/public_files/images/partnership/introducing_brokers/img_topbanner_Introducing_Brokers.jpg" alt="Introducing Brokers" class="mex-img-cover" />
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12">
@@ -100,7 +100,7 @@
   <section class="bg-white p0 mex-side-full same-height-block">
     <div class="col-xs-12 col-lg-6 p0">
       <div class="flex-center vertical-center">
-        <img class="mex-img-cover" src="public_files/images/partnership/introducing_brokers/img_right_ib_page.png" alt="MultiBank’s IB Program and services include" />
+        <img class="mex-img-cover" src="/public_files/images/partnership/introducing_brokers/img_right_ib_page.png" alt="MultiBank’s IB Program and services include" />
         <div class="both-content p32 pt24 pb24">
           <div class="mex-h2 mex-m-b-15 text-left text-1e32a3 col-xs-12 col-lg-8 left">
             MultiBank’s IB Program<br />and services include:
@@ -127,7 +127,7 @@
     </div>
     <div class="col-xs-12 col-lg-6 p0">
       <div class="flex-center full-height vertical-center">
-        <img class="mex-img-cover" src="public_files/images/partnership/introducing_brokers/img_left_ib_page.jpg" alt="MultiBank’s IBs Now Enjoy the best Bonuses in the Industry" />
+        <img class="mex-img-cover" src="/public_files/images/partnership/introducing_brokers/img_left_ib_page.jpg" alt="MultiBank’s IBs Now Enjoy the best Bonuses in the Industry" />
         <div class="both-content col-xs-12 col-lg-10 col-lg-offset-1 text-center p32 pt24 pb24">
           <div class="mex-h2 mex-m-b-15 text-1e32a3">
             MultiBank’s IBs Now Enjoy the best Bonuses in the Industry
@@ -470,7 +470,7 @@
         <div class="col-xs-12 col-sm-12 col-lg-6 mb30 mb-sm-16">
           <section class="mex-block-card-v mex-block-card-bg-grey">
             <div class="card-img-box">
-              <img class="card-img mex-img-cover" src="public_files/images/partnership/introducing_brokers/img_partner_point_2.jpg" alt="Full set of marketing materials including brochures, calendars, educational materials and account opening documents" />
+              <img class="card-img mex-img-cover" src="/public_files/images/partnership/introducing_brokers/img_partner_point_2.jpg" alt="Full set of marketing materials including brochures, calendars, educational materials and account opening documents" />
             </div>
             <div class="card-content bg-black text-left">
               <span class="text-fff mex-content text-overflow-2">
@@ -483,7 +483,7 @@
         <div class="col-xs-12 col-sm-12 col-lg-6 mb30 mb-sm-16">
           <section class="mex-block-card-v mex-block-card-bg-grey">
             <div class="card-img-box">
-              <img class="card-img mex-img-cover" src="public_files/images/partnership/introducing_brokers/img_partner_point2_2.jpg" alt="Each Introducing Broker will be assigned an experienced IB manager to provide a personal approach to the partnership experience" />
+              <img class="card-img mex-img-cover" src="/public_files/images/partnership/introducing_brokers/img_partner_point2_2.jpg" alt="Each Introducing Broker will be assigned an experienced IB manager to provide a personal approach to the partnership experience" />
             </div>
             <div class="card-content bg-black text-left">
               <span class="text-fff mex-content text-overflow-2">
@@ -497,7 +497,7 @@
         <div class="col-xs-12 col-sm-6 col-lg-4 mb-md-30 mb-sm-16">
           <section class="mex-block-card-v mex-block-card-bg-grey">
             <div class="card-img-box">
-              <img class="card-img mex-img-cover" src="public_files/images/partnership/introducing_brokers/img_partner_point3_2.jpg" alt="Customized demo and live account opening applications" />
+              <img class="card-img mex-img-cover" src="/public_files/images/partnership/introducing_brokers/img_partner_point3_2.jpg" alt="Customized demo and live account opening applications" />
             </div>
             <div class="card-content bg-black text-left">
               <span class="text-fff mex-content text-overflow-3">
@@ -509,7 +509,7 @@
         <div class="col-xs-12 col-sm-6 col-lg-4 mb-sm-16">
           <section class="mex-block-card-v mex-block-card-bg-grey">
             <div class="card-img-box">
-              <img class="card-img mex-img-cover" src="public_files/images/partnership/introducing_brokers/img_partner_point4_2.jpg" alt="Year-round promotions, activities and bonuses including lucrative cash and physical prizes" />
+              <img class="card-img mex-img-cover" src="/public_files/images/partnership/introducing_brokers/img_partner_point4_2.jpg" alt="Year-round promotions, activities and bonuses including lucrative cash and physical prizes" />
             </div>
             <div class="card-content bg-black text-left">
               <span class="text-fff mex-content text-overflow-3">
@@ -522,7 +522,7 @@
         <div class="col-xs-12 col-sm-6 col-lg-4 mb-sm-16">
           <section class="mex-block-card-v mex-block-card-bg-grey">
             <div class="card-img-box">
-              <img class="card-img mex-img-cover" src="public_files/images/partnership/introducing_brokers/img_partner_point5_2.jpg" alt="Unbeatable IB conditions offering the maximum commission and rebate returns on transactions" />
+              <img class="card-img mex-img-cover" src="/public_files/images/partnership/introducing_brokers/img_partner_point5_2.jpg" alt="Unbeatable IB conditions offering the maximum commission and rebate returns on transactions" />
             </div>
             <div class="card-content bg-black text-left">
               <span class="text-fff mex-content text-overflow-3">
@@ -541,22 +541,22 @@
   <?php include_from_root('website_template/page_footer.php');?>
   <div class="slidebar">
     <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-      <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/phone.png" width="50" />
+      <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" />
       </span>
     </a>
     <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
       <span class="btn">
-        <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/whatsapp.png" width="50" />
+        <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" />
       </span>
     </a>
     <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#b4d7c7f4d9c1d8c0ddd6d5dadfd2cc9ad7dbd9">
       <span class="btn">
-        <img alt="email" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/email.png" width="50" />
+        <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" />
       </span>
     </a>
     <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-871724c3f7459f328bcb5c51-="">
       <span class="btn">
-        <img alt="Chat" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/chat.png" width="50" />
+        <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" />
       </span>
     </a>
   </div>
@@ -1014,42 +1014,43 @@ Hello, I am interested in learning more about MultiBank products and services. C
       });
     })
   </script>
-  <script src="public_files/static_js/lang_data/en.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
-  <script src="public_files/static_js/jquery.dataTables.min.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
-  <script src="public_files/static_js/lazysizes.min.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
-  <script src="public_files/static_js/jquery.validate.min.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
-  <script src="public_files/static_js/intlTelInput.min.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
-  <script src="public_files/static_js/app.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
-  <script type="871724c3f7459f328bcb5c51-text/javascript" async>
-    url = new URL(window.location.href);
-    if (!url.searchParams.get('is_iframe')) {
-      window.__lc = window.__lc || {};
-      window.__lc.license = 3413162;
-      window.__lc.chat_between_groups = false;
-      window.__lc.group = 2;
+  <script src="/public_files/static_js/lang_data/en.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
+  <script src="/public_files/static_js/jquery.dataTables.min.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
+  <script src="/public_files/static_js/lazysizes.min.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
+  <script src="/public_files/static_js/jquery.validate.min.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
+  <script src="/public_files/static_js/intlTelInput.min.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
+  <script src="/public_files/static_js/app.js" type="871724c3f7459f328bcb5c51-text/javascript"></script>
+  <script type="text/javascript" async>
+        url = new URL(window.location.href);
+        if (!url.searchParams.get('is_iframe')) {
+            window.__lc = window.__lc || {};
+            window.__lc.license = 3413162;
+            window.__lc.chat_between_groups = false;
+            window.__lc.group = 2;
 
-
-      (function() {
-        var lc = document.createElement('script');
-        lc.type = 'text/javascript';
-        lc.async = true;
-        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(lc, s);
-        window.LC_API = window.LC_API || {};
-        if (window.innerWidth < 640) {
-          LC_API.on_before_load = function() {
-            LC_API.hide_chat_window();
-          }
-          LC_API.on_chat_window_minimized = function() {
-            setTimeout(function() {
-              LC_API.hide_chat_window();
-            }, 200);
-          }
+            function initliveChat() {
+      var lc = document.createElement('script');
+      lc.type = 'text/javascript';
+      lc.async = true;
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(lc, s);
+      window.LC_API = window.LC_API || {};
+      if (window.innerWidth < 640) {
+        LC_API.on_before_load = function() {
+          LC_API.hide_chat_window();
         }
-      })();
-    }
-  </script>
+        LC_API.on_chat_window_minimized = function() {
+          setTimeout(function() {
+            LC_API.hide_chat_window();
+          }, 10000);
+        }
+      }
+    };
+
+    setTimeout(()=>initliveChat(), 10000);
+        }
+    </script>
   <script type="871724c3f7459f328bcb5c51-text/javascript">
     $(function() {
       $('.mex-translatable').each(function() {

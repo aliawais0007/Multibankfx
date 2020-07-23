@@ -62,7 +62,7 @@
     <?php include_from_root('website_template/downlaod_platform.php');?>
     
     <section class="mex-block-h600 flex-center">
-        <img alt="MultiBank Web Trader" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="public_files/images/platforms/download_center/download_center_web_trader_banner.jpg" />
+        <img alt="MultiBank Web Trader" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/platforms/download_center/download_center_web_trader_banner.jpg" />
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-md-8 col-xl-6 col-10 mex-content">
@@ -83,7 +83,7 @@
                         <li><?php translate('Easy to use account management, deposits and withdrawals'); ?></li>
                     </ul>
                     <div class="mex-h3 mex-m-b-30 mex-m-t-30"><?php translate('Launch MultiBank Web Trader:'); ?></div>
-                    <div class="browser-list"><a href="mql5.php"><img alt="Google" class="mex-m-b-10" data-entity-type="" data-entity-uuid="" src="public_files/images/common/chrome.png" /> </a> <a href="mql5.php"> <img alt="O" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="public_files/images/common/oprea.png" /> </a> <a href="mql5.php"> <img alt="Firefox" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="public_files/images/common/firefox.png" /> </a> <a href="mql5.php"> <img alt="Safari" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="public_files/images/common/safari.png" /> </a></div>
+                    <div class="browser-list"><a href="mql5.php"><img alt="Google" class="mex-m-b-10" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/chrome.png" /> </a> <a href="mql5.php"> <img alt="O" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/oprea.png" /> </a> <a href="mql5.php"> <img alt="Firefox" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/firefox.png" /> </a> <a href="mql5.php"> <img alt="Safari" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/safari.png" /> </a></div>
                 </div>
             </div>
         </div>
@@ -91,16 +91,16 @@
     <?php include_from_root('website_template/page_footer.php');?>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
         <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#016272416c746d756863606f6a67792f626e6c">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-9ca329a262d339b1caf83797-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -580,13 +580,13 @@
             });
         })
     </script>
-    <script src="public_files/static_js/lang_data/en.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
-    <script src="public_files/static_js/jquery.dataTables.min.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
-    <script src="public_files/static_js/lazysizes.min.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
-    <script src="public_files/static_js/jquery.validate.min.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
-    <script src="public_files/static_js/intlTelInput.min.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
-    <script src="public_files/static_js/app.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
-    <script type="9ca329a262d339b1caf83797-text/javascript" async>
+    <script src="/public_files/static_js/lang_data/en.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="9ca329a262d339b1caf83797-text/javascript"></script>
+    <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
             window.__lc = window.__lc || {};
@@ -594,26 +594,27 @@
             window.__lc.chat_between_groups = false;
             window.__lc.group = 2;
 
+            function initliveChat() {
+      var lc = document.createElement('script');
+      lc.type = 'text/javascript';
+      lc.async = true;
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(lc, s);
+      window.LC_API = window.LC_API || {};
+      if (window.innerWidth < 640) {
+        LC_API.on_before_load = function() {
+          LC_API.hide_chat_window();
+        }
+        LC_API.on_chat_window_minimized = function() {
+          setTimeout(function() {
+            LC_API.hide_chat_window();
+          }, 10000);
+        }
+      }
+    };
 
-            (function() {
-                var lc = document.createElement('script');
-                lc.type = 'text/javascript';
-                lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(lc, s);
-                window.LC_API = window.LC_API || {};
-                if (window.innerWidth < 640) {
-                    LC_API.on_before_load = function() {
-                        LC_API.hide_chat_window();
-                    }
-                    LC_API.on_chat_window_minimized = function() {
-                        setTimeout(function() {
-                            LC_API.hide_chat_window();
-                        }, 200);
-                    }
-                }
-            })();
+    setTimeout(()=>initliveChat(), 10000);
         }
     </script>
     <script type="9ca329a262d339b1caf83797-text/javascript">
