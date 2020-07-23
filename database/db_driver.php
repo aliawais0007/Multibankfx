@@ -80,4 +80,5 @@ function get_news(){
     foreach ($result as $entry) {
         echo $entry['title'];
     }
+    exit();
 }
