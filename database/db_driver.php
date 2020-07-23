@@ -73,10 +73,9 @@ function translate($text,$page_name=''){
         echo $text;
     }
 }
-
+$exist=[];
 function get_news(){
     global $dbConnection;
     $exist = db_select($dbConnection,"select * from company_news");
-    $row = $exist->fetch();
-    echo json_encode($row);
+    echo json_encode($exist);
 }
