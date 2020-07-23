@@ -1,6 +1,6 @@
 <?php
 
-$dbConnection = new PDO('sqlite:C:\xampp\htdocs\multibankfx\database\multibankfx.sqlite',"","",array(
+$dbConnection = new PDO('sqlite:C:\xampp\htdocs\multibankfx\database\multibankfx.sqlite3',"","",array(
     PDO::ATTR_PERSISTENT => TRUE,
     PDO::ERRMODE_EXCEPTION => TRUE));
 
@@ -75,10 +75,10 @@ function translate($text,$page_name=''){
 }
 function get_news(){
     global $dbConnection;
-    $exist = db_select($dbConnection,"select * from milestones");
-    $result = $exist->fetchAll();
+    // $exist = db_select($dbConnection,"select * from company_news");
+    $query = $dbConnection->query("select * from company_news");
+    $result = $query->fetchAll();
     foreach ($result as $entry) {
         echo $entry['title'];
     }
-    exit();
 }
