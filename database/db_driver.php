@@ -1,6 +1,6 @@
 <?php
 
-$dbConnection = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite3',"","",array(
+$dbConnection = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite',"","",array(
     PDO::ATTR_PERSISTENT => TRUE,
     PDO::ERRMODE_EXCEPTION => TRUE));
 
@@ -74,12 +74,15 @@ function translate($text,$page_name=''){
     }
 }
 
-function get_news(){
+function get_news($dbConnection){
     global $dbConnection;
-    $db = new SQLite3('/var/www/multibankfx/database/multibankfx.sqlite3');
-    $tablesquery = $db->query("SELECT * from company_news;");
+    $query_text='select * from company_news';
 
-    while ($table = $tablesquery->fetchArray(SQLITE3_ASSOC)) {
-        echo $table['title'] . '<br />';
-    }
+//    $valuesArray = array_values($valuesArray);
+
+    $STH = $dbConnection->prepare($query_text);
+    $result =$STH->execute();
+
+//    print_r($STH->errorInfo());
+    return $result;
 }
