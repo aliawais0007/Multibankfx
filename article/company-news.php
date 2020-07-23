@@ -1,5 +1,5 @@
 <?php
-include_once('database/dbconnect.php');
+include_once('/database/dbconnect.php');
 // $sql = mysqli_query($db, "SELECT * FROM table_company_news");
 // $result = $db->query($sql)
 $page = 0;
@@ -12,8 +12,6 @@ $base_dir = realpath(dirname(__FILE__)  . $ds . '..') . $ds;
 function getNewsCount()
 {
     global $bDebug;
-
-
     $sQuery = "SELECT * FROM table_company_news";
     $objConnection = new Connection();
     $objConnection->setQuery($sQuery);
@@ -25,9 +23,7 @@ function getNewsCount()
 $getNews = '';
 // $_PHP_SELF ="";
 
-
 $allnews = getNewsCount();
-
 
 $item = "";
 $itemb = "";
@@ -41,49 +37,16 @@ $total_records  = count($allnews);
 
 // pagination
 $limit = 7;
-// $page=0;
-// if (isset($_GET["page"])) {
-//     $page  = $_GET["page"]; 
-//    // echo $page;
-//     } 
-//     else{ 
-//     $page=1;
-
-//     }; 
 $page = 2;
 $start_from = ($page - 1) * $limit;
-
-
-
 $total_pages = ceil($total_records / $limit);
-$pagNews = getNews($start_from, $limit);
+$pagNews = get_news($start_from, $limit);
 //pagination ends
 $itemc = "";
-function getNews($start, $limit)
-{
-    global $bDebug;
-
-
-    $sQuery = "SELECT * FROM table_company_news ORDER BY id  ASC LIMIT $start, $limit";
-    $objConnection = new Connection();
-    $objConnection->setQuery($sQuery);
-    $aList = $objConnection->executeListQuery();
-    // if($bDebug) $this->printR($aList);
-
-    return $aList;
-}
 foreach ($pagNews as $list) {
-
-    //  $url=   urlencode('newsdetail.php?title='+$list->article_title+'&articlebody='+$list->body+'&article_date='+$list->article_date+'&feature_image='+$list->featured_image);
-
-
     if ($list->classtype == "a") {
-
         $item .= " 
-                 
-
-            
-                    <div class='col-xs-12 col-sm-12 col-md-5' style= '    height: fit-content;
+            <div class='col-xs-12 col-sm-12 col-md-5' style= '    height: fit-content;
                     '>
                     <a class='article-block' href='/article/multibank-fast-n-furious-trading-contest-announcement'>
                         <div class='news-con-det-l'>

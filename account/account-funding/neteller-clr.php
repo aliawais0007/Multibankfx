@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="/public_files/static_css/bootstrap.min.css">
     <link rel="stylesheet" href="/public_files/static_css/payment_gateway/form_validate.css">
     <script type="b6f2cf2ad08a0741873e80e3-text/javascript"
-            src='../../public_files/static_js/jquery-3.3.1.min.js'></script>
+            src='/public_files/static_js/jquery-3.3.1.min.js'></script>
 </head>
 <body>
 <section class="full-size-box">
@@ -164,7 +164,7 @@
 <script type="b6f2cf2ad08a0741873e80e3-text/javascript"
         src="/public_files/static_js/jquery.validate.min.js"></script>
 <script type="b6f2cf2ad08a0741873e80e3-text/javascript"
-        src='../../public_files/static_js/payment_gateway/form_validate.js'></script>
+        src='/public_files/static_js/payment_gateway/form_validate.js'></script>
 <script type="b6f2cf2ad08a0741873e80e3-text/javascript">
     $(function() {
         $('#neteller_clr_payment_form').validateForm();

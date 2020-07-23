@@ -1,7 +1,7 @@
 <?php
 class Connection {
 	private $_server = "localhost";
-	private $_db = "multibankforms";
+	private $_db = "multibankfx";
 	private $_dbUser = "root";
 	private $_dbpass = "";//*/
 
