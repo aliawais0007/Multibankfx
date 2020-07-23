@@ -127,8 +127,7 @@
             window.__lc.license = 3413162;
             window.__lc.chat_between_groups = false;
             window.__lc.group = 2;
-
-
+            
             (function() {
                 var lc = document.createElement('script');
                 lc.type = 'text/javascript';
