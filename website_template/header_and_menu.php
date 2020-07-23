@@ -45,7 +45,7 @@
                 </div>
                 <div class="line-height-75 hide-1200 d-flex">
                     <div class="header-bottom-nav">
-                        <div class="nav-item"><a class="header-menu-trigger" data-type="about"><?php translate('ABOUT US'); ?></a></div>
+                        <div class="nav-item"><a class="header-menu-trigger" data-type="/about"><?php translate('ABOUT US'); ?></a></div>
                         <div class="nav-item"><a class="header-menu-trigger" data-type="products"><?php translate('PRODUCTS'); ?></a></div>
                         <div class="nav-item"><a class="header-menu-trigger" data-type="platforms"><?php translate('PLATFORMS'); ?></a></div>
                         <div class="nav-item"><a class="header-menu-trigger" data-type="accounts"><?php translate('ACCOUNT & FUNDING'); ?></a></div>
@@ -86,7 +86,7 @@
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="menu_txt_content">
                                 <div class="mex-h2 uppercase mb0 "><a
-                                        class="font-40  text-left mex-p-l-none mex-p-r-none" href="about.php"><?php translate('About
+                                        class="font-40  text-left mex-p-l-none mex-p-r-none" href="/about.php"><?php translate('About
                                         us'); ?></a>
                                 </div>
                                 <p class="line-height-30"><?php translate('MultiBank was established in California, USA in 2005. '); ?> <?php translate('Since
@@ -95,17 +95,17 @@
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12 nav-col-hr">
                             <div class="nav-menu-heading">
-                                <h4 class="uppercase mb0"><a class="font-24" href="about.php"><?php translate('About us'); ?></a></h4>
+                                <h4 class="uppercase mb0"><a class="font-24" href="/about.php"><?php translate('About us'); ?></a></h4>
                             </div>
                             <ul class="nav-menu-list">
-                                <li><a href="about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
-                                <li><a href="about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
-                                <li><a href="mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
-                                <li><a href="about/security-of-funds.php"><?php translate('Security of Funds'); ?></a></li>
-                                <li><a href="about/milestones.php"><?php translate('Milestones'); ?></a></li>
-                                <li><a href="about/management.php"><?php translate('Management'); ?></a></li>
-                                <li><a href="about/awards.php"><?php translate('Awards') ?></a></li>
-                                <li><a href="about/sponsorship.php"><?php translate('Sponsorship') ?></a></li>
+                                <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
+                                <li><a href="/about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
+                                <li><a href="/mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
+                                <li><a href="/about/security-of-funds.php"><?php translate('Security of Funds'); ?></a></li>
+                                <li><a href="/about/milestones.php"><?php translate('Milestones'); ?></a></li>
+                                <li><a href="/about/management.php"><?php translate('Management'); ?></a></li>
+                                <li><a href="/about/awards.php"><?php translate('Awards') ?></a></li>
+                                <li><a href="/about/sponsorship.php"><?php translate('Sponsorship') ?></a></li>
                                 <li><a href="article/company_news.php"><?php translate('Company News'); ?></a></li>
                                 <li><a href="article/hiring-now-cyprus.php"><?php translate('Career'); ?></a></li>
                             </ul>
@@ -313,18 +313,18 @@
                 </li>
             </ul>
             <ul class="nav-menu-mobile text-uppercase">
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="about.php"><?php translate('About us'); ?></a>
+                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/about.php"><?php translate('About us'); ?></a>
                     <ul class="text-center">
-                        <li><a href="about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
-                        <li><a href="about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
-                        <li><a href="mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
-                        <li><a href="about/security-of-funds.php"><?php translate('Security of Funds'); ?></a></li>
-                        <li><a href="about/milestones.php"><?php translate('Milestones'); ?></a></li>
-                        <li><a href="about/management.php"><?php translate('Management'); ?></a></li>
-                        <li><a href="about/awards.php"><?php translate('Awards'); ?></a></li>
-                        <li><a href="about/sponsorship.php"><?php translate('Sponsorship'); ?></a></li>
-                        <li><a href="article/company_news.php"><?php translate('Company News'); ?></a></li>
-                        <li><a href="article/hiring-now-cyprus.php"><?php translate('Career'); ?></a></li>
+                        <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
+                        <li><a href="/about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
+                        <li><a href="//mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
+                        <li><a href="/about/security-of-funds.php"><?php translate('Security of Funds'); ?></a></li>
+                        <li><a href="/about/milestones.php"><?php translate('Milestones'); ?></a></li>
+                        <li><a href="/about/management.php"><?php translate('Management'); ?></a></li>
+                        <li><a href="/about/awards.php"><?php translate('Awards'); ?></a></li>
+                        <li><a href="/about/sponsorship.php"><?php translate('Sponsorship'); ?></a></li>
+                        <li><a href="/article/company-news.php"><?php translate('Company News'); ?></a></li>
+                        <li><a href="/article/hiring-now-cyprus.php"><?php translate('Career'); ?></a></li>
                     </ul>
                 </li>
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="products.php"><?php translate('Products'); ?></a>
