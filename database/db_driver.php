@@ -73,8 +73,7 @@ function translate($text,$page_name=''){
         echo $text;
     }
 }
-function get_news(){
-    global $dbConnection;
+function get_news($dbConnection){
     // $exist = db_select($dbConnection,"select * from company_news");
     $query = $dbConnection->query("select * from company_news");
     $result = $query->fetchAll();
