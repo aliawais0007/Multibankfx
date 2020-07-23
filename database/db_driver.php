@@ -76,5 +76,6 @@ function translate($text,$page_name=''){
 function get_news(){
     global $dbConnection;
     $exist = db_select($dbConnection,"select * from milestones");
-    echo json_encode("hello".$exist);
+    $row = $exist->fetch();
+    echo $row;
 }
