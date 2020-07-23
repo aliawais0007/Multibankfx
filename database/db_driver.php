@@ -5,10 +5,9 @@ $dbConnection = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite
     PDO::ERRMODE_EXCEPTION => TRUE));
 
 function db_select($dbConnection, $query){
-
-
     return $dbConnection->query($query);
 }
+
 function db_insert($dbConnection, $table,$valuesArray){
 
     $columns=array_keys($valuesArray);
