@@ -75,14 +75,23 @@ function translate($text,$page_name=''){
 }
 
 function get_news($dbConnection){
-    global $dbConnection;
-    $query_text='select * from company_news';
+    try{
+    $db = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite3',"","",array(
+        PDO::ATTR_PERSISTENT => TRUE,
+        PDO::ERRMODE_EXCEPTION => TRUE));
+    $stmt = $db -> prepare("SELECT * from company_news");
+    $stmt -> execute();
+    $res = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    foreach($res as $row){
+        extract($row);
+        echo $title." | ".$status."<br>";
+    }
+            
+    /* close connection */
+    $db = null;
+        }
+        catch (PDOExecption $e){
+            echo $e->getMessage();
+        }    
 
-//    $valuesArray = array_values($valuesArray);
-
-    $STH = $dbConnection->prepare($query_text);
-    $result =$STH->execute();
-
-//    print_r($STH->errorInfo());
-    return $result;
 }
