@@ -78,7 +78,10 @@ function get_news(){
     // $exist = db_select($dbConnection,"select * from company_news");
     $query = $dbConnection->query("select * from company_news");
     $result = $query->fetchAll();
-    foreach ($result as $entry) {
-        echo $entry['title'];
+    if(count($result) > 0 ){
+        foreach ($result as $entry) {
+            echo $entry['title'];
+        }
     }
+    else {echo "No data found";}
 }
