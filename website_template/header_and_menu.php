@@ -45,7 +45,7 @@
                 </div>
                 <div class="line-height-75 hide-1200 d-flex">
                     <div class="header-bottom-nav">
-                        <div class="nav-item"><a class="header-menu-trigger" data-type="/about"><?php translate('ABOUT US'); ?></a></div>
+                        <div class="nav-item"><a class="header-menu-trigger" data-type="about"><?php translate('ABOUT US'); ?></a></div>
                         <div class="nav-item"><a class="header-menu-trigger" data-type="products"><?php translate('PRODUCTS'); ?></a></div>
                         <div class="nav-item"><a class="header-menu-trigger" data-type="platforms"><?php translate('PLATFORMS'); ?></a></div>
                         <div class="nav-item"><a class="header-menu-trigger" data-type="accounts"><?php translate('ACCOUNT & FUNDING'); ?></a></div>
