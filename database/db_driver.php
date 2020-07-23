@@ -77,6 +77,7 @@ function get_news(){
     global $dbConnection;
     $exist = db_select($dbConnection,"select * from milestones");
     while($row = $exist->fetchArray(SQLITE3_ASSOC) ) {
-        print_r($row);
+        echo $row;
     }
+    echo "hello";
 }
