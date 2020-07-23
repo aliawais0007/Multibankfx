@@ -1,6 +1,6 @@
 <?php
 
-$dbConnection = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite3',"","",array(
+ $dbConnection = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite3',"","",array(
     PDO::ATTR_PERSISTENT => TRUE,
     PDO::ERRMODE_EXCEPTION => TRUE));
 
@@ -74,7 +74,8 @@ function translate($text,$page_name=''){
     }
 }
 
-function get_news($dbConnection){
+function get_news(){
+    global $dbConnection;
     $db = $dbConnection;
     return $db;
     exit();
