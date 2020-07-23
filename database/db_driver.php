@@ -1,6 +1,6 @@
 <?php
 
-$dbConnection = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite',"","",array(
+$dbConnection = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite3',"","",array(
     PDO::ATTR_PERSISTENT => TRUE,
     PDO::ERRMODE_EXCEPTION => TRUE));
 
