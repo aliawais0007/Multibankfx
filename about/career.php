@@ -60,7 +60,7 @@
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <div class="main-container">
-        <section class="mex-block-h600 flex-center mex-p-b-none"><img alt="Career with MultiBank" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="public_files/images/about_us/about_career_top_banner.jpg" />
+        <section class="mex-block-h600 flex-center mex-p-b-none"><img alt="Career with MultiBank" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_career_top_banner.jpg" />
             <div class="container">
                 <div>
                     <div class="col-10 col-sm-10 col-md-8 col-xl-6 ">
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 col-sm-12 block-md">
-                        <div class="mex-content"><img alt="MultiBank Group Introduction" class="mex-im-caerr" data-entity-type="" data-entity-uuid="" src="public_files/images/about_us/about_multibank_group_introduction.jpg" />
+                        <div class="mex-content"><img alt="MultiBank Group Introduction" class="mex-im-caerr" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_multibank_group_introduction.jpg" />
                         </div>
                     </div>
                 </div>
@@ -800,16 +800,16 @@
 
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
         <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#503323103d253c243932313e3b36287e333f3d">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-93776657cc070dcd9247bea4-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -1289,42 +1289,12 @@
             });
         })
     </script>
-    <script src="public_files/static_js/lang_data/en.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
-    <script src="public_files/static_js/jquery.dataTables.min.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
-    <script src="public_files/static_js/lazysizes.min.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
-    <script src="public_files/static_js/jquery.validate.min.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
-    <script src="public_files/static_js/intlTelInput.min.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
-    <script src="public_files/static_js/app.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
-    <script type="93776657cc070dcd9247bea4-text/javascript" async>
-        url = new URL(window.location.href);
-        if (!url.searchParams.get('is_iframe')) {
-            window.__lc = window.__lc || {};
-            window.__lc.license = 3413162;
-            window.__lc.chat_between_groups = false;
-            window.__lc.group = 2;
-
-
-            (function() {
-                var lc = document.createElement('script');
-                lc.type = 'text/javascript';
-                lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(lc, s);
-                window.LC_API = window.LC_API || {};
-                if (window.innerWidth < 640) {
-                    LC_API.on_before_load = function() {
-                        LC_API.hide_chat_window();
-                    }
-                    LC_API.on_chat_window_minimized = function() {
-                        setTimeout(function() {
-                            LC_API.hide_chat_window();
-                        }, 200);
-                    }
-                }
-            })();
-        }
-    </script>
+    <script src="/public_files/static_js/lang_data/en.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
     <script type="93776657cc070dcd9247bea4-text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
@@ -1381,8 +1351,8 @@
             }
         });
     </script>
-    <script src="public_files/static_js/swiper-4.3.5.min.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
-    <script src="public_files/static_js/app_home.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
+    <script src="/public_files/static_js/swiper-4.3.5.min.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
+    <script src="/public_files/static_js/app_home.js" type="93776657cc070dcd9247bea4-text/javascript"></script>
     <script type="93776657cc070dcd9247bea4-text/javascript">
         $(function() {
             //icons we need
