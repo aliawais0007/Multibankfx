@@ -106,7 +106,7 @@
                                 <li><a href="about/management.php"><?php translate('Management'); ?></a></li>
                                 <li><a href="about/awards.php"><?php translate('Awards') ?></a></li>
                                 <li><a href="about/sponsorship.php"><?php translate('Sponsorship') ?></a></li>
-                                <li><a href="article/news_20180916.php"><?php translate('Company News'); ?></a></li>
+                                <li><a href="article/company_news.php"><?php translate('Company News'); ?></a></li>
                                 <li><a href="article/hiring-now-cyprus.php"><?php translate('Career'); ?></a></li>
                             </ul>
                         </div>
@@ -323,7 +323,7 @@
                         <li><a href="about/management.php"><?php translate('Management'); ?></a></li>
                         <li><a href="about/awards.php"><?php translate('Awards'); ?></a></li>
                         <li><a href="about/sponsorship.php"><?php translate('Sponsorship'); ?></a></li>
-                        <li><a href="article/news_20180916.php"><?php translate('Company News'); ?></a></li>
+                        <li><a href="article/company_news.php"><?php translate('Company News'); ?></a></li>
                         <li><a href="article/hiring-now-cyprus.php"><?php translate('Career'); ?></a></li>
                     </ul>
                 </li>

@@ -25,7 +25,7 @@ include($path);
     <link rel="alternate" href="https://fr.multibankfx.com/account/account-forms" hreflang="fr-FR" />
     <link rel="alternate" href="account-forms.html" hreflang="x-default" />
 
-    <script type="text/javascript">
+    <script type="text/javascript" async>
         function init_google(w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
