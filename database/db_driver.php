@@ -81,7 +81,7 @@ function get_news(){
         $stmt = $dbConnection1->query("SELECT * FROM myadmin_company_news");
         $company_news = [];
 		while ($row = $stmt->fetch()) {
-			array_push($company_news, $row);
+			echo $company_news;
         }
         return json_decode($company_news);
 }
