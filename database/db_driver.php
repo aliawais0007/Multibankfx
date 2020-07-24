@@ -84,6 +84,8 @@ function get_news(){
             $object = new stdClass();
             $object->id=$row['id'];
             $object->title=$row['title'];
+            $object->post_image=$row['post_image'];
+            $object->featured_image=$row['featured_image'];
             $object->date=$row['date'];
             $object->body=$row['body'];
             $object->status=$row['status'];
