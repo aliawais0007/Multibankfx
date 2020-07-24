@@ -79,6 +79,6 @@ function get_news(){
 		PDO::ATTR_PERSISTENT => TRUE,
 		PDO::ERRMODE_EXCEPTION => TRUE));
         $company_news = $dbConnection1->query("SELECT * FROM myadmin_company_news");
-        return json_encode($company_news);
+        return $company_news;
 }
 
