@@ -78,8 +78,11 @@ function get_news(){
 	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
 		PDO::ERRMODE_EXCEPTION => TRUE));
-        $company_news = $dbConnection1->query("SELECT * FROM myadmin_company_news");
-        echo $company_news;
+        $stmt = $dbConnection1->query("SELECT * FROM myadmin_company_news");
+        $company_news = [];
+		while ($row = $stmt->fetch()) {
+			array_push($company_news, $row);
+        }
         return $company_news;
 }
 
