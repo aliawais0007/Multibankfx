@@ -89,6 +89,7 @@ function get_news(){
             $object->date=$row['date'];
             $object->body=$row['body'];
             $object->status=$row['status'];
+            $object->classtype=$row['classtype'];
             array_push($company_news, $object);
          
         }
