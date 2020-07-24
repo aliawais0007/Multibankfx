@@ -1,4 +1,5 @@
 <?php
+
 $news = get_news();
 
 $pagNews = $news;

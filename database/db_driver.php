@@ -83,6 +83,6 @@ function get_news(){
 		while ($row = $stmt->fetch()) {
 			array_push($company_news, $row);
         }
-        echo $company_news;
+        return $company_news;
 }
 
