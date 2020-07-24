@@ -1,6 +1,9 @@
 <?php
 $pagNews = get_news();
 echo $pagNews[0]->title;
+$itemc ="";
+$item="";
+$itemb="";
 
     foreach ($pagNews as $list){
      
@@ -78,9 +81,6 @@ echo $pagNews[0]->title;
             "
             ;
            }
-
-           echo $item;
-           echo $itemb;
       
     }
     
