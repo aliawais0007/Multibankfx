@@ -81,12 +81,13 @@ function get_news(){
         $stmt = $dbConnection1->query("SELECT * FROM myadmin_company_news");
         $company_news = [];
 		while ($row = $stmt->fetch()) {
-			 $company_news[] = [
-                'title' => $row['title']
-            ];
+            $object = new stdClass();
+            $object->title = $row->title;
+            array_push($company_news, $object);
+         
         }
         foreach($company_news as $news){
-            echo $news;
+            echo $news->title;
         }
         
 }
