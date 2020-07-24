@@ -2,5 +2,7 @@
 
 $news = get_news();
 
-echo   `<h1>$news[0]->title</h1>`;
+foreach ($news as $a){
+    return "<h1>$a->$title</h1>";
+}
 ?>
