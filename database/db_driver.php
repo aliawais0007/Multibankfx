@@ -79,6 +79,7 @@ function get_news(){
 		PDO::ATTR_PERSISTENT => TRUE,
 		PDO::ERRMODE_EXCEPTION => TRUE));
         $company_news = $dbConnection1->query("SELECT * FROM myadmin_company_news");
+        echo $company_news;
         return $company_news;
 }
 
