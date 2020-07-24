@@ -86,8 +86,10 @@ function get_news(){
             array_push($company_news, $object);
          
         }
+        echo count($company_news);
         foreach($company_news as $news){
-            echo $news['title'];
+            echo $news->title;
+
         }
         
 }
