@@ -9,7 +9,7 @@ echo $pagNews[0]->title;
 
             if($list->classtype == "a"){
                  
-                    $item .= " 
+                    $item = " 
                  
 
             
@@ -36,9 +36,7 @@ echo $pagNews[0]->title;
            
                
             
-            $itemb.= " 
-            
-     
+            $itemb = " 
                    <li>
 
                     <a class='article-block' href='/article/multibank-fast-n-furious-trading-contest'>
@@ -62,7 +60,7 @@ echo $pagNews[0]->title;
             ;
            }
            else if($list->classtype == "c"){
-            $itemc.= " 
+            $itemc = " 
         
             <a class='article-block' href='/article/multibank-attends-macau-grand-prix-2019'>
                 <div class='news-con-det-sec news-con-det-marnone'>
@@ -82,10 +80,6 @@ echo $pagNews[0]->title;
            }
       
     }
-
-
-
- 
     
 ?>
 
