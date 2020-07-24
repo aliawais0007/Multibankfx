@@ -82,7 +82,7 @@ function get_news(){
         $company_news = [];
 		while ($row = $stmt->fetch()) {
             $object = new stdClass();
-            echo $row->title;
+            echo $row['title'];
             // $object->title = "ali";
             array_push($company_news, $object);
          
