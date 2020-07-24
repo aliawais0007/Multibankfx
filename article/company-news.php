@@ -1,8 +1,5 @@
 <?php
 
 $news = get_news();
-
-foreach ($news as $a){
-    echo $a->title;
-}
+echo $news[0]->title;
 ?>
