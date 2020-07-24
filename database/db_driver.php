@@ -87,7 +87,7 @@ function get_news(){
          
         }
         foreach($company_news as $news){
-            echo $news->title;
+            echo $news['title'];
         }
         
 }
