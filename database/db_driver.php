@@ -83,6 +83,6 @@ function get_news(){
 		while ($row = $stmt->fetch()) {
 			array_push($company_news, $row);
         }
-        echo json_encode($company_news);
+        echo $company_news;
 }
 

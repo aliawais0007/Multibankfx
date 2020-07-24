@@ -1,5 +1,7 @@
 <?php
-$pagNews = get_news();
+$news = get_news();
+
+$pagNews = $news;
 
     foreach ($pagNews as $list){
      
