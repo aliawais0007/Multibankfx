@@ -85,6 +85,9 @@ function get_news(){
                 'title' => $row['title']
             ];
         }
-        echo $company_news;
+        foreach($company_news as $news){
+            echo $news;
+        }
+        
 }
 
