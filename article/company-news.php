@@ -1,5 +1,6 @@
 <?php
 $pagNews = get_news();
+echo $pagNews[0]->title;
 
     foreach ($pagNews as $list){
      
