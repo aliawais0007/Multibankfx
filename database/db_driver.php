@@ -82,14 +82,17 @@ function get_news(){
         $company_news = [];
 		while ($row = $stmt->fetch()) {
             $object = new stdClass();
-            echo $row['title'];
-            // $object->title = "ali";
+            $object->id=$row['id'];
+            $object->title=$row['title'];
+            $object->date=$row['date'];
+            $object->body=$row['body'];
+            $object->status=$row['status'];
             array_push($company_news, $object);
          
         }
         echo count($company_news);
         foreach($company_news as $news){
-            // echo $news->title;
+            echo $news->title;
 
         }
         
