@@ -78,6 +78,9 @@ echo $pagNews[0]->title;
             "
             ;
            }
+
+           echo $item;
+           echo $itemb;
       
     }
     
