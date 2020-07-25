@@ -2,7 +2,7 @@
 $milestones = get_milestones();
 $milestone = "";
 foreach($milestones as $key=>$value){
-$milestone.='<section class="my-0 py-0">
+ $milestone.='<section class="my-0 py-0">
                 <div class="container">
                     <div class="row ml-3"><a href="/article/milestone-multibank-group-establishes-new-branch-in-turkey.php">
                             <div class="col-12 milestone-container row flex-column flex-lg-row py-3"><img class="col-12 col-lg-4 col-xl-3 m-0 p-0 pr-lg-3" src="/public_files/blog/thumbnails/Turkey_Opening_thumbnail_en.jpg" alt="MultiBank Group Establishes New Branch in Turkey" />

@@ -114,16 +114,15 @@ function get_milestones(){
         $stmt = $dbConnection1->query($query);
         $milestones = [];
 		while ($row = $stmt->fetch()) {
-            echo $row['title'];
-            // $object = new stdClass();
-            // $object->id=$row['id'];
-            // $object->title=$row['title'];
-            // $object->post_image=$row['post_image'];
-            // $object->featured_image=$row['featured_image'];
-            // $object->body=$row['body'];
-            // $object->status=$row['status'];
-            // $object->date=$row['date'];
-            // array_push($milestones, $object);
+            $object = new stdClass();
+            $object->id=$row['id'];
+            $object->title=$row['title'];
+            $object->post_image=$row['post_image'];
+            $object->featured_image=$row['featured_image'];
+            $object->body=$row['body'];
+            $object->status=$row['status'];
+            $object->date=$row['date'];
+            array_push($milestones, $object);
          
         }
 
