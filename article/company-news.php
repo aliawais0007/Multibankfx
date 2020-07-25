@@ -12,12 +12,12 @@ $index = 0;
     // global $allnews, $item, $itemb, $itemc, $pagNews;
     
 
-    foreach ($pagNews as $list) {
+    foreach ($pagNews as $key=>$list) {
 
         //  $url=   urlencode('newsdetail.php?title='+$list->title+'&articlebody='+$list->body+'&date='+$list->date+'&feature_image='+$list->featured_image);
     
     
-        if ($list->classtype == "a") {
+        if ($key==0) {
     
             $item .= " 
                      
@@ -36,7 +36,7 @@ $index = 0;
                                     world to show off their trading skills on our demo MT4 platform. </p>
                             </div>
                         </a></div>";
-        } else if ($list->classtype == "b") {
+        } else if ($key==1 || $key==2 || $key==3) {
             $classname1 = "col-xs-12 col-sm-12 col-md-7";
             $classname2 = "";
     
@@ -63,7 +63,7 @@ $index = 0;
     
      
                     ";
-        } else if ($list->classtype == "c") {
+        } else if ($key==4 || $key==5 || $key==6) {
             $itemc .= " 
             
                 <a class='article-block' href='/article/multibank-attends-macau-grand-prix-2019'>
