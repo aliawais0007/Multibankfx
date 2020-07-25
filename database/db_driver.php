@@ -138,7 +138,10 @@ function filtered_news(){
         // $limit = 9;
         // $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_milestones WHERE id='$id'";
+        echo $query;
+      
         $stmt = $dbConnection1->query($query);
+        echo $stmt;
         $news = [];
 		while ($row = $stmt->fetch()) {
             $object = new stdClass();
@@ -151,8 +154,8 @@ function filtered_news(){
             $object->date=$row['date'];
         }
 
-        echo $news[0];
-        return $object;     
+       
+        // return $object;     
 }
 
 function filtered_milestone(){
