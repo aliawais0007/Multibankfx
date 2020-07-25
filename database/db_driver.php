@@ -78,8 +78,18 @@ function translate($text,$page_name=''){
 function get_news(){
 	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
-		PDO::ERRMODE_EXCEPTION => TRUE));
-        $stmt = $dbConnection1->query("SELECT * FROM myadmin_company_news");
+        PDO::ERRMODE_EXCEPTION => TRUE));
+        $page = isset($_GET['page']) ? $_GET['page'] : 1;
+        // set records or rows of data per page
+        $recordsPerPage = 5;
+
+                // calculate for the query LIMIT clause
+        $fromRecordNum = ($recordsPerPage * $page) - $recordsPerPage;
+
+                // select all data
+        $query = "SELECT * FROM myadmin_company_news ORDER BY id desc LIMIT {$fromRecordNum}, {$recordsPerPage}";
+        $stmt = $dbConnection1->prepare( $query );
+        $stmt->execute();
         $company_news = [];
 		while ($row = $stmt->fetch()) {
             $object = new stdClass();
@@ -94,6 +104,8 @@ function get_news(){
             array_push($company_news, $object);
          
         }
+  
+        
         return $company_news;     
 }
 
