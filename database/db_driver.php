@@ -144,8 +144,9 @@ function filtered_news(){
         $stmt = $dbConnection1->query($query);
         echo $stmt;
         $news = [];
+        $object = new stdClass();
 		while ($row = $stmt->fetch()) {
-            $object = new stdClass();
+           
             $object->id=$row['id'];
             $object->title=$row['title'];
             $object->post_image=$row['post_image'];
