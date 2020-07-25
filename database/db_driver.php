@@ -151,7 +151,7 @@ function filtered_news(){
             $object->body=$stmt['body'];
             $object->status=$stmt['status'];
             $object->date=$stmt['date'];
-       
+        print_r($object);
         return $object;     
 }
 
