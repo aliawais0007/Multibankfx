@@ -11,7 +11,7 @@ foreach ($pagNews as $list) {
 
     if ($list->classtype == "a") {
 
-        $item = " 
+        $item .= " 
                  
 
             
@@ -34,7 +34,7 @@ foreach ($pagNews as $list) {
 
 
 
-        $itemb = " 
+        $itemb .= " 
                    <li>
 
                     <a class='article-block' href='/article/multibank-fast-n-furious-trading-contest'>
@@ -56,7 +56,7 @@ foreach ($pagNews as $list) {
  
                 ";
     } else if ($list->classtype == "c") {
-        $itemc = " 
+        $itemc .= " 
         
             <a class='article-block' href='/article/multibank-attends-macau-grand-prix-2019'>
                 <div class='news-con-det-sec news-con-det-marnone'>
