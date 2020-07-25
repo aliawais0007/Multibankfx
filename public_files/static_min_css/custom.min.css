@@ -7222,7 +7222,7 @@ ul.mex-list-disc li {
 }
 
 .news-con-h4 {
-    font: 2.5vw Calibri;
+    font: 28px Calibri;
     line-height: 1.2;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -7252,7 +7252,7 @@ ul.mex-list-disc li {
 }
 
 .news-con-main {
-    font: 4vw/5vw Calibri;
+    font: 20px Calibri;
     line-height: 1.2;
     color: #222;
     width: 90%;
