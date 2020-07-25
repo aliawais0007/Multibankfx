@@ -78,10 +78,12 @@ function translate($text,$page_name=''){
 function get_news(){
 	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
-		PDO::ERRMODE_EXCEPTION => TRUE));
-        $stmt = $dbConnection1->query("SELECT * FROM myadmin_company_news");
+        PDO::ERRMODE_EXCEPTION => TRUE));
         $page = isset($_GET['page']) ? $_GET['page'] : 1;
-        echo $page;
+        $limit = 7;
+        $start_from = ($page-1) * $limit;
+        $query = "SELECT * FROM table1 LIMIT $start_from, $limit";
+        $stmt = $dbConnection1->query($query);
         $company_news = [];
 		while ($row = $stmt->fetch()) {
             $object = new stdClass();
@@ -96,20 +98,6 @@ function get_news(){
             array_push($company_news, $object);
          
         }
-        // $page = isset($_GET['page']) ? $_GET['page'] : 1;
-        //         // set records or rows of data per page
-        // $recordsPerPage = 5;
-
-        //         // calculate for the query LIMIT clause
-        // $fromRecordNum = ($recordsPerPage * $page) - $recordsPerPage;
-        
-        //         // select all data
-        // $query = "SELECT id, name, email, photo FROM tblbuddies ORDER BY id desc
-        // LIMIT {$fromRecordNum}, {$recordsPerPage}";
-        // $stmt = $DB->prepare( $query );
-        // $stmt->execute();
-
-        // $result = $stmt->fetchAll();
 
         
         return $company_news;     
