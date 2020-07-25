@@ -19,7 +19,7 @@ foreach ($pagNews as $list) {
                     '>
                     <a class='article-block' href='/article/multibank-fast-n-furious-trading-contest-announcement'>
                         <div class='news-con-det-l'>
-                            <img src='/multibankfx" . $list->post_image . "'
+                            <img src='" . $list->post_image . "'
                                 alt='Winners Announced for the MultiBank Fast &amp; Furious Trading Contest'>
                             <p class='news-con-h4 news-con-blue article-big-title'>" . $list->title . "</p>
                             <p class='news-con-date news-con-date-m'>" . $list->date . "</p>
@@ -39,7 +39,7 @@ foreach ($pagNews as $list) {
 
                     <a class='article-block' href='/article/multibank-fast-n-furious-trading-contest'>
                         <div class='news-con-det-rbox clearfix news-con-det-marnone'>
-                            <img src='/multibankfx" . $list->post_image . "' 
+                            <img src='" . $list->post_image . "' 
                                 alt='MultiBank Fast &amp; Furious Trading Contest Starts Jan 6, 2020! '>
                             <div class='news-con-det-rbox-r'>
                                 <p class='news-con-h4 news-con-blue article-big-title' >
@@ -62,7 +62,7 @@ foreach ($pagNews as $list) {
                 <div class='news-con-det-sec news-con-det-marnone'>
                     <img data-cfsrc='/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg'
                         alt='MultiBank Group Attends Macau Grand Prix 2019'
-                        src='/multibankfx" . $list->post_image . "'>
+                        src='" . $list->post_image . "'>
                     <p class='news-con-h4 news-con-blue article-big-title'>" . $list->title . "</p>
                     <p class='news-con-date news-con-date-m'>" . $list->date . "</p>
                     <p class='news-con-main'>In partnership with BMW M Motorsport, MultiBank Group took part in the 2019 Macau
@@ -1829,7 +1829,7 @@ foreach ($pagNews as $list) {
                         if ($i <= $page) {
                             $pagLink .= "
                                        
-                                        <li class='page-item'><a class='page-link' href='http://localhost/multibankfx/article/?page=" . $i . "'>" . $i . "</a></li>";
+                                        <li class='page-item'><a class='page-link' href='http://localhost/article/?page=" . $i . "'>" . $i . "</a></li>";
                         }
                     }
                     echo $pagLink . "
