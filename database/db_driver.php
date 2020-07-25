@@ -149,6 +149,7 @@ function filtered_news(){
             $object->status=$row['status'];
             $object->date=$row['date'];
         }
+        echo json_decode($object);
         return $object;     
 }
 
