@@ -139,8 +139,9 @@ function filtered_news(){
         // $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_milestones WHERE id='$id'";
         $stmt = $dbConnection1->query($query);
-        $object = new stdClass();
+        $news = [];
 		while ($row = $stmt->fetch()) {
+            $object = new stdClass();
             $object->id=$row['id'];
             $object->title=$row['title'];
             $object->post_image=$row['post_image'];
@@ -149,7 +150,8 @@ function filtered_news(){
             $object->status=$row['status'];
             $object->date=$row['date'];
         }
-        echo json_decode($object);
+
+        echo $news[0];
         return $object;     
 }
 
