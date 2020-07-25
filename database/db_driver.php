@@ -140,7 +140,7 @@ function filtered_news(){
         } 
         // $limit = 9;
         // $start_from = ($page-1) * $limit;
-        $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
+        $query = "SELECT * FROM myadmin_company_news WHERE id=$id";
         
       
         $stmt = $dbConnection1->query($query);
