@@ -14,7 +14,7 @@ foreach($milestones as $key=>$value){
                                         </div>
                                         <div class="col-11">
                                             <div class="title"><?php translate("'.$value->title.'"); ?></div>
-                                            <div class="date">12-02-2019</div>
+                                            <div class="date">2019-10-03</div>
                                             <div class="summary">
                                                 <p>'.$value->short_description.'</p>
                                             </div>
