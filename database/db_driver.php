@@ -129,3 +129,49 @@ function get_milestones(){
         
         return $milestones;     
 }
+
+function filtered_news(){
+	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
+		PDO::ATTR_PERSISTENT => TRUE,
+        PDO::ERRMODE_EXCEPTION => TRUE));
+        $id = isset($_GET['id']) && $_GET['id'];
+        // $limit = 9;
+        // $start_from = ($page-1) * $limit;
+        $query = "SELECT * FROM myadmin_milestones WHERE id='$id'";
+        $stmt = $dbConnection1->query($query);
+        $object = new stdClass();
+		while ($row = $stmt->fetch()) {
+            $object->id=$row['id'];
+            $object->title=$row['title'];
+            $object->post_image=$row['post_image'];
+            $object->featured_image=$row['featured_image'];
+            $object->body=$row['body'];
+            $object->status=$row['status'];
+            $object->date=$row['date'];
+        }
+        return $object;     
+}
+
+function filtered_milestone(){
+	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
+		PDO::ATTR_PERSISTENT => TRUE,
+        PDO::ERRMODE_EXCEPTION => TRUE));
+        $query = "SELECT * FROM myadmin_milestones WHERE id ";
+        $stmt = $dbConnection1->query($query);
+        $milestones = [];
+		while ($row = $stmt->fetch()) {
+            $object = new stdClass();
+            $object->id=$row['id'];
+            $object->title=$row['title'];
+            $object->post_image=$row['post_image'];
+            $object->featured_image=$row['featured_image'];
+            $object->body=$row['body'];
+            $object->status=$row['status'];
+            $object->date=$row['date'];
+            array_push($milestones, $object);
+         
+        }
+
+        
+        return $milestones;     
+}
