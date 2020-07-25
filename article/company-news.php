@@ -1,5 +1,6 @@
 <?php
-$pagNews = get_news();
+$allnews = get_news();
+$pagNews = array_slice($allnews, 0,7);
 $itemc = "";
 $item = "";
 $itemb = "";
