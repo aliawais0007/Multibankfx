@@ -1820,40 +1820,16 @@ $index = 0;
         <div class="row">
             <div class="col-12 col-lg-9 col-lg-offset-1 mex-m-b-50 text-center">
                 <nav aria-label="Page navigation example">
-
-                    <?php
-
-                    $next = $page + 1;
-                    $previous = $page - 1;
-
-                    $pagLink = "<ul class='pagination justify-content-center'>
-                             
-                             <li class='page-item '><a class='page-link' href='/article/company-news.php?page=" . $previous . "'>Previous</a>
-                
-                ";
-
-                    for ($i = 1; $i <= 7; $i++) {
-                        // if($i <= 3)
-
-
-                        if ($i <= $page) {
-                            $pagLink .= "
-                                       
-                                        <li class='page-item'><a class='page-link' href='/article/company-news.php/?page=" . $i . "'>" . $i . "</a></li>";
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled"><a class="page-link" href="/article/company-news.php<?php echo '?'.$page-1?>" tabindex="-1">Previous</a></li>
+                        <?php 
+                        for($i=0; $i<7; $i++){
+                            echo "<li class='page-item active'><a class='page-link' href='/article/company-news.php?page=$i'>$i</a></li>";
                         }
-                    }
-                    echo $pagLink . "
-                                <li class='page-item '><a class='page-link' href='href='/article/company-news.php/?page" . $next . "''>Next</a>
-                                </ul>";   ?>
-                    <!-- <ul class="pagination justify-content-center">
-                        <li class="page-item disabled"><a class="page-link" href="/about/company-news%3Fpaged=0.php" tabindex="-1">Previous</a></li>
-                        <li class="page-item active"><a class="page-link" href="/about/company-news%3Fpaged=1.php">1</a></li>
-                        <li class="page-item "><a class="page-link" href="/about/company-news%3Fpaged=2.php">2</a>
+                        
+                        ?>
+                        <li class="page-item "><a class="page-link" href="/article/company-news.php<?php echo '?'.$page+1;?>">Next</a>
                         </li>
-                        <li class="page-item "><a class="page-link" href="/about/company-news%3Fpaged=3.php">3</a>
-                        </li>
-                        <li class="page-item "><a class="page-link" href="/about/company-news%3Fpaged=2.php">Next</a>
-                        </li> -->
                     </ul>
                 </nav>
             </div>
