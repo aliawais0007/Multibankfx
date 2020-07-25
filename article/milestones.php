@@ -49,7 +49,7 @@ $index = 0;
 
 
     $pagLink = "<ul class='pagination'>";  
-    for ($i=1; $i<=$total_pages; $i++) {
+    for ($i=1; $i<=20; $i++) {
         $year=2020 -$i;
                   $pagLink .= "<li class='page-item'><a class='page-link' href='?page=".$i."'>".$year."</a></li>";	
     }
@@ -150,7 +150,7 @@ $index = 0;
 
     <?php
             $pagLink = "";  
-            for ($i=1; $i<=$total_pages; $i++) {
+            for ($i=1; $i<=20; $i++) {
                 $year=2020 - $i;
            
                         $pagLink .= "
