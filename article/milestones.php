@@ -1,13 +1,13 @@
-<?php   
+<?php
 $allnews = get_milestones();
-$pagNews = array_slice($allnews, 0,7);
+$pagNews = array_slice($allnews, 0, 7);
 $itemc = "";
 $item = "";
 $itemb = "";
 $index = 0;
-    foreach ($pagNews as $key=>$list){
-                 
-        $item .= " 
+foreach ($pagNews as $key => $list) {
+
+    $item .= " 
       
 
                 <section class='my-0 py-0'>
@@ -18,7 +18,7 @@ $index = 0;
                         
                         <div class='col-12 milestone-container row flex-column flex-lg-row py-3' style=''><img
                                         class='col-12 col-lg-4 col-xl-3 m-0 p-0 pr-lg-3'
-                                        src='/multibankfx".$list->post_image."'
+                                        src='/multibankfx" . $list->post_image . "'
                                         alt='MultiBank Group Signed as Official Partner of BMW M Motorsport'>
                                     <div class='details-container col-12 col-lg-8 col-xl-9 mt-3 mt-lg-0 py-xl-3 border'>
                                         <div class='row'>
@@ -26,9 +26,9 @@ $index = 0;
                                                 <div class='mark'></div>
                                             </div>
                                             <div class='col - 11'>
-                                                <div class='title'>".$list->title."</div>
-                                                <div class='date 2019'>".$list->date."</div>
-                                                <div class='summary'> ".$list->title." </div>
+                                                <div class='title'>" . $list->title . "</div>
+                                                <div class='date 2019'>" . $list->date . "</div>
+                                                <div class='summary'> " . $list->title . " </div>
                                             </div>
                                         </div>
                                     </div>
@@ -39,30 +39,18 @@ $index = 0;
                 </section>
             
                    ";
-                    
-            
-
-         
-      
-    }
+}
 
 
-
-    $pagLink = "<ul class='pagination'>";  
-    for ($i=1; $i<=$total_pages; $i++) {
-        $year=2020 -$i;
-                  $pagLink .= "<li class='page-item'><a class='page-link' href='?page=".$i."'>".$year."</a></li>";	
-    }
-    echo $pagLink . "</ul>";  
-    
 
 
 ?>
 <!DOCTYPE html>
 <html lang='en'>
-<?php include_from_root('website_template/head.php');?>
+<?php include_from_root('website_template/head.php'); ?>
+
 <body>
-    <?php include_from_root('website_template/header_and_menu.php');?>
+    <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
         .nav-menu-hamburger,
         .nav-menu-mymex {
@@ -133,88 +121,48 @@ $index = 0;
             </div>
         </section>
         <div class="mex-m-b-30">
-        <section class="my-0 py-3">
-<div class="container">
-<div class="row">
-<div class="col-1 mr-3 mr-lg-0 col-lg-1 "><a class="timeline-arrow mr-3 slick-arrow slick-disabled" id="prev-but" aria-disabled="true" style="">&lt;</a></div>
-<div class="col-9 col-lg-10">
-<div class="timeline-bar"></div>
-<div class="timeline-scroll-container">
-<div class="multiple-items timeline-scroll-container slick-initialized slick-slider">&nbsp;
- <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1649px; transform: translate3d(0px, 0px, 0px);">
-   <!-- <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" style="width: 97px;">
-     <a class="link-over-timeline mr-3 year-2020 timeline" onclick="javascript:ShowYear('2020');;" tabindex="0">
-       2020
-       </a>
-    </div> -->
+            <section class="my-0 py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-1 mr-3 mr-lg-0 col-lg-1 "><a class="timeline-arrow mr-3 slick-arrow slick-disabled" id="prev-but" aria-disabled="true" style="">&lt;</a></div>
+                        <div class="col-9 col-lg-10">
+                            <div class="timeline-bar"></div>
+                            <div class="timeline-scroll-container">
+                                <div class="multiple-items timeline-scroll-container slick-initialized slick-slider">&nbsp;
+                                    <div class="slick-list draggable">
+                                        <div class="slick-track" style="opacity: 1; width: 1649px; transform: translate3d(0px, 0px, 0px);">
+                        
 
-    <?php
-            $pagLink = "";  
-            for ($i=1; $i<=$total_pages; $i++) {
-                $year=2020 - $i;
-           
-                        $pagLink .= "
+                                            <?php
+                                            $pagLink = "";
+                                            for ($i = 1; $i <= $total_pages; $i++) {
+                                                $year = 2020 - $i;
+
+                                                $pagLink .= "
                                     <div class='slick-slide slick-current slick-active' data-slick-index='0' aria-hidden='false' tabindex='0' style='width: 97px;'>
-                                            <a class='link-over-timeline mr-3 year-2020 timeline' onclick='javascript:ShowYear('".$year."');' tabindex='0'>
+                                            <a class='link-over-timeline mr-3 year-2020 timeline' onclick='javascript:ShowYear('" . $year . "');' tabindex='0'>
                                             $year
                                             </a>
                                     </div>   ";
-            }
-            echo $pagLink;
-
-            
-    
-    ?>
-    <!-- <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="0" style="width: 97px;">
-        <a class="link-over-timeline mr-3 year-2019 timeline-active" onclick="javascript:ShowYear('2019');;" tabindex="0">
-        2019</a>
-    </div> -->
-
-    <!-- <div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="0" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2018" onclick="javascript:ShowYear('2018');;" tabindex="0">
-        2018</a>
-     </div>
-        <div class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" tabindex="0" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2017" onclick="javascript:ShowYear('2017');;" tabindex="0">2017
-        </a></div><div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="0" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2016" onclick="javascript:ScrollYear('2016');" tabindex="0">
-        2016</a></div><div class="slick-slide slick-active" data-slick-index="5" aria-hidden="false" tabindex="0" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2015" onclick="javascript:ScrollYear('2015');" tabindex="0">
-        2015</a></div><div class="slick-slide slick-active" data-slick-index="6" aria-hidden="false" tabindex="0" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2014" onclick="javascript:ScrollYear('2014');" tabindex="0">
-        2014</a></div><div class="slick-slide slick-active" data-slick-index="7" aria-hidden="false" tabindex="0" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2013" onclick="javascript:ScrollYear('2013');" tabindex="0">
-        2013</a></div><div class="slick-slide" data-slick-index="8" aria-hidden="true" tabindex="-1" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2012" onclick="javascript:ScrollYear('2012');" tabindex="-1">
-        2012</a></div><div class="slick-slide" data-slick-index="9" aria-hidden="true" tabindex="-1" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2011" onclick="javascript:ScrollYear('2011');" tabindex="-1">
-        2011</a></div><div class="slick-slide" data-slick-index="10" aria-hidden="true" tabindex="-1" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2010" onclick="javascript:ScrollYear('2010');" tabindex="-1">
-        2010</a></div><div class="slick-slide" data-slick-index="11" aria-hidden="true" tabindex="-1" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2009" onclick="javascript:ScrollYear('2009');" tabindex="-1">
-        2009</a></div><div class="slick-slide" data-slick-index="12" aria-hidden="true" tabindex="-1" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2008" onclick="javascript:ScrollYear('2008');" tabindex="-1">
-        2008</a></div><div class="slick-slide" data-slick-index="13" aria-hidden="true" tabindex="-1" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2007" onclick="javascript:ScrollYear('2007');" tabindex="-1">
-        2007</a></div><div class="slick-slide" data-slick-index="14" aria-hidden="true" tabindex="-1" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2006" onclick="javascript:ScrollYear('2006');" tabindex="-1">
-        2006</a></div><div class="slick-slide" data-slick-index="15" aria-hidden="true" tabindex="-1" style="width: 97px;">
-        <a class="link-over-timeline timeline mr-3 year-2005" onclick="javascript:ScrollYear('2005');" tabindex="-1">
-        2005</a></div>
-        <div style="clear: both; width: 97px;" class="slick-slide" data-slick-index="16" aria-hidden="true" tabindex="-1">
-        
-        </div> -->
+                                            }
+                                            echo $pagLink;
 
 
-        </div></div></div>
 
-</div>
-</div>
-<div class="col-1 ml-0 col-lg-1"><a class="timeline-arrow mr-3 slick-arrow" id="next-but" style="" aria-disabled="false">&gt;</a></div>
-</div>
-</div>
-</section>
-          
+                              ?>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-1 ml-0 col-lg-1"><a class="timeline-arrow mr-3 slick-arrow" id="next-but" style="" aria-disabled="false">&gt;</a></div>
+                    </div>
+                </div>
+            </section>
+
 
             <?php echo $item ?>
         </div>
@@ -224,7 +172,7 @@ $index = 0;
             var currentYear = new Date().getFullYear();
             var inceptionYear = '2005';
             // which year we display together
-           // var a = '<?php echo $a; ?>';
+            // var a = '<?php echo $a; ?>';
             var groupYears = ['2016', '2015', '2014', '2013', '2012', '2011', '2010', '2009', '2008', '2007', '2006', '2005'];
             var singleYears = ['2019', '2018', '2017'];
 
@@ -271,20 +219,20 @@ $index = 0;
 
             }
 
-            function ShowYear(year_) {
-                /**
-                 * Show only year_
-                 */
-                setLinkActive(year_);
-                $(".milestone-container").each(function() {
-                    $(this).hide();
-                    year = $(this).find(".date").html().substring(0, 4);
+            // function ShowYear(year_) {
+            //     /**
+            //      * Show only year_
+            //      */
+            //     setLinkActive(year_);
+            //     $(".milestone-container").each(function() {
+            //         $(this).hide();
+            //         year = $(this).find(".date").html().substring(0, 4);
 
-                    if (year == year_) {
-                        $(this).show();
-                    }
-                });
-            } // end function ShowYear(year_) {
+            //         if (year == year_) {
+            //             $(this).show();
+            //         }
+            //     });
+            // } // end function ShowYear(year_) {
             /*
              * library loaded scope
              */
@@ -356,17 +304,64 @@ $index = 0;
             });
         </script>
         <section class="p0 choose-next-background subject-box-bg-light">
-<div class="container mex-m-b-80">
-<div class="col-md-12">
-<div class="mex-h1 text-1e32a3 text-center uppercase mex-p-t-80 mex-p-b-40 mex-translatable" data-es="ELIGE DÓNDE IR A CONTINUACIÓN" data-de="WOHIN ALS NÄCHSTES" data-ph="" data-vn="CHỌN NƠI ĐẾN KẾ TIẾP" data-id="" data-pt="" data-ru="" data-it="SCEGLI DOVE ANDARE" data-mys="SILA PILIH UNTUK TERUSKAN" data-fr="Où allez?" data-th="เลือกว่าจะไปที่ไหน" data-ae="أختر أين تريد الذهاب">Choose Where to go next</div>
-<div class="icon-next-list">
-<ul class="bg-white target-icon" style=""><li><a href="/about/why-multibank-group"><span class="ico-ic_why_multibank"><!-- --></span><div class="mex-content mex-clamp-3">Why Multibank</div></a></li><li><a href="/about/security-of-funds"><span class="ico-ic_security_of_funds"><!-- --></span><div class="mex-content mex-clamp-3">Security of Funds</div></a></li><li><a href="/about/regulations"><span class="ico-ic_our_regulations"><!-- --></span><div class="mex-content mex-clamp-3">Our Regulations</div></a></li><li><a href="/products"><span class="ico-ic_our_products"><!-- --></span><div class="mex-content mex-clamp-3">Our Products</div></a></li><li><a href="/partnership/introducing-brokers#introducing-brokers-form"><span class="ico-ic_become_an_ib"><!-- --></span><div class="mex-content mex-clamp-3">Become an IB</div></a></li><li><a href="/#" onclick="LC_API.open_chat_window();return false;"><span class="ico-ic_live_chat_support"><!-- --></span><div class="mex-content mex-clamp-3">Live Chat Support</div></a></li><li><a href="/account/bonus"><span class="ico-ic_bonus_programs"><!-- --></span><div class="mex-content mex-clamp-3">Bonus Programs</div></a></li><li><a href="/tools"><span class="ico-ic_trading_tools"><!-- --></span><div class="mex-content mex-clamp-3">Trading Tools</div></a></li><li><a href="/platforms/compare-platforms"><span class="ico-ic_compare_our_trading_platforms"></span><div class="mex-content mex-clamp-3">Compare our Trading Platforms</div></a></li><li><a href="/platforms/download-center"><span class="ico-ic_download_mt4"><!-- --></span><div class="mex-content mex-clamp-3">Download MT4</div></a></li><li><a href="/partnership"><span class="ico-ic_partnership_programs"><!-- --></span><div class="mex-content mex-clamp-3">Partnership Programs</div></a></li><li><a href="https://my.multibankfx.com" target="_blank"><span class="ico-ic_mymultibank_account_panel"></span><div class="mex-content mex-clamp-3">MyMultiBank Account Panel</div></a></li></ul>
-</div>
-</div>
-</div>
-</section>
+            <div class="container mex-m-b-80">
+                <div class="col-md-12">
+                    <div class="mex-h1 text-1e32a3 text-center uppercase mex-p-t-80 mex-p-b-40 mex-translatable" data-es="ELIGE DÓNDE IR A CONTINUACIÓN" data-de="WOHIN ALS NÄCHSTES" data-ph="" data-vn="CHỌN NƠI ĐẾN KẾ TIẾP" data-id="" data-pt="" data-ru="" data-it="SCEGLI DOVE ANDARE" data-mys="SILA PILIH UNTUK TERUSKAN" data-fr="Où allez?" data-th="เลือกว่าจะไปที่ไหน" data-ae="أختر أين تريد الذهاب">Choose Where to go next</div>
+                    <div class="icon-next-list">
+                        <ul class="bg-white target-icon" style="">
+                            <li><a href="/about/why-multibank-group"><span class="ico-ic_why_multibank">
+                                        <!-- --></span>
+                                    <div class="mex-content mex-clamp-3">Why Multibank</div>
+                                </a></li>
+                            <li><a href="/about/security-of-funds"><span class="ico-ic_security_of_funds">
+                                        <!-- --></span>
+                                    <div class="mex-content mex-clamp-3">Security of Funds</div>
+                                </a></li>
+                            <li><a href="/about/regulations"><span class="ico-ic_our_regulations">
+                                        <!-- --></span>
+                                    <div class="mex-content mex-clamp-3">Our Regulations</div>
+                                </a></li>
+                            <li><a href="/products"><span class="ico-ic_our_products">
+                                        <!-- --></span>
+                                    <div class="mex-content mex-clamp-3">Our Products</div>
+                                </a></li>
+                            <li><a href="/partnership/introducing-brokers#introducing-brokers-form"><span class="ico-ic_become_an_ib">
+                                        <!-- --></span>
+                                    <div class="mex-content mex-clamp-3">Become an IB</div>
+                                </a></li>
+                            <li><a href="/#" onclick="LC_API.open_chat_window();return false;"><span class="ico-ic_live_chat_support">
+                                        <!-- --></span>
+                                    <div class="mex-content mex-clamp-3">Live Chat Support</div>
+                                </a></li>
+                            <li><a href="/account/bonus"><span class="ico-ic_bonus_programs">
+                                        <!-- --></span>
+                                    <div class="mex-content mex-clamp-3">Bonus Programs</div>
+                                </a></li>
+                            <li><a href="/tools"><span class="ico-ic_trading_tools">
+                                        <!-- --></span>
+                                    <div class="mex-content mex-clamp-3">Trading Tools</div>
+                                </a></li>
+                            <li><a href="/platforms/compare-platforms"><span class="ico-ic_compare_our_trading_platforms"></span>
+                                    <div class="mex-content mex-clamp-3">Compare our Trading Platforms</div>
+                                </a></li>
+                            <li><a href="/platforms/download-center"><span class="ico-ic_download_mt4">
+                                        <!-- --></span>
+                                    <div class="mex-content mex-clamp-3">Download MT4</div>
+                                </a></li>
+                            <li><a href="/partnership"><span class="ico-ic_partnership_programs">
+                                        <!-- --></span>
+                                    <div class="mex-content mex-clamp-3">Partnership Programs</div>
+                                </a></li>
+                            <li><a href="https://my.multibankfx.com" target="_blank"><span class="ico-ic_mymultibank_account_panel"></span>
+                                    <div class="mex-content mex-clamp-3">MyMultiBank Account Panel</div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
- 
+
     <?php include_from_root('website_template/page_footer.php'); ?>
 
     <div class="slidebar">

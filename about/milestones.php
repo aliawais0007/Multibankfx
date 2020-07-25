@@ -882,20 +882,20 @@
 
             }
 
-            function ShowYear(year_) {
-                /**
-                 * Show only year_
-                 */
-                setLinkActive(year_);
-                $(".milestone-container").each(function() {
-                    $(this).hide();
-                    year = $(this).find(".date").html().substring(0, 4);
+            // function ShowYear(year_) {
+            //     /**
+            //      * Show only year_
+            //      */
+            //     setLinkActive(year_);
+            //     $(".milestone-container").each(function() {
+            //         $(this).hide();
+            //         year = $(this).find(".date").html().substring(0, 4);
 
-                    if (year == year_) {
-                        $(this).show();
-                    }
-                });
-            } // end function ShowYear(year_) {
+            //         if (year == year_) {
+            //             $(this).show();
+            //         }
+            //     });
+            // } // end function ShowYear(year_) {
             /*
              * library loaded scope
              */
