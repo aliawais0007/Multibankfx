@@ -7,12 +7,12 @@ $url_base_path =str_replace('/private','',$url_base_path);
 $url_base_path =str_replace($document_root,'',$url_base_path);
 
 $request_url = trim($_SERVER['REQUEST_URI']);
-$posted = preg_replace('? By.*/', '', $request_url);
-echo $posted;
+$result = explode(' By',$request_url);
+
+echo $result[0];
 $request_file = $request_url;
 $request_file =( $request_file=='/' )?'home.php':$request_file;
 include $root_path.'database/db_driver.php';
-echo $request_url;
 
 function include_from_root($path)
     {
