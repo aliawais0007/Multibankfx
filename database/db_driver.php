@@ -107,9 +107,9 @@ function get_milestones(){
 	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
         PDO::ERRMODE_EXCEPTION => TRUE));
-        $page = isset($_GET['page']) ? $_GET['page'] : 1;
-        $limit = 9;
-        $start_from = ($page-1) * $limit;
+        // $page = isset($_GET['page']) ? $_GET['page'] : 1;
+        // $limit = 9;
+        // $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_milestones";
         $stmt = $dbConnection1->query($query);
         $milestones = [];

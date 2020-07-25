@@ -24,7 +24,7 @@ $milestone.='<section class="my-0 py-0">
                             </div>
                         </a></div>
                 </div>
-            </section>'
+            </section>';
 }
             ?>
 <!DOCTYPE html>
