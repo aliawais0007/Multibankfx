@@ -48,12 +48,12 @@ $index = 0;
 
 
 
-    $pagLink = "<ul class='pagination'>";  
-    for ($i=1; $i<=20; $i++) {
-        $year=2020 -$i;
-                  $pagLink .= "<li class='page-item'><a class='page-link' href='?page=".$i."'>".$year."</a></li>";	
-    }
-    echo $pagLink . "</ul>";  
+    // $pagLink = "<ul class='pagination'>";  
+    // for ($i=1; $i<=20; $i++) {
+    //     $year=2020 -$i;
+    //               $pagLink .= "<li class='page-item'><a class='page-link' href='?page=".$i."'>".$year."</a></li>";	
+    // }
+    // echo $pagLink . "</ul>";  
     
 
 
@@ -120,7 +120,7 @@ $index = 0;
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <div class="main-container">
-        <section class="flex-center page-top-banner"><img alt="Milestones" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/about_us/about_milestones_top_banner.jpg" class="mex-img-cover" />
+        <section class="flex-center page-top-banner"><img alt="Milestones" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_milestones_top_banner.jpg" class="mex-img-cover" />
             <div class="container text-center">
                 <div class="row">
                     <div class="col-12">
@@ -154,16 +154,13 @@ $index = 0;
                 $year=2020 - $i;
            
                         $pagLink .= "
-                                    <div class='slick-slide slick-current slick-active' data-slick-index='0' aria-hidden='false' tabindex='0' style='width: 97px;'>
-                                            <a class='link-over-timeline mr-3 year-2020 timeline' onclick='javascript:ShowYear('".$year."');' tabindex='0'>
-                                            $year
-                                            </a>
-                                    </div>   ";
+                         <div class='slick-slide slick-current slick-active' data-slick-index='0' aria-hidden='false' tabindex='0' style='width: 97px;'>
+                                <a class='link-over-timeline mr-3 year-2020 timeline' href='/article/company-news.php?$page=$year' tabindex='0'>
+                                    $year
+                                </a>
+                         </div>";
             }
             echo $pagLink;
-
-            
-    
     ?>
     <!-- <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="0" style="width: 97px;">
         <a class="link-over-timeline mr-3 year-2019 timeline-active" onclick="javascript:ShowYear('2019');;" tabindex="0">
@@ -218,7 +215,7 @@ $index = 0;
 
             <?php echo $item ?>
         </div>
-        <script data-cfasync="false" src="/multibankfx/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script type="text/javascript">
             //script initialisation
             var currentYear = new Date().getFullYear();
@@ -317,7 +314,7 @@ $index = 0;
                 ShowYear(currentYear);
             });
         </script>
-        <script type="text/javascript" src="public_files/static_js/slick.min.js"></script>
+        <script type="text/javascript" src="/public_files/static_js/slick.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 $('.multiple-items').slick({
@@ -371,16 +368,16 @@ $index = 0;
 
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="/multibankfx/cdn-cgi/l/email-protection.html#c5a6b685a8b0a9b1aca7a4abaea3bdeba6aaa8">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.html#c5a6b685a8b0a9b1aca7a4abaea3bdeba6aaa8">
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -847,7 +844,7 @@ $index = 0;
             border-radius: 0;
         }
     </style>
-    <script data-cfasync="false" src="/multibankfx/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
@@ -860,12 +857,12 @@ $index = 0;
             });
         })
     </script>
-    <script src="public_files/static_js/lang_data/en.js" type="text/javascript"></script>
-    <script src="public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
-    <script src="public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
-    <script src="public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>0o9
-    <script src="public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
-    <script src="public_files/static_js/app.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>0o9
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
     <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
@@ -953,7 +950,7 @@ $index = 0;
         });
     </script>
     <script src="./public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
-    <script src="public_files/static_js/app_home.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(function() {
             //icons we need
