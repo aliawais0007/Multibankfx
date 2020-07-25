@@ -142,13 +142,12 @@ function filtered_news(){
         // $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
         $stmt = $dbConnection1->query($query);
-        echo $stmt;
         $news = [];
 		while ($row = $stmt->fetch()) {
             $object = new stdClass();
             $object->id=$row['id'];
             $object->title=$row['title'];
-            print_r($row['title']);
+            echo $row['title'];
             $object->post_image=$row['post_image'];
             $object->featured_image=$row['featured_image'];
             $object->body=$row['body'];
