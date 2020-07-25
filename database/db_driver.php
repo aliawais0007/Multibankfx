@@ -142,6 +142,7 @@ function filtered_news(){
         // $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
         $stmt = $dbConnection1->query($query);
+        $stmt = $stmt->execute();
         $news = [];
             $object = new stdClass();
             $object->id=$stmt['id'];
