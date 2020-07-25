@@ -1845,15 +1845,7 @@ $index = 0;
                     echo $pagLink . "
                                 <li class='page-item '><a class='page-link' href='href='/article/company-news.php/?page" . $next . "''>Next</a>
                                 </ul>";   ?>
-                    <!-- <ul class="pagination justify-content-center">
-                        <li class="page-item disabled"><a class="page-link" href="/about/company-news%3Fpaged=0.php" tabindex="-1">Previous</a></li>
-                        <li class="page-item active"><a class="page-link" href="/about/company-news%3Fpaged=1.php">1</a></li>
-                        <li class="page-item "><a class="page-link" href="/about/company-news%3Fpaged=2.php">2</a>
-                        </li>
-                        <li class="page-item "><a class="page-link" href="/about/company-news%3Fpaged=3.php">3</a>
-                        </li>
-                        <li class="page-item "><a class="page-link" href="/about/company-news%3Fpaged=2.php">Next</a>
-                        </li> -->
+                  
                     </ul>
                 </nav>
             </div>
