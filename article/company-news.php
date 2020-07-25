@@ -75,8 +75,6 @@ foreach ($pagNews as $list) {
     }
 }
 
-
-echo $item;
 ?>
 
 <html lang='en'>
