@@ -145,7 +145,6 @@ function filtered_news(){
       
         $stmt = $dbConnection1->query($query);
         $news = $stmt->fetch();
-        print_r($news);
 		// while ($row = $stmt->fetch()) {
         //     $object = new stdClass();
         //     $object->id=$row['id'];
@@ -159,7 +158,7 @@ function filtered_news(){
         // }
        
        
-        // return $object;     
+        return $news;     
 }
 
 function filtered_milestone(){
