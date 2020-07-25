@@ -1832,7 +1832,7 @@ $index = 0;
                 
                 ";
 
-                    for ($i = 1; $i <= $total_pages; $i++) {
+                    for ($i = 1; $i <= 7; $i++) {
                         // if($i <= 3)
 
 
