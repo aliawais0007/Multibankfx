@@ -1,4 +1,5 @@
 <?php
+$total_pages = 0;
 
  $dbConnection = new PDO('sqlite:/var/www/multibankfx/database/multibankfx.sqlite3',"","",array(
     PDO::ATTR_PERSISTENT => TRUE,
@@ -76,12 +77,13 @@ function translate($text,$page_name=''){
 }
 
 function get_news(){
+    global $total_pages;
 	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
         PDO::ERRMODE_EXCEPTION => TRUE));
         $page = isset($_GET['page']) ? $_GET['page'] : 1;
         // set records or rows of data per page
-        $recordsPerPage = 5;
+        $recordsPerPage = 7;
 
                 // calculate for the query LIMIT clause
         $fromRecordNum = ($recordsPerPage * $page) - $recordsPerPage;
@@ -104,7 +106,8 @@ function get_news(){
             array_push($company_news, $object);
          
         }
-  
+        
+    $total_pages = ceil(count($company_news) / $recordsPerPage);
         
         return $company_news;     
 }
