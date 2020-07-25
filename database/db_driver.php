@@ -154,7 +154,7 @@ function filtered_news(){
             $object->date=$stmt['date'];
             array_push($news, $object);
         
-        print_r($news[0]->title);
+        print_r($stmt);
        
         return $news[0];     
 }
