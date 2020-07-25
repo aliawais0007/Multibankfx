@@ -147,18 +147,16 @@ function filtered_news(){
         $a = $stmt->fetch();
 		// while ($row = $stmt->fetch()) {
             $object = new stdClass();
-            $object->id=$a['id'];
-            $object->title=$a['title'];
-            $object->post_image=$a['post_image'];
-            $object->featured_image=$a['featured_image'];
-            $object->body=$a['body'];
-            $object->status=$a['status'];
-            $object->date=$a['date'];
+            $object->id=$a[0];
+            $object->title=$a[2];
+            $object->featured_image=$a[4];
+            $object->body=$a[3];
+            $object->date=$a[1];
             print_r($a);
         // }
        
        
-        // return $news;     
+        return $object;     
 }
 
 function filtered_milestone(){
