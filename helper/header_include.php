@@ -7,7 +7,7 @@ $url_base_path =str_replace('/private','',$url_base_path);
 $url_base_path =str_replace($document_root,'',$url_base_path);
 
 $request_url = trim($_SERVER['REQUEST_URI']);
-$result = explode(' By',$request_url);
+$result = explode('?',$request_url);
 
 echo $result[0];
 $request_file = $request_url;
