@@ -25,7 +25,7 @@ $index = 0;
                 
                         <div class='col-xs-12 col-sm-12 col-md-5' style= '    height: fit-content;
                         '>
-                        <a class='article-block' href='/article/news-detail.php".$list->id."'>
+                        <a class='article-block' href='/article/news-detail.php?id=".$list->id."'>
                             <div class='news-con-det-l'>
                                 <img src='" . $list->post_image . "'
                                     alt='Winners Announced for the MultiBank Fast &amp; Furious Trading Contest'>
@@ -45,7 +45,7 @@ $index = 0;
             $itemb .= " 
                        <li>
     
-                       <a class='article-block' href='/article/news-detail.php".$list->id."'>
+                       <a class='article-block' href='/article/news-detail.php?id=".$list->id."'>
                             <div class='news-con-det-rbox clearfix news-con-det-marnone'>
                                 <img src='" . $list->post_image . "' 
                                     alt='MultiBank Fast &amp; Furious Trading Contest Starts Jan 6, 2020! '>
@@ -66,7 +66,7 @@ $index = 0;
         } else if ($key==4 || $key==5 || $key==6) {
             $itemc .= " 
             
-            <a class='article-block' href='/article/news-detail.php".$list->id."'>
+            <a class='article-block' href='/article/news-detail.php?id=".$list->id."'>
                     <div class='news-con-det-sec news-con-det-marnone'>
                         <img data-cfsrc='/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg'
                             alt='MultiBank Group Attends Macau Grand Prix 2019'
