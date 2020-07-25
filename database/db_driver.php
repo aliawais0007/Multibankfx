@@ -86,6 +86,7 @@ function get_news(){
         $stmt = $dbConnection1->query($query);
         $company_news = [];
 		while ($row = $stmt->fetch()) {
+            echo $row['title'];
             $object = new stdClass();
             $object->id=$row['id'];
             $object->title=$row['title'];
