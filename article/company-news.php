@@ -84,7 +84,7 @@ foreach ($pagNews as $list) {
 
 <body>
   
-
+<?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
         @media screen and (max-width: 450px) {
             .ul-company-news {
