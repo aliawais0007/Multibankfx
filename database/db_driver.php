@@ -83,7 +83,6 @@ function get_news(){
         $limit = 7;
         $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_company_news LIMIT $start_from, $limit";
-        echo $query;
         $stmt = $dbConnection1->query($query);
         $company_news = [];
 		while ($row = $stmt->fetch()) {
