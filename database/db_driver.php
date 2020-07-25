@@ -134,11 +134,14 @@ function filtered_news(){
 	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
         PDO::ERRMODE_EXCEPTION => TRUE));
-        $id = isset($_GET['id']) && $_GET['id'];
+        $id = 0;
+        if(isset($_GET['id'])){
+            $id = $_GET['id'];
+        } 
         // $limit = 9;
         // $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
-        echo $query;
+        echo $id;
       
         $stmt = $dbConnection1->query($query);
         echo $stmt;
