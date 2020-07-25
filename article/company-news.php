@@ -1828,7 +1828,7 @@ $index = 0;
 
                     $pagLink = "<ul class='pagination justify-content-center'>
                              
-                             <li class='page-item '><a class='page-link' href='news_20180916.php?page=" . $previous . "'>Previous</a>
+                             <li class='page-item '><a class='page-link' href='/article/company-news.php?page=" . $previous . "'>Previous</a>
                 
                 ";
 
@@ -1839,11 +1839,11 @@ $index = 0;
                         if ($i <= $page) {
                             $pagLink .= "
                                        
-                                        <li class='page-item'><a class='page-link' href='http://localhost/article/?page=" . $i . "'>" . $i . "</a></li>";
+                                        <li class='page-item'><a class='page-link' href='/article/company-news.php/?page=" . $i . "'>" . $i . "</a></li>";
                         }
                     }
                     echo $pagLink . "
-                                <li class='page-item '><a class='page-link' href='href='news_20180916.php?page=" . $next . "''>Next</a>
+                                <li class='page-item '><a class='page-link' href='href='/article/company-news.php/?page" . $next . "''>Next</a>
                                 </ul>";   ?>
                     <!-- <ul class="pagination justify-content-center">
                         <li class="page-item disabled"><a class="page-link" href="/about/company-news%3Fpaged=0.php" tabindex="-1">Previous</a></li>
