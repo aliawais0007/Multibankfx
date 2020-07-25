@@ -144,21 +144,21 @@ function filtered_news(){
         
       
         $stmt = $dbConnection1->query($query);
-        $news = $stmt->fetch();
+        $a = $stmt->fetch();
 		// while ($row = $stmt->fetch()) {
-        //     $object = new stdClass();
-        //     $object->id=$row['id'];
-        //     $object->title=$row['title'];
-        //     $object->post_image=$row['post_image'];
-        //     $object->featured_image=$row['featured_image'];
-        //     $object->body=$row['body'];
-        //     $object->status=$row['status'];
-        //     $object->date=$row['date'];
-        //     echo $object;
+            $object = new stdClass();
+            $object->id=$a['id'];
+            $object->title=$a['title'];
+            $object->post_image=$a['post_image'];
+            $object->featured_image=$a['featured_image'];
+            $object->body=$a['body'];
+            $object->status=$a['status'];
+            $object->date=$a['date'];
+            echo $object;
         // }
        
        
-        return $news;     
+        // return $news;     
 }
 
 function filtered_milestone(){
