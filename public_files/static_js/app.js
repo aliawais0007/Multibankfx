@@ -613,36 +613,36 @@ $(function() {
 });
 
 // Company News
-$(function() {
-    var page_year = getUrlVars()["page_year"];
-    if (typeof page_year === 'undefined') {
-        page_year = 1;
-    }
+// $(function() {
+//     var page_year = getUrlVars()["page_year"];
+//     if (typeof page_year === 'undefined') {
+//         page_year = 1;
+//     }
 
-    if (typeof numNewsPage !== 'undefined') {
-        var paginationCode = '<li class="page-item';
-        if (page_year == 1) {
-            paginationCode += ' disabled';
-        }
-        paginationCode += '"><a class="page-link" href="/about/company-news?page_year=' + (page_year - 1) + '" tabindex="-1">Previous</a></li>';
-        for (var i = 0; i < numNewsPage; i++) {
-            paginationCode += '<li class="page-item';
-            if ((i + 1) == page_year) {
-                paginationCode += ' active';
-            }
+//     if (typeof numNewsPage !== 'undefined') {
+//         var paginationCode = '<li class="page-item';
+//         if (page_year == 1) {
+//             paginationCode += ' disabled';
+//         }
+//         paginationCode += '"><a class="page-link" href="/about/company-news?page_year=' + (page_year - 1) + '" tabindex="-1">Previous</a></li>';
+//         for (var i = 0; i < numNewsPage; i++) {
+//             paginationCode += '<li class="page-item';
+//             if ((i + 1) == page_year) {
+//                 paginationCode += ' active';
+//             }
 
-            paginationCode += '"><a class="page-link" href="/about/company-news?page_year=' + (i + 1) + '">' + (i + 1) + '</a></li>';
-        }
+//             paginationCode += '"><a class="page-link" href="/about/company-news?page_year=' + (i + 1) + '">' + (i + 1) + '</a></li>';
+//         }
 
-        paginationCode += '<li class="page-item';
-        if (page_year == numNewsPage) {
-            paginationCode += ' disabled';
-        }
+//         paginationCode += '<li class="page-item';
+//         if (page_year == numNewsPage) {
+//             paginationCode += ' disabled';
+//         }
 
-        paginationCode += '"><a class="page-link" href="/about/company-news?page_year=2">Next</a></li>';
-        $('.pagination').html(paginationCode);
-    }
-});
+//         paginationCode += '"><a class="page-link" href="/about/company-news?page_year=2">Next</a></li>';
+//         $('.pagination').html(paginationCode);
+//     }
+// });
 
 
 function getUrlVars() {
