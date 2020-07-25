@@ -137,7 +137,7 @@ function filtered_news(){
         $id = isset($_GET['id']) && $_GET['id'];
         // $limit = 9;
         // $start_from = ($page-1) * $limit;
-        $query = "SELECT * FROM myadmin_milestones WHERE id='$id'";
+        $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
         echo $query;
       
         $stmt = $dbConnection1->query($query);
