@@ -7,9 +7,9 @@ $itemb = "";
 $index = 0;
 
 // paginated response
-function paginated_response(){
 
-    global $allnews, $item, $itemb, $itemc, $pagNews;
+
+    // global $allnews, $item, $itemb, $itemc, $pagNews;
     
 
     foreach ($pagNews as $list) {
@@ -82,7 +82,7 @@ function paginated_response(){
                 ";
         }
     }
-}
+
 
 
 ?>
