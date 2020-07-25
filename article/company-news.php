@@ -55,7 +55,7 @@ foreach ($pagNews as $list) {
 
  
                 ";
-    } else if ($list->classtype == "c") {
+    } else{
         $itemc = " 
         
             <a class='article-block' href='/article/multibank-attends-macau-grand-prix-2019'>
