@@ -143,19 +143,23 @@ function filtered_news(){
         $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
         
       
-        $stmt = $dbConnection1->query($query);
-        $news = [];
-		while ($row = $stmt->fetch()) {
-            $object = new stdClass();
-            $object->id=$row['id'];
-            $object->title=$row['title'];
-            $object->post_image=$row['post_image'];
-            $object->featured_image=$row['featured_image'];
-            $object->body=$row['body'];
-            $object->status=$row['status'];
-            $object->date=$row['date'];
-            echo $object;
+        $res = sqlite_query($dbConnection1, $query);
+
+        if (sqlite_num_rows($res) > 0) {
+            echo sqlite_fetch_single($res); // 42
         }
+        $news = [];
+		// while ($row = $stmt->fetch()) {
+        //     $object = new stdClass();
+        //     $object->id=$row['id'];
+        //     $object->title=$row['title'];
+        //     $object->post_image=$row['post_image'];
+        //     $object->featured_image=$row['featured_image'];
+        //     $object->body=$row['body'];
+        //     $object->status=$row['status'];
+        //     $object->date=$row['date'];
+        //     echo $object;
+        // }
        
        
         // return $object;     
