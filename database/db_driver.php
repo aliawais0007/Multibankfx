@@ -110,7 +110,7 @@ function get_milestones(){
         $page = isset($_GET['page']) ? $_GET['page'] : 1;
         $limit = 9;
         $start_from = ($page-1) * $limit;
-        $query = "SELECT * FROM myadmin_milestones LIMIT $start_from, $limit";
+        $query = "SELECT * FROM myadmin_milestones";
         $stmt = $dbConnection1->query($query);
         $milestones = [];
 		while ($row = $stmt->fetch()) {
@@ -121,6 +121,7 @@ function get_milestones(){
             $object->featured_image=$row['featured_image'];
             $object->body=$row['body'];
             $object->status=$row['status'];
+            $object->date=$row['date'];
             array_push($milestones, $object);
          
         }
