@@ -10,7 +10,8 @@ $request_url = trim($_SERVER['REQUEST_URI']);
 $request_file = $request_url;
 $request_file =( $request_file=='/' )?'home.php':$request_file;
 include $root_path.'database/db_driver.php';
-
+echo $request_url;
+echo $request_file;
 
 function include_from_root($path)
     {
