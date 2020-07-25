@@ -1,5 +1,6 @@
 <?php 
 $milestones = get_milestones();
+count($milestones);
 $milestone = "";
 foreach($milestones as $key=>$value){
  $milestone.='<section class="my-0 py-0">
