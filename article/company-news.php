@@ -1823,7 +1823,7 @@ $index = 0;
                     <ul class="pagination justify-content-center">
                         <li class="page-item disabled"><a class="page-link" href="/article/company-news.php<?php echo '?'.$page-1?>" tabindex="-1">Previous</a></li>
                         <?php 
-                        for($i=0; $i<7; $i++){
+                        for($i=1; $i<=7; $i++){
                             echo "<li class='page-item active'><a class='page-link' href='/article/company-news.php?page=$i'>$i</a></li>";
                         }
                         

@@ -80,6 +80,8 @@ function get_news(){
 		PDO::ATTR_PERSISTENT => TRUE,
 		PDO::ERRMODE_EXCEPTION => TRUE));
         $stmt = $dbConnection1->query("SELECT * FROM myadmin_company_news");
+        $page = isset($_GET['page']) ? $_GET['page'] : 1;
+        echo $page;
         $company_news = [];
 		while ($row = $stmt->fetch()) {
             $object = new stdClass();
