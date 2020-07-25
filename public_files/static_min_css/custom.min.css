@@ -7222,7 +7222,7 @@ ul.mex-list-disc li {
 }
 
 .news-con-h4 {
-    font: 5vw Calibri;
+    font: 2.5vw Calibri;
     line-height: 1.2;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -7245,7 +7245,7 @@ ul.mex-list-disc li {
 }
 
 .news-con-date {
-    font: 4.5vw/5vw Calibri;
+    font: 2vw Calibri;
     color: #222;
     width: 90%;
     margin: 0 auto
