@@ -152,10 +152,11 @@ function filtered_news(){
             $object->body=$row['body'];
             $object->status=$row['status'];
             $object->date=$row['date'];
+            array_push($news, $object);
         }
-
+        print_r($news);
        
-        return $object;     
+        return $news[0];     
 }
 
 function filtered_milestone(){
