@@ -7680,7 +7680,7 @@ a.timeline-arrow:hover {
     width: 112%;
     height: 6px;
     background: #E5E5E5;
-    position: relative;
+    position: absolute;
     top: 48%;
     left: -6%;
 }
