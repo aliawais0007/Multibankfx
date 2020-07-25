@@ -1,79 +1,11 @@
 <?php   
-    include_once('./database/dbconnect.php');
-    // $sql = mysqli_query($db, "SELECT * FROM table_company_news");
-    // $result = $db->query($sql)
-$page=3;
-// $ds = DIRECTORY_SEPARATOR;
-// $base_dir = realpath(dirname(__FILE__)  . $ds . '..') . $ds;
-
-
-    // echo isset($_GET['page']) ? $_GET['page'] : 1;
-   
-    function getNewsCount() {
-        global $bDebug;
-        
-
-		$sQuery = "SELECT * FROM table_milestones";
-		$objConnection = new Connection();
-		$objConnection->setQuery($sQuery);
-		$aList = $objConnection->executeListQuery();
-		// if($bDebug) $this->printR($aList);
-		
-		return $aList;
-    }
-    $getNews='';
-// $_PHP_SELF ="";
-  
-
-    $allnews= getNewsCount();
-  
-
-    $item="";
-    $itemb="";
-    $count =0;
-    $classname1="";
-    $classname2="";
-    $start_from=0;
-
- $total_records  =count($allnews);
- echo $total_records;
-
-    // pagination
-    $limit = 7;  
-    $page=0;
-    // if (isset($_GET["page"])) {
-    //     $page  = $_GET["page"]; 
-    //    // echo $page;
-    //     } 
-    //     else{ 
-    //     $page=1;
-
-    //     }; 
-    $page= 1;
-    $start_from = ($page-1) * $limit;
-
-      
-
-    $total_pages = ceil($total_records / $limit);
-    $pagNews=getNews($start_from,$limit);
-    //pagination ends
-    $itemc ="";
-    function getNews($start,$limit) {
-        global $bDebug;
-        
-
-		$sQuery = "SELECT * FROM table_milestones ORDER BY id  ASC LIMIT $start, $limit";
-		$objConnection = new Connection();
-		$objConnection->setQuery($sQuery);
-		$aList = $objConnection->executeListQuery();
-		// if($bDebug) $this->printR($aList);
-		
-		return $aList;
-    }
-    foreach ($pagNews as $list){
-      
-  
-    //  $url=   urlencode('milestoneDetail.php?title='+$list->article_title+'&articlebody='+$list->body+'&article_date='+$list->article_date+'&feature_image='+$list->featured_image);
+$allnews = get_milestones();
+$pagNews = array_slice($allnews, 0,7);
+$itemc = "";
+$item = "";
+$itemb = "";
+$index = 0;
+    foreach ($pagNews as $key=>$list){
                  
         $item .= " 
       
@@ -94,9 +26,9 @@ $page=3;
                                                 <div class='mark'></div>
                                             </div>
                                             <div class='col - 11'>
-                                                <div class='title'>".$list->article_title."</div>
-                                                <div class='date 2019'>".$list->article_date."</div>
-                                                <div class='summary'> ".$list->post_title." </div>
+                                                <div class='title'>".$list->title."</div>
+                                                <div class='date 2019'>".$list->date."</div>
+                                                <div class='summary'> ".$list->title." </div>
                                             </div>
                                         </div>
                                     </div>

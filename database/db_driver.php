@@ -98,8 +98,33 @@ function get_news(){
             array_push($company_news, $object);
          
         }
-
+        $dbConnection1=null;
         
         return $company_news;     
 }
 
+function get_milestones(){
+	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
+		PDO::ATTR_PERSISTENT => TRUE,
+        PDO::ERRMODE_EXCEPTION => TRUE));
+        $page = isset($_GET['page']) ? $_GET['page'] : 1;
+        $limit = 9;
+        $start_from = ($page-1) * $limit;
+        $query = "SELECT * FROM myadmin_milestones LIMIT $start_from, $limit";
+        $stmt = $dbConnection1->query($query);
+        $milestones = [];
+		while ($row = $stmt->fetch()) {
+            $object = new stdClass();
+            $object->id=$row['id'];
+            $object->title=$row['title'];
+            $object->post_image=$row['post_image'];
+            $object->featured_image=$row['featured_image'];
+            $object->body=$row['body'];
+            $object->status=$row['status'];
+            array_push($milestones, $object);
+         
+        }
+
+        
+        return $milestones;     
+}

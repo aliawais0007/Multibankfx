@@ -72,7 +72,6 @@
                 </div>
             </div>
         </section>
-        <div class="mex-m-b-30">
             <section class="my-0 py-3">
                 <div class="container">
                     <div class="row">
@@ -832,7 +831,7 @@
             </section>
         </div>
         <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script type="d1e42a21540a99ed898e3385-text/javascript">
+        <script type="text/javascript">
             //script initialisation
             var currentYear = new Date().getFullYear();
             var inceptionYear = '2005';
@@ -929,8 +928,8 @@
                 ShowYear(currentYear);
             });
         </script>
-        <script type="d1e42a21540a99ed898e3385-text/javascript" src="/public_files/static_js/slick.min.js"></script>
-        <script type="d1e42a21540a99ed898e3385-text/javascript">
+        <script type="text/javascript" src="/public_files/static_js/slick.min.js"></script>
+        <script type="text/javascript">
             $(document).ready(function() {
                 $('.multiple-items').slick({
                     infinite: false,
@@ -948,7 +947,7 @@
                 });
             });
         </script>
-        <script type="d1e42a21540a99ed898e3385-text/javascript">
+        <script type="text/javascript">
             $(function() {
                 var icons = [
                     'ic_why_multibank',
@@ -982,7 +981,7 @@
         <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#c5a6b685a8b0a9b1aca7a4abaea3bdeba6aaa8">
             <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-d1e42a21540a99ed898e3385-="">
+        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
             <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
@@ -1396,7 +1395,7 @@
                         </label>
                         <textarea data-message='Message is Required.' data-extra-message="Message is Invalid." data-regex='' class=' form-control w-100 ta-message' name='message' id='order_message' placeholder=''>Hello, I am interested in learning more about MultiBank products and services. Could you please contact me</textarea>
                     </div>
-                    <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-d1e42a21540a99ed898e3385-="">SEND
+                    <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SEND
                     </button>
                 </form>
             </div>
@@ -1451,7 +1450,7 @@
         }
     </style>
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="d1e42a21540a99ed898e3385-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
                 e.preventDefault();
@@ -1463,12 +1462,12 @@
             });
         })
     </script>
-    <script src="/public_files/static_js/lang_data/en.js" type="d1e42a21540a99ed898e3385-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.dataTables.min.js" type="d1e42a21540a99ed898e3385-text/javascript"></script>
-    <script src="/public_files/static_js/lazysizes.min.js" type="d1e42a21540a99ed898e3385-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.validate.min.js" type="d1e42a21540a99ed898e3385-text/javascript"></script>
-    <script src="/public_files/static_js/intlTelInput.min.js" type="d1e42a21540a99ed898e3385-text/javascript"></script>
-    <script src="/public_files/static_js/app.js" type="d1e42a21540a99ed898e3385-text/javascript"></script>
+    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
     <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
@@ -1501,7 +1500,7 @@
     setTimeout(()=>initliveChat(), 10000);
         }
     </script>
-    <script type="d1e42a21540a99ed898e3385-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
                 var url_parts = location.hostname.split('.');
@@ -1534,12 +1533,12 @@
             }
         });
     </script>
-    <script type="d1e42a21540a99ed898e3385-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
         });
     </script>
-    <script type="d1e42a21540a99ed898e3385-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
@@ -1557,9 +1556,9 @@
             }
         });
     </script>
-    <script src="/public_files/static_js/swiper-4.3.5.min.js" type="d1e42a21540a99ed898e3385-text/javascript"></script>
-    <script src="/public_files/static_js/app_home.js" type="d1e42a21540a99ed898e3385-text/javascript"></script>
-    <script type="d1e42a21540a99ed898e3385-text/javascript">
+    <script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
+    <script type="text/javascript">
         $(function() {
             //icons we need
             var icons = [
@@ -1614,7 +1613,7 @@
             }
         }
     </style>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="d1e42a21540a99ed898e3385-|49" defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
 
 </html>
