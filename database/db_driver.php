@@ -143,12 +143,9 @@ function filtered_news(){
         $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
         
       
-        $res = sqlite_query($dbConnection1, $query);
-
-        if (sqlite_num_rows($res) > 0) {
-            echo sqlite_fetch_single($res); // 42
-        }
-        $news = [];
+        $stmt = $dbConnection1->query($query);
+        $news = $stmt->fetch();
+        echo $news;
 		// while ($row = $stmt->fetch()) {
         //     $object = new stdClass();
         //     $object->id=$row['id'];
