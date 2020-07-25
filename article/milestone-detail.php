@@ -1,3 +1,6 @@
+<?php
+$milestone = filtered_milestone();
+?>
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -16,17 +19,12 @@
                         <article>
                             <header>
                                 <h1 class="article-title"></h1>
-                                <h1 class="mex-h2 text-1e32a3 text-center c2228">The Establishment of MultiBank</h1>
-                                <div class="article-date">2005-01-01 | Milestones</div>
+                                <h1 class="mex-h2 text-1e32a3 text-center c2228"><?php echo $milestone->title?></h1>
+                                <div class="article-date"><?php echo $milestone->date?> | Milestones</div>
                             </header>
                         </article>
-                        <img src="/multibankfx/public_files/blog/thumbnails/milestones_2005_the_establishment_of_multibank.jpg" class="article-img" />
-                        <div class="article-body">
-                            <p class="article-date"></p>
-                            <p class="article-date"></p>
-                            <p class="article-paragraph"><span class="c3546">MultiBank was established in the United States in 2005. Since its launch, it has evolved into one of the largest online financial derivatives providers worldwide, with a current paid up capital of over US $322 million.</span>
-                            </p>
-                        </div>
+                        <img src='<?php echo $milestone->body?>' class="article-img" />
+                        <?php echo $milestone->body?>
                     </div>
                     <style>
                         .grapesjs-editable-field-item[data-grapesjs-field="field_component_01"][data-grapesjs-delta="0"] * {

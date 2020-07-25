@@ -138,23 +138,15 @@ function filtered_news(){
         if(isset($_GET['id'])){
             $id =(int)$_GET['id'];
         } 
-        // $limit = 9;
-        // $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_company_news WHERE id=$id";
-        
-      
         $stmt = $dbConnection1->query($query);
         $a = $stmt->fetch();
-		// while ($row = $stmt->fetch()) {
-            $object = new stdClass();
-            $object->id=$a[0];
-            $object->title=$a[2];
-            $object->featured_image=$a[4];
-            $object->body=$a[3];
-            $object->date=$a[1];
-        // }
-       
-       
+        $object = new stdClass();
+        $object->id=$a[0];
+        $object->title=$a[2];
+        $object->featured_image=$a[4];
+        $object->body=$a[3];
+        $object->date=$a[1];
         return $object;     
 }
 
@@ -162,22 +154,18 @@ function filtered_milestone(){
 	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
         PDO::ERRMODE_EXCEPTION => TRUE));
-        $query = "SELECT * FROM myadmin_milestones WHERE id ";
+        $id = 0;
+        if(isset($_GET['id'])){
+            $id =(int)$_GET['id'];
+        } 
+        $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
         $stmt = $dbConnection1->query($query);
-        $milestones = [];
-		while ($row = $stmt->fetch()) {
-            $object = new stdClass();
-            $object->id=$row['id'];
-            $object->title=$row['title'];
-            $object->post_image=$row['post_image'];
-            $object->featured_image=$row['featured_image'];
-            $object->body=$row['body'];
-            $object->status=$row['status'];
-            $object->date=$row['date'];
-            array_push($milestones, $object);
-         
-        }
-
-        
-        return $milestones;     
+        $a = $stmt->fetch();
+        $object = new stdClass();
+        $object->id=$a[0];
+        $object->title=$a[2];
+        $object->featured_image=$a[4];
+        $object->body=$a[3];
+        $object->date=$a[1];
+        return $object;       
 }

@@ -5,8 +5,8 @@ $milestone = "";
 foreach($milestones as $key=>$value){
  $milestone.='<section class="my-0 py-0">
                 <div class="container">
-                    <div class="row ml-3"><a href="/article/milestone-detail.php?year='.$value->year.'">
-                            <div class="col-12 milestone-container row flex-column flex-lg-row py-3"><img class="col-12 col-lg-4 col-xl-3 m-0 p-0 pr-lg-3" src="/public_files/blog/thumbnails/'.$value->post_image.'" alt="MultiBank Group Establishes New Branch in Turkey" />
+                    <div class="row ml-3"><a href="/article/milestone-detail.php?id='.$value->id.'">
+                            <div class="col-12 milestone-container row flex-column flex-lg-row py-3"><img class="col-12 col-lg-4 col-xl-3 m-0 p-0 pr-lg-3" src="'.$value->post_image.'" alt="'.$value->post_image.'" />
                                 <div class="details-container col-12 col-lg-8 col-xl-9 mt-3 mt-lg-0 py-xl-3 border">
                                     <div class="row">
                                         <div class="mark-container col-1 d-none d-lg-block">
