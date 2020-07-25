@@ -79,7 +79,7 @@
                         <div class="col-1 mr-3 mr-lg-0 col-lg-1 "><a class="timeline-arrow mr-3" id="next-but">&lt;</a>
                         </div>
                         <div class="col-9 col-lg-10">
-                            <div class="timeline-bar"></div>
+                            <div class="timeline-bar" style="position:absolute"></div>
                             <div class="timeline-scroll-container">
                                 <div class="multiple-items timeline-scroll-container ">&nbsp;</div>
                             </div>
