@@ -144,18 +144,18 @@ function filtered_news(){
         $stmt = $dbConnection1->query($query);
         echo $stmt;
         $news = [];
-        $object = new stdClass();
 		while ($row = $stmt->fetch()) {
-           
+            $object = new stdClass();
             $object->id=$row['id'];
             $object->title=$row['title'];
+            print_r($row['title']);
             $object->post_image=$row['post_image'];
             $object->featured_image=$row['featured_image'];
             $object->body=$row['body'];
             $object->status=$row['status'];
             $object->date=$row['date'];
         }
-      echo $object;
+      
        
         // return $object;     
 }
