@@ -538,7 +538,7 @@
                                 </label>
                                 <input type='hidden' data-message='' data-extra-message="" data-regex='' class=' mex-form-item d-block' name='label_submit' placeholder='' value='' />
                             </div>
-                            <button type='submit' class='btn btn-mex mx-auto' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-b9b486becb7a1226308afcfc-=""><?php translate('SUBMIT'); ?>
+                            <button type='submit' class='btn btn-mex mx-auto' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-=""><?php translate('SUBMIT'); ?>
                             </button>
                         </form>
                         <div class="px-1 " style="padding:15px 0px;">
@@ -553,7 +553,7 @@
             </div>
         </section>
         <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script type="b9b486becb7a1226308afcfc-text/javascript">
+        <script type="text/javascript">
             $(function() {
                 if (getCookie("form-lp-name") != "") {
                     $('#live_account_form input[name=name]').val(getCookie("form-lp-name"));
@@ -605,7 +605,7 @@
         </style>
  <?php include_from_root('website_template/choose_where_to.php');?>
     </div>
-    <script type="b9b486becb7a1226308afcfc-text/javascript">
+    <script type="text/javascript">
         $(function() {
             //icons we need
             var icons = [
@@ -627,7 +627,7 @@
         });
     </script>
     <div class="cc-country-selector">
-        <div class="cc-country-selector--overlay" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCountrySelectionDialog()" data-cf-modified-b9b486becb7a1226308afcfc-=""></div>
+        <div class="cc-country-selector--overlay" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCountrySelectionDialog()" data-cf-modified-=""></div>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-7 mx-auto cc-country-selector--box">
@@ -875,13 +875,13 @@
                         <option value="ZM">ZAMBIA</option>
                         <option value="ZW">ZIMBABWE</option>
                     </select>
-                    <button type="button" class="cc-country-selector--submit--btn" onclick="if (!window.__cfRLUnblockHandlers) return false; redirectCreditCard()" data-cf-modified-b9b486becb7a1226308afcfc-="">Submit
+                    <button type="button" class="cc-country-selector--submit--btn" onclick="if (!window.__cfRLUnblockHandlers) return false; redirectCreditCard()" data-cf-modified-="">Submit
                     </button>
                 </div>
             </div>
         </div>
     </div>
-    <script type="b9b486becb7a1226308afcfc-text/javascript">
+    <script type="text/javascript">
         const allowedCardCountries = [
             'AU', 'AT', 'BE', 'CN', 'HR', 'CY',
             'CZ', 'DK', 'EE', 'FI', 'FR', 'DE',
@@ -975,7 +975,7 @@
         <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#e28191a28f978e968b80838c89849acc818d8f">
             <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-b9b486becb7a1226308afcfc-="">
+        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
             <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
@@ -1389,7 +1389,7 @@
                         </label>
                         <textarea data-message='Message is Required.' data-extra-message="Message is Invalid." data-regex='' class=' form-control w-100 ta-message' name='message' id='order_message' placeholder=''>Hello, I am interested in learning more about MultiBank products and services. Could you please contact me</textarea>
                     </div>
-                    <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-b9b486becb7a1226308afcfc-="">SEND
+                    <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SEND
                     </button>
                 </form>
             </div>
@@ -1444,7 +1444,7 @@
         }
     </style>
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="b9b486becb7a1226308afcfc-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
                 e.preventDefault();
@@ -1456,12 +1456,12 @@
             });
         })
     </script>
-    <script src="/public_files/static_js/lang_data/en.js" type="b9b486becb7a1226308afcfc-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.dataTables.min.js" type="b9b486becb7a1226308afcfc-text/javascript"></script>
-    <script src="/public_files/static_js/lazysizes.min.js" type="b9b486becb7a1226308afcfc-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.validate.min.js" type="b9b486becb7a1226308afcfc-text/javascript"></script>
-    <script src="/public_files/static_js/intlTelInput.min.js" type="b9b486becb7a1226308afcfc-text/javascript"></script>
-    <script src="/public_files/static_js/app.js" type="b9b486becb7a1226308afcfc-text/javascript"></script>
+    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
     <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
@@ -1493,7 +1493,7 @@
     setTimeout(()=>initliveChat(), 10000);
         }
     </script>
-    <script type="b9b486becb7a1226308afcfc-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
                 var url_parts = location.hostname.split('.');
@@ -1526,12 +1526,12 @@
             }
         });
     </script>
-    <script type="b9b486becb7a1226308afcfc-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
         });
     </script>
-    <script type="b9b486becb7a1226308afcfc-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
@@ -1549,7 +1549,7 @@
             }
         });
     </script>
-    <script type="b9b486becb7a1226308afcfc-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var params = getUrlVars();
             if (typeof params.ibName === 'undefined') {
@@ -1562,7 +1562,7 @@
             $('.regulator-group, .leverage-group, .account-type-group').css('display', 'none');
         });
     </script>
-    <script type="b9b486becb7a1226308afcfc-text/javascript">
+    <script type="text/javascript">
         $(function() {
             const maxNumFiles = 5;
             var numFiles = 1;
@@ -1633,7 +1633,7 @@
             }
         });
     </script>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="b9b486becb7a1226308afcfc-|49" defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<form action="https://www.multibankfx.com/form/contactus?" name='email_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='email_us_form' target='' autocomplete='on'>
+<form  name='email_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='email_us_form' target='' autocomplete='on'>
                     <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMjo0ODo1Nw==' />
                     <input type='hidden' name='token' value='$2y$10$g1E4rrOQLcd.w/6ehfvr/u0fxrVbk/22eGhxn8nHsbzpHXVm4wY4C' />
                     <input type='hidden' name='source' value=' <br/><br/> posted From: www.multibankfx.com/?web=true' />
@@ -315,3 +315,10 @@
                     <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-785e4eb336bec21b04c19cf7-="">SEND
                     </button>
                 </form>
+
+                <!-- script for ajax request to save data to db -->
+                <script>
+
+                let clientType = $()
+
+                </script>
