@@ -1390,7 +1390,7 @@ $("#live_account_form").submit(function(e) {
 
 $(".btn-contact").click(function(e) {
     e.preventDefault(); // avoid to execute the actual submit of the form.
-    var form = $(this);
+    var fullname = $(".form-control");
     var url = '/form.php';
     var datais = form.serialize();
     debugger
