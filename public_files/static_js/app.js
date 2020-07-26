@@ -1390,7 +1390,7 @@ $("#live_account_form").submit(function(e) {
 
 $(".btn-contact").click(function(e) {
     e.preventDefault(); // avoid to execute the actual submit of the form.
-    var fullname = $(".form-control").value;
+    var data = $(".form-control");
     var url = '/form.php';
     debugger
     // console.log('form is here'+form);
@@ -1398,7 +1398,7 @@ $(".btn-contact").click(function(e) {
     $.ajax({
         type: "POST",
         url: url, //submission.php
-        data: datais, // serializes the form's elements.
+        data: { email: data[3].value }, // serializes the form's elements.
 
         beforeSend: function(data) {
             alert('working');
