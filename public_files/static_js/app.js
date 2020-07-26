@@ -1324,13 +1324,93 @@ $(function() {
 
 
 //script for ajax request to save data to db
+$("#contact_us_form").submit(function(e) {
+
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+
+    var form = $(this);
+    var url = 'https://www.multibankfx.com/form/contactus?';
+    var datais = form.serialize();
+    // console.log('form is here'+form);
+    // console.log('url is here',url);
+
+
+    $.ajax({
+        type: "POST",
+        url: url, //submission.php
+        data: datais, // serializes the form's elements.
+
+        beforeSend: function(data) {
+            alert('working');
+
+            console.log("data is here");
+            // console.log('form data'+data);
+        },
+        success: function(data) {
+            alert(data); // show response from the php script.
+        }
+    })
+
+});
 
 
 
-$('.btn-contact').click(function() {
-    let clientType = $(".account_type").value;
-    let fullName = $('fullname').value;
-    let email = $('email').value;
-    let phone = $('phone').value;
+//http://localhost/multibankfx/account/live-account.php
+$("#live_account_form").submit(function(e) {
+
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+
+    var form = $(this);
+    var url = 'https://www.multibankfx.com/form/contactus?';
+    var datais = form.serialize();
+    // console.log('form is here'+form);
+    // console.log('url is here',url);
+
+
+    $.ajax({
+        type: "POST",
+        url: url, //submission.php
+        data: datais, // serializes the form's elements.
+
+        beforeSend: function(data) {
+            alert('working');
+
+            console.log("data is here");
+            // console.log('form data'+data);
+        },
+        success: function(data) {
+            alert(data); // show response from the php script.
+        }
+    })
+
+});
+
+
+$("#demo_account_form").submit(function(e) {
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+    var form = $(this);
+    var url = '/form.php';
+    var datais = form.serialize();
     debugger
-})
+    // console.log('form is here'+form);
+    // console.log('url is here',url);
+    $.ajax({
+        type: "POST",
+        url: url, //submission.php
+        data: datais, // serializes the form's elements.
+
+        beforeSend: function(data) {
+            alert('working');
+
+            console.log("data is here");
+            // console.log('form data'+data);
+        },
+        success: function(data) {
+
+            alert(data); // show response from the php script.
+        }
+    })
+
+});
