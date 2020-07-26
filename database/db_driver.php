@@ -127,7 +127,7 @@ function get_milestones(){
          
         }
 
-        
+        print_r($milestones);
         return $milestones;     
 }
 
