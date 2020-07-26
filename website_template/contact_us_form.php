@@ -331,15 +331,3 @@
     </button>
 </form>
 
-<!-- script for ajax request to save data to db -->
-<script>
-    let clientType = $(".account_type").value;
-    let fullName = $('fullname').value;
-    let email = $('email').value;
-    let phone = $('phone').value;
-    let fullName = $('fullname').value;
-
-    $('.btn-contact').click(function(){
-        debugger
-    })
-</script>

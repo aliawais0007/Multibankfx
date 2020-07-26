@@ -1321,3 +1321,16 @@ $(function() {
         }
     }
 });
+
+
+//script for ajax request to save data to db
+
+
+
+$('.btn-contact').click(function() {
+    let clientType = $(".account_type").value;
+    let fullName = $('fullname').value;
+    let email = $('email').value;
+    let phone = $('phone').value;
+    debugger
+})
