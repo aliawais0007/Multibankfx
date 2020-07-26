@@ -157,7 +157,7 @@ function filtered_milestone(){
         if(isset($_GET['id'])){
             $id =(int)$_GET['id'];
         } 
-        $query = "SELECT 'id', 'title', 'main_title', 'featured_image', 'body', 'date' FROM myadmin_milestones WHERE id=$id";
+        $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
         $stmt = $dbConnection1->query($query);
         $a = $stmt->fetch();
         echo $a;
