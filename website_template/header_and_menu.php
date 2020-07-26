@@ -20,7 +20,7 @@
             <div class="row nav-bar justify-content-between mx-0">
                 <div class="line-height-75 line-height-1280-55 header-bottom-left-container">
                     <div class="header-boottom-logo">
-                        <a href="index.php">
+                        <a href="/">
                             <img alt="logo" class="logo logo-dark header-logo" src="/public_files/images/common/logo_black_360.png" />
                         </a>
                     </div>
