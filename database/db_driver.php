@@ -112,6 +112,7 @@ function get_milestones(){
         // $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_milestones";
         $stmt = $dbConnection1->query($query);
+        print_r($stmt->fetchColumn());
         $milestones = [];
 		while ($row = $stmt->fetch()) {
             $object = new stdClass();
