@@ -164,7 +164,7 @@ function filtered_milestone(){
         $object = new stdClass();
         $object->id=$a[0];
         $object->title=$a[4];
-        $object->main_title=$a[3];
+        $object->main_title=$a[9];
         $object->featured_image=$a[5];
         // $object->body=$a[2];
         $object->date=$a[1];
