@@ -6,8 +6,8 @@ $item = "";
 $itemb = "";
 $page = "";
 if(isset($_GET['id'])){
-    $page =(int)$_GET['id'];
-} else $page = 1;
+    $page =$_GET['id'];
+} else $page = '1';
     
 
     foreach ($pagNews as $key=>$list) {
