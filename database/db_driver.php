@@ -163,9 +163,9 @@ function filtered_milestone(){
         print_r($a);
         $object = new stdClass();
         $object->id=$a[0];
-        $object->title=$a[2];
+        $object->title=$a[4];
         $object->main_title=$a[5];
-        $object->featured_image=$a[4];
+        $object->featured_image=$a[2];
         $object->body=$a[1];
         $object->date=$a[1];
         return $object;       
