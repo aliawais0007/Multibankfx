@@ -111,22 +111,23 @@ function get_milestones(){
         // $limit = 9;
         // $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_milestones";
-        $stmt = $dbConnection1->query($query);
-        $milestones = [];
-		while ($row = $stmt->fetch()) {
-            $object = new stdClass();
-            $object->id=$row['id'];
-            $object->title=$row['title'];
-            $object->main_title=$row['main_title'];
-            $object->post_image=$row['post_image'];
-            $object->featured_image=$row['featured_image'];
-            $object->body=$row['body'];
-            $object->status=$row['status'];
-            $object->date=$row['date'];
-            array_push($milestones, $object);
+        $stmt = $dbConnection1->query($query)->fetchColumn();
+        echo $stmt;
+        // $milestones = [];
+		// while ($row = $stmt->fetch()) {
+        //     $object = new stdClass();
+        //     $object->id=$row['id'];
+        //     $object->title=$row['title'];
+        //     $object->main_title=$row['main_title'];
+        //     $object->post_image=$row['post_image'];
+        //     $object->featured_image=$row['featured_image'];
+        //     $object->body=$row['body'];
+        //     $object->status=$row['status'];
+        //     $object->date=$row['date'];
+        //     array_push($milestones, $object);
          
-        }
-        return $milestones;     
+        // }
+        // return $milestones;     
 }
 
 function filtered_news(){
