@@ -73,7 +73,7 @@ $news = filtered_news();
                                 <div class="article-date"><?php echo $news->date?> | News</div>
                             </header>
                         </article>
-                        <img src="<?php echo $news->featured_image?>" class="article-img" />
+                        <img src="<?php echo $news->featured_image?$news->featured_image:$news->post_image?>" class="article-img" />
                         <?php echo $news->body?>
                     </div>
                     <style>
