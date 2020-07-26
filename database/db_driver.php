@@ -160,13 +160,13 @@ function filtered_milestone(){
         $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
         $stmt = $dbConnection1->query($query);
         $a = $stmt->fetch();
-        echo json_encode($a);
+        print_r($a);
         $object = new stdClass();
         $object->id=$a[0];
         $object->title=$a[2];
         $object->main_title=$a[5];
         $object->featured_image=$a[4];
-        $object->body=$a[3];
+        $object->body=$a[1];
         $object->date=$a[1];
         return $object;       
 }
