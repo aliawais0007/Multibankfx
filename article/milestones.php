@@ -3,19 +3,19 @@ $milestones = get_milestones();
 count($milestones);
 $milestone = "";
 foreach($milestones as $key=>$value){
- $milestone.='<section class="my-0 py-0">
-                <div class="container">
-                    <div class="row ml-3"><a href="/article/milestone-detail.php?id='.$value->id.'" style="width:100%">
-                            <div class="col-12 milestone-container row flex-column flex-lg-row py-3"><img style="width:100%" class="col-12 col-lg-4 col-xl-3 m-0 p-0 pr-lg-3" src="'.$value->post_image.'" alt="'.$value->post_image.'" />
-                                <div class="details-container col-12 col-lg-8 col-xl-9 mt-3 mt-lg-0 py-xl-3 border">
-                                    <div class="row">
-                                        <div class="mark-container col-1 d-none d-lg-block">
-                                            <div class="mark"></div>
+ $milestone.="<section class='my-0 py-0'>
+                <div class='container'>
+                    <div class='row ml-3'><a href='/article/milestone-detail.php?id=".$value->id."' style='width:100%'>
+                            <div class='col-12 milestone-container row flex-column flex-lg-row py-3'><img style='width:100%' class='col-12 col-lg-4 col-xl-3 m-0 p-0 pr-lg-3' src=''.$value->post_image.'' alt=''.$value->post_image.'' />
+                                <div class='details-container col-12 col-lg-8 col-xl-9 mt-3 mt-lg-0 py-xl-3 border'>
+                                    <div class='row'>
+                                        <div class='mark-container col-1 d-none d-lg-block'>
+                                            <div class='mark'></div>
                                         </div>
-                                        <div class="col-11">
-                                            <div class="title"><?php translate('.$value->main_title.'); ?></div>
-                                            <div class="date">2019-10-03</div>
-                                            <div class="summary">
+                                        <div class='col-11'>
+                                            <div class='title'><?php translate('".$value->main_title."'); ?></div>
+                                            <div class='date'>".$value->main_title."</div>
+                                            <div class='summary'>
                                                 <p>'.$value->title.'</p>
                                             </div>
                                         </div>
@@ -24,7 +24,7 @@ foreach($milestones as $key=>$value){
                             </div>
                         </a></div>
                 </div>
-            </section>';
+            </section>";
 }
             ?>
 <!DOCTYPE html>
