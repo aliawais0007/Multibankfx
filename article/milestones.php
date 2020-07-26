@@ -2,7 +2,7 @@
 $milestones = get_milestones();
 count($milestones);
 $milestone = "";
-foreach($milestones as $key=>$value){
+foreach($milestones as $value){
  $milestone.="<section class='my-0 py-0'>
                 <div class='container'>
                     <div class='row ml-3'><a href='/article/milestone-detail.php?id=".$value->id."' style='width:100%'>
