@@ -149,7 +149,7 @@
         <div class="row">
             <div class="home-banner-form d-none d-md-block">
                 <div class="mex-p-h-15">
-                    <form action="https://www.multibankfx.com/form/contactus?" name='contact_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='contact_us_form' target='' autocomplete='on'>
+                    <!-- <form action="https://www.multibankfx.com/form/contactus?" name='contact_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='contact_us_form' target='' autocomplete='on'>
                         <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMjo0ODo1Nw==' />
                         <input type='hidden' name='token' value='$2y$10$G/b8BZYaowR1otfc9WItS.MmdqmS03m1hHvn32dscHiIzPLLd..e6' />
                         <input type='hidden' name='source' value=' <br/><br/> posted From: www.multibankfx.com/?web=true' />
@@ -480,7 +480,8 @@
                         </div>
                         <button type='submit' class='btn-contact mx-1 mt-2 mb-0' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-785e4eb336bec21b04c19cf7-=""><?php translate('SUBMIT'); ?>
                         </button>
-                    </form>
+                    </form> -->
+                    <?php include_from_root("website_templates/contact_us_form.php")?>
                     <hr class="mx-1 my-2 bg-dark">
                     <div class="px-1 contact-form-button-container">
                         <a href="account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
