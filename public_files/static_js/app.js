@@ -1392,7 +1392,6 @@ $(".btn-contact").click(function(e) {
     e.preventDefault(); // avoid to execute the actual submit of the form.
     var fullname = $(".form-control");
     var url = '/form.php';
-    var datais = form.serialize();
     debugger
     // console.log('form is here'+form);
     // console.log('url is here',url);
