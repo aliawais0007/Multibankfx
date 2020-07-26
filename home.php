@@ -481,7 +481,7 @@
                         <button type='submit' class='btn-contact mx-1 mt-2 mb-0' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-785e4eb336bec21b04c19cf7-=""><?php translate('SUBMIT'); ?>
                         </button>
                     </form> -->
-                    <?php include_from_root("website_templates/contact_us_form.php")?>
+                    <?php include_from_root("website_template/contact_us_form.php")?>
                     <hr class="mx-1 my-2 bg-dark">
                     <div class="px-1 contact-form-button-container">
                         <a href="account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
