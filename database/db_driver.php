@@ -158,15 +158,14 @@ function filtered_milestone(){
             $id =(int)$_GET['id'];
         } 
         $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
-        $stmt = $dbConnection1->query($query)->fetchColumn();
-        echo $stmt;
-        // $a = $stmt->fetch();
-        // $object = new stdClass();
-        // $object->id=$a[0];
-        // $object->title=$a[2];
-        // $object->main_title=$a[3];
-        // $object->featured_image=$a[5];
-        // $object->body=$a[4];
-        // $object->date=$a[1];
-        // return $object;       
+        $stmt = $dbConnection1->query($query);
+        $a = $stmt->fetch();
+        $object = new stdClass();
+        $object->id=$a[0];
+        $object->title=$a[10];
+        $object->main_title=$a[9];
+        $object->featured_image=$a[4];
+        $object->body=$a[3];
+        $object->date=$a[1];
+        return $object;       
 }
