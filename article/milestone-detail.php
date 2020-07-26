@@ -19,7 +19,7 @@ $milestone = filtered_milestone();
                         <article>
                             <header>
                                 <h1 class="article-title"></h1>
-                                <h1 class="mex-h2 text-1e32a3 text-center c2228"><?php echo $milestone->title?></h1>
+                                <h1 class="mex-h2 text-1e32a3 text-center c2228"><?php echo $milestone->main_title?></h1>
                                 <div class="article-date"><?php echo $milestone->date?> | Milestones</div>
                             </header>
                         </article>
