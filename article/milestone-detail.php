@@ -23,7 +23,7 @@ $milestone = filtered_milestone();
                                 <div class="article-date"><?php echo $milestone->date?> | Milestones</div>
                             </header>
                         </article>
-                        <!-- <img src='' class="article-img" /> -->
+                        <img src='<?php echo $milestone->featured_image?>' class="article-img" />
                         <?php echo $milestone->body?>
                     </div>
                     <style>
