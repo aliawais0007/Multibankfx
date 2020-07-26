@@ -4,27 +4,13 @@ $pagNews = array_slice($allnews, 0,7);
 $itemc = "";
 $item = "";
 $itemb = "";
-$index = 0;
-
-// paginated response
-
-
-    // global $allnews, $item, $itemb, $itemc, $pagNews;
+$page = isset($_GET['id']) ? $_GET['id'] :1;
     
 
     foreach ($pagNews as $key=>$list) {
-
-        //  $url=   urlencode('newsdetail.php?title='+$list->title+'&articlebody='+$list->body+'&date='+$list->date+'&feature_image='+$list->featured_image);
-    
-    
         if ($key==0) {
-    
-            $item .= " 
-                     
-    
-                
-                        <div class='col-xs-12 col-sm-12 col-md-5' style= '    height: fit-content;
-                        '>
+               $item .= " 
+                 <div class='col-xs-12 col-sm-12 col-md-5' style= '    height: fit-content;'>
                         <a class='article-block' href='/article/news-detail.php?id=".$list->id."'>
                             <div class='news-con-det-l'>
                                 <img src='" . $list->post_image . "'
