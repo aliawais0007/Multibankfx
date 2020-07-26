@@ -76,7 +76,7 @@ function translate($text,$page_name=''){
 }
 
 function get_news(){
-	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
+	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/newdb.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
         PDO::ERRMODE_EXCEPTION => TRUE));
         $page = isset($_GET['page']) ? $_GET['page'] : 1;
@@ -104,7 +104,7 @@ function get_news(){
 }
 
 function get_milestones(){
-	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
+	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/newdb.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
         PDO::ERRMODE_EXCEPTION => TRUE));
         // $page = isset($_GET['page']) ? $_GET['page'] : 1;
@@ -131,7 +131,7 @@ function get_milestones(){
 }
 
 function filtered_news(){
-	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
+	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/newdb.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
         PDO::ERRMODE_EXCEPTION => TRUE));
         $id = 0;
@@ -151,7 +151,7 @@ function filtered_news(){
 }
 
 function filtered_milestone(){
-	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/db.sqlite3',"","",array(
+	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/newdb.sqlite3',"","",array(
 		PDO::ATTR_PERSISTENT => TRUE,
         PDO::ERRMODE_EXCEPTION => TRUE));
         $id = 0;
