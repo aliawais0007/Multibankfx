@@ -168,6 +168,5 @@ function filtered_milestone(){
         $object->featured_image=$a[5];
         $object->body=$a[2];
         $object->date=$a[1];
-        print_r($object);
         return $object;       
 }
