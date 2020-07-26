@@ -1810,7 +1810,7 @@ if(isset($_GET['id'])){
             <div class="col-12 col-lg-9 col-lg-offset-1 mex-m-b-50 text-center">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
-                        <li class="page-item disabled"><a class="page-link" href="/article/company-news.php?page=<?php echo $page-1;?>" tabindex="-1">Previous</a> <?php $page=$page-1;?></li>
+                        <li class="page-item disabled"><a class="page-link" href="/article/company-news.php?page=<?php echo $page - 1;?>" tabindex="-1">Previous</a> </li>
                         <?php 
                         for($i=1; $i<=7; $i++){
                             echo "<li class='page-item active'><a class='page-link' href='/article/company-news.php?page=$i'>$i</a></li>";
@@ -1818,7 +1818,7 @@ if(isset($_GET['id'])){
                         
                         ?>
                         <li class="page-item "><a class="page-link" href="/article/company-news.php?page=<?php echo $page+1;?>">Next</a>
-                        <?php $page=$page+1;?>
+
                         </li>
                     </ul>
                 </nav>
