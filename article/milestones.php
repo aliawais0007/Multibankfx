@@ -19,7 +19,7 @@ foreach($milestones as $value){
                                         </div>
                                         <div class='col-11'>
                                             <div class='title'><?php translate($main_title); ?></div>
-                                            <div class='date'>$main_title</div>
+                                            <div class='date'>$date</div>
                                             <div class='summary'>
                                                 <p>$title</p>
                                             </div>
