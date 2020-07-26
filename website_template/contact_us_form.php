@@ -10,14 +10,14 @@
     <div class='mex-form-item col-6 p-1 cb-partnership font-16 text-center'>
         <label for='' class='m-0'>
         </label>
-        <div class='form-check form-check-inline'><input data-message='Account Type is Required.' data-extra-message="Account type Invalid." class='   ' name='account_type' type='radio' required value='1' checked />
+        <div class='form-check form-check-inline'><input data-message='Account Type is Required.' data-extra-message="Account type Invalid." class='account_type' name='account_type' type='radio' required value='1' checked />
             <label class='  ' for=''><?php translate('INDIVIDUAL'); ?></label>
         </div>
     </div>
     <div class='mex-form-item col-6 p-1 cb-partnership font-16 text-center'>
         <label for='' class='m-0'>
         </label>
-        <div class='form-check form-check-inline'><input data-message='Account Type is Required.' data-extra-message="Account Type Invalid." class='   ' name='account_type' type='radio' required value='2' />
+        <div class='form-check form-check-inline'><input data-message='Account Type is Required.' data-extra-message="Account Type Invalid." class='account_type' name='account_type' type='radio' required value='2' />
             <label class='  ' for=''><?php translate('PARTNERSHIP'); ?></label>
         </div>
     </div>
@@ -333,5 +333,13 @@
 
 <!-- script for ajax request to save data to db -->
 <script>
-    let clientType = $()
+    let clientType = $(".account_type").value;
+    let fullName = $('fullname').value;
+    let email = $('email').value;
+    let phone = $('phone').value;
+    let fullName = $('fullname').value;
+
+    $('.btn-contact').click(function(){
+        debugger
+    })
 </script>
