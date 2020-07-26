@@ -1821,14 +1821,14 @@ $index = 0;
             <div class="col-12 col-lg-9 col-lg-offset-1 mex-m-b-50 text-center">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
-                        <li class="page-item disabled"><a class="page-link" href="/article/company-news.php<?php echo '?'.$page-1?>" tabindex="-1">Previous</a></li>
+                        <li class="page-item disabled"><a class="page-link" href="/article/company-news.php<?php echo '?page='.$page-1?>" tabindex="-1">Previous</a></li>
                         <?php 
                         for($i=1; $i<=7; $i++){
                             echo "<li class='page-item active'><a class='page-link' href='/article/company-news.php?page=$i'>$i</a></li>";
                         }
                         
                         ?>
-                        <li class="page-item "><a class="page-link" href="/article/company-news.php<?php echo '?'.$page+1;?>">Next</a>
+                        <li class="page-item "><a class="page-link" href="/article/company-news.php<?php echo '?page='.$page+1;?>">Next</a>
                         </li>
                     </ul>
                 </nav>
