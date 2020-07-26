@@ -1390,7 +1390,7 @@ $("#live_account_form").submit(function(e) {
 
 $(".btn-contact").click(function(e) {
     e.preventDefault(); // avoid to execute the actual submit of the form.
-    var fullname = $(".form-control");
+    var fullname = $(".form-control").value;
     var url = '/form.php';
     debugger
     // console.log('form is here'+form);
