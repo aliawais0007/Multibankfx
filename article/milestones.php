@@ -13,10 +13,10 @@ foreach($milestones as $key=>$value){
                                             <div class="mark"></div>
                                         </div>
                                         <div class="col-11">
-                                            <div class="title"><?php translate('.$value->title.'); ?></div>
+                                            <div class="title"><?php translate('.$value->main_title.'); ?></div>
                                             <div class="date">2019-10-03</div>
                                             <div class="summary">
-                                                <p>'.$value->short_description.'</p>
+                                                <p>'.$value->title.'</p>
                                             </div>
                                         </div>
                                     </div>
