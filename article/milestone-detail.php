@@ -1,6 +1,5 @@
 <?php
 $milestone = filtered_milestone();
-echo $milestone;
 ?>
 <!DOCTYPE html>
 <html lang='en'>
