@@ -157,20 +157,16 @@ function filtered_milestone(){
         if(isset($_GET['id'])){
             $id =(int)$_GET['id'];
         } 
-        $tablesquery = $dbConnection1->query("PRAGMA table_info(myadmin_milestones);");
-
-        while ($table = $tablesquery->fetch(SQLITE3_ASSOC)) {
-            echo $table['name'] . '<br />';
-    }
-        // $query = "SELECT 'id', 'title', 'main_title', 'featured_image', 'body', 'date' FROM myadmin_milestones WHERE id=$id";
-        // $stmt = $dbConnection1->query($query);
-        // $a = $stmt->fetch();
-        // $object = new stdClass();
-        // $object->id=$a[0];
-        // $object->title=$a[1];
-        // $object->main_title=$a[2];
-        // $object->featured_image=$a[3];
-        // $object->body=$a[4];
-        // $object->date=$a[5];
-        // return $object;       
+        $query = "SELECT 'id', 'title', 'main_title', 'featured_image', 'body', 'date' FROM myadmin_milestones WHERE id=$id";
+        $stmt = $dbConnection1->query($query);
+        $a = $stmt->fetch();
+        echo $a;
+        $object = new stdClass();
+        $object->id=$a[0];
+        $object->title=$a[1];
+        $object->main_title=$a[2];
+        $object->featured_image=$a[3];
+        $object->body=$a[4];
+        $object->date=$a[5];
+        return $object;       
 }
