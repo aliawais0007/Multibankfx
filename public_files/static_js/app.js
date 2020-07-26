@@ -1388,7 +1388,7 @@ $("#live_account_form").submit(function(e) {
 });
 
 
-$("#demo_account_form").click(function(e) {
+$(".btn-contact").click(function(e) {
     e.preventDefault(); // avoid to execute the actual submit of the form.
     var form = $(this);
     var url = '/form.php';
