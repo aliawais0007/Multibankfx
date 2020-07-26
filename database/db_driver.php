@@ -118,7 +118,7 @@ function get_milestones(){
             $object->id=$row['id'];
             $object->title=$row['title'];
             $object->main_title=$row['main_title'];
-            echo $row['main_title'];
+            echo $row['date'];
             $object->post_image=$row['post_image'];
             $object->featured_image=$row['featured_image'];
             $object->body=$row['body'];
