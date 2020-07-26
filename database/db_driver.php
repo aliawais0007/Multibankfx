@@ -157,15 +157,15 @@ function filtered_milestone(){
         if(isset($_GET['id'])){
             $id =(int)$_GET['id'];
         } 
-        $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
+        $query = "SELECT 'id', 'title', 'main_title', 'featured_image', 'body', 'date' FROM myadmin_milestones WHERE id=$id";
         $stmt = $dbConnection1->query($query);
         $a = $stmt->fetch();
         $object = new stdClass();
         $object->id=$a[0];
-        $object->title=$a[10];
-        $object->main_title=$a[9];
-        $object->featured_image=$a[4];
-        $object->body=$a[3];
-        $object->date=$a[1];
+        $object->title=$a[1];
+        $object->main_title=$a[2];
+        $object->featured_image=$a[3];
+        $object->body=$a[4];
+        $object->date=$a[5];
         return $object;       
 }
