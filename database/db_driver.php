@@ -111,23 +111,22 @@ function get_milestones(){
         // $limit = 9;
         // $start_from = ($page-1) * $limit;
         $query = "SELECT * FROM myadmin_milestones";
-        $stmt = $dbConnection1->query($query)->fetchColumn();
-        echo $stmt;
-        // $milestones = [];
-		// while ($row = $stmt->fetch()) {
-        //     $object = new stdClass();
-        //     $object->id=$row['id'];
-        //     $object->title=$row['title'];
-        //     $object->main_title=$row['main_title'];
-        //     $object->post_image=$row['post_image'];
-        //     $object->featured_image=$row['featured_image'];
-        //     $object->body=$row['body'];
-        //     $object->status=$row['status'];
-        //     $object->date=$row['date'];
-        //     array_push($milestones, $object);
+        $stmt = $dbConnection1->query($query);
+        $milestones = [];
+		while ($row = $stmt->fetch()) {
+            $object = new stdClass();
+            $object->id=$row['id'];
+            $object->title=$row['title'];
+            $object->main_title=$row['main_title'];
+            $object->post_image=$row['post_image'];
+            $object->featured_image=$row['featured_image'];
+            $object->body=$row['body'];
+            $object->status=$row['status'];
+            $object->date=$row['date'];
+            array_push($milestones, $object);
          
-        // }
-        // return $milestones;     
+        }
+        return $milestones;     
 }
 
 function filtered_news(){
@@ -159,14 +158,15 @@ function filtered_milestone(){
             $id =(int)$_GET['id'];
         } 
         $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
-        $stmt = $dbConnection1->query($query);
-        $a = $stmt->fetch();
-        $object = new stdClass();
-        $object->id=$a[0];
-        $object->title=$a[2];
-        $object->main_title=$a[3];
-        $object->featured_image=$a[5];
-        $object->body=$a[4];
-        $object->date=$a[1];
-        return $object;       
+        $stmt = $dbConnection1->query($query)->fetchColumn();
+        echo $stmt;
+        // $a = $stmt->fetch();
+        // $object = new stdClass();
+        // $object->id=$a[0];
+        // $object->title=$a[2];
+        // $object->main_title=$a[3];
+        // $object->featured_image=$a[5];
+        // $object->body=$a[4];
+        // $object->date=$a[1];
+        // return $object;       
 }
