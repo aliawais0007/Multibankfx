@@ -77,7 +77,7 @@ $news97=""
                             </header>
                         </article>
                         <img src="<?php echo $news->featured_image ? $news->featured_image : $news->post_image ?>" class="article-img" />
-                    </div> 
+                    <?php if($news->id==97){echo '</div>';} ?>
                     <?php echo $news->body ?>
                     </div>
                 <style>
