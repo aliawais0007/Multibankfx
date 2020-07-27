@@ -23,7 +23,7 @@ if ($_POST) {
 
         //footer from
 
-        $db->query("INSERTINTO myadmin_call_back (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
+        $db->query("INSERT INTO myadmin_call_back (name,email,phone,status) VALUES ($name, $email,$phone,$status)");
         echo "inerted data";
         //........
     }
@@ -31,18 +31,18 @@ if ($_POST) {
         //........
         //partner from
 
-        $db->query("INSERTINTO myadmin_partner (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
+        $db->query("INSERT INTO myadmin_partner (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
     }
     if (isset($_POST['account_type'])) {
 
 
         //contact us form
-        $db->query("INSERTINTO myadmin_contact_us (status,fullname,email,phone,contacttype) VALUES ('$status','$name', '$email','$phone','$contact_type')");
+        $db->query("INSERT INTO myadmin_contact_us (status,fullname,email,phone,contacttype) VALUES ('$status','$name', '$email','$phone','$contact_type')");
         echo "inerted data";
     }
     if (isset($_POST['platform_version'])) {
         //demo from
-        $db->query("INSERTINTO myadmin_demo_account (name,mobile,email,platform) VALUES ('$name', '$email','$phone','$platform')");
+        $db->query("INSERT INTO myadmin_demo_account (name,mobile,email,platform) VALUES ('$name', '$email','$phone','$platform')");
         echo "inerted data";
     }
 
