@@ -555,7 +555,7 @@ $news97=""
                     <hr class="c881"/>
                     <div class="row side-news-frame mx-0 mb-3">
                         <a href="/article/news-detail?id=91" class="thumbnail-frame col-6 px-0">
-                            <img src="/public_files/blog/thumbnails/2020_winners_announced_thumbnail.png" class="side-news-thumbnail" />
+                            <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
                             <a href="/article/news-detail?id=91" class="text-left article-thumbnail-text c933">Winners Announced for the MultiBank Fast & Furious Trading Contest
@@ -592,7 +592,7 @@ $news97=""
                     </div>
                     <div class="row side-news-frame mx-0 mb-3">
                         <a href="/article/news-detail?id=94" class="thumbnail-frame col-6 px-0">
-                            <img src="/public_files/images/blog/malaysia_seminar_en.jpg" class="side-news-thumbnail" />
+                            <img src="/public_files/blog/thumbnails/malaysia_seminar_thumbnail_en.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
                             <a href="/article/news-detail?id=94" class="text-left article-thumbnail-text c1131">
