@@ -676,7 +676,7 @@ $news = filtered_news();
                     <p class="mex-content text-center mex-m-b-none d-none d-md-block">For any questions or inquiries, please do not hesitate
                         to contact our 24/5 professional multilingual Customer Service</p>
                 </div>
-                <div class="col-lg-12 row ">
+                <div class="row">
                     <div class="border-line col-md-6 col-lg-4 col-sm-12 col-xs-12 hidden-md">
                         <div class="mex-h3  mex-p-v-15 ">Phone Numbers Worldwide</div>
                         <ul class="contact-country">
