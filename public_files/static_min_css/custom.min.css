@@ -7297,11 +7297,19 @@ ul.mex-list-disc li {
     width: 65%
 }
 
-.news-con-det-sec,
-.news-con-det-l {
+.news-con-det-sec {
     text-decoration: none;
     padding-bottom: 1.7vw;
     margin-top: 2.5vw;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, .1) 0 0 15px 3px;
+    transform: translate3d(0, 0, 0);
+    transition: transform .3s ease-in-out 0s, box-shadow .3s ease-in-out 0s
+}
+
+.news-con-det-l {
+    text-decoration: none;
+    padding-bottom: 1.7vw;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, .1) 0 0 15px 3px;
     transform: translate3d(0, 0, 0);
