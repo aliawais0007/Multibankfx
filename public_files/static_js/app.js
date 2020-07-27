@@ -1398,7 +1398,7 @@ $(".btn-contact").click(function(e) {
     $.ajax({
         type: "POST",
         url: url, //submission.php
-        data: { email: data[3].value }, // serializes the form's elements.
+        data: { email: data[3].value, fullname: data[1].value }, // serializes the form's elements.
 
         beforeSend: function(data) {
             alert('working');
