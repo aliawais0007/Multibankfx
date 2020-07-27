@@ -38,10 +38,10 @@
                                             <div class="platform-name text-center mex-translatable" data-es="/Web de comercio" data-de="/Web-Trading" data-ph="" data-vn="" data-id="Perdagangan Web" data-pt="Negociação na Web" data-ru="Веб-трейдинг" data-it="" data-fr="" data-mys="Perdagangan Web" data-th="เว็บเทรดดิ้ง" data-ae="منصة الويب"><?php translate('Web Trading'); ?>
                                             </div>
                                             <div class="platform-icon">
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/chrome.png" alt="chrome"></a>
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/firefox.png" alt="firefox"></a>
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/ic_ie@2x.png" alt="IE"></a>
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/safari.png" alt="safari"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/chrome.png" alt="chrome"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/firefox.png" alt="firefox"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/ic_ie@2x.png" alt="IE"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/safari.png" alt="safari"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -68,10 +68,10 @@
                                             <div class="platform-name text-center mex-translatable" data-es="/Web de comercio" data-de="/Web-Trading" data-ph="" data-vn="" data-id="Perdagangan Web" data-pt="Negociação na Web" data-ru="Веб-трейдинг" data-it="" data-fr="" data-mys="Perdagangan Web" data-th="เว็บเทรดดิ้ง" data-ae="منصة الويب"><?php translate('Web Trading'); ?>
                                             </div>
                                             <div class="platform-icon">
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/chrome.png" alt="chrome"></a>
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/firefox.png" alt="firefox"></a>
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/ic_ie@2x.png" alt="IE"></a>
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/safari.png" alt="safari"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/chrome.png" alt="chrome"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/firefox.png" alt="firefox"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/ic_ie@2x.png" alt="IE"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/safari.png" alt="safari"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -98,10 +98,10 @@
                                             <div class="platform-name text-center mex-translatable" data-es="/Web de comercio" data-de="/Web-Trading" data-ph="" data-vn="" data-id="Perdagangan Web" data-pt="Negociação na Web" data-ru="Веб-трейдинг" data-it="" data-fr="" data-mys="Perdagangan Web" data-th="เว็บเทรดดิ้ง" data-ae="منصة الويب"><?php translate('Web Trading'); ?>
                                             </div>
                                             <div class="platform-icon">
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/chrome.png" alt="chrome"></a>
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/firefox.png" alt="firefox"></a>
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/ic_ie@2x.png" alt="IE"></a>
-                                                <a href="mql5.php" target="_blank"><img src="/public_files/images/common/safari.png" alt="safari"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/chrome.png" alt="chrome"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/firefox.png" alt="firefox"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/ic_ie@2x.png" alt="IE"></a>
+                                                <a href="/mql5.php" target="_blank"><img src="/public_files/images/common/safari.png" alt="safari"></a>
                                             </div>
                                         </div>
                                     </div>
