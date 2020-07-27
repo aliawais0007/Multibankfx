@@ -1325,7 +1325,7 @@ $(function() {
 
 //script for ajax request to save data to db
 $("#contact_us_form").submit(function(e) {
-
+    debugger
     alert('froms ajax file contact us from');
     e.preventDefault(); // avoid to execute the actual submit of the form.
 

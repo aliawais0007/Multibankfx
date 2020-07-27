@@ -1,4 +1,4 @@
-<form action="https://www.multibankfx.com/form/contactus?" name='contact_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='contact_us_form' target='' autocomplete='on'>
+<form name='contact_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='contact_us_form' target='' autocomplete='on'>
     <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMjo0ODo1Nw==' />
     <input type='hidden' name='token' value='$2y$10$G/b8BZYaowR1otfc9WItS.MmdqmS03m1hHvn32dscHiIzPLLd..e6' />
     <input type='hidden' name='source' value=' <br/><br/> posted From: www.multibankfx.com/?web=true' />
@@ -327,7 +327,7 @@
         <button class='btn btn-mex w-100 h-40p send-verification-code-btn min-w-unset ' id='button-send-callme_form' type='button' title='Send Code'><?php translate('Send Code'); ?>
         </button>
     </div>
-    <button type='submit' class='btn-contact mx-1 mt-2 mb-0' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-785e4eb336bec21b04c19cf7-=""><?php translate('SUBMIT'); ?>
+    <button type='submit' class='btn-contact mx-1 mt-2 mb-0'><?php translate('SUBMIT'); ?>
     </button>
 </form>
 
