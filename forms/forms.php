@@ -18,8 +18,6 @@ if ($_POST) {
     $tin_number =  isset($_POST['tin_number']) ? $_POST['tin_number'] : '';
     $name2 =  isset($_POST['name2']) ? $_POST['name2'] : '';
     $name2 =  isset($_POST['name2']) ? $_POST['name2'] : '';
-
-
     $status = 1;
     if (isset($_POST['footer_form'])) {
 
@@ -39,7 +37,7 @@ if ($_POST) {
 
 
         //contact us form
-        $db->query("INSERTINTO table_home_form (status,fullname,email,phone,contacttype) VALUES ('$status','$name', '$email','$phone','$contact_type')");
+        $db->query("INSERTINTO myadmin_contact_us (status,fullname,email,phone,contacttype) VALUES ('$status','$name', '$email','$phone','$contact_type')");
         echo "inerted data";
     }
     if (isset($_POST['platform_version'])) {
