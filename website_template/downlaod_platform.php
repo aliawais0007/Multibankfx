@@ -24,7 +24,7 @@
                                             <div class="platform-icon">
                                                 <a href="https://itunes.apple.com/us/app/metatrader-4/id496212596" target="_blank"><img src="/public_files/images/common/ic_apple@2x.png" alt="apple"></a>
                                                 <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4" target="_blank"><img src="/public_files/images/common/google_open.png" alt="google"></a>
-                                                <a href="/web/uploads/democomp/metatrader4.apk" target="_blank"><img src="/public_files/images/common/ic_android.svg" alt="android"></a>
+                                                <a href="web/uploads/democomp/metatrader4.apk" target="_blank"><img src="/public_files/images/common/ic_android.svg" alt="android"></a>
                                             </div>
                                         </div>
                                         <div class="platform-box">
@@ -54,7 +54,7 @@
                                             <div class="platform-icon">
                                                 <a href="https://itunes.apple.com/us/app/metatrader-4/id496212596" target="_blank"><img src="/public_files/images/common/ic_apple@2x.png" alt="apple"></a>
                                                 <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4" target="_blank"><img src="/public_files/images/common/google_open.png" alt="google"></a>
-                                                <a href="/web/uploads/democomp/metatrader4.apk" target="_blank"><img src="/public_files/images/common/ic_android.svg" alt="android"></a>
+                                                <a href="web/uploads/democomp/metatrader4.apk" target="_blank"><img src="/public_files/images/common/ic_android.svg" alt="android"></a>
                                             </div>
                                         </div>
                                         <div class="platform-box">
