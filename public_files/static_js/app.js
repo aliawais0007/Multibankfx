@@ -1325,7 +1325,7 @@ $(function() {
 
 //script for ajax request to save data to db
 $("#contact_us_form").submit(function(e) {
-    alert('froms ajax file contact us from');
+
     e.preventDefault(); // avoid to execute the actual submit of the form.
 
     var form = $(this);
@@ -1341,20 +1341,20 @@ $("#contact_us_form").submit(function(e) {
         data: datais, // serializes the form's elements.
 
         beforeSend: function(data) {
-            alert('working');
+
 
             console.log("data is here");
             // console.log('form data'+data);
         },
         success: function(data) {
-            alert(data); // show response from the php script.
+
         }
     })
 
 });
 
 $("#live_account_form").submit(function(e) {
-    alert('froms ajax file live accout');
+
 
     e.preventDefault(); // avoid to execute the actual submit of the form.
 
@@ -1371,13 +1371,13 @@ $("#live_account_form").submit(function(e) {
         data: datais, // serializes the form's elements.
 
         beforeSend: function(data) {
-            alert('working');
+
 
             console.log("data is here");
             // console.log('form data'+data);
         },
         success: function(data) {
-            alert(data); // show response from the php script.
+
         }
     })
 
@@ -1385,7 +1385,7 @@ $("#live_account_form").submit(function(e) {
 
 
 $("#demo_account_form").submit(function(e) {
-    alert('froms demo');
+
 
     e.preventDefault(); // avoid to execute the actual submit of the form.
 
@@ -1404,13 +1404,13 @@ $("#demo_account_form").submit(function(e) {
         data: datais, // serializes the form's elements.
 
         beforeSend: function(data) {
-            alert('working');
+
 
             console.log("data is here");
             // console.log('form data'+data);
         },
         success: function(data) {
-            alert(data); // show response from the php script.
+
         }
     })
 
@@ -1419,7 +1419,7 @@ $("#demo_account_form").submit(function(e) {
 
 //these are for call backs form .there are maany froms
 $("#call_back_footer_form").submit(function(e) {
-    alert('froms ajax file footer from');
+
     e.preventDefault(); // avoid to execute the actual submit of the form.
 
     var form = $(this);
@@ -1435,13 +1435,13 @@ $("#call_back_footer_form").submit(function(e) {
         data: datais, // serializes the form's elements.
 
         beforeSend: function(data) {
-            alert('working');
+
 
             console.log("data is here");
             // console.log('form data'+data);
         },
         success: function(data) {
-            alert(data); // show response from the php script.
+
         }
     })
 
@@ -1449,7 +1449,7 @@ $("#call_back_footer_form").submit(function(e) {
 
 //partnership form
 $("#ib_form").submit(function(e) {
-    alert('froms ajax file footer from');
+
     e.preventDefault(); // avoid to execute the actual submit of the form.
 
     var form = $(this);
@@ -1465,13 +1465,13 @@ $("#ib_form").submit(function(e) {
         data: datais, // serializes the form's elements.
 
         beforeSend: function(data) {
-            alert('working');
+
 
             console.log("data is here");
             // console.log('form data'+data);
         },
         success: function(data) {
-            alert(data); // show response from the php script.
+
         }
     })
 
