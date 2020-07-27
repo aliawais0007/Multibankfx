@@ -7005,7 +7005,7 @@ ul.mex-list-disc li {
     line-height: 1.2;
     color: #222;
     width: 90%;
-    margin: 0 auto;
+    margin: 1vh auto;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;

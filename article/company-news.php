@@ -113,7 +113,7 @@ if(isset($_GET['id'])){
 
 
             .news-con-det-l {
-                min-height: 485px !important;
+                min-height: fit-content !important;
             }
         }
 
