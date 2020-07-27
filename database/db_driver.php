@@ -146,7 +146,7 @@ function filtered_news(){
         $object->featured_image=$a[4];
         $object->body=$a[3];
         $object->date=$a[1];
-        echo $object;
+        print_r($object);
         return $object;     
 }
 
