@@ -566,7 +566,7 @@ $news97=""
                     </div>
                     <div class="row side-news-frame mx-0 mb-3">
                         <a href="/article/news-detail?id=92" class="thumbnail-frame col-6 px-0">
-                            <img src="/public_files/images/blog/MB_BMW_banner_2_en.jpg" class="side-news-thumbnail" />
+                            <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
                             <a href="/article/news-detail?id=92" class="text-left article-thumbnail-text c1001">
