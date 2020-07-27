@@ -63,10 +63,10 @@
             <div class="container">
                 <div class="row justify-content-start">
                     <div class="col-sm-6 col-8">
-                        <h1 class="mex-h1 text-left"><?php translate('COMMODITIES'); ?></h1>
-                        <div class="mex-content mex-m-b-30 text-right">
-                            <p class="mex-m-t-15 mex-m-b-15"><?php translate('Trade commodities such as natural gas, crude oil, etc.'); ?></p>
-                            <p class="mex-m-t-15 mex-m-b-15"><?php translate('Commodities are great assets to diversify an investor(s) portfolio. The price fluctuation is mainly dependent on the supply and demand of the whole world.'); ?></p>
+                        <h1 class="mex-h1 text-left text-white"><?php translate('COMMODITIES'); ?></h1>
+                        <div class="mex-content mex-m-b-30 text-left text-white">
+                            <p class="mex-m-t-15 mex-m-b-15 text-white"><?php translate('Trade commodities such as natural gas, crude oil, etc.'); ?></p>
+                            <p class="mex-m-t-15 mex-m-b-15 text-white"><?php translate('Commodities are great assets to diversify an investor(s) portfolio. The price fluctuation is mainly dependent on the supply and demand of the whole world.'); ?></p>
                         </div>
                     </div>
                 </div>

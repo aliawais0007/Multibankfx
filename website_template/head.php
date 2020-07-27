@@ -83,8 +83,8 @@
     <link rel="stylesheet" type="text/css" href="/public_files/static_css/payment_gateway/form_validate.css">
     <link rel="stylesheet" type="text/css" href="/public_files/static_css/font-awesome.min.css">
     <script type="62d2d0d9881871a18debc942-text/javascript" src="/public_files/static_js/jquery.ba-throttle-debounce.js"></script>
-    <script src="/public_files/static_js/jquery-3.3.1.min.js" type="785e4eb336bec21b04c19cf7-text/javascript"></script>
-    <script type="785e4eb336bec21b04c19cf7-text/javascript">
+    <script src="/public_files/static_js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
         const page_dir = 'ltr';
     </script>
     <link rel="stylesheet" type="text/css" href="/public_files/static_css/swiper-3.4.2.min.css">

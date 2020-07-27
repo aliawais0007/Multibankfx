@@ -95,7 +95,7 @@
                                 <div class="nav-menu-heading">
                                     <h4 class="uppercase mb0 text-center"><?php translate('OPEN AN ACCOUNT'); ?></h4>
                                 </div>
-                                <a class="d-block w-75 mx-auto" href="account/live-account.php"><img alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/menu_ads_banner.png" /></a>
+                                <a class="d-block w-75 mx-auto" href="/account/live-account.php"><img alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/menu_ads_banner.png" /></a>
                             </div>
                         </div>
                     </div>
@@ -104,21 +104,21 @@
                     <div class="w-75 mx-auto row">
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="menu_txt_content">
-                                <div class="mex-h2 uppercase mb0"><a class="font-40  text-left mex-p-l-none mex-p-r-none" href="products.php"><?php translate('Products'); ?></a>
+                                <div class="mex-h2 uppercase mb0"><a class="font-40  text-left mex-p-l-none mex-p-r-none" href="/products.php"><?php translate('Products'); ?></a>
                                 </div>
                                 <p class="line-height-30"><?php translate('Trade MultiBank’s wide range of financial products.'); ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12 nav-col-hr">
                             <div class="nav-menu-heading">
-                                <h4 class="uppercase mb0"><a class="font-24" href="products.php"><?php translate('Products'); ?></a></h4>
+                                <h4 class="uppercase mb0"><a class="font-24" href="/products.php"><?php translate('Products'); ?></a></h4>
                             </div>
                             <ul class="nav-menu-list">
-                                <li><a href="products/forex.php"><?php translate('Forex'); ?></a></li>
-                                <li><a href="products/metals.php"><?php translate('Metals'); ?></a></li>
-                                <li><a href="products/shares.php"><?php translate('Shares'); ?></a></li>
-                                <li><a href="products/indices.php"><?php translate('Indices'); ?></a></li>
-                                <li><a href="products/commodities.php"><?php translate('Commodities'); ?></a></li>
+                                <li><a href="/products/forex.php"><?php translate('Forex'); ?></a></li>
+                                <li><a href="/products/metals.php"><?php translate('Metals'); ?></a></li>
+                                <li><a href="/products/shares.php"><?php translate('Shares'); ?></a></li>
+                                <li><a href="/products/indices.php"><?php translate('Indices'); ?></a></li>
+                                <li><a href="/products/commodities.php"><?php translate('Commodities'); ?></a></li>
 
                             </ul>
                         </div>
@@ -127,7 +127,7 @@
                                 <div class="nav-menu-heading">
                                     <h4 class="uppercase mb0 text-center"><?php translate('OPEN AN ACCOUNT'); ?></h4>
                                 </div>
-                                <a class="d-block w-75 mx-auto" href="account/live-account.php"><img alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/menu_ads_banner.png" /></a>
+                                <a class="d-block w-75 mx-auto" href="/account/live-account.php"><img alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/menu_ads_banner.png" /></a>
                             </div>
                         </div>
                     </div>
@@ -136,23 +136,23 @@
                     <div class="w-75 mx-auto row">
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="menu_txt_content">
-                                <div class="mex-h2 uppercase mb0"><a class="font-40  text-left mex-p-l-none mex-p-r-none" href="platforms.php"><?php translate('Platforms'); ?></a>
+                                <div class="mex-h2 uppercase mb0"><a class="font-40  text-left mex-p-l-none mex-p-r-none" href="/platforms.php"><?php translate('Platforms'); ?></a>
                                 </div>
                                 <p class="line-height-30"><?php translate('Trade on MultiBank’s award-winning MT4 & MT5 platforms.'); ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12 nav-col-hr">
                             <div class="nav-menu-heading">
-                                <h4 class="uppercase mb0"><a class="font-24" href="platforms.php"><?php translate('Platforms'); ?></a></h4>
+                                <h4 class="uppercase mb0"><a class="font-24" href="/platforms.php"><?php translate('Platforms'); ?></a></h4>
                             </div>
                             <ul class="nav-menu-list">
-                                <li><a href="platforms/compare-platforms.php"><?php translate('Compare Platforms'); ?></a></li>
-                                <!-- <li><a href="platforms/ecn-pro.php"><?php translate('ECN Pro'); ?></a></li> -->
-                                <li><a href="platforms/multibank-pro.php"><?php translate('MultiBank Pro'); ?></a></li>
-                                <li><a href="platforms/maximus.php"><?php translate('Maximus'); ?></a></li>
-                                <li><a href="platforms/mt5-platform.php"><?php translate('MT5 Platform'); ?></a></li>
+                                <li><a href="/platforms/compare-platforms.php"><?php translate('Compare Platforms'); ?></a></li>
+                                <!-- <li><a href="/platforms/ecn-pro.php"><?php translate('ECN Pro'); ?></a></li> -->
+                                <li><a href="/platforms/multibank-pro.php"><?php translate('MultiBank Pro'); ?></a></li>
+                                <li><a href="/platforms/maximus.php"><?php translate('Maximus'); ?></a></li>
+                                <li><a href="/platforms/mt5-platform.php"><?php translate('MT5 Platform'); ?></a></li>
                                 <!-- <li><a href="social-trading.php"><?php translate('Social Trading'); ?></a></li> -->
-                                <li><a href="platforms/download-center.php"><?php translate('Download Center'); ?></a></li>
+                                <li><a href="/platforms/download-center.php"><?php translate('Download Center'); ?></a></li>
                             </ul>
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12">
@@ -160,7 +160,7 @@
                                 <div class="nav-menu-heading">
                                     <h4 class="uppercase mb0 text-center"><?php translate('OPEN AN ACCOUNT'); ?></h4>
                                 </div>
-                                <a class="d-block w-75 mx-auto" href="account/live-account.php"><img alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/menu_ads_banner.png" /></a>
+                                <a class="d-block w-75 mx-auto" href="/account/live-account.php"><img alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/menu_ads_banner.png" /></a>
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                     <div class="w-75 mx-auto row">
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="menu_txt_content">
-                                <div class="mex-h2 uppercase mb0"><a class="font-40  text-left mex-p-l-none mex-p-r-none" href="account.php"><?php translate('Accounts
+                                <div class="mex-h2 uppercase mb0"><a class="font-40  text-left mex-p-l-none mex-p-r-none" href="/account.php"><?php translate('Accounts
                                         & Funding'); ?></a></div>
                                 <p class="line-height-30"><?php translate('MultiBank offers customers direct access to banks and
                                     exchanges through its advanced trading platforms.'); ?></p>
@@ -177,18 +177,18 @@
                         </div>
                         <div class="col-md-4 col-sm-12  col-xs-12 nav-col-hr">
                             <div class="nav-menu-heading">
-                                <h4 class="uppercase mb0"><a class="font-24" href="account.php"><?php translate('Accounts &
+                                <h4 class="uppercase mb0"><a class="font-24" href="/account.php"><?php translate('Accounts &
                                         Funding'); ?></a>
                                 </h4>
                             </div>
                             <ul class="nav-menu-list">
-                                <li><a href="account/live-account.php"><?php translate('Live Account'); ?></a></li>
-                                <li><a href="demo_competition.php"><?php translate('Demo Account'); ?></a></li>
-                                <li><a href="account/islamic-account.php"><?php translate('Islamic Account'); ?></a></li>
-                                <li><a href="account/account-funding.php"><?php translate('Account Funding'); ?></a></li>
-                                <li><a href="account/withdrawals.php"><?php translate('Withdrawals'); ?></a></li>
-                                <li><a href="account/account-forms.php"><?php translate('Account Forms'); ?></a></li>
-                                <li><a href="account/bonus.php"><?php translate('Bonuses'); ?></a></li>
+                                <li><a href="/account/live-account.php"><?php translate('Live Account'); ?></a></li>
+                                <li><a href="/demo_competition.php"><?php translate('Demo Account'); ?></a></li>
+                                <li><a href="/account/islamic-account.php"><?php translate('Islamic Account'); ?></a></li>
+                                <li><a href="/account/account-funding.php"><?php translate('Account Funding'); ?></a></li>
+                                <li><a href="/account/withdrawals.php"><?php translate('Withdrawals'); ?></a></li>
+                                <li><a href="/account/account-forms.php"><?php translate('Account Forms'); ?></a></li>
+                                <li><a href="/account/bonus.php"><?php translate('Bonuses'); ?></a></li>
                             </ul>
                         </div>
                         <div class="col-md-4 col-sm-12  col-xs-12 ">
@@ -220,9 +220,9 @@
                                 <li><a href="/tools/trading-conditions.php"><?php translate('Trading Conditions'); ?></a></li>
                                 <li><a href="/tools/holiday-hours-notices.php"><?php translate('Trading Hours & Holiday Notice'); ?></a>
                                 </li>
-                                <li><a href="cfd-expiration-dates.php"><?php translate('CFD Expiration Dates'); ?></a></li>
+                                <li><a href="/cfd-expiration-dates.php"><?php translate('CFD Expiration Dates'); ?></a></li>
 
-                                <li><a href="scalping-policy.php"><?php translate('Scalping Policy'); ?></a></li>
+                                <li><a href="/scalping-policy.php"><?php translate('Scalping Policy'); ?></a></li>
                             </ul>
                         </div>
                         <div class="col-md-4 col-sm-12  col-xs-12 ">
@@ -307,7 +307,7 @@
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/account.php"><?php translate('Account & Funding'); ?></a>
                     <ul class="text-center">
                         <li><a href="/account/live-account.php"><?php translate('Live Account'); ?></a></li>
-                        <li><a href="demo_competition.php"><?php translate('Demo Account'); ?></a></li>
+                        <li><a href="/demo_competition.php"><?php translate('Demo Account'); ?></a></li>
                         <li><a href="/account/islamic-account.php"><?php translate('Islamic Account'); ?></a></li>
                         <li><a href="/account/account-funding.php"><?php translate('Account Funding'); ?></a></li>
                         <li><a href="/account/withdrawals.php"><?php translate('Withdrawals'); ?></a></li>
@@ -320,9 +320,9 @@
                         <li><a href="/tools/trading-tools.php"><?php translate('Trading Tools'); ?></a></li>
                         <li><a href="/tools/trading-conditions.php"><?php translate('Trading Conditions'); ?></a></li>
                         <li><a href="/tools/holiday-hours-notices.php"><?php translate('Trading Hours & Holiday Notice'); ?></a></li>
-                        <li><a href="cfd-expiration-dates.php"><?php translate('CFD Expiration Dates'); ?></a></li>
+                        <li><a href="/cfd-expiration-dates.php"><?php translate('CFD Expiration Dates'); ?></a></li>
 
-                        <li><a href="scalping-policy.php"><?php translate('Scalping Policy'); ?></a></li>
+                        <li><a href="/scalping-policy.php"><?php translate('Scalping Policy'); ?></a></li>
                     </ul>
                 </li>
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/investor-relations.php"><?php translate('Partnership'); ?></a>
