@@ -519,22 +519,22 @@ $news97=""
                     </form>
                     <hr class="mx-1 my-2 bg-dark">
                     <div class="px-1 contact-form-button-container">
-                        <a style="padding: 5px 10px !important;" href="../account/live-account.html" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a style="padding: 5px 10px !important;" href="/account/live-account.html" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe91d;</span>
                             <div class="btn-vr"></div>
                             <div class="mex-translatable" data-es="abre una cuenta real" data-fr="OUVRIR UN COMPTE RÉEL" data-ae="افتح حساب حقيقي" data-ms="Buka Akaun Live" data-th="เปิดบัญชี">OPEN LIVE ACCOUNT</div>
                         </a>
-                        <a style="padding: 5px 10px !important;" href="../demo_competition.html" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a style="padding: 5px 10px !important;" href="/demo_competition.html" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe918;</span>
                             <div class="btn-vr"></div>
                             <div class="mex-translatable" data-es="Abre una cuenta de prueba" data-fr="OUVRIR UN COMPTE DÉMO" data-ms="Buka Akaun Demo" data-th="เปิดบัญชีทดลอง" data-ae="افتح حساب تجريبي">OPEN DEMO ACCOUNT</div>
                         </a>
-                        <a style="padding: 5px 10px !important;" href="../partnership/introducing-brokers.html#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a style="padding: 5px 10px !important;" href="/partnership/introducing-brokers.html#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe920;</span>
                             <div class="btn-vr"></div>
                             <div class="mex-translatable" data-es="Resgistro de IB" data-fr='ENREGISTREMENT "IB"' data-ms="Pendaftaran IB" data-th="การลงทะเบียน IB" data-ae="تسجيل وسيط معرف">IB REGISTRATION</div>
                         </a>
-                        <a style="padding: 5px 10px !important;" href="../account/account-funding.html" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a style="padding: 5px 10px !important;" href="/account/account-funding.html" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe921;</span>
                             <div class="btn-vr"></div>
                             <div class="mex-translatable" data-es="financia tu cuenta" data-fr="CRÉDITEZ VOTRE COMPTE" data-ms="Dana Akaun Anda" data-th="เติมเงินในบัญชีขอ" data-ae="تمويل حسابك">FUND YOUR ACCOUNT</div>
@@ -542,9 +542,9 @@ $news97=""
                         <div class="px-1 font-10" style="padding:0px;">
                             <div class="form-check form-check-inline">
                                 <label class="form-check-label label-1 mex-translatable" for="terms_conditions" data-ms='Saya menerima <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terma & Syarat</a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">Dasar Privasi</a>, dan <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;"> Dasar Cookie.</a>.' data-fr='En soumettant ce formulaire, vous acceptez  <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">les Termes et conditions</a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">la Politique de confidentialité</a>, et <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;"> la Politique sur les cookies.</a>.' data-ae='أوافق على <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">الشروط والأحكام </a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">وسياسة الخصوصية </a>, <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">وسياسة ملفات تعريف الارتباط</a>.' data-th='เมื่อส่งแบบฟอร์มนี้ถือว่าคุณยอมรับ
-                                            <a href="../terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">ข้อกำหนดและเงื่อนไข </a>,
-                                            <a href="../privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">นโยบายความเป็นส่วนตัว</a>
-                                            , <a href="../cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">และนโยบายคุกกี้</a>.'>By submitting this form, you agree to accept the <a href="../terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>, <a href="../privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="../cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
+                                            <a href="/terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">ข้อกำหนดและเงื่อนไข </a>,
+                                            <a href="/privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">นโยบายความเป็นส่วนตัว</a>
+                                            , <a href="/cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">และนโยบายคุกกี้</a>.'>By submitting this form, you agree to accept the <a href="/terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>, <a href="/privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="/cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
                                 </label>
                             </div>
                         </div>
@@ -552,67 +552,67 @@ $news97=""
                 </div>
                 <div class="mex-h5 text-1e32a3 text-center c859">
                     <div class="h3 text-left c870">Other News</div>
-                    <hr class="c881" />
+                    <hr class="c881"/>
                     <div class="row side-news-frame mx-0 mb-3">
-                        <a href="multibank-selected-best-forex-broker-forex-expo-dubai-2019.html" class="thumbnail-frame col-6 px-0">
-                            <img src="../public_files/blog/thumbnails/news_best_forex_broker_2019_thumbnail&#32;.jpg" class="side-news-thumbnail" />
+                        <a href="/article/news-detail?id=91" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/2020_winners_announced_thumbnail.png" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
-                            <a href="multibank-selected-best-forex-broker-forex-expo-dubai-2019.html" class="text-left article-thumbnail-text c933">MultiBank Selected as “Best Forex Broker 2019” at the Forex Expo Dubai 2019
+                            <a href="/article/news-detail?id=91" class="text-left article-thumbnail-text c933">Winners Announced for the MultiBank Fast & Furious Trading Contest
                             </a>
-                            <div class="text-left article-thumbnail-text">2019-03-14
+                            <div class="text-left article-thumbnail-text">2020-02-18
                             </div>
                         </div>
                     </div>
                     <div class="row side-news-frame mx-0 mb-3">
-                        <a href="multibank-chosen-best-FX-CFD-broker-2019.html" class="thumbnail-frame col-6 px-0">
-                            <img src="../public_files/blog/thumbnails/news_best_fx_cfd_broker_europe_asia_2019_thumbnail.jpg" class="side-news-thumbnail" />
+                        <a href="/article/news-detail?id=92" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/images/blog/MB_BMW_banner_2_en.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
-                            <a href="multibank-chosen-best-FX-CFD-broker-2019.html" class="text-left article-thumbnail-text c1001">
-                                MultiBank Chosen as Best FX & CFD Broker (Europe & Asia) 2019 by International Investor Magazine
+                            <a href="/article/news-detail?id=92" class="text-left article-thumbnail-text c1001">
+                            MultiBank Fast & Furious Trading Contest Starts Jan 6, 2020!
                             </a>
                             <div class="text-left article-thumbnail-text">
-                                2019-05-27
+                            2019-12-27
                             </div>
                         </div>
                     </div>
                     <div class="row side-news-frame mx-0 mb-3">
-                        <a href="news_20180118.html" class="thumbnail-frame col-6 px-0">
-                            <img src="../public_files/blog/thumbnails/news_20180118_a.jpg" class="side-news-thumbnail" />
+                        <a href="/article/news-detail?id=93" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
-                            <a href="news_20180118.html" class="text-left article-thumbnail-text c1066">
-                                MultiBank Adds Hang Seng 50 (HK50) to Its Index CFD Offerings
+                            <a href="/article/news-detail?id=93" class="text-left article-thumbnail-text c1066">
+                            MultiBank Philippines Hosts Investors Night 2019
                             </a>
                             <div class="text-left article-thumbnail-text">
-                                2018-01-18
+                            2019-12-07
                             </div>
                         </div>
                     </div>
                     <div class="row side-news-frame mx-0 mb-3">
-                        <a href="multibank-draws-crowd-ifx-expo.html" class="thumbnail-frame col-6 px-0">
-                            <img src="../public_files/blog/thumbnails/ifx_expo_thumbnail.jpg" class="side-news-thumbnail" />
+                        <a href="/article/news-detail?id=94" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/images/blog/malaysia_seminar_en.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
-                            <a href="multibank-draws-crowd-ifx-expo.html" class="text-left article-thumbnail-text c1131">
-                                MultiBank Draws a Crowd at the iFX Expo
+                            <a href="/article/news-detail?id=94" class="text-left article-thumbnail-text c1131">
+                            MultiBank Malaysia Hosted Successful Trading Seminar in Kuala Lumpur
                             </a>
                             <div class="text-left article-thumbnail-text">
-                                2019-01-25
+                            2019-11-17
                             </div>
                         </div>
                     </div>
                     <div class="row side-news-frame mx-0 mb-3">
-                        <a href="news_20170301.html" class="thumbnail-frame col-6 px-0">
-                            <img src="../public_files/blog/thumbnails/news_20170301_a.jpg" class="side-news-thumbnail" />
+                        <a href="/article/news-detail?id=95" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
-                            <a href="news_20170301.html" class="text-left article-thumbnail-text c1196">
-                                Finance Magnates Interview: MultiBank Chairman Talks About Regulation and Technology
+                            <a href="/article/news-detail?id=95" class="text-left article-thumbnail-text c1196">
+                            MultiBank Group Attends Macau Grand Prix 2019
                             </a>
                             <div class="text-left article-thumbnail-text">
-                                2017-03-01
+                            2019-11-17
                             </div>
                         </div>
                     </div>
@@ -685,62 +685,62 @@ $news97=""
                     <div class="border-line col-md-6 col-lg-4 col-sm-12 col-xs-12 hidden-md">
                         <div class="mex-h3  mex-p-v-15 ">Phone Numbers Worldwide</div>
                         <ul class="contact-country">
-                            <li class="d-none d-md-block"><a href="tel:+12139924748?call"><img alt="US" class="country-icon" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/country/usa_big.png" />
+                            <li class="d-none d-md-block"><a href="tel:+12139924748?call"><img alt="US" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/usa_big.png" />
                                     <span> <strong>US:</strong> +1 213 992 4748 </span> </a></li>
-                            <li class="d-none d-md-block"><a href="tel:+34931220671?call"><img alt="Spain" class="country-icon" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/country/spain_big.png" />
+                            <li class="d-none d-md-block"><a href="tel:+34931220671?call"><img alt="Spain" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/spain_big.png" />
                                     <span> <strong>Spain:</strong> +34 931220671</span></a></li>
-                            <li class="d-none d-md-block"><a href="tel:+390230578823?call"><img alt="Italy" class="country-icon" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/country/italy_big.png" />
+                            <li class="d-none d-md-block"><a href="tel:+390230578823?call"><img alt="Italy" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/italy_big.png" />
                                     <span> <strong>Italy:</strong> +39 0230578823 </span> </a></li>
-                            <li class="d-none d-md-block"><a href="tel:+6202129264151?call"><img alt="Indonesia" class="country-icon" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/country/indonesia_big.png" />
+                            <li class="d-none d-md-block"><a href="tel:+6202129264151?call"><img alt="Indonesia" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/indonesia_big.png" />
                                     <span> <strong>Indonesia:</strong> +62 02129264151 </span> </a></li>
-                            <li class="d-none d-md-block"><a href="tel:+60322010966?call"><img alt="Malaysia" class="country-icon" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/country/malaysia_big.png" />
+                            <li class="d-none d-md-block"><a href="tel:+60322010966?call"><img alt="Malaysia" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/malaysia_big.png" />
                                     <span> <strong>Malaysia:</strong> +60 32 201 0966</span> </a></li>
 
                         </ul>
-                        <a class="btn btn-mex " href="../contact.html">Find your Country here</a>
+                        <a class="btn btn-mex " href="/contact.html">Find your Country here</a>
                     </div>
                     <div class="border-line col-md-6 col-lg-4 col-sm-12 col-xs-12">
                         <ul class="contact-social-media d-none d-md-block">
                             <li>
                                 <div class="mex-h3  mex-p-v-15 ">Follow us on</div>
                                 <a href="https://www.facebook.com/multibank.official" target="_blank">
-                                    <img alt="" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/en_foote_btn_01.png" style="width:20px; height:auto" />
+                                    <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/en_foote_btn_01.png" style="width:20px; height:auto" />
                                 </a>
                                 <a href="https://twitter.com/multibankgroup" target="_blank">
-                                    <img alt="" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/en_foote_btn_02.png" style="width:20px; height:auto" />
+                                    <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/en_foote_btn_02.png" style="width:20px; height:auto" />
                                 </a>
                                 <a href="https://www.youtube.com/c/MultiBankGoup" target="_blank">
-                                    <img alt="" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/en_foote_btn_03.png" style="width:20px; height:auto" />
+                                    <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/en_foote_btn_03.png" style="width:20px; height:auto" />
                                 </a>
                                 <a href="https://www.linkedin.com/company/multibankgroup/" target="_blank">
-                                    <img alt="" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/en_foote_btn_04.png" style="width:20px; height:auto" />
+                                    <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/en_foote_btn_04.png" style="width:20px; height:auto" />
                                 </a>
                                 <a href="https://www.instagram.com/multibank_group/" target="_blank">
-                                    <img alt="" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/en_foote_btn_05.png" style="width:20px; height:auto" />
+                                    <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/en_foote_btn_05.png" style="width:20px; height:auto" />
                                 </a>
                             </li>
                             <li class="ForIts">
                                 <div class="mex-h3  mex-p-v-15  mex-m-t-10">Email Us</div>
-                                <div class="contact-email"><a class="text-000033" href="../cdn-cgi/l/email-protection.html#1e7d6d5e736b726a777c7f70757866307d7173"><span class="__cf_email__" data-cfemail="7c1f0f3c11091008151e1d12171a04521f1311">[email&#160;protected]</span></a>
+                                <div class="contact-email"><a class="text-000033" href="/cdn-cgi/l/email-protection.html#1e7d6d5e736b726a777c7f70757866307d7173"><span class="__cf_email__" data-cfemail="7c1f0f3c11091008151e1d12171a04521f1311">[email&#160;protected]</span></a>
                                 </div>
                             </li>
                             <li class="ForIts">
                                 <div class="mex-h3 mex-m-t-20 ">Live Chat</div>
-                                <a href="news_20170301.html#" onclick="if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-=""><img alt="chat" class="home_contact_us_chat_now" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/footer_btn_chat_now.png" />
+                                <a href="news_20170301.html#" onclick="if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-=""><img alt="chat" class="home_contact_us_chat_now" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/footer_btn_chat_now.png" />
                                 </a>
                             </li>
                         </ul>
                         <div class="d-flex d-md-none row py-4 row-eq-height">
                             <div class="col-4 text-center mx-auto">
                                 <div class="mex-h3 mb-2 footer-mb-social-media">EMAIL US</div>
-                                <a href="../cdn-cgi/l/email-protection.html#e78494a78a928b938e8586898c819fc984888a">
-                                    <img class="footer-contact-ic" src="../public_files/images/common/icon_contact_mail.png" />
+                                <a href="/cdn-cgi/l/email-protection.html#e78494a78a928b938e8586898c819fc984888a">
+                                    <img class="footer-contact-ic" src="/public_files/images/common/icon_contact_mail.png" />
                                 </a>
                             </div>
                             <div class="col-4 text-center mx-auto">
                                 <div class="mex-h3 mb-2 footer-mb-social-media">LIVE CHAT</div>
                                 <a href="news_20170301.html#" onclick="if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
-                                    <img class="footer-contact-ic" src="../public_files/images/common/icon_contact_wechat.png" />
+                                    <img class="footer-contact-ic" src="/public_files/images/common/icon_contact_wechat.png" />
                                 </a>
                             </div>
                         </div>
@@ -1043,8 +1043,8 @@ $news97=""
                             <div class="px-1 font-10" style="padding:0px;">
                                 <div class="form-check form-check-inline">
                                     <label class="form-check-label label-1 " for="terms_conditions">By submitting this form,
-                                        you agree to accept the <a href="../terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>,
-                                        <a href="../privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="../cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
+                                        you agree to accept the <a href="/terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>,
+                                        <a href="/privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="/cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
                                     </label>
                                 </div>
                             </div>
@@ -1059,30 +1059,30 @@ $news97=""
             <div class="col-lg-12 footer">
                 <div class="row justify-content-between" style="padding-bottom: 25px; border-bottom: 1px solid #808080;">
                     <div class="col-xs-12 col-sm-12 col-md-8 footer_other_left align-self-center">
-                        <a class="footer_logo" href="../index.html" target="_parent">
-                            <img alt="logo" data-entity-type="" data-entity-uuid="" src="../public_files/images/common/logo_black_360.png" width="200" />
+                        <a class="footer_logo" href="/index.html" target="_parent">
+                            <img alt="logo" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/logo_black_360.png" width="200" />
                         </a>
                         <a href="https://my.multibankfx.com/en/traders/login" target="_blank">MyMultibank</a>
-                        <a href="../contact.html" target="_parent">Contact Us</a>
+                        <a href="/contact.html" target="_parent">Contact Us</a>
                         <a href="news_20170301.html#" onclick="if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">Support</a>
                         <a href="hiring-now-cyprus.html" target="_parent">Career</a>
-                        <a href="../investor-relations.html" target="_parent">Investor&nbsp;Relations</a>
+                        <a href="/investor-relations.html" target="_parent">Investor&nbsp;Relations</a>
                     </div>
                     <div class="footer_btn col-xs-12  col-sm-12 col-md-4 align-self-center">
                         <a href="https://www.facebook.com/multibank.official" target="_blank">
-                            <img alt="facebook" data-entity-type="" data-entity-uuid="" height="30" src="../public_files/images/common/en_foote_btn_01.png" width="30" />
+                            <img alt="facebook" data-entity-type="" data-entity-uuid="" height="30" src="/public_files/images/common/en_foote_btn_01.png" width="30" />
                         </a>
                         <a href="https://twitter.com/multibankgroup" target="_blank">
-                            <img alt="twitter" data-entity-type="" data-entity-uuid="" height="30" src="../public_files/images/common/en_foote_btn_02.png" width="30" />
+                            <img alt="twitter" data-entity-type="" data-entity-uuid="" height="30" src="/public_files/images/common/en_foote_btn_02.png" width="30" />
                         </a>
                         <a href="https://www.youtube.com/c/MultiBankGoup" target="_blank">
-                            <img alt="youtube" data-entity-type="" data-entity-uuid="" height="30" src="../public_files/images/common/en_foote_btn_03.png" width="30" />
+                            <img alt="youtube" data-entity-type="" data-entity-uuid="" height="30" src="/public_files/images/common/en_foote_btn_03.png" width="30" />
                         </a>
                         <a href="https://www.linkedin.com/company/multibankgroup/" target="_blank">
-                            <img alt="linkedin" data-entity-type="" data-entity-uuid="" height="30" src="../public_files/images/common/en_foote_btn_04.png" width="30" />
+                            <img alt="linkedin" data-entity-type="" data-entity-uuid="" height="30" src="/public_files/images/common/en_foote_btn_04.png" width="30" />
                         </a>
                         <a href="https://www.instagram.com/multibank_group/" target="_blank">
-                            <img alt="instagram" data-entity-type="" data-entity-uuid="" height="30" src="../public_files/images/common/en_foote_btn_05.png" width="30" />
+                            <img alt="instagram" data-entity-type="" data-entity-uuid="" height="30" src="/public_files/images/common/en_foote_btn_05.png" width="30" />
                         </a>
                     </div>
                 </div>
@@ -1090,48 +1090,48 @@ $news97=""
                     <div class="row">
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="../about.html"><strong>About us</strong></a> <a href="../about/why-multibank-group.html" target="_parent">Why Multibank</a> <a href="../about/global-presence.html" target="_parent">Global Presence</a> <a href="../mfx/v1/about/regulations.html" target="_parent">Regulations</a> <a href="../about/security-of-funds.html" target="_parent">Security of Funds</a> <a href="../about/milestones.html" target="_parent">Milestones</a> <a href="../about/management.html" target="_parent">Management</a>
-                                    <a href="../about/awards.html" target="_parent">Awards</a> <a href="../about/sponsorship.html" target="_parent">Sponsorship</a>
+                                <li><a href="/about.html"><strong>About us</strong></a> <a href="/about/why-multibank-group.html" target="_parent">Why Multibank</a> <a href="/about/global-presence.html" target="_parent">Global Presence</a> <a href="/mfx/v1/about/regulations.html" target="_parent">Regulations</a> <a href="/about/security-of-funds.html" target="_parent">Security of Funds</a> <a href="/about/milestones.html" target="_parent">Milestones</a> <a href="/about/management.html" target="_parent">Management</a>
+                                    <a href="/about/awards.html" target="_parent">Awards</a> <a href="/about/sponsorship.html" target="_parent">Sponsorship</a>
                                     <a href="news_20180916.html" target="_parent">Company News</a> <a href="hiring-now-cyprus.html" target="_parent">Career</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="../products.html"><strong>Products</strong></a> <a href="../products/forex.html" target="_parent">Forex</a> <a href="../products/metals.html" target="_parent">Metals</a> <a href="../products/shares.html" target="_parent">Shares</a>
-                                    <a href="../products/indices.html" target="_parent">Indices</a> <a href="../products/commodities.html" target="_parent">Commodities</a>
+                                <li><a href="/products.html"><strong>Products</strong></a> <a href="/products/forex.html" target="_parent">Forex</a> <a href="/products/metals.html" target="_parent">Metals</a> <a href="/products/shares.html" target="_parent">Shares</a>
+                                    <a href="/products/indices.html" target="_parent">Indices</a> <a href="/products/commodities.html" target="_parent">Commodities</a>
 
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="../platforms.html"><strong>Platforms</strong></a>
-                                    <a href="../platforms/compare-platforms.html" target="_parent">Compare Platforms</a>
-                                    <a href="../platforms/ecn-pro.html" target="_parent">ECN Pro</a>
-                                    <a href="../platforms/multibank-pro.html" target="_parent">MultiBank Pro </a>
-                                    <a href="../platforms/maximus.html" target="_parent">Maximus</a>
-                                    <a href="../platforms/mt5-platform.html" target="_parent">MT5 Platform </a>
-                                    <a href="../social-trading.html" target="_parent">Social Trading</a>
-                                    <a href="../platforms/download-center.html" target="_parent">Download Center </a></li>
+                                <li><a href="/platforms.html"><strong>Platforms</strong></a>
+                                    <a href="/platforms/compare-platforms.html" target="_parent">Compare Platforms</a>
+                                    <a href="/platforms/ecn-pro.html" target="_parent">ECN Pro</a>
+                                    <a href="/platforms/multibank-pro.html" target="_parent">MultiBank Pro </a>
+                                    <a href="/platforms/maximus.html" target="_parent">Maximus</a>
+                                    <a href="/platforms/mt5-platform.html" target="_parent">MT5 Platform </a>
+                                    <a href="/social-trading.html" target="_parent">Social Trading</a>
+                                    <a href="/platforms/download-center.html" target="_parent">Download Center </a></li>
                             </ul>
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="../account.html"><strong>Accounts &amp; Funding</strong></a> <a href="../account/live-account.html" target="_parent">Live Account </a> <a href="../demo_competition.html" target="_parent">Demo Account </a> <a href="../account/islamic-account.html" target="_parent">Islamic Account </a> <a href="../account/account-funding.html" target="_parent">Account Funding </a> <a href="../account/withdrawals.html" target="_parent">Withdrawals</a> <a href="../account/account-forms.html" target="_parent">Account Forms </a> <a href="../account/bonus.html" target="_parent">Bonuses</a></li>
+                                <li><a href="/account.html"><strong>Accounts &amp; Funding</strong></a> <a href="/account/live-account.html" target="_parent">Live Account </a> <a href="/demo_competition.html" target="_parent">Demo Account </a> <a href="/account/islamic-account.html" target="_parent">Islamic Account </a> <a href="/account/account-funding.html" target="_parent">Account Funding </a> <a href="/account/withdrawals.html" target="_parent">Withdrawals</a> <a href="/account/account-forms.html" target="_parent">Account Forms </a> <a href="/account/bonus.html" target="_parent">Bonuses</a></li>
                             </ul>
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="../tools.html"><strong>Tools</strong></a> <a href="../tools/trading-tools.html" target="_parent">Trading Tools </a> <a href="../tools/trading-conditions.html" target="_parent">Trading Conditions </a> <a href="../tools/holiday-hours-notices.html" target="_parent">Trading Hours &amp; Holiday
-                                        Notice </a> <a href="../cfd-expiration-dates.html" target="_parent">CFD Expiration Dates</a>
+                                <li><a href="/tools.html"><strong>Tools</strong></a> <a href="/tools/trading-tools.html" target="_parent">Trading Tools </a> <a href="/tools/trading-conditions.html" target="_parent">Trading Conditions </a> <a href="/tools/holiday-hours-notices.html" target="_parent">Trading Hours &amp; Holiday
+                                        Notice </a> <a href="/cfd-expiration-dates.html" target="_parent">CFD Expiration Dates</a>
 
-                                    <a href="../scalping-policy.html" target="_parent">Scalping Policy</a></li>
+                                    <a href="/scalping-policy.html" target="_parent">Scalping Policy</a></li>
                             </ul>
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="../investor-relations.html"><strong>Partnership</strong></a> <a href="../partnership/introducing-brokers.html" target="_parent">Introducing Brokers </a> <a href="../partnership/franchise-program.html" target="_parent">Franchise Program </a> <a href="../partnership/white-label.html" target="_parent">White Label </a> <a href="../partnership/prime-of-primes.html" target="_parent">Prime of Primes</a> <a href="../partnership/cpa-affiliate-program.html" target="_parent">CPA Affiliate Program</a>
+                                <li><a href="/investor-relations.html"><strong>Partnership</strong></a> <a href="/partnership/introducing-brokers.html" target="_parent">Introducing Brokers </a> <a href="/partnership/franchise-program.html" target="_parent">Franchise Program </a> <a href="/partnership/white-label.html" target="_parent">White Label </a> <a href="/partnership/prime-of-primes.html" target="_parent">Prime of Primes</a> <a href="/partnership/cpa-affiliate-program.html" target="_parent">CPA Affiliate Program</a>
                                 </li>
                             </ul>
                         </div>
@@ -1140,19 +1140,19 @@ $news97=""
                 <div class="footer_pa">
                     <div class="container">
                         <div class="row">
-                            <img class="w-100 h-auto d-block d-lg-none" src="../public_files/images/common/icons/payment_partners-201906.jpg">
+                            <img class="w-100 h-auto d-block d-lg-none" src="/public_files/images/common/icons/payment_partners-201906.jpg">
                             <div class="footer-icon-list d-none d-lg-block">
-                                <img class="footer-icon" alt="nab" src="../public_files/images/common/icons/logo_footer_nab.png" style="width: auto; height: 30px;">
-                                <img class="footer-icon" alt="neteller" src="../public_files/images/common/icons/logo_footer_neteller.png" style="width: auto; height: 20px;">
-                                <img class="footer-icon" alt="skrill" src="../public_files/images/common/icons/logo_footer_skrill.png" style="width: auto; height: 25px;">
-                                <img class="footer-icon" alt="swift" src="../public_files/images/common/icons/logo_footer_swift.png" style="width: auto; height: 25px;">
-                                <img class="footer-icon" alt="visa" src="../public_files/images/common/icons/logo_footer_visa.png" style="width: auto; height: 25px;">
-                                <img class="footer-icon" alt="mastercard" src="../public_files/images/common/icons/logo_footer_mastercard.png" style="width: auto; height: 25px;">
+                                <img class="footer-icon" alt="nab" src="/public_files/images/common/icons/logo_footer_nab.png" style="width: auto; height: 30px;">
+                                <img class="footer-icon" alt="neteller" src="/public_files/images/common/icons/logo_footer_neteller.png" style="width: auto; height: 20px;">
+                                <img class="footer-icon" alt="skrill" src="/public_files/images/common/icons/logo_footer_skrill.png" style="width: auto; height: 25px;">
+                                <img class="footer-icon" alt="swift" src="/public_files/images/common/icons/logo_footer_swift.png" style="width: auto; height: 25px;">
+                                <img class="footer-icon" alt="visa" src="/public_files/images/common/icons/logo_footer_visa.png" style="width: auto; height: 25px;">
+                                <img class="footer-icon" alt="mastercard" src="/public_files/images/common/icons/logo_footer_mastercard.png" style="width: auto; height: 25px;">
                             </div>
                         </div>
                     </div>
-                    <p><a href="../privacy-policy.html" target="_parent">Privacy Policy </a> | <a href="../cookie-policy.html" target="_parent"> Cookie
-                            Policy</a> | <a href="../terms-conditions.html" target="_parent">Terms &amp; Conditions </a> | <a href="../website-disclaimer.html" target="_parent"> Website Disclaimer </a> | <a href="../risk-warning.html" target="_parent"> Risk
+                    <p><a href="/privacy-policy.html" target="_parent">Privacy Policy </a> | <a href="/cookie-policy.html" target="_parent"> Cookie
+                            Policy</a> | <a href="/terms-conditions.html" target="_parent">Terms &amp; Conditions </a> | <a href="/website-disclaimer.html" target="_parent"> Website Disclaimer </a> | <a href="/risk-warning.html" target="_parent"> Risk
                             Warning</a></p>
                     <p>Copyright © : 2005-2020 MEX Group Worldwide Limited. All rights reserved. MultiBank Exchange is the
                         trading name of MultiBank Forex Exchange Corporation incorporated in California, USA with Company
@@ -1167,16 +1167,16 @@ $news97=""
     </section>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="../public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="../public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="../cdn-cgi/l/email-protection.html#accfdfecc1d9c0d8c5cecdc2c7cad482cfc3c1">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="../public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.html#accfdfecc1d9c0d8c5cecdc2c7cad482cfc3c1">
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="../public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -1621,7 +1621,7 @@ $news97=""
             border-radius: 0;
         }
     </style>
-    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
@@ -1635,12 +1635,12 @@ $news97=""
         })
     </script>
 
-    <script src="../public_files/static_js/lang_data/en.js" type="text/javascript"></script>
-    <script src="../public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
-    <script src="../public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
-    <script src="../public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
-    <script src="../public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
-    <script src="../public_files/static_js/app.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
     <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
