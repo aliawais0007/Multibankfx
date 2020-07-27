@@ -158,7 +158,6 @@ function filtered_milestone(){
             $id =(int)$_GET['id'];
         } 
         $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
-        $query1 = "SELECT * FROM myadmin_milestones WHERE id=$id";
         $stmt = $dbConnection1->query($query);
         $a = $stmt->fetch();
        
@@ -171,3 +170,4 @@ function filtered_milestone(){
         $object->date=$a[1];
         return $object;       
 }
+
