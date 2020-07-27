@@ -23,7 +23,7 @@
                         <li class="d-block"><a href="tel:+60322010966?call"><img alt="Malaysia" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/uae.png" />
                                 <span> <strong><?php translate('UAE:'); ?></strong> +971 4 875 1311</span> </a></li>
                     </ul>
-                    <a class="btn btn-mex " href="contact.php"><?php translate('Find your Country here'); ?></a>
+                    <a class="btn btn-mex " href="/contact.php"><?php translate('Find your Country here'); ?></a>
                 </div>
                 <div class="border-line col-md-6 col-lg-4 col-sm-12 col-xs-12">
                     <ul class="contact-social-media d-none d-md-block">
@@ -47,25 +47,25 @@
                         </li>
                         <li class="ForIts">
                             <div class="mex-h3  mex-p-v-15  mex-m-t-10"><?php translate('Email Us'); ?></div>
-                            <div class="contact-email"><a class="text-000033" href="cdn-cgi/l/email-protection.php#f69585b69b839a829f9497989d908ed895999b"><span class="__cf_email__" data-cfemail="aecdddeec3dbc2dac7cccfc0c5c8d680cdc1c3">[email&#160;protected]</span></a>
+                            <div class="contact-email"><a class="text-000033" href="/cdn-cgi/l/email-protection.php#f69585b69b839a829f9497989d908ed895999b"><span class="__cf_email__" data-cfemail="aecdddeec3dbc2dac7cccfc0c5c8d680cdc1c3">[email&#160;protected]</span></a>
                             </div>
                         </li>
                         <li class="ForIts">
                             <div class="mex-h3 mex-m-t-20 ">Live Chat</div>
-                            <a href="awards.php#" onclick="if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-bd9fa8aaa7d9728df9c131fe-=""><img alt="chat" class="home_contact_us_chat_now" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/footer_btn_chat_now.png" />
+                            <a href="/awards.php" onclick="if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-bd9fa8aaa7d9728df9c131fe-=""><img alt="chat" class="home_contact_us_chat_now" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/footer_btn_chat_now.png" />
                             </a>
                         </li>
                     </ul>
                     <div class="d-none d-md-none row py-4 row-eq-height">
                         <div class="col-4 text-center mx-auto">
                             <div class="mex-h3 mb-2 footer-mb-social-media"><?php translate('EMAIL US'); ?></div>
-                            <a href="cdn-cgi/l/email-protection.php#711202311c041d051813101f1a17095f121e1c">
+                            <a href="/cdn-cgi/l/email-protection.php#711202311c041d051813101f1a17095f121e1c">
                                 <img class="footer-contact-ic" src="/public_files/images/common/icon_contact_mail.png" />
                             </a>
                         </div>
                         <div class="col-4 text-center mx-auto">
                             <div class="mex-h3 mb-2 footer-mb-social-media"><?php translate('LIVE CHAT'); ?></div>
-                            <a href="index.php#" onclick="if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-bd9fa8aaa7d9728df9c131fe-="">
+                            <a href="/index.php" onclick="if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-bd9fa8aaa7d9728df9c131fe-="">
                                 <img class="footer-contact-ic" src="/public_files/images/common/icon_contact_wechat.png" />
                             </a>
                         </div>
@@ -443,8 +443,8 @@
                         <div class="px-1 font-10" style="padding:0px;">
                             <div class="form-check form-check-inline">
                                 <label class="form-check-label label-1 " for="terms_conditions"><?php translate('By submitting this form,
-                                    you agree to accept the'); ?> <a href="terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Terms & Conditions'); ?></a>,
-                                    <a href="privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Privacy Policy'); ?></a>, <?php translate('and'); ?> <a href="cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Cookie Policy'); ?></a>.
+                                    you agree to accept the'); ?> <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Terms & Conditions'); ?></a>,
+                                    <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Privacy Policy'); ?></a>, <?php translate('and'); ?> <a href="cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Cookie Policy'); ?></a>.
                                 </label>
                             </div>
                         </div>
