@@ -1324,35 +1324,35 @@ $(function() {
 
 
 //script for ajax request to save data to db
-// $("#contact_us_form").submit(function(e) {
+$("#contact_us_form").submit(function(e) {
 
 
-//     e.preventDefault(); // avoid to execute the actual submit of the form.
+    e.preventDefault(); // avoid to execute the actual submit of the form.
 
-//     var form = $(this);
-//     var url = 'https://www.multibankfx.com/form/contactus?';
-//     var datais = form.serialize();
-//     // console.log('form is here'+form);
-//     // console.log('url is here',url);
+    var form = $(this);
+    var url = 'https://www.multibankfx.com/form/contactus?';
+    var datais = form.serialize();
+    // console.log('form is here'+form);
+    // console.log('url is here',url);
 
 
-//     $.ajax({
-//         type: "POST",
-//         url: url, //submission.php
-//         data: datais, // serializes the form's elements.
+    $.ajax({
+        type: "POST",
+        url: url, //submission.php
+        data: datais, // serializes the form's elements.
 
-//         beforeSend: function(data) {
-//             alert('working');
+        beforeSend: function(data) {
+            alert('working');
 
-//             console.log("data is here");
-//             // console.log('form data'+data);
-//         },
-//         success: function(data) {
-//             alert(data); // show response from the php script.
-//         }
-//     })
+            console.log("data is here");
+            // console.log('form data'+data);
+        },
+        success: function(data) {
+            alert(data); // show response from the php script.
+        }
+    })
 
-// });
+});
 
 
 
@@ -1388,17 +1388,22 @@ $("#live_account_form").submit(function(e) {
 });
 
 
-$(".btn-contact").click(function(e) {
+$("#demo_account_form").submit(function(e) {
+
+
     e.preventDefault(); // avoid to execute the actual submit of the form.
-    var data = $(".form-control");
-    var url = '/form.php';
-    debugger
+
+    var form = $(this);
+    var url = '';
+    var datais = form.serialize();
     // console.log('form is here'+form);
     // console.log('url is here',url);
+
+
     $.ajax({
         type: "POST",
         url: url, //submission.php
-        data: { email: data[3].value, fullname: data[1].value }, // serializes the form's elements.
+        data: datais, // serializes the form's elements.
 
         beforeSend: function(data) {
             alert('working');
@@ -1407,7 +1412,7 @@ $(".btn-contact").click(function(e) {
             // console.log('form data'+data);
         },
         success: function(data) {
-
+            f
             alert(data); // show response from the php script.
         }
     })

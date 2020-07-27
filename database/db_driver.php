@@ -138,15 +138,38 @@ function filtered_news(){
             $id =(int)$_GET['id'];
         } 
         $query = "SELECT * FROM myadmin_company_news WHERE id=$id";
+        $query1 = "SELECT * FROM myadmin_company_news ORDER BY RAND()";
         $stmt = $dbConnection1->query($query);
         $a = $stmt->fetch();
         $object = new stdClass();
-        $object->id=$a[0];
-        $object->title=$a[2];
-        $object->featured_image=$a[4];
-        $object->body=$a[3];
-        $object->date=$a[1];
-        return $object;     
+        $object1 = new stdClass();
+        // milestone data
+            $object->id=$a[0];
+            $object->title=$a[2];
+            $object->featured_image=$a[4];
+            $object->body=$a[3];
+            $object->date=$a[1];
+        // Random articles
+        $stmt = $dbConnection1->query($query1);
+        $company_news = [];
+        while ($row = $stmt->fetch()) {
+            $object1 = new stdClass();
+            $object1->id=$row['id'];
+            $object1->title=$row['title'];
+            $object1->main_title=$row['main_title'];
+            $object1->post_image=$row['post_image'];
+            $object1->featured_image=$row['featured_image'];
+            $object1->body=$row['body'];
+            $object1->status=$row['status'];
+            $object1->date=$row['date'];
+            array_push($company_news, $object1);
+         
+        }
+        $response = new stdClass();
+        $response->milestone=$object1;
+        $response->news=$company_news;
+        echo $response;
+        return $response;     
 }
 
 function filtered_milestone(){
@@ -158,6 +181,7 @@ function filtered_milestone(){
             $id =(int)$_GET['id'];
         } 
         $query = "SELECT * FROM myadmin_milestones WHERE id=$id";
+        $query1 = "SELECT * FROM myadmin_milestones WHERE id=$id";
         $stmt = $dbConnection1->query($query);
         $a = $stmt->fetch();
        
