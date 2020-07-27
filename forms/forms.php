@@ -23,7 +23,7 @@ if ($_POST) {
 
         //footer from
 
-        $db->query("INSERT INTO myadmin_call_back (name,email,phone,status) VALUES ($name, $email,$phone,$status)");
+        $db->query("INSERT INTO myadmin_call_back (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
         echo "inerted data";
         //........
     }
