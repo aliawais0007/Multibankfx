@@ -1425,6 +1425,7 @@ $("#call_back_footer_form").submit(function(e) {
     var form = $(this);
     var url = 'index.php';
     var datais = form.serialize();
+    debugger
     // console.log('form is here'+form);
     // console.log('url is here',url);
 
