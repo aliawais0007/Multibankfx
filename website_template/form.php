@@ -1,12 +1,23 @@
-<?php 
-	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/newdb.sqlite3',"","",array(
-		PDO::ATTR_PERSISTENT => TRUE,
-        PDO::ERRMODE_EXCEPTION => TRUE));
-        if ((isset($_POST['email']) && isset($_POST['fullname']))) {
-            //Get input values
-            $username = $_POST['fullname'];
-            $email = $_POST['email'];	
-            echo json_encode($email);
-            // get the admin by username and password
-        }
+  
+<?php
+
+//start session
+$err="";
+$obj = new stdClass();
+//Check if inputs are empty before submission
+if ((isset($_POST['fullname']) && isset($_POST['email']))) {
+    //Get input values
+    $username = $_POST['fullname'];
+    $email = $_POST['email'];	
+    // get the admin by username and password
+    $obj->name=$username;
+    $obj->email=$email;
+    echo json_encode($obj); 
+}
+else {
+    $err = "Some Issue";
+    echo json_encode($err); 
+}
+
+   
 ?>
