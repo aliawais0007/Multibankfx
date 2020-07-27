@@ -1,12 +1,13 @@
-<?php 
+<?php
 $news = filtered_news();
 ?>
 <!DOCTYPE html>
 <html lang='en'>
 
-<?php include_from_root('website_template/head.php');?>
+<?php include_from_root('website_template/head.php'); ?>
+
 <body>
-    <?php include_from_root('website_template/header_and_menu.php');?>
+    <?php include_from_root('website_template/header_and_menu.php'); ?>
 
     <style>
         .nav-menu-hamburger,
@@ -69,12 +70,12 @@ $news = filtered_news();
                     <div class="article-container">
                         <article>
                             <header>
-                                <h1 class="article-title"><?php echo $news->main_title?></h1>
-                                <div class="article-date"><?php echo $news->date?> | News</div>
+                                <h1 class="article-title"><?php echo $news->main_title ?></h1>
+                                <div class="article-date"><?php echo $news->date ?> | News</div>
                             </header>
                         </article>
-                        <img src="<?php echo $news->featured_image?$news->featured_image:$news->post_image?>" class="article-img" />
-                        <?php echo $news->body?>
+                        <img src="<?php echo $news->featured_image ? $news->featured_image : $news->post_image ?>" class="article-img" />
+                        <?php echo $news->body ?>
                     </div>
                     <style>
                         .grapesjs-editable-field-item[data-grapesjs-field="field_component_01"][data-grapesjs-delta="0"] * {
@@ -1723,6 +1724,8 @@ $news = filtered_news();
         });
     </script>
     <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
+
+
 </body>
 
 </html>
