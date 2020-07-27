@@ -64,7 +64,7 @@
                     </div>
                     <div class="col-md-2">
                         <ul class="footer_map">
-                            <li><a href="/account.php"><strong><?php translate('Accounts & Funding'); ?></strong></a> <a href="/account/live-account.php" target="_parent"><?php translate('Live Account'); ?> </a> <a href="/demo_competition.php" target="_parent"><?php translate('Demo Account'); ?> </a> <a href="/account/islamic-account.php" target="_parent"><?php translate('Islamic Account'); ?> </a> <a href="/account/account-funding.php" target="_parent"><?php translate('Account Funding'); ?> </a> <a href="/account/withdrawals.php" target="_parent"><?php translate('Withdrawals'); ?></a> <a href="/account/account-forms.php" target="_parent"><?php translate('Account Forms'); ?> </a> <a href="/account/bonus.php" target="_parent"><?php translate('Bonuses'); ?></a></li>
+                            <li><a href="/account.php"><strong><?php translate('Accounts & Funding'); ?></strong></a> <a href="/account/live-account.php" target="_parent"><?php translate('Live Account'); ?> </a> <a href="/demo-competition.php" target="_parent"><?php translate('Demo Account'); ?> </a> <a href="/account/islamic-account.php" target="_parent"><?php translate('Islamic Account'); ?> </a> <a href="/account/account-funding.php" target="_parent"><?php translate('Account Funding'); ?> </a> <a href="/account/withdrawals.php" target="_parent"><?php translate('Withdrawals'); ?></a> <a href="/account/account-forms.php" target="_parent"><?php translate('Account Forms'); ?> </a> <a href="/account/bonus.php" target="_parent"><?php translate('Bonuses'); ?></a></li>
                         </ul>
                     </div>
                     <div class="col-md-2">
