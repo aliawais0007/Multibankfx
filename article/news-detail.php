@@ -558,7 +558,7 @@ $news97=""
                             <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
-                            <a href="/article/news-detail?id=91" class="text-left article-thumbnail-text c933">Winners Announced for the MultiBank Fast & Furious Trading Contest
+                            <a href="/article/news-detail.php?id=91" class="text-left article-thumbnail-text c933">Winners Announced for the MultiBank Fast & Furious Trading Contest
                             </a>
                             <div class="text-left article-thumbnail-text">2020-02-18
                             </div>
@@ -569,7 +569,7 @@ $news97=""
                             <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
-                            <a href="/article/news-detail?id=92" class="text-left article-thumbnail-text c1001">
+                            <a href="/article/news-detail.php?id=92" class="text-left article-thumbnail-text c1001">
                             MultiBank Fast & Furious Trading Contest Starts Jan 6, 2020!
                             </a>
                             <div class="text-left article-thumbnail-text">
@@ -582,7 +582,7 @@ $news97=""
                             <img src="/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
-                            <a href="/article/news-detail?id=93" class="text-left article-thumbnail-text c1066">
+                            <a href="/article/news-detail.php?id=93" class="text-left article-thumbnail-text c1066">
                             MultiBank Philippines Hosts Investors Night 2019
                             </a>
                             <div class="text-left article-thumbnail-text">
@@ -595,7 +595,7 @@ $news97=""
                             <img src="/public_files/blog/thumbnails/malaysia_seminar_thumbnail_en.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
-                            <a href="/article/news-detail?id=94" class="text-left article-thumbnail-text c1131">
+                            <a href="/article/news-detail.php?id=94" class="text-left article-thumbnail-text c1131">
                             MultiBank Malaysia Hosted Successful Trading Seminar in Kuala Lumpur
                             </a>
                             <div class="text-left article-thumbnail-text">
@@ -608,7 +608,7 @@ $news97=""
                             <img src="/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
-                            <a href="/article/news-detail?id=95" class="text-left article-thumbnail-text c1196">
+                            <a href="/article/news-detail.php?id=95" class="text-left article-thumbnail-text c1196">
                             MultiBank Group Attends Macau Grand Prix 2019
                             </a>
                             <div class="text-left article-thumbnail-text">
