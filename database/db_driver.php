@@ -137,38 +137,17 @@ function filtered_news(){
         if(isset($_GET['id'])){
             $id =(int)$_GET['id'];
         } 
-        $query = "SELECT * FROM myadmin_company_news WHERE id=91";
-        $query1 = "SELECT * FROM myadmin_company_news ORDER BY RANDOM() LIMIT 5";
+        $query = "SELECT * FROM myadmin_company_news WHERE id=$id";
         $stmt = $dbConnection1->query($query);
         $a = $stmt->fetch();
         $object = new stdClass();
-        $object1 = new stdClass();
-        // milestone data
-            $object->id=$a[0];
-            $object->title=$a[2];
-            $object->featured_image=$a[4];
-            $object->body=$a[3];
-            $object->date=$a[1];
-        // Random articles
-        $stmt = $dbConnection1->query($query1);
-        $company_news = [];
-        while ($row = $stmt->fetch()) {
-            $object1 = new stdClass();
-            $object1->id=$row['id'];
-            $object1->main_title=$row['main_title'];
-            $object1->post_image=$row['post_image'];
-            $object1->date=$row['date'];
-            echo $object1;
-            array_push($company_news, $object1);
-         
-        }
-        $response = new stdClass();
-        $response->milestone=$object1;
-        $response->news=$company_news;
-        return $response;     
+        $object->id=$a[0];
+        $object->title=$a[2];
+        $object->featured_image=$a[4];
+        $object->body=$a[3];
+        $object->date=$a[1];
+        return $object;     
 }
- $a = filtered_news();
-
 
 function filtered_milestone(){
 	$dbConnection1 = new PDO('sqlite:/var/www/multibankfx/database/newdb.sqlite3',"","",array(

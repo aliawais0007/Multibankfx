@@ -1,5 +1,5 @@
 <?php 
-// $news = filtered_news();
+$news = filtered_news();
 ?>
 <!DOCTYPE html>
 <html lang='en'>
