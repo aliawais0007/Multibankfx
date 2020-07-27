@@ -554,7 +554,7 @@ $news97=""
                     <div class="h3 text-left c870">Other News</div>
                     <hr class="c881"/>
                     <div class="row side-news-frame mx-0 mb-3">
-                        <a href="/article/news-detail?id=91" class="thumbnail-frame col-6 px-0">
+                        <a href="/article/news-detail.php?id=91" class="thumbnail-frame col-6 px-0">
                             <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
@@ -565,7 +565,7 @@ $news97=""
                         </div>
                     </div>
                     <div class="row side-news-frame mx-0 mb-3">
-                        <a href="/article/news-detail?id=92" class="thumbnail-frame col-6 px-0">
+                        <a href="/article/news-detail.php?id=92" class="thumbnail-frame col-6 px-0">
                             <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
@@ -578,7 +578,7 @@ $news97=""
                         </div>
                     </div>
                     <div class="row side-news-frame mx-0 mb-3">
-                        <a href="/article/news-detail?id=93" class="thumbnail-frame col-6 px-0">
+                        <a href="/article/news-detail.php?id=93" class="thumbnail-frame col-6 px-0">
                             <img src="/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
@@ -591,7 +591,7 @@ $news97=""
                         </div>
                     </div>
                     <div class="row side-news-frame mx-0 mb-3">
-                        <a href="/article/news-detail?id=94" class="thumbnail-frame col-6 px-0">
+                        <a href="/article/news-detail.php?id=94" class="thumbnail-frame col-6 px-0">
                             <img src="/public_files/blog/thumbnails/malaysia_seminar_thumbnail_en.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
@@ -604,7 +604,7 @@ $news97=""
                         </div>
                     </div>
                     <div class="row side-news-frame mx-0 mb-3">
-                        <a href="/article/news-detail?id=95" class="thumbnail-frame col-6 px-0">
+                        <a href="/article/news-detail.php?id=95" class="thumbnail-frame col-6 px-0">
                             <img src="/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg" class="side-news-thumbnail" />
                         </a>
                         <div class="side-news-text col-6 px-0 text-left">
