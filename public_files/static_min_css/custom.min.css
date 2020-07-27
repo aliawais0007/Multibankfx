@@ -7297,7 +7297,8 @@ ul.mex-list-disc li {
     width: 65%
 }
 
-.news-con-det-sec {
+.news-con-det-sec,
+.news-con-det-l {
     text-decoration: none;
     padding-bottom: 1.7vw;
     margin-top: 2.5vw;
