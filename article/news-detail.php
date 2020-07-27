@@ -69,7 +69,7 @@ $news = filtered_news();
                     <div class="article-container">
                         <article>
                             <header>
-                                <h1 class="article-title"><?php echo $news->title?></h1>
+                                <h1 class="article-title"><?php echo $news->main_title?></h1>
                                 <div class="article-date"><?php echo $news->date?> | News</div>
                             </header>
                         </article>
