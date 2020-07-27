@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
-                    <h1 class="mex-h1 text-fff text-right"><?php translate('MULTIBANK PRO PLATFORM'); ?></h1>
+                    <h1 class="mex-h1 text-fff text-left"><?php translate('MULTIBANK PRO PLATFORM'); ?></h1>
                     <div class="mex-content text-fff mex-m-b-30">
                         <p class="mex-m-t-15 mex-m-b-15"><?php translate('Ideal for traders looking for an ECN experience on the MT4 platform without the high investment commitment'); ?></p>
                     </div>
