@@ -77,8 +77,9 @@ $news97=""
                             </header>
                         </article>
                         <img src="<?php echo $news->featured_image ? $news->featured_image : $news->post_image ?>" class="article-img" />
-                    <?php if($news->id==97){echo '</div>';} ?>
+                    <?php if((int)$news->id==97){echo '</div>';} ?>
                     <?php echo $news->body ?>
+                    <?php if((int)$news->id==97){echo '</div>';} ?>
                     </div>
                 <style>
                     .grapesjs-editable-field-item[data-grapesjs-field="field_component_01"][data-grapesjs-delta="0"] * {
