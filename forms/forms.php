@@ -23,7 +23,7 @@ if ($_POST) {
 
         //footer from
 
-        $db->query("INSERT INTO myadmin_call_back (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
+        $db->exec("INSERT INTO myadmin_call_back (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
         echo "inerted data";
         //........
     }
@@ -31,18 +31,18 @@ if ($_POST) {
         //........
         //partner from
 
-        $db->query("INSERT INTO myadmin_partner (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
+        $db->exec("INSERT INTO myadmin_partner (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
     }
     if (isset($_POST['account_type'])) {
 
 
         //contact us form
-        $db->query("INSERT INTO myadmin_contact_us (status,fullname,email,phone,contacttype) VALUES ('$status','$name', '$email','$phone','$contact_type')");
+        $db->exec("INSERT INTO myadmin_contact_us (status,fullname,email,phone,contacttype) VALUES ('$status','$name', '$email','$phone','$contact_type')");
         echo "inerted data";
     }
     if (isset($_POST['platform_version'])) {
         //demo from
-        $db->query("INSERT INTO myadmin_demo_account (name,mobile,email,platform) VALUES ('$name', '$email','$phone','$platform')");
+        $db->exec("INSERT INTO myadmin_demo_account (name,mobile,email,platform) VALUES ('$name', '$email','$phone','$platform')");
         echo "inerted data";
     }
 
@@ -70,7 +70,7 @@ if ($_POST) {
             }
         }
 
-        $db->query("INSERTINTO myadmin_live_account (company, platform_version, platform_type, leverage, client_type, lei_code, has_tin, tin_number, name, name2, email, phone_display, image)
+        $db->exec("INSERTINTO myadmin_live_account (company, platform_version, platform_type, leverage, client_type, lei_code, has_tin, tin_number, name, name2, email, phone_display, image)
        VALUES ( '$company', '$platform', '$platform_type', '$leverage', '$client_type', '$lei_code', '$has_tin', '$tin_number', '$name', '$name2', '$email', '$phone', '$imagepath');");
     }
 }
