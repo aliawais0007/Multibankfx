@@ -76,6 +76,7 @@ $news = filtered_news();
                         <img src="<?php echo $news->featured_image?$news->featured_image:$news->post_image?>" class="article-img" />
                         <?php echo $news->body?>
                     </div>
+                    </div>
                     <style>
                         .grapesjs-editable-field-item[data-grapesjs-field="field_component_01"][data-grapesjs-delta="0"] * {
                             box-sizing: border-box;
