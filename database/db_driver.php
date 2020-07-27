@@ -141,12 +141,11 @@ function filtered_news(){
         $stmt = $dbConnection1->query($query);
         $a = $stmt->fetch();
         $object = new stdClass();
-        $object->id=$a[0];
-        $object->title=$a[2];
-        $object->featured_image=$a[4];
-        $object->body=$a[3];
-        $object->date=$a[1];
-        print_r($object);
+            $object->id=$a[0];
+            $object->main_title=$a[8];
+            $object->featured_image=$a[4];
+            $object->body=$a[3];
+            $object->date=$a[1];
         return $object;     
 }
 
