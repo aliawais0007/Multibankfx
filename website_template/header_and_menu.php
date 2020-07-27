@@ -213,12 +213,12 @@
                         </div>
                         <div class="col-md-4 col-sm-12  col-xs-12 nav-col-hr">
                             <div class="nav-menu-heading">
-                                <h4 class="uppercase mb0"><a class="font-24" href="tools.php"><?php translate('Tools'); ?></a></h4>
+                                <h4 class="uppercase mb0"><a class="font-24" href="/tools.php"><?php translate('Tools'); ?></a></h4>
                             </div>
                             <ul class="nav-menu-list">
-                                <li><a href="tools/trading-tools.php"><?php translate('Trading Tools'); ?></a></li>
-                                <li><a href="tools/trading-conditions.php"><?php translate('Trading Conditions'); ?></a></li>
-                                <li><a href="tools/holiday-hours-notices.php"><?php translate('Trading Hours & Holiday Notice'); ?></a>
+                                <li><a href="/tools/trading-tools.php"><?php translate('Trading Tools'); ?></a></li>
+                                <li><a href="/tools/trading-conditions.php"><?php translate('Trading Conditions'); ?></a></li>
+                                <li><a href="/tools/holiday-hours-notices.php"><?php translate('Trading Hours & Holiday Notice'); ?></a>
                                 </li>
                                 <li><a href="cfd-expiration-dates.php"><?php translate('CFD Expiration Dates'); ?></a></li>
 
@@ -247,14 +247,14 @@
                         </div>
                         <div class="col-md-4 col-sm-12  col-xs-12 nav-col-hr">
                             <div class="nav-menu-heading">
-                                <h4 class="uppercase mb0"><a class="font-24" href="investor-relations.php"><?php translate('Partnership'); ?></a></h4>
+                                <h4 class="uppercase mb0"><a class="font-24" href="/investor-relations.php"><?php translate('Partnership'); ?></a></h4>
                             </div>
                             <ul class="nav-menu-list">
-                                <li><a href="partnership/introducing-brokers.php"><?php translate('Introducing Brokers'); ?></a></li>
-                                <li><a href="partnership/franchise-program.php"><?php translate('Franchise Program'); ?></a></li>
-                                <li><a href="partnership/white-label.php"><?php translate('White Label'); ?></a></li>
-                                <li><a href="partnership/prime-of-primes.php"><?php translate('Prime of Primes'); ?></a></li>
-                                <li><a href="partnership/cpa-affiliate-program.php"><?php translate('CPA Affiliate Program'); ?></a></li>
+                                <li><a href="/partnership/introducing-brokers.php"><?php translate('Introducing Brokers'); ?></a></li>
+                                <li><a href="/partnership/franchise-program.php"><?php translate('Franchise Program'); ?></a></li>
+                                <li><a href="/partnership/white-label.php"><?php translate('White Label'); ?></a></li>
+                                <li><a href="/partnership/prime-of-primes.php"><?php translate('Prime of Primes'); ?></a></li>
+                                <li><a href="/partnership/cpa-affiliate-program.php"><?php translate('CPA Affiliate Program'); ?></a></li>
                             </ul>
                         </div>
                         <div class="col-md-4 col-sm-12  col-xs-12 ">
@@ -262,7 +262,7 @@
                                 <div class="nav-menu-heading">
                                     <h4 class="uppercase mb0 text-center"><?php translate('OPEN AN ACCOUNT'); ?></h4>
                                 </div>
-                                <a class="d-block w-75 mx-auto" href="account/live-account.php"><img alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/menu_ads_banner.png" /></a>
+                                <a class="d-block w-75 mx-auto" href="/account/live-account.php"><img alt="OPEN AN ACCOUNT" class="w-100 h-auto" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/menu_ads_banner.png" /></a>
                             </div>
                         </div>
                     </div>
@@ -283,55 +283,55 @@
                         <li><a href="/article/hiring-now-cyprus.php"><?php translate('Career'); ?></a></li>
                     </ul>
                 </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="products.php"><?php translate('Products'); ?></a>
+                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/products.php"><?php translate('Products'); ?></a>
                     <ul class="text-center">
-                        <li><a href="products/forex.php"><?php translate('Forex'); ?></a></li>
-                        <li><a href="products/metals.php"><?php translate('Metals'); ?></a></li>
-                        <li><a href="products/shares.php"><?php translate('Shares'); ?></a></li>
-                        <li><a href="products/indices.php"><?php translate('Indices'); ?></a></li>
-                        <li><a href="products/commodities.php"><?php translate('Commodities'); ?></a></li>
+                        <li><a href="/products/forex.php"><?php translate('Forex'); ?></a></li>
+                        <li><a href="/products/metals.php"><?php translate('Metals'); ?></a></li>
+                        <li><a href="/products/shares.php"><?php translate('Shares'); ?></a></li>
+                        <li><a href="/products/indices.php"><?php translate('Indices'); ?></a></li>
+                        <li><a href="/products/commodities.php"><?php translate('Commodities'); ?></a></li>
 
                     </ul>
                 </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="platforms.php"><?php translate('Platforms'); ?></a>
+                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/platforms.php"><?php translate('Platforms'); ?></a>
                     <ul class="text-center">
-                        <li><a href="platforms/compare-platforms.php"><?php translate('Compare Platforms'); ?></a></li>
-                        <li><a href="platforms/ecn-pro.php"><?php translate('ECN Pro'); ?></a></li>
-                        <li><a href="platforms/multibank-pro.php"><?php translate('MultiBank Pro'); ?></a></li>
-                        <li><a href="platforms/maximus.php"><?php translate('Maximus'); ?></a></li>
-                        <li><a href="platforms/mt5-platform.php"><?php translate('MT5 Platform'); ?></a></li>
+                        <li><a href="/platforms/compare-platforms.php"><?php translate('Compare Platforms'); ?></a></li>
+                        <li><a href="/platforms/ecn-pro.php"><?php translate('ECN Pro'); ?></a></li>
+                        <li><a href="/platforms/multibank-pro.php"><?php translate('MultiBank Pro'); ?></a></li>
+                        <li><a href="/platforms/maximus.php"><?php translate('Maximus'); ?></a></li>
+                        <li><a href="/platforms/mt5-platform.php"><?php translate('MT5 Platform'); ?></a></li>
                         <!-- <li><a href="social-trading.php"><?php translate('Social Trading'); ?></a></li> -->
-                        <li><a href="platforms/download-center.php"><?php translate('Download Center'); ?></a></li>
+                        <li><a href="/platforms/download-center.php"><?php translate('Download Center'); ?></a></li>
                     </ul>
                 </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="account.php"><?php translate('Account & Funding'); ?></a>
+                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/account.php"><?php translate('Account & Funding'); ?></a>
                     <ul class="text-center">
-                        <li><a href="account/live-account.php"><?php translate('Live Account'); ?></a></li>
+                        <li><a href="/account/live-account.php"><?php translate('Live Account'); ?></a></li>
                         <li><a href="demo_competition.php"><?php translate('Demo Account'); ?></a></li>
-                        <li><a href="account/islamic-account.php"><?php translate('Islamic Account'); ?></a></li>
-                        <li><a href="account/account-funding.php"><?php translate('Account Funding'); ?></a></li>
-                        <li><a href="account/withdrawals.php"><?php translate('Withdrawals'); ?></a></li>
-                        <li><a href="account/account-forms.php"><?php translate('Account Forms'); ?></a></li>
-                        <li><a href="account/bonus.php"><?php translate('Bonuses'); ?></a></li>
+                        <li><a href="/account/islamic-account.php"><?php translate('Islamic Account'); ?></a></li>
+                        <li><a href="/account/account-funding.php"><?php translate('Account Funding'); ?></a></li>
+                        <li><a href="/account/withdrawals.php"><?php translate('Withdrawals'); ?></a></li>
+                        <li><a href="/account/account-forms.php"><?php translate('Account Forms'); ?></a></li>
+                        <li><a href="/account/bonus.php"><?php translate('Bonuses'); ?></a></li>
                     </ul>
                 </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="tools.php"><?php translate('Tools'); ?></a>
+                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/tools.php"><?php translate('Tools'); ?></a>
                     <ul class="text-center">
-                        <li><a href="tools/trading-tools.php"><?php translate('Trading Tools'); ?></a></li>
-                        <li><a href="tools/trading-conditions.php"><?php translate('Trading Conditions'); ?></a></li>
-                        <li><a href="tools/holiday-hours-notices.php"><?php translate('Trading Hours & Holiday Notice'); ?></a></li>
+                        <li><a href="/tools/trading-tools.php"><?php translate('Trading Tools'); ?></a></li>
+                        <li><a href="/tools/trading-conditions.php"><?php translate('Trading Conditions'); ?></a></li>
+                        <li><a href="/tools/holiday-hours-notices.php"><?php translate('Trading Hours & Holiday Notice'); ?></a></li>
                         <li><a href="cfd-expiration-dates.php"><?php translate('CFD Expiration Dates'); ?></a></li>
 
                         <li><a href="scalping-policy.php"><?php translate('Scalping Policy'); ?></a></li>
                     </ul>
                 </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="investor-relations.php"><?php translate('Partnership'); ?></a>
+                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/investor-relations.php"><?php translate('Partnership'); ?></a>
                     <ul class="text-center">
-                        <li><a href="partnership/introducing-brokers.php"><?php translate('Introducing Brokers'); ?></a></li>
-                        <li><a href="partnership/franchise-program.php"><?php translate('Franchise Program'); ?></a></li>
-                        <li><a href="partnership/white-label.php"><?php translate('White Label'); ?></a></li>
-                        <li><a href="partnership/prime-of-primes.php"><?php translate('Prime of Primes'); ?></a></li>
-                        <li><a href="partnership/cpa-affiliate-program.php"><?php translate('CPA Affiliate Program'); ?></a></li>
+                        <li><a href="/partnership/introducing-brokers.php"><?php translate('Introducing Brokers'); ?></a></li>
+                        <li><a href="/partnership/franchise-program.php"><?php translate('Franchise Program'); ?></a></li>
+                        <li><a href="/partnership/white-label.php"><?php translate('White Label'); ?></a></li>
+                        <li><a href="/partnership/prime-of-primes.php"><?php translate('Prime of Primes'); ?></a></li>
+                        <li><a href="/partnership/cpa-affiliate-program.php"><?php translate('CPA Affiliate Program'); ?></a></li>
                     </ul>
                 </li>
                 <li class="nav-menu-mobile-section py-1 px-4 lang-mobile-menu" style="border-top: 1px solid #ccc;">
