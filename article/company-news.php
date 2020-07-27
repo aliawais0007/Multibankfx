@@ -155,7 +155,7 @@ if(isset($_GET['id'])){
         min-height: 485px;
       } */
         .news-con-blue {
-            margin-top: 0px;
+            margin-top: 20px;
         }
 
         .news-con-det-sec {
