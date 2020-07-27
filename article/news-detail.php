@@ -1,5 +1,6 @@
 <?php 
 $news = filtered_news();
+echo $news;
 ?>
 <!DOCTYPE html>
 <html lang='en'>
