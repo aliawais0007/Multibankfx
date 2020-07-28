@@ -36,7 +36,7 @@ $news2 = "";
 
 foreach($newss as $value){
     $id = $value->id;
-    $main_title = substr($value->main_title, 1, 50); 
+    $main_title = substr($value->main_title, 1, 30); 
     $date = $value->date;
     $post_image = $value->post_image;
 $news1 = "
