@@ -30,14 +30,29 @@ $milestone .= "
 
 $allnews = get_news();
 $newss = array_slice($allnews, 0, 3);
-$news = "";
+$news1 = "";
+$news2 = "";
+
 
 foreach($newss as $value){
     $id = $value->id;
     $main_title = $value->main_title; 
     $date = $value->date;
     $post_image = $value->post_image;
-$news.="
+$news1 = "
+<div class='col-12 col-sm-12'>
+<div class='card big-news'>
+    <a href='/article/news-detail.php?id=$id' target='_blank'>
+        <img src='$post_image' alt=' class='mex-img-cover' />
+        <div class='card-body mex-content mex-p-v-15'>
+            <p class='card-title text-overflow-2'>$title</p>
+            <p class='card-time'>$date</p>
+        </div>
+    </a>
+</div>
+</div>
+";
+$news2 .="
 <div class='col-12 col-sm-12'>
                                 <div class='card card-left mb-3 mt-3'>
                                     <a href='article/news-detail?id=?$id' target='_blank' class='row mx-0'>
@@ -607,7 +622,9 @@ $news.="
                         <div class="text-center font-18"><?php translate("Keep up to date with MultiBank's latest news"); ?></div>
                         <hr />
                         <div class="row flex-column justify-content-between">
-                        <?php echo $news?>
+                          <?php echo $news1;?>
+                        
+                          <?php echo $news2;?>
                         </div>
                         <div class="text-center mex-p-15">
                             <a href="article/news_20180916.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
