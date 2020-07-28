@@ -384,7 +384,7 @@
                         </form>
                         <div class="px-1 " style="padding:15px 0px;">
                             <div class="form-check form-check-inline">
-                                <label class="form-check-label label-1 " for="terms_conditions">By submitting this form, you agree to accept the <a href="terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>, <a href="privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
+                                <label class="form-check-label label-1 " for="terms_conditions">By submitting this form, you agree to accept the <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>, <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
                                 </label>
                             </div>
                         </div>
