@@ -435,10 +435,10 @@
                 </div>
                 <div class="slider-desc">INVEST SMARTER- COPY THE TRADES OF CONSISTENTLY PROFITABLE TRADERS OR SCALE YOUR INCOME BY EARNING FEES FROM INVESTORS WHO COPY YOUR ACCOUNT</div>
                 <div class="slider-icons">
-                    <div class="slider-icon"><a href="../social-trading/trader"><img src="/public_files/images/social_trading/icon_investor.png"><br />TRADER >></a></div>
-                    <div class="slider-icon"><a href="../social-trading/investor"><img src="/public_files/images/social_trading/icon_signal_provider.png"><br />INVESTOR >></a></div>
-                    <div class="slider-icon"><a href="../social-trading/faq"><img src="/public_files/images/social_trading/icon_faq.png"><br />FAQ >></a></div>
-                    <div class="slider-icon"><a href="../social-trading/leaderboard"><img src="/public_files/images/social_trading/icon_leader_board.png"><br />LEADERBOARD >></a></div>
+                    <div class="slider-icon"><a href="/social-trading/trader.php"><img src="/public_files/images/social_trading/icon_investor.png"><br />TRADER >></a></div>
+                    <div class="slider-icon"><a href="/social-trading/investor.php"><img src="/public_files/images/social_trading/icon_signal_provider.png"><br />INVESTOR >></a></div>
+                    <div class="slider-icon"><a href="/social-trading/faq.php"><img src="/public_files/images/social_trading/icon_faq.png"><br />FAQ >></a></div>
+                    <div class="slider-icon"><a href="/social-trading/leaderboard.php"><img src="/public_files/images/social_trading/icon_leader_board.png"><br />LEADERBOARD >></a></div>
                 </div>
             </div>
         </div>
@@ -450,7 +450,7 @@
                 <a href="http://invest.multibankfx.com" class="btn-st-green btn-banner transparent text-fff">Join As Investor</a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-                <a href="/social-trading/leaderboard" class="btn-st-red btn-banner transparent text-fff">Leaderboard</a>
+                <a href="/social-trading/leaderboard.php" class="btn-st-red btn-banner transparent text-fff">Leaderboard</a>
             </div>
         </div>
     </section>
@@ -596,7 +596,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <a href="/social-trading/investor" class="btn-st-006AD0 text-fff">BECOME AN INVESTOR</a>
+                <a href="/social-trading/investor.php" class="btn-st-006AD0 text-fff">BECOME AN INVESTOR</a>
             </div>
         </div>
     </section>
@@ -611,7 +611,7 @@
                         <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Automatically copy signals from the most profitable accounts</li>
                         <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Learn how Signal Providers trade with success</li>
                     </ul>
-                    <div class="row mx-0"><a href="/social-trading/investor" class="btn-st-006AD0 text-fff ml-0">Become An Investor</a></div>
+                    <div class="row mx-0"><a href="/social-trading/investor.php" class="btn-st-006AD0 text-fff ml-0">Become An Investor</a></div>
                 </div>
                 <div class="col-12 col-lg-6 col-xl-4 text-right">
                     <img class="w-100" src="/public_files/images/social_trading/st_improve_pc.png" />
@@ -623,7 +623,7 @@
         <img style="object-fit: cover;" src="/public_files/images/social_trading/st_earn_money_bg.jpg" alt="" />
         <div class="container text-center">
             <div class="mex-h2 mex-m-b-20 text-005190">Still Have Questions About MultiBank Social Trading?</div>
-            <div class="">Check out our <a href="/social-trading/faq" class="text-005190">FAQ</a> or <a class="text-005190">Request</a> a Call Back Now!</div>
+            <div class="">Check out our <a href="/social-trading/faq.php" class="text-005190">FAQ</a> or <a class="text-005190">Request</a> a Call Back Now!</div>
         </div>
     </section>
     <style>
