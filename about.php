@@ -36,14 +36,14 @@ $news2 = "";
 
 foreach($newss as $value){
     $id = $value->id;
-    $main_title = $value->main_title; 
+    $main_title = substr($value->main_title, 1, 50); 
     $date = $value->date;
     $post_image = $value->post_image;
 $news1 = "
 <div class='col-12 col-sm-12'>
 <div class='card big-news'>
     <a href='/article/news-detail.php?id=$id' target='_blank'>
-        <img src='$post_image' alt=' class='mex-img-cover' />
+        <img src='$post_image' alt='' class='mex-img-cover' />
         <div class='card-body mex-content mex-p-v-15'>
             <p class='card-title text-overflow-2'>$title</p>
             <p class='card-time'>$date</p>
@@ -57,10 +57,10 @@ $news2 .="
                                 <div class='card card-left mb-3 mt-3'>
                                     <a href='article/news-detail?id=?$id' target='_blank' class='row mx-0'>
                                         <div class='col-12 col-md-8 col-xl-6 p0'>
-                                            <img src='$post_image' alt=' class='mex-img-cover'>
+                                            <img src='$post_image' alt='' class='mex-img-cover'>
                                         </div>
                                         <div class='card-body mex-content col-12 col-md-4 col-xl-6'>
-                                            <p class='card-title'>$title </p>
+                                            <p class='card-title'>$title.sb </p>
                                             <p class='card-time'>$date</p>
                                         </div>
                                     </a>
