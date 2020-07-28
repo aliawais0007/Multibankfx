@@ -1,3 +1,24 @@
+<?php
+$allnews = get_news();
+$itemc = "";
+$item = "";
+$itemb = "";
+$page = "";
+foreach($allnews as $item){
+$news .='
+<li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
+                                            <div class="mex-h3 col-1 pl-4 text-left">2020-02-18</div>
+                                            <div class="mex-new-desc mex-content col-8"><a
+                                                    href="/article/news-detail?id='.$item->id.'"
+                                                    class="text-222 mex-clamp-4 text-left pl-3">'.$item->main_title.'</a></div>
+                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
+                                                    src="'.$item->post_image.'"
+                                                    alt="'.$item->main_title.'">
+                                            </div>
+                                        </li>
+';
+}
+?>
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -11,7 +32,7 @@
         .slidebar .email-us-tg.email-btn .btn,
         .slidebar .ib-registration-btn.chat-btn .btn {
             background: none;
-            width: auto;
+            width: auto; 
             height: auto;
             padding: 0;
         }
@@ -2089,239 +2110,9 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                     style="min-height: 535px; overflow-y: hidden; height: 440px;">
                                     <div class="swiper-wrapper"
                                         style="transform: translate3d(0px, -267.5px, 0px); transition-duration: 0ms;">
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2020-02-18</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-fast-n-furious-trading-contest-announcement"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">Winners Announced for
-                                                    the MultiBank Fast &amp;
-                                                    Furious Trading Contest</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/2020_winners_announced_thumbnail.png"
-                                                    alt="Winners Announced for the MultiBank Fast &amp; Furious Trading Contest">
-                                            </div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide swiper-slide-prev"
-                                            style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-12-27</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-fast-n-furious-trading-contest"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Fast &amp;
-                                                    Furious Trading Contest
-                                                    Starts Jan 6, 2020! </a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg"
-                                                    alt="MultiBank Fast &amp; Furious Trading Contest Starts Jan 6, 2020! ">
-                                            </div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide swiper-slide-active"
-                                            style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-12-07</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-philippines-hosts-investors-night-2019"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Philippines
-                                                    Hosts Investors Night
-                                                    2019</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg"
-                                                    alt="MultiBank Philippines Hosts Investors Night 2019"></div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide swiper-slide-next"
-                                            style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-11-17</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-malaysia-hosted-successful-trading-seminar-in-kuala-lumpur"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Malaysia
-                                                    Hosted Successful Trading
-                                                    Seminar in Kuala Lumpur</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/malaysia_seminar_thumbnail_en.jpg"
-                                                    alt="MultiBank Malaysia Hosted Successful Trading Seminar in Kuala Lumpur">
-                                            </div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-11-17</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-attends-macau-grand-prix-2019"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Group Attends
-                                                    Macau Grand Prix 2019</a>
-                                            </div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg"
-                                                    alt="MultiBank Group Attends Macau Grand Prix 2019"></div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-11-04</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-fx-championship-2019-winners-announced"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank FX
-                                                    Championship 2019 Winners
-                                                    Announced!</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/1104_demo_competition_thumbnail.jpg"
-                                                    alt="MultiBank FX Championship 2019 Winners Announced!"></div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-10-02</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-attends-forex-expo-dubai-wins-best-forex-broker"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Attends the
-                                                    Forex Expo Dubai and Takes
-                                                    Home “Best Forex Broker” Award</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/dubai_expo_thumbnail.jpg"
-                                                    alt="MultiBank Attends the Forex Expo Dubai and Takes Home “Best Forex Broker” Award">
-                                            </div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-09-18</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-mena-diamond-sponsor-jordan-expo"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">Diamond Sponsor
-                                                    MultiBank MENA Attends Jordan Expo
-                                                    2019</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/jordan_expo_2019_thumbnail.jpg"
-                                                    alt="Diamond Sponsor MultiBank MENA Attends Jordan Expo 2019"></div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-09-14</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-wins-financial-services-provider-asia-award-2019"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Group Wins
-                                                    “Financial Services Provider
-                                                    of the Year (Asia) 2019” Award from Global Brands Magazine</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/Financial_Services_Provider_of_the_Year_2019_thumbnail.jpg"
-                                                    alt="MultiBank Group Wins “Financial Services Provider of the Year (Asia) 2019” Award from Global Brands Magazine">
-                                            </div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-08-13</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-fx-championship-2019-starting-soon"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank FX
-                                                    Championship Starting Soon! USD
-                                                    12,000 CASH Giveaway to Top 3 Demo Contest Winners</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/championship_small_en.jpg"
-                                                    alt="MultiBank FX Championship Starting Soon"></div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-08-01</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-latam-regional-headquarter-launched-mexico"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank LATAM Launches
-                                                    in Mexico</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/LATAM_thumbnail_en.jpg"
-                                                    alt="MultiBank LATAM Launches in Mexico"></div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-07-26</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/hiring-forex-sales-managers-for-dubai"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank’s Dubai Office
-                                                    Now Hiring Forex Sales
-                                                    Managers. Join Us Today!</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/hiring-now-cyprus-banner_v2_26July_1.jpg"
-                                                    alt="MultiBank’s Dubai Office Now Hiring Forex Sales Managers. Join Us Today!">
-                                            </div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-07-04</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/artur-filipowicz-joins-multibank-head-institutional-sales"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">FX Veteran Artur
-                                                    Filipowicz Joins MultiBank as
-                                                    Head of Institutional Sales</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/news_20190704_t.jpg"
-                                                    alt="FX Veteran Artur Filipowicz Joins MultiBank as Head of Institutional Sales">
-                                            </div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-06-08</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-elite-sponsor-forex-day-madrid-2019"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Elite Sponsor
-                                                    at Forex Day Madrid
-                                                    2019</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/the_forex_day_thumbnail.jpg"
-                                                    alt="MultiBank Elite Sponsor at Forex Day Madrid 2019"></div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-05-27</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-chosen-best-FX-CFD-broker-2019"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Chosen as Best
-                                                    FX &amp; CFD Broker
-                                                    (Europe &amp; Asia) 2019 by International Investor Magazine</a>
-                                            </div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/news_best_fx_cfd_broker_europe_asia_2019_thumbnail.jpg"
-                                                    alt="MultiBank Chosen as Best FX &amp; CFD Broker (Europe &amp; Asia) 2019 by International Investor Magazine">
-                                            </div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-05-22</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-makes-appearance-ifx-cyprus-expo"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Makes an
-                                                    Appearance at the iFX Cyprus
-                                                    Expo</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/ifx-cyprus_thumb_v2.jpg"
-                                                    alt="MultiBank Makes an Appearance at the iFX Cyprus Expo"></div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-05-17</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-adds-uber-shares-cfd-offerings"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Adds Uber to
-                                                    Its Shares CFD
-                                                    Offerings</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/adds_uber_465x265.jpg"
-                                                    alt="MultiBank Adds Uber to Its Shares CFD Offerings"></div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-05-15</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/visit-multibank-ifx-cyprus-2019"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">Visit Us at Booth 52 at
-                                                    iFX Expo 2019 in
-                                                    Cyprus</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/news_ifxexpo_s_0.jpg"
-                                                    alt="Visit Us at Booth 52 at iFX Expo 2019 in Cyprus"></div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-05-03</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/hiring-now-cyprus"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">MultiBank Group Is Now
-                                                    Hiring Senior Account
-                                                    Managers. Join us Today!</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/hiring-now-cyprus-thumbnail.jpg"
-                                                    alt="MultiBank Group Is Now Hiring Senior Account Managers. Join us Today!">
-                                            </div>
-                                        </li>
-                                        <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2019-04-30</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="article/multibank-honored-best-ecn-broker-asia-2019"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">Finance Derivative
-                                                    Honors MultiBank Group as “Best
-                                                    ECN Broker of the Year (Asia) 2019”</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="/public_files/blog/thumbnails/news_best_ecn_broker_of_the_year_asia_2019_thumbnail_0.jpg"
-                                                    alt="Finance Derivative Honors MultiBank Group as “Best ECN Broker of the Year (Asia) 2019”">
-                                            </div>
-                                        </li>
+                                      <!-- dynmic news slides -->
+                                        <?php echo $news?>
+                                      <!-- dynmic news slides -->
                                     </div>
                                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                                 </ul>
@@ -2330,7 +2121,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                     </section>
                 </div>
                 <div class="text-center mex-p-15 index_sup_a col-12">
-                    <a href="about/company-news.php" class="btn btn-mex ">MORE</a>
+                    <a href="/article/company-news.php" class="btn btn-mex ">MORE</a>
                 </div>
             </div>
         </div>
