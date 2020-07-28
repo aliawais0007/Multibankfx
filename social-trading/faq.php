@@ -8,8 +8,12 @@
      .st-slide-header::after {
     font-size: 24px;
 }
-.st-slide-content{
-    display: none;
+@keyframes hide {
+  from {display: none;}
+  to {display: block;}
+}
+.dis-faq{
+    animation: hide 1s;
 }
 .st-slide-header::after {
     position: absolute;
@@ -912,8 +916,8 @@
     </script>
     <script type="text/javascript">
         $(function() {
-            $('.st-slide-header').on('click',function() {
-                $(this).next().css("display")=="block" ? $(this).next().css("display","none"):$(this).next().css("display","block");
+            $('.st-slide-header').click(function() {
+                $(this).next().toggleClass("dis-faq");
             });
         });
     </script>
