@@ -33,12 +33,13 @@ $news1 = "";
 $news2 = "";
 
 
-foreach($newss as $value){
+foreach($newss as $key=>$value){
     $id = $value->id;
     $main_title = $value->main_title; 
     $date = $value->date;
     $post_image = $value->post_image;
-$news1 = "
+    if($key==0){
+        $news1 = "
 <div class='col-12 col-sm-12'>
 <div class='card big-news'>
     <a href='/article/news-detail.php?id=$id' target='_blank'>
@@ -51,6 +52,8 @@ $news1 = "
 </div>
 </div>
 ";
+    }
+else{
 $news2 .="
 <div class='col-12 col-sm-12'>
                                 <div class='card card-left mb-3 mt-3'>
@@ -66,6 +69,7 @@ $news2 .="
                                 </div>
                             </div>
 ";
+}
 }
 ?>
 
@@ -626,7 +630,7 @@ $news2 .="
                           <?php echo $news2;?>
                         </div>
                         <div class="text-center mex-p-15">
-                            <a href="article/news_20180916.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
+                            <a href="/article/company-news.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
                         </div>
                     </div>
                 </div>
