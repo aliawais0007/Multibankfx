@@ -913,7 +913,7 @@
     <script type="text/javascript">
         $(function() {
             $('.st-slide-header').on('click',function() {
-                $(this).next().css("display")=="block"?$(this).next().css("display").css("display","none"):$(this).next().css("display").css("display","block");
+                $(this).next().css("display")=="block" ? $(this).next().css("display","none"):$(this).next().css("display","block");
             });
         });
     </script>
