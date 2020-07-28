@@ -910,11 +910,7 @@
     </script>
     <script type="text/javascript">
         $(function() {
-<<<<<<< HEAD
             $('.st-slide-header').on('click',function() {
-=======
-            $('.st-slide-header').click(function() {
->>>>>>> 5666b42937a47d27dcddf6ef7603685edec1c394
                 $(this).next().toggle("slow");
             });
         });
