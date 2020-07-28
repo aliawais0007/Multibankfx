@@ -80,10 +80,10 @@
                     <div class="col-12">
                         <ul role="tablist" class="col-12 d-inline-block">
                             <li class="tab-title active font-type-cap" role="presentation">
-                                <a href="account-funding.html#deposits" class="font-24" aria-controls="deposits" role="tab" data-toggle="tab"><?php translate('DEPOSIT OPTIONS'); ?></a>
+                                <a href="/account//account/account-funding.php#deposits" class="font-24" aria-controls="deposits" role="tab" data-toggle="tab"><?php translate('DEPOSIT OPTIONS'); ?></a>
                             </li>
                             <li class="tab-title font-type-cap" role="presentation">
-                                <a href="withdrawals.php" class="font-24"><?php translate('WITHDRAWAL OPTIONS'); ?></a>
+                                <a href="/withdrawals.php" class="font-24"><?php translate('WITHDRAWAL OPTIONS'); ?></a>
                             </li>
                         </ul>
                         <div class="mex-h2 text-center text-1e32a3 mex-m-b-20" style="margin:20px 0 !important"><?php translate('CHOOSE YOUR REGULATOR'); ?>
@@ -109,7 +109,7 @@
                                                         <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                         <td>Processed within 24 hours</td>
                                                         <td>
-                                                            <a href="open-forex-account/funds-deposit-mex-australia-ltd.php">DEPOSIT
+                                                            <a href="/open-forex-account/funds-deposit-mex-australia-ltd.php">DEPOSIT
                                                                 NOW</a></td>
                                                     </tr>
                                                     <tr>
@@ -145,7 +145,7 @@
                                                         <td><img src="/public_files/images/accounts_funding/Perfect&#32;Money1.png" alt="Perfect Money"></td>
                                                         <td>USD,EUR</td>
                                                         <td>Processed within 24 hours</td>
-                                                        <td><a href="account-funding/perfect-money.php" target="_blank">DEPOSIT
+                                                        <td><a href="/account/account-funding/perfect-money.php" target="_blank">DEPOSIT
                                                                 NOW</a></td>
                                                     </tr>
 
@@ -153,7 +153,7 @@
                                                         <td><img src="/public_files/images/payment_gateway/payment-asia-transparent.png" alt="Payment Asia"></td>
                                                         <td>PHP</td>
                                                         <td>Processed within 24 hours</td>
-                                                        <td><a href="account-funding/paymentasia.php" target="_blank">DEPOSIT
+                                                        <td><a href="/account/account-funding/paymentasia.php" target="_blank">DEPOSIT
                                                                 NOW</a></td>
                                                     </tr>
 
@@ -181,21 +181,21 @@
                                                         <td><img src="/public_files/images/accounts_funding/payment_icons/bank_wire.jpg" data-toggle="modal" data-target="#modal_funds_deposit_multibank_fx_ltd" alt="Bank Transfer"></td>
                                                         <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                         <td>Processed within 24 hours</td>
-                                                        <td><a href="open-forex-account/funds-deposit-multibank-fx-ltd.php">DEPOSIT
+                                                        <td><a href="/open-forex-account/funds-deposit-multibank-fx-ltd.php">DEPOSIT
                                                                 NOW</a></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="/public_files/images/accounts_funding/payment_icons/skrill.jpg" alt="Skrill Visa"></td>
                                                         <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                         <td>Processed within 24 hours</td>
-                                                        <td><a href="account-funding/skrill.php" target="_blank">DEPOSIT
+                                                        <td><a href="/account/account-funding/skrill.php" target="_blank">DEPOSIT
                                                                 NOW</a></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="/public_files/images/accounts_funding/payment_icons/neteller.jpg" alt="Neteller"></td>
                                                         <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                         <td>Processed within 24 hours</td>
-                                                        <td><a href="account-funding/neteller-clr.php" target="_blank">DEPOSIT
+                                                        <td><a href="/account/account-funding/neteller-clr.php" target="_blank">DEPOSIT
                                                                 NOW</a></td>
                                                     </tr>
                                                     <tr>
@@ -219,7 +219,7 @@
                                                         <td><img src="/public_files/images/accounts_funding/Perfect&#32;Money1.png" alt="Perfect Money"></td>
                                                         <td>USD,EUR</td>
                                                         <td>Processed within 24 hours</td>
-                                                        <td><a href="account-funding/perfect-money.php" target="_blank">DEPOSIT
+                                                        <td><a href="/account/account-funding/perfect-money.php" target="_blank">DEPOSIT
                                                                 NOW</a></td>
                                                     </tr>
 
@@ -227,28 +227,28 @@
                                                         <td><img src="/public_files/images/payment_gateway/payment-asia-transparent.png" alt="Payment Asia"></td>
                                                         <td>PHP</td>
                                                         <td>Processed within 24 hours</td>
-                                                        <td><a href="account-funding/paymentasia.php" target="_blank">DEPOSIT
+                                                        <td><a href="/account/account-funding/paymentasia.php" target="_blank">DEPOSIT
                                                                 NOW</a></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="/public_files/images/payment_gateway/fxbit_logo.png" alt="FXBit"></td>
                                                         <td>BTC, ETH, USDT</td>
                                                         <td>Processed within 24 hours</td>
-                                                        <td><a href="account-funding/fxbit.php" target="_blank">DEPOSIT NOW</a>
+                                                        <td><a href="/account/account-funding/fxbit.php" target="_blank">DEPOSIT NOW</a>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="/public_files/images/payment_gateway/globepay_logo.png" alt="Globepay"></td>
                                                         <td>INR</td>
                                                         <td>Processed within 24 hours</td>
-                                                        <td><a href="account-funding/globepay.php" target="_blank">DEPOSIT
+                                                        <td><a href="/account/account-funding/globepay.php" target="_blank">DEPOSIT
                                                                 NOW</a></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="/public_files/images/payment_gateway/thunderx_logo.png" alt="Thunder X Pay"></td>
                                                         <td>KHR, LAK, MMK, THB</td>
                                                         <td>Processed within 24 hours</td>
-                                                        <td><a href="account-funding/thunderx.php" target="_blank">DEPOSIT
+                                                        <td><a href="/account/account-funding/thunderx.php" target="_blank">DEPOSIT
                                                                 NOW</a></td>
                                                     </tr>
                                                 </tbody>
@@ -711,9 +711,9 @@
         function redirectCreditCard() {
             const country = $('.cc-country-selector--select').val();
             if (allowedCardCountries.includes(country)) {
-                window.location.href = "/account/account-funding/inpendium";
+                window.location.href = "/account//account/account-funding/inpendium";
             } else {
-                window.location.href = "/account/account-funding/wcard";
+                window.location.href = "/account//account/account-funding/wcard";
             }
         }
     </script>
@@ -888,7 +888,7 @@
                 <form action="https://www.multibankfx.com/form/contactus?" name='email_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='email_us_form' target='' autocomplete='on'>
                     <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMjo0OTozMw==' />
                     <input type='hidden' name='token' value='$2y$10$9DDQW/VjEFJVNUfw4q5g/e.j7bvWMBVlYQVVUiIrah5Bywi2pPUom' />
-                    <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:30] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:31] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:32] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:33] https://www.multibankfx.com/<br/><br/> <br/><br/> posted From: www.multibankfx.com/account/account-funding?web=true' />
+                    <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:30] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:31] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:32] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:33] https://www.multibankfx.com/<br/><br/> <br/><br/> posted From: www.multibankfx.com/account//account/account-funding?web=true' />
                     <div class='col-12 p-0'>
                         <label for='' class='mex-h3'>
                             EMAIL US</label>

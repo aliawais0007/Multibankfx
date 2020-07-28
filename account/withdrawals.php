@@ -79,10 +79,10 @@
                     <div class="col-12">
                         <ul class="tablist col-12 d-inline-block" role="tablist">
                             <li class="tab-title active font-type-cap" role="presentation">
-                                <a href="withdrawals.html#withdrawals" class="font-24" aria-controls="withdrawals" role="tab" data-toggle="tab"><?php translate('WITHDRAWAL OPTIONS'); ?></a>
+                                <a href="/account/withdrawals.php#withdrawals" class="font-24" aria-controls="withdrawals" role="tab" data-toggle="tab"><?php translate('WITHDRAWAL OPTIONS'); ?></a>
                             </li>
                             <li class="tab-title font-type-cap" role="presentation">
-                                <a href="account-funding.php" class="font-24"><?php translate('DEPOSIT OPTIONS'); ?></a>
+                                <a href="/account/account-funding.php" class="font-24"><?php translate('DEPOSIT OPTIONS'); ?></a>
                             </li>
                         </ul>
                         <div class="mex-h2 text-center text-1e32a3 mex-m-b-20" style="margin:20px 0 !important"><?php translate('CHOOSE YOUR REGULATOR'); ?>
@@ -107,38 +107,38 @@
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/bank_wire.jpg" alt="Bank Wire"></td>
                                                             <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal_gateway_bank_transfer.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?> </a></td>
+                                                                <a href="/open-forex-account/withdrawal_gateway_bank_transfer.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?> </a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/card.jpg" alt="Master and Viese"></td>
                                                             <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal_gateway_bank_transfer.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal_gateway_bank_transfer.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/skrill.jpg" alt="Skrill"></td>
                                                             <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal__gateway_skrill.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal__gateway_skrill.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/paytrust.jpg">
                                                             </td>
                                                             <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal_gateway_paytrust.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal_gateway_paytrust.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/neteller.jpg" alt="Netrller"></td>
                                                             <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal_gateway_neteller_pay.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal_gateway_neteller_pay.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/Perfect&#32;Money1.png" alt="Perfect Money"></td>
                                                             <td>USD,EUR</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal__gateway_perfect_money.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal__gateway_perfect_money.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -164,57 +164,57 @@
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/bank_wire.jpg" data-toggle="modal" data-target="#modal_funds_deposit_multibank_fx_ltd" alt="Bank Wire"></td>
                                                             <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal_gateway_bank_transfer.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal_gateway_bank_transfer.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/skrill.jpg" alt="Skrill"></td>
                                                             <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal__gateway_skrill.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal__gateway_skrill.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/neteller.jpg" alt="Netrller"></td>
                                                             <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal_gateway_neteller_pay.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal_gateway_neteller_pay.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/card.jpg" alt="Master and Viese"></td>
                                                             <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal__gateway_mastercard.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal__gateway_mastercard.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/paytrust.jpg">
                                                             </td>
                                                             <td>USD, GBP, EUR, JPY, CHF, AUD, NZD, CAD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal_gateway_paytrust.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal_gateway_paytrust.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/Perfect&#32;Money1.png" alt="Perfect Money"></td>
                                                             <td>USD,EUR</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal__gateway_perfect_money.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal__gateway_perfect_money.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/payment_gateway/fxbit_logo.png" alt="FXBit"></td>
                                                             <td>BTC, ETH, USDT</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal_gateway_fxbit.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal_gateway_fxbit.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/payment_gateway/globepay_logo.png" alt="GlobePay"></td>
                                                             <td>USD</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal_gateway_globepay.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal_gateway_globepay.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td><img src="/public_files/images/accounts_funding/payment_icons/thunderx.png%3Ft=1">
                                                             </td>
                                                             <td>KHR, LAK, MMK, THB</td>
                                                             <td>
-                                                                <a href="open-forex-account/withdrawal__gateway_thunderxpay.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
+                                                                <a href="/open-forex-account/withdrawal__gateway_thunderxpay.php" target="_blank"><?php translate('REQUEST A WITHDRAWAL'); ?></a></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
