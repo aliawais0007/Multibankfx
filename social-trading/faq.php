@@ -8,12 +8,8 @@
      .st-slide-header::after {
     font-size: 24px;
 }
-@keyframes hide {
-  from {display: none;}
-  to {display: block;}
-}
-.dis-faq{
-    animation: hide 1s;
+.st-slide-content1{
+    display: none;
 }
 .st-slide-header::after {
     position: absolute;
@@ -916,8 +912,8 @@
     </script>
     <script type="text/javascript">
         $(function() {
-            $('.st-slide-header').click(function() {
-                $(this).next().toggleClass("dis-faq");
+            $('.st-slide-header').on('click',function() {
+                $(this).next().slideToggle("slow")
             });
         });
     </script>
