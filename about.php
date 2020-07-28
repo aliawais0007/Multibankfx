@@ -754,7 +754,7 @@ foreach ($newss as $key => $value) {
                             <?php echo $news2; ?>
                         </div>
                         <div class="text-center mex-p-15">
-                            <a href="//article/company-news.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
+                            <a href="/article/company-news.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
                         </div>
                     </div>
                 </div>
