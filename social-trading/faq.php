@@ -8,7 +8,9 @@
      .st-slide-header::after {
     font-size: 24px;
 }
-
+.st-slide-content{
+    display: none;
+}
 .st-slide-header::after {
     position: absolute;
     top: 50%;
@@ -911,7 +913,7 @@
     <script type="text/javascript">
         $(function() {
             $('.st-slide-header').on('click',function() {
-                $(this).next().toggle("slow");
+                $(this).next().css("display")=="block"?$(this).next().css("display").css("display","none"):$(this).next().css("display").css("display","block");
             });
         });
     </script>
