@@ -908,13 +908,13 @@
             }
         });
     </script>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.st-slide-header').click(function() {
-                $(this).next().slideToggle("slow");
+                $(this).next().yoggle("slow");
             });
         });
-    </script> -->
+    </script>
     <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
 
