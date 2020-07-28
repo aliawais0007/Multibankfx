@@ -535,8 +535,8 @@
                 </div>
             </div>
             <div class="row justify-content-center btn-container">
-                <a href="/social-trading/trader" class="btn-single btn-st-1ba6df text-fff ">Become A Signal Provider</a>
-                <a href="/social-trading/investor" class="btn-single btn-st-006AD0 text-fff">Become An Investor</a>
+                <a href="/social-trading/trader.php" class="btn-single btn-st-1ba6df text-fff ">Become A Signal Provider</a>
+                <a href="/social-trading/investor.php" class="btn-single btn-st-006AD0 text-fff">Become An Investor</a>
             </div>
         </div>
     </section>
@@ -556,7 +556,7 @@
                         <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Over 320,000 potential Investors</li>
                         <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Maximize your profits with no additional effort</li>
                     </ul>
-                    <div class="row mx-0"><a href="/social-trading/trader" class="btn-st-1ba6df ml-0 text-fff">Become A Signal Provider</a></div>
+                    <div class="row mx-0"><a href="/social-trading/trader.php" class="btn-st-1ba6df ml-0 text-fff">Become A Signal Provider</a></div>
                 </div>
             </div>
         </div>
