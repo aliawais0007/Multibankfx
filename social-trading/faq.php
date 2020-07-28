@@ -5,6 +5,50 @@
 <body>
     <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
+     .st-slide-header::after {
+    font-size: 24px;
+}
+
+.st-slide-header::after {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 40px;
+    content: "\e64b";
+    font-family: 'themify';
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    transition-duration: 0.3s;
+}
+.st-slide-header {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.st-slide-header {
+    position: relative;
+    background-color: #006ACE;
+    cursor: pointer;
+}
+
+.st-slide-header::after {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 40px;
+    content: "\e64b";
+    font-family: 'themify';
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    transition-duration: 0.3s;
+}
         .nav-menu-hamburger,
         .nav-menu-mymex {
             width: 35px;
@@ -302,7 +346,7 @@
     </style>
 
     <?php include_from_root('website_template/page_footer.php'); ?>
-    
+
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+97148751312">
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
