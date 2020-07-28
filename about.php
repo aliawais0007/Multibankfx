@@ -59,7 +59,7 @@ $news2 .="
                                             <img src='$post_image' alt='' class='mex-img-cover'>
                                         </div>
                                         <div class='card-body mex-content col-12 col-md-4 col-xl-6'>
-                                            <p class='card-title'>substr$main_title </p>
+                                            <p class='card-title'>$main_title </p>
                                             <p class='card-time'>$date</p>
                                         </div>
                                     </a>
