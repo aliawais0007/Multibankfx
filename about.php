@@ -34,19 +34,19 @@ $news2 = "";
 
 
 foreach($newss as $key=>$value){
-    $id = $value->id;
-    $main_title = $value->main_title; 
-    $date = $value->date;
-    $post_image = $value->post_image;
+    $news_id = $value->id;
+    $news_title = substr($value->title, 0, 50); 
+    $news_date = $value->date;
+    $news_post_image = $value->post_image;
     if($key==0){
         $news1 = "
 <div class='col-12 col-sm-12'>
 <div class='card big-news'>
-    <a href='/article/news-detail.php?id=$id' target='_blank'>
-        <img src='$post_image' alt='' class='mex-img-cover' />
+    <a href='/article/news-detail.php?id=$news_id' target='_blank'>
+        <img src='$news_post_image' alt='' class='mex-img-cover' />
         <div class='card-body mex-content mex-p-v-15'>
-            <p class='card-title text-overflow-2'>$title</p>
-            <p class='card-time'>$date</p>
+            <p class='card-title text-overflow-2'>$news_title</p>
+            <p class='card-time'>$news_date</p>
         </div>
     </a>
 </div>
