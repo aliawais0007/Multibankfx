@@ -547,7 +547,7 @@ $milestone = filtered_milestone();
                                     ACCOUNT
                                 </div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href=/demo_competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href=/demo-competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe918;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Abre una cuenta de prueba" data-fr="OUVRIR UN COMPTE DÉMO" data-ms="Buka Akaun Demo" data-th="เปิดบัญชีทดลอง" data-ae="افتح حساب تجريبي">OPEN DEMO ACCOUNT

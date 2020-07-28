@@ -73,7 +73,7 @@
                         </div>
                         <div class="mex-content mex-m-b-30">
                             <a href="live-account.php" class="btn btn-mex-red mex-m-r-15 mex-m-b-15 col-xs-12 col-sm-6"><?php translate('Open Live Account'); ?></a>
-                            <a href="demo_competition.php" class="btn btn-mex-blue mex-m-r-15 mex-m-b-15 col-xs-12 col-sm-6"><?php translate('Open Demo Account'); ?></a>
+                            <a href="/demo-competition.php" class="btn btn-mex-blue mex-m-r-15 mex-m-b-15 col-xs-12 col-sm-6"><?php translate('Open Demo Account'); ?></a>
                         </div>
                     </div>
                 </div>

@@ -524,7 +524,7 @@ $news97=""
                             <div class="btn-vr"></div>
                             <div class="mex-translatable" data-es="abre una cuenta real" data-fr="OUVRIR UN COMPTE RÉEL" data-ae="افتح حساب حقيقي" data-ms="Buka Akaun Live" data-th="เปิดบัญชี">OPEN LIVE ACCOUNT</div>
                         </a>
-                        <a style="padding: 5px 10px !important;" href="/demo_competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a style="padding: 5px 10px !important;" href="/demo-competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe918;</span>
                             <div class="btn-vr"></div>
                             <div class="mex-translatable" data-es="Abre una cuenta de prueba" data-fr="OUVRIR UN COMPTE DÉMO" data-ms="Buka Akaun Demo" data-th="เปิดบัญชีทดลอง" data-ae="افتح حساب تجريبي">OPEN DEMO ACCOUNT</div>
@@ -1118,7 +1118,7 @@ $news97=""
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="/account.php"><strong>Accounts &amp; Funding</strong></a> <a href="/account/live-account.php" target="_parent">Live Account </a> <a href="/demo_competition.php" target="_parent">Demo Account </a> <a href="/account/islamic-account.php" target="_parent">Islamic Account </a> <a href="/account/account-funding.php" target="_parent">Account Funding </a> <a href="/account/withdrawals.php" target="_parent">Withdrawals</a> <a href="/account/account-forms.php" target="_parent">Account Forms </a> <a href="/account/bonus.php" target="_parent">Bonuses</a></li>
+                                <li><a href="/account.php"><strong>Accounts &amp; Funding</strong></a> <a href="/account/live-account.php" target="_parent">Live Account </a> <a href="/demo-competition.php" target="_parent">Demo Account </a> <a href="/account/islamic-account.php" target="_parent">Islamic Account </a> <a href="/account/account-funding.php" target="_parent">Account Funding </a> <a href="/account/withdrawals.php" target="_parent">Withdrawals</a> <a href="/account/account-forms.php" target="_parent">Account Forms </a> <a href="/account/bonus.php" target="_parent">Bonuses</a></li>
                             </ul>
                         </div>
                         <div class="col-md-2">

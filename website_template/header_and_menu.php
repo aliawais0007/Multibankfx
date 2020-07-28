@@ -307,7 +307,7 @@
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/account.php"><?php translate('Account & Funding'); ?></a>
                     <ul class="text-center">
                         <li><a href="/account/live-account.php"><?php translate('Live Account'); ?></a></li>
-                        <li><a href="/demo_competition.php"><?php translate('Demo Account'); ?></a></li>
+                        <li><a href="/demo-competition.php"><?php translate('Demo Account'); ?></a></li>
                         <li><a href="/account/islamic-account.php"><?php translate('Islamic Account'); ?></a></li>
                         <li><a href="/account/account-funding.php"><?php translate('Account Funding'); ?></a></li>
                         <li><a href="/account/withdrawals.php"><?php translate('Withdrawals'); ?></a></li>

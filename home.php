@@ -179,7 +179,7 @@ foreach ($allnews as $item) {
                             <div class="btn-vr"></div>
                             <?php translate('OPEN LIVE ACCOUNT'); ?>
                         </a>
-                        <a href="/demo_competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a href="/demo-competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe918;</span>
                             <div class="btn-vr"></div>
                             <?php translate('OPEN DEMO ACCOUNT'); ?>

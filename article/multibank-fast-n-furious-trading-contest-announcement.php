@@ -72,7 +72,7 @@
                                 <p class="article-paragraph"></p>
                             </header>
                         </article>
-                        <img src="/multibankfx/public_files/images/blog/2020_winners_announced.jpg" class="article-img" />
+                        <img src="/public_files/images/blog/2020_winners_announced.jpg" class="article-img" />
                         <div class="article-body">
                             <div class="text-left mex-m-t-40 c4938">The top 3 winners of MultiBank’s latest demo trading
                                 contest are out! The MultiBank Fast & Furious Trading Contest was a month-long demo trading
@@ -91,19 +91,19 @@
                             <p></p>
                             <p class="article-paragraph"></p>
 
-                            <video allowfullscreen="allowfullscreen" class="article-video" src="/multibankfx/public_files/video/Winner_video_1st.mp4" poster="/multibankfx/public_files/images/blog/2020_winners_announced_1st.jpg" controls="controls">
+                            <video allowfullscreen="allowfullscreen" class="article-video" src="/public_files/video/Winner_video_1st.mp4" poster="/public_files/images/blog/2020_winners_announced_1st.jpg" controls="controls">
                             </video>
                             <p class="article-paragraph"></p>
                             <h3 class="c6427">1<sup>st</sup> Place - Junming Liu (China)</h3>
                             <p></p>
                             <p class="article-paragraph"></p>
-                            <video allowfullscreen="allowfullscreen" class="article-video" src="/multibankfx/public_files/video/Winner_video_2nd.mp4" poster="/multibankfx/public_files/images/blog/2020_winners_announced_2nd.jpg" controls="controls">
+                            <video allowfullscreen="allowfullscreen" class="article-video" src="/public_files/video/Winner_video_2nd.mp4" poster="/public_files/images/blog/2020_winners_announced_2nd.jpg" controls="controls">
                             </video>
                             <p class="article-paragraph"></p>
                             <h3 class="c6729">2<sup>nd</sup> Place- Airone Helaria Alvaira (Philippines)</h3>
                             <p></p>
                             <p class="article-paragraph"></p>
-                            <video allowfullscreen="allowfullscreen" class="article-video" src="/multibankfx/public_files/video/Winner_video_3rd.mp4" poster="/multibankfx/public_files/images/blog/2020_winners_announced_3rd.jpg" controls="controls">
+                            <video allowfullscreen="allowfullscreen" class="article-video" src="/public_files/video/Winner_video_3rd.mp4" poster="/public_files/images/blog/2020_winners_announced_3rd.jpg" controls="controls">
                             </video>
                             <p class="article-paragraph"></p>
 
@@ -641,27 +641,27 @@
                         </form>
                         <hr class="mx-1 my-2 bg-dark">
                         <div class="px-1 contact-form-button-container">
-                            <a style="padding: 5px 10px !important;" href="/multibankfx/account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe91d;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="abre una cuenta real" data-fr="OUVRIR UN COMPTE RÉEL" data-ae="افتح حساب حقيقي" data-ms="Buka Akaun Live" data-th="เปิดบัญชี">OPEN LIVE
                                     ACCOUNT
                                 </div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="/multibankfx/demo_competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/demo-competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe918;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Abre una cuenta de prueba" data-fr="OUVRIR UN COMPTE DÉMO" data-ms="Buka Akaun Demo" data-th="เปิดบัญชีทดลอง" data-ae="افتح حساب تجريبي">OPEN DEMO ACCOUNT
                                 </div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="/multibankfx/partnership/introducing-brokers.html#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/partnership/introducing-brokers.html#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe920;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Resgistro de IB" data-fr='ENREGISTREMENT "IB"' data-ms="Pendaftaran IB" data-th="การลงทะเบียน IB" data-ae="تسجيل وسيط معرف">IB
                                     REGISTRATION
                                 </div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="/multibankfx/account/account-funding.php" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/account/account-funding.php" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe921;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="financia tu cuenta" data-fr="CRÉDITEZ VOTRE COMPTE" data-ms="Dana Akaun Anda" data-th="เติมเงินในบัญชีขอ" data-ae="تمويل حسابك">FUND YOUR
@@ -671,12 +671,12 @@
                             <div class="px-1 font-10" style="padding:0px;">
                                 <div class="form-check form-check-inline">
                                     <label class="form-check-label label-1 mex-translatable" for="terms_conditions" data-ms='Saya menerima <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terma & Syarat</a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">Dasar Privasi</a>, dan <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;"> Dasar Cookie.</a>.' data-fr='En soumettant ce formulaire, vous acceptez  <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">les Termes et conditions</a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">la Politique de confidentialité</a>, et <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;"> la Politique sur les cookies.</a>.' data-ae='أوافق على <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">الشروط والأحكام </a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">وسياسة الخصوصية </a>, <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">وسياسة ملفات تعريف الارتباط</a>.' data-th='เมื่อส่งแบบฟอร์มนี้ถือว่าคุณยอมรับ
-    <a href="/multibankfx/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">ข้อกำหนดและเงื่อนไข </a>,
-    <a href="/multibankfx/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">นโยบายความเป็นส่วนตัว</a>
-    , <a href="/multibankfx/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">และนโยบายคุกกี้</a>.'>By
-                                        submitting this form, you agree to accept the <a href="/multibankfx/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms
-                                            &amp; Conditions</a>, <a href="/multibankfx/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy
-                                            Policy</a>, and <a href="/multibankfx/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie
+    <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">ข้อกำหนดและเงื่อนไข </a>,
+    <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">นโยบายความเป็นส่วนตัว</a>
+    , <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">และนโยบายคุกกี้</a>.'>By
+                                        submitting this form, you agree to accept the <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms
+                                            &amp; Conditions</a>, <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy
+                                            Policy</a>, and <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie
                                             Policy</a>.
                                     </label>
                                 </div>
@@ -688,7 +688,7 @@
                         <hr class="c881" />
                         <div class="row side-news-frame mx-0 mb-3">
                             <a href="multibank-philippines-hosts-investors-night-2019.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/multibankfx/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg" class="side-news-thumbnail" />
+                                <img src="/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg" class="side-news-thumbnail" />
                             </a>
                             <div class="side-news-text col-6 px-0 text-left">
                                 <a href="multibank-philippines-hosts-investors-night-2019.php" class="text-left article-thumbnail-text c933">MultiBank Philippines Hosts Investors Night
@@ -700,7 +700,7 @@
                         </div>
                         <div class="row side-news-frame mx-0 mb-3">
                             <a href="news_20170624.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/multibankfx/public_files/blog/thumbnails/news_20170624_a.jpg" class="side-news-thumbnail" />
+                                <img src="/public_files/blog/thumbnails/news_20170624_a.jpg" class="side-news-thumbnail" />
                             </a>
                             <div class="side-news-text col-6 px-0 text-left">
                                 <a href="news_20170624.php" class="text-left article-thumbnail-text c1001">
@@ -713,7 +713,7 @@
                         </div>
                         <div class="row side-news-frame mx-0 mb-3">
                             <a href="multibank-draws-crowd-ifx-expo.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/multibankfx/public_files/blog/thumbnails/ifx_expo_thumbnail.jpg" class="side-news-thumbnail" />
+                                <img src="/public_files/blog/thumbnails/ifx_expo_thumbnail.jpg" class="side-news-thumbnail" />
                             </a>
                             <div class="side-news-text col-6 px-0 text-left">
                                 <a href="multibank-draws-crowd-ifx-expo.php" class="text-left article-thumbnail-text c1066">
@@ -726,7 +726,7 @@
                         </div>
                         <div class="row side-news-frame mx-0 mb-3">
                             <a href="multibank-successful-expo-invest-cuffs-krakow.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/multibankfx/public_files/blog/thumbnails/invest_cuffs_krakow_thumbnail_465x265.jpg" class="side-news-thumbnail" />
+                                <img src="/public_files/blog/thumbnails/invest_cuffs_krakow_thumbnail_465x265.jpg" class="side-news-thumbnail" />
                             </a>
                             <div class="side-news-text col-6 px-0 text-left">
                                 <a href="multibank-successful-expo-invest-cuffs-krakow.php" class="text-left article-thumbnail-text c1131">
@@ -739,7 +739,7 @@
                         </div>
                         <div class="row side-news-frame mx-0 mb-3">
                             <a href="multibank-attends-macau-grand-prix-2019.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/multibankfx/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg" class="side-news-thumbnail" />
+                                <img src="/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg" class="side-news-thumbnail" />
                             </a>
                             <div class="side-news-text col-6 px-0 text-left">
                                 <a href="multibank-attends-macau-grand-prix-2019.php" class="text-left article-thumbnail-text c1196">
@@ -811,16 +811,16 @@
 
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="/multibankfx/cdn-cgi/l/email-protection.html#b2d1c1f2dfc7dec6dbd0d3dcd9d4ca9cd1dddf">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.html#b2d1c1f2dfc7dec6dbd0d3dcd9d4ca9cd1dddf">
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-fc0918bdca3c8bf3439ea432-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -1287,7 +1287,7 @@
             border-radius: 0;
         }
     </style>
-    <script data-cfasync="false" src="/multibankfx/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script type="fc0918bdca3c8bf3439ea432-text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
@@ -1300,12 +1300,12 @@
             });
         })
     </script>
-    <script src="/multibankfx/public_files/static_js/lang_data/en.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/jquery.dataTables.min.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/lazysizes.min.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/jquery.validate.min.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/intlTelInput.min.js%3Fversion=20191128" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/app.js%3Fversion=20200612" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
+    <script src="/public_files/static_js/lang_data/en.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js%3Fversion=20191128" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
+    <script src="/public_files/static_js/app.js%3Fversion=20200612" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
     <script type="fc0918bdca3c8bf3439ea432-text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {

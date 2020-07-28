@@ -151,7 +151,7 @@
                             <div class="col-sm-12 text-center">
                                 <div class="mex-h3 text-center mex-m-b-15 uppercase"><?php translate('APPLY NOW TO START TRADING'); ?></div>
                                 <a href="/account/live-account.php" class="btn btn-mex-red mex-m-b-15" style="min-width: 200px;"><?php translate('Live Account'); ?></a><br>
-                                <a href="/demo_competition.php" class="btn btn-mex-blue mex-m-b-15" style="min-width: 200px;"><?php translate('Demo Account'); ?></a>
+                                <a href="/demo-competition.php" class="btn btn-mex-blue mex-m-b-15" style="min-width: 200px;"><?php translate('Demo Account'); ?></a>
                             </div>
                         </div>
                     </div>
