@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang='en'>
-<?php include_from_root('website_template/head.php');?>
+<?php include_from_root('website_template/head.php'); ?>
+
 <body>
-    <?php include_from_root('website_template/header_and_menu.php');?>
+    <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
         .nav-menu-hamburger,
         .nav-menu-mymex {
@@ -559,7 +560,7 @@
                         </div>
                         <button type='submit' class='btn-contact mx-1 mt-2 mb-0'
                                 onsubmit="if (!window.__cfRLUnblockHandlers) return false; "
-                                data-cf-modified-ca783208542e411d19700e4f-="">OPEN DEMO ACCOUNT
+                                data-cf-modified-="">OPEN DEMO ACCOUNT
                         </button>
                     </form>
 
@@ -594,10 +595,10 @@
                                         100% BONUS
                                     </a>
                                 </li>
-                                <li class="tab-title bonus-page-tab d-none" data-tab="20_bonus">
+                                <li class="tab-title bonus-page-tab" data-tab="20_bonus">
                                     <a>
-                                        <span class="tab-img-cover d-none d-xl-block"><img src="/public_files/images/accounts_funding/20bonus_box_652x600_new.jpg"></span>
-                                        25% BONUS
+                                        <span class="tab-img-cover d-none d-xl-block"><img src="/public_files/images/accounts_funding/20bonus_box_652x600.jpg"></span>
+                                        20% BONUS
                                     </a>
                                 </li>
                                 <li class="tab-title bonus-page-tab active" data-tab="imperial_bonus">
@@ -643,28 +644,24 @@
                                     </ul>
                                 </div>
                                 <div class="tab-pane bonus-page-pane" id="20_bonus">
-                                    <h2 class="mex-h1 text-1e32a3 mex-m-t-15 uppercase text-left">25% BONUS</h2>
-                                    <p class="mex-m-b-20">Any client that opens a trading account and deposits a minimum of
-                                        $1,000 can claim our exclusive 25% Bonus when they meet the terms and conditions
-                                        listed below. </h4>
-                                        <h4>Terms &amp; Conditions</h4>
-                                        <ul class="mex-list-conditions mex-m-t-15">
-                                            <li>1. The minimum deposit required for the 25% Bonus is $1,000</li>
-                                            <li>2. The maximum bonus amount per customer is $25,000</li>
-                                            <li>3. This losable bonus can be withdrawn at a rate of $250 for every 50 lots round
-                                                trip traded
-                                            </li>
-                                            <li>4. If the customer chooses to withdraw funds from their trading account, then
-                                                any bonus amount which was not converted into cash will be deducted from their
-                                                account. However, if the customer chooses to withdraw only the profits generated
-                                                from trading, then any bonus amount which has not been converted into cash will
-                                                not be deducted from their account
-                                            </li>
-                                            <li>5. This bonus cannot be used in combination with any other bonuses</li>
-                                            <li>6. MultiBank Group reserves the right to correct the trading calculation in the
-                                                event of any suspected abuse or manipulation of this bonus policy and promotion
-                                            </li>
-                                        </ul>
+                                    <h2 class="mex-h1 text-1e32a3 mex-m-t-15 uppercase text-left">20% BONUS</h2>
+                                    <p class="mex-m-b-20">Earn a deposit bonus up to $40,000 on top of your investment and redeem this bonus for real cash rewards subject to the trading requirements below.
+                                    </p>
+                                    <h4>Terms &amp; Conditions</h4>
+                                    <ul class="mex-list-conditions mex-m-t-15">
+                                        <li>1. You will be granted a 20% Bonus on top of your investment (“20% Bonus”) which comprises of a 10% as a losable bonus (“Losable Bonus”) and another 10% as credit non losable bonus (“Credit Bonus”).</li>
+                                        <li>2. You can convert the Credit Bonus at a rate of 2 USD per 1 lot round trip traded during any one month (“Cashback Bonus”). The Cashback Bonus shall be applied to your account on the 10th of each month for the month prior. </li>
+                                        <li>3. The Cashback Bonus is losable and withdrawable. The Losable Bonus is non withdrawable. </li>
+                                        <li>4. All executed trades on Shares, Cryptos and Indices are excluded from the lots target </li>
+                                        <li>5. This 20% Bonus is available to existing and new clients. </li>
+                                        <li>6. The maximum 20% Bonus per customer is $40,000 ($20,000 Losable Bonus and $20,000 as Credit Bonus)</li>
+                                        <li>7. The minimum initial deposit amount to be eligible for the 20% Bonus is $1000. The 20% Bonus will be applied to the initial deposit and any further deposits made as long as the total amount of 20% Bonus does not exceed US$40,000. </li>
+                                        <li>8. In the event withdrawals are made, all bonus will be removed. </li>
+                                        <li>9. The 20% Bonus is available on the Maximus and MultiBank Pro Platforms. </li>
+                                        <li>10. This 20% Bonus cannot be used in combination with any other bonuses. </li>
+                                        <li>11. Manipulation of the system by arbitrage trading is strictly prohibited.</li>
+                                        <li>12. MultiBank Group reserves the right to correct the trading calculation in the event of any suspected abuse or manipulation of this bonus policy and promotion. </li>
+                                    </ul>
                                 </div>
                                 <div class="tab-pane bonus-page-pane active" id="imperial_bonus">
                                     <h2 class="mex-h1 text-1e32a3 mex-m-t-15 uppercase text-left"><?php translate('IMPERIAL BONUS'); ?></h2>
@@ -812,7 +809,7 @@
                                             cannot be an existing client'); ?>
                                         </li>
                                         <li><?php translate('4. The minimum initial deposit amount by friend must be $1,000'); ?></li>
-                                        <li><?php translate('5. Each person can qualify for up to 8 Refer a Friend Bonus each calendar year');?>
+                                        <li><?php translate('5. Each person can qualify for up to 8 Refer a Friend Bonus each calendar year'); ?>
                                         </li>
                                         <li><?php translate('6. This bonus is non-rebate generating'); ?></li>
                                         <li><?php translate('7. This bonus shall be automatically deducted in case withdrawals are made
@@ -996,7 +993,7 @@
             }
         </style>
         <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script type="ca783208542e411d19700e4f-text/javascript">
+        <script type="text/javascript">
             function switchToIndividual() {
                 $form = $('#lp_campaign_07_16_v2');
                 $form.attr('action', '/form/demoaccount');
@@ -1053,9 +1050,9 @@
         <blockquote>
             <p>&nbsp;</p>
         </blockquote>
-        <?php include_from_root('website_template/choose_where_to.php');?>
+        <?php include_from_root('website_template/choose_where_to.php'); ?>
     </div>
-    <script type="ca783208542e411d19700e4f-text/javascript">
+    <script type="text/javascript">
         $(function() {
             //icons we need
             var icons = [
@@ -1077,7 +1074,7 @@
         });
     </script>
     <div class="cc-country-selector">
-        <div class="cc-country-selector--overlay" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCountrySelectionDialog()" data-cf-modified-ca783208542e411d19700e4f-=""></div>
+        <div class="cc-country-selector--overlay" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCountrySelectionDialog()" data-cf-modified-=""></div>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-7 mx-auto cc-country-selector--box">
@@ -1325,13 +1322,13 @@
                         <option value="ZM">ZAMBIA</option>
                         <option value="ZW">ZIMBABWE</option>
                     </select>
-                    <button type="button" class="cc-country-selector--submit--btn" onclick="if (!window.__cfRLUnblockHandlers) return false; redirectCreditCard()" data-cf-modified-ca783208542e411d19700e4f-="">Submit
+                    <button type="button" class="cc-country-selector--submit--btn" onclick="if (!window.__cfRLUnblockHandlers) return false; redirectCreditCard()" data-cf-modified-="">Submit
                     </button>
                 </div>
             </div>
         </div>
     </div>
-    <script type="ca783208542e411d19700e4f-text/javascript">
+    <script type="text/javascript">
         const allowedCardCountries = [
             'AU', 'AT', 'BE', 'CN', 'HR', 'CY',
             'CZ', 'DK', 'EE', 'FI', 'FR', 'DE',
@@ -1415,7 +1412,7 @@
             line-height: 16px;
         }
     </style>
-  <?php include_from_root('website_template/page_footer.php');?>
+    <?php include_from_root('website_template/page_footer.php'); ?>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
@@ -1426,7 +1423,7 @@
         <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#462535062b332a322f2427282d203e6825292b">
             <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-ca783208542e411d19700e4f-="">
+        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
             <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
@@ -1840,7 +1837,7 @@
                         </label>
                         <textarea data-message='Message is Required.' data-extra-message="Message is Invalid." data-regex='' class=' form-control w-100 ta-message' name='message' id='order_message' placeholder=''>Hello, I am interested in learning more about MultiBank products and services. Could you please contact me</textarea>
                     </div>
-                    <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-ca783208542e411d19700e4f-="">SEND
+                    <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SEND
                     </button>
                 </form>
             </div>
@@ -1895,7 +1892,7 @@
         }
     </style>
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="ca783208542e411d19700e4f-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
                 e.preventDefault();
@@ -1907,12 +1904,12 @@
             });
         })
     </script>
-    <script src="/public_files/static_js/lang_data/en.js" type="ca783208542e411d19700e4f-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.dataTables.min.js" type="ca783208542e411d19700e4f-text/javascript"></script>
-    <script src="/public_files/static_js/lazysizes.min.js" type="ca783208542e411d19700e4f-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.validate.min.js" type="ca783208542e411d19700e4f-text/javascript"></script>
-    <script src="/public_files/static_js/intlTelInput.min.js" type="ca783208542e411d19700e4f-text/javascript"></script>
-    <script src="/public_files/static_js/app.js" type="ca783208542e411d19700e4f-text/javascript"></script>
+    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
     <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
@@ -1922,29 +1919,29 @@
             window.__lc.group = 2;
 
             function initliveChat() {
-      var lc = document.createElement('script');
-      lc.type = 'text/javascript';
-      lc.async = true;
-      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(lc, s);
-      window.LC_API = window.LC_API || {};
-      if (window.innerWidth < 640) {
-        LC_API.on_before_load = function() {
-          LC_API.hide_chat_window();
-        }
-        LC_API.on_chat_window_minimized = function() {
-          setTimeout(function() {
-            LC_API.hide_chat_window();
-          }, 10000);
-        }
-      }
-    };
+                var lc = document.createElement('script');
+                lc.type = 'text/javascript';
+                lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(lc, s);
+                window.LC_API = window.LC_API || {};
+                if (window.innerWidth < 640) {
+                    LC_API.on_before_load = function() {
+                        LC_API.hide_chat_window();
+                    }
+                    LC_API.on_chat_window_minimized = function() {
+                        setTimeout(function() {
+                            LC_API.hide_chat_window();
+                        }, 10000);
+                    }
+                }
+            };
 
-    setTimeout(()=>initliveChat(), 10000);
+            setTimeout(() => initliveChat(), 10000);
         }
     </script>
-    <script type="ca783208542e411d19700e4f-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
                 var url_parts = location.hostname.split('.');
@@ -1977,12 +1974,12 @@
             }
         });
     </script>
-    <script type="ca783208542e411d19700e4f-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
         });
     </script>
-    <script type="ca783208542e411d19700e4f-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
@@ -2000,7 +1997,7 @@
             }
         });
     </script>
-    <script type="ca783208542e411d19700e4f-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var params = getUrlVars();
             if (typeof params.ibName === 'undefined') {
@@ -2013,7 +2010,7 @@
             $('.regulator-group, .leverage-group, .account-type-group').css('display', 'none');
         });
     </script>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="ca783208542e411d19700e4f-|49" defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
 
 </html>
