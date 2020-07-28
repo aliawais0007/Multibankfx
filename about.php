@@ -7,23 +7,24 @@ foreach($milestones as $value){
     $title = $value->title;
     $date = $value->date;
     $post_image = $value->post_image;
-$milestone .= "
-                            <div class='card card-left mb-4'>
-                                <a href='/article/milestone-detail.php?id=$id' target='_blank' class='row flex-column-reverse flex-md-row about-milestone-card'>
-                                    <div class='col-12 col-md-8 col-xl-9'>
-                                        <div class='card-body mex-content'>
-                                            <p class='card-title text-overflow-1'>$main_title</p>
-                                            <p class='card-time'>$date</p>
-                                            <p class='card-text text-overflow-2'>
-                                                <p>$title</p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class='col-12 col-md-4 col-xl-3'><img src='$post_image' alt=' class='card-img-top milestone-thumbnail' />
-                                    </div>
-                                </a></div>
+    echo $id.' '.$main_title.' '.$title.' '.$date.' '.$date;
+// $milestone .= "
+//                             <div class='card card-left mb-4'>
+//                                 <a href='/article/milestone-detail.php?id=$id' target='_blank' class='row flex-column-reverse flex-md-row about-milestone-card'>
+//                                     <div class='col-12 col-md-8 col-xl-9'>
+//                                         <div class='card-body mex-content'>
+//                                             <p class='card-title text-overflow-1'>$main_title</p>
+//                                             <p class='card-time'>$date</p>
+//                                             <p class='card-text text-overflow-2'>
+//                                                 <p>$title</p>
+//                                             </p>
+//                                         </div>
+//                                     </div>
+//                                     <div class='col-12 col-md-4 col-xl-3'><img src='$post_image' alt=' class='card-img-top milestone-thumbnail' />
+//                                     </div>
+//                                 </a></div>
                             
-                            ";  
+//                             ";  
 
 
 ?>
