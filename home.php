@@ -153,22 +153,22 @@
                     <?php include_from_root("website_template/contact_us_form.php")?>
                     <hr class="mx-1 my-2 bg-dark">
                     <div class="px-1 contact-form-button-container">
-                        <a href="account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a href="/account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe91d;</span>
                             <div class="btn-vr"></div>
                             <?php translate('OPEN LIVE ACCOUNT'); ?>
                         </a>
-                        <a href="demo_competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a href="/demo_competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe918;</span>
                             <div class="btn-vr"></div>
                             <?php translate('OPEN DEMO ACCOUNT'); ?>
                         </a>
-                        <a href="partnership/introducing-brokers.html#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a href="/partnership/introducing-brokers.php" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe920;</span>
                             <div class="btn-vr"></div>
                             <?php translate('IB REGISTRATION'); ?>
                         </a>
-                        <a href="account/account-funding.php" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a href="/account/account-funding.php" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe921;</span>
                             <div class="btn-vr"></div>
                             <?php translate('FUND YOUR ACCOUNT'); ?>
@@ -176,7 +176,7 @@
                         <div class="px-1 font-10" style="padding:0px;">
                             <div class="form-check form-check-inline">
                                 <label class="form-check-label label-1 " for="terms_conditions"><?php translate('By submitting this form, you
-                                agree to accept the'); ?> <a href="terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Terms & Conditions'); ?></a>, <a href="privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Privacy Policy'); ?></a>, <?php translate('and'); ?> <a href="cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Cookie Policy'); ?></a>.
+                                agree to accept the'); ?> <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Terms & Conditions'); ?></a>, <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Privacy Policy'); ?></a>, <?php translate('and'); ?> <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Cookie Policy'); ?></a>.
                                 </label>
                             </div>
                         </div>

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang='en'>
-    
+
 <?php include_from_root('website_template/head.php'); ?>
+
 <body>
     <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
@@ -63,7 +64,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-12">
-                    <h1 class="mex-h1 text-left"> <?php translate('Prime Liquidity & Technology');?></h1>
+                    <h1 class="mex-h1 text-left"> <?php translate('Prime Liquidity & Technology'); ?></h1>
                 </div>
                 <div class="col-lg-6 col-md-8 col-sm-8 col-8">
                     <div class="mex-content mex-m-b-30">
@@ -85,9 +86,9 @@
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
                                 <div class="mex-h2 uppercase text-left text-overflow-1 mex-m-b-20">
-                                <?php translate('White Label'); ?> </div>
+                                    <?php translate('White Label'); ?> </div>
                                 <div class="mex-content text-left text-overflow-3">
-                                <?php translate('MEX Prime has over a decade of experience in providing banks and brokers financial, technological and regulatory solutions to establish and run their own financial services brokerage firm.');?> </div>
+                                    <?php translate('MEX Prime has over a decade of experience in providing banks and brokers financial, technological and regulatory solutions to establish and run their own financial services brokerage firm.'); ?> </div>
                             </div>
                         </div>
                     </section>
@@ -100,9 +101,9 @@
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
                                 <div class="mex-h2 uppercase text-left text-overflow-1 mex-m-b-20">
-                                <?php translate('Service & Support'); ?> </div>
+                                    <?php translate('Service & Support'); ?> </div>
                                 <div class="mex-content text-left text-overflow-3">
-                                <?php translate('MEX Prime experts provide dedicate support handling liquidity integration, white label development, on-boarding, project management, branding and corporate setups.'); ?> </div>
+                                    <?php translate('MEX Prime experts provide dedicate support handling liquidity integration, white label development, on-boarding, project management, branding and corporate setups.'); ?> </div>
                             </div>
                         </div>
                     </section>
@@ -115,9 +116,9 @@
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
                                 <div class="mex-h2 uppercase text-left text-overflow-1 mex-m-b-20">
-                                <?php translate('Bridge'); ?> </div>
+                                    <?php translate('Bridge'); ?> </div>
                                 <div class="mex-content text-left text-overflow-3">
-                                <?php translate('The MultiBank bridge technology streams directly into the most popular front-end trading platforms and via API into custom-built front-ends or via our MT4 Bridge into our Partner’s MT4.'); ?> </div>
+                                    <?php translate('The MultiBank bridge technology streams directly into the most popular front-end trading platforms and via API into custom-built front-ends or via our MT4 Bridge into our Partner’s MT4.'); ?> </div>
                             </div>
                         </div>
                     </section>
@@ -128,7 +129,7 @@
     <section class="table-background plants">
         <div class="container">
             <div class="mex-h1 text-center text-1e32a3 mex-m-b-40">
-            <?php translate('Sign up for prime of primes'); ?>
+                <?php translate('Sign up for prime of primes'); ?>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-12 mx-auto shadow-box bg-white">
@@ -138,17 +139,17 @@
                         <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:43] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:44] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:45] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:47] https://www.multibankfx.com/<br/><br/> <br/><br/> posted From: www.multibankfx.com/partnership/prime-of-primes?web=true' />
                         <div class='form-group col-12 px-0 border-bottom border-secondary px-1'>
                             <label for='' class='mex-h3 text-left mex-m-t-15 mex-m-b-15'>
-                            <?php translate('CLIENT INFORMATION'); ?></label>
+                                <?php translate('CLIENT INFORMATION'); ?></label>
                             <input type='hidden' data-message='' data-extra-message="Full Name Invalid." data-regex='' class=' form-control' name='label_title' placeholder='' value='' />
                         </div>
                         <div class='mex-form-item col-12 col-md-6 p-1'>
                             <label for='' class='d-block'>
-                            <?php translate('Name'); ?></label>
+                                <?php translate('Name'); ?></label>
                             <input type="text" data-message="Full Name is Required." data-extra-message="Full Name Invalid." data-regex="" class="d-block" name="name" $field_id_code placeholder="" required value="" />
                         </div>
                         <div class='mex-form-item col-12 col-md-6 p-1'>
                             <label for='' class='d-block'>
-                            <?php translate('Mobile'); ?></label>
+                                <?php translate('Mobile'); ?></label>
                             <input type='phone' data-ip_country_code='IN' data-message='Phone Number is required.' data-extra-message="Phone Number Invalid." data-regex='' class='input_with_phone d-block' name='phone_display' placeholder='' required value='' />
                             <input type='hidden' name='phone' />
                         </div>
@@ -160,17 +161,17 @@
                         </div>
                         <div class='mex-form-item col-12 col-md-6 p-1'>
                             <label for='' class='d-block'>
-                            <?php translate('Email'); ?></label>
+                                <?php translate('Email'); ?></label>
                             <input type='email' data-message='Email is Required.' data-extra-message="" data-regex='' class='d-block' name='email' placeholder='' required value='' />
                         </div>
                         <div class='mex-form-item col-12 col-md-6 p-1 mb-3'>
                             <label for='' class='d-block'>
-                            <?php translate('Confirm Email'); ?></label>
+                                <?php translate('Confirm Email'); ?></label>
                             <input type='email' data-message='Confirm Email is Required.' data-extra-message="Email Mismatched." data-regex='' class='d-block' name='confirm_email' placeholder='' required value='' />
                         </div>
                         <div class='d-none'>
                             <label for='' class='d-block'>
-                            <?php translate('Country'); ?></label>
+                                <?php translate('Country'); ?></label>
                             <select data-message='Country Code Required.' data-extra-message="Country Code Invalid" class='selection-country d-block select_with_country' name='country_name' required>
                                 <option value='' selected='selected'>Select Country</option>
                                 <option data-country_iso_code="AF" data-name='AF' value='AF'>AFGHANISTAN</option>
@@ -427,7 +428,7 @@
                     </form>
                     <div class="px-1 " style="padding:15px 0px;">
                         <div class="form-check form-check-inline">
-                            <label class="form-check-label label-1 " for="terms_conditions"> <?php translate('By submitting this form, you agree to accept the'); ?> <a href="terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"> <?php translate('Terms & Conditions'); ?></a>, <a href="privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"> <?php translate('Privacy Policy'); ?></a>,  <?php translate('and'); ?> <a href="cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"> <?php translate('Cookie Policy'); ?></a>.
+                            <label class="form-check-label label-1 " for="terms_conditions"> <?php translate('By submitting this form, you agree to accept the'); ?> <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"> <?php translate('Terms & Conditions'); ?></a>, <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"> <?php translate('Privacy Policy'); ?></a>, <?php translate('and'); ?> <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"> <?php translate('Cookie Policy'); ?></a>.
                             </label>
                         </div>
                     </div>
@@ -435,9 +436,9 @@
             </div>
         </div>
     </section>
-    <?php include_from_root('website_template/choose_where_to.php');?>
-    
-    <?php include_from_root('website_template/page_footer.php');?>
+    <?php include_from_root('website_template/choose_where_to.php'); ?>
+
+    <?php include_from_root('website_template/page_footer.php'); ?>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
@@ -922,26 +923,26 @@
             window.__lc.group = 2;
 
             function initliveChat() {
-      var lc = document.createElement('script');
-      lc.type = 'text/javascript';
-      lc.async = true;
-      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(lc, s);
-      window.LC_API = window.LC_API || {};
-      if (window.innerWidth < 640) {
-        LC_API.on_before_load = function() {
-          LC_API.hide_chat_window();
-        }
-        LC_API.on_chat_window_minimized = function() {
-          setTimeout(function() {
-            LC_API.hide_chat_window();
-          }, 10000);
-        }
-      }
-    };
+                var lc = document.createElement('script');
+                lc.type = 'text/javascript';
+                lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(lc, s);
+                window.LC_API = window.LC_API || {};
+                if (window.innerWidth < 640) {
+                    LC_API.on_before_load = function() {
+                        LC_API.hide_chat_window();
+                    }
+                    LC_API.on_chat_window_minimized = function() {
+                        setTimeout(function() {
+                            LC_API.hide_chat_window();
+                        }, 10000);
+                    }
+                }
+            };
 
-    setTimeout(()=>initliveChat(), 10000);
+            setTimeout(() => initliveChat(), 10000);
         }
     </script>
     <script type="e55e4685f19caaab0342d74f-text/javascript">

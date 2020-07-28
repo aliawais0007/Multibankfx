@@ -637,11 +637,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="px-1 font-10" style="padding:0px;">
                             <div class="form-check form-check-inline">
                                 <label class="form-check-label label-1 " for="terms_conditions"><?php translate ('By submitting this form,
-                                    you agree to accept the'); ?> <a href="terms-conditions.php" target="_blank"
+                                    you agree to accept the'); ?> <a href="/terms-conditions.php" target="_blank"
                                                                class="text-22A0C4" style="padding:0 !important;"><?php translate ('Terms
-                                        & Conditions'); ?></a>, <a href="privacy-policy.php" target="_blank"
+                                        & Conditions'); ?></a>, <a href="/privacy-policy.php" target="_blank"
                                                                  class="text-22A0C4" style="padding:0 !important;"><?php translate ('Privacy
-                                        Policy'); ?></a>, and <a href="cookie-policy.php" target="_blank"
+                                        Policy'); ?></a>, and <a href="/cookie-policy.php" target="_blank"
                                                            class="text-22A0C4" style="padding:0 !important;"><?php translate ('Cookie
                                         Policy'); ?></a>.
                                 </label>
