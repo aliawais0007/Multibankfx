@@ -136,7 +136,7 @@
             We value our Introducing Brokers and offer them the most
             advantageous bonus promotions available.
           </div>
-          <a href="account/bonus-ib.php" class="btn btn-mex mex-m-r-15 mex-m-b-15">GET BONUS!</a>
+          <a href="/account/bonus-ib.php" class="btn btn-mex mex-m-r-15 mex-m-b-15">GET BONUS!</a>
         </div>
       </div>
     </div>
@@ -549,7 +549,7 @@
         <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" />
       </span>
     </a>
-    <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#b4d7c7f4d9c1d8c0ddd6d5dadfd2cc9ad7dbd9">
+    <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.html#b4d7c7f4d9c1d8c0ddd6d5dadfd2cc9ad7dbd9">
       <span class="btn">
         <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" />
       </span>
