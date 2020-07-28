@@ -17,7 +17,7 @@ $milestone .= "
                                             <p class='card-title text-overflow-1'>$main_title</p>
                                             <p class='card-time'>$date</p>
                                             <p class='card-text text-overflow-2'>
-                                                <p>$title</p>
+                                                $title
                                             </p>
                                         </div>
                                     </div>
