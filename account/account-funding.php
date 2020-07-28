@@ -80,10 +80,10 @@
                     <div class="col-12">
                         <ul role="tablist" class="col-12 d-inline-block">
                             <li class="tab-title active font-type-cap" role="presentation">
-                                <a href="/account//account/account-funding.php#deposits" class="font-24" aria-controls="deposits" role="tab" data-toggle="tab"><?php translate('DEPOSIT OPTIONS'); ?></a>
+                                <a href="/account/account-funding.php#deposits" class="font-24" aria-controls="deposits" role="tab" data-toggle="tab"><?php translate('DEPOSIT OPTIONS'); ?></a>
                             </li>
                             <li class="tab-title font-type-cap" role="presentation">
-                                <a href="/withdrawals.php" class="font-24"><?php translate('WITHDRAWAL OPTIONS'); ?></a>
+                                <a href="/account/withdrawals.php" class="font-24"><?php translate('WITHDRAWAL OPTIONS'); ?></a>
                             </li>
                         </ul>
                         <div class="mex-h2 text-center text-1e32a3 mex-m-b-20" style="margin:20px 0 !important"><?php translate('CHOOSE YOUR REGULATOR'); ?>
