@@ -47,7 +47,8 @@
                         </li>
                         <li class="ForIts">
                             <div class="mex-h3  mex-p-v-15  mex-m-t-10"><?php translate('Email Us'); ?></div>
-                            <div class="contact-email"><a class="text-000033" href="/cdn-cgi/l/email-protection.php#f69585b69b839a829f9497989d908ed895999b"><span class="__cf_email__" data-cfemail="aecdddeec3dbc2dac7cccfc0c5c8d680cdc1c3">[email&#160;protected]</span></a>
+                            <div class="contact-email">
+                                <a class="text-000033" href="mailto:cs@multibankfx.com">cs@multibankfx.com</a>
                             </div>
                         </li>
                         <li class="ForIts">
