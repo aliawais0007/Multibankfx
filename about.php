@@ -61,7 +61,7 @@ foreach ($newss as $key => $value) {
                                             <img src='$news_post_image' alt='' class='mex-img-cover'>
                                         </div>
                                         <div class='card-body mex-content col-12 col-md-4 col-xl-6'>
-                                            <p class='card-title'>$news_main_title </p>
+                                            <p class='card-title'>$news_title </p>
                                             <p class='card-time'>$news_date</p>
                                         </div>
                                     </a>
