@@ -61,7 +61,7 @@
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <div class="main-container">
-        <section class="mex-block-h600 flex-center mex-p-b-none"><img alt="Career with MultiBank" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/about_us/about_career_top_banner.jpg" />
+        <section class="mex-block-h600 flex-center mex-p-b-none"><img alt="Career with MultiBank" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_career_top_banner.jpg" />
             <div class="container">
                 <div>
                     <div class="col-10 col-sm-10 col-md-8 col-xl-6 ">
@@ -84,7 +84,7 @@
                             </div>
                         </div>
                         <div class="mex-content black-bg-career">
-                            <p class="mex-m-t-15 mex-m-b-15 text-fff show-ass"><?php translate('Submit your CV to:');?> <a class="text-22A0C4" href="/multibankfx/cdn-cgi/l/email-protection.html#63090c0110230e160f170a01020d08051b4d000c0e"><span class="__cf_email__" data-cfemail="96fcf9f4e5d6fbe3fae2fff4f7f8fdf0eeb8f5f9fb">[email&#160;protected]</span></a><br />
+                            <p class="mex-m-t-15 mex-m-b-15 text-fff show-ass"><?php translate('Submit your CV to:');?> <a class="text-22A0C4" href="/cdn-cgi/l/email-protection.html#63090c0110230e160f170a01020d08051b4d000c0e"><span class="__cf_email__" data-cfemail="96fcf9f4e5d6fbe3fae2fff4f7f8fdf0eeb8f5f9fb">[email&#160;protected]</span></a><br />
                             <?php translate('Shortlisted candidate will be contacted for interview arrangement by Human Resources Department'); ?></p>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 col-sm-12 block-md">
-                        <div class="mex-content"><img alt="MultiBank Group Introduction" class="mex-im-caerr" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/about_us/about_multibank_group_introduction.jpg" />
+                        <div class="mex-content"><img alt="MultiBank Group Introduction" class="mex-im-caerr" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_multibank_group_introduction.jpg" />
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-12 col-sm-12">
-                        <button class="btn btn-mex mx-auto btn-submit" id="btn-apply-now-carrer" onclick="if (!window.__cfRLUnblockHandlers) return false; javascript:showCarrerForm(); return false;" data-cf-modified-e82652eb7e23596d131e786d-=""><?php translate('Apply Now'); ?>
+                        <button class="btn btn-mex mx-auto btn-submit" id="btn-apply-now-carrer" onclick="if (!window.__cfRLUnblockHandlers) return false; javascript:showCarrerForm(); return false;" data-cf-modified-=""><?php translate('Apply Now'); ?>
                         </button>
                         <div id="carrer-form-container" class="d-none">
                             <div class="mex-h2 mex-m-b-15">Please select the position you wish to apply for &amp; click
@@ -732,7 +732,7 @@
                                                 Note: Allowed File Format : .pdf, .doc ,.jpg,.xls.</label>
                                             <input type='hidden' data-message='' data-extra-message="" data-regex='' class=' ' name='' placeholder='' value='' />
                                         </div>
-                                        <button type='submit' class='btn btn-mex mx-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-e82652eb7e23596d131e786d-="">SUBMIT
+                                        <button type='submit' class='btn btn-mex mx-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SUBMIT
                                         </button>
                                     </form>
                                 </div>
@@ -741,8 +741,8 @@
                     </div>
                 </div>
         </section>
-        <script data-cfasync="false" src="/multibankfx/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script type="e82652eb7e23596d131e786d-text/javascript">
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script type="text/javascript">
             // organise in 2 columns
             $('#career_apply_job').find('.form-check-inline').removeClass('form-check-inline');
             $('#career_apply_job .col-left').wrapAll('<div class="col-12 col-md-6 p-0" />');
@@ -770,7 +770,7 @@
                 color: #1e32a3;
             }
         </style>
-        <script type="e82652eb7e23596d131e786d-text/javascript">
+        <script type="text/javascript">
             $(function() {
                 var icons = [
                     'ic_why_multibank',
@@ -799,16 +799,16 @@
     <?php include_from_root('website_template/page_footer.php');?>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="/multibankfx/cdn-cgi/l/email-protection.html#b7d4c4f7dac2dbc3ded5d6d9dcd1cf99d4d8da">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.html#b7d4c4f7dac2dbc3ded5d6d9dcd1cf99d4d8da">
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-e82652eb7e23596d131e786d-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -1221,7 +1221,7 @@
                         </label>
                         <textarea data-message='Message is Required.' data-extra-message="Message is Invalid." data-regex='' class=' form-control w-100 ta-message' name='message' id='order_message' placeholder=''>Hello, I am interested in learning more about MultiBank products and services. Could you please contact me</textarea>
                     </div>
-                    <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-e82652eb7e23596d131e786d-="">SEND
+                    <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SEND
                     </button>
                 </form>
             </div>
@@ -1275,8 +1275,8 @@
             border-radius: 0;
         }
     </style>
-    <script data-cfasync="false" src="/multibankfx/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="e82652eb7e23596d131e786d-text/javascript">
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
                 e.preventDefault();
@@ -1288,13 +1288,13 @@
             });
         })
     </script>
-    <script src="/multibankfx/public_files/static_js/lang_data/en.js" type="e82652eb7e23596d131e786d-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/jquery.dataTables.min.js" type="e82652eb7e23596d131e786d-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/lazysizes.min.js" type="e82652eb7e23596d131e786d-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/jquery.validate.min.js" type="e82652eb7e23596d131e786d-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/intlTelInput.min.js" type="e82652eb7e23596d131e786d-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/app.js" type="e82652eb7e23596d131e786d-text/javascript"></script>
-    <script type="e82652eb7e23596d131e786d-text/javascript" async>
+    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
+    <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
             window.__lc = window.__lc || {};
@@ -1324,7 +1324,7 @@
             })();
         }
     </script>
-    <script type="e82652eb7e23596d131e786d-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
                 var url_parts = location.hostname.split('.');
@@ -1357,12 +1357,12 @@
             }
         });
     </script>
-    <script type="e82652eb7e23596d131e786d-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
         });
     </script>
-    <script type="e82652eb7e23596d131e786d-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
@@ -1380,9 +1380,9 @@
             }
         });
     </script>
-    <script src="/multibankfx/public_files/static_js/swiper-4.3.5.min.js" type="e82652eb7e23596d131e786d-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/app_home.js" type="e82652eb7e23596d131e786d-text/javascript"></script>
-    <script type="e82652eb7e23596d131e786d-text/javascript">
+    <script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
+    <script type="text/javascript">
         $(function() {
             //icons we need
             var icons = [
@@ -1437,7 +1437,7 @@
             }
         }
     </style>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="e82652eb7e23596d131e786d-|49" defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
 
 </html>
