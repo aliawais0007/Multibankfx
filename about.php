@@ -2,7 +2,7 @@
 $milestones = get_milestones();
 print_r($milestones);
 $milestone  = "";
-foreach($milestones as $value){
+// foreach($milestones as $value){
     // $id = $value->id;
     // $main_title = $value->main_title;
     // $title = $value->title;
