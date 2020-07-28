@@ -52,7 +52,7 @@ foreach ($newss as $key => $value) {
 </div>
 </div>
 ";
-    } else {
+    } else if($key==1 || $key==2) {
         $news2 .= "
 <div class='col-12 col-sm-12'>
                                 <div class='card card-left mb-3 mt-3'>
