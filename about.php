@@ -56,13 +56,13 @@ foreach ($newss as $key => $value) {
         $news2 .= "
 <div class='col-12 col-sm-12'>
                                 <div class='card card-left mb-3 mt-3'>
-                                    <a href='/article/news-detail?id=?$id' target='_blank' class='row mx-0'>
+                                    <a href='/article/news-detail?id=?$news_id' target='_blank' class='row mx-0'>
                                         <div class='col-12 col-md-8 col-xl-6 p0'>
-                                            <img src='$post_image' alt='' class='mex-img-cover'>
+                                            <img src='$news_post_image' alt='' class='mex-img-cover'>
                                         </div>
                                         <div class='card-body mex-content col-12 col-md-4 col-xl-6'>
-                                            <p class='card-title'>$main_title </p>
-                                            <p class='card-time'>$date</p>
+                                            <p class='card-title'>$news_main_title </p>
+                                            <p class='card-time'>$news_date</p>
                                         </div>
                                     </a>
                                 </div>
