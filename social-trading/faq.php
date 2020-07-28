@@ -25,12 +25,12 @@
     text-transform: none;
     transition-duration: 0.3s;
 }
-.st-slide-header {
+.st-slide-header1 {
     font-size: 24px;
     line-height: 1.2;
 }
 
-.st-slide-header {
+.st-slide-header1 {
     position: relative;
     background-color: #006ACE;
     cursor: pointer;
@@ -127,7 +127,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 col-xs-12 mx-auto">
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">How Do I Become a Signal Provider?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">How Do I Become a Signal Provider?</div>
                     <div class="st-slide-content">
                         <ol class="py-2">
                             <li class="mb-3">Open a live Account <a style="color: #006ACE; text-decoration: underline;" href="/social-trading/live-account">HERE</a></li>
@@ -137,7 +137,7 @@
                             <li class="mb-3">Click the button "Create a Master Account"</li>
                         </ol>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">How Do I Become an Investor?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">How Do I Become an Investor?</div>
                     <div class="st-slide-content">
                         <ol class="py-2">
                             <li class="mb-3">Open a live Account <a style="color: #006ACE; text-decoration: underline;" href="/social-trading/live-account">HERE</a></li>
@@ -150,7 +150,7 @@
                             <li class="mb-3">Click "Subscribe"</li>
                         </ol>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">How Do I Change My Account Name?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">How Do I Change My Account Name?</div>
                     <div class="st-slide-content">
                         <ol class="py-2">
                             <li class="mb-3">Login to <a style="color: #006ACE; text-decoration: underline;" href="https://invest.multibankfx.com">invest.multibankfx.com</a></li>
@@ -159,7 +159,7 @@
                             <li class="mb-3">Click "Change Name" </li>
                         </ol>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">How Do I Unsubscribe from a Master Account?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">How Do I Unsubscribe from a Master Account?</div>
                     <div class="st-slide-content">
                         <ol class="pt-2">
                             <li class="mb-3">Login to <a style="color: #006ACE; text-decoration: underline;" href="https://invest.multibankfx.com">invest.multibankfx.com</a></li>
@@ -169,19 +169,19 @@
                         </ol>
                         <div class="ml-3 pb-2">After you unsubscribe, you will no longer copy any new trades of the Master Account you were subscribed to</div>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">Who Are Signal Providers?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">Who Are Signal Providers?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2"><strong>Signal Providers</strong> are experienced traders who share their trading operations, thereby allowing Investors to copy the trading activities of these Signal Providers into their own trading account. Signal Providers trade with real money in their Master Accounts, and all our Signal Providers’ Master Accounts are aggregated and ranked by order of best performance and are displayed in the Leaderboard section of our Social Trading page. On the Leaderboard, all Signal Providers’ trading history and detailed performance statistics will be displayed publicly so as to allow Investors to pick and choose various Signal Providers they’d like to copy, based on their individual investment objectives.</div>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">Does the Leaderboard Display Real-Time Information?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">Does the Leaderboard Display Real-Time Information?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2">MultiBank Group guarantees that all Master Accounts displayed on the Leaderboard are traded in real-time with real money using live trading account and not demo accounts. All statistics and data displayed on the Leaderboard are complete, accurate and up to date.</div>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">What do I Need to Start Copy Trading?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">What do I Need to Start Copy Trading?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2">It’s very easy to become and Investor and start copy trading. All you need to do is open a live account with MultiBank FX International Corporation (BVI). Once your account has been opened, deposit funds into your account. Then open an Investment Account on our Social Trading (invest.multibankfx.com). From there, choose the Signal Providers you’d like to copy trades from, and simply click the “Subscribe” button.</div>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">Can I Copy from Multiple Signal Providers?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">Can I Copy from Multiple Signal Providers?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2">Yes, as an Investor, you can copy from as many Signal Providers as you like at the same time. There is no cap on the maximum number of Master Accounts an Investor can subscribe to. </div>
                         <div class="ml-3 pb-2">Investors can also customize the how they copy the trades of various Master Accounts by assigning specific ratios to each Master Account they subscribe to: </div>
@@ -190,23 +190,23 @@
                             <li class="mb-3">Copy trades by setting a specific ratio for each Master Account.</li>
                         </ul>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">What are the Fees Charged to Investors for Copy Trading?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">What are the Fees Charged to Investors for Copy Trading?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2">Signal Providers will set their own Payout amount & Payout Interval. Before you subscribe to a Signal Provider and start copying their trades, please check their Fee Structure accordingly. In terms of the Payout Interval, this can be set to anything from daily, weekly or monthly payouts. At the end of each Payout Interval, the profits generated on the Investor’s Account from copying the strategies of a specific Signal Provider will be automatically split between the Investor and Signal Provider based on a higher watermark.</div>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">How Much Can I Make as a Signal Provider?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">How Much Can I Make as a Signal Provider?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2">Payouts to Signal Providers are calculated based on percentage of profit arising from the Investor’s account, dependant on Payout Interval and in consideration of previously paid out amount based on high watermark.</div>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">As a Signal Provider, Can I Customize My Payout Structure?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">As a Signal Provider, Can I Customize My Payout Structure?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2">Yes, Signal Providers can set their own Payout structure as they see fit. Signal Providers can personally set the amount and interval of payments for each of their Master Account. Payout Intervals can be set to daily, weekly or monthly Payouts. Payout amount can also be set in proportion to the Investor’s account size. For example, if an Investor has an account with less than $1,000, the Signal Providers can set the Payout amount to be 30% of their profits. If the investor has an account with between $1,000- $10,000, the Signal Provider can set the Payout amount to be 20% of their profits, and so on.</div>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">Are the Payouts Made Automatically?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">Are the Payouts Made Automatically?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2">Yes, all Payouts to Signal Providers are completely automated and are set based on the Payout Methods of their choice. Signal Providers can personally set the sizes and periods of payments for each of their Master Account.</div>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">As an Investor, How Do I Make Money with Social Trading?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">As an Investor, How Do I Make Money with Social Trading?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2">There are many ways you can make money through MultiBank Group Social Trading, but here are the two most common ways:</div>
                         <ol class="pt-2">
@@ -214,7 +214,7 @@
                             <li class="mb-3">Create a balanced portfolio of diversified investments to increase stability of investments and minimize risk</li>
                         </ol>
                     </div>
-                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">How Do I Choose Which Signal Providers to Follow?</div>
+                    <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">How Do I Choose Which Signal Providers to Follow?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2">There are several important indicators that can help Investors analyze which accounts to follow.</div>
                         <div class="ml-3 pb-1">Profitability: The first common indicator to check would be Profitability. Review the Signal Provider’s past trading records and assess their profitability based on past performance.</div>
@@ -247,7 +247,7 @@
         </div>
     </section>
     <style>
-        .st-slide-header {
+        .st-slide-header1 {
             font-size: 24px;
             line-height: 1.2;
         }
@@ -912,7 +912,7 @@
     </script>
     <script type="text/javascript">
         $(function() {
-            $('.st-slide-header').on('click',function() {
+            $('.st-slide-header1').click(function() {
                 $(this).next().slideToggle("slow")
             });
         });
