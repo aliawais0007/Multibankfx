@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 $milestones = get_milestones();
 $milestone  = "";
 foreach($milestones as $value){
@@ -24,7 +24,7 @@ $milestone .= "
                                 </a></div>
                             
                             ";  
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang='en'>
