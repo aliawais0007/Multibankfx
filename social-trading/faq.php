@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='aen'>
+<?php include_from_root('website_template/head.php'); ?>
 
-<?php include_from_root('website_template/head.php');?>
 <body>
-    <?php include_from_root('website_template/header_and_menu.php');?>
+    <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
         .nav-menu-hamburger,
         .nav-menu-mymex {
@@ -58,18 +58,21 @@
     </style>
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMX9SQ5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="st-section">
         <div class="banner_overlay"></div>
-        <img style="object-fit: cover; position:absolute" src="/public_files/images/social_trading/st_faq_banner.jpg" alt="">
+        <img style="object-fit: cover;" src="/public_files/images/social_trading/st_faq_banner.jpg" alt="">
         <div class="container text-center mex-p-v-80 row justify-content-end mx-auto">
             <div class="col-lg-6 col-md-6 col-sm-8 col-12">
                 <div class="mex-h2 mex-m-b-20 text-fff text-left">Frequently Asked Questions</div>
                 <div class="text-uppercase text-fff text-left">Everything You Need To Know, All In One Place</div>
                 <div class="slider-icons">
-                    <div class="slider-icon"><a href="trader.php"><img src="/public_files/images/social_trading/icon_investor.png"><br />TRADER >></a></div>
-                    <div class="slider-icon"><a href="investor.php"><img src="/public_files/images/social_trading/icon_signal_provider.png"><br />INVESTOR >></a></div>
-                    <div class="slider-icon"><a href="faq.php"><img src="/public_files/images/social_trading/icon_faq.png"><br />FAQ >></a></div>
-                    <div class="slider-icon"><a href="leaderboard.php"><img src="/public_files/images/social_trading/icon_leader_board.png"><br />LEADERBOARD >></a></div>
+                    <div class="slider-icon"><a href="../social-trading/trader"><img src="/public_files/images/social_trading/icon_investor.png"><br />TRADER >></a></div>
+                    <div class="slider-icon"><a href="../social-trading/investor"><img src="/public_files/images/social_trading/icon_signal_provider.png"><br />INVESTOR >></a></div>
+                    <div class="slider-icon"><a href="../social-trading/faq"><img src="/public_files/images/social_trading/icon_faq.png"><br />FAQ >></a></div>
+                    <div class="slider-icon"><a href="../social-trading/leaderboard"><img src="/public_files/images/social_trading/icon_leader_board.png"><br />LEADERBOARD >></a></div>
                 </div>
             </div>
         </div>
@@ -81,7 +84,7 @@
                     <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">How Do I Become a Signal Provider?</div>
                     <div class="st-slide-content">
                         <ol class="py-2">
-                            <li class="mb-3">Open a live Account <a style="color: #006ACE; text-decoration: underline;" href="live-account.php">HERE</a></li>
+                            <li class="mb-3">Open a live Account <a style="color: #006ACE; text-decoration: underline;" href="/social-trading/live-account">HERE</a></li>
                             <li class="mb-3">Fund your account</li>
                             <li class="mb-3">Go to <a style="color: #006ACE; text-decoration: underline;" href="https://invest.multibankfx.com">invest.multibankfx.com</a></li>
                             <li class="mb-3">Login with credentials that you recevied via email at step 2</li>
@@ -91,7 +94,7 @@
                     <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">How Do I Become an Investor?</div>
                     <div class="st-slide-content">
                         <ol class="py-2">
-                            <li class="mb-3">Open a live Account <a style="color: #006ACE; text-decoration: underline;" href="live-account.php">HERE</a></li>
+                            <li class="mb-3">Open a live Account <a style="color: #006ACE; text-decoration: underline;" href="/social-trading/live-account">HERE</a></li>
                             <li class="mb-3">Fund your account</li>
                             <li class="mb-3">Go to <a style="color: #006ACE; text-decoration: underline;" href="https://invest.multibankfx.com">invest.multibankfx.com</a></li>
                             <li class="mb-3">Click the button "Create an Investment Account"</li>
@@ -120,7 +123,6 @@
                         </ol>
                         <div class="ml-3 pb-2">After you unsubscribe, you will no longer copy any new trades of the Master Account you were subscribed to</div>
                     </div>
-
                     <div class="mex-h2 py-2 px-3 text-fff st-slide-header mb-3">Who Are Signal Providers?</div>
                     <div class="st-slide-content">
                         <div class="ml-3 py-2"><strong>Signal Providers</strong> are experienced traders who share their trading operations, thereby allowing Investors to copy the trading activities of these Signal Providers into their own trading account. Signal Providers trade with real money in their Master Accounts, and all our Signal Providers’ Master Accounts are aggregated and ranked by order of best performance and are displayed in the Leaderboard section of our Social Trading page. On the Leaderboard, all Signal Providers’ trading history and detailed performance statistics will be displayed publicly so as to allow Investors to pick and choose various Signal Providers they’d like to copy, based on their individual investment objectives.</div>
@@ -298,18 +300,20 @@
 
         }
     </style>
-  <?php include_from_root('website_template/page_footer.php'); ?>
+
+    <?php include_from_root('website_template/page_footer.php'); ?>
+    
     <div class="slidebar">
-        <a class="get-a-all-btn call-btn" href="tel:+12139924748">
+        <a class="get-a-all-btn call-btn" href="tel:+97148751312">
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
-        <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
+        <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=971526507398" target="_blank">
             <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#3e5d4d7e534b524a575c5f50555846105d5153">
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection#573424173a223b233e3536393c312f7934383a">
             <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-e5d33fb9aa01fd0f383f2d7c-="">
+        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
             <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
@@ -409,13 +413,13 @@
         <div class="container row">
             <div class="col-12 col-md-7 mx-auto bg-white p-4">
                 <span class="btn-modal-close fa fa-times"></span>
-                <form action="https://www.multibankfx.com/form/contactus?" name='email_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='email_us_form' target='' autocomplete='on'>
-                    <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMjo1NjoyNQ==' />
-                    <input type='hidden' name='token' value='$2y$10$hN3519hfB69XdCoz7OsE3OWi..U8ycQIhBQy0enYOrH2Sa4RJ5BM.' />
-                    <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:55:39] https://www.multibankfx.com/about/company-news<br/><br/>[2020-06-27 02:56:22] https://www.multibankfx.com/social-trading<br/><br/>[2020-06-27 02:56:24] https://www.multibankfx.com/social-trading<br/><br/>[2020-06-27 02:56:26] https://www.multibankfx.com/social-trading<br/><br/> <br/><br/> posted From: www.multibankfx.com/social-trading/faq?web=true' />
+                <form action="/form/contactus?" name='email_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='email_us_form' target='' autocomplete='on'>
+                    <input type='hidden' name='t_date' value='MjAyMC0wNy0yOCAyMTozODo1Mw==' />
+                    <input type='hidden' name='token' value='$2y$10$CJReqkizdFWk1xzRUKFtEu1IzJTVo0l.yeWc3zMuTLoe2yC/Rsf5y' />
+                    <input type='hidden' name='source' value='[2020-07-26 15:14:06] https://ae.multibankfx.com/<br/><br/>[2020-07-28 16:49:34] https://www.multibankfx.com/social-trading<br/><br/>[2020-07-28 21:38:10] https://ae.multibankfx.com/<br/><br/>[2020-07-28 21:38:15] https://ae.multibankfx.com/social-trading<br/><br/> <br/><br/> posted From: ae.multibankfx.com/social-trading/faq?web=true' />
                     <div class='col-12 p-0'>
                         <label for='' class='mex-h3'>
-                            EMAIL US</label>
+                            Email US</label>
                         <input type='hidden' data-message='' data-extra-message="" data-regex='' class=' d-none' name='label_title' placeholder='' value='' />
                     </div>
                     <div class='d-none'>
@@ -428,17 +432,17 @@
                     <div class='mex-form-item col-6 p-1 pb-3'>
                         <label for='' class='d-none'>
                             Full Name</label>
-                        <input type="text" data-message="Full Name is Required." data-extra-message="Full Name Invalid." data-regex="" class="form-control mb-0" name="name" $field_id_code placeholder="Full Name" required value="" />
+                        <input type="text" data-message="Full Name is Required." data-extra-message="Full Name Invalid." data-regex="" class="form-control mb-0" name="name" placeholder="Full Name" required value="" />
                     </div>
                     <div class='mex-form-item col-6 p-1 pb-3'>
                         <label for='' class='d-none'>
-                            البريد الإلكتروني</label>
+                            Email</label>
                         <input type='email' data-message='Email is Required.' data-extra-message="Email is Invalid." data-regex='' class='form-control mb-0' name='email' placeholder='Email' required value='' />
                     </div>
                     <div class='mex-form-item col-12 p-1 d-none'>
                         <label for='' class='d-none'>
                         </label>
-                        <select data-message='Confirm Email is Required.' data-extra-message="Email Mismatched." class='selection-country form-control  mb-0 select_with_country select_with_country' name='country_name' required>
+                        <select data-message='Confirm Email is Required.' data-extra-message="Email Mismatched." class='selection-country form-control  mb-0 select_with_country select_with_country' name='country_name' required>
                             <option value='' selected='selected'>Select Country</option>
                             <option data-country_iso_code="AF" data-name='AF' value='AF'>AFGHANISTAN</option>
                             <option data-country_iso_code="AL" data-name='AL' value='AL'>ALBANIA</option>
@@ -689,7 +693,7 @@
                     <div class='mex-form-item col-12 p-1 pb-3'>
                         <label for='' class='d-none'>
                             Phone</label>
-                        <input type='phone' data-ip_country_code='IN' data-message='Phone Number is required.' data-extra-message="Phone Number Invalid" data-regex='' class='input_with_phone form-control mb-0 input_with_phone' name='phone_display' placeholder='' required value='' />
+                        <input type='phone' data-ip_country_code='AE' data-message='Phone Number is required.' data-extra-message="Phone Number Invalid" data-regex='' class='input_with_phone form-control mb-0 input_with_phone' name='phone_display' placeholder='' required value='' />
                         <input type='hidden' name='phone' />
                     </div>
                     <div class='mex-form-item col-6 col-md-6 p-1 sms-code-container'>
@@ -702,7 +706,7 @@
                         <label for='order_message' class='d-block'>
                         </label>
                         <textarea data-message='Message is Required.' data-extra-message="Message is Invalid." data-regex='' class=' form-control w-100 ta-message' name='message' id='order_message' placeholder=''>Hello, I am interested in learning more about MultiBank products and services. Could you please contact me</textarea>
-                    </div><button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-e5d33fb9aa01fd0f383f2d7c-="">SEND</button>
+                    </div><button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SEND</button>
                 </form>
             </div>
         </div>
@@ -755,8 +759,8 @@
             border-radius: 0;
         }
     </style>
-    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="e5d33fb9aa01fd0f383f2d7c-text/javascript">
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
                 e.preventDefault();
@@ -768,13 +772,13 @@
             });
         })
     </script>
-    <script src="/public_files/static_js/lang_data/en.js" type="e5d33fb9aa01fd0f383f2d7c-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.dataTables.min.js" type="e5d33fb9aa01fd0f383f2d7c-text/javascript"></script>
-    <script src="/public_files/static_js/lazysizes.min.js" type="e5d33fb9aa01fd0f383f2d7c-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.validate.min.js" type="e5d33fb9aa01fd0f383f2d7c-text/javascript"></script>
-    <script src="/public_files/static_js/intlTelInput.min.js" type="e5d33fb9aa01fd0f383f2d7c-text/javascript"></script>
-    <script src="/public_files/static_js/app.js" type="e5d33fb9aa01fd0f383f2d7c-text/javascript"></script>
-    <script type="e5d33fb9aa01fd0f383f2d7c-text/javascript" async>
+    <script src="/public_files/static_js/lang_data/aen.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js?version=20191128" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js?version=20200720" type="text/javascript"></script>
+    <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
             window.__lc = window.__lc || {};
@@ -804,7 +808,7 @@
             })();
         }
     </script>
-    <script type="e5d33fb9aa01fd0f383f2d7c-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
                 var url_parts = location.hostname.split('.');
@@ -837,12 +841,12 @@
             }
         });
     </script>
-    <script type="e5d33fb9aa01fd0f383f2d7c-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
         });
     </script>
-    <script type="e5d33fb9aa01fd0f383f2d7c-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
@@ -860,14 +864,14 @@
             }
         });
     </script>
-    <script type="e5d33fb9aa01fd0f383f2d7c-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.st-slide-header').click(function() {
                 $(this).next().slideToggle("slow");
             });
         });
     </script>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="e5d33fb9aa01fd0f383f2d7c-|49" defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
 
 </html>
