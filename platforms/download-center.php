@@ -83,7 +83,7 @@
                         <li><?php translate('Easy to use account management, deposits and withdrawals'); ?></li>
                     </ul>
                     <div class="mex-h3 mex-m-b-30 mex-m-t-30"><?php translate('Launch MultiBank Web Trader:'); ?></div>
-                    <div class="browser-list"><a href="mql5.php"><img alt="Google" class="mex-m-b-10" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/chrome.png" /> </a> <a href="mql5.php"> <img alt="O" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/oprea.png" /> </a> <a href="mql5.php"> <img alt="Firefox" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/firefox.png" /> </a> <a href="mql5.php"> <img alt="Safari" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/safari.png" /> </a></div>
+                    <div class="browser-list"><a href="/mql5.php"><img alt="Google" class="mex-m-b-10" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/chrome.png" /> </a> <a href="/mql5.php"> <img alt="O" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/oprea.png" /> </a> <a href="/mql5.php"> <img alt="Firefox" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/firefox.png" /> </a> <a href="mql5.php"> <img alt="Safari" class="mex-m-b-10 browser-list-img" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/safari.png" /> </a></div>
                 </div>
             </div>
         </div>
