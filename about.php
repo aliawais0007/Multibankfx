@@ -1,5 +1,6 @@
 <?php
-$milestones = get_milestones();
+$allmilestones = get_milestones();
+$milestones = array_slice($allmilestones, 0, 4);
 $milestone  = "";
 foreach($milestones as $value){
     $id = $value->id;
@@ -20,7 +21,7 @@ $milestone .= "
                                             </p>
                                         </div>
                                     </div>
-                                    <div class='col-12 col-md-4 col-xl-3'><img src='$post_image' alt=' class='card-img-top milestone-thumbnail' />
+                                    <div class='col-12 col-md-4 col-xl-3'><img src='$post_image' alt='$main_title' class='card-img-top milestone-thumbnail' />
                                     </div>
                                 </a></div>
                             
