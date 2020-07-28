@@ -9,7 +9,7 @@ $news .='
 <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
                                             <div class="mex-h3 col-1 pl-4 text-left">2020-02-18</div>
                                             <div class="mex-new-desc mex-content col-8"><a
-                                                    href="/article/news-detail?id='.$item->id.'"
+                                                    href="/article/news-detail.php?id='.$item->id.'"
                                                     class="text-222 mex-clamp-4 text-left pl-3">'.$item->title.'</a></div>
                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
                                                     src="'.$item->post_image.'"
