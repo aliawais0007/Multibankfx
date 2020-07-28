@@ -192,7 +192,7 @@ $milestone = filtered_milestone();
                         <form action="https://www.multibankfx.com/form/contactus?" name='contact_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='contact_us_form' target='' autocomplete='on'>
                             <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMjo1NDo1Nw==' />
                             <input type='hidden' name='token' value='$2y$10$Oa45KbjwH419EOz4tr2N.Off76a0lG8dR/GWanDPA7k/CBFogi2a6' />
-                            <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:54:51] https://www.multibankfx.com/about/milestones<br/><br/>[2020-06-27 02:54:53] https://www.multibankfx.com/about/milestones<br/><br/>[2020-06-27 02:54:55] https://www.multibankfx.com/about/milestones<br/><br/>[2020-06-27 02:54:57] https://www.multibankfx.com/about/milestones<br/><br/> <br/><br/> posted From: www.multibankfx.com/article/milestones_20050101?web=true' />
+                            <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:54:51] https://www.multibankfx.com/article/milestones.php<br/><br/>[2020-06-27 02:54:53] https://www.multibankfx.com/article/milestones.php<br/><br/>[2020-06-27 02:54:55] https://www.multibankfx.com/article/milestones.php<br/><br/>[2020-06-27 02:54:57] https://www.multibankfx.com/article/milestones.php<br/><br/> <br/><br/> posted From: www.multibankfx.com/article/milestone.php?web=true' />
                             <div class='bg-000 text-center mex-m-x-n15 w-110'>
                                 <label for='' class='mex-h3 text-white py-2 mb-0'>
                                     CONTACT US FOR INQUIRIES</label>
@@ -820,7 +820,7 @@ $milestone = filtered_milestone();
                 <form action="https://www.multibankfx.com/form/contactus?" name='email_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='email_us_form' target='' autocomplete='on'>
                     <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMjo1NDo1Nw==' />
                     <input type='hidden' name='token' value='$2y$10$Te/8oQpdC2Gah6BG74j2quD.MUwWtIHPAdOo/N1K8iYVfActa2txi' />
-                    <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:54:51] https://www.multibankfx.com/about/milestones<br/><br/>[2020-06-27 02:54:53] https://www.multibankfx.com/about/milestones<br/><br/>[2020-06-27 02:54:55] https://www.multibankfx.com/about/milestones<br/><br/>[2020-06-27 02:54:57] https://www.multibankfx.com/about/milestones<br/><br/> <br/><br/> posted From: www.multibankfx.com/article/milestones_20050101?web=true' />
+                    <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:54:51] https://www.multibankfx.com/article/milestones.php<br/><br/>[2020-06-27 02:54:53] https://www.multibankfx.com/article/milestones.php<br/><br/>[2020-06-27 02:54:55] https://www.multibankfx.com/article/milestones.php<br/><br/>[2020-06-27 02:54:57] https://www.multibankfx.com/article/milestones.php<br/><br/> <br/><br/> posted From: www.multibankfx.com/article/milestones_20050101?web=true' />
                     <div class='col-12 p-0'>
                         <label for='' class='mex-h3'>
                             EMAIL US</label>

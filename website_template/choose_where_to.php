@@ -25,7 +25,7 @@
               </a>
             </li>
             <li>
-              <a href="/about/milestones.php">
+              <a href="/article/milestones.php">
                 <span class="ico-ic_our_milestones"></span>
                 <div class="mex-content mex-clamp-3">Our Milestones</div>
               </a>

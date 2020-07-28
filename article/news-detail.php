@@ -519,12 +519,12 @@ $news97=""
                     </form>
                     <hr class="mx-1 my-2 bg-dark">
                     <div class="px-1 contact-form-button-container">
-                        <a style="padding: 5px 10px !important;" href="/account/live-account.html" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a style="padding: 5px 10px !important;" href="/account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe91d;</span>
                             <div class="btn-vr"></div>
                             <div class="mex-translatable" data-es="abre una cuenta real" data-fr="OUVRIR UN COMPTE RÉEL" data-ae="افتح حساب حقيقي" data-ms="Buka Akaun Live" data-th="เปิดบัญชี">OPEN LIVE ACCOUNT</div>
                         </a>
-                        <a style="padding: 5px 10px !important;" href="/demo_competition.html" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a style="padding: 5px 10px !important;" href="/demo_competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe918;</span>
                             <div class="btn-vr"></div>
                             <div class="mex-translatable" data-es="Abre una cuenta de prueba" data-fr="OUVRIR UN COMPTE DÉMO" data-ms="Buka Akaun Demo" data-th="เปิดบัญชีทดลอง" data-ae="افتح حساب تجريبي">OPEN DEMO ACCOUNT</div>
@@ -534,7 +534,7 @@ $news97=""
                             <div class="btn-vr"></div>
                             <div class="mex-translatable" data-es="Resgistro de IB" data-fr='ENREGISTREMENT "IB"' data-ms="Pendaftaran IB" data-th="การลงทะเบียน IB" data-ae="تسجيل وسيط معرف">IB REGISTRATION</div>
                         </a>
-                        <a style="padding: 5px 10px !important;" href="/account/account-funding.html" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                        <a style="padding: 5px 10px !important;" href="/account/account-funding.php" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                             <span>&#xe921;</span>
                             <div class="btn-vr"></div>
                             <div class="mex-translatable" data-es="financia tu cuenta" data-fr="CRÉDITEZ VOTRE COMPTE" data-ms="Dana Akaun Anda" data-th="เติมเงินในบัญชีขอ" data-ae="تمويل حسابك">FUND YOUR ACCOUNT</div>
@@ -542,9 +542,9 @@ $news97=""
                         <div class="px-1 font-10" style="padding:0px;">
                             <div class="form-check form-check-inline">
                                 <label class="form-check-label label-1 mex-translatable" for="terms_conditions" data-ms='Saya menerima <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terma & Syarat</a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">Dasar Privasi</a>, dan <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;"> Dasar Cookie.</a>.' data-fr='En soumettant ce formulaire, vous acceptez  <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">les Termes et conditions</a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">la Politique de confidentialité</a>, et <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;"> la Politique sur les cookies.</a>.' data-ae='أوافق على <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">الشروط والأحكام </a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">وسياسة الخصوصية </a>, <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">وسياسة ملفات تعريف الارتباط</a>.' data-th='เมื่อส่งแบบฟอร์มนี้ถือว่าคุณยอมรับ
-                                            <a href="/terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">ข้อกำหนดและเงื่อนไข </a>,
-                                            <a href="/privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">นโยบายความเป็นส่วนตัว</a>
-                                            , <a href="/cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">และนโยบายคุกกี้</a>.'>By submitting this form, you agree to accept the <a href="/terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>, <a href="/privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="/cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
+                                            <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">ข้อกำหนดและเงื่อนไข </a>,
+                                            <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">นโยบายความเป็นส่วนตัว</a>
+                                            , <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">และนโยบายคุกกี้</a>.'>By submitting this form, you agree to accept the <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>, <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
                                 </label>
                             </div>
                         </div>
@@ -697,7 +697,7 @@ $news97=""
                                     <span> <strong>Malaysia:</strong> +60 32 201 0966</span> </a></li>
 
                         </ul>
-                        <a class="btn btn-mex " href="/contact.html">Find your Country here</a>
+                        <a class="btn btn-mex " href="/contact.php">Find your Country here</a>
                     </div>
                     <div class="border-line col-md-6 col-lg-4 col-sm-12 col-xs-12">
                         <ul class="contact-social-media d-none d-md-block">
@@ -1043,8 +1043,8 @@ $news97=""
                             <div class="px-1 font-10" style="padding:0px;">
                                 <div class="form-check form-check-inline">
                                     <label class="form-check-label label-1 " for="terms_conditions">By submitting this form,
-                                        you agree to accept the <a href="/terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>,
-                                        <a href="/privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="/cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
+                                        you agree to accept the <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>,
+                                        <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
                                     </label>
                                 </div>
                             </div>
@@ -1059,14 +1059,14 @@ $news97=""
             <div class="col-lg-12 footer">
                 <div class="row justify-content-between" style="padding-bottom: 25px; border-bottom: 1px solid #808080;">
                     <div class="col-xs-12 col-sm-12 col-md-8 footer_other_left align-self-center">
-                        <a class="footer_logo" href="/index.html" target="_parent">
+                        <a class="footer_logo" href="/index.php" target="_parent">
                             <img alt="logo" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/logo_black_360.png" width="200" />
                         </a>
                         <a href="https://my.multibankfx.com/en/traders/login" target="_blank">MyMultibank</a>
-                        <a href="/contact.html" target="_parent">Contact Us</a>
+                        <a href="/contact.php" target="_parent">Contact Us</a>
                         <a href="news_20170301.html#" onclick="if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">Support</a>
-                        <a href="hiring-now-cyprus.html" target="_parent">Career</a>
-                        <a href="/investor-relations.html" target="_parent">Investor&nbsp;Relations</a>
+                        <a href="hiring-now-cyprus.php" target="_parent">Career</a>
+                        <a href="/investor-relations.php" target="_parent">Investor&nbsp;Relations</a>
                     </div>
                     <div class="footer_btn col-xs-12  col-sm-12 col-md-4 align-self-center">
                         <a href="https://www.facebook.com/multibank.official" target="_blank">
@@ -1090,48 +1090,48 @@ $news97=""
                     <div class="row">
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="/about.html"><strong>About us</strong></a> <a href="/about/why-multibank-group.html" target="_parent">Why Multibank</a> <a href="/about/global-presence.html" target="_parent">Global Presence</a> <a href="/mfx/v1/about/regulations.html" target="_parent">Regulations</a> <a href="/about/security-of-funds.html" target="_parent">Security of Funds</a> <a href="/about/milestones.html" target="_parent">Milestones</a> <a href="/about/management.html" target="_parent">Management</a>
-                                    <a href="/about/awards.html" target="_parent">Awards</a> <a href="/about/sponsorship.html" target="_parent">Sponsorship</a>
-                                    <a href="news_20180916.html" target="_parent">Company News</a> <a href="hiring-now-cyprus.html" target="_parent">Career</a>
+                                <li><a href="/about.php"><strong>About us</strong></a> <a href="/about/why-multibank-group.php" target="_parent">Why Multibank</a> <a href="/about/global-presence.php" target="_parent">Global Presence</a> <a href="/mfx/v1/about/regulations.php" target="_parent">Regulations</a> <a href="/about/security-of-funds.php" target="_parent">Security of Funds</a> <a href="/article/milestones.php" target="_parent">Milestones</a> <a href="/about/management.php" target="_parent">Management</a>
+                                    <a href="/about/awards.php" target="_parent">Awards</a> <a href="/about/sponsorship.php" target="_parent">Sponsorship</a>
+                                    <a href="/article/company-news.php" target="_parent">Company News</a> <a href="hiring-now-cyprus.php" target="_parent">Career</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="/products.html"><strong>Products</strong></a> <a href="/products/forex.html" target="_parent">Forex</a> <a href="/products/metals.html" target="_parent">Metals</a> <a href="/products/shares.html" target="_parent">Shares</a>
-                                    <a href="/products/indices.html" target="_parent">Indices</a> <a href="/products/commodities.html" target="_parent">Commodities</a>
+                                <li><a href="/products.php"><strong>Products</strong></a> <a href="/products/forex.php" target="_parent">Forex</a> <a href="/products/metals.php" target="_parent">Metals</a> <a href="/products/shares.php" target="_parent">Shares</a>
+                                    <a href="/products/indices.php" target="_parent">Indices</a> <a href="/products/commodities.php" target="_parent">Commodities</a>
 
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="/platforms.html"><strong>Platforms</strong></a>
-                                    <a href="/platforms/compare-platforms.html" target="_parent">Compare Platforms</a>
-                                    <a href="/platforms/ecn-pro.html" target="_parent">ECN Pro</a>
-                                    <a href="/platforms/multibank-pro.html" target="_parent">MultiBank Pro </a>
-                                    <a href="/platforms/maximus.html" target="_parent">Maximus</a>
-                                    <a href="/platforms/mt5-platform.html" target="_parent">MT5 Platform </a>
-                                    <a href="/social-trading.html" target="_parent">Social Trading</a>
-                                    <a href="/platforms/download-center.html" target="_parent">Download Center </a></li>
+                                <li><a href="/platforms.php"><strong>Platforms</strong></a>
+                                    <a href="/platforms/compare-platforms.php" target="_parent">Compare Platforms</a>
+                                    <a href="/platforms/ecn-pro.php" target="_parent">ECN Pro</a>
+                                    <a href="/platforms/multibank-pro.php" target="_parent">MultiBank Pro </a>
+                                    <a href="/platforms/maximus.php" target="_parent">Maximus</a>
+                                    <a href="/platforms/mt5-platform.php" target="_parent">MT5 Platform </a>
+                                    <a href="/social-trading.php" target="_parent">Social Trading</a>
+                                    <a href="/platforms/download-center.php" target="_parent">Download Center </a></li>
                             </ul>
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="/account.html"><strong>Accounts &amp; Funding</strong></a> <a href="/account/live-account.html" target="_parent">Live Account </a> <a href="/demo_competition.html" target="_parent">Demo Account </a> <a href="/account/islamic-account.html" target="_parent">Islamic Account </a> <a href="/account/account-funding.html" target="_parent">Account Funding </a> <a href="/account/withdrawals.html" target="_parent">Withdrawals</a> <a href="/account/account-forms.html" target="_parent">Account Forms </a> <a href="/account/bonus.html" target="_parent">Bonuses</a></li>
+                                <li><a href="/account.php"><strong>Accounts &amp; Funding</strong></a> <a href="/account/live-account.php" target="_parent">Live Account </a> <a href="/demo_competition.php" target="_parent">Demo Account </a> <a href="/account/islamic-account.php" target="_parent">Islamic Account </a> <a href="/account/account-funding.php" target="_parent">Account Funding </a> <a href="/account/withdrawals.php" target="_parent">Withdrawals</a> <a href="/account/account-forms.php" target="_parent">Account Forms </a> <a href="/account/bonus.php" target="_parent">Bonuses</a></li>
                             </ul>
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="/tools.html"><strong>Tools</strong></a> <a href="/tools/trading-tools.html" target="_parent">Trading Tools </a> <a href="/tools/trading-conditions.html" target="_parent">Trading Conditions </a> <a href="/tools/holiday-hours-notices.html" target="_parent">Trading Hours &amp; Holiday
-                                        Notice </a> <a href="/cfd-expiration-dates.html" target="_parent">CFD Expiration Dates</a>
+                                <li><a href="/tools.php"><strong>Tools</strong></a> <a href="/tools/trading-tools.php" target="_parent">Trading Tools </a> <a href="/tools/trading-conditions.php" target="_parent">Trading Conditions </a> <a href="/tools/holiday-hours-notices.php" target="_parent">Trading Hours &amp; Holiday
+                                        Notice </a> <a href="/cfd-expiration-dates.php" target="_parent">CFD Expiration Dates</a>
 
-                                    <a href="/scalping-policy.html" target="_parent">Scalping Policy</a></li>
+                                    <a href="/scalping-policy.php" target="_parent">Scalping Policy</a></li>
                             </ul>
                         </div>
                         <div class="col-md-2">
                             <ul class="footer_map">
-                                <li><a href="/investor-relations.html"><strong>Partnership</strong></a> <a href="/partnership/introducing-brokers.html" target="_parent">Introducing Brokers </a> <a href="/partnership/franchise-program.html" target="_parent">Franchise Program </a> <a href="/partnership/white-label.html" target="_parent">White Label </a> <a href="/partnership/prime-of-primes.html" target="_parent">Prime of Primes</a> <a href="/partnership/cpa-affiliate-program.html" target="_parent">CPA Affiliate Program</a>
+                                <li><a href="/investor-relations.php"><strong>Partnership</strong></a> <a href="/partnership/introducing-brokers.php" target="_parent">Introducing Brokers </a> <a href="/partnership/franchise-program.php" target="_parent">Franchise Program </a> <a href="/partnership/white-label.php" target="_parent">White Label </a> <a href="/partnership/prime-of-primes.php" target="_parent">Prime of Primes</a> <a href="/partnership/cpa-affiliate-program.php" target="_parent">CPA Affiliate Program</a>
                                 </li>
                             </ul>
                         </div>
@@ -1151,8 +1151,8 @@ $news97=""
                             </div>
                         </div>
                     </div>
-                    <p><a href="/privacy-policy.html" target="_parent">Privacy Policy </a> | <a href="/cookie-policy.html" target="_parent"> Cookie
-                            Policy</a> | <a href="/terms-conditions.html" target="_parent">Terms &amp; Conditions </a> | <a href="/website-disclaimer.html" target="_parent"> Website Disclaimer </a> | <a href="/risk-warning.html" target="_parent"> Risk
+                    <p><a href="/privacy-policy.php" target="_parent">Privacy Policy </a> | <a href="/cookie-policy.php" target="_parent"> Cookie
+                            Policy</a> | <a href="/terms-conditions.php" target="_parent">Terms &amp; Conditions </a> | <a href="/website-disclaimer.php" target="_parent"> Website Disclaimer </a> | <a href="/risk-warning.php" target="_parent"> Risk
                             Warning</a></p>
                     <p>Copyright © : 2005-2020 MEX Group Worldwide Limited. All rights reserved. MultiBank Exchange is the
                         trading name of MultiBank Forex Exchange Corporation incorporated in California, USA with Company

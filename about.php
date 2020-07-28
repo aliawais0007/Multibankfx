@@ -1,3 +1,31 @@
+<?php
+$milestones = get_milestones();
+$allnews = get_news();
+foreach($milestones as $value){
+    $id = $value->id;
+    $main_title = $value->main_title;
+    $title = $value->title;
+    $date = $value->date;
+    $post_image = $value->post_image;
+$milestone .= '
+                            <div class="card card-left mb-4">
+                                <a href="/article/milestone-detail.php?id='.$value->id.'" target="_blank" class="row flex-column-reverse flex-md-row about-milestone-card">
+                                    <div class="col-12 col-md-8 col-xl-9">
+                                        <div class="card-body mex-content">
+                                            <p class="card-title text-overflow-1">'.$value->main_title.'</p>
+                                            <p class="card-time">'.$value->date.'</p>
+                                            <p class="card-text text-overflow-2">
+                                                <p>'.$value->title.'</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 col-xl-3"><img src="'.$value->post_image.'" alt="" class="card-img-top milestone-thumbnail" />
+                                    </div>
+                                </a></div>
+                            
+                            ';  
+?>
+
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -56,7 +84,7 @@
             }
         }
     </style>
-
+ 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="main-container">
         <section class="flex-center page-top-banner"><img alt="ABOUT US" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_top_banner.jpg" />
@@ -539,57 +567,10 @@
                         <div class="text-center font-18"><?php translate("Learn more about MultiBank's achievements from over the years"); ?></div>
                         <hr />
                         <div class="about-milestones-content about-page-milestone-slides">
-                            <div class="card card-left mb-4">
-                                <a href="article/milestone-multibank-group-establishes-new-branch-in-turkey.php" target="_blank" class="row flex-column-reverse flex-md-row about-milestone-card">
-                                    <div class="col-12 col-md-8 col-xl-9">
-                                        <div class="card-body mex-content">
-                                            <p class="card-title text-overflow-1"><?php translate('MultiBank Group Establishes New Branch in Turkey'); ?></p>
-                                            <p class="card-time">2019-12-12</p>
-                                            <p class="card-text text-overflow-2">
-                                                <p><?php translate('MultiBank is pleased to announce yet another addition to the Group’s global offices with the establishment of a new branch in Turkey.'); ?></p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-4 col-xl-3"><img src="/public_files/blog/thumbnails/Turkey_Opening_thumbnail_en.jpg" alt="" class="card-img-top milestone-thumbnail" />
-                                    </div>
-                                </a></div>
-                            <div class="card card-left mb-4"><a href="article/milestones_multibank-group-official-partner-bmw-m-motorsport.php" target="_blank" class="row flex-column-reverse flex-md-row about-milestone-card">
-                                    <div class="col-12 col-md-8 col-xl-9">
-                                        <div class="card-body mex-content">
-                                            <p class="card-title text-overflow-1"><?php translate('MultiBank Group Signed as Official Partner of BMW M Motorsport'); ?></p>
-                                            <p class="card-time">2019-10-23</p>
-                                            <p class="card-text text-overflow-2"><?php translate('MultiBank Group has signed an agreement to become the Official Partner of BMW M Motorsport. The pact between BMW M Motorsport and MultiBank further builds on the list of milestones in the history of MultiBank Group.'); ?> </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-4 col-xl-3"><img src="/public_files/blog/thumbnails/MB_BMW_thumbnail.jpg" alt="" class="card-img-top milestone-thumbnail" />
-                                    </div>
-                                </a></div>
-                            <div class="card card-left mb-4"><a href="article/milestones_multibank-kuwait-opened-in-middle-east.php" target="_blank" class="row flex-column-reverse flex-md-row about-milestone-card">
-                                    <div class="col-12 col-md-8 col-xl-9">
-                                        <div class="card-body mex-content">
-                                            <p class="card-title text-overflow-1"><?php translate('MultiBank Group Kicks Off Kuwait Branch to Further Service the Middle East Market'); ?></p>
-                                            <p class="card-time">2019-09-15</p>
-                                            <p class="card-text text-overflow-2"><?php translate('As part of its mission to expand further into the Middle East market, MultiBank Group has announced the opening of its new branch office in Kuwait.'); ?></p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-4 col-xl-3"><img src="/public_files/blog/thumbnails/MB_Kuwait_banner_thumbnail_0.jpg" alt="" class="card-img-top milestone-thumbnail" />
-                                    </div>
-                                </a></div>
-                            <div class="card card-left mb-4"><a href="article/milestones_interview-multibank-philippines-ceo-mark-mangulabnan.php" target="_blank" class="row flex-column-reverse flex-md-row about-milestone-card">
-                                    <div class="col-12 col-md-8 col-xl-9">
-                                        <div class="card-body mex-content">
-                                            <p class="card-title text-overflow-1"><?php translate('Interview with MultiBank Philippines CEO Mark Mangulabnan'); ?></p>
-                                            <p class="card-time">2019-09-02</p>
-                                            <p class="card-text text-overflow-2"><?php translate('In September 2019, MultiBank Group opened its first branch office in the Philippines, located in the central business district of Manila.'); ?> </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-4 col-xl-3"><img src="/public_files/blog/thumbnails/multibank_philippines_thumbnail.jpg" alt="" class="card-img-top milestone-thumbnail" />
-                                    </div>
-                                </a>
-                            </div>
+                          <?php echo $milestone?>
                         </div>
                         <div class="text-center mex-p-15">
-                            <a href="about/milestones.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
+                            <a href="/article/milestones.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
                         </div>
                     </div>
                     <div class="col-12 col-xl-4 mt-5 mt-xl-0">
