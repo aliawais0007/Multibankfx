@@ -69,25 +69,25 @@
                     </h1>
                     <div class="mex-m-b-30 row text-center">
                         <div class="col-lg-3 col-md-6 col-sm- col-6 text-fff mex-m-b-30">
-                            <a href="/trading-tools.php#vps" class="text-fff">
+                            <a href="/tools/trading-tools.php#vps" class="text-fff">
                                 <img src="/public_files/images/tools/VPS_Hosting_icon.png" alt="VPS Hosting">
                                 <p><?php translate('VPS Hosting'); ?></p>
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6 text-fff mex-m-b-30">
-                            <a href="/trading-tools.php#experts-adv" class="text-fff">
+                            <a href="/tools/trading-tools.php#experts-adv" class="text-fff">
                                 <img src="/public_files/images/tools/Expert_Advisors_icon.png" alt="Expert Advisors">
                                 <p><?php translate('Expert Advisors'); ?></p>
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6 text-fff mex-m-b-30f">
-                            <a href="/trading-tools.php#nam-pamm" class="text-fff">
+                            <a href="/tools/trading-tools.php#nam-pamm" class="text-fff">
                                 <img src="/public_files/images/tools/MAM_PAMM_icon.png" alt="MAM/ PAMM">
                                 <p><?php translate('MAM/PAMM'); ?></p>
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6 text-fff mex-m-b-30">
-                            <a href="/trading-tools.php#fix-api" class="text-fff">
+                            <a href="/tools/trading-tools.php#fix-api" class="text-fff">
                                 <img src="/public_files/images/tools/FIX_AP_icon.png" alt="FIX API">
                                 <p><?php translate('FIX API'); ?></p>
                             </a>
