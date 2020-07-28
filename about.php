@@ -1263,6 +1263,9 @@ foreach ($newss as $key => $value) {
     <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/app.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
+
     <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
@@ -1350,8 +1353,6 @@ foreach ($newss as $key => $value) {
             }
         });
     </script>
-    <script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
 
     <script type="text/javascript">
         $(function() {
