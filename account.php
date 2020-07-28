@@ -110,7 +110,7 @@
                         <li><?php translate('Trade on real market conditions'); ?></li>
                         <li><?php translate('Trade on desktop, mobile device or online'); ?></li>
                     </ul>
-                </div><a href="demo_competition.php" class="btn btn-mex-blue"><?php translate('Open Demo Account'); ?></a>
+                </div><a href="/demo-competition.php" class="btn btn-mex-blue"><?php translate('Open Demo Account'); ?></a>
             </div>
         </section>
         <style>

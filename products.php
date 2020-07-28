@@ -163,7 +163,7 @@
                     </div>
                     <div class="col-12 mex-m-b-10 row justify-content-center align-items-center text-nowrap">
                         <a style="max-width: 280px;" class="mx-3 my-2 btn btn-mex-red btn-block" href="account/live-account.php"><?php translate('Open Live Account'); ?></a>
-                        <a style="max-width: 280px;" class="mx-3 my-2 btn btn-mex-blue btn-block" href="demo_competition.php"><?php translate('Open Demo Account'); ?></a>
+                        <a style="max-width: 280px;" class="mx-3 my-2 btn btn-mex-blue btn-block" href="demo-competition.php"><?php translate('Open Demo Account'); ?></a>
                     </div>
                 </div>
             </div>
