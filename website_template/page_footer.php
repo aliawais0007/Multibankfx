@@ -38,7 +38,7 @@
                         <ul class="footer_map">
                             <li><a href="/about.php"><strong><?php translate('About us'); ?></strong></a> <a href="/about/why-multibank-group.php" target="_parent"><?php translate('Why Multibank'); ?></a> <a href="/about/global-presence.php" target="_parent"><?php translate('Global Presence'); ?></a> <a href="mfx/v1/about/regulations.php" target="_parent"><?php translate('Regulations'); ?></a> <a href="/about/security-of-funds.php" target="_parent"><?php translate('Security of Funds'); ?></a> <a href="/about/milestones.php" target="_parent"><?php translate('Milestones'); ?></a> <a href="/about/management.php" target="_parent"><?php translate('Management'); ?></a>
                                 <a href="/about/awards.php" target="_parent"><?php translate('Awards'); ?></a> <a href="/about/sponsorship.php" target="_parent"><?php translate('Sponsorship'); ?></a>
-                                <a href="/article/news_20180916.php" target="_parent"><?php translate('Company News'); ?></a> <a href="/article/hiring-now-cyprus.php" target="_parent"><?php translate('Career'); ?></a>
+                                <a href="/article/company-news.php" target="_parent"><?php translate('Company News'); ?></a> <a href="/article/hiring-now-cyprus.php" target="_parent"><?php translate('Career'); ?></a>
                             </li>
                         </ul>
                     </div>
