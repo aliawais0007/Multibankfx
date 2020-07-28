@@ -56,8 +56,7 @@
                 padding-left: 15px;
             }
         }
-    </style>
-    <style>
+
         .social-trading-banner>img,
         .st-section>img {
             width: 100%;
