@@ -1,5 +1,5 @@
 <?php
-// $milestones = get_milestones();
+$milestones = get_milestones();
 $milestone  = "";
 ?>
 
