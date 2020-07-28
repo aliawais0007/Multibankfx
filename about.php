@@ -217,10 +217,11 @@ foreach ($newss as $key => $value) {
             </div>
             <div class="container">
                 <div class="row">
-                   <div class="slick-prev slick-arrow" id="prev-but" style=""></div>
-                    <div class="slick-next slick-arrow" id="next-but" style=""></div>
+                   <div class="slick-prev slick-arrow" id="prev-but"></div>
+                    <div class="slick-next slick-arrow" id="next-but"></div>
                     <div style="clear:both;"></div>
-                    <div class="multiple-items slider slick-initialized slick-slider"><div class="slick-list draggable" style="padding: 0px 10px;"><div class="slick-track" style="opacity: 1; width: 24288px; transform: translate3d(-3036px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-6" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
+                    <div class="multiple-items slider slick-initialized slick-slider">
+                        <div class="slick-list draggable" style="padding: 0px 10px;"><div class="slick-track" style="opacity: 1; width: 24288px; transform: translate3d(-3036px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-6" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
                             <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
                             <div class="title">Best Forex Trading Platform 2012</div>
                             <div class="text">Jinrongjie</div>
@@ -679,30 +680,7 @@ foreach ($newss as $key => $value) {
         <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script type="text/javascript" src="/public_files/static_js/slick.js"></script>
 
-        <script type="text/javascript">
-            $(function() {
-
-                $('.multiple-items').slick({
-                    dots: false,
-                    nextArrow: $('#next-but'),
-                    prevArrow: $('#prev-but'),
-                    centerMode: true,
-                    centerPadding: '0px',
-                    slidesToShow: 5,
-                    responsive: [{
-                        breakpoint: 1025,
-                        settings: {
-                            dots: false,
-                            nextArrow: $('#next-but'),
-                            prevArrow: $('#prev-but'),
-                            centerMode: true,
-                            centerPadding: '40px',
-                            slidesToShow: 1
-                        }
-                    }]
-                });
-            });
-        </script>
+       
         <section class="pb-0">
             <div class="container">
                 <div class="row">
@@ -1236,8 +1214,6 @@ foreach ($newss as $key => $value) {
     <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/app.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
 
     <script type="text/javascript" async>
         url = new URL(window.location.href);
@@ -1431,7 +1407,6 @@ foreach ($newss as $key => $value) {
     <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            debugger
             var index_swiper = new Swiper('#swiper-container-1', {
                 navigation: {
                     nextEl: '#swiper-container-1 .swiper-button-next',
@@ -1453,6 +1428,30 @@ foreach ($newss as $key => $value) {
             });
         });
     </script>
+     <script type="text/javascript">
+            $(function() {
+
+                $('.multiple-items').slick({
+                    dots: false,
+                    nextArrow: $('#next-but'),
+                    prevArrow: $('#prev-but'),
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 5,
+                    responsive: [{
+                        breakpoint: 1025,
+                        settings: {
+                            dots: false,
+                            nextArrow: $('#next-but'),
+                            prevArrow: $('#prev-but'),
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }]
+                });
+            });
+        </script>
 </body>
 
 </html>
