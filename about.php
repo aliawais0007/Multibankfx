@@ -44,7 +44,7 @@ foreach ($newss as $key => $value) {
 <div class='card big-news'>
     <a href='//article/news-detail.php?id=$news_id' target='_blank'>
         <img src='$news_post_image' alt='' class='mex-img-cover' />
-        <div class='card-body mex-content mex-p-v-15'>
+        <div class='card-body mex-content mex-p-v-15' style='padding: 10px 20px;>
             <p class='card-title text-overflow-2'>$news_title</p>
             <p class='card-time'>$news_date</p>
         </div>
@@ -60,7 +60,7 @@ foreach ($newss as $key => $value) {
                                         <div class='col-12 col-md-8 col-xl-6 p0'>
                                             <img src='$news_post_image' alt='' class='mex-img-cover'>
                                         </div>
-                                        <div class='card-body mex-content col-12 col-md-4 col-xl-6'>
+                                        <div class='card-body mex-content col-12 col-md-4 col-xl-6' style='padding: 10px 20px;>
                                             <p class='card-title'>$news_title </p>
                                             <p class='card-time'>$news_date</p>
                                         </div>
