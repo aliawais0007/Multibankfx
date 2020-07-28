@@ -147,11 +147,11 @@
                             </div>
                             <ul class="nav-menu-list">
                                 <li><a href="/platforms/compare-platforms.php"><?php translate('Compare Platforms'); ?></a></li>
-                                <!-- <li><a href="/platforms/ecn-pro.php"><?php translate('ECN Pro'); ?></a></li> -->
+                                <li><a href="/platforms/ecn-pro.php"><?php translate('ECN Pro'); ?></a></li>
                                 <li><a href="/platforms/multibank-pro.php"><?php translate('MultiBank Pro'); ?></a></li>
                                 <li><a href="/platforms/maximus.php"><?php translate('Maximus'); ?></a></li>
                                 <li><a href="/platforms/mt5-platform.php"><?php translate('MT5 Platform'); ?></a></li>
-                                <!-- <li><a href="social-trading.php"><?php translate('Social Trading'); ?></a></li> -->
+                                <li><a href="/platforms/social-trading.php"><?php translate('Social Trading'); ?></a></li>
                                 <li><a href="/platforms/download-center.php"><?php translate('Download Center'); ?></a></li>
                             </ul>
                         </div>
@@ -300,7 +300,7 @@
                         <li><a href="/platforms/multibank-pro.php"><?php translate('MultiBank Pro'); ?></a></li>
                         <li><a href="/platforms/maximus.php"><?php translate('Maximus'); ?></a></li>
                         <li><a href="/platforms/mt5-platform.php"><?php translate('MT5 Platform'); ?></a></li>
-                        <!-- <li><a href="social-trading.php"><?php translate('Social Trading'); ?></a></li> -->
+                        <li><a href="/platforms/social-trading.php"><?php translate('Social Trading'); ?></a></li>
                         <li><a href="/platforms/download-center.php"><?php translate('Download Center'); ?></a></li>
                     </ul>
                 </li>

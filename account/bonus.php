@@ -595,16 +595,17 @@
                                         100% BONUS
                                     </a>
                                 </li>
-                                <li class="tab-title bonus-page-tab" data-tab="20_bonus">
-                                    <a>
-                                        <span class="tab-img-cover d-none d-xl-block"><img src="/public_files/images/accounts_funding/20bonus_box_652x600.jpg"></span>
-                                        20% BONUS
-                                    </a>
-                                </li>
+
                                 <li class="tab-title bonus-page-tab active" data-tab="imperial_bonus">
                                     <a>
                                         <span class="tab-img-cover d-none d-xl-block"><img src="/public_files/images/accounts_funding/tab_imperial_bonus.jpg"></span>
                                         <?php translate('IMPERIAL BONUS'); ?>
+                                    </a>
+                                </li>
+                                <li class="tab-title bonus-page-tab" data-tab="20_bonus">
+                                    <a>
+                                        <span class="tab-img-cover d-none d-xl-block"><img src="/public_files/images/accounts_funding/20bonus_box_652x600.jpg"></span>
+                                        20% BONUS
                                     </a>
                                 </li>
                                 <li class="tab-title bonus-page-tab" data-tab="refer_bonus">

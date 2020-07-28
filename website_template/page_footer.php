@@ -54,11 +54,11 @@
                         <ul class="footer_map">
                             <li><a href="/platforms.php"><strong><?php translate('Platforms'); ?></strong></a>
                                 <a href="/platforms/compare-platforms.php" target="_parent"><?php translate('Compare Platforms'); ?></a>
-                                <!-- <a href="/platforms/ecn-pro.php" target="_parent">ECN Pro</a> -->
+                                <a href="/platforms/ecn-pro.php" target="_parent">ECN Pro</a>
                                 <a href="/platforms/multibank-pro.php" target="_parent"><?php translate('MultiBank Pro'); ?> </a>
                                 <a href="/platforms/maximus.php" target="_parent"><?php translate('Maximus'); ?></a>
                                 <a href="/platforms/mt5-platform.php" target="_parent"><?php translate('MT5 Platform'); ?> </a>
-                                <!-- <a href="social-trading.php" target="_parent">Social Trading</a> -->
+                                <a href="/platforms/social-trading.php" target="_parent">Social Trading</a>
                                 <a href="/platforms/download-center.php" target="_parent"><?php translate('Download Center'); ?></a></li>
                         </ul>
                     </div>

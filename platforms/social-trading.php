@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang='en'>
+<?php include_from_root('website_template/head.php'); ?>
 
-<?php include_from_root('website_template/head.php');?>
 <body>
-    <?php include_from_root('website_template/header_and_menu.php');?>
+    <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
         .nav-menu-hamburger,
         .nav-menu-mymex {
@@ -58,135 +58,465 @@
     </style>
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <section class="flex-center page-top-banner">
-        <img src="/public_files/images/tools/tools_topbanner.jpg" alt="tools top banner" class="mex-img-cover" />
+    <section class="page-top-banner p-0">
+        <div class="banner_overlay"></div>
+        <img class="mex-img-cover" src="/public_files/images/social_trading/social_trading_t_banner.jpg" alt="Trade Forex" />
+        <div class="st-banner-text-container">
+            <div>
+                <div class="slider-title">
+                    <h2>BOOST<br /><span class="silder-title-bold">YOUR PROFITS</span><br /><span class="silder-title-uptext">WITH</span> <span class="silder-title-bold">SOCIAL TRADING</span></h2>
+                </div>
+                <div class="slider-desc">INVEST SMARTER- COPY THE TRADES OF CONSISTENTLY PROFITABLE TRADERS OR SCALE YOUR INCOME BY EARNING FEES FROM INVESTORS WHO COPY YOUR ACCOUNT</div>
+                <div class="slider-icons">
+                    <div class="slider-icon"><a href="../social-trading/trader"><img src="/public_files/images/social_trading/icon_investor.png"><br />TRADER >></a></div>
+                    <div class="slider-icon"><a href="../social-trading/investor"><img src="/public_files/images/social_trading/icon_signal_provider.png"><br />INVESTOR >></a></div>
+                    <div class="slider-icon"><a href="../social-trading/faq"><img src="/public_files/images/social_trading/icon_faq.png"><br />FAQ >></a></div>
+                    <div class="slider-icon"><a href="../social-trading/leaderboard"><img src="/public_files/images/social_trading/icon_leader_board.png"><br />LEADERBOARD >></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="st-banner-btn-container">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                <a href="https://invest.multibankfx.com" class="btn-st-blue btn-banner transparent">Join As Signal Provider</a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                <a href="http://invest.multibankfx.com" class="btn-st-green btn-banner transparent text-fff">Join As Investor</a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                <a href="/social-trading/leaderboard" class="btn-st-red btn-banner transparent text-fff">Leaderboard</a>
+            </div>
+        </div>
+    </section>
+    <section class="flex-center">
+        <img class="mex-img-cover" src="/public_files/images/platforms/download_center/download_center_mobile_trader_banner.jpg" alt=" MEX Mobile Trader">
         <div class="container">
-            <div class="row justify-content-end top-banner-arabic">
-                <div class="col-xl-6 mex-p-t-30 mex-p-b-30">
-                    <h1 class="mex-h1 text-fff text-left">
-                    <?php translate('TOOLS'); ?> </h1>
-                    <div class="mex-content text-fff mex-m-b-30">
-                    <?php translate('All your trading needs, all in one place'); ?>
+            <div class="row justify-content-end">
+                <div class="col-lg-6 ">
+                    <div class="col-sm-12 ">
+                        <div class="mex-h2 text-005190 mex-m-b-20 text-left">
+                            Download MT4 Trading App
+                        </div>
+                        <div class="row ">
+                            <a class="col-5 d-block" href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img class="w-100" src="/public_files/images/platforms/download_center/download_center_mobile_google_play.png" alt="Get it on Google Play"></a>
+                            <a class="col-5 d-block" href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img class="w-100" src="/public_files/images/platforms/download_center/download_center_mobile_app_store.png" alt="Doenload in the App Store"></a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="st-section">
+        <img src="/public_files/images/social_trading/st_earn_money_bg.jpg" alt="" />
+        <div class="container">
+            <div class="mex-h2 text-005190 mex-m-b-20 text-center">
+                How to Earn Money through Social Trading as a Trader
+            </div>
+            <div class="mex-m-b-50 row">
+                <div class="mex-m-b-20 col-4">
+                    <img src="/public_files/images/social_trading/st_earn_money_step1.png" alt="" class="col-3-step" />
+                    <div class="text-left text-005190 mex-h3 mex-m-t-20">Open A Master Account</div>
+                    <div class="">Become a Signal Provider</div>
+                </div>
+                <div class="mex-m-b-20 col-4">
+                    <img src="/public_files/images/social_trading/st_earn_money_step2.png" alt="" class="col-3-step" />
+                    <div class="text-left text-005190 mex-h3 mex-m-t-20">Performance Ranking</div>
+                    <div class="">Share your successful trading performance with the public</div>
+                </div>
+                <div class="mex-m-b-20 col-4">
+                    <img src="/public_files/images/social_trading/st_earn_money_step3.png" alt="" class="col-3-step" />
+                    <div class="text-left text-005190 mex-h3 mex-m-t-20">Gain Subscribers</div>
+                    <div class="">Get Investors to copy your trades. The more Investors subscribing to your Master Account, the more you earn!</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="st-section">
+        <img style="height: 50%;" class="mex-img-cover st-benefit-bg" src="/public_files/images/social_trading/st_benefit_bg.jpg" alt="Social Trading">
+        <div class="container text-center">
+            <div class="mex-h2 text-fff text-center">
+                Benefits of MultiBank Social Trading
+            </div>
+            <div class="row mex-m-t-120 mex-m-b-10">
+                <div class="col-12 col-sm-6 col-xl-3 st_benefit_container st-mb-xl-100">
+                    <div class="st_benefit_card benefit">
+                        <div class="st_benefit_icon"><img src="/public_files/images/social_trading/st_benefit_icon1.png" alt="Professional" /></div>
+                        <p class="text-left text-005190 mex-h3">Professional</p>
+                        <p class="text-left">Professional global brokerage operating No Dealing Desk (NDD) execution on aggregated executable prices, offering the lowest spreads in the industry</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3 st_benefit_container st-mb-xl-100">
+                    <div class="st_benefit_card benefit">
+                        <div class="st_benefit_icon"><img src="/public_files/images/social_trading/st_benefit_icon2.png" alt="Fast" /></div>
+                        <p class="text-left text-005190 mex-h3">Fast</p>
+                        <p class="text-left">Simple and copy function to copy transactions within a few milliseconds. We have a complete network of servers spread across the major interbank liquidity centers such as OneZero and Equinix</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3 st_benefit_container st-mb-xl-100">
+                    <div class="st_benefit_card benefit">
+                        <div class="st_benefit_icon"><img src="/public_files/images/social_trading/st_benefit_icon3.png" alt="Profitable" /></div>
+                        <p class="text-left text-005190 mex-h3">Profitable</p>
+                        <p class="text-left">We offer the best conditions to money managers and our 320,000 customers, who can invest with ease in successful strategies and make significant profits</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3 st_benefit_container st-mb-xl-100">
+                    <div class="st_benefit_card benefit">
+                        <div class="st_benefit_icon"><img src="/public_files/images/social_trading/st_benefit_icon4.png" alt="Automatic" /></div>
+                        <p class="text-left text-005190 mex-h3">Automatic</p>
+                        <p class="text-left">When Investors subscribe to a Master Account, the investment amount will be automatically calculated in proportion to equity invested</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center btn-container">
+                <a href="/social-trading/trader" class="btn-single btn-st-1ba6df text-fff ">Become A Signal Provider</a>
+                <a href="/social-trading/investor" class="btn-single btn-st-006AD0 text-fff">Become An Investor</a>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #041E35">
+        <div class="container">
+            <div class="row mex-m-x-80">
+                <div class="col-12 col-lg-6">
+                    <img style="width: 90%; height: auto; margin-bottom: 50px;" src="/public_files/images/social_trading/st_grow_wealth_pad.png" />
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p class="text-fff">Become a Signal Provider & Expand Your Income Stream</p>
+                    <p class="text-fff mex-h2 st-h2">Increase Your Profits with No Extra Effort</p>
+                    <p class="text-fff st-h4">Social trading provides successful Signal Providers with a unique opportunity to trade as they normally do, while increasing earnings by receiving Payouts from Investors who subscribe to their accounts.</p>
+                    <ul class="text-1ba6df st-grow-wealth-list fa-ul">
+                        <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Share your trading strategies with Investors</li>
+                        <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Earn a portion of profits from Investor who copy your successful trades</li>
+                        <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Over 320,000 potential Investors</li>
+                        <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Maximize your profits with no additional effort</li>
+                    </ul>
+                    <div class="row mx-0"><a href="/social-trading/trader" class="btn-st-1ba6df ml-0 text-fff">Become A Signal Provider</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="st-section" style="background-color: #EBEBEB;">
+        <div class="container text-center">
+            <div class="mex-h2 text-005190 text-center mex-m-b-10">
+                Invest Smarter
+            </div>
+            <div class="mex-m-b-20">
+                Follow the Success of Consistently Profitable Traders
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-3 st_benefit_container mex-m-b-40">
+                    <div class="st_benefit_card invest">
+                        <img src="/public_files/images/social_trading/st_invest1.jpg" />
+                        <p class="text-left mex-p-15">It's easy, just browse our Leaderboard and look for successful Signal Providers to copy.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 st_benefit_container mex-m-b-40">
+                    <div class="st_benefit_card invest">
+                        <img src="/public_files/images/social_trading/st_invest2.jpg" />
+                        <p class="text-left mex-p-15">Create your own investment portolio based on a range of Signal Providers you'd like to copy.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 st_benefit_container mex-m-b-40">
+                    <div class="st_benefit_card invest">
+                        <img src="/public_files/images/social_trading/st_invest3.jpg" />
+                        <p class="text-left mex-p-15">Simply subscribe to the Master Accounts of Signal Providers you're interested in following, and you will automatically start copying their new positions in your trading account</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 st_benefit_container mex-m-b-40">
+                    <div class="st_benefit_card invest">
+                        <img src="/public_files/images/social_trading/st_invest4.jpg" />
+                        <p class="text-left mex-p-10 mex-p-15">Through your account panel, unsubscribe from any Master Account with a simply click, and establish risk protection levels and access many more features</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <a href="/social-trading/investor" class="btn-st-006AD0 text-fff">BECOME AN INVESTOR</a>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #fff">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-xl-8">
+                    <p class="text-005190 mex-h2 st-h2">Improve Your Trading Knowledge Through Social Trading</p>
+                    <p class="st-h4">Signal Providers already have a proven track record of stellar trading performance. Copy their trades and leave the professional trading decisions to them.</p>
+                    <ul class="text-005190 st-grow-wealth-list fa-ul">
+                        <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Copy profitable trade from the best performing traders in the industry</li>
+                        <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Automatically copy signals from the most profitable accounts</li>
+                        <li><span class="fa-li"><i class="fa fa-check-circle"></i></span>Learn how Signal Providers trade with success</li>
+                    </ul>
+                    <div class="row mx-0"><a href="/social-trading/investor" class="btn-st-006AD0 text-fff ml-0">Become An Investor</a></div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-4 text-right">
+                    <img class="w-100" src="/public_files/images/social_trading/st_improve_pc.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="st-section">
+        <img style="object-fit: cover;" src="/public_files/images/social_trading/st_earn_money_bg.jpg" alt="" />
+        <div class="container text-center">
+            <div class="mex-h2 mex-m-b-20 text-005190">Still Have Questions About MultiBank Social Trading?</div>
+            <div class="">Check out our <a href="/social-trading/faq" class="text-005190">FAQ</a> or <a class="text-005190">Request</a> a Call Back Now!</div>
         </div>
     </section>
     <style>
-        .grapesjs-editable-field-item[data-grapesjs-field="field_component_01"][data-grapesjs-delta="0"] * {
-            box-sizing: border-box;
+        .btn-banner {
+            width: 100%;
+            display: block;
+            margin: 0 auto 5%;
         }
 
-        .grapesjs-editable-field-item[data-grapesjs-field="field_component_01"][data-grapesjs-delta="0"] * {
-            box-sizing: border-box;
+        .slider-title h2 {
+            color: #fff;
+            font-size: 36px;
+            font-style: "Oswald", Helvetica, Arial, sans-serif;
+            letter-spacing: .011em;
+            line-height: 47px;
         }
 
-        div.div {
-            padding-top: 5px;
-            padding-right: 5px;
-            padding-bottom: 5px;
-            padding-left: 5px;
-            min-height: 25px;
+        .slider-title .silder-title-bold {
+            font-size: 56px;
+            font-weight: bold;
+        }
+
+        .slider-title .silder-title-uptext {
+            display: inline-block;
+            vertical-align: top;
+            line-height: 30px;
+            padding-left: 38px;
+        }
+
+        .slider-desc {
+            color: #fff;
+            font-size: 16px;
+            display: block;
+            max-width: 480px;
+        }
+
+        .slider-icons {
+            margin: 10px 0 0 -15px;
+        }
+
+        .slider-icons a {
+            color: #fff;
+            font-size: 18px;
+            letter-spacing: -1px;
+        }
+
+        .slider-icons .slider-icon {
+            display: inline-block;
+            text-align: center;
+            width: 120px;
+        }
+
+        .mex-img-cover {
+            min-height: 380px
+        }
+
+        .col-3-step {
+            width: 100%;
+            height: auto;
+            max-width: 420px;
+        }
+
+        .btn-container {
+            margin-top: 40px;
+        }
+
+        .btn-container .btn-single {
+            min-width: 300px;
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .slider-title h2 {
+                font-size: 24px;
+                line-height: 35px;
+            }
+
+            .slider-title .silder-title-bold {
+                font-size: 44px;
+            }
+
+            .slider-desc {
+                font-size: 14px;
+                max-width: 390px;
+                line-height: 22px;
+            }
+
+            .slider-icons img {
+                max-width: 66px;
+                height: auto;
+            }
+
+            .slider-icons a {
+                font-size: 16px;
+            }
+
+            .slider-icons .slider-icon {
+                width: 105px;
+            }
+
+            .btn-banner {
+                font-size: 16px;
+                padding: 15px 15px;
+            }
+
+            .btn-container {
+                margin-top: -40px;
+            }
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .btn-banner {
+                font-size: 14px;
+                padding: 10px 10px;
+            }
+
+            .slider-icons img {
+                max-width: 55px;
+            }
+
+            .slider-icons a {
+                font-size: 14px;
+            }
+
+            .slider-icons .slider-icon {
+                width: 95px;
+            }
+        }
+
+        @media only screen and (max-width: 860px) {
+            .slider-title h2 {
+                font-size: 18px;
+                line-height: 29px;
+                margin-left: -20px;
+            }
+
+            .slider-title .silder-title-bold {
+                font-size: 38px;
+            }
+
+            .slider-desc {
+                font-size: 12px;
+                max-width: 340px;
+                margin-left: -20px;
+                line-height: 18px;
+            }
+
+            .btn-banner {
+                font-size: 12px;
+                padding: 8px 8px;
+            }
+
+            .slider-icons {
+                margin-left: -30px;
+            }
+
+            .slider-icons img {
+                max-width: 45px;
+            }
+
+            .slider-icons a {
+                font-size: 13px;
+            }
+
+            .slider-icons .slider-icon {
+                width: 86px;
+            }
+
+        }
+
+        @media only screen and (max-width: 768px) {
+            .slider-title h2 {
+                font-size: 15px;
+                line-height: 26px;
+                margin-left: -60px;
+            }
+
+            .slider-title .silder-title-bold {
+                font-size: 35px;
+            }
+
+            .slider-icons {
+                margin-left: -70px;
+            }
+
+            .slider-desc {
+                margin-left: -60px;
+                max-width: 400px;
+            }
+        }
+
+        @media only screen and (max-width: 680px) {
+            .slider-title h2 {
+                margin-left: -80px;
+            }
+
+            .slider-desc {
+                margin-left: -80px;
+            }
+
+            .slider-icons {
+                margin-left: -90px;
+            }
+
+            .slider-icons img {
+                max-width: 40px;
+            }
+
+            .slider-icons a {
+                font-size: 12px;
+            }
+
+            .slider-icons .slider-icon {
+                width: 80px;
+            }
+        }
+
+        @media only screen and (max-width: 576px) {
+            .slider-title h2 {
+                margin-left: -240px;
+                margin-top: -40px;
+            }
+
+            .slider-icons {
+                margin-left: -250px;
+            }
+
+            .slider-desc {
+                margin-left: -240px;
+                max-width: 460px;
+            }
+
+            .btn-banner {
+                margin: 0 0 5px 0;
+                width: 100%;
+            }
+
+            .banner_overlay {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                background-color: rgba(0, 0, 0, 0.6);
+            }
+
         }
     </style>
-    <section class="pb0">
-        <div class="container">
-            <div class="banner-with-bg pos-rlt">
-                <img class="banner-bg" src="/public_files/images/tools/img_topbanner_tools_s.jpg" alt="Trading Tools">
-                <div class="container align-all pt-0 pb-0 mt-xl-5">
-                    <div class="row d-block">
-                        <div class="col-lg-8 col-xl-6 offset-lg-2 offset-xl-3 text-center pt-xl-5">
-                            <div class="mex-h1 text-fff text-center mex-m-t-30">
-                            <?php translate('TRADING TOOLS'); ?> </div>
-                            <div class="mex-content text-fff mex-m-b-20 mex-m-t-40 text-center mt-lg-4 mt-xl-5">
-                            <?php translate('MultiBank offers simple yet powerful trading tools to help you manage your trade with ease and full control- all free of charge!'); ?> </div>
-                            <div class="row text-center mex-m-b-40 mt-xl-5">
-                                <div class="col-lg-3 col-sm-6 col-6 text-fff mb-s-30">
-                                    <a href="/tools/trading-tools.php" class="text-fff">
-                                        <img src="/public_files/images/tools/trading_tools/VPS_Hosting_icon.png" alt="VPS Hosting">
-                                        <p><?php translate('VPS Hosting'); ?></p>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 col-sm-6 col-6 text-fff mb-s-30">
-                                    <a href="/tools/trading-tools.php" class="text-fff">
-                                        <img src="/public_files/images/tools/trading_tools/Expert_Advisors_icon.png" alt="Expert Advisors">
-                                        <p><?php translate('Expert Advisors'); ?></p>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 col-sm-6 col-6 text-fff">
-                                    <a href="/tools/trading-tools.php" class="text-fff">
-                                        <img src="/public_files/images/tools/trading_tools/MAM_PAMM_icon.png" alt="MAM/ PAMM">
-                                        <p><?php translate('MAM/PAMM'); ?></p>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 col-sm-6 col-6 text-fff">
-                                    <a href="/tools/trading-tools.php" class="text-fff">
-                                        <img src="/public_files/images/tools/trading_tools/FIX_AP_icon.png" alt="FIX API">
-                                        <p><?php translate('FIX API'); ?></p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mex-m-b-15">
-                    <section class="mex-block-card bg-white shadow-box-animate">
-                        <div class="card-img-box hover-img-zoom">
-                            <img class="mex-img-cover" src="/public_files/images/tools/trading_tools_trading_conditions.jpg" alt="Trading Conditions">
-                        </div>
-                        <div class="card-content-box">
-                            <div class=" card-content text-center">
-                                <div class="mex-h2 uppercase mex-m-b-20 text-overflow-1">
-                                <?php translate('TRADING CONDITIONS'); ?> </div>
-                                <div class="mex-content text-overflow-3">
-                                <?php translate('Enjoy the best trading conditions in the industry for products including forex, metals, shares, indices,commodities and more!'); ?> </div>
-                                <a href="/tools/trading-conditions.php" class="btn btn-mex mex-m-t-15"><?php translate('LEARN MORE'); ?></a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="col-md-6 mex-m-b-15">
-                    <section class="mex-block-card bg-white shadow-box-animate">
-                        <div class="card-img-box hover-img-zoom">
-                            <img class="mex-img-cover" src="/public_files/images/tools/trading_tools_holiday_hours_notices.jpg" alt="Holiday Hours &amp; Notices">
-                        </div>
-                        <div class="card-content-box">
-                            <div class=" card-content bg-white text-center">
-                                <div class="mex-h2 uppercase mex-m-b-20 text-overflow-1">
-                                <?php translate('TRADING HOURS & HOLIDAY NOTICES'); ?> </div>
-                                <div class="mex-content text-overflow-3">
-                                <?php translate('Stay up to date on relevant holiday hours and trading sessions'); ?> </div>
-                                <a href="/tools/holiday-hours-notices.php" class="btn btn-mex mex-m-t-15"><?php translate('LEARN MORE'); ?></a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="flex-center page-top-banner">
-        <img class="mex-img-cover" src="/public_files/images/tools/scalping_policy_bg.jpg" alt="Scalping Policy">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="mex-h1 text-left">
-                    <?php translate('Scalping Policy'); ?> </h2>
-                    <div class="mex-content mex-m-b-30">
-                        <p class="mex-m-t-15"><?php translate('Learn more about MultiBank’s scalping policy'); ?></p>
-                    </div>
-                    <a href="/scalping-policy.php" class="btn btn-mex mex-m-r-15"><?php translate('LEARN MORE'); ?></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <?php include_from_root('website_template/choose_where_to.php');?>
-    
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('.nav-link').click(function() {
+                $('.nav-link.active').removeClass('active');
+                $(this).addClass('active');
+
+                $('.st-nav-panel.active').removeClass('active');
+                $('#st_nav_panel_' + $(this).data('index')).addClass('active');
+            });
+        })
+    </script>
     <?php include_from_root('website_template/page_footer.php'); ?>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
@@ -195,10 +525,10 @@
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
             <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.html#7c1f0f3c11091008151e1d12171a04521f1311">
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection#a0c3d3e0cdd5ccd4c9c2c1cecbc6d88ec3cfcd">
             <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-447a538b1cbe9182bdfa004a-="">
+        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
             <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
@@ -298,10 +628,10 @@
         <div class="container row">
             <div class="col-12 col-md-7 mx-auto bg-white p-4">
                 <span class="btn-modal-close fa fa-times"></span>
-                <form action="https://www.multibankfx.com/form/contactus?" name='email_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='email_us_form' target='' autocomplete='on'>
-                    <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMjo0OTozNg==' />
-                    <input type='hidden' name='token' value='$2y$10$Zj9WoQ73ExfwNVQ7Z66uo.nS7AQrCQLuvhalmAleTNmCZn7Wk0zC2' />
-                    <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:33] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:34] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:35] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:36] https://www.multibankfx.com/<br/><br/> <br/><br/> posted From: www.multibankfx.com/tools?web=true' />
+                <form action="/form/contactus?" name='email_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='email_us_form' target='' autocomplete='on'>
+                    <input type='hidden' name='t_date' value='MjAyMC0wNy0yOCAxNDozNzo1OQ==' />
+                    <input type='hidden' name='token' value='$2y$10$..GuMyjU1QtOGgVgFgFv2usI.qbXX52clY8DQxV39KevnrawoZplC' />
+                    <input type='hidden' name='source' value='[2020-07-26 15:14:06] https://ae.multibankfx.com/<br/><br/>[2020-07-28 14:35:33] https://ae.multibankfx.com/ord=true<br/><br/>[2020-07-28 14:35:34] https://ae.multibankfx.com/ord=true<br/><br/>[2020-07-28 14:37:30] https://www.multibankfx.com/<br/><br/> <br/><br/> posted From: www.multibankfx.com/social-trading?web=true' />
                     <div class='col-12 p-0'>
                         <label for='' class='mex-h3'>
                             EMAIL US</label>
@@ -317,7 +647,7 @@
                     <div class='mex-form-item col-6 p-1 pb-3'>
                         <label for='' class='d-none'>
                             Full Name</label>
-                        <input type="text" data-message="Full Name is Required." data-extra-message="Full Name Invalid." data-regex="" class="form-control mb-0" name="name" $field_id_code placeholder="Full Name" required value="" />
+                        <input type="text" data-message="Full Name is Required." data-extra-message="Full Name Invalid." data-regex="" class="form-control mb-0" name="name" placeholder="Full Name" required value="" />
                     </div>
                     <div class='mex-form-item col-6 p-1 pb-3'>
                         <label for='' class='d-none'>
@@ -327,7 +657,7 @@
                     <div class='mex-form-item col-12 p-1 d-none'>
                         <label for='' class='d-none'>
                         </label>
-                        <select data-message='Confirm Email is Required.' data-extra-message="Email Mismatched." class='selection-country form-control  mb-0 select_with_country select_with_country' name='country_name' required>
+                        <select data-message='Confirm Email is Required.' data-extra-message="Email Mismatched." class='selection-country form-control  mb-0 select_with_country select_with_country' name='country_name' required>
                             <option value='' selected='selected'>Select Country</option>
                             <option data-country_iso_code="AF" data-name='AF' value='AF'>AFGHANISTAN</option>
                             <option data-country_iso_code="AL" data-name='AL' value='AL'>ALBANIA</option>
@@ -578,7 +908,7 @@
                     <div class='mex-form-item col-12 p-1 pb-3'>
                         <label for='' class='d-none'>
                             Phone</label>
-                        <input type='phone' data-ip_country_code='IN' data-message='Phone Number is required.' data-extra-message="Phone Number Invalid" data-regex='' class='input_with_phone form-control mb-0 input_with_phone' name='phone_display' placeholder='' required value='' />
+                        <input type='phone' data-ip_country_code='US' data-message='Phone Number is required.' data-extra-message="Phone Number Invalid" data-regex='' class='input_with_phone form-control mb-0 input_with_phone' name='phone_display' placeholder='' required value='' />
                         <input type='hidden' name='phone' />
                     </div>
                     <div class='mex-form-item col-6 col-md-6 p-1 sms-code-container'>
@@ -591,7 +921,7 @@
                         <label for='order_message' class='d-block'>
                         </label>
                         <textarea data-message='Message is Required.' data-extra-message="Message is Invalid." data-regex='' class=' form-control w-100 ta-message' name='message' id='order_message' placeholder=''>Hello, I am interested in learning more about MultiBank products and services. Could you please contact me</textarea>
-                    </div><button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-447a538b1cbe9182bdfa004a-="">SEND</button>
+                    </div><button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SEND</button>
                 </form>
             </div>
         </div>
@@ -644,8 +974,8 @@
             border-radius: 0;
         }
     </style>
-    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="447a538b1cbe9182bdfa004a-text/javascript">
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
                 e.preventDefault();
@@ -657,12 +987,12 @@
             });
         })
     </script>
-    <script src="/public_files/static_js/lang_data/en.js" type="447a538b1cbe9182bdfa004a-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.dataTables.min.js" type="447a538b1cbe9182bdfa004a-text/javascript"></script>
-    <script src="/public_files/static_js/lazysizes.min.js" type="447a538b1cbe9182bdfa004a-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.validate.min.js" type="447a538b1cbe9182bdfa004a-text/javascript"></script>
-    <script src="/public_files/static_js/intlTelInput.min.js" type="447a538b1cbe9182bdfa004a-text/javascript"></script>
-    <script src="/public_files/static_js/app.js" type="447a538b1cbe9182bdfa004a-text/javascript"></script>
+    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js?version=20191128" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js?version=20200720" type="text/javascript"></script>
     <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
@@ -671,30 +1001,29 @@
             window.__lc.chat_between_groups = false;
             window.__lc.group = 2;
 
-            function initliveChat() {
-      var lc = document.createElement('script');
-      lc.type = 'text/javascript';
-      lc.async = true;
-      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(lc, s);
-      window.LC_API = window.LC_API || {};
-      if (window.innerWidth < 640) {
-        LC_API.on_before_load = function() {
-          LC_API.hide_chat_window();
-        }
-        LC_API.on_chat_window_minimized = function() {
-          setTimeout(function() {
-            LC_API.hide_chat_window();
-          }, 10000);
-        }
-      }
-    };
 
-    setTimeout(()=>initliveChat(), 10000);
+            (function() {
+                var lc = document.createElement('script');
+                lc.type = 'text/javascript';
+                lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(lc, s);
+                window.LC_API = window.LC_API || {};
+                if (window.innerWidth < 640) {
+                    LC_API.on_before_load = function() {
+                        LC_API.hide_chat_window();
+                    }
+                    LC_API.on_chat_window_minimized = function() {
+                        setTimeout(function() {
+                            LC_API.hide_chat_window();
+                        }, 200);
+                    }
+                }
+            })();
         }
     </script>
-    <script type="447a538b1cbe9182bdfa004a-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
                 var url_parts = location.hostname.split('.');
@@ -727,12 +1056,12 @@
             }
         });
     </script>
-    <script type="447a538b1cbe9182bdfa004a-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
         });
     </script>
-    <script type="447a538b1cbe9182bdfa004a-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
@@ -750,60 +1079,14 @@
             }
         });
     </script>
-    <style type="text/css">
-        .qqq {
-            position: fixed;
-            ;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 1050;
-            outline: 0;
-            display: none;
-            overflow: hidden;
-            webkit-overflow-scrolling: touch;
-        }
-
-        .qqq .modal-dialog {
-            max-width: 880px;
-            margin-top: 15vh;
-        }
-
-        .qqq .modal-content {
-            max-height: 80vh;
-        }
-
-        .qqq .modal-dialog .modal-body {
-            overflow-y: scroll;
-        }
-
-        .modal-background {
-            background: rgba(0, 0, 0, 0.4);
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            cursor: pointer;
-        }
-    </style>
-    <script type="447a538b1cbe9182bdfa004a-text/javascript">
+    <script type="text/javascript">
         $(function() {
-            $('.hh-modal-toggle').click(function() {
-                var num = $(this).data('num');
-                $('#hh_modal_box_' + num).show();
-            });
-
-            $('.hh-modal-box .close').click(function() {
-                $('.hh-modal-box').hide();
-            })
-
-            $('.modal-background').click(function() {
-                $('.hh-modal-box').hide();
+            $('.st-slide-header').click(function() {
+                $(this).next().slideToggle("slow");
             });
         });
     </script>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="447a538b1cbe9182bdfa004a-|49" defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
 
 </html>
