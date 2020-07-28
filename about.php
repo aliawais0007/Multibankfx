@@ -1,6 +1,6 @@
 <?php
 $milestones = get_milestones();
-$allnews = get_news();
+$milestone  = "";
 foreach($milestones as $value){
     $id = $value->id;
     $main_title = $value->main_title;
@@ -567,7 +567,7 @@ $milestone .= "
                         <div class="text-center font-18"><?php translate("Learn more about MultiBank's achievements from over the years"); ?></div>
                         <hr />
                         <div class="about-milestones-content about-page-milestone-slides">
-                          <?php echo $milestone?>
+                          <?php echo $milestone;?>
                         </div>
                         <div class="text-center mex-p-15">
                             <a href="/article/milestones.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
