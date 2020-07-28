@@ -910,8 +910,8 @@
     </script>
     <script type="text/javascript">
         $(function() {
-            $('.st-slide-header').click(function() {
-                $(this).next().yoggle("slow");
+            $('.st-slide-header').on('click',function() {
+                $(this).next().toggle("slow");
             });
         });
     </script>
