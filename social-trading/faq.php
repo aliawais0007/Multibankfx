@@ -60,7 +60,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="st-section">
         <div class="banner_overlay"></div>
-        <img style="object-fit: cover;" src="/public_files/images/social_trading/st_faq_banner.jpg" alt="">
+        <img style="object-fit: cover; position:absolute" src="/public_files/images/social_trading/st_faq_banner.jpg" alt="">
         <div class="container text-center mex-p-v-80 row justify-content-end mx-auto">
             <div class="col-lg-6 col-md-6 col-sm-8 col-12">
                 <div class="mex-h2 mex-m-b-20 text-fff text-left">Frequently Asked Questions</div>
