@@ -27,6 +27,32 @@ $milestone .= "
                             
                             ";  
 }
+
+$allnews = get_news();
+$newss = array_slice($allnews, 0, 3);
+$news = "";
+
+foreach($newss as $value){
+    $id = $value->id;
+    $main_title = $value->main_title; 
+    $date = $value->date;
+    $post_image = $value->post_image;
+$news.="
+<div class='col-12 col-sm-12'>
+                                <div class='card card-left mb-3 mt-3'>
+                                    <a href='article/news-detail?id=?$id' target='_blank' class='row mx-0'>
+                                        <div class='col-12 col-md-8 col-xl-6 p0'>
+                                            <img src='$post_image' alt=' class='mex-img-cover'>
+                                        </div>
+                                        <div class='card-body mex-content col-12 col-md-4 col-xl-6'>
+                                            <p class='card-title'>$title </p>
+                                            <p class='card-time'>$date</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+";
+}
 ?>
 
 <!DOCTYPE html>
@@ -581,42 +607,7 @@ $milestone .= "
                         <div class="text-center font-18"><?php translate("Keep up to date with MultiBank's latest news"); ?></div>
                         <hr />
                         <div class="row flex-column justify-content-between">
-                            <div class="col-12 col-sm-12">
-                                <div class="card big-news">
-                                    <a href="article/multibank-fast-n-furious-trading-contest-announcement.php" target="_blank">
-                                        <img src="/public_files/blog/thumbnails/2020_winners_announced_thumbnail.png" alt="" class="mex-img-cover" />
-                                        <div class="card-body mex-content mex-p-v-15">
-                                            <p class="card-title text-overflow-2"><?php translate('Winners Announced for the MultiBank Fast & Furious Trading Contest'); ?></p>
-                                            <p class="card-time">2020-02-18</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-12">
-                                <div class="card card-left mb-3 mt-3">
-                                    <a href="article/multibank-fast-n-furious-trading-contest.php" target="_blank" class="row mx-0">
-                                        <div class="col-12 col-md-8 col-xl-6 p0">
-                                            <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" alt="" class="mex-img-cover" />
-                                        </div>
-                                        <div class="card-body mex-content col-12 col-md-4 col-xl-6">
-                                            <p class="card-title"><?php translate('MultiBank Fast & Furious Trading Contest Starts Jan 6, 2020!'); ?> </p>
-                                            <p class="card-time">2019-12-27</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-12">
-                                <div class="card card-left mb-3">
-                                    <a href="article/multibank-philippines-hosts-investors-night-2019.php" target="_blank" class="row mx-0">
-                                        <div class="col-12 col-md-8 col-xl-6 p0"><img src="/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg" alt="" class="mex-img-cover" />
-                                        </div>
-                                        <div class="card-body mex-content col-12 col-md-4 col-xl-6">
-                                            <p class="card-title"><?php translate('MultiBank Philippines Hosts Investors Night 2019'); ?></p>
-                                            <p class="card-time">2019-12-07</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+                        <?php echo $news?>
                         </div>
                         <div class="text-center mex-p-15">
                             <a href="article/news_20180916.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
