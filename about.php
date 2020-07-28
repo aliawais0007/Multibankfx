@@ -211,405 +211,849 @@ foreach ($newss as $key => $value) {
                     <div class="col-md-12 text-center mex-m-b-30">
                         <h1 class="mex-h1 text-fff text-center"> Awards</h1>
                         <p class="text-fff mb15 text-center font-24"> Find out more about our awards and recognitions as
-                        industry leader</p>
+                            industry leader</p>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
-                   <div class="slick-prev slick-arrow" id="prev-but"></div>
+                    <div class="slick-prev slick-arrow" id="prev-but"></div>
                     <div class="slick-next slick-arrow" id="next-but"></div>
                     <div style="clear:both;"></div>
                     <div class="multiple-items slider slick-initialized slick-slider">
-                        <div class="slick-list draggable" style="padding: 0px 10px;"><div class="slick-track" style="opacity: 1; width: 24288px; transform: translate3d(-3036px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-6" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
-                            <div class="title">Best Forex Trading Platform 2012</div>
-                            <div class="text">Jinrongjie</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="-5" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/rtb_china_awards_2012.png">
-                            <div class="title">RTB China Awards 2012</div>
-                            <div class="text">Global RTB Summit</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_2012_11china.png">
-                            <div class="title">Best Forex Trading Platform 2012</div>
-                            <div class="text">11th China International Investment &amp; Finance Expo</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2012.png">
-                            <div class="title">Best ECN Broker (Asia) 2012</div>
-                            <div class="text">Global Banking &amp; Finance Review</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
-                            <div class="title">Best Forex Service Provider 2011</div>
-                            <div class="text">Hexun</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
-                            <div class="title">Best Forex Trading Platform 2011</div>
-                            <div class="text">Hexun</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="awards.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/Best_Forex_CFD_Broker_JFEX_Award.png">
-                            </a>
-                            <div class="title">Best Forex and CFD Broker 2019</div>
-                            <div class="text">16th Jordan Forex Expo &amp; Awards</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-wins-financial-services-provider-asia-award-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/Financial_Services_Provider_of_the_Year_Asia_2019.jpg">
-                            </a>
-                            <div class="title">Financial Services Provider of the Year (Asia) 2019</div>
-                            <div class="text">Global Brands Magazine</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-chosen-best-FX-CFD-broker-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_fx_broker_euas_2019.png">
-                            </a>
-                            <div class="title">Best FX &amp; CFD Broker (Europe &amp; Asia) 2019</div>
-                            <div class="text">International Investor</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-wins-ecn-broker-best-forex-platform-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/ecn_broker_eu_2019.png">
-                            </a>
-                            <div class="title">ECN Broker of the Year (Europe) 2019</div>
-                            <div class="text">International Business Magazine</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-wins-ecn-broker-best-forex-platform-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_mena_2019.png">
-                            </a>
-                            <div class="title">Best Forex Platform MENA 2019</div>
-                            <div class="text">International Business Magazine</div>
-                        </div></div></div><div class="slick-slide slick-active" data-slick-index="5" aria-hidden="false" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-named-best-financial-derivatives-broker-2019.php" tabindex="0">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2019best_financial_derivatives_broker_europe.png">
-                            </a>
-                            <div class="title">Best Financial Derivatives Broker 2019</div>
-                            <div class="text">Global Banking &amp; Finance Review</div>
-                        </div></div></div><div class="slick-slide slick-active" data-slick-index="6" aria-hidden="false" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-selected-best-forex-broker-forex-expo-dubai-2019.php" tabindex="0">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_2019.png">
-                            </a>
-                            <div class="title">Best Forex Broker 2019</div>
-                            <div class="text">The Forex Expo Dubai</div>
-                        </div></div></div><div class="slick-slide slick-current slick-active slick-center" data-slick-index="7" aria-hidden="false" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/milestones_multibank-chairman-naser-taher-awarded-ceo-of-the-year-2019.php" tabindex="0">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2019CEO_of_the_year_financial_services_asia_europe.png">
-                            </a>
-                            <div class="title">CEO of the Year (Financial Services) (Asia &amp; Europe) 2019</div>
-                            <div class="text">Le Fonti Awards (International Alternative Investment Review)</div>
-                        </div></div></div><div class="slick-slide slick-active" data-slick-index="8" aria-hidden="false" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-honored-best-ecn-broker-asia-2019.php" tabindex="0">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_asia_2019.png"></a>
-                            <div class="title">Best ECN Broker of the Year (Asia) 2019</div>
-                            <div class="text">Finance Derivative</div>
-                        </div></div></div><div class="slick-slide slick-active" data-slick-index="9" aria-hidden="false" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_education_provider_2019.png">
-                            <div class="title">Best Education Provider 2019</div>
-                            <div class="text">FX Daily Info</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="10" aria-hidden="true" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2018.png">
-                            <div class="title">Best Forex Trading Platform (Hong Kong) 2018</div>
-                            <div class="text">International Finance Magazine</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="11" aria-hidden="true" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2018.png">
-                            <div class="title">Best ECN Broker Europe 2018</div>
-                            <div class="text">International Business Magazine</div>
-                            +
-                        </div></div></div><div class="slick-slide" data-slick-index="12" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_ecn_platform_2018.png">
-                            <div class="title">Best Forex ECN Platform (Europe &amp; Asia)</div>
-                            <div class="text">Capital Finance International</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="13" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_admired_2017.png">
-                            <div class="title">30 Most Admired Companies of 2017</div>
-                            <div class="text">Insights Success Magazine</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="14" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/broker_of_the_year_2017.png">
-                            <div class="title">Financial Derivatives Broker of the Year (Asia &amp; Europe) 2017</div>
-                            <div class="text">International Alternative Investment Review</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="15" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/ceo_of_the_year_2017.png">
-                            <div class="title">CEO of the Year-- Financial Services (Asia &amp; Europe) 2017</div>
-                            <div class="text">International Alternative Investment Review</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="16" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2016.png">
-                            <div class="title">Best Forex Exchange Platform (Hong Kong) 2016</div>
-                            <div class="text">Global Brands Magazine</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="17" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ceo_2016.png">
-                            <div class="title">Best Financial Services CEO (Hong Kong) 2016</div>
-                            <div class="text">Global Brands Magazine</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="18" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_china_2016.png">
-                            <div class="title">Best Forex Platform 2016</div>
-                            <div class="text">China Forex Expo</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="19" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_execution_broker_2016.png">
-                            <div class="title">Best Execution Broker 2016</div>
-                            <div class="text">China Forex Expo</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="20" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_2015.png">
-                            <div class="title">Best Forex Broker 2015</div>
-                            <div class="text">IFeng</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="21" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2015.png">
-                            <div class="title">Best Forex Trading Platform (Asia &amp; Europe) 2015</div>
-                            <div class="text">Capital Finance International</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="22" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_europe_2015.png">
-                            <div class="title">Best Forex Broker Europe 2015</div>
-                            <div class="text">International Alternative Investment Review</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="23" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_platform_2014.png">
-                            <div class="title">Best Institutional FX Platform 2014</div>
-                            <div class="text">7th Saudi Money Expo</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="24" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/top_provider_2014.png">
-                            <div class="title">Top FX Liquidity Provider 2014</div>
-                            <div class="text">6th Saudi Money Expo</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="25" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_secure_broker_2014.png">
-                            <div class="title">Most Secure Broker 2014</div>
-                            <div class="text">KG Forex World Conference</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="26" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2013.png">
-                            <div class="title">Best ECN Forex Broker Asia 2013<br> Best ECN Forex Broker Europe 2013</div>
-                            <div class="text">Global Banking &amp; Finance Review</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="27" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_company_leadership_2013.png">
-                            <div class="title">Best Company for Leadership 2013</div>
-                            <div class="text">International Alternative Investment Review</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="28" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_secure_broker_2013.png">
-                            <div class="title">Most Secure Forex Broker 2013</div>
-                            <div class="text">Shanghai Financial Investment Management Association</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="29" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_broker_2013.png">
-                            <div class="title">Best Forex Broker 2013</div>
-                            <div class="text">Shanghai Financial Investment Management Association</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="30" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/broker_of_the_year_2013.png">
-                            <div class="title">Broker of the Year 2013</div>
-                            <div class="text">China International Online Trading Expo</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="31" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2013.png">
-                            <div class="title">Best Forex Trading Platform 2013</div>
-                            <div class="text">CNFOL</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="32" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_powerful_team_2013.png">
-                            <div class="title">Most Powerful Forex Technical Research &amp; Development Team 2013</div>
-                            <div class="text">CNFOL</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="33" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2013Asia.png">
-                            <div class="title">Most Secure Forex Broker 2013</div>
-                            <div class="text">Asia Franchise Industry Association</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="34" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2013Asia.png">
-                            <div class="title">Best Forex Broker 2013</div>
-                            <div class="text">Asia Franchise Industry Association</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="35" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
-                            <div class="title">Best Forex Trading Platform 2012</div>
-                            <div class="text">Jinrongjie</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="36" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/rtb_china_awards_2012.png">
-                            <div class="title">RTB China Awards 2012</div>
-                            <div class="text">Global RTB Summit</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="37" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_2012_11china.png">
-                            <div class="title">Best Forex Trading Platform 2012</div>
-                            <div class="text">11th China International Investment &amp; Finance Expo</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="38" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2012.png">
-                            <div class="title">Best ECN Broker (Asia) 2012</div>
-                            <div class="text">Global Banking &amp; Finance Review</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="39" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
-                            <div class="title">Best Forex Service Provider 2011</div>
-                            <div class="text">Hexun</div>
-                        </div></div></div><div class="slick-slide" data-slick-index="40" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
-                            <div class="title">Best Forex Trading Platform 2011</div>
-                            <div class="text">Hexun</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="41" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="awards.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/Best_Forex_CFD_Broker_JFEX_Award.png">
-                            </a>
-                            <div class="title">Best Forex and CFD Broker 2019</div>
-                            <div class="text">16th Jordan Forex Expo &amp; Awards</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="42" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-wins-financial-services-provider-asia-award-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/Financial_Services_Provider_of_the_Year_Asia_2019.jpg">
-                            </a>
-                            <div class="title">Financial Services Provider of the Year (Asia) 2019</div>
-                            <div class="text">Global Brands Magazine</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="43" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-chosen-best-FX-CFD-broker-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_fx_broker_euas_2019.png">
-                            </a>
-                            <div class="title">Best FX &amp; CFD Broker (Europe &amp; Asia) 2019</div>
-                            <div class="text">International Investor</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="44" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-wins-ecn-broker-best-forex-platform-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/ecn_broker_eu_2019.png">
-                            </a>
-                            <div class="title">ECN Broker of the Year (Europe) 2019</div>
-                            <div class="text">International Business Magazine</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="45" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-wins-ecn-broker-best-forex-platform-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_mena_2019.png">
-                            </a>
-                            <div class="title">Best Forex Platform MENA 2019</div>
-                            <div class="text">International Business Magazine</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="46" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-named-best-financial-derivatives-broker-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2019best_financial_derivatives_broker_europe.png">
-                            </a>
-                            <div class="title">Best Financial Derivatives Broker 2019</div>
-                            <div class="text">Global Banking &amp; Finance Review</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="47" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-selected-best-forex-broker-forex-expo-dubai-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_2019.png">
-                            </a>
-                            <div class="title">Best Forex Broker 2019</div>
-                            <div class="text">The Forex Expo Dubai</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="48" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/milestones_multibank-chairman-naser-taher-awarded-ceo-of-the-year-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2019CEO_of_the_year_financial_services_asia_europe.png">
-                            </a>
-                            <div class="title">CEO of the Year (Financial Services) (Asia &amp; Europe) 2019</div>
-                            <div class="text">Le Fonti Awards (International Alternative Investment Review)</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="49" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <a href="article/multibank-honored-best-ecn-broker-asia-2019.php" tabindex="-1">
-                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_asia_2019.png"></a>
-                            <div class="title">Best ECN Broker of the Year (Asia) 2019</div>
-                            <div class="text">Finance Derivative</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="50" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_education_provider_2019.png">
-                            <div class="title">Best Education Provider 2019</div>
-                            <div class="text">FX Daily Info</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="51" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2018.png">
-                            <div class="title">Best Forex Trading Platform (Hong Kong) 2018</div>
-                            <div class="text">International Finance Magazine</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="52" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2018.png">
-                            <div class="title">Best ECN Broker Europe 2018</div>
-                            <div class="text">International Business Magazine</div>
-                            +
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="53" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_ecn_platform_2018.png">
-                            <div class="title">Best Forex ECN Platform (Europe &amp; Asia)</div>
-                            <div class="text">Capital Finance International</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="54" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_admired_2017.png">
-                            <div class="title">30 Most Admired Companies of 2017</div>
-                            <div class="text">Insights Success Magazine</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="55" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/broker_of_the_year_2017.png">
-                            <div class="title">Financial Derivatives Broker of the Year (Asia &amp; Europe) 2017</div>
-                            <div class="text">International Alternative Investment Review</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="56" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/ceo_of_the_year_2017.png">
-                            <div class="title">CEO of the Year-- Financial Services (Asia &amp; Europe) 2017</div>
-                            <div class="text">International Alternative Investment Review</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="57" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2016.png">
-                            <div class="title">Best Forex Exchange Platform (Hong Kong) 2016</div>
-                            <div class="text">Global Brands Magazine</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="58" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ceo_2016.png">
-                            <div class="title">Best Financial Services CEO (Hong Kong) 2016</div>
-                            <div class="text">Global Brands Magazine</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="59" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_china_2016.png">
-                            <div class="title">Best Forex Platform 2016</div>
-                            <div class="text">China Forex Expo</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="60" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_execution_broker_2016.png">
-                            <div class="title">Best Execution Broker 2016</div>
-                            <div class="text">China Forex Expo</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="61" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_2015.png">
-                            <div class="title">Best Forex Broker 2015</div>
-                            <div class="text">IFeng</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="62" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2015.png">
-                            <div class="title">Best Forex Trading Platform (Asia &amp; Europe) 2015</div>
-                            <div class="text">Capital Finance International</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="63" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_europe_2015.png">
-                            <div class="title">Best Forex Broker Europe 2015</div>
-                            <div class="text">International Alternative Investment Review</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="64" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_platform_2014.png">
-                            <div class="title">Best Institutional FX Platform 2014</div>
-                            <div class="text">7th Saudi Money Expo</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="65" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/top_provider_2014.png">
-                            <div class="title">Top FX Liquidity Provider 2014</div>
-                            <div class="text">6th Saudi Money Expo</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="66" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_secure_broker_2014.png">
-                            <div class="title">Most Secure Broker 2014</div>
-                            <div class="text">KG Forex World Conference</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="67" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2013.png">
-                            <div class="title">Best ECN Forex Broker Asia 2013<br> Best ECN Forex Broker Europe 2013</div>
-                            <div class="text">Global Banking &amp; Finance Review</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="68" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_company_leadership_2013.png">
-                            <div class="title">Best Company for Leadership 2013</div>
-                            <div class="text">International Alternative Investment Review</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="69" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_secure_broker_2013.png">
-                            <div class="title">Most Secure Forex Broker 2013</div>
-                            <div class="text">Shanghai Financial Investment Management Association</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="70" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_broker_2013.png">
-                            <div class="title">Best Forex Broker 2013</div>
-                            <div class="text">Shanghai Financial Investment Management Association</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="71" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/broker_of_the_year_2013.png">
-                            <div class="title">Broker of the Year 2013</div>
-                            <div class="text">China International Online Trading Expo</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="72" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2013.png">
-                            <div class="title">Best Forex Trading Platform 2013</div>
-                            <div class="text">CNFOL</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="73" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_powerful_team_2013.png">
-                            <div class="title">Most Powerful Forex Technical Research &amp; Development Team 2013</div>
-                            <div class="text">CNFOL</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="74" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2013Asia.png">
-                            <div class="title">Most Secure Forex Broker 2013</div>
-                            <div class="text">Asia Franchise Industry Association</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="75" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2013Asia.png">
-                            <div class="title">Best Forex Broker 2013</div>
-                            <div class="text">Asia Franchise Industry Association</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="76" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
-                            <div class="title">Best Forex Trading Platform 2012</div>
-                            <div class="text">Jinrongjie</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="77" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/rtb_china_awards_2012.png">
-                            <div class="title">RTB China Awards 2012</div>
-                            <div class="text">Global RTB Summit</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="78" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_2012_11china.png">
-                            <div class="title">Best Forex Trading Platform 2012</div>
-                            <div class="text">11th China International Investment &amp; Finance Expo</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="79" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2012.png">
-                            <div class="title">Best ECN Broker (Asia) 2012</div>
-                            <div class="text">Global Banking &amp; Finance Review</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="80" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
-                            <div class="title">Best Forex Service Provider 2011</div>
-                            <div class="text">Hexun</div>
-                        </div></div></div><div class="slick-slide slick-cloned" data-slick-index="81" aria-hidden="true" tabindex="-1" style="width: 276px;"><div><div style="width: 100%; display: inline-block;">
-                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
-                            <div class="title">Best Forex Trading Platform 2011</div>
-                            <div class="text">Hexun</div>
-                        </div></div></div></div></div></div>
+                        <div class="slick-list draggable" style="padding: 0px 10px;">
+                            <div class="slick-track" style="opacity: 1; width: 24288px; transform: translate3d(-3036px, 0px, 0px);">
+                                <div class="slick-slide slick-cloned" data-slick-index="-6" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
+                                            <div class="title">Best Forex Trading Platform 2012</div>
+                                            <div class="text">Jinrongjie</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="-5" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/rtb_china_awards_2012.png">
+                                            <div class="title">RTB China Awards 2012</div>
+                                            <div class="text">Global RTB Summit</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_2012_11china.png">
+                                            <div class="title">Best Forex Trading Platform 2012</div>
+                                            <div class="text">11th China International Investment &amp; Finance Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2012.png">
+                                            <div class="title">Best ECN Broker (Asia) 2012</div>
+                                            <div class="text">Global Banking &amp; Finance Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                            <div class="title">Best Forex Service Provider 2011</div>
+                                            <div class="text">Hexun</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                            <div class="title">Best Forex Trading Platform 2011</div>
+                                            <div class="text">Hexun</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/awards.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/Best_Forex_CFD_Broker_JFEX_Award.png">
+                                            </a>
+                                            <div class="title">Best Forex and CFD Broker 2019</div>
+                                            <div class="text">16th Jordan Forex Expo &amp; Awards</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-wins-financial-services-provider-asia-award-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/Financial_Services_Provider_of_the_Year_Asia_2019.jpg">
+                                            </a>
+                                            <div class="title">Financial Services Provider of the Year (Asia) 2019</div>
+                                            <div class="text">Global Brands Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-chosen-best-FX-CFD-broker-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_fx_broker_euas_2019.png">
+                                            </a>
+                                            <div class="title">Best FX &amp; CFD Broker (Europe &amp; Asia) 2019</div>
+                                            <div class="text">International Investor</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-wins-ecn-broker-best-forex-platform-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/ecn_broker_eu_2019.png">
+                                            </a>
+                                            <div class="title">ECN Broker of the Year (Europe) 2019</div>
+                                            <div class="text">International Business Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-wins-ecn-broker-best-forex-platform-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_mena_2019.png">
+                                            </a>
+                                            <div class="title">Best Forex Platform MENA 2019</div>
+                                            <div class="text">International Business Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-active" data-slick-index="5" aria-hidden="false" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-named-best-financial-derivatives-broker-2019.php" tabindex="0">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2019best_financial_derivatives_broker_europe.png">
+                                            </a>
+                                            <div class="title">Best Financial Derivatives Broker 2019</div>
+                                            <div class="text">Global Banking &amp; Finance Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-active" data-slick-index="6" aria-hidden="false" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-selected-best-forex-broker-forex-expo-dubai-2019.php" tabindex="0">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_2019.png">
+                                            </a>
+                                            <div class="title">Best Forex Broker 2019</div>
+                                            <div class="text">The Forex Expo Dubai</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-current slick-active slick-center" data-slick-index="7" aria-hidden="false" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/milestones_multibank-chairman-naser-taher-awarded-ceo-of-the-year-2019.php" tabindex="0">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2019CEO_of_the_year_financial_services_asia_europe.png">
+                                            </a>
+                                            <div class="title">CEO of the Year (Financial Services) (Asia &amp; Europe) 2019</div>
+                                            <div class="text">Le Fonti Awards (International Alternative Investment Review)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-active" data-slick-index="8" aria-hidden="false" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-honored-best-ecn-broker-asia-2019.php" tabindex="0">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_asia_2019.png"></a>
+                                            <div class="title">Best ECN Broker of the Year (Asia) 2019</div>
+                                            <div class="text">Finance Derivative</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-active" data-slick-index="9" aria-hidden="false" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_education_provider_2019.png">
+                                            <div class="title">Best Education Provider 2019</div>
+                                            <div class="text">FX Daily Info</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="10" aria-hidden="true" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2018.png">
+                                            <div class="title">Best Forex Trading Platform (Hong Kong) 2018</div>
+                                            <div class="text">International Finance Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="11" aria-hidden="true" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2018.png">
+                                            <div class="title">Best ECN Broker Europe 2018</div>
+                                            <div class="text">International Business Magazine</div>
+                                            +
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="12" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_ecn_platform_2018.png">
+                                            <div class="title">Best Forex ECN Platform (Europe &amp; Asia)</div>
+                                            <div class="text">Capital Finance International</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="13" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_admired_2017.png">
+                                            <div class="title">30 Most Admired Companies of 2017</div>
+                                            <div class="text">Insights Success Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="14" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/broker_of_the_year_2017.png">
+                                            <div class="title">Financial Derivatives Broker of the Year (Asia &amp; Europe) 2017</div>
+                                            <div class="text">International Alternative Investment Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="15" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/ceo_of_the_year_2017.png">
+                                            <div class="title">CEO of the Year-- Financial Services (Asia &amp; Europe) 2017</div>
+                                            <div class="text">International Alternative Investment Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="16" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2016.png">
+                                            <div class="title">Best Forex Exchange Platform (Hong Kong) 2016</div>
+                                            <div class="text">Global Brands Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="17" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ceo_2016.png">
+                                            <div class="title">Best Financial Services CEO (Hong Kong) 2016</div>
+                                            <div class="text">Global Brands Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="18" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_china_2016.png">
+                                            <div class="title">Best Forex Platform 2016</div>
+                                            <div class="text">China Forex Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="19" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_execution_broker_2016.png">
+                                            <div class="title">Best Execution Broker 2016</div>
+                                            <div class="text">China Forex Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="20" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_2015.png">
+                                            <div class="title">Best Forex Broker 2015</div>
+                                            <div class="text">IFeng</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="21" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2015.png">
+                                            <div class="title">Best Forex Trading Platform (Asia &amp; Europe) 2015</div>
+                                            <div class="text">Capital Finance International</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="22" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_europe_2015.png">
+                                            <div class="title">Best Forex Broker Europe 2015</div>
+                                            <div class="text">International Alternative Investment Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="23" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_platform_2014.png">
+                                            <div class="title">Best Institutional FX Platform 2014</div>
+                                            <div class="text">7th Saudi Money Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="24" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/top_provider_2014.png">
+                                            <div class="title">Top FX Liquidity Provider 2014</div>
+                                            <div class="text">6th Saudi Money Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="25" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_secure_broker_2014.png">
+                                            <div class="title">Most Secure Broker 2014</div>
+                                            <div class="text">KG Forex World Conference</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="26" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2013.png">
+                                            <div class="title">Best ECN Forex Broker Asia 2013<br> Best ECN Forex Broker Europe 2013</div>
+                                            <div class="text">Global Banking &amp; Finance Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="27" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_company_leadership_2013.png">
+                                            <div class="title">Best Company for Leadership 2013</div>
+                                            <div class="text">International Alternative Investment Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="28" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_secure_broker_2013.png">
+                                            <div class="title">Most Secure Forex Broker 2013</div>
+                                            <div class="text">Shanghai Financial Investment Management Association</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="29" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_broker_2013.png">
+                                            <div class="title">Best Forex Broker 2013</div>
+                                            <div class="text">Shanghai Financial Investment Management Association</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="30" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/broker_of_the_year_2013.png">
+                                            <div class="title">Broker of the Year 2013</div>
+                                            <div class="text">China International Online Trading Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="31" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2013.png">
+                                            <div class="title">Best Forex Trading Platform 2013</div>
+                                            <div class="text">CNFOL</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="32" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_powerful_team_2013.png">
+                                            <div class="title">Most Powerful Forex Technical Research &amp; Development Team 2013</div>
+                                            <div class="text">CNFOL</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="33" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2013Asia.png">
+                                            <div class="title">Most Secure Forex Broker 2013</div>
+                                            <div class="text">Asia Franchise Industry Association</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="34" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2013Asia.png">
+                                            <div class="title">Best Forex Broker 2013</div>
+                                            <div class="text">Asia Franchise Industry Association</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="35" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
+                                            <div class="title">Best Forex Trading Platform 2012</div>
+                                            <div class="text">Jinrongjie</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="36" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/rtb_china_awards_2012.png">
+                                            <div class="title">RTB China Awards 2012</div>
+                                            <div class="text">Global RTB Summit</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="37" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_2012_11china.png">
+                                            <div class="title">Best Forex Trading Platform 2012</div>
+                                            <div class="text">11th China International Investment &amp; Finance Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="38" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2012.png">
+                                            <div class="title">Best ECN Broker (Asia) 2012</div>
+                                            <div class="text">Global Banking &amp; Finance Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="39" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                            <div class="title">Best Forex Service Provider 2011</div>
+                                            <div class="text">Hexun</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide" data-slick-index="40" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                            <div class="title">Best Forex Trading Platform 2011</div>
+                                            <div class="text">Hexun</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="41" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/awards.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/Best_Forex_CFD_Broker_JFEX_Award.png">
+                                            </a>
+                                            <div class="title">Best Forex and CFD Broker 2019</div>
+                                            <div class="text">16th Jordan Forex Expo &amp; Awards</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="42" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-wins-financial-services-provider-asia-award-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/Financial_Services_Provider_of_the_Year_Asia_2019.jpg">
+                                            </a>
+                                            <div class="title">Financial Services Provider of the Year (Asia) 2019</div>
+                                            <div class="text">Global Brands Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="43" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-chosen-best-FX-CFD-broker-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_fx_broker_euas_2019.png">
+                                            </a>
+                                            <div class="title">Best FX &amp; CFD Broker (Europe &amp; Asia) 2019</div>
+                                            <div class="text">International Investor</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="44" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-wins-ecn-broker-best-forex-platform-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/ecn_broker_eu_2019.png">
+                                            </a>
+                                            <div class="title">ECN Broker of the Year (Europe) 2019</div>
+                                            <div class="text">International Business Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="45" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-wins-ecn-broker-best-forex-platform-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_mena_2019.png">
+                                            </a>
+                                            <div class="title">Best Forex Platform MENA 2019</div>
+                                            <div class="text">International Business Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="46" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-named-best-financial-derivatives-broker-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2019best_financial_derivatives_broker_europe.png">
+                                            </a>
+                                            <div class="title">Best Financial Derivatives Broker 2019</div>
+                                            <div class="text">Global Banking &amp; Finance Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="47" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-selected-best-forex-broker-forex-expo-dubai-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_2019.png">
+                                            </a>
+                                            <div class="title">Best Forex Broker 2019</div>
+                                            <div class="text">The Forex Expo Dubai</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="48" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/milestones_multibank-chairman-naser-taher-awarded-ceo-of-the-year-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2019CEO_of_the_year_financial_services_asia_europe.png">
+                                            </a>
+                                            <div class="title">CEO of the Year (Financial Services) (Asia &amp; Europe) 2019</div>
+                                            <div class="text">Le Fonti Awards (International Alternative Investment Review)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="49" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <a href="/article/multibank-honored-best-ecn-broker-asia-2019.php" tabindex="-1">
+                                                <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_asia_2019.png"></a>
+                                            <div class="title">Best ECN Broker of the Year (Asia) 2019</div>
+                                            <div class="text">Finance Derivative</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="50" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_education_provider_2019.png">
+                                            <div class="title">Best Education Provider 2019</div>
+                                            <div class="text">FX Daily Info</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="51" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2018.png">
+                                            <div class="title">Best Forex Trading Platform (Hong Kong) 2018</div>
+                                            <div class="text">International Finance Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="52" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2018.png">
+                                            <div class="title">Best ECN Broker Europe 2018</div>
+                                            <div class="text">International Business Magazine</div>
+                                            +
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="53" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_ecn_platform_2018.png">
+                                            <div class="title">Best Forex ECN Platform (Europe &amp; Asia)</div>
+                                            <div class="text">Capital Finance International</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="54" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_admired_2017.png">
+                                            <div class="title">30 Most Admired Companies of 2017</div>
+                                            <div class="text">Insights Success Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="55" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/broker_of_the_year_2017.png">
+                                            <div class="title">Financial Derivatives Broker of the Year (Asia &amp; Europe) 2017</div>
+                                            <div class="text">International Alternative Investment Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="56" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/ceo_of_the_year_2017.png">
+                                            <div class="title">CEO of the Year-- Financial Services (Asia &amp; Europe) 2017</div>
+                                            <div class="text">International Alternative Investment Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="57" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2016.png">
+                                            <div class="title">Best Forex Exchange Platform (Hong Kong) 2016</div>
+                                            <div class="text">Global Brands Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="58" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ceo_2016.png">
+                                            <div class="title">Best Financial Services CEO (Hong Kong) 2016</div>
+                                            <div class="text">Global Brands Magazine</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="59" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_china_2016.png">
+                                            <div class="title">Best Forex Platform 2016</div>
+                                            <div class="text">China Forex Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="60" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_execution_broker_2016.png">
+                                            <div class="title">Best Execution Broker 2016</div>
+                                            <div class="text">China Forex Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="61" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_2015.png">
+                                            <div class="title">Best Forex Broker 2015</div>
+                                            <div class="text">IFeng</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="62" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_platform_2015.png">
+                                            <div class="title">Best Forex Trading Platform (Asia &amp; Europe) 2015</div>
+                                            <div class="text">Capital Finance International</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="63" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_broker_europe_2015.png">
+                                            <div class="title">Best Forex Broker Europe 2015</div>
+                                            <div class="text">International Alternative Investment Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="64" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_platform_2014.png">
+                                            <div class="title">Best Institutional FX Platform 2014</div>
+                                            <div class="text">7th Saudi Money Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="65" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/top_provider_2014.png">
+                                            <div class="title">Top FX Liquidity Provider 2014</div>
+                                            <div class="text">6th Saudi Money Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="66" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_secure_broker_2014.png">
+                                            <div class="title">Most Secure Broker 2014</div>
+                                            <div class="text">KG Forex World Conference</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="67" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2013.png">
+                                            <div class="title">Best ECN Forex Broker Asia 2013<br> Best ECN Forex Broker Europe 2013</div>
+                                            <div class="text">Global Banking &amp; Finance Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="68" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_company_leadership_2013.png">
+                                            <div class="title">Best Company for Leadership 2013</div>
+                                            <div class="text">International Alternative Investment Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="69" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_secure_broker_2013.png">
+                                            <div class="title">Most Secure Forex Broker 2013</div>
+                                            <div class="text">Shanghai Financial Investment Management Association</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="70" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_broker_2013.png">
+                                            <div class="title">Best Forex Broker 2013</div>
+                                            <div class="text">Shanghai Financial Investment Management Association</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="71" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/broker_of_the_year_2013.png">
+                                            <div class="title">Broker of the Year 2013</div>
+                                            <div class="text">China International Online Trading Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="72" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2013.png">
+                                            <div class="title">Best Forex Trading Platform 2013</div>
+                                            <div class="text">CNFOL</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="73" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/most_powerful_team_2013.png">
+                                            <div class="title">Most Powerful Forex Technical Research &amp; Development Team 2013</div>
+                                            <div class="text">CNFOL</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="74" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2013Asia.png">
+                                            <div class="title">Most Secure Forex Broker 2013</div>
+                                            <div class="text">Asia Franchise Industry Association</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="75" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/2013Asia.png">
+                                            <div class="title">Best Forex Broker 2013</div>
+                                            <div class="text">Asia Franchise Industry Association</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="76" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
+                                            <div class="title">Best Forex Trading Platform 2012</div>
+                                            <div class="text">Jinrongjie</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="77" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/rtb_china_awards_2012.png">
+                                            <div class="title">RTB China Awards 2012</div>
+                                            <div class="text">Global RTB Summit</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="78" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_2012_11china.png">
+                                            <div class="title">Best Forex Trading Platform 2012</div>
+                                            <div class="text">11th China International Investment &amp; Finance Expo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="79" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_ecn_broker_2012.png">
+                                            <div class="title">Best ECN Broker (Asia) 2012</div>
+                                            <div class="text">Global Banking &amp; Finance Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="80" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                            <div class="title">Best Forex Service Provider 2011</div>
+                                            <div class="text">Hexun</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slick-slide slick-cloned" data-slick-index="81" aria-hidden="true" tabindex="-1" style="width: 276px;">
+                                    <div>
+                                        <div style="width: 100%; display: inline-block;">
+                                            <img alt="" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                            <div class="title">Best Forex Trading Platform 2011</div>
+                                            <div class="text">Hexun</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -630,9 +1074,9 @@ foreach ($newss as $key => $value) {
                                 </h4>
                                 <p class=" platforms_box_txt mex-clamp-4 mex-content"><?php translate('Enjoy raw price feed directly through our
                             ECN connection to prime brokers and access the tightest spread in the industry'); ?></p>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/ecn-pro.php"><i class="ti-bar-chart"></i><?php translate('MT4'); ?></a>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/ecn-pro.php"><i class="ti-mobile"></i><?php translate('Mobile'); ?></a>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="mql5.php"><i class="ti-desktop" style="top: 1px;
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/platforms/ecn-pro.php"><i class="ti-bar-chart"></i><?php translate('MT4'); ?></a>
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/platforms/ecn-pro.php"><i class="ti-mobile"></i><?php translate('Mobile'); ?></a>
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/mql5.php"><i class="ti-desktop" style="top: 1px;
     position: relative;"></i> <?php translate('Web Trading'); ?></a>
                             </div>
                         </div>
@@ -642,9 +1086,9 @@ foreach ($newss as $key => $value) {
                                 </h4>
                                 <p class=" platforms_box_txt mex-clamp-4 mex-content"><?php translate('Ideal for traders looking for an ECN
                             experience with tight spreads and zero platform fees'); ?></p>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/multibank-pro.php"><i class="ti-bar-chart"></i><?php translate('MT4'); ?></a>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/multibank-pro.php"><i class="ti-mobile"></i><?php translate('Mobile'); ?></a>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="mql5.php"><i class="ti-desktop" style="top: 1px;
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/platforms/multibank-pro.php"><i class="ti-bar-chart"></i><?php translate('MT4'); ?></a>
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/platforms/multibank-pro.php"><i class="ti-mobile"></i><?php translate('Mobile'); ?></a>
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/mql5.php"><i class="ti-desktop" style="top: 1px;
     position: relative;"></i> <?php translate('Web Trading'); ?></a>
                             </div>
                         </div>
@@ -654,9 +1098,9 @@ foreach ($newss as $key => $value) {
                                 </h4>
                                 <p class=" platforms_box_txt mex-clamp-4 mex-content"><?php translate('Recommended for traders looking for no
                             restrictions on EA and scalping trading'); ?></p>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/maximus.php"><i class="ti-bar-chart"></i><?php translate('MT4'); ?></a>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/maximus.php"><i class="ti-mobile"></i><?php translate('Mobile'); ?></a>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="mql5.php"><i class="ti-desktop" style="top: 1px;position: relative;"></i>
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/platforms/maximus.php"><i class="ti-bar-chart"></i><?php translate('MT4'); ?></a>
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/platforms/maximus.php"><i class="ti-mobile"></i><?php translate('Mobile'); ?></a>
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/mql5.php"><i class="ti-desktop" style="top: 1px;position: relative;"></i>
                                     <?php translate('Web Trading'); ?></a>
                             </div>
                         </div>
@@ -667,9 +1111,9 @@ foreach ($newss as $key => $value) {
                                 <p class=" platforms_box_txt mex-clamp-4 mex-content"><?php translate('Suitable for traders looking for enhanced
                             trading functionalities such as advanced scripting tools for custom indicators and expert
                             advisors'); ?></p>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/mt5-platform.php"><i class="ti-bar-chart"></i><?php translate('MT5'); ?></a>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/mt5-platform.php"><i class="ti-mobile"></i><?php translate('Mobile'); ?></a>
-                                <a class="btn btn-mex btn-sm mex-m-b-15" href="mql5.php"><i class="ti-desktop" style="top: 1px;position: relative;"></i>
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/platforms/mt5-platform.php"><i class="ti-bar-chart"></i><?php translate('MT5'); ?></a>
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/platforms/mt5-platform.php"><i class="ti-mobile"></i><?php translate('Mobile'); ?></a>
+                                <a class="btn btn-mex btn-sm mex-m-b-15" href="/mql5.php"><i class="ti-desktop" style="top: 1px;position: relative;"></i>
                                     <?php translate('Web Trading'); ?></a>
                             </div>
                         </div>
@@ -680,7 +1124,7 @@ foreach ($newss as $key => $value) {
         <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script type="text/javascript" src="/public_files/static_js/slick.js"></script>
 
-       
+
         <section class="pb-0">
             <div class="container">
                 <div class="row">
@@ -692,7 +1136,7 @@ foreach ($newss as $key => $value) {
                             <?php echo $milestone; ?>
                         </div>
                         <div class="text-center mex-p-15">
-                            <a href="//article/milestones.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
+                            <a href="/article/milestones.php" class="btn btn-mex"><?php translate('MORE'); ?></a>
                         </div>
                     </div>
                     <div class="col-12 col-xl-4 mt-5 mt-xl-0">
@@ -1428,30 +1872,30 @@ foreach ($newss as $key => $value) {
             });
         });
     </script>
-     <script type="text/javascript">
-            $(function() {
+    <script type="text/javascript">
+        $(function() {
 
-                $('.multiple-items').slick({
-                    dots: false,
-                    nextArrow: $('#next-but'),
-                    prevArrow: $('#prev-but'),
-                    centerMode: true,
-                    centerPadding: '0px',
-                    slidesToShow: 5,
-                    responsive: [{
-                        breakpoint: 1025,
-                        settings: {
-                            dots: false,
-                            nextArrow: $('#next-but'),
-                            prevArrow: $('#prev-but'),
-                            centerMode: true,
-                            centerPadding: '40px',
-                            slidesToShow: 1
-                        }
-                    }]
-                });
+            $('.multiple-items').slick({
+                dots: false,
+                nextArrow: $('#next-but'),
+                prevArrow: $('#prev-but'),
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 5,
+                responsive: [{
+                    breakpoint: 1025,
+                    settings: {
+                        dots: false,
+                        nextArrow: $('#next-but'),
+                        prevArrow: $('#prev-but'),
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }]
             });
-        </script>
+        });
+    </script>
 </body>
 
 </html>
