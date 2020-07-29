@@ -1078,47 +1078,47 @@ if (typeof whereToGoItemLabel === 'undefined') {
 }
 
 /* definition of all icons */
-var whereToGoItem = {
-    //attributes
-    ic_our_milestones: '<a href="/about/milestones"><span class="ico-ic_our_milestones"> </span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_milestones_label + '</div></a>',
-    ic_our_regulations: '<a href="/about/regulations"><span class="ico-ic_our_regulations"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_regulations_label + '</div></a>',
-    ic_security_of_funds: '<a href="/about/security-of-funds"><span class="ico-ic_security_of_funds"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_security_of_funds_label + '</div></a>',
-    ic_why_multibank: '<a href="/about/why-multibank-group"><span class="ico-ic_why_multibank"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_why_multibank_label + '</div></a>',
-    ic_accounts_funding: '<a href="/account"><span class="ico-ic_accounts_funding"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_accounts_funding_label + '</div></a>',
-    ic_bonus_programs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_label + '</div></a>',
-    ic_bonus_programs_for_ibs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs_for_ibs"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_for_ibs_label + '</div></a>',
-    ic_Bonus_Programs_for_Individual_Clients: '<a href="/account/bonus"><span class="ico-ic_Bonus_Programs_for_Individual_Clients"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Bonus_Programs_for_Individual_Clients_label + '</div></a>',
-    ic_compare_our_trading_platforms: '<a href="/platforms/compare-platforms"><span class="ico-ic_compare_our_trading_platforms"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_compare_our_trading_platforms_label + '</div></a>',
-    ic_download_mt4: '<a href="/platforms/download-center"><span class="ico-ic_download_mt4"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_download_mt4_label + '</div></a>',
-    ic_our_products: '<a href="/products"><span class="ico-ic_our_products"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_products_label + '</div></a>',
-    ic_trading_tools: '<a href="/tools"><span class="ico-ic_trading_tools"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_trading_tools_label + '</div></a>',
-    ic_partnership_programs: '<a href="/partnership"><span class="ico-ic_partnership_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_partnership_programs_label + '</div></a>',
-    ic_become_an_ib: '<a href="/partnership/introducing-brokers#introducing-brokers-form"><span class="ico-ic_become_an_ib"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_become_an_ib_label + '</div></a>',
-    ic_live_chat_support: '<a href="/#" onclick="LC_API.open_chat_window();return false;"><span class="ico-ic_live_chat_support"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_live_chat_support_label + '</div></a>',
-    ic_mymultibank_account_panel: '<a href="https://my.multibankfx.com" target="_blank"><span class="ico-ic_mymultibank_account_panel"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_mymultibank_account_panel_label + '</div></a>',
-    ic_Call_Our_24_7_Hotline: '<a href="/contact"><span class="ico-ic_Call_Our_24_7_Hotline"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Call_Our_24_7_Hotline_label + '</div></a>',
-    ic_forex_spreads: '<a href="/products/forex"><span class="ico-ic_forex_spreads"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_forex_spreads_label + '</div></a>',
-    ic_global_offices: '<a href="/about/global-presence"><span class="ico-ic_global_offices"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_global_offices_label + '</div></a>',
-    ic_awards: '<a href="/about/awards"><span class="ico-ic_awards"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_awards_label + '</div></a>',
-    //method
-    injectIcons: function(cssSelector_, icons_) {
-        /**
-         * Insert list of Where to go icons in ul selected by cssSelector_
-         * The selected tag should be an ul
-         */
-        var list = '';
-        var attrName = '';
-        $(cssSelector_).hide();
-        for (i = 0; i < icons_.length; i++) {
-            attrName = icons_[i];
-            if (this.hasOwnProperty(attrName)) {
-                list += '<li>' + this[attrName] + '</li>';
-            }
-        }
-        $(cssSelector_).html(list);
-        $(cssSelector_).show();
-    }
-};
+// var whereToGoItem = {
+//     //attributes
+//     ic_our_milestones: '<a href="/about/milestones"><span class="ico-ic_our_milestones"> </span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_milestones_label + '</div></a>',
+//     ic_our_regulations: '<a href="/about/regulations"><span class="ico-ic_our_regulations"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_regulations_label + '</div></a>',
+//     ic_security_of_funds: '<a href="/about/security-of-funds"><span class="ico-ic_security_of_funds"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_security_of_funds_label + '</div></a>',
+//     ic_why_multibank: '<a href="/about/why-multibank-group"><span class="ico-ic_why_multibank"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_why_multibank_label + '</div></a>',
+//     ic_accounts_funding: '<a href="/account"><span class="ico-ic_accounts_funding"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_accounts_funding_label + '</div></a>',
+//     ic_bonus_programs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_label + '</div></a>',
+//     ic_bonus_programs_for_ibs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs_for_ibs"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_for_ibs_label + '</div></a>',
+//     ic_Bonus_Programs_for_Individual_Clients: '<a href="/account/bonus"><span class="ico-ic_Bonus_Programs_for_Individual_Clients"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Bonus_Programs_for_Individual_Clients_label + '</div></a>',
+//     ic_compare_our_trading_platforms: '<a href="/platforms/compare-platforms"><span class="ico-ic_compare_our_trading_platforms"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_compare_our_trading_platforms_label + '</div></a>',
+//     ic_download_mt4: '<a href="/platforms/download-center"><span class="ico-ic_download_mt4"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_download_mt4_label + '</div></a>',
+//     ic_our_products: '<a href="/products"><span class="ico-ic_our_products"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_products_label + '</div></a>',
+//     ic_trading_tools: '<a href="/tools"><span class="ico-ic_trading_tools"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_trading_tools_label + '</div></a>',
+//     ic_partnership_programs: '<a href="/partnership"><span class="ico-ic_partnership_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_partnership_programs_label + '</div></a>',
+//     ic_become_an_ib: '<a href="/partnership/introducing-brokers#introducing-brokers-form"><span class="ico-ic_become_an_ib"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_become_an_ib_label + '</div></a>',
+//     ic_live_chat_support: '<a href="/#" onclick="LC_API.open_chat_window();return false;"><span class="ico-ic_live_chat_support"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_live_chat_support_label + '</div></a>',
+//     ic_mymultibank_account_panel: '<a href="https://my.multibankfx.com" target="_blank"><span class="ico-ic_mymultibank_account_panel"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_mymultibank_account_panel_label + '</div></a>',
+//     ic_Call_Our_24_7_Hotline: '<a href="/contact"><span class="ico-ic_Call_Our_24_7_Hotline"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Call_Our_24_7_Hotline_label + '</div></a>',
+//     ic_forex_spreads: '<a href="/products/forex"><span class="ico-ic_forex_spreads"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_forex_spreads_label + '</div></a>',
+//     ic_global_offices: '<a href="/about/global-presence"><span class="ico-ic_global_offices"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_global_offices_label + '</div></a>',
+//     ic_awards: '<a href="/about/awards"><span class="ico-ic_awards"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_awards_label + '</div></a>',
+//     //method
+//     injectIcons: function(cssSelector_, icons_) {
+//         /**
+//          * Insert list of Where to go icons in ul selected by cssSelector_
+//          * The selected tag should be an ul
+//          */
+//         var list = '';
+//         var attrName = '';
+//         $(cssSelector_).hide();
+//         for (i = 0; i < icons_.length; i++) {
+//             attrName = icons_[i];
+//             if (this.hasOwnProperty(attrName)) {
+//                 list += '<li>' + this[attrName] + '</li>';
+//             }
+//         }
+//         $(cssSelector_).html(list);
+//         $(cssSelector_).show();
+//     }
+// };
 /*** End Where to go ***/
 
 /* Footer Contact Form SMS Code and Send SMS styling */
