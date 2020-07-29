@@ -919,7 +919,7 @@
                 if(content.css("display") == "none") {
                     content.css("display", "block");
                 }
-                else{
+                else if(content.css("display") == "block"){
                     content.css("display", "none");
 
                 }
