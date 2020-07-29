@@ -119,10 +119,10 @@
                 <div class="mex-h2 mex-m-b-20 text-fff text-left">Frequently Asked Questions</div>
                 <div class="text-uppercase text-fff text-left">Everything You Need To Know, All In One Place</div>
                 <div class="slider-icons">
-                    <div class="slider-icon"><a href="../social-trading/trader"><img src="/public_files/images/social_trading/icon_investor.png"><br />TRADER >></a></div>
-                    <div class="slider-icon"><a href="../social-trading/investor"><img src="/public_files/images/social_trading/icon_signal_provider.png"><br />INVESTOR >></a></div>
-                    <div class="slider-icon"><a href="../social-trading/faq"><img src="/public_files/images/social_trading/icon_faq.png"><br />FAQ >></a></div>
-                    <div class="slider-icon"><a href="../social-trading/leaderboard"><img src="/public_files/images/social_trading/icon_leader_board.png"><br />LEADERBOARD >></a></div>
+                    <div class="slider-icon"><a href="/social-trading/trader.php"><img src="/public_files/images/social_trading/icon_investor.png"><br />TRADER >></a></div>
+                    <div class="slider-icon"><a href="/social-trading/investor.php"><img src="/public_files/images/social_trading/icon_signal_provider.png"><br />INVESTOR >></a></div>
+                    <div class="slider-icon"><a href="/social-trading/faq.php"><img src="/public_files/images/social_trading/icon_faq.png"><br />FAQ >></a></div>
+                    <div class="slider-icon"><a href="/social-trading/leaderboard.php"><img src="/public_files/images/social_trading/icon_leader_board.png"><br />LEADERBOARD >></a></div>
                 </div>
             </div>
         </div>
@@ -134,7 +134,7 @@
                     <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">How Do I Become a Signal Provider?</div>
                     <div class="st-slide-content">
                         <ol class="py-2">
-                            <li class="mb-3">Open a live Account <a style="color: #006ACE; text-decoration: underline;" href="/social-trading/live-account">HERE</a></li>
+                            <li class="mb-3">Open a live Account <a style="color: #006ACE; text-decoration: underline;" href="/social-trading/live-account.php">HERE</a></li>
                             <li class="mb-3">Fund your account</li>
                             <li class="mb-3">Go to <a style="color: #006ACE; text-decoration: underline;" href="https://invest.multibankfx.com">invest.multibankfx.com</a></li>
                             <li class="mb-3">Login with credentials that you recevied via email at step 2</li>
@@ -144,7 +144,7 @@
                     <div class="mex-h2 py-2 px-3 text-fff st-slide-header1 mb-3">How Do I Become an Investor?</div>
                     <div class="st-slide-content">
                         <ol class="py-2">
-                            <li class="mb-3">Open a live Account <a style="color: #006ACE; text-decoration: underline;" href="/social-trading/live-account">HERE</a></li>
+                            <li class="mb-3">Open a live Account <a style="color: #006ACE; text-decoration: underline;" href="/social-trading/live-account.php">HERE</a></li>
                             <li class="mb-3">Fund your account</li>
                             <li class="mb-3">Go to <a style="color: #006ACE; text-decoration: underline;" href="https://invest.multibankfx.com">invest.multibankfx.com</a></li>
                             <li class="mb-3">Click the button "Create an Investment Account"</li>
