@@ -822,8 +822,8 @@
     <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/intlTelInput.min.js?version=20191128" type="text/javascript"></script>
-    <script src="/public_files/static_js/app.js?version=20200720" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
     <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
