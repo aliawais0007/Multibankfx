@@ -8,7 +8,7 @@
      .st-slide-header::after {
     font-size: 24px;
 }
-.st-slide-content1{
+.st-slide-content{
     display: none;
 }
 .st-slide-header::after {
@@ -913,7 +913,7 @@
     <script type="text/javascript">
         $(function() {
             $('.st-slide-header1').click(function() {
-                $(this).next().slideToggle("slow")
+                $(this).next().css("display","block")
             });
         });
     </script>
