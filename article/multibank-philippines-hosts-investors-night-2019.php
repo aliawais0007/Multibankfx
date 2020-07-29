@@ -457,7 +457,7 @@
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Abre una cuenta de prueba" data-fr="OUVRIR UN COMPTE DÉMO" data-ms="Buka Akaun Demo" data-th="เปิดบัญชีทดลอง" data-ae="افتح حساب تجريبي">OPEN DEMO ACCOUNT</div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="/partnership/introducing-brokers.html#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/partnership/introducing-brokers.php#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe920;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Resgistro de IB" data-fr='ENREGISTREMENT "IB"' data-ms="Pendaftaran IB" data-th="การลงทะเบียน IB" data-ae="تسجيل وسيط معرف">IB REGISTRATION</div>
@@ -610,7 +610,7 @@
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
             <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.html#f59686b5988099819c97949b9e938ddb969a98">
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.php#f59686b5988099819c97949b9e938ddb969a98">
             <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
