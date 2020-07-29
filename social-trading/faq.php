@@ -5,52 +5,56 @@
 <body>
     <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
-     .st-slide-header::after {
-    font-size: 24px;
-}
-.st-slide-content{
-    display: none;
-}
-.st-slide-header::after {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 40px;
-    content: "\e64b";
-    font-family: 'themify';
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    transition-duration: 0.3s;
-}
-.st-slide-header1 {
-    font-size: 24px;
-    line-height: 1.2;
-}
+        .st-slide-header::after {
+            font-size: 24px;
+        }
 
-.st-slide-header1 {
-    position: relative;
-    background-color: #006ACE;
-    cursor: pointer;
-}
+        .st-slide-content {
+            display: none;
+        }
 
-.st-slide-header::after {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 40px;
-    content: "\e64b";
-    font-family: 'themify';
-    speak: none;
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    transition-duration: 0.3s;
-}
+        .st-slide-header1::after {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            font-size: 40px;
+            content: "\e64b";
+            font-family: 'themify';
+            font-style: normal;
+            font-weight: 400;
+            font-variant: normal;
+            text-transform: none;
+            transition-duration: 0.3s;
+        }
+
+        .st-slide-header1 {
+            font-size: 24px;
+            line-height: 1.2;
+        }
+
+        .st-slide-header1 {
+            position: relative;
+            background-color: #006ACE;
+            cursor: pointer;
+        }
+
+        .st-slide-header::after {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            font-size: 40px;
+            content: "\e64b";
+            font-family: 'themify';
+            speak: none;
+            font-style: normal;
+            font-weight: 400;
+            font-variant: normal;
+            text-transform: none;
+            transition-duration: 0.3s;
+        }
+
         .nav-menu-hamburger,
         .nav-menu-mymex {
             width: 35px;
@@ -107,7 +111,7 @@
 
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMX9SQ5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <section class="st-section">
+    <section class="st-section pt-0">
         <div class="banner_overlay"></div>
         <img style="object-fit: cover;position:absolute" src="/public_files/images/social_trading/st_faq_banner.jpg" alt="">
         <div class="container text-center mex-p-v-80 row justify-content-end mx-auto">
@@ -911,14 +915,11 @@
         });
     </script>
     <script type="text/javascript">
-    $(document).ready(function(){
- 
-          
-       
-    })
+        $(document).ready(function() {
 
-    
-        
+
+
+        })
     </script>
     <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
