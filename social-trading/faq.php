@@ -911,8 +911,9 @@
         });
     </script>
     <script type="text/javascript">
-        $(function() {
-            $('.st-slide-header1').unbind("click").click(function() {
+    $(document).ready(function(){
+ 
+            $('.st-slide-header1').click(function() {
                 let content =  $(this).next();
                 alert(content.css("display"))
                 if(content.css("display") == "none") {
@@ -924,7 +925,11 @@
                 }
         
             });
-        });
+       
+    })
+
+    
+        
     </script>
     <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
