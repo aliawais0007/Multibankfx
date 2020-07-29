@@ -18,6 +18,20 @@
   --arrow-color:#E5E5E5;
   --color-c7c7c6: #c7c7c6;
   --brightness-img: 100%;
+  --avant-pad: url(../images/platforms/common/avant-pad-bg-light.jpg);
+  --choose-next-background: url(../images/common/bg_banner/choose_where_to_go_next_bg-light.png);
+  --avant-pad-container: url(../images/platforms/common/avant-pad-light.png);
+  --customer_service:url(../images/about_us/why_multibank_first_class_bg-light.jpg);
+  --about-management-bg: url(../images/about_us/management/management_bg@2x-light.jpg);
+  --news-content:url(../images/about_us/news-bg-light.jpg);
+  --avant-book: url(../images/platforms/common/avant-book-bg-light.jpg);
+  --crypto-back: url(../images/cryptocurrency_cryptocurrency_specifications@2x-light.jpg);
+  --avant-book-contianer:url(../images/platforms/common/avant-book-light.png);
+  --avant-memo:  url(../images/platforms/common/avant-memo-light.png);
+  --avant-memo-bg:  url(../images/platforms/common/avant-memo-bg-light.jpg);
+  --bg-plants: url(../images/common/form_bg-light.jpg);
+  --table-background-islamic: url(../images/accounts_funding/islamic_benefit_bg-light.jpg);
+  --bg-img-islamic2: url(../images/accounts_funding/islamic_form_bg-light.jpg);
 }
 
 [data-theme="dark"] {
@@ -38,6 +52,20 @@
   --arrow-color: #6b5252;
   --brightness-img: 50%;
   --color-c7c7c6: #4e4e461f;
+  --choose-next-background: url(../images/common/bg_banner/choose_where_to_go_next_bg.png);
+  --avant-pad: url(../images/platforms/common/avant-pad-bg.jpg);
+  --avant-pad-container: url(../images/platforms/common/avant-pad.png);
+  --customer_service:url(../images/about_us/why_multibank_first_class_bg.jpg);
+  --about-management-bg: url(../images/about_us/management/management_bg@2x.jpg);
+  --news-content:url(../images/about_us/news-bg.jpg);
+  --avant-book: url(../images/platforms/common/avant-book-bg.jpg);
+  --crypto-back: url(../images/cryptocurrency_cryptocurrency_specifications@2x.jpg);
+  --avant-book-contianer:url(../images/platforms/common/avant-book.png);
+  --avant-memo:  url(../images/platforms/common/avant-memo.png);
+  --avant-memo-bg:  url(../images/platforms/common/avant-memo-bg.jpg);
+  --bg-plants: url(../images/common/form_bg.jpg);
+  --table-background-islamic: url(../images/accounts_funding/islamic_benefit_bg.jpg);
+  --bg-img-islamic2: url(../images/accounts_funding/islamic_form_bg.jpg);
 }
 
 body {
@@ -5176,13 +5204,13 @@ section.mex-block-full .mex-img-cover {
 }
 
 .choose-next-background {
-  background-image: url(../images/common/bg_banner/choose_where_to_go_next_bg.png);
+  background-image: var(--choose-next-background);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .choose-next-background.subject-box-bg-light {
-  background-image: url(../images/common/bg_banner/choose_where_to_go_next_bg.png);
+  background-image: var(--choose-next-background);
 }
 
 .icon-next-list > ul {
@@ -6076,7 +6104,7 @@ ul.mex-list-disc li {
 }
 
 .customer_service {
-  background-image: url(../images/about_us/why_multibank_first_class_bg.jpg);
+  background-image: var(--customer_service);
 }
 
 .wmg-modal-box {
@@ -6652,7 +6680,7 @@ ul.mex-list-disc li {
 }
 
 .about-management-bg {
-  background-image: url(../images/about_us/management/management_bg@2x.jpg);
+  background-image: var(--about-management-bg);
 }
 
 .about-management .mex-card-cover {
@@ -7115,7 +7143,7 @@ ul.mex-list-disc li {
 }
 
 .news-content {
-  background: url(../images/about_us/news-bg.jpg) no-repeat center top;
+  background: var(--news-content) no-repeat center top;
   overflow: hidden;
 }
 
@@ -8151,13 +8179,13 @@ a.article-thumbnail-text {
 }
 
 .avant-memo {
-  background-image: url(../images/platforms/common/avant-memo-bg.jpg);
+  background-image: var(--avant-memo-bg);
   background-position: top center;
   background-color: #3e4048;
 }
 
 .avant-memo-contianer {
-  background: url(../images/platforms/common/avant-memo.png) top center no-repeat;
+  background: var(--avant-memo) top center no-repeat;
   background-size: contain;
   padding-top: 180px;
   padding-left: 20px;
@@ -8180,13 +8208,13 @@ a.article-thumbnail-text {
 }
 
 .avant-book {
-  background-image: url(../images/platforms/common/avant-book-bg.jpg);
+  background-image: var(--avant-book);
   background-position: top center;
   background-color: #c69567;
 }
 
 .avant-book-contianer {
-  background: url(../images/platforms/common/avant-book.png) top center no-repeat;
+  background: var(--avant-book-contianer) top center no-repeat;
   padding-top: 9vw !important;
   padding-bottom: 80px;
   background-size: 100% auto;
@@ -8270,13 +8298,13 @@ ul.mex-list-conditions.new-product li {
 }
 
 .avant-pad {
-  background-image: url(../images/platforms/common/avant-pad-bg.jpg);
+  background-image: var(--avant-pad);
   background-position: top center;
   background-color: #c69567;
 }
 
 .avant-pad-contianer {
-  background: url(../images/platforms/common/avant-pad.png) top center no-repeat;
+  background: var(--avant-pad-container) top center no-repeat;
   background-size: 100% auto;
   padding-top: 9vw !important;
   padding-left: 20px;
@@ -10819,7 +10847,7 @@ section.table-background.keyboard {
 }
 
 section.choose-next-background.square {
-  background-image: url(../images/cryptocurrency_cryptocurrency_specifications@2x.jpg);
+  background-image: var(--crypto-back);
   background-position: top center;
 }
 
@@ -11297,26 +11325,21 @@ img.mex-im-caerr {
 }
 
 section.table-background.plants {
-  background-image: url(../images/common/form_bg.jpg);
+  background-image: var(--bg-plants);
   background-position: top center;
   background-color: #fff;
 }
 
 section.table-background.islamic {
-  background: url(../images/accounts_funding/islamic_benefit_bg.jpg);
+  background: var(--table-background-islamic);
 }
 
 section.table-background.request {
-  background: url(../images/accounts_funding/islamic_form_bg.jpg);
+  background: var(--bg-img-islamic2);
 }
 
 section.table-background.keyboard {
   background-image: url(../images/common/white_label_form_bg.png);
-}
-
-section.choose-next-background.square {
-  background-image: url(../images/cryptocurrency_cryptocurrency_specifications@2x.jpg);
-  background-position: top center;
 }
 
 section.table-background.other-bg {
