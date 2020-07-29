@@ -72,7 +72,7 @@
                 <div class="row mx-0"><a href="https://invest.multibankfx.com" class="btn-st-006AD0 ml-0 text-fff">Join as Investor</a><a href="leaderboard.php" class="btn-st-005190 ml-0 text-fff">Go to Leaderboard</a></div>
             </div>
             <div class="col-lg-6 col-xs-12 text-right">
-                <img class="w-100" src="/multibankfx/public_files/images/social_trading/fi_investing_reimagined.jpg" />
+                <img class="w-100" src="/public_files/images/social_trading/fi_investing_reimagined.jpg" />
             </div>
         </div>
     </section>
@@ -80,7 +80,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 row mex-m-b-80" style="align-items: center;">
-                    <div class="col-12 col-md-6 text-md-center"><img src="/multibankfx/public_files/images/social_trading/fi_make_money.png" /></div>
+                    <div class="col-12 col-md-6 text-md-center"><img src="/public_files/images/social_trading/fi_make_money.png" /></div>
                     <div class="col-12 col-md-6">
                         <p class="text-006AD0 mex-h2 st-h2 text-md-center text-left">How to Make Money With Social Trading:</p>
                         <p class="st-h4">There are many ways you can make money through social trading, but here are the 2 most common methods:</p>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-12 row mex-m-b-80" style="align-items: center; flex-direction: row-reverse;">
                     <div class="col-12 col-md-6 text-md-center">
-                        <img src="/multibankfx/public_files/images/social_trading/fi_right_signal_provider.png" />
+                        <img src="/public_files/images/social_trading/fi_right_signal_provider.png" />
                     </div>
                     <div class="col-12 col-md-6">
                         <p class="text-006AD0 mex-h2 st-h2 text-md-center text-left">Choosing The Right Signal Providers To Follow</p>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-12 row mex-m-b-80" style="align-items: center;">
                     <div class="col-12 col-md-6 text-md-center">
-                        <img src="/multibankfx/public_files/images/social_trading/fi_active_account.png" />
+                        <img src="/public_files/images/social_trading/fi_active_account.png" />
                     </div>
                     <div class="col-12 col-md-6">
                         <p class="text-006AD0 mex-h2 st-h2 text-md-center text-left">Active Account Duration</p>
@@ -110,7 +110,7 @@
                 </div>
                 <div class="col-12 row mex-m-b-80" style="align-items: center; flex-direction: row-reverse;">
                     <div class="col-12 col-md-6 text-md-center">
-                        <img src="/multibankfx/public_files/images/social_trading/fi_maximum_drawdown.png" />
+                        <img src="/public_files/images/social_trading/fi_maximum_drawdown.png" />
                     </div>
                     <div class="col-12 col-md-6">
                         <p class="text-006AD0 mex-h2 st-h2 text-md-center text-left">Maximum Drawdown</p>
@@ -124,7 +124,7 @@
                         <div class="row ml-0"><a class="btn-st-006AD0 ml-0 text-fff">Join as Investor</a><a class="btn-st-005190 ml-0 text-fff">Go to Leaderboard</a></div>
                     </div>
                     <div class="col-12 col-md-6 text-md-center">
-                        <img class="w-100" src="/multibankfx/public_files/images/social_trading/fi_other_indicators.jpg" />
+                        <img class="w-100" src="/public_files/images/social_trading/fi_other_indicators.jpg" />
                     </div>
                 </div>
             </div>
@@ -138,8 +138,8 @@
                 <div class="row"><a href="https://invest.multibankfx.com" class="btn-st-006AD0 ml0 text-fff">Join as Investor</a><a href="leaderboard.php" class="btn-st-005190 ml-0 text-fff">Go to Leaderboard</a></div>
             </div>
             <div class="col-12 col-md-6">
-                <video class="full-width html5_video_play" poster="/multibankfx/public_files/images/social_trading/20190711_SocialTrading_SignalProvider_V1.48_ComingSoon_1.1.jpg" controls>
-                    <source src="/multibankfx/public_files/videos/social_trading/20190711_SocialTrading_SignalProvider_V1.48_ComingSoon_1.1.mp4">
+                <video class="full-width html5_video_play" poster="/public_files/images/social_trading/20190711_SocialTrading_SignalProvider_V1.48_ComingSoon_1.1.jpg" controls>
+                    <source src="/public_files/videos/social_trading/20190711_SocialTrading_SignalProvider_V1.48_ComingSoon_1.1.mp4">
                 </video>
             </div>
         </div>
@@ -155,13 +155,13 @@
                         <div class="mex-h3 mb-3">2) Complete Control Over Your Trading Account</div>
                         <p>Investors can subscribe/ unsubscribe from signals at any time, open/ close Master Account positions they copy as they want, and can also make personal trades on their Investor’s Account.</p>
                     </div>
-                    <div class="col-12 col-md-6 mex-m-b-40"><img class="w-100" src="/multibankfx/public_files/images/social_trading/fi_main_features.png" /></div>
+                    <div class="col-12 col-md-6 mex-m-b-40"><img class="w-100" src="/public_files/images/social_trading/fi_main_features.png" /></div>
                 </div>
             </div>
         </div>
     </section>
     <section class="st-section" style="background-color: #E9E9E9E9;">
-        <img style="height: 50%; z-index: 1;" class="mex-img-cover st-benefit-bg" src="/multibankfx/public_files/images/social_trading/fi_3way_bg.jpg" alt="Social Trading">
+        <img style="height: 50%; z-index: 1;" class="mex-img-cover st-benefit-bg" src="/public_files/images/social_trading/fi_3way_bg.jpg" alt="Social Trading">
         <div class="container text-center" style="z-index: 10; position: relative">
             <div class="mex-h2 text-fff text-center">
                 3 Ways For Investors To Copy Trades
@@ -172,7 +172,7 @@
             <div class="row mex-m-b-50">
                 <div class="col-12 col-md-6 col-xl-4 st_benefit_container mex-m-b-40">
                     <div class="fi_copy_trade" style="margin-bottom: 70px;">
-                        <img class="fi-copy-trade-banner w-100" src="/multibankfx/public_files/images/social_trading/fi_automatic_copy.jpg">
+                        <img class="fi-copy-trade-banner w-100" src="/public_files/images/social_trading/fi_automatic_copy.jpg">
                         <div class="fi_copy_trade_card">
                             <p class="text-left mex-h2 st-h2 text-005190">Default Copy Ratio</p>
                             <p class="text-left">Automatically copy Signal Providers’ transactions to the Investor’s trading account proportionally. </p>
@@ -182,7 +182,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-4 st_benefit_container mex-m-b-40">
                     <div class="fi_copy_trade" style="margin-bottom: 70px;">
-                        <img class="fi-copy-trade-banner w-100" src="/multibankfx/public_files/images/social_trading/fi_coefficient_copy.jpg">
+                        <img class="fi-copy-trade-banner w-100" src="/public_files/images/social_trading/fi_coefficient_copy.jpg">
                         <div class="fi_copy_trade_card">
                             <p class="text-left mex-h2 st-h2 text-005190">Manual Copy Ratio</p>
                             <p class="text-left">Manually set the ratio of Signal Providers’ volume to copy.</p>
@@ -192,7 +192,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-4 st_benefit_container  mex-m-b-40" style="margin: 0 auto;">
                     <div class="fi_copy_trade" style="margin-bottom: 70px;">
-                        <img class="fi-copy-trade-banner w-100" src="/multibankfx/public_files/images/social_trading/fi_trade_copy.jpg">
+                        <img class="fi-copy-trade-banner w-100" src="/public_files/images/social_trading/fi_trade_copy.jpg">
                         <div class="fi_copy_trade_card">
                             <p class="text-left mex-h2 st-h2 text-005190">Minimum Trade Copy</p>
                             <p class="text-left">If the position from the Signal Provider is less than the minimum position size set by the Investor, the system will copy the minimum position value set by the Investor.<br>
@@ -214,7 +214,7 @@
                     <div class="row text-md-center mx-0"><a href="https://invest.multibankfx.com" class="btn-st-006AD0 ml-0 text-fff">Join as Investor</a><a href="leaderboard.php" class="btn-st-005190 ml-0 text-fff">Go to Leaderboard</a></div>
                 </div>
                 <div class="col-12 col-md-6 text-md-center">
-                    <img class="h-auto" style="width: 80%;" src="/multibankfx/public_files/images/social_trading/fi_limit_your_risk_1.png" />
+                    <img class="h-auto" style="width: 80%;" src="/public_files/images/social_trading/fi_limit_your_risk_1.png" />
                 </div>
             </div>
         </div>
@@ -222,7 +222,7 @@
     <section class="how-it-works p0" style="background-color:#112754;">
         <div class="col-12 row">
             <div class="col-12 col-lg-6 pl-0">
-                <img class="" src="/multibankfx/public_files/images/social_trading/how_it_works.png" alt="How it works" style="">
+                <img class="" src="/public_files/images/social_trading/how_it_works.png" alt="How it works" style="">
             </div>
             <div class="col-12 col-lg-5" style="align-self:center;">
                 <div class="text-fff mex-h2 st-h2">COPY THE SUCCESS OF OUR TOP PERFORMERS</div>
@@ -235,13 +235,13 @@
         </div>
     </section>
     <div class="qqq hh-modal-box" id="fi_ct_mb_1" tabindex="-1" role="dialog">
-        <div class="modal-background" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(1)" data-cf-modified-8ef226135d53da1d056cb12e-="">
+        <div class="modal-background" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(1)" data-cf-modified-="">
         </div>
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="mex-h3 modal-title text-005190">Default Copy Ratio</div>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(1)" data-cf-modified-8ef226135d53da1d056cb12e-=""><span aria-hidden="true">×</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(1)" data-cf-modified-=""><span aria-hidden="true">×</span></button>
                 </div>
                 <div class="modal-body">
                     <div class="p0 bg-white">
@@ -318,20 +318,20 @@
         </div>
     </div>
     <div class="qqq hh-modal-box" id="fi_ct_mb_2" tabindex="-1" role="dialog">
-        <div class="modal-background" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(2)" data-cf-modified-8ef226135d53da1d056cb12e-="">
+        <div class="modal-background" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(2)" data-cf-modified-="">
         </div>
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="mex-h3 modal-title text-005190">Manual Copy Ratio:</div>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(2)" data-cf-modified-8ef226135d53da1d056cb12e-=""><span aria-hidden="true">×</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(2)" data-cf-modified-=""><span aria-hidden="true">×</span></button>
                 </div>
                 <div class="modal-body">
                     <div class="p0 bg-white">
                         <h4>How to manually set the ratio of the copied position volume:</h4>
                         <p class="mex-m-b-15">If you wish to change this manually, please go to your Investment Account panel and select the “Subscriptions” tab where you can see the list of signals you are subscribed to. From there, click the “Ratio/Lot” button to change its value manually.</p>
                         <p><b>Please note that the minimum Ratio that can be set is 0.01.</b></p>
-                        <img class="w-100" src="/multibankfx/public_files/images/social_trading/st_minimum_ratio.jpg" />
+                        <img class="w-100" src="/public_files/images/social_trading/st_minimum_ratio.jpg" />
                         <h4 class="mb-3 mex-m-t-15">Manual Copy Ratio Sample Calculation:</h4>
                         <p class="mb-3">An Investor has $5,000 in their investment account and wants to copy 3 Master Accounts.<br>
                             Below is a breakdown of how many positions will be opened for each based on this Copy Ratio method.</p>
@@ -402,13 +402,13 @@
         </div>
     </div>
     <div class="qqq hh-modal-box" id="fi_ct_mb_3" tabindex="-1" role="dialog">
-        <div class="modal-background" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(3)" data-cf-modified-8ef226135d53da1d056cb12e-="">
+        <div class="modal-background" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(3)" data-cf-modified-="">
         </div>
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="mex-h3 modal-title text-005190">Minimum Trade Copy</div>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(3)" data-cf-modified-8ef226135d53da1d056cb12e-=""><span aria-hidden="true">×</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="if (!window.__cfRLUnblockHandlers) return false; closeCTBox(3)" data-cf-modified-=""><span aria-hidden="true">×</span></button>
                 </div>
                 <div class="modal-body">
                     <section class="p0 bg-white">
@@ -476,8 +476,8 @@
 
         }
     </style>
-    <script data-cfasync="false" src="/multibankfx/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="8ef226135d53da1d056cb12e-text/javascript">
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/javascript">
         $(function() {
             $('.fi-ct-lm').click(function() {
                 $('#fi_ct_mb_' + $(this).data('num')).show();
@@ -496,16 +496,16 @@
     <?php include_from_root('website_template/page_footer.php'); ?>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="/multibankfx/cdn-cgi/l/email-protection.html#35564675584059415c57545b5e534d1b565a58">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.html#35564675584059415c57545b5e534d1b565a58">
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-8ef226135d53da1d056cb12e-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/multibankfx/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -897,7 +897,7 @@
                         <label for='order_message' class='d-block'>
                         </label>
                         <textarea data-message='Message is Required.' data-extra-message="Message is Invalid." data-regex='' class=' form-control w-100 ta-message' name='message' id='order_message' placeholder=''>Hello, I am interested in learning more about MultiBank products and services. Could you please contact me</textarea>
-                    </div><button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-8ef226135d53da1d056cb12e-="">SEND</button>
+                    </div><button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SEND</button>
                 </form>
             </div>
         </div>
@@ -950,8 +950,8 @@
             border-radius: 0;
         }
     </style>
-    <script data-cfasync="false" src="/multibankfx/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="8ef226135d53da1d056cb12e-text/javascript">
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
                 e.preventDefault();
@@ -963,13 +963,13 @@
             });
         })
     </script>
-    <script src="/multibankfx/public_files/static_js/lang_data/en.js" type="8ef226135d53da1d056cb12e-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/jquery.dataTables.min.js" type="8ef226135d53da1d056cb12e-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/lazysizes.min.js" type="8ef226135d53da1d056cb12e-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/jquery.validate.min.js" type="8ef226135d53da1d056cb12e-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/intlTelInput.min.js" type="8ef226135d53da1d056cb12e-text/javascript"></script>
-    <script src="/multibankfx/public_files/static_js/app.js" type="8ef226135d53da1d056cb12e-text/javascript"></script>
-    <script type="8ef226135d53da1d056cb12e-text/javascript" async>
+    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
+    <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
             window.__lc = window.__lc || {};
@@ -999,7 +999,7 @@
             })();
         }
     </script>
-    <script type="8ef226135d53da1d056cb12e-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
                 var url_parts = location.hostname.split('.');
@@ -1032,12 +1032,12 @@
             }
         });
     </script>
-    <script type="8ef226135d53da1d056cb12e-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
         });
     </script>
-    <script type="8ef226135d53da1d056cb12e-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
@@ -1055,14 +1055,14 @@
             }
         });
     </script>
-    <script type="8ef226135d53da1d056cb12e-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.st-slide-header').click(function() {
                 $(this).next().slideToggle("slow");
             });
         });
     </script>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="8ef226135d53da1d056cb12e-|49" defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
 
 </html>
