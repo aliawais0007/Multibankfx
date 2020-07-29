@@ -912,7 +912,7 @@
     </script>
     <script type="text/javascript">
         $(function() {
-            $('.st-slide-header1').click(function() {
+            $('.st-slide-header1').unbind("click").click(function() {
                 let content =  $(this).next();
                 alert(content.css("display"))
                 if(content.css("display") == "none") {
