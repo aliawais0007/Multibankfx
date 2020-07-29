@@ -914,14 +914,14 @@
     $(document).ready(function(){
  
             $('.st-slide-header1').off('click').click(function() {
-                let content =  $(this).next();
-                if(content.css("display") == "none") {
+                let content =  $(this).next().css("display");
+                if(content == "none") {
                     console.log('if')
-                    content.css("display", "block");
+                    $(this).next().css("display", "block");
                 }
-                else{
+                else if(content == "block"){
                     console.log('else')
-                    content.css("display", "none");
+                    $(this).next().css("display", "none");
 
                 }
         
