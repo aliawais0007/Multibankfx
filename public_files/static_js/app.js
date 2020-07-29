@@ -857,15 +857,16 @@ var jointAccountDocFields = {
 //Regulations page start
 $(document).ready(function() {
 
-    $('.st-slide-header1').off('click').click(function() {
-        let content = $(this).next().css("display");
-        if (content == "none") {
-            console.log('if')
-            $(this).next().css("display", "block");
-        } else if (content == "block") {
-            console.log('else')
-            $(this).next().css("display", "none");
-        }
+    $('.st-slide-header1').click(function() {
+        $(this).next().slideToggle("slow");
+        // let content = $(this).next().css("display");
+        // if (content == "none") {
+        //     console.log('if')
+        //     $(this).next().css("display", "block");
+        // } else if (content == "block") {
+        //     console.log('else')
+        //     $(this).next().css("display", "none");
+        // }
 
     });
 
