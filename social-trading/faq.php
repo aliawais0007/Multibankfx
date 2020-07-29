@@ -914,6 +914,7 @@
         $(function() {
             $('.st-slide-header1').click(function() {
                 let content =  $(this).next();
+                alert(content.css("display"))
                 if(content.css("display") == "none") {
                     content.css("display", "block");
                 }
