@@ -703,7 +703,7 @@ foreach ($allnews as $item) {
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 MILESTONES </div>
-                            <div class="mex-content mb0 text-overflow-3"> <a href="about/milestones.php" class="btn btn-mex text-white">Learn More</a>
+                            <div class="mex-content mb0 text-overflow-3"> <a href="/article/milestones.php" class="btn btn-mex text-white">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -1179,7 +1179,7 @@ global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                                     MILESTONES </div>
                                 <div class="mex-content text-overflow-2">
                                     Learn more about MultiBank’s achievements from over the years </div>
-                                <a href="about/milestones.php" class="btn btn-mex mex-m-r-15 mex-m-b-15 mex-m-t-15">LEARN
+                                <a href="/article/milestones.php" class="btn btn-mex mex-m-r-15 mex-m-b-15 mex-m-t-15">LEARN
                                     MORE</a>
                             </div>
                         </div>
