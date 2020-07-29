@@ -1,6 +1,5 @@
 <?php
-$news = new stdClass();
-print_r($news);
+$news = filtered_news();
 $news97=""
 ?>
 <!DOCTYPE html>
