@@ -2,6 +2,7 @@
 <html lang='en'>
 
 <?php include_from_root('website_template/head.php'); ?>
+
 <body>
     <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
@@ -72,7 +73,7 @@
                             </header>
                         </article>
                         <div class="article-body">
-                            <p class="article-date"></p><img src="https://cms.multibankfx.com/../../../public_files/images/blog/multibank_philippines_interview.jpg" class="article-img" />
+                            <p class="article-date"></p><img src="/public_files/images/blog/multibank_philippines_interview.jpg" class="article-img" />
                             <p class="article-paragraph">
                                 <p class="MsoNoSpacing"><span lang="EN-US">2<sup>nd</sup> September 2019—</span></p>
                                 <p class="MsoNoSpacing"><span lang="EN-US"></span></p>
@@ -527,7 +528,7 @@
                                 <button class='btn btn-mex w-100 h-40p send-verification-code-btn min-w-unset ' id='button-send-callme_form' type='button' title='Send Code'>Send Code
                                 </button>
                             </div>
-                            <button type='submit' class='btn-contact mx-1 mt-2 mb-0' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-2391fd155a8ffac63c2a56b9-="">SUBMIT
+                            <button type='submit' class='btn-contact mx-1 mt-2 mb-0' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SUBMIT
                             </button>
                         </form>
                         <hr class="mx-1 my-2 bg-dark">
@@ -545,7 +546,7 @@
                                 <div class="mex-translatable" data-es="Abre una cuenta de prueba" data-fr="OUVRIR UN COMPTE DÉMO" data-ms="Buka Akaun Demo" data-th="เปิดบัญชีทดลอง" data-ae="افتح حساب تجريبي">OPEN DEMO ACCOUNT
                                 </div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="/partnership/introducing-brokers.html#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/partnership/introducing-brokers.php#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe920;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Resgistro de IB" data-fr='ENREGISTREMENT "IB"' data-ms="Pendaftaran IB" data-th="การลงทะเบียน IB" data-ae="تسجيل وسيط معرف">IB
@@ -578,66 +579,65 @@
                         <div class="h3 text-left c870">Other News</div>
                         <hr class="c881" />
                         <div class="row side-news-frame mx-0 mb-3">
-                            <a href="/article/multibank-fx-championship-2019-winners-announced.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/public_files/blog/thumbnails/1104_demo_competition_thumbnail.jpg" class="side-news-thumbnail" />
+                            <a href="/article/news-detail.php?id=91" class="thumbnail-frame col-6 px-0">
+                                <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
                             </a>
                             <div class="side-news-text col-6 px-0 text-left">
-                                <a href="/article/multibank-fx-championship-2019-winners-announced.php" class="text-left article-thumbnail-text c933">MultiBank FX Championship 2019 Winners
-                                    Announced!
+                                <a href="/article/news-detail.php?id=91" class="text-left article-thumbnail-text c933">Winners Announced for the MultiBank Fast & Furious Trading Contest
                                 </a>
-                                <div class="text-left article-thumbnail-text">2019-11-04
+                                <div class="text-left article-thumbnail-text">2020-02-18
                                 </div>
                             </div>
                         </div>
                         <div class="row side-news-frame mx-0 mb-3">
-                            <a href="/article/forexexpo_dubai2019.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/public_files/blog/thumbnails/dubai_expo_thumbnail_465x265.jpg" class="side-news-thumbnail" />
+                            <a href="/article/news-detail.php?id=92" class="thumbnail-frame col-6 px-0">
+                                <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
                             </a>
                             <div class="side-news-text col-6 px-0 text-left">
-                                <a href="/article/forexexpo_dubai2019.php" class="text-left article-thumbnail-text c1001">
-                                    MultiBank- Diamond Sponsor at the Forex Expo Dubai 2019
+                                <a href="/article/news-detail.php?id=92" class="text-left article-thumbnail-text c1001">
+                                    MultiBank Fast & Furious Trading Contest Starts Jan 6, 2020!
                                 </a>
                                 <div class="text-left article-thumbnail-text">
-                                    2019-03-27
+                                    2019-12-27
                                 </div>
                             </div>
                         </div>
                         <div class="row side-news-frame mx-0 mb-3">
-                            <a href="/article/news_20170624.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/public_files/blog/thumbnails/news_20170624_a.jpg" class="side-news-thumbnail" />
+                            <a href="/article/news-detail.php?id=93" class="thumbnail-frame col-6 px-0">
+                                <img src="/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg" class="side-news-thumbnail" />
                             </a>
                             <div class="side-news-text col-6 px-0 text-left">
-                                <a href="/article/news_20170624.php" class="text-left article-thumbnail-text c1066">
-                                    MultiBank- Diamond Sponsor at 2017 Shanghai Brokers Show
+                                <a href="/article/news-detail.php?id=93" class="text-left article-thumbnail-text c1066">
+                                    MultiBank Philippines Hosts Investors Night 2019
                                 </a>
                                 <div class="text-left article-thumbnail-text">
-                                    2017-06-24
+                                    2019-12-07
                                 </div>
                             </div>
                         </div>
                         <div class="row side-news-frame mx-0 mb-3">
-                            <a href="/article/hiring-forex-sales-managers-for-dubai.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/public_files/blog/thumbnails/hiring-now-cyprus-banner_v2_26July_1.jpg" class="side-news-thumbnail" />
+                            <a href="/article/news-detail.php?id=94" class="thumbnail-frame col-6 px-0">
+                                <img src="/public_files/blog/thumbnails/malaysia_seminar_thumbnail_en.jpg" class="side-news-thumbnail" />
                             </a>
                             <div class="side-news-text col-6 px-0 text-left">
-                                <a href="/article/hiring-forex-sales-managers-for-dubai.php" class="text-left article-thumbnail-text c1131">
-                                    MultiBank’s Dubai Office Now Hiring Forex Sales Managers. Join Us Today!
+                                <a href="/article/news-detail.php?id=94" class="text-left article-thumbnail-text c1131">
+                                    MultiBank Malaysia Hosted Successful Trading Seminar in Kuala Lumpur
                                 </a>
                                 <div class="text-left article-thumbnail-text">
-                                    2019-07-26
+                                    2019-11-17
                                 </div>
                             </div>
                         </div>
                         <div class="row side-news-frame mx-0 mb-3">
-                            <a href="/article/multibankfx-asia-roadshow-kuala-lumpur.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/public_files/blog/thumbnails/news_20190222_thumbnail_0.jpg" class="side-news-thumbnail" />
+                            <a href="/article/news-detail.php?id=95" class="thumbnail-frame col-6 px-0">
+                                <img src="/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg" class="side-news-thumbnail" />
                             </a>
                             <div class="side-news-text col-6 px-0 text-left">
-                                <a href="/article/multibankfx-asia-roadshow-kuala-lumpur.php" class="text-left article-thumbnail-text c1196">
-                                    MultiBank Kicks Off Asia Roadshow with Seminar in Kuala Lumpur
+                                <a href="/article/news-detail.php?id=95" class="text-left article-thumbnail-text c1196">
+                                    MultiBank Group Attends Macau Grand Prix 2019
                                 </a>
                                 <div class="text-left article-thumbnail-text">
-                                    2019-02-22
+                                    2019-11-17
                                 </div>
                             </div>
                         </div>
@@ -698,7 +698,7 @@
             color: #000000;
         }
     </style>
-        <?php include_from_root('website_template/page_footer.php'); ?>
+    <?php include_from_root('website_template/page_footer.php'); ?>
 
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
@@ -707,10 +707,10 @@
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
             <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.html#7d1e0e3d10081109141f1c13161b05531e1210">
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.php#7d1e0e3d10081109141f1c13161b05531e1210">
             <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-2391fd155a8ffac63c2a56b9-="">
+        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
             <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
@@ -1124,7 +1124,7 @@
                         </label>
                         <textarea data-message='Message is Required.' data-extra-message="Message is Invalid." data-regex='' class=' form-control w-100 ta-message' name='message' id='order_message' placeholder=''>Hello, I am interested in learning more about MultiBank products and services. Could you please contact me</textarea>
                     </div>
-                    <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-2391fd155a8ffac63c2a56b9-="">SEND
+                    <button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SEND
                     </button>
                 </form>
             </div>
@@ -1178,8 +1178,8 @@
             border-radius: 0;
         }
     </style>
-    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="2391fd155a8ffac63c2a56b9-text/javascript">
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
                 e.preventDefault();
@@ -1191,13 +1191,13 @@
             });
         })
     </script>
-    <script src="/public_files/static_js/lang_data/en.js" type="2391fd155a8ffac63c2a56b9-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.dataTables.min.js" type="2391fd155a8ffac63c2a56b9-text/javascript"></script>
-    <script src="/public_files/static_js/lazysizes.min.js" type="2391fd155a8ffac63c2a56b9-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.validate.min.js" type="2391fd155a8ffac63c2a56b9-text/javascript"></script>
-    <script src="/public_files/static_js/intlTelInput.min.js%3Fversion=20191128" type="2391fd155a8ffac63c2a56b9-text/javascript"></script>
-    <script src="/public_files/static_js/app.js%3Fversion=20200612" type="2391fd155a8ffac63c2a56b9-text/javascript"></script>
-    <script type="2391fd155a8ffac63c2a56b9-text/javascript" async>
+    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
+    <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
             window.__lc = window.__lc || {};
@@ -1225,11 +1225,11 @@
                     }
                 }
             };
- 
+
             setTimeout(() => initliveChat(), 10000);
         }
     </script>
-    <script type="2391fd155a8ffac63c2a56b9-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
                 var url_parts = location.hostname.split('.');
@@ -1262,12 +1262,12 @@
             }
         });
     </script>
-    <script type="2391fd155a8ffac63c2a56b9-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
         });
     </script>
-    <script type="2391fd155a8ffac63c2a56b9-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
@@ -1285,7 +1285,7 @@
             }
         });
     </script>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="2391fd155a8ffac63c2a56b9-|49" defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
 
 </html>

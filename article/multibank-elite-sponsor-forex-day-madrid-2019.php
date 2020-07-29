@@ -505,27 +505,27 @@
                         </form>
                         <hr class="mx-1 my-2 bg-dark">
                         <div class="px-1 contact-form-button-container">
-                            <a style="padding: 5px 10px !important;" href="../account/live-account.html" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/account/live-account.html" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe91d;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="abre una cuenta real" data-fr="OUVRIR UN COMPTE RÉEL" data-ae="افتح حساب حقيقي" data-ms="Buka Akaun Live" data-th="เปิดบัญชี">OPEN LIVE
                                     ACCOUNT
                                 </div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="../demo_competition.html" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/demo_competition.html" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe918;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Abre una cuenta de prueba" data-fr="OUVRIR UN COMPTE DÉMO" data-ms="Buka Akaun Demo" data-th="เปิดบัญชีทดลอง" data-ae="افتح حساب تجريبي">OPEN DEMO ACCOUNT
                                 </div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="../partnership/introducing-brokers.html#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/partnership/introducing-brokers.php#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe920;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Resgistro de IB" data-fr='ENREGISTREMENT "IB"' data-ms="Pendaftaran IB" data-th="การลงทะเบียน IB" data-ae="تسجيل وسيط معرف">IB
                                     REGISTRATION
                                 </div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="../account/account-funding.html" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/account/account-funding.html" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe921;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="financia tu cuenta" data-fr="CRÉDITEZ VOTRE COMPTE" data-ms="Dana Akaun Anda" data-th="เติมเงินในบัญชีขอ" data-ae="تمويل حسابك">FUND YOUR
@@ -535,12 +535,12 @@
                             <div class="px-1 font-10" style="padding:0px;">
                                 <div class="form-check form-check-inline">
                                     <label class="form-check-label label-1 mex-translatable" for="terms_conditions" data-ms='Saya menerima <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terma & Syarat</a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">Dasar Privasi</a>, dan <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;"> Dasar Cookie.</a>.' data-fr='En soumettant ce formulaire, vous acceptez  <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">les Termes et conditions</a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">la Politique de confidentialité</a>, et <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;"> la Politique sur les cookies.</a>.' data-ae='أوافق على <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">الشروط والأحكام </a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">وسياسة الخصوصية </a>, <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">وسياسة ملفات تعريف الارتباط</a>.' data-th='เมื่อส่งแบบฟอร์มนี้ถือว่าคุณยอมรับ
-    <a href="../terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">ข้อกำหนดและเงื่อนไข </a>,
-    <a href="../privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">นโยบายความเป็นส่วนตัว</a>
-    , <a href="../cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">และนโยบายคุกกี้</a>.'>By
-                                        submitting this form, you agree to accept the <a href="../terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms
-                                            &amp; Conditions</a>, <a href="../privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy
-                                            Policy</a>, and <a href="../cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie
+    <a href="/terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">ข้อกำหนดและเงื่อนไข </a>,
+    <a href="/privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">นโยบายความเป็นส่วนตัว</a>
+    , <a href="/cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">และนโยบายคุกกี้</a>.'>By
+                                        submitting this form, you agree to accept the <a href="/terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms
+                                            &amp; Conditions</a>, <a href="/privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy
+                                            Policy</a>, and <a href="/cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie
                                             Policy</a>.
                                     </label>
                                 </div>
@@ -548,74 +548,72 @@
                         </div>
                     </div>
                     <div class="mex-h5 text-1e32a3 text-center c859">
-                        <div class="h3 text-left c870">Other News</div>
-                        <hr class="c881" />
-                        <div class="row side-news-frame mx-0 mb-3">
-                            <a href="multibank-mena-diamond-sponsor-jordan-expo.html" class="thumbnail-frame col-6 px-0">
-                                <img src="../public_files/blog/thumbnails/jordan_expo_2019_thumbnail.jpg" class="side-news-thumbnail" />
+                    <div class="h3 text-left c870">Other News</div>
+                    <hr class="c881"/>
+                    <div class="row side-news-frame mx-0 mb-3">
+                        <a href="/article/news-detail.php?id=91" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
+                        </a>
+                        <div class="side-news-text col-6 px-0 text-left">
+                            <a href="/article/news-detail.php?id=91" class="text-left article-thumbnail-text c933">Winners Announced for the MultiBank Fast & Furious Trading Contest
                             </a>
-                            <div class="side-news-text col-6 px-0 text-left">
-                                <a href="multibank-mena-diamond-sponsor-jordan-expo.html" class="text-left article-thumbnail-text c933">Diamond Sponsor MultiBank MENA Attends
-                                    Jordan Expo 2019
-                                </a>
-                                <div class="text-left article-thumbnail-text">2019-09-18
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row side-news-frame mx-0 mb-3">
-                            <a href="hiring-forex-sales-managers-for-dubai.html" class="thumbnail-frame col-6 px-0">
-                                <img src="../public_files/blog/thumbnails/hiring-now-cyprus-banner_v2_26July_1.jpg" class="side-news-thumbnail" />
-                            </a>
-                            <div class="side-news-text col-6 px-0 text-left">
-                                <a href="hiring-forex-sales-managers-for-dubai.html" class="text-left article-thumbnail-text c1001">
-                                    MultiBank’s Dubai Office Now Hiring Forex Sales Managers. Join Us Today!
-                                </a>
-                                <div class="text-left article-thumbnail-text">
-                                    2019-07-26
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row side-news-frame mx-0 mb-3">
-                            <a href="multibank-fast-n-furious-trading-contest-announcement.html" class="thumbnail-frame col-6 px-0">
-                                <img src="../public_files/blog/thumbnails/2020_winners_announced_thumbnail.png" class="side-news-thumbnail" />
-                            </a>
-                            <div class="side-news-text col-6 px-0 text-left">
-                                <a href="multibank-fast-n-furious-trading-contest-announcement.html" class="text-left article-thumbnail-text c1066">
-                                    Winners Announced for the MultiBank Fast & Furious Trading Contest
-                                </a>
-                                <div class="text-left article-thumbnail-text">
-                                    2020-02-18
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row side-news-frame mx-0 mb-3">
-                            <a href="news_20170624.html" class="thumbnail-frame col-6 px-0">
-                                <img src="../public_files/blog/thumbnails/news_20170624_a.jpg" class="side-news-thumbnail" />
-                            </a>
-                            <div class="side-news-text col-6 px-0 text-left">
-                                <a href="news_20170624.html" class="text-left article-thumbnail-text c1131">
-                                    MultiBank- Diamond Sponsor at 2017 Shanghai Brokers Show
-                                </a>
-                                <div class="text-left article-thumbnail-text">
-                                    2017-06-24
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row side-news-frame mx-0 mb-3">
-                            <a href="forex-trading-contest-winners-announced.html" class="thumbnail-frame col-6 px-0">
-                                <img src="../public_files/blog/thumbnails/demo-winner-thumbnail_0.jpg" class="side-news-thumbnail" />
-                            </a>
-                            <div class="side-news-text col-6 px-0 text-left">
-                                <a href="forex-trading-contest-winners-announced.html" class="text-left article-thumbnail-text c1196">
-                                    Congratulations to the Winners of MultiBank Forex Trading Contest for Taking Home a
-                                    Combined US$15,000
-                                </a>
-                                <div class="text-left article-thumbnail-text">
-                                    2019-01-28
-                                </div>
+                            <div class="text-left article-thumbnail-text">2020-02-18
                             </div>
                         </div>
                     </div>
+                    <div class="row side-news-frame mx-0 mb-3">
+                        <a href="/article/news-detail.php?id=92" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
+                        </a>
+                        <div class="side-news-text col-6 px-0 text-left">
+                            <a href="/article/news-detail.php?id=92" class="text-left article-thumbnail-text c1001">
+                            MultiBank Fast & Furious Trading Contest Starts Jan 6, 2020!
+                            </a>
+                            <div class="text-left article-thumbnail-text">
+                            2019-12-27
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row side-news-frame mx-0 mb-3">
+                        <a href="/article/news-detail.php?id=93" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg" class="side-news-thumbnail" />
+                        </a>
+                        <div class="side-news-text col-6 px-0 text-left">
+                            <a href="/article/news-detail.php?id=93" class="text-left article-thumbnail-text c1066">
+                            MultiBank Philippines Hosts Investors Night 2019
+                            </a>
+                            <div class="text-left article-thumbnail-text">
+                            2019-12-07
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row side-news-frame mx-0 mb-3">
+                        <a href="/article/news-detail.php?id=94" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/malaysia_seminar_thumbnail_en.jpg" class="side-news-thumbnail" />
+                        </a>
+                        <div class="side-news-text col-6 px-0 text-left">
+                            <a href="/article/news-detail.php?id=94" class="text-left article-thumbnail-text c1131">
+                            MultiBank Malaysia Hosted Successful Trading Seminar in Kuala Lumpur
+                            </a>
+                            <div class="text-left article-thumbnail-text">
+                            2019-11-17
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row side-news-frame mx-0 mb-3">
+                        <a href="/article/news-detail.php?id=95" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg" class="side-news-thumbnail" />
+                        </a>
+                        <div class="side-news-text col-6 px-0 text-left">
+                            <a href="/article/news-detail.php?id=95" class="text-left article-thumbnail-text c1196">
+                            MultiBank Group Attends Macau Grand Prix 2019
+                            </a>
+                            <div class="text-left article-thumbnail-text">
+                            2019-11-17
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -676,16 +674,16 @@
 
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="../public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="../public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="../cdn-cgi/l/email-protection.html#4a29390a273f263e23282b24212c3264292527">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="../public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.php#4a29390a273f263e23282b24212c3264292527">
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-2f54823ae49326b89a829f97-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="../public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
         </a>
     </div>
     <style type="text/css">
@@ -1152,7 +1150,7 @@
             border-radius: 0;
         }
     </style>
-    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script type="2f54823ae49326b89a829f97-text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
@@ -1165,12 +1163,12 @@
             });
         })
     </script>
-    <script src="../public_files/static_js/lang_data/en.js" type="2f54823ae49326b89a829f97-text/javascript"></script>
-    <script src="../public_files/static_js/jquery.dataTables.min.js" type="2f54823ae49326b89a829f97-text/javascript"></script>
-    <script src="../public_files/static_js/lazysizes.min.js" type="2f54823ae49326b89a829f97-text/javascript"></script>
-    <script src="../public_files/static_js/jquery.validate.min.js" type="2f54823ae49326b89a829f97-text/javascript"></script>
-    <script src="../public_files/static_js/intlTelInput.min.js%3Fversion=20191128" type="2f54823ae49326b89a829f97-text/javascript"></script>
-    <script src="../public_files/static_js/app.js%3Fversion=20200612" type="2f54823ae49326b89a829f97-text/javascript"></script>
+    <script src="/public_files/static_js/lang_data/en.js" type="2f54823ae49326b89a829f97-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="2f54823ae49326b89a829f97-text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="2f54823ae49326b89a829f97-text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="2f54823ae49326b89a829f97-text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="2f54823ae49326b89a829f97-text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="2f54823ae49326b89a829f97-text/javascript"></script>
     <script type="2f54823ae49326b89a829f97-text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {

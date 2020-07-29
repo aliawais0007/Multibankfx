@@ -455,7 +455,7 @@
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Abre una cuenta de prueba" data-fr="OUVRIR UN COMPTE DÉMO" data-ms="Buka Akaun Demo" data-th="เปิดบัญชีทดลอง" data-ae="افتح حساب تجريبي">OPEN DEMO ACCOUNT</div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="/partnership/introducing-brokers.html#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/partnership/introducing-brokers.php#introducing-brokers-form" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe920;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Resgistro de IB" data-fr='ENREGISTREMENT "IB"' data-ms="Pendaftaran IB" data-th="การลงทะเบียน IB" data-ae="تسجيل وسيط معرف">IB REGISTRATION</div>
@@ -477,72 +477,72 @@
                         </div>
                     </div>
                     <div class="mex-h5 text-1e32a3 text-center c859">
-                        <div class="h3 text-left c870">Other News</div>
-                        <hr class="c881" />
-                        <div class="row side-news-frame mx-0 mb-3">
-                            <a href="news_20181206.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/public_files/blog/thumbnails/news_20181206_t.jpg" class="side-news-thumbnail" />
+                    <div class="h3 text-left c870">Other News</div>
+                    <hr class="c881"/>
+                    <div class="row side-news-frame mx-0 mb-3">
+                        <a href="/article/news-detail.php?id=91" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
+                        </a>
+                        <div class="side-news-text col-6 px-0 text-left">
+                            <a href="/article/news-detail.php?id=91" class="text-left article-thumbnail-text c933">Winners Announced for the MultiBank Fast & Furious Trading Contest
                             </a>
-                            <div class="side-news-text col-6 px-0 text-left">
-                                <a href="news_20181206.php" class="text-left article-thumbnail-text c933">MultiBank Holds Forex Trading MasterClass in Buenos Aires
-                                </a>
-                                <div class="text-left article-thumbnail-text">2018-12-06
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row side-news-frame mx-0 mb-3">
-                            <a href="multibankfx-asia-roadshow-kuala-lumpur.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/public_files/blog/thumbnails/news_20190222_thumbnail_0.jpg" class="side-news-thumbnail" />
-                            </a>
-                            <div class="side-news-text col-6 px-0 text-left">
-                                <a href="multibankfx-asia-roadshow-kuala-lumpur.php" class="text-left article-thumbnail-text c1001">
-                                    MultiBank Kicks Off Asia Roadshow with Seminar in Kuala Lumpur
-                                </a>
-                                <div class="text-left article-thumbnail-text">
-                                    2019-02-22
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row side-news-frame mx-0 mb-3">
-                            <a href="multibank-wins-ecn-broker-best-forex-platform-2019.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/public_files/blog/thumbnails/news_best_forex_platform_emna_2019_thumbnail_0.jpg" class="side-news-thumbnail" />
-                            </a>
-                            <div class="side-news-text col-6 px-0 text-left">
-                                <a href="multibank-wins-ecn-broker-best-forex-platform-2019.php" class="text-left article-thumbnail-text c1066">
-                                    MultiBank Wins 2 Titles as ECN Broker of the Year (Europe) & Best Forex Platform (MENA) 2019
-                                </a>
-                                <div class="text-left article-thumbnail-text">
-                                    2019-04-03
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row side-news-frame mx-0 mb-3">
-                            <a href="multibank-successful-expo-invest-cuffs-krakow.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/public_files/blog/thumbnails/invest_cuffs_krakow_thumbnail_465x265.jpg" class="side-news-thumbnail" />
-                            </a>
-                            <div class="side-news-text col-6 px-0 text-left">
-                                <a href="multibank-successful-expo-invest-cuffs-krakow.php" class="text-left article-thumbnail-text c1131">
-                                    Successful Two Days at Invest Cuffs Krakow
-                                </a>
-                                <div class="text-left article-thumbnail-text">
-                                    2019-03-28
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row side-news-frame mx-0 mb-3">
-                            <a href="forexexpo_dubai2019.php" class="thumbnail-frame col-6 px-0">
-                                <img src="/public_files/blog/thumbnails/dubai_expo_thumbnail_465x265.jpg" class="side-news-thumbnail" />
-                            </a>
-                            <div class="side-news-text col-6 px-0 text-left">
-                                <a href="forexexpo_dubai2019.php" class="text-left article-thumbnail-text c1196">
-                                    MultiBank- Diamond Sponsor at the Forex Expo Dubai 2019
-                                </a>
-                                <div class="text-left article-thumbnail-text">
-                                    2019-03-27
-                                </div>
+                            <div class="text-left article-thumbnail-text">2020-02-18
                             </div>
                         </div>
                     </div>
+                    <div class="row side-news-frame mx-0 mb-3">
+                        <a href="/article/news-detail.php?id=92" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/MB_BMW_thumbnail_1.jpg" class="side-news-thumbnail" />
+                        </a>
+                        <div class="side-news-text col-6 px-0 text-left">
+                            <a href="/article/news-detail.php?id=92" class="text-left article-thumbnail-text c1001">
+                            MultiBank Fast & Furious Trading Contest Starts Jan 6, 2020!
+                            </a>
+                            <div class="text-left article-thumbnail-text">
+                            2019-12-27
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row side-news-frame mx-0 mb-3">
+                        <a href="/article/news-detail.php?id=93" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/PH_Investor_Night_thumbnail.jpg" class="side-news-thumbnail" />
+                        </a>
+                        <div class="side-news-text col-6 px-0 text-left">
+                            <a href="/article/news-detail.php?id=93" class="text-left article-thumbnail-text c1066">
+                            MultiBank Philippines Hosts Investors Night 2019
+                            </a>
+                            <div class="text-left article-thumbnail-text">
+                            2019-12-07
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row side-news-frame mx-0 mb-3">
+                        <a href="/article/news-detail.php?id=94" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/malaysia_seminar_thumbnail_en.jpg" class="side-news-thumbnail" />
+                        </a>
+                        <div class="side-news-text col-6 px-0 text-left">
+                            <a href="/article/news-detail.php?id=94" class="text-left article-thumbnail-text c1131">
+                            MultiBank Malaysia Hosted Successful Trading Seminar in Kuala Lumpur
+                            </a>
+                            <div class="text-left article-thumbnail-text">
+                            2019-11-17
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row side-news-frame mx-0 mb-3">
+                        <a href="/article/news-detail.php?id=95" class="thumbnail-frame col-6 px-0">
+                            <img src="/public_files/blog/thumbnails/macau_gp_2019_thumbnail.jpg" class="side-news-thumbnail" />
+                        </a>
+                        <div class="side-news-text col-6 px-0 text-left">
+                            <a href="/article/news-detail.php?id=95" class="text-left article-thumbnail-text c1196">
+                            MultiBank Group Attends Macau Grand Prix 2019
+                            </a>
+                            <div class="text-left article-thumbnail-text">
+                            2019-11-17
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -608,7 +608,7 @@
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
             <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
         </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.html#6c0f1f2c01190018050e0d02070a14420f0301">
+        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.php#6c0f1f2c01190018050e0d02070a14420f0301">
             <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
         </a>
         <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
@@ -1074,8 +1074,8 @@
     <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/intlTelInput.min.js%3Fversion=20191128" type="text/javascript"></script>
-    <script src="/public_files/static_js/app.js%3Fversion=20200612" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
     <script type="text/javascript" async>
         url = new URL(window.location.href);
         if (!url.searchParams.get('is_iframe')) {
