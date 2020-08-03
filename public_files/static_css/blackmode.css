@@ -11814,7 +11814,7 @@ label {
 
 .article-title {
     font-size: 30px;
-    color: vsr(--article-title);
+    color: var(--article-title);
     text-align: center;
 }
 
