@@ -862,6 +862,7 @@ $(document).ready(function() {
 
     // Toggle dark mode script
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+    debugger
     const currentTheme = localStorage.getItem('theme');
 
     if (currentTheme) {
@@ -871,12 +872,15 @@ $(document).ready(function() {
 
             toggleSwitch.checked = true;
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
+            debugger
         } else {
-            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_light.png');
+            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
+
         }
     }
 
     function switchTheme(e) {
+        debugger
         if (e.target.checked) {
             document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem('theme', 'dark');
