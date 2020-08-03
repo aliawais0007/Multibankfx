@@ -149,7 +149,7 @@
                                     <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_ecn_broker_2018.png">
                                     <span class="mex-h3 mex-m-b-5 ">Best ECN Broker Europe 2018</span>
                                     <span class="mex-content ">International Business Magazine</span>
-                                </a>+
+                                </a>
                             </div>
                             <div class="swiper-slide width-30" data-swiper-slide-index="12" style="width: 136.714px; margin-right: 20px;">
                                 <a href="about/awards.php">
