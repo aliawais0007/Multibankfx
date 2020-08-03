@@ -1383,7 +1383,8 @@ $("#contact_us_form").submit(function(e) {
 
         },
         error: function(XMLHttpRequest, textStatus, errorThrown) {
-            alert("some error");
+            console.log(textStatus);
+            console.log(errorThrown);
         }
     })
 
