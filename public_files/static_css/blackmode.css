@@ -11819,6 +11819,10 @@ label {
 
 @media (max-width: 767px) {
     .about-page-awards .swiper-container img {
-        height: 40vh !important;
+        height: 40vw !important;
     }
+}
+
+.custom-card-img .card {
+    height: 200px!important;
 }
