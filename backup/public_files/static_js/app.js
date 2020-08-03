@@ -210,25 +210,25 @@ $(function() {
     );
 
     // Add phone validation
-    $.validator.addMethod(
-        "phone_format",
-        function(value, element) {
-            if ($.trim(value)) {
-                let form_id = $(element).closest('form').attr('id');
-                if (itiList[form_id].isValidNumber()) {
-                    return true;
-                } else {
-                    return false;
-                }
-            } else {
-                return false;
-            }
-        },
-        function(params, element) {
-            return 'Invalid Phone Number Format';
-        }
+    // $.validator.addMethod(
+    //     "phone_format",
+    //     function(value, element) {
+    //         if ($.trim(value)) {
+    //             let form_id = $(element).closest('form').attr('id');
+    //             if (itiList[form_id].isValidNumber()) {
+    //                 return true;
+    //             } else {
+    //                 return false;
+    //             }
+    //         } else {
+    //             return false;
+    //         }
+    //     },
+    //     function(params, element) {
+    //         return 'Invalid Phone Number Format';
+    //     }
 
-    );
+    // );
 
     // Initialize each form
     $('form').each(function() {
