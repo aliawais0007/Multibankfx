@@ -963,7 +963,7 @@ foreach ($newss as $key => $value) {
                 top: 205px;
             }
         }
-/* 
+
         @media (max-width: 992px) {
             .swiper-slide .min2 {
                 background-repeat: no-repeat;
@@ -994,11 +994,11 @@ foreach ($newss as $key => $value) {
             #swiper-container-1 .swiper-slide .min1 {
                 height: 650px;
             }
-        } */
+        }
     </style>
 
     <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         $(document).ready(function() {
             var index_swiper = new Swiper('#swiper-container-1', {
                 navigation: {
@@ -1020,8 +1020,8 @@ foreach ($newss as $key => $value) {
                 autoplayDisableOnInteraction: false
             });
         });
-    </script> -->
-    <!-- <script type="text/javascript">
+    </script>
+    <script type="text/javascript">
         $(function() {
 
             $('.multiple-items').slick({
@@ -1044,7 +1044,7 @@ foreach ($newss as $key => $value) {
                 }]
             });
         });
-    </script> -->
+    </script>
 </body>
 
 </html>
