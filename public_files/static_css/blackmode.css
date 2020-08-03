@@ -968,6 +968,7 @@ h6 {
 
 .font-16 {
     font-size: 16px;
+    color: var(--font-color);
 }
 
 .font-18 {
