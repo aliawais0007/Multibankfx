@@ -1358,7 +1358,7 @@ $(function() {
 
 //script for ajax request to save data to db
 $("#contact_us_form").submit(function(e) {
-
+    debugger
     e.preventDefault(); // avoid to execute the actual submit of the form.
 
     var form = $(this);
@@ -1452,7 +1452,7 @@ $("#demo_account_form").submit(function(e) {
 
 //these are for call backs form .there are maany froms
 $("#call_back_footer_form").submit(function(e) {
-
+    debugger
     e.preventDefault(); // avoid to execute the actual submit of the form.
 
     var form = $(this);
