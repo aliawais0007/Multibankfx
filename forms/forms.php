@@ -22,8 +22,9 @@ if ($_POST) {
     if (isset($_POST['footer_form'])) {
 
         //footer from
-
-        $db->exec("INSERT INTO myadmin_call_back (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
+        $STH = $dbConnection->prepare("INSERT INTO myadmin_call_back (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
+        $result =$STH->execute();
+        echo $result;
         echo "inerted data";
         //........
     }
@@ -31,14 +32,20 @@ if ($_POST) {
         //........
         //partner from
 
-        $db->exec("INSERT INTO myadmin_partner (name,email,phone,status) VALUES ('$name', '$email','$phone','$status')");
+        $query = "INSERT INTO myadmin_partner (name,email,phone,status) VALUES ('$name', '$email','$phone','$status";
+        $STH = $dbConnection->prepare($query);
+        $result =$STH->execute();
+        echo $result;
     }
     if (isset($_POST['account_type'])) {
 
 
         //contact us form
-        $db->exec("INSERT INTO myadmin_contact_us (status,fullname,email,phone,contacttype) VALUES ('$status','$name', '$email','$phone','$contact_type')");
-        echo "inerted data";
+        $query = "INSERT INTO myadmin_contact_us (status,fullname,email,phone,contacttype) VALUES ('$status','$name', '$email','$phone','$contact_type')";
+        $STH = $dbConnection->prepare($query);
+        $result =$STH->execute();
+        echo $result;
+    }
     }
     if (isset($_POST['platform_version'])) {
         //demo from
