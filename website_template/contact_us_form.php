@@ -1,7 +1,4 @@
 <form name='contact_us_form' class='multibank-form row mx-0 w-100 new' enctype='' id='contact_us_form'  autocomplete='on'>
-    <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMjo0ODo1Nw==' />
-    <input type='hidden' name='token' value='$2y$10$G/b8BZYaowR1otfc9WItS.MmdqmS03m1hHvn32dscHiIzPLLd..e6' />
-    <input type='hidden' name='source' value=' <br/><br/> posted From: www.multibankfx.com/?web=true' />
     <div class='bg-000 text-center mex-m-x-n15 w-110'>
         <label for='' class='mex-h3 text-white py-2 mb-0'>
             <?php translate('GET A CALL BACK'); ?></label>
