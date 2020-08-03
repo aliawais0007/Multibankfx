@@ -1048,8 +1048,7 @@ foreach ($allnews as $item) {
                 </div>
                 <div class="swiper-slide" data-swiper-slide-index="16" style="width: 287.333px;">
                     <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/
-                            global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
+                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
                         <div class="card-content bg-white text-center">
                             <div class="mex-h3 mex-clamp-1 mex-m-b-15">
                                 British Virgin Islands
