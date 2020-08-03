@@ -18,6 +18,7 @@
     --arrow-color: #E5E5E5;
     --color-c7c7c6: #c7c7c6;
     --brightness-img: 100%;
+    --article-title: rgb(30, 50, 163);
     --avant-pad: url(../images/platforms/common/avant-pad-bg-light.jpg);
     --choose-next-background: url(../images/common/bg_banner/choose_where_to_go_next_bg-light.png);
     --avant-pad-container: url(../images/platforms/common/avant-pad-light.png);
@@ -32,7 +33,7 @@
     --bg-plants: url(../images/common/form_bg-light.jpg);
     --table-background-islamic: url(../images/accounts_funding/islamic_benefit_bg-light.jpg);
     --bg-img-islamic2: url(../images/accounts_funding/islamic_form_bg-light.jpg);
-    --logo-image: '/public_files/images/common/logo_black_360.png';
+    --bg-twc: url(public_files/images/home/home_trade_start_trading.png);
     --color-737576: #e4e7e9;
 }
 
@@ -54,6 +55,7 @@
     --arrow-color: #6b5252;
     --brightness-img: 50%;
     --color-c7c7c6: #4e4e461f;
+    --article-title: #fff;
     --choose-next-background: url(../images/common/bg_banner/choose_where_to_go_next_bg.png);
     --avant-pad: url(../images/platforms/common/avant-pad-bg.jpg);
     --avant-pad-container: url(../images/platforms/common/avant-pad.png);
@@ -68,7 +70,7 @@
     --bg-plants: url(../images/common/form_bg.jpg);
     --table-background-islamic: url(../images/accounts_funding/islamic_benefit_bg.jpg);
     --bg-img-islamic2: url(../images/accounts_funding/islamic_form_bg.jpg);
-    --logo-image: '/public_files/images/common/logo_black_360.png';
+    --bg-twc: url(public_files/images/home/home_trade_start_trading_dark.png);
     --color-737576: #737576;
 }
 
@@ -4716,6 +4718,7 @@ sup.sup-size {
     speak: none;
     font-style: normal;
     font-weight: 400;
+    color: var(--font-color) !important;
     font-variant: normal;
     text-transform: none;
     -webkit-transition-duration: 0.3s;
@@ -11615,11 +11618,6 @@ table.dataTable tbody tr {
     background-color: var(--bg-black);
 }
 
-.card-content {
-    background: var(--bg-color);
-    color: var(--font-color);
-}
-
 ::-webkit-scrollbar-thumb {
     background: white;
 }
@@ -11739,11 +11737,6 @@ nav {
     color: #222222 !important;
 }
 
-.pb-0,
-.py-0 {
-    background-color: var(--bg-black) !important;
-}
-
 .mex-clamp-3>a {
     color: #fff;
 }
@@ -11806,6 +11799,22 @@ label {
 
 .bg-white>.col-md-12>p.text-222 {
     color: var(--font-color) !important;
+}
+
+.twc-section>.container {
+    background-image: var(--bg-twc);
+    background-size: cover;
+}
+
+.article-title {
+    font-size: 30px;
+    color: vsr(--article-title);
+    text-align: center;
+}
+
+.article-body {
+    margin-top: 20px;
+    color: var(--font-color);
 }
 
 
