@@ -1381,6 +1381,9 @@ $("#contact_us_form").submit(function(e) {
         },
         success: function(data) {
 
+        },
+        error: function(XMLHttpRequest, textStatus, errorThrown) {
+            alert("some error");
         }
     })
 
@@ -1460,8 +1463,6 @@ $("#call_back_footer_form").submit(function(e) {
     var datais = form.serialize();
     // console.log('form is here'+form);
     // console.log('url is here',url);
-
-
     $.ajax({
         type: "POST",
         url: url, //submission.php
@@ -1475,6 +1476,9 @@ $("#call_back_footer_form").submit(function(e) {
         },
         success: function(data) {
 
+        },
+        error: function(XMLHttpRequest, textStatus, errorThrown) {
+            alert("some error");
         }
     })
 
