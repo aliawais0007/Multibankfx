@@ -868,7 +868,11 @@ $(document).ready(function() {
         document.documentElement.setAttribute('data-theme', currentTheme);
 
         if (currentTheme === 'dark') {
+
             toggleSwitch.checked = true;
+            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
+        } else {
+            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_light.png');
         }
     }
 
