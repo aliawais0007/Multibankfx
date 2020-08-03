@@ -271,7 +271,7 @@ foreach ($newss as $key => $value) {
             </div>
         </section>
         <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script type="text/javascript" src="/public_files/static_js/slick.js"></script>
+
 
 
         <section class="pb-0">
@@ -999,54 +999,7 @@ foreach ($newss as $key => $value) {
     <script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
     <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
-    <!-- <script type="text/javascript">
-        $(document).ready(function() {
-            var index_swiper = new Swiper('#swiper-container-1', {
-                navigation: {
-                    nextEl: '#swiper-container-1 .swiper-button-next',
-                    prevEl: '#swiper-container-lp .swiper-button-prev',
-                },
-                pagination: {
-                    clickable: true,
-                    el: '#swiper-container-1 .swiper-pagination',
-                },
-                loop: true,
-                autoplay: {
-                    delay: 5000
-                },
-                updateOnImagesReady: true,
-                paginationClickable: true,
-                spaceBetween: 30,
-                centeredSlides: true,
-                autoplayDisableOnInteraction: false
-            });
-        });
-    </script>
-    <script type="text/javascript">
-        $(function() {
-
-            $('.multiple-items').slick({
-                dots: false,
-                nextArrow: $('#next-but'),
-                prevArrow: $('#prev-but'),
-                centerMode: true,
-                centerPadding: '0px',
-                slidesToShow: 5,
-                responsive: [{
-                    breakpoint: 1025,
-                    settings: {
-                        dots: false,
-                        nextArrow: $('#next-but'),
-                        prevArrow: $('#prev-but'),
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 1
-                    }
-                }]
-            });
-        });
-    </script> -->
-    
+  
 </body>
 
 </html>

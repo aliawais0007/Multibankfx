@@ -62,34 +62,9 @@
     <div class="main-container">
         <!-- <link href="/public_files/static_css/awards-carousel.css" rel="stylesheet" type="text/css" /> -->
         <?php include_from_root('website_template/about_awards.php')?>
-        <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script type="text/javascript" src="/public_files/static_js/slick.js"></script>
-        <script type="text/javascript">
-            $(function() {
-                $('.multiple-items').slick({
-                    dots: false,
-                    infinite: true,
-                    nextArrow: $('#next-but'),
-                    prevArrow: $('#prev-but'),
-                    centerMode: true,
-                    centerPadding: '10px',
-                    slidesToShow: 5,
-                    respondTo: "slider",
-                    responsive: [{
-                        breakpoint: 1048,
-                        settings: {
-                            dots: false,
-                            infinite: true,
-                            nextArrow: $('#next-but'),
-                            prevArrow: $('#prev-but'),
-                            centerMode: true,
-                            centerPadding: '40px',
-                            slidesToShow: 1
-                        }
-                    }]
-                });
-            });
-        </script>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        
+     
         <script type="text/javascript">
             $(function() {
                 var icons = [
