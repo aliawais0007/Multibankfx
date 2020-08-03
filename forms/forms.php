@@ -48,7 +48,6 @@ if ($_POST) {
         $result =$STH->execute();
         echo $result;
     }
-    }
     if (isset($_POST['platform_version'])) {
         //demo from
         $db->exec("INSERT INTO myadmin_demo_account (name,mobile,email,platform) VALUES ('$name', '$email','$phone','$platform')");
