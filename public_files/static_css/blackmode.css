@@ -33,7 +33,7 @@
     --bg-plants: url(../images/common/form_bg-light.jpg);
     --table-background-islamic: url(../images/accounts_funding/islamic_benefit_bg-light.jpg);
     --bg-img-islamic2: url(../images/accounts_funding/islamic_form_bg-light.jpg);
-    --bg-twc: url(public_files/images/home/home_trade_start_trading.png);
+    --bg-twc: url(/public_files/images/home/home_trade_start_trading.png);
     --color-737576: #e4e7e9;
 }
 
@@ -70,7 +70,7 @@
     --bg-plants: url(../images/common/form_bg.jpg);
     --table-background-islamic: url(../images/accounts_funding/islamic_benefit_bg.jpg);
     --bg-img-islamic2: url(../images/accounts_funding/islamic_form_bg.jpg);
-    --bg-twc: url(public_files/images/home/home_trade_start_trading_dark.png);
+    --bg-twc: url(/public_files/images/home/home_trade_start_trading_dark.png);
     --color-737576: #737576;
 }
 
