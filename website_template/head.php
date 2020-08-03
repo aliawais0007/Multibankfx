@@ -89,4 +89,5 @@
     </script>
     <link rel="stylesheet" type="text/css" href="/public_files/static_css/swiper-3.4.2.min.css">
     <link rel="stylesheet" href="/public_files/static_css/rtl.css">
+
 </head>

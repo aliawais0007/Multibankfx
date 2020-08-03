@@ -32,6 +32,8 @@
   --bg-plants: url(../images/common/form_bg-light.jpg);
   --table-background-islamic: url(../images/accounts_funding/islamic_benefit_bg-light.jpg);
   --bg-img-islamic2: url(../images/accounts_funding/islamic_form_bg-light.jpg);
+  --logo-image: '/public_files/images/common/logo_black_360.png';
+  --color-737576: #e4e7e9;
 }
 
 [data-theme="dark"] {
@@ -66,6 +68,8 @@
   --bg-plants: url(../images/common/form_bg.jpg);
   --table-background-islamic: url(../images/accounts_funding/islamic_benefit_bg.jpg);
   --bg-img-islamic2: url(../images/accounts_funding/islamic_form_bg.jpg);
+  --logo-image: '/public_files/images/common/logo_black_360.png';
+  --color-737576: #737576;
 }
 
 body {
@@ -74,11 +78,9 @@ body {
   font-size: 20px;
   line-height: 26px;
   font-family: "Calibri", "SF Pro", Arial, sans-serif;
-  color: var(--font-color);
   letter-spacing: .011em;
   overflow-x: hidden;
   background-color: var(--bg-black);
-  color: var(--font-color);
 }
 
 ul {
@@ -968,6 +970,7 @@ h6 {
 
 .font-18 {
   font-size: 18px;
+  color: var(--font-color);
 }
 
 .text-white {
@@ -1073,6 +1076,7 @@ h6 {
 
 .font-40 {
   font-size: 40px !important;
+  color: var(--font-color);
 }
 
 .font-type-cap {
@@ -1534,6 +1538,7 @@ h1.uppercase {
 
 .mex-m-b-15 {
   margin-bottom: 15px !important;
+  color: var(--font-color);
 }
 
 .mex-m-l-15 {
@@ -1926,6 +1931,7 @@ h1.uppercase {
 }
 
 .line-height-30 {
+  color: var(--font-color);
   line-height: 30px;
 }
 
@@ -3158,7 +3164,7 @@ section.mex-block-card-v.mex-qtr .mex-content {
 }
 
 .bg-000 {
-  background-color: var(--bg-gray);
+  background-color: var(--bg-000);
 }
 
 .bg-F8F8F8 {
@@ -3180,6 +3186,7 @@ section.mex-block-card-v.mex-qtr .mex-content {
   transition: -webkit-transform 0.3s ease-in-out 0s, -webkit-box-shadow 0.3s ease-in-out 0s;
   transition: transform 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
   transition: transform 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s, -webkit-transform 0.3s ease-in-out 0s, -webkit-box-shadow 0.3s ease-in-out 0s;
+  border: 1px solid;
 }
 
 .shadow-box-smooth:hover {
@@ -3883,6 +3890,7 @@ label.error {
 
 .iti__country-list {
   max-width: 400px;
+  background-color: var(--bg-black);
 }
 
 .iti .input_with_phone {
@@ -4532,7 +4540,7 @@ sup.sup-size {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #222;
+  color: var(--font-color) !important;
   max-width: 100%;
   white-space: normal;
 }
@@ -4621,10 +4629,11 @@ sup.sup-size {
   display: inline-block;
   font-size: 13px;
   padding: 0 10px;
+  color: var(--font-color);
 }
 
 .header-top-left-menu li a {
-  color: #666;
+  color: var(--font-color);
   font-weight: 400;
   font-size: 12px;
 }
@@ -4751,6 +4760,7 @@ sup.sup-size {
 .lang-menu-current {
   padding: 0 20px;
   position: relative;
+  color: var(--font-color);
 }
 
 .lang-menu-current a {
@@ -4797,6 +4807,7 @@ sup.sup-size {
   padding: 6px 24px;
   display: block;
   line-height: 24px;
+  color: var(--font-color);
 }
 
 .lang-menu:hover .lang-menu-dropdown {
@@ -5395,6 +5406,7 @@ section.mex-block-full .mex-img-cover {
   top: 25%;
   z-index: 1000;
   display: none;
+  background: #fff6;
 }
 
 .slidebar a {
@@ -5636,7 +5648,7 @@ section.mex-block-full .mex-img-cover {
 #contact_us_form .cb-partnership label,
 #landing_franchise_contact_us_form .cb-partnership label,
 #call_back_footer_form .cb-partnership label {
-  color: #000 !important;
+  color: var(--font-color) !important;
 }
 
 .contact-form-button-container span {
@@ -7149,6 +7161,7 @@ ul.mex-list-disc li {
 
 .mex-h1 {
   text-align: center;
+  color: var(--font-color);
 }
 
 .news-con-h4 {
@@ -8149,6 +8162,7 @@ a.article-thumbnail-text {
 
 .book-content-ul {
   list-style: none;
+  color: var(--font-color);
   padding: 0;
 }
 
@@ -8202,7 +8216,7 @@ a.article-thumbnail-text {
   height: 50%;
   left: 0;
   right: 0;
-  background-color: #e2e5e7;
+  background-color: var(--color-737576);
   border-left: 2px solid #75777d;
   border-right: 1px solid #75777d;
 }
@@ -8353,7 +8367,7 @@ ul.mex-list-conditions.new-product li {
   height: 400px;
   overflow-x: hidden;
   overflow-y: scroll;
-  background: #737576;
+  background: var(--color-737576);
   padding-right: 20px;
   padding-left: 20px;
   position: relative;
@@ -9197,6 +9211,7 @@ ul.mex-list-conditions li {
   line-height: 50px;
   position: relative;
   z-index: 99;
+  color: var(--font-color);
 }
 
 .td-border-right {
@@ -10429,6 +10444,7 @@ section.tools-mex-block-card-v.mex-content {
 
 .contact-social-media {
   padding: 0;
+  color: var(--font-color);
 }
 
 .contact-social-media img {
@@ -11716,5 +11732,61 @@ nav {
 
 .mex-clamp-3 > a:hover {
   color: #000;
+}
+
+.modal-box__email-us {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 99999;
+  background-color: var(--font-color);
+}
+
+.modal-box__email-us.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal-box__email-us .btn-modal-close {
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+#email_us_form .form-control {
+  height: 45px;
+  background: #FFF;
+}
+
+#email_us_form .btn-submit {
+  background-color: #0390D7;
+  border-color: #0390D7;
+  min-width: 100px;
+}
+
+#email_us_form .form-control.ta-message {
+  height: 130px;
+  border-radius: 0;
+}
+
+label {
+  color: var(--font-color);
+}
+
+.bg-white > .col-md-12 > p.text-222 {
+  color: var(--font-color) !important;
 }
 /*# sourceMappingURL=blackmode.css.map */

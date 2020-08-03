@@ -20,7 +20,7 @@ if ($_POST) {
     $name2 =  isset($_POST['name2']) ? $_POST['name2'] : '';
     $status = 1;
 
-    print_r($_POST);
+    return $_POST;
     // if (isset($_POST['footer_form'])) {
 
     //     //footer from
