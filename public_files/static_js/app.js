@@ -871,7 +871,6 @@ $(document).ready(function() {
 
             toggleSwitch.checked = true;
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-            debugger
         } else {
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
 
@@ -879,7 +878,6 @@ $(document).ready(function() {
     }
 
     function switchTheme(e) {
-        debugger
         if (e.target.checked) {
             document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem('theme', 'dark');
