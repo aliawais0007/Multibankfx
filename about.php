@@ -996,9 +996,10 @@ foreach ($newss as $key => $value) {
             }
         }
     </style>
-
+    <script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
     <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         $(document).ready(function() {
             var index_swiper = new Swiper('#swiper-container-1', {
                 navigation: {
@@ -1044,7 +1045,8 @@ foreach ($newss as $key => $value) {
                 }]
             });
         });
-    </script>
+    </script> -->
+    
 </body>
 
 </html>
