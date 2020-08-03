@@ -488,8 +488,9 @@ foreach ($allnews as $item) {
     </section>
     <section class="d-md-none d-block twc-section">
         <div class="mex-h1 text-1e32a3 text-center uppercase mt-3">Trade with confidence</div>
-        <div class="container" style="background-image: url(public_files/images/home/home_trade_start_trading.png);
-                                      background-size: cover;">
+        <div class="container twc-mobile" style="background-size: cover;">
+        <!-- <div class="container" style="background-image: url(public_files/images/home/home_trade_start_trading.png);
+                                      background-size: cover;"> -->
             <div class="row">
                 <div style="
                         height: 100%;

@@ -11802,9 +11802,14 @@ label {
     color: var(--font-color) !important;
 }
 
-.twc-section>.container {
+
+/* .twc-section>.container {
     background-image: var(--bg-twc);
     background-size: cover;
+} */
+
+.twc-mobile {
+    background-image: var(--bg-twc);
 }
 
 .article-title {
