@@ -11814,7 +11814,7 @@ label {
 #swiper-container-awards,
 #swiper-container-awards section {
     transform: scale(1.2);
-    height: 50vh!important;
+    height: 65vw!important;
 }
 
 @media (max-width: 767px) {
