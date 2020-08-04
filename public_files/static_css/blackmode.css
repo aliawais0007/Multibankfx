@@ -11641,7 +11641,7 @@ table.dataTable tbody tr {
 }
 
 .mex-h2.mex-bold {
-    color: black;
+    color: var(--font-color);
 }
 
 .mex-h3.text-overflow-1 {
