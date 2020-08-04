@@ -11924,7 +11924,7 @@ strong {
 }
 
 .st-section.pt-0 {
-    background-color: none !important;
+    background-color: transparent !important;
 }
 
 .st-section div {
