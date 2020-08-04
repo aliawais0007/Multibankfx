@@ -11869,7 +11869,7 @@ section.mex-block-card-v {
     box-shadow: none;
 }
 
-section.choose-next-background.square .text-center {
+section.choose-next-background.square .container {
     color: var(--font-color);
 }
 
