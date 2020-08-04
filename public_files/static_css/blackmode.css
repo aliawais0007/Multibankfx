@@ -12055,10 +12055,6 @@ a span strong {
 }
 
 .table-background.keyboard {
-    background-color: var(--background-dark);
-}
-
-form label {
     color: var(--font-color);
 }
 
