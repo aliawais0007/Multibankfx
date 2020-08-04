@@ -1018,16 +1018,19 @@ h6 {
 .mex-h1 {
     font-size: 56px;
     line-height: 1.1;
+    color: var(--font-color);
     margin-bottom: 10px;
 }
 
 .mex-h2 {
     font-size: 40px;
+    color: var(--font-color);
     line-height: 46px;
 }
 
 .mex-h3 {
     font-size: 22px;
+    color: var(--font-color);
     line-height: 30px;
     font-weight: 400;
 }
@@ -1035,6 +1038,7 @@ h6 {
 .mex-bold,
 .mex-font-bold {
     font-weight: 400;
+    color: var(--font-color);
 }
 
 .mex-font-lighter {
@@ -4792,7 +4796,7 @@ sup.sup-size {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #222;
+    color: var(--font-color);
     max-width: 100%;
     white-space: normal;
 }
