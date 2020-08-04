@@ -11851,10 +11851,10 @@ label {
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
-        height: 60vw;
+        height: 60vw !important;
     }
     .about-page-awards .swiper-container img {
-        height: 40vw;
+        height: 40vw !important;
     }
     .custom-card-img .card {
         height: 200px;
