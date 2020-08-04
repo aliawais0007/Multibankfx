@@ -11889,6 +11889,10 @@ section.choose-next-background.square .container {
     color: var(--trader-color);
 }
 
+strong {
+    color: var(--font-color);
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
