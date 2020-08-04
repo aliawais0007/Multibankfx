@@ -512,7 +512,7 @@
             <div class="mex-h2 text-fff text-center">
                 Benefits of MultiBank Social Trading
             </div>
-            <div class="row mex-m-t-120 mex-m-b-10">
+            <div class="row mex-m-t-120 mex-m-b-10 dark-text-white">
                 <div class="col-12 col-sm-6 col-xl-3 st_benefit_container st-mb-xl-100">
                     <div class="st_benefit_card benefit">
                         <div class="st_benefit_icon"><img src="/public_files/images/social_trading/st_benefit_icon1.png" alt="Professional" /></div>

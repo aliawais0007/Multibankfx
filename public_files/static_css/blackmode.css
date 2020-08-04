@@ -11915,7 +11915,7 @@ strong {
 }
 
 section div div {
-    color: var(--font-color);
+    /* color: var(--font-color); */
 }
 
 .st-section {
