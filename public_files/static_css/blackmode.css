@@ -42,6 +42,7 @@
     --trader-color: black;
     --background-dark: #F1F1F1;
     --background-dark-invester: #ECF3F9;
+    --backgroun-dark-st: #EBEBEB;
 }
 
 [data-theme="dark"] {
@@ -86,6 +87,7 @@
     --trader-color: white;
     --background-dark: #212529;
     --background-dark-invester: black;
+    --backgroun-dark-st: #000;
 }
 
 body {
@@ -11402,7 +11404,7 @@ section.table-background.other-bg {
     background-size: 100%;
 }
 
-@media (max-width: 1200px) {
+.invest-smarter @media (max-width: 1200px) {
     .area-left,
     .area-right {
         width: 100% !important;
@@ -11954,11 +11956,11 @@ a {
 }
 
 .invest-smarter {
-    background-color: var(--background-dark);
+    background-color: var(--background-dark) !important;
 }
 
 .invest-smarter div:first-child {
-    color: var(--font-color);
+    color: var(--font-color) !important;
 }
 
 .st_benefit_card.invest {
@@ -12028,6 +12030,7 @@ a {
     color: var(--font-color);
 }
 
+.background-color:;
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
