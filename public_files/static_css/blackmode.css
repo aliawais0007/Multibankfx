@@ -11858,8 +11858,11 @@ label {
 .mex-block-card,
 .platforms_content,
 .box-animate {
-    box-shadow: none;
     border: 1px solid var(--boxshadow);
+}
+
+section.mex-block-card-v {
+    box-shadow: none;
 }
 
 @media (max-width: 768px) {
