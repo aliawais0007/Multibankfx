@@ -11957,7 +11957,7 @@ a {
 }
 
 .st_benefit_card.invest {
-    color: black;
+    color: black !important;
 }
 
 @media (max-width: 768px) {
