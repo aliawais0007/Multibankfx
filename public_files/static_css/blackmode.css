@@ -11914,8 +11914,7 @@ strong {
     background-color: var(--background-dark);
 }
 
-section div div,
-section div div div a {
+section div div {
     color: var(--font-color);
 }
 
@@ -11925,6 +11924,10 @@ section div div div a {
 
 .text-fff {
     color: var(--font-color);
+}
+
+a {
+    --link-color: #007bff !important;
 }
 
 @media (max-width: 768px) {
