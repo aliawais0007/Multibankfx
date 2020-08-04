@@ -12038,6 +12038,10 @@ a {
     color: var(--font-color) !important;
 }
 
+li a span strong {
+    color: black !important;
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
