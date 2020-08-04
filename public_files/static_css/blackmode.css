@@ -12038,7 +12038,7 @@ a {
     color: var(--font-color) !important;
 }
 
-li a span strong {
+a span strong {
     color: black !important;
 }
 
