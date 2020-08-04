@@ -11986,7 +11986,8 @@ a {
 
 .page-top-banner {}
 
-.fi_copy_trade .div {
+.fi_copy_trade div,
+.fi_copy_trade {
     color: black !important;
 }
 
