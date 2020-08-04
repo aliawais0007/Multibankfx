@@ -39,6 +39,7 @@
     --index-platform: url(../images/home/home_platforms_bg_light.jpg);
     --color-737576: #e4e7e9;
     --choose-next-background-color: black;
+    --trader-color: white;
 }
 
 [data-theme="dark"] {
@@ -80,6 +81,7 @@
     --index-platform: url(../images/home/home_platforms_bg.jpg);
     --color-737576: #737576;
     --choose-next-background-color: white;
+    --trader-color: black;
 }
 
 body {
@@ -11881,6 +11883,10 @@ section.choose-next-background.square .container {
 
 .ico-ic_live_chat_support:hover {
     color: red;
+}
+
+.signal-provider {
+    color: var(--trader-color);
 }
 
 @media (max-width: 768px) {
