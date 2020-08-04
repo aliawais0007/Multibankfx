@@ -11960,7 +11960,7 @@ a {
 }
 
 .invest-smarter div:first-child {
-    color: var(--font-color) !important;
+    /* color: var(--font-color) !important; */
 }
 
 .st_benefit_card.invest {
@@ -12030,7 +12030,6 @@ a {
     color: var(--font-color);
 }
 
-.background-color:;
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
