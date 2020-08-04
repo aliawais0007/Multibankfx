@@ -12017,10 +12017,15 @@ a {
 
 .shadow-box-smooth {
     box-shadow: none !important;
+    border: 1px solid #495057;
 }
 
 .iti__country-name {
     color: white;
+}
+
+.multibank-form.row.mx-0.w-100.new div:first-child {
+    color: var(--font-color);
 }
 
 @media (max-width: 768px) {
