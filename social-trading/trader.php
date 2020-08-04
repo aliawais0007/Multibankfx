@@ -169,7 +169,7 @@
             </div>
         </div>
     </section>
-    <section style="background-color: #F1F1F1;">
+    <section>
         <div class="container">
             <div class="row ">
                 <div class="col-12 col-md-6 align-self-center">
