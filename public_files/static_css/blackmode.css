@@ -37,6 +37,7 @@
     --bg-img-islamic2: url(../images/accounts_funding/islamic_form_bg-light.jpg);
     --bg-twc: url(public_files/images/home/home_trade_start_trading.png);
     --index-platform: url(../images/home/home_platforms_bg_light.jpg);
+    --keyboard: url(../images/common/white_label_form_bg.png);
     --color-737576: #e4e7e9;
     --choose-next-background-color: black;
     --trader-color: black;
@@ -11395,7 +11396,7 @@ section.table-background.request {
 }
 
 section.table-background.keyboard {
-    background-image: url(../images/common/white_label_form_bg.png);
+    background-image: var(--keyboard);
 }
 
 section.table-background.other-bg {
