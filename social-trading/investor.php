@@ -76,7 +76,7 @@
             </div>
         </div>
     </section>
-    <section class="page-top-banner darkmode-second-top" style="background-color: #ECF3F9;">
+    <section class="page-top-banner darkmode-second-top">
         <div class="container">
             <div class="row">
                 <div class="col-12 row mex-m-b-80" style="align-items: center;">
