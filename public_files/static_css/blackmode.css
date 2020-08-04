@@ -11984,7 +11984,9 @@ a {
     color: var(--font-color);
 }
 
-.page-top-banner {}
+.page-top-banner .container .row {
+    color: var(--font-color);
+}
 
 .fi_copy_trade div,
 .fi_copy_trade {
