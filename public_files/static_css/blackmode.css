@@ -11997,6 +11997,10 @@ a {
     color: black !important;
 }
 
+.st-slide-content ol {
+    color: var(--font-color);
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
