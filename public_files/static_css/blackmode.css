@@ -11854,6 +11854,14 @@ label {
 
 /*# sourceMappingURL=blackmode.css.map */
 
+.mex-block-card-v,
+.mex-block-card,
+.platforms_content,
+.box-animate {
+    box-shadow: none;
+    border: 1px solid #495057;
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
