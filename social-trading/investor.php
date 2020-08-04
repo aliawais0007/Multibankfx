@@ -441,7 +441,7 @@
     <section class="page-top-banner darkmode-second-top">
         <div class="container">
             <div class="row">
-                <div class="col-12 row mex-m-b-80" style="align-items: center;">
+                <div class="col-12 row mex-m-b-80 invester-secon-section" style="align-items: center;">
                     <div class="col-12 col-md-6 text-md-center"><img src="/public_files/images/social_trading/fi_make_money.png" /></div>
                     <div class="col-12 col-md-6">
                         <p class="text-006AD0 mex-h2 st-h2 text-md-center text-left">How to Make Money With Social Trading:</p>
@@ -452,7 +452,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 row mex-m-b-80" style="align-items: center; flex-direction: row-reverse;">
+                <div class="col-12 row mex-m-b-80 invester-secon-section" style="align-items: center; flex-direction: row-reverse;">
                     <div class="col-12 col-md-6 text-md-center">
                         <img src="/public_files/images/social_trading/fi_right_signal_provider.png" />
                     </div>
@@ -461,7 +461,7 @@
                         <p>Besides checking the profitability of the Signal Provider's trading records, there are several other important indicators that can help Investors analyze which accounts to follow.</p>
                     </div>
                 </div>
-                <div class="col-12 row mex-m-b-80" style="align-items: center;">
+                <div class="col-12 row mex-m-b-80 invester-secon-section" style="align-items: center;">
                     <div class="col-12 col-md-6 text-md-center">
                         <img src="/public_files/images/social_trading/fi_active_account.png" />
                     </div>
@@ -470,7 +470,7 @@
                         <p>One important indicator to pay attention to is checking how long the account has been active for, and how long the account has been earning profit. You can find this through the Leaderboard account statistics, where you can see charts and graphs showing the account's entire operational history.</p>
                     </div>
                 </div>
-                <div class="col-12 row mex-m-b-80" style="align-items: center; flex-direction: row-reverse;">
+                <div class="col-12 row mex-m-b-80 invester-secon-section" style="align-items: center; flex-direction: row-reverse;">
                     <div class="col-12 col-md-6 text-md-center">
                         <img src="/public_files/images/social_trading/fi_maximum_drawdown.png" />
                     </div>
@@ -479,7 +479,7 @@
                         <p>Another thing to check for is the maximum drawdown on the account in relation to the profit of the account. This allows Investors to determine the aggressiveness of the Signal Provider's strategy.</p>
                     </div>
                 </div>
-                <div class="col-12 row mex-m-b-80" style="flex-direction: row-reverse;">
+                <div class="col-12 row mex-m-b-80 invester-secon-section" style="flex-direction: row-reverse;">
                     <div class="col-12 col-md-6">
                         <p class="text-006AD0 mex-h2 st-h2 text-md-center text-left">Other Indicators</p>
                         <p>There are many other indicators that Investors can watch out for. For example, percentage of profitable trades, percentage of losing trades, Profit Factor, Recovery Factor, etc. If you’d like to learn more about the various indicators, you can find them on our Leaderboard section.</p>
