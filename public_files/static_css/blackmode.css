@@ -11914,7 +11914,8 @@ strong {
     background-color: var(--background-dark);
 }
 
-section div div {
+section div div,
+section div div div a {
     color: var(--font-color);
 }
 
