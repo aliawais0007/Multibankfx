@@ -11865,6 +11865,10 @@ section.mex-block-card-v {
     box-shadow: none;
 }
 
+.shadow-box-animate {
+    box-shadow: none;
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
