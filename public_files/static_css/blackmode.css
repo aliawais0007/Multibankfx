@@ -11956,6 +11956,10 @@ a {
     color: var(--font-color);
 }
 
+.st_benefit_card.invest {
+    color: black;
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
