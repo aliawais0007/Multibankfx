@@ -38,6 +38,7 @@
     --bg-twc: url(public_files/images/home/home_trade_start_trading.png);
     --index-platform: url(../images/home/home_platforms_bg_light.jpg);
     --keyboard: url(../images/common/white_label_form_bg.png);
+    --conatct-top: url(../images/contact/contact_top_banner.jpg);
     --color-737576: #e4e7e9;
     --choose-next-background-color: black;
     --trader-color: black;
@@ -84,6 +85,7 @@
     --bg-twc: url(public_files/images/home/home_trade_start_trading_dark.png);
     --index-platform: url(../images/home/home_platforms_bg.jpg);
     --keyboard: url(../images/common/white_label_form_bg_dark.png);
+    --conatct-top: url(../images/contact/contact_top_banner_dark.jpg);
     --color-737576: #737576;
     --choose-next-background-color: white;
     --trader-color: white;
@@ -10544,7 +10546,7 @@ section.tools-mex-block-card-v.mex-content {
 }
 
 .contact-bg {
-    background: url(../images/contact/contact_top_banner.jpg) no-repeat center;
+    background: var(--conatct-top) no-repeat center;
 }
 
 .contact-service-number-title {
