@@ -11914,8 +11914,9 @@ strong {
     background-color: var(--background-dark);
 }
 
-section div div {
-    /* color: var(--font-color); */
+.dark-mode-top .row div p,
+.dark-mode-top .row div ul {
+    color: var(--font-color);
 }
 
 .st-section {
