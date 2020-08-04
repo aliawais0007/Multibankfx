@@ -11944,6 +11944,10 @@ a {
     z-index: -1;
 }
 
+.article-body p {
+    color: var(--font-color);
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
