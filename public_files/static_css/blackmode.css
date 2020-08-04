@@ -11914,6 +11914,10 @@ strong {
     background-color: var(--background-dark);
 }
 
+section div div {
+    color: white;
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
