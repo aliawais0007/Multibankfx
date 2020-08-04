@@ -11918,6 +11918,14 @@ section div div {
     color: white;
 }
 
+.st-section {
+    background-color: var(--background-dark);
+}
+
+.text-fff {
+    color: var(--font-color);
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
