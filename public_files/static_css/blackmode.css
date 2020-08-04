@@ -41,6 +41,7 @@
     --choose-next-background-color: black;
     --trader-color: black;
     --background-dark: #F1F1F1;
+    --background-dark-invester: #ECF3F9;
 }
 
 [data-theme="dark"] {
@@ -84,6 +85,7 @@
     --choose-next-background-color: white;
     --trader-color: white;
     --background-dark: #212529;
+    --background-dark-invester: black;
 }
 
 body {
@@ -11901,6 +11903,14 @@ strong {
 }
 
 .dark-background {
+    background-color: var(--background-dark);
+}
+
+.darkmode-second-top {
+    background-color: var(--background-dark-invester);
+}
+
+.darkmode-top-banner {
     background-color: var(--background-dark);
 }
 

@@ -57,7 +57,7 @@
     </style>
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <section style="background-color: #fff">
+    <section class="dark-mode-top">
         <div class="row container mx-auto">
             <div class="col-lg-6 col-xs-12">
                 <p>Follow the Success of Professional Traders</p>
@@ -76,7 +76,7 @@
             </div>
         </div>
     </section>
-    <section class="page-top-banner" style="background-color: #ECF3F9;">
+    <section class="page-top-banner darkmode-second-top" style="background-color: #ECF3F9;">
         <div class="container">
             <div class="row">
                 <div class="col-12 row mex-m-b-80" style="align-items: center;">
