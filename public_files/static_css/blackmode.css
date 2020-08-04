@@ -11997,7 +11997,8 @@ a {
     color: black !important;
 }
 
-.st-slide-content ol {
+.st-slide-content ol,
+.st-slide-content div {
     color: var(--font-color);
 }
 
