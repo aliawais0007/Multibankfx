@@ -58,7 +58,7 @@
     </style>
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <section class="st-section">
+    <section class="st-section leaderboard">
         <div class="banner_overlay"></div>
         <img style="    object-fit: cover;width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -1;" src="/public_files/images/social_trading/leaderborad_banner.jpg" alt="">
         <div class="container text-center mex-p-v-80 row justify-content-end mx-auto">
@@ -71,7 +71,7 @@
     <div class="mx-auto" style="max-width: 1180px !important; margin-top: 57px; height: auto;">
         <iframe id="st_leaderboard" class="mx-auto" src="https://invest.multibankfx.com/#/iframe-leaderboard?lang=en" style="width: 100%; height: 1080px; border: none"></iframe>
     </div>
-    <section style="background-color: #fff">
+    <section class="leaderboard-investment">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">

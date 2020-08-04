@@ -12003,6 +12003,18 @@ a {
     color: var(--font-color);
 }
 
+.leaderboard {
+    background-color: transparent !important;
+}
+
+.leaderboard-investment {
+    background-color: var(--background-dark);
+}
+
+.leaderboard-investment .container {
+    color: var(--font-color);
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
