@@ -12024,7 +12024,7 @@ a {
     color: white;
 }
 
-.multibank-form.row.mx-0.w-100.new div:first-child {
+.multibank-form .col-12.p-0 {
     color: var(--font-color);
 }
 
