@@ -38,6 +38,7 @@
     --bg-twc: url(public_files/images/home/home_trade_start_trading.png);
     --index-platform: url(../images/home/home_platforms_bg_light.jpg);
     --color-737576: #e4e7e9;
+    --choose-next-background-color: black;
 }
 
 [data-theme="dark"] {
@@ -78,6 +79,7 @@
     --bg-twc: url(public_files/images/home/home_trade_start_trading_dark.png);
     --index-platform: url(../images/home/home_platforms_bg.jpg);
     --color-737576: #737576;
+    --choose-next-background-color: white;
 }
 
 body {
@@ -11871,6 +11873,14 @@ section.mex-block-card-v {
 
 section.choose-next-background.square .container {
     color: var(--font-color);
+}
+
+.ico-ic_live_chat_support {
+    color: var(--choose-next-background-color);
+}
+
+.ico-ic_live_chat_support:hover {
+    color: red;
 }
 
 @media (max-width: 768px) {
