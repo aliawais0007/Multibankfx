@@ -12034,6 +12034,10 @@ a {
     color: var(--article-title) !important;
 }
 
+.article-date {
+    color: var(--font-color) !important;
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
