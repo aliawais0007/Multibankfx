@@ -11984,6 +11984,12 @@ a {
     color: var(--font-color);
 }
 
+.page-top-banner {}
+
+.fi_copy_trade .div {
+    color: black !important;
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
