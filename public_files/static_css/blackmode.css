@@ -11974,6 +11974,11 @@ a {
     color: var(--font-color);
 }
 
+.side-news-text.text-left a {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
