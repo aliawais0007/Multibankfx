@@ -881,6 +881,7 @@ $(document).ready(function() {
 
     function switchTheme(e) {
         if (e.target.checked) {
+            debugger
             document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem('theme', 'dark');
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
