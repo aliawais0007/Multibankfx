@@ -91,8 +91,10 @@
     <script>
         if (localStorage.getItem("theme") === "dark") {
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
+            $('.footer_logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
         } else {
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
+            $('.footer_logo').attr('src', '/public_files/images/common/logo_black_360.png');
 
         }
     </script>
