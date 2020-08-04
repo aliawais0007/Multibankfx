@@ -12062,6 +12062,10 @@ a span strong {
     color: var(--font-color);
 }
 
+.col-12 .mex-h2.mb20.mb-xs-16.uppercase {
+    color: var(--font-color);
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
