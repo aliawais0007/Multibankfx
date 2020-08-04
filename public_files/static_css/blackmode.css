@@ -11848,7 +11848,7 @@ label {
 
 /*# sourceMappingURL=blackmode.css.map */
 
-@media all and (max-width:768) {
+@media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
         height: 60vw;
