@@ -8060,7 +8060,7 @@ a.timeline-arrow:hover {
     width: 30px;
     height: 6px;
     margin-top: 22px;
-    background: #222;
+    background: var(--font-color);
     display: inline-block;
 }
 
