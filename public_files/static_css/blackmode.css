@@ -11968,7 +11968,8 @@ a {
     background-color: var(--background-dark);
 }
 
-.improve-knowledge ul {
+.improve-knowledge ul,
+.improve-knowledge div {
     color: var(--font-color);
 }
 
