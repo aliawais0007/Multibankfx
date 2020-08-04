@@ -11960,6 +11960,18 @@ a {
     color: black !important;
 }
 
+.st_benefit_card.benefit {
+    color: black !important;
+}
+
+.improve-knowledge {
+    background-color: var(--background-dark);
+}
+
+.improve-knowledge div {
+    color: var(--font-color);
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
