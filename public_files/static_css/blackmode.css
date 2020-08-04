@@ -12015,6 +12015,14 @@ a {
     color: var(--font-color);
 }
 
+.shadow-box-smooth {
+    box-shadow: none !important;
+}
+
+.iti__country-name {
+    color: white;
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
