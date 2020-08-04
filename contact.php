@@ -274,7 +274,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-6 col-12 row flex-column justify-content-center align-items-center mx-0 py-4">
-                                <div class="mex-h1 mb-0">
+                                <div class="mex-h1 mb-0 email-text">
                                     EMAIL </div>
                                 <div class="mex-content">
                                     <p class="mex-m-t-15"><strong>Customer Support:</strong> <a href="cdn-cgi/l/email-protection.html#8fecfccfe2fae3fbe6edeee1e4e9f7a1ece0e2"><span class="__cf_email__" data-cfemail="ea8999aa879f869e83888b84818c92c4898587">[email&#160;protected]</span></a>
