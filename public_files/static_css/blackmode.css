@@ -11969,7 +11969,8 @@ a {
 }
 
 .improve-knowledge ul,
-.improve-knowledge div {
+.improve-knowledge div,
+.improve-knowledge div .st-h2 {
     color: var(--font-color);
 }
 
