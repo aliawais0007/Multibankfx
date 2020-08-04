@@ -871,8 +871,10 @@ $(document).ready(function() {
 
             toggleSwitch.checked = true;
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
+            $('.footer_logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
         } else {
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
+            $('.footer_logo').attr('src', '/public_files/images/common/logo_black_360.png');
 
         }
     }
@@ -882,10 +884,12 @@ $(document).ready(function() {
             document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem('theme', 'dark');
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
+            $('.footer_logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
         } else {
             document.documentElement.setAttribute('data-theme', 'light');
             localStorage.setItem('theme', 'light');
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
+            $('.footer_logo').attr('src', '/public_files/images/common/logo_black_360.png');
         }
     }
 
