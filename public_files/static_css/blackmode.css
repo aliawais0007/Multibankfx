@@ -11922,6 +11922,10 @@ section div div {
     background-color: var(--background-dark);
 }
 
+.st-section div {
+    color: var(--font-color);
+}
+
 .text-fff {
     color: var(--font-color);
 }
