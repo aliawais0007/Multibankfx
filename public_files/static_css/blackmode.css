@@ -11899,6 +11899,10 @@ strong {
     color: var(--font-color);
 }
 
+.dark-background {
+    background-color: var(--background-dark);
+}
+
 @media (max-width: 768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
