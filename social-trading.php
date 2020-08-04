@@ -581,7 +581,7 @@
             </div>
         </div>
     </section>
-    <section class="st-section" style="background-color: #EBEBEB;">
+    <section class="st-section invest-smarter">
         <div class="container text-center">
             <div class="mex-h2 text-005190 text-center mex-m-b-10">
                 Invest Smarter
