@@ -12054,6 +12054,10 @@ a span strong {
     color: var(--font-color);
 }
 
+.contact_section.request {
+    background-color: var(--background-dark);
+}
+
 .table-background.keyboard {
     color: var(--font-color);
 }
