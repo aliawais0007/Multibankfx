@@ -11923,6 +11923,10 @@ strong {
     background-color: var(--background-dark);
 }
 
+.st-section.pt-0 {
+    background-color: none !important;
+}
+
 .st-section div {
     color: var(--font-color);
 }
