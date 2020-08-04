@@ -39,7 +39,7 @@
     --index-platform: url(../images/home/home_platforms_bg_light.jpg);
     --color-737576: #e4e7e9;
     --choose-next-background-color: black;
-    --trader-color: white;
+    --trader-color: black;
 }
 
 [data-theme="dark"] {
@@ -81,7 +81,7 @@
     --index-platform: url(../images/home/home_platforms_bg.jpg);
     --color-737576: #737576;
     --choose-next-background-color: white;
-    --trader-color: black;
+    --trader-color: white;
 }
 
 body {
