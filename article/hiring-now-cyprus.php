@@ -744,15 +744,15 @@
         <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script type="text/javascript">
             // organise in 2 columns
-            $('#career_apply_job').find('.form-check-inline').removeClass('form-check-inline');
-            $('#career_apply_job .col-left').wrapAll('<div class="col-12 col-md-6 p-0" />');
-            $('#career_apply_job .col-right').wrapAll('<div class="col-12 col-md-6  right-container mx-0" ></div><div class="float-none;"><!-- --></div>');
+            // $('#career_apply_job').find('.form-check-inline').removeClass('form-check-inline');
+            // $('#career_apply_job .col-left').wrapAll('<div class="col-12 col-md-6 p-0" />');
+            // $('#career_apply_job .col-right').wrapAll('<div class="col-12 col-md-6  right-container mx-0" ></div><div class="float-none;"><!-- --></div>');
 
-            $('#career_apply_job .send-code-container').appendTo($('#career_apply_job .right-container'));
-            $('#career_apply_job .sms-code-container').appendTo($('#career_apply_job .right-container'));
-            $('#career_apply_job .btn-submit').appendTo($('#career_apply_job .right-container'));
-            $('#career_apply_job .send-code-container, #career_apply_job .sms-code-container').addClass('my-4');
-            $('file-info')
+            // $('#career_apply_job .send-code-container').appendTo($('#career_apply_job .right-container'));
+            // $('#career_apply_job .sms-code-container').appendTo($('#career_apply_job .right-container'));
+            // $('#career_apply_job .btn-submit').appendTo($('#career_apply_job .right-container'));
+            // $('#career_apply_job .send-code-container, #career_apply_job .sms-code-container').addClass('my-4');
+            // $('file-info')
 
             //style the send sms code button
             $("#career_apply_job #button-send-callme_form").removeClass("w-100");
