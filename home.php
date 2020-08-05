@@ -173,7 +173,7 @@ foreach ($allnews as $item) {
             <a class="home-banner-btn1">Try free Demo</a>
             <a class="home-banner-btn2">Open Live Account</a>
             </div>
-            <span>All trading involves risk. Losses can exceed deposits.</span>
+            <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span>
         </div>
     </div>
     </div>
