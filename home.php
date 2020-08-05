@@ -166,9 +166,15 @@ foreach ($allnews as $item) {
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
     </div>
-    <div class="container home-banner-container">
+    <div class="home-banner-container">
         <div class="row flex-column justify-content-center align-items-center">
-            <h1>ESTABLISHED IN 2005</h1>
+            <span class="home-banner-title1">ESTABLISHED IN 2005</span>
+            <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span>
+            <div class="row">
+            <a>Try Demo Account</a>
+            <a>Open Live Account</a>
+            </div>
+            <span>All trading involves risk. Losses can exceed deposits.</span>
         </div>
     </div>
 
