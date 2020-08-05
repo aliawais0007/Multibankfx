@@ -167,43 +167,8 @@ foreach ($allnews as $item) {
         <div class="swiper-button-prev swiper-button-white"></div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="home-banner-form d-none d-md-block">
-                <!-- <div class="mex-p-h-15">
-
-                 
-                    <hr class="mx-1 my-2 bg-dark">
-                    <div class="px-1 contact-form-button-container">
-                        <a href="/account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
-                            <span>&#xe91d;</span>
-                            <div class="btn-vr"></div>
-                            <?php translate('OPEN LIVE ACCOUNT'); ?>
-                        </a>
-                        <a href="/demo-competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
-                            <span>&#xe918;</span>
-                            <div class="btn-vr"></div>
-                            <?php translate('OPEN DEMO ACCOUNT'); ?>
-                        </a>
-                        <a href="/partnership/introducing-brokers.php" class="d-flex btn btn-mex-gray mex-m-b-5 col-md-12 col-xs-12 align-items-center">
-                            <span>&#xe920;</span>
-                            <div class="btn-vr"></div>
-                            <?php translate('IB REGISTRATION'); ?>
-                        </a>
-                        <a href="/account/account-funding.php" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
-                            <span>&#xe921;</span>
-                            <div class="btn-vr"></div>
-                            <?php translate('FUND YOUR ACCOUNT'); ?>
-                        </a>
-                        <div class="px-1 font-10" style="padding:0px;">
-                            <div class="form-check form-check-inline">
-                                <label class="form-check-label label-1 " for="terms_conditions"><?php translate('By submitting this form, you
-                                agree to accept the'); ?> <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Terms & Conditions'); ?></a>, <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Privacy Policy'); ?></a>, <?php translate('and'); ?> <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;"><?php translate('Cookie Policy'); ?></a>.
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
+        <div class="row flex-column justify-content-center align-items-center">
+            <h1>ESTABLISHED IN 2005</h1>
         </div>
     </div>
 
