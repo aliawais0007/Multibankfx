@@ -165,8 +165,7 @@ foreach ($allnews as $item) {
         <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div>
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
-    </div>
-    <div class="home-banner-container">
+        <div class="home-banner-container">
         <div class="row flex-column justify-content-center align-items-center">
             <span class="home-banner-title1">ESTABLISHED IN 2005</span>
             <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span>
@@ -177,6 +176,8 @@ foreach ($allnews as $item) {
             <span>All trading involves risk. Losses can exceed deposits.</span>
         </div>
     </div>
+    </div>
+  
 
     <style>
         .bmw {
