@@ -12,16 +12,16 @@
                     <div class="mex-h3  mex-p-v-15 "><?php translate('Phone Numbers Worldwide'); ?></div>
                     <ul class="contact-country">
                         <li class="d-block"><a href="tel:+12139924748?call"><img alt="US" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/usa_big.png" />
-                                <span> <strong><?php translate('US:'); ?></strong> +1 213 992 4748 </span> </a></li>
+                                <span> <strong class="country-name"><?php translate('US:'); ?></strong> +1 213 992 4748 </span> </a></li>
                         <li class="d-block"><a href="tel:+34931220671?call"><img alt="Spain" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/spain_big.png" />
-                                <span> <strong><?php translate('Spain:'); ?></strong> +34 931220671</span></a></li>
+                                <span> <strong class="country-name"><?php translate('Spain:'); ?></strong> +34 931220671</span></a></li>
                         <li class="d-block"><a href="tel:+6202129264151?call"><img alt="Indonesia" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/indonesia_big.png" />
-                                <span> <strong><?php translate('Indonesia:'); ?></strong> +62 02129264151 </span> </a></li>
+                                <span> <strong class="country-name"><?php translate('Indonesia:'); ?></strong> +62 02129264151 </span> </a></li>
                         <li class="d-block"><a href="tel:+60322010966?call"><img alt="Malaysia" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/malaysia_big.png" />
-                                <span> <strong><?php translate('Malaysia:'); ?></strong> +60 32 201 0966</span> </a></li>
+                                <span> <strong class="country-name"><?php translate('Malaysia:'); ?></strong> +60 32 201 0966</span> </a></li>
 
                         <li class="d-block"><a href="tel:+60322010966?call"><img alt="Malaysia" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/uae.png" />
-                                <span> <strong><?php translate('UAE:'); ?></strong> +971 4 875 1311</span> </a></li>
+                                <span> <strong class="country-name"><?php translate('UAE:'); ?></strong> +971 4 875 1311</span> </a></li>
                     </ul>
                     <a class="btn btn-mex " style="color: white !important;" href="/contact.php"><?php translate('Find your Country here'); ?></a>
                 </div>

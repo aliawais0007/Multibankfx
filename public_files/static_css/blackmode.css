@@ -5947,6 +5947,10 @@ section.mex-block-full .mex-img-cover {
     margin: auto
 }
 
+li a .country-name {
+    color: white !important
+}
+
 .home-banner-small-text {
     font-size: 1vw;
     margin-top: 3%;
