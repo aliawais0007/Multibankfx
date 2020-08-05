@@ -585,7 +585,7 @@ foreach ($allnews as $item) {
             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
         </div>
     </section>
-    <section class="bg-white p0 index-platforms d-md-none" style="background-image: url(public_files/images/home/home_platforms_bg.jpg);background-size: contain;
+    <section class="bg-white p0 index-platforms d-md-none" style="background-size: contain;
     background-position: center;
     background-repeat: no-repeat;">
         <div class="container" style="height: 100%;padding: 40px 0;">
