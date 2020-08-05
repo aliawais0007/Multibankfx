@@ -159,9 +159,9 @@ foreach ($allnews as $item) {
                     </div>
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
-                    <div class="min1 d-none d-lg-block" style="background-image:url('public_files/images/home/home-banner-multibank-mt5.jpg');">
+                    <div class="min1 d-none d-lg-block" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
                     </div>
-                    <div class="min2 d-block d-lg-none" style="background-image:url('public_files/images/home/home-banner-multibank-mt5-750x600.jpg');">
+                    <div class="min2 d-block d-lg-none" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5-750x600.jpg');">
                         <img src="public_files/images/home/home-banner-multibank-mt5-750x600.jpg" />
                     </div>
             </div>
