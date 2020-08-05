@@ -12143,7 +12143,7 @@ a span strong {
 
 .slidebar a {
     background-color: transparent !important;
-    border: none !important;
+    border: white !important;
 }
 
 .slidebar a span.btn {
