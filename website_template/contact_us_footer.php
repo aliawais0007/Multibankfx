@@ -23,7 +23,7 @@
                         <li class="d-block"><a href="tel:+60322010966?call"><img alt="Malaysia" class="country-icon" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/country/uae.png" />
                                 <span> <strong><?php translate('UAE:'); ?></strong> +971 4 875 1311</span> </a></li>
                     </ul>
-                    <a class="btn btn-mex " href="/contact.php"><?php translate('Find your Country here'); ?></a>
+                    <a class="btn btn-mex " style="color: white !important;" href="/contact.php"><?php translate('Find your Country here'); ?></a>
                 </div>
                 <div class="border-line col-md-6 col-lg-4 col-sm-12 col-xs-12">
                     <ul class="contact-social-media d-none d-md-block">
