@@ -170,8 +170,8 @@ foreach ($allnews as $item) {
             <span class="home-banner-title1">ESTABLISHED IN 2005</span>
             <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span>
             <div class="row">
-            <a>Try Demo Account</a>
-            <a>Open Live Account</a>
+            <a class="home-banner-btn1">Try Demo Account</a>
+            <a class="home-banner-btn2">Open Live Account</a>
             </div>
             <span>All trading involves risk. Losses can exceed deposits.</span>
         </div>
