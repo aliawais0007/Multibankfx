@@ -143,27 +143,31 @@ foreach ($allnews as $item) {
         <div class="swiper-wrapper">
 
             <div class="swiper-slide home-page" style="overflow: hidden;">
-                <a href="about/why-multibank-group.php">
-                    <div class="min1 d-none d-lg-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg');">
+                <a>
+                    <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg');">
                     </div>
-                    <div class="min2 d-block d-lg-none" style="background-image:url('/public_files/images/home/home-banner-multibank-01-750x600.jpg');">
+                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-01-750x600.jpg');">
                         <img src="/public_files/images/home/home-banner-multibank-01-750x600.jpg" />
                     </div>
                 </a>
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
-                    <div class="min1 d-none d-lg-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
+            <a>
+                    <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
                     </div>
-                    <div class="min2 d-block d-lg-none" style="background-image:url('/public_files/images/home/home-banner-multibank-04-750x600.jpg');">
+                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-04-750x600.jpg');">
                         <img src="public_files/images/home/home-banner-multibank-04-750x600.jpg" />
                     </div>
+            </a>
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
-                    <div class="min1 d-none d-lg-block" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
+            <a>
+                    <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
                     </div>
-                    <div class="min2 d-block d-lg-none" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
+                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
                         <img src="public_files/images/home/home-banner-multibank-mt5-750x600.jpg" />
                     </div>
+            </a>
             </div>
 
         </div>
