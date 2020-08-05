@@ -106,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <p><a href="/privacy-policy.php" target="_parent"><?php translate('Privacy Policy'); ?> </a> | <a href="cookie-policy.php" target="_parent"> <?php translate('Cookie
+                <p><a href="/privacy-policy.php" target="_parent"><?php translate('Privacy Policy'); ?> </a> | <a href="/cookie-policy.php" target="_parent"> <?php translate('Cookie
                         Policy'); ?></a> | <a href="/terms-conditions.php" target="_parent"><?php translate('Terms & Conditions'); ?> </a> | <a href="/website-disclaimer.php" target="_parent"> <?php translate('Website Disclaimer'); ?> </a> | <a href="/risk-warning.php" target="_parent"> <?php translate('Risk
                         Warning'); ?></a></p>
                 <p><?php translate('Copyright © : 2005-2020 MEX Group Worldwide Limited. All rights reserved.'); ?> <?php translate('MultiBank Exchange is the
