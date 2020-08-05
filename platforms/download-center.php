@@ -61,8 +61,8 @@
     
     <?php include_from_root('website_template/downlaod_platform.php');?>
     
-    <section class="mex-block-h600 flex-center">
-        <img alt="MultiBank Web Trader" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src='var(--download-center-background)' />
+    <section class="mex-block-h600 flex-center download-center-img">
+        <!-- <img alt="MultiBank Web Trader" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src='var(--download-center-background)' /> -->
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-md-8 col-xl-6 col-10 mex-content">
