@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang='en'>
 
-<?php include_from_root('website_template/head.php');?>
+<?php include_from_root('website_template/head.php'); ?>
+
 <body>
-    <?php include_from_root('website_template/header_and_menu.php');?>
+    <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
         .nav-menu-hamburger,
         .nav-menu-mymex {
@@ -84,8 +85,8 @@
                             </div>
                         </div>
                         <div class="mex-content black-bg-career">
-                            <p class="mex-m-t-15 mex-m-b-15 text-fff show-ass"><?php translate('Submit your CV to:');?> <a class="text-22A0C4" href="/cdn-cgi/l/email-protection.html#63090c0110230e160f170a01020d08051b4d000c0e"><span class="__cf_email__" data-cfemail="96fcf9f4e5d6fbe3fae2fff4f7f8fdf0eeb8f5f9fb">[email&#160;protected]</span></a><br />
-                            <?php translate('Shortlisted candidate will be contacted for interview arrangement by Human Resources Department'); ?></p>
+                            <p class="mex-m-t-15 mex-m-b-15 text-fff show-ass"><?php translate('Submit your CV to:'); ?> <a class="text-22A0C4" href="/cdn-cgi/l/email-protection.html#63090c0110230e160f170a01020d08051b4d000c0e"><span class="__cf_email__" data-cfemail="96fcf9f4e5d6fbe3fae2fff4f7f8fdf0eeb8f5f9fb">[email&#160;protected]</span></a><br />
+                                <?php translate('Shortlisted candidate will be contacted for interview arrangement by Human Resources Department'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -150,6 +151,9 @@
                                         <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMjo1MDo0Mg==' />
                                         <input type='hidden' name='token' value='$2y$10$oikQOqqLicYgkYzOfnahVuyKh6s/RN5cFNPsr1rBqTiZRo5/gJfiS' />
                                         <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:50:38] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:50:39] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:50:40] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:50:42] https://www.multibankfx.com/<br/><br/> <br/><br/> posted From: www.multibankfx.com/about/career?web=true' />
+                                       <div class="row">
+
+                                       <div class="col-12 col-md-6">
                                         <div class='mex-form-item px-1 py-1 col-left'>
                                             <label for='' class='d-none'>
                                             </label>
@@ -211,6 +215,8 @@
                                                 <label class=' d-inline ' for=''>IT Support Specialist</label>
                                             </div>
                                         </div>
+                                       </div>
+                                       <div class="col-12 col-md-6">
                                         <div class='mex-form-item col-12 px-1 py-1 col-right'>
                                             <label for='' class='d-block la-label-name'>
                                                 Name</label>
@@ -734,6 +740,8 @@
                                         </div>
                                         <button type='submit' class='btn btn-mex mx-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SUBMIT
                                         </button>
+                                       </div>
+                                       </div>
                                     </form>
                                 </div>
                             </div>
@@ -744,15 +752,15 @@
         <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script type="text/javascript">
             // organise in 2 columns
-            // $('#career_apply_job').find('.form-check-inline').removeClass('form-check-inline');
+            $('#career_apply_job').find('.form-check-inline').removeClass('form-check-inline');
             // $('#career_apply_job .col-left').wrapAll('<div class="col-12 col-md-6 p-0" />');
             // $('#career_apply_job .col-right').wrapAll('<div class="col-12 col-md-6  right-container mx-0" ></div><div class="float-none;"><!-- --></div>');
 
-            // $('#career_apply_job .send-code-container').appendTo($('#career_apply_job .right-container'));
-            // $('#career_apply_job .sms-code-container').appendTo($('#career_apply_job .right-container'));
-            // $('#career_apply_job .btn-submit').appendTo($('#career_apply_job .right-container'));
-            // $('#career_apply_job .send-code-container, #career_apply_job .sms-code-container').addClass('my-4');
-            // $('file-info')
+            $('#career_apply_job .send-code-container').appendTo($('#career_apply_job .right-container'));
+            $('#career_apply_job .sms-code-container').appendTo($('#career_apply_job .right-container'));
+            $('#career_apply_job .btn-submit').appendTo($('#career_apply_job .right-container'));
+            $('#career_apply_job .send-code-container, #career_apply_job .sms-code-container').addClass('my-4');
+            $('file-info')
 
             //style the send sms code button
             $("#career_apply_job #button-send-callme_form").removeClass("w-100");
@@ -794,9 +802,9 @@
                 $('#btn-apply-now-carrer').addClass('d-none');
             }
         </script>
-        <?php include_from_root('website_template/choose_where_to.php')?>
+        <?php include_from_root('website_template/choose_where_to.php') ?>
     </div>
-    <?php include_from_root('website_template/page_footer.php');?>
+    <?php include_from_root('website_template/page_footer.php'); ?>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
