@@ -12151,8 +12151,8 @@ a span strong {
     }
     .nav-menu-hamburger,
     .nav-menu-mymex {
-        height: 30px;
-        width: 30px;
+        height: 30px !important;
+        width: 30px !important;
     }
 }
 
