@@ -97,7 +97,7 @@
                     <div class="row">
                         <img class="w-100 h-auto d-block d-lg-none" src="/public_files/images/common/icons/payment_partners-201906.jpg">
                         <div class="footer-icon-list d-none d-lg-block">
-                            <img class="footer-icon" alt="nab" src="/public_files/images/common/icons/logo_footer_nab.png" style="width: auto; height: 30px;">
+                            <img class="footer-icon" alt="nab" src="" style="width: auto; height: 30px;">
                             <img class="footer-icon" alt="neteller" src="/public_files/images/common/icons/logo_footer_neteller.png" style="width: auto; height: 20px;">
                             <img class="footer-icon" alt="skrill" src="/public_files/images/common/icons/logo_footer_skrill.png" style="width: auto; height: 25px;">
                             <img class="footer-icon" alt="swift" src="/public_files/images/common/icons/logo_footer_swift.png" style="width: auto; height: 25px;">
