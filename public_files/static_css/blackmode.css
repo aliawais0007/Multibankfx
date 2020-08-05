@@ -4803,7 +4803,7 @@ sup.sup-size {
 
 .nav-menu-mobile>li>ul {
     color: var(--font-color);
-    background-color: var(--bg-nav-menu-mobile-inner-ul)
+    background-color: var(--background-dark);
 }
 
 .nav-menu-mobile>li>ul li>a {
