@@ -5907,7 +5907,8 @@ section.mex-block-full .mex-img-cover {
 
 .home-banner-title1 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 4.5vw;
+    font-weight: 500;
     font-family: Oswald;
     letter-spacing: 0;
     color: #fff
@@ -5946,6 +5947,7 @@ section.mex-block-full .mex-img-cover {
 
 .home-banner-small-text {
     font-size: 1vw;
+    margin-top: 3%;
     font-family: Calibri;
 }
 
