@@ -746,7 +746,7 @@
             // organise in 2 columns
             $('#career_apply_job').find('.form-check-inline').removeClass('form-check-inline');
             $('#career_apply_job .col-left').wrapAll('<div class="col-12 col-md-6 p-0" />');
-            $('#career_apply_job .col-right').wrapAll('<div class="col-12 col-md-6 row right-container mx-0" /><div class="float-none;"><!-- --></div>');
+            $('#career_apply_job .col-right').wrapAll('<div class="col-12 col-md-12 col-lg-6 row right-container mx-0" /><div class="float-none;"><!-- --></div>');
 
             $('#career_apply_job .send-code-container').appendTo($('#career_apply_job .right-container'));
             $('#career_apply_job .sms-code-container').appendTo($('#career_apply_job .right-container'));
