@@ -5927,6 +5927,7 @@ section.mex-block-full .mex-img-cover {
     background: #1e32a3 0 0 no-repeat padding-box;
     border: 1px solid #1e32a3;
     font-size: 2vw;
+    color: white !important;
     font-family: Calibri;
     letter-spacing: 0;
     text-align: center;
@@ -5940,6 +5941,7 @@ section.mex-block-full .mex-img-cover {
     font-size: 2vw;
     font-family: Calibri;
     letter-spacing: 0;
+    color: white !important;
     text-align: center;
     padding: 17px 28px;
     margin: auto
