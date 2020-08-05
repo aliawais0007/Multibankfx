@@ -341,6 +341,7 @@
                     </ul>
                 </li>
                 <li class="nav-menu-mobile-section py-1 px-4 lang-mobile-menu" style="border-top: 1px solid #ccc;">
+                English
                     <ul class="text-center">
                         <li><a href="https://es.multibankfx.com">Español</a></li>
                         <li><a href="?lang=">EN</a></li>
