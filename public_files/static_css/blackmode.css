@@ -12134,7 +12134,7 @@ a span strong {
 }
 
 .filter-shadow {
-    filter: blur(50%);
+    filter: brightness(50%) !important;
 }
 
 @media (max-width:768px) {
