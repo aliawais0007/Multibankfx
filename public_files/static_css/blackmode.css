@@ -12143,11 +12143,11 @@ a span strong {
 
 .slidebar a {
     background-color: transparent !important;
-    border: white !important;
+    border: none !important;
 }
 
 .slidebar a span.btn {
-    background-color: white;
+    background-color: white !important;
 }
 
 @media (max-width:768px) {
