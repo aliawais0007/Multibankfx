@@ -12154,6 +12154,10 @@ a span strong {
         height: 30px !important;
         width: 30px !important;
     }
+    .header-bottom-left-container .header-logo {
+        height: 22px !important;
+        padding-left: 10px !important;
+    }
 }
 
 @media (min-width:1366px) {

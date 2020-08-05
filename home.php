@@ -130,8 +130,8 @@ foreach ($allnews as $item) {
             }
 
             .header-bottom-left-container .header-logo {
-                height: 22px;
-                padding-left: 10px;
+                height: 30px;
+                padding-left: 15px;
             }
         }
     </style>
