@@ -588,7 +588,7 @@ foreach ($allnews as $item) {
     <section class="bg-white p0 index-platforms d-md-none" style="background-image: url(public_files/images/home/home_platforms_bg.jpg);background-size: contain;
     background-position: center;
     background-repeat: no-repeat;">
-        <div class="container" style="    background-color: rgba(255,255,255,0.8);height: 100%;padding: 40px 0;">
+        <div class="container" style="height: 100%;padding: 40px 0;">
             <div class="row">
                 <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
                     <h3 class="mex-h1 text-1e32a3 text-center">Platforms</h3>
