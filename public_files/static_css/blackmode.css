@@ -12135,7 +12135,7 @@
        }
        
        .filter-shadow {
-           filter: brightness(--filter-shadow) !important;
+           filter: brightness(var(--filter-shadow)) !important;
        }
        
        .slidebar {
