@@ -62,7 +62,7 @@
 
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display: none; visibility: hidden;"></iframe></noscript>
   <section class="flex-center page-top-banner">
-    <img src="/public_files/images/partnership/introducing_brokers/img_topbanner_Introducing_Brokers.jpg" alt="Introducing Brokers" class="mex-img-cover" />
+    <img class="filter-shadow" src="/public_files/images/partnership/introducing_brokers/img_topbanner_Introducing_Brokers.jpg" alt="Introducing Brokers" class="mex-img-cover" />
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12">
@@ -100,7 +100,7 @@
   <section class="bg-white p0 mex-side-full same-height-block">
     <div class="col-xs-12 col-lg-6 p0">
       <div class="flex-center vertical-center">
-        <img class="mex-img-cover" src="/public_files/images/partnership/introducing_brokers/img_right_ib_page.png" alt="MultiBank’s IB Program and services include" />
+        <img class="mex-img-cover filter-shadow" src="/public_files/images/partnership/introducing_brokers/img_right_ib_page.png" alt="MultiBank’s IB Program and services include" />
         <div class="both-content p32 pt24 pb24">
           <div class="mex-h2 mex-m-b-15 text-left text-1e32a3 col-xs-12 col-lg-8 left">
             MultiBank’s IB Program<br />and services include:
@@ -127,7 +127,7 @@
     </div>
     <div class="col-xs-12 col-lg-6 p0">
       <div class="flex-center full-height vertical-center">
-        <img class="mex-img-cover" src="/public_files/images/partnership/introducing_brokers/img_left_ib_page.jpg" alt="MultiBank’s IBs Now Enjoy the best Bonuses in the Industry" />
+        <img class="mex-img-cover filter-shadow" src="/public_files/images/partnership/introducing_brokers/img_left_ib_page.jpg" alt="MultiBank’s IBs Now Enjoy the best Bonuses in the Industry" />
         <div class="both-content col-xs-12 col-lg-10 col-lg-offset-1 text-center p32 pt24 pb24">
           <div class="mex-h2 mex-m-b-15 text-1e32a3">
             MultiBank’s IBs Now Enjoy the best Bonuses in the Industry
