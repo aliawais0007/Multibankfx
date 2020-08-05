@@ -152,10 +152,17 @@ foreach ($allnews as $item) {
                 </a>
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
-                    <div class="min1 d-none d-lg-block" style="background-image:url('public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
+                    <div class="min1 d-none d-lg-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
                     </div>
-                    <div class="min2 d-block d-lg-none" style="background-image:url('public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
-                        <img src="/public_files/images/home/main_banner_mobile.gif" />
+                    <div class="min2 d-block d-lg-none" style="background-image:url('/public_files/images/home/home-banner-multibank-04-750x600.jpg');">
+                        <img src="public_files/images/home/home-banner-multibank-04-750x600.jpg" />
+                    </div>
+            </div>
+            <div class="swiper-slide home-page" style="overflow: hidden;">
+                    <div class="min1 d-none d-lg-block" style="background-image:url('public_files/images/home/home-banner-multibank-mt5.jpg');">
+                    </div>
+                    <div class="min2 d-block d-lg-none" style="background-image:url('public_files/images/home/home-banner-multibank-mt5-750x600.jpg');">
+                        <img src="public_files/images/home/home-banner-multibank-mt5-750x600.jpg" />
                     </div>
             </div>
 
