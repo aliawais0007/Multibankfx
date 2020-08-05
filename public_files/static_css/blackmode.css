@@ -12149,6 +12149,11 @@ a span strong {
     .home-banner-small-text {
         font-size: 2.5vw;
     }
+    .nav-menu-hamburger,
+    .nav-menu-mymex {
+        height: 30px;
+        width: 30px;
+    }
 }
 
 @media (min-width:1366px) {
