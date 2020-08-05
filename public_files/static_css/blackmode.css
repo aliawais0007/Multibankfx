@@ -12137,6 +12137,19 @@ a span strong {
     filter: brightness(50%) !important;
 }
 
+.slidebar {
+    background: transparent;
+}
+
+.slidebar a {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.slidebar a span.btn {
+    background-color: white;
+}
+
 @media (max-width:768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
