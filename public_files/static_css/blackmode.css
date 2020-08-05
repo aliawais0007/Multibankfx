@@ -21,6 +21,7 @@
     --brightness-img: 100%;
     --article-title: rgb(30, 50, 163);
     --common-light-dark: white;
+    --filter-shadow: 100%;
     --bg-color-st-section: #EBEBEB;
     --avant-pad: url(../images/platforms/common/avant-pad-bg-light.jpg);
     --choose-next-background: url(../images/common/bg_banner/choose_where_to_go_next_bg-light.png);
@@ -76,6 +77,7 @@
     --article-title: #fff;
     --bg-nav-menu-mobile-inner-ul: #000000;
     --bg-color-st-section: #000000;
+    --filter-shadow: 50%;
     --common-light-dark: #1a1a1a;
     --choose-next-background: url(../images/common/bg_banner/choose_where_to_go_next_bg.png);
     --avant-pad: url(../images/platforms/common/avant-pad-bg.jpg);
@@ -12134,7 +12136,7 @@ a span strong {
 }
 
 .filter-shadow {
-    filter: brightness(50%) !important;
+    filter: brightness(--filter-shadow) !important;
 }
 
 .slidebar {
