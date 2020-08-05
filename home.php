@@ -146,19 +146,17 @@ foreach ($allnews as $item) {
                 <a href="about/why-multibank-group.php">
                     <div class="min1 d-none d-lg-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg');">
                     </div>
-                    <div class="min2 d-block d-lg-none" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg');">
-                        <img src="/public_files/images/home/main_banner_mobile.gif" />
+                    <div class="min2 d-block d-lg-none" style="background-image:url('/public_files/images/home/home-banner-multibank-01-750x600.jpg');">
+                        <img src="/public_files/images/home/home-banner-multibank-01-750x600.jpg" />
                     </div>
                 </a>
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
-                <a href="products/shares.php">
                     <div class="min1 d-none d-lg-block" style="background-image:url('public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
                     </div>
                     <div class="min2 d-block d-lg-none" style="background-image:url('public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
                         <img src="/public_files/images/home/main_banner_mobile.gif" />
                     </div>
-                </a>
             </div>
 
         </div>
