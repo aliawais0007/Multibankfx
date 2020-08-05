@@ -12119,6 +12119,10 @@ a span strong {
     background: var(--download-center-background) no-repeat center
 }
 
+.nav-menu-mobile-section:after {
+    color: var(--font-color);
+}
+
 @media (max-width:768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
