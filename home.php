@@ -169,9 +169,9 @@ foreach ($allnews as $item) {
     <div class="container">
         <div class="row">
             <div class="home-banner-form d-none d-md-block">
-                <div class="mex-p-h-15">
+                <!-- <div class="mex-p-h-15">
 
-                    <?php include_from_root("website_template/contact_us_form.php") ?>
+                 
                     <hr class="mx-1 my-2 bg-dark">
                     <div class="px-1 contact-form-button-container">
                         <a href="/account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
@@ -202,7 +202,7 @@ foreach ($allnews as $item) {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
