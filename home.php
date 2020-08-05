@@ -442,8 +442,8 @@ foreach ($allnews as $item) {
                                     <strong>Open an account &amp; start trading today!</strong>
                                 </div>
                                 <div class="live-account-wrapper">
-                                    <a href="account/live-account.php" class="btn btn-mex-red mex-m-r-15 mex-m-b-15 col-md-6 col-xs-12 start-trading-mobile-btn-1"><i class="fa fa-user mex-m-r-5" aria-hidden="true"></i>Live Account</a>
-                                    <a href="account/demo-account.php" class="btn btn-mex-blue mex-m-r-15 mex-m-b-15 col-md-6 col-xs-12 start-trading-mobile-btn-2"><i class="fa fa-desktop mex-m-r-5" aria-hidden="true"></i>Demo Account</a>
+                                    <a href="/account/live-account.php" class="btn btn-mex-red mex-m-r-15 mex-m-b-15 col-md-6 col-xs-12 start-trading-mobile-btn-1"><i class="fa fa-user mex-m-r-5" aria-hidden="true"></i>Live Account</a>
+                                    <a href="/account/demo-account.php" class="btn btn-mex-blue mex-m-r-15 mex-m-b-15 col-md-6 col-xs-12 start-trading-mobile-btn-2"><i class="fa fa-desktop mex-m-r-5" aria-hidden="true"></i>Demo Account</a>
                                 </div>
                             </div>
                         </div>
@@ -479,7 +479,7 @@ foreach ($allnews as $item) {
                         background-color: rgba(255, 255, 255, 0.5);
                         position: absolute;
                         " class="col-12"></div>
-                <div class="col-12 py-5  d-block" style="background-size: cover;background-color: rgba(#fff, #fff, #fff, 0.5) !important;">
+                <div class="col-12 py-5  d-block" style="background-size: cover;background-color: rgba(0, 0, 0, 0.5) !important;">
                     <div class="col-lg-8 col-12 p-lg-0  mex-m-b-15 text-left">
                         <h3 class="uppercase mex-m-b-10">Start Trading</h3>
                         <span class="mex-content">MultiBank offers a range of award-winning MT4 platforms for you to
