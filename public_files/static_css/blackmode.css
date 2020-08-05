@@ -12132,6 +12132,19 @@ a span strong {
     }
 }
 
+@media (min-width:1366px) {
+    .home-banner-title2 {
+        margin: 2vh 0;
+        margin: 5vh 0 8vh 0;
+        text-align: center;
+        font-size: 2.5vw;
+        font-family: Calibri;
+        letter-spacing: 0;
+        color: #fff;
+        padding: 0;
+    }
+}
+
 .article-paragraph span.c3546 {
     color: var(--font-color)
 }
