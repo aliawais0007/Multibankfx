@@ -12130,6 +12130,25 @@ a span strong {
     .custom-card-img .card {
         height: 200px
     }
+    .home-banner-title1 {
+        font-size: 7.5vw;
+    }
+    .home-banner-title2 {
+        font-size: 3.5vw;
+        padding: 6% 0 5% 0;
+    }
+    .home-banner-btn1 {
+        font-size: 4vw;
+        padding: 6px 14px;
+        margin-right: 20px;
+    }
+    .home-banner-btn2 {
+        font-size: 4vw;
+        padding: 6px 5px;
+    }
+    .home-banner-small-text {
+        font-size: 2.5vw;
+    }
 }
 
 @media (min-width:1366px) {
