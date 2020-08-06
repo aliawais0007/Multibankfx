@@ -2220,7 +2220,8 @@ foreach ($allnews as $item) {
                 autoplayDisableOnInteraction: false,
                 effect: 'fade',
             });
-            var index_banner = $('.home-carousal-banner').slick({
+            
+            $('.home-carousal-banner').slick({
                 centerMode: true,
                 centerPadding: '60px',
                 slidesToShow: 1
