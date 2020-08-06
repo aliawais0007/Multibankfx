@@ -12375,11 +12375,15 @@ a span strong {
     }
 }
 
-.main {
+.main-banner {
     font-family: Arial;
     width: 100%;
-    display: block;
+    /* display: block; */
     margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    z-index: 9999999;
+    height: 100px;
 }
 
 .home-carousal-banner div {
@@ -12394,5 +12398,5 @@ a span strong {
     align-items: center;
     background-color: #202347;
     min-height: 100px !important;
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
