@@ -230,30 +230,19 @@ foreach ($allnews as $item) {
     <div class="main">
         <div class="home-carousal-banner" style="height: 150px; background-color:black">
             <div>
-                <h4 class="h4-hero-box-1">Paid <br>Capital</h4><span class="span-hero">$320m</span>
+                <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
             </div>
             <div>
-                <h4 class="h4-hero-box">Leverage </h4><span class="span-hero">500:1</span>
+                <h4 class="">Leverage </h4><span class="span-hero">500:1</span>
             </div>
             <div>
-                <h4 class="h4-hero-box">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
+                <h4 class="">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
             </div>
             <div>
-                <h4 class="h4-hero-box">Awards </h4><span class="span-hero">40+</span>
+                <h4 class="">Awards </h4><span class="span-hero">40+</span>
             </div>
             <div>
-                <h4 class="h4-hero-box">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
-            </div>
-        </div>
-        <div class="slider slider-nav">
-            <div>
-                <h3>1</h3>
-            </div>
-            <div>
-                <h3>2</h3>
-            </div>
-            <div>
-                <h3>3</h3>
+                <h4 class="">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
             </div>
         </div>
     </div>
