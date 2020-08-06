@@ -12312,3 +12312,65 @@ a span strong {
 .article-paragraph span.c3546 {
     color: var(--font-color)
 }
+
+.hero-container {
+    position: relative;
+    bottom: 0;
+    z-index: 10;
+    width: auto;
+    height: 111px;
+    background: #202347 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hero-box {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.hero-container .hero-box>div {
+    width: 250px;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #1E32A3;
+}
+
+.h4-hero-box {
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    text-align: left;
+}
+
+.span-hero {
+    margin-left: 10px;
+    font-size: 50px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.hero-box div:last-child {
+    border-right: 1px solid #1E32A3;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hero-container .hero-box>div {
+        width: 140px
+    }
+    .h4-hero-box {
+        font-size: 13px;
+    }
+    .span-hero {
+        font-size: 25px;
+    }
+}

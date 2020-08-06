@@ -186,6 +186,16 @@ foreach ($allnews as $item) {
         <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div>
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="container-fluid hero-container">
+            <div class="row hero-box">
+                <div><h4 class="h4-hero-box" >Paid <br>Capital</h4><span class="span-hero" >$320m</span></div>
+                <div><h4 class="h4-hero-box" >Leverage </h4><span class="span-hero" >500:1</span></div>
+                <div><h4 class="h4-hero-box" >Tight  <br>Spreads</h4><span class="span-hero" >0.0 pips</span></div>
+                <div><h4 class="h4-hero-box" >Awards </h4><span class="span-hero" >40+</span></div>
+                <div><h4 class="h4-hero-box" >Trading <br>Instruments</h4><span class="span-hero" >1000+</span></div>
+ 
+            </div>
+        </div>
         <div class="home-banner-container">
             <div class="row">
                 <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
@@ -2197,6 +2207,31 @@ foreach ($allnews as $item) {
                 centeredSlides: true,
                 autoplayDisableOnInteraction: false,
                 effect: 'fade',
+            });
+         
+            var index_banner = $('.').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
             });
         })
     </script>
