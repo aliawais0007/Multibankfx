@@ -12187,6 +12187,13 @@ a span strong {
     box-shadow: var(--boxshadow-dark);
 }
 
+.sticky-top {
+    top: 0;
+    background: black;
+    z-index: 1020;
+    width: 100%;
+}
+
 @media (max-width:768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
