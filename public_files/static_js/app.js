@@ -1531,3 +1531,11 @@ $("#ib_form").submit(function(e) {
     })
 
 });
+
+$(window).scroll(function() {
+    var scrollY = $(document).scrollTop();
+    if (scrollY > 599) {
+        $('.top-btn-1').removeClass('d-none');
+        $('.top-btn-1').addClass('d-flex');
+    }
+})
