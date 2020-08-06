@@ -12206,6 +12206,11 @@ a span strong {
     color: black !important;
 }
 
+.news-con-date-m,
+.news-con-date {
+    color: var(--font-color);
+}
+
 @media (max-width:768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
