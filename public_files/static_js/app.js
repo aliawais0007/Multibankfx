@@ -1534,10 +1534,10 @@ $("#ib_form").submit(function(e) {
 
 $(window).scroll(function() {
     var scrollY = $(document).scrollTop();
-    if (scrollY > 200) {
-        $('.sticky-top').css('position', 'fixed');
-    }
-    if (scrollY > 650) {
+    // if (scrollY > 200) {
+    //     $('.sticky-top').css('position', 'fixed');
+    // }
+    if (scrollY > 450) {
         $('.top-btn-1').removeClass('d-none');
         $('.top-btn-1').addClass('d-flex');
         $('.top-btn-2').removeClass('d-none');
