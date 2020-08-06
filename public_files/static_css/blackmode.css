@@ -12154,9 +12154,15 @@ a span strong {
 }
 
 .header-top-right-menu a {
-    background-color: #fff!important;
-    color: #000!important;
+    background-color: #fff;
+    color: #000;
     border: 1px solid gray!important
+}
+
+.header-top-right-menu a:hover {
+    background-color: black;
+    color: #fff;
+    border: 1px solid whitesmoke!important
 }
 
 .swiper-button-white {
