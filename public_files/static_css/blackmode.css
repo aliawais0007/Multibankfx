@@ -12389,10 +12389,10 @@ a span strong {
 }
 
 .slide-slick {
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
-    background-color: #1E32A3;
-    min-height: 100px;
+    background-color: #202347;
+    min-height: 100px !important;
     margin: 0px 10px;
 }
