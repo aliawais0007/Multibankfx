@@ -654,9 +654,9 @@ section {
 }
 
 .btn.btn-green {
-    background: #1dba2f;
+    /* background: #1dba2f;
     color: #fff;
-    border: 2px solid #1dba2f
+    border: 2px solid #1dba2f */
 }
 
 .btn-sm {
@@ -665,58 +665,58 @@ section {
 }
 
 .btn.btn-navy {
-    background-color: #000032;
+    /* background-color: #000032;
     color: #fff;
-    border: 2px solid #000032
+    border: 2px solid #000032 */
 }
 
 .btn.btn-navy:hover {
-    background-color: #333;
-    border: 2px solid #333
+    /* background-color: #333;
+    border: 2px solid #333 */
 }
 
 .btn.btn-gold {
-    background-color: #d2a94b;
+    /* background-color: #d2a94b;
     color: #fff;
-    border: 2px solid #d2a94b
+    border: 2px solid #d2a94b */
 }
 
 .btn.btn-gold:hover {
-    background: #e2a840;
-    border: 2px solid #e2a840
+    /* background: #e2a840;
+    border: 2px solid #e2a840 */
 }
 
 .btn.btn-red {
-    background-color: #ce0b0b;
+    /* background-color: #ce0b0b;
     color: #fff;
-    border: 2px solid #ce0b0b
+    border: 2px solid #ce0b0b */
 }
 
 .btn.btn-red:hover {
-    background: red;
-    border: 2px solid red
+    /* background: red;
+    border: 2px solid red */
 }
 
 .btn.btn-blue {
-    background-color: #178ecc;
+    /* background-color: #178ecc;
     color: #fff;
-    border: 2px solid #178ecc
+    border: 2px solid #178ecc */
 }
 
 .btn.btn-blue:hover {
-    background: #1cade1;
-    border: 2px solid #1cade1
+    /* background: #1cade1;
+    border: 2px solid #1cade1 */
 }
 
 .btn.btn-grey {
-    background-color: #333;
+    /* background-color: #333;
     color: #fff;
-    border: 2px solid #333
+    border: 2px solid #333 */
 }
 
 .btn.btn-grey:hover {
-    background-color: #000;
-    border: 2px solid #000
+    /* background-color: #000;
+    border: 2px solid #000 */
 }
 
 .btn.btn-mex {
