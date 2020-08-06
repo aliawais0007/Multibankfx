@@ -12201,13 +12201,13 @@ a span strong {
 }
 
 .top-btn-1 {
-    transition: all ease-in-out .35s;
-    background-color: #178ecc;
+    transition: all ease-in-out .35s !important;
+    background-color: #178ecc !important;
 }
 
 .top-btn-2 {
-    transition: all .35s ease-in-out;
-    background-color: #ce0b0b;
+    transition: all .35s ease-in-out !important;
+    background-color: #ce0b0b !important;
 }
 
 .article-big-title {
