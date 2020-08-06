@@ -245,6 +245,17 @@ foreach ($allnews as $item) {
                 <h4 class="h4-hero-box">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
             </div>
         </div>
+        <div class="slider slider-nav">
+            <div>
+                <h3>1</h3>
+            </div>
+            <div>
+                <h3>2</h3>
+            </div>
+            <div>
+                <h3>3</h3>
+            </div>
+        </div>
     </div>
     <style>
         .bmw {
