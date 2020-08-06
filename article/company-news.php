@@ -1771,8 +1771,8 @@ echo (int)$_GET['page'];
                                 <button class="btn btn-mex w-100 h-40p send-verification-code-btn min-w-unset " id="button-send-callme_form" type="button" title="Send Code">Send Code</button>
                             </div><button type="submit" class="btn-contact mx-1 mt-2 mb-0" onsubmit="if (!window.__cfRLUnblockHandlers) return false; ">SUBMIT</button>
                         </form>
-                        <hr class="mx-1">
-                        <div class="px-1 contact-form-button-container">
+                        <hr class="mx-1 d-md-block d-none">
+                        <div class="px-1 d-md-block d-none contact-form-button-container">
                             <a href="/account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe91d;</span>
                                 <div class="btn-vr"></div>
@@ -1817,7 +1817,7 @@ echo (int)$_GET['page'];
                         }
                         
                         ?>
-                        <li class="page-item "><a class="page-link" href="/article/company-news.php?page=<?php echo $page+1;?>">Next</a>
+                        <li class="page-item "><a class="page-link" href="/article/company-news.php?page=<?php $page = (int)$page+1; echo $page?>">Next</a>
 
                         </li>
                     </ul>
