@@ -4,10 +4,10 @@ $pagNews = array_slice($allnews, 0,7);
 $itemc = "";
 $item = "";
 $itemb = "";
-$page = "";
+$page = 1;
 if(isset($_GET['id'])){
-    $page =$_GET['id'];
-} else $page = '1';
+    $page =(int)$_GET['page'];
+} 
     
 
     foreach ($pagNews as $key=>$list) {

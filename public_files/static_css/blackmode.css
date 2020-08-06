@@ -12218,8 +12218,7 @@ a span strong {
     .page3,
     .page4,
     .page5,
-    .page6,
-    .page2 {
+    .page6 {
         display: none;
     }
     .news-main-title~.news-con-date {
