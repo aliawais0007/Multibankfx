@@ -12203,11 +12203,13 @@ a span strong {
 .top-btn-1 {
     transition: all ease-in-out .35s !important;
     background-color: #178ecc !important;
+    color: white !important;
 }
 
 .top-btn-2 {
     transition: all .35s ease-in-out !important;
     background-color: #ce0b0b !important;
+    color: white !important;
 }
 
 .article-big-title {
