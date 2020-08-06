@@ -12214,9 +12214,9 @@ a span strong {
     color: var(--font-color) !important;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .news-con-det-rbox {
-        background-color: var(--font-color) !important
+        background-color: var(--background-dark) !important
     }
     #swiper-container-awards,
     #swiper-container-awards section {
