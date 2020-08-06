@@ -2398,7 +2398,7 @@ foreach ($allnews as $item) {
         }
 
         #swiper-container-lp .swiper-slide .min1 {
-            height: 800px;
+            height: 703px;
         }
 
         @media (max-width: 1440px) and (min-width: 992px) {

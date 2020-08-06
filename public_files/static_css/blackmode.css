@@ -12287,7 +12287,7 @@ a span strong {
     }
 }
 
-@media (min-width:1200px) and (max-width:1360px) {
+@media (min-width:768px) and (max-width:1360px) {
     .logo {
         height: 28px;
     }
