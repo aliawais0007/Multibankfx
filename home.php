@@ -229,19 +229,19 @@ foreach ($allnews as $item) {
     </div>
     <div class="main">
         <div id="home-carousal-banner" style="height: 150px;">
-            <div style="display: flex; justify-content:center; align-items:center; background-color:#1E32A3">
+            <div class="slide-slick" >
                 <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
             </div>
-            <div style="display: flex; justify-content:center; align-items:center; background-color:#1E32A3">
+            <div class="slide-slick" >
                 <h4 class="">Leverage </h4><span class="span-hero">500:1</span>
             </div>
-            <div style="display: flex; justify-content:center; align-items:center; background-color:#1E32A3">
+            <div class="slide-slick" >
                 <h4 class="">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
             </div>
-            <div style="display: flex; justify-content:center; align-items:center; background-color:#1E32A3">
+            <div class="slide-slick" >
                 <h4 class="">Awards </h4><span class="span-hero">40+</span>
             </div>
-            <div style="display: flex; justify-content:center; align-items:center; background-color:#1E32A3">
+            <div class="slide-slick" >
                 <h4 class="">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
             </div>
         </div>

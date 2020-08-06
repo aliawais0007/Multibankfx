@@ -12387,3 +12387,11 @@ a span strong {
     justify-content: center;
     align-items: center;
 }
+
+.slide-slick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E32A3;
+    min-height: 100px;
+}
