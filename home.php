@@ -228,7 +228,7 @@ foreach ($allnews as $item) {
         </div>
     </div>
     <div class="main">
-        <div class="home-carousal-banner" style="height: 150px; background-color:black">
+        <div id="home-carousal-banner" style="height: 150px; background-color:black">
             <div>
                 <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
             </div>
@@ -2242,13 +2242,7 @@ foreach ($allnews as $item) {
                 effect: 'fade',
             });
 
-            $('.home-carousal-banner').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                arrows: fasle,
-                fade: true,
-        
-            });
+            $('#home-carousal-banner').slick();
           
         });
     </script>
