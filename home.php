@@ -2053,7 +2053,7 @@ foreach ($allnews as $item) {
     </script>
     <script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
-    <script type="text/javascript" src="/public_files/static_js/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <style>
         .home-banner-form .btn-contact {
             line-height: 1.1;
