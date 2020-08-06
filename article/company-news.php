@@ -1817,7 +1817,7 @@ echo (int)$_GET['page'];
                         }
                         
                         ?>
-                        <li class="page-item "><a class="page-link" href="/article/company-news.php?page=<?php $page = (int)$page+1; echo $page?>">Next</a>
+                        <li class="page-item "><a class="page-link" href="/article/company-news.php?page=<?php echo $page++?>">Next</a>
 
                         </li>
                     </ul>
