@@ -252,7 +252,7 @@ if(isset($_GET['id'])){
                 </div>
                 <div class="col-12 col-lg-3">
                     <div class="border-form mex-p-h-15 mb-4 mex-m-t-40 bg-white">
-                        <form action="/form/contactus?" name="contact_us_form" class="multibank-form row mx-0 w-100 new" method="post" enctype="" id="contact_us_form" target="" autocomplete="on" novalidate="novalidate">
+                        <form action="/form/contactus?" name="contact_us_form" class="d-none d-md-block  multibank-form row mx-0 w-100 new" method="post" enctype="" id="contact_us_form" target="" autocomplete="on" novalidate="novalidate">
                             <input type="hidden" name="t_date" value="MjAyMC0wNy0yMCAyMDowMTo1NA==">
                             <input type="hidden" name="token" value="$2y$10$N3UxWqFB46hkTCyNjU8S3.qVQbitfaTszSPi7Cq7JZEj3F2ZQbA..">
                             <input type="hidden" name="source" value="[2020-07-10 17:57:26] https://www.multibankfx.com/thank-you?src=callback_individual<br/><br/>[2020-07-20 19:05:44] https://ae.multibankfx.com/article/milestones.php<br/><br/>[2020-07-20 19:06:04] https://ae.multibankfx.com/article/milestone-multibank-group-establishes-new-branch-in-turkey<br/><br/>[2020-07-20 19:12:34] https://ae.multibankfx.com/<br/><br/>[2020-07-20 20:01:54] https://ae.multibankfx.com/<br/><br/> <br/><br/> posted From: ae.multibankfx.com/about/company-news?web=true">
@@ -1813,7 +1813,7 @@ if(isset($_GET['id'])){
                         <li class="page-item disabled"><a class="page-link" href="/article/company-news.php?page=<?php echo $page - 1;?>" tabindex="-1">Previous</a> </li>
                         <?php 
                         for($i=1; $i<=7; $i++){
-                            echo "<li class='page-item active'><a class='page-link' href='/article/company-news.php?page=$i'>$i</a></li>";
+                            echo "<li class='page-item page$i active'><a class='page-link' href='/article/company-news.php?page=$i'>$i</a></li>";
                         }
                         
                         ?>

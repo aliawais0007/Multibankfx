@@ -12215,6 +12215,13 @@ a span strong {
 }
 
 @media (max-width:767px) {
+    .page3,
+    .page4,
+    .page5,
+    .page6,
+    .page2 {
+        display: none;
+    }
     .news-main-title~.news-con-date {
         color: var(--font-color) !important;
     }
