@@ -12218,6 +12218,9 @@ a span strong {
     .news-con-det-rbox {
         background-color: var(--background-dark) !important
     }
+    .news-con-det {
+        background-color: var(--background-dark) !important
+    }
     #swiper-container-awards,
     #swiper-container-awards section {
         height: 60vw!important
