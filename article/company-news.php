@@ -18,7 +18,7 @@ if(isset($_GET['id'])){
                             <div class='news-con-det-l'>
                                 <img src='" . $list->post_image . "'
                                     alt='Winners Announced for the MultiBank Fast &amp; Furious Trading Contest'>
-                                <p class='news-con-h4 news-con-blue article-big-title'>" . $list->title . "</p>
+                                <p class='news-con-h4 news-con-blue article-big-title news-main-title'>" . $list->title . "</p>
                                 <p class='news-con-date news-con-date-m'>" . $list->date . "</p>
                                 <p class='news-con-main'>The top 3 winners of MultiBank’s latest demo trading contest are out! The MultiBank
                                     Fast &amp; Furious Trading Contest was a month-long demo trading contest that allowed traders around the

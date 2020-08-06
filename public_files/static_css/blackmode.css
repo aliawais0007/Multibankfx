@@ -12203,12 +12203,15 @@ a span strong {
 }
 
 .article-big-title {
-    color: black !important;
+    color: var(--font-color);
 }
 
-.news-con-date-m,
-.news-con-date {
-    color: var(--font-color);
+.news-main-title {
+    color: #302AE6 !important;
+}
+
+.news-main-title~.news-con-date {
+    color: var(--font-color) !important;
 }
 
 @media (max-width:768px) {
