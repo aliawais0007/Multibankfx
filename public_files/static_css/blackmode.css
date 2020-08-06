@@ -12196,10 +12196,12 @@ a span strong {
 
 .top-btn-1 {
     transition: all ease-in-out .35s;
+    background-color: #178ecc;
 }
 
 .top-btn-2 {
     transition: all .35s ease-in-out;
+    background-color: #ce0b0b;
 }
 
 .article-big-title {
