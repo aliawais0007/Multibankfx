@@ -186,8 +186,8 @@ foreach ($allnews as $item) {
         <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div>
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="container-fluid hero-container">
-            <div class="row hero-box d-none d-md-block">
+        <div class="container-fluid hero-container d-none d-md-block">
+            <div class="row hero-box ">
                 <div>
                     <h4 class="h4-hero-box">Paid <br>Capital</h4><span class="span-hero">$320m</span>
                 </div>
@@ -207,24 +207,24 @@ foreach ($allnews as $item) {
             </div>
         </div>
         <div class="main d-block d-md-none">
-        <div id="home-carousal-banner" style="height: 150px;">
-            <div class="slide-slick" >
-                <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
-            </div>
-            <div class="slide-slick" >
-                <h4 class="">Leverage </h4><span class="span-hero">500:1</span>
-            </div>
-            <div class="slide-slick" >
-                <h4 class="">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
-            </div>
-            <div class="slide-slick" >
-                <h4 class="">Awards </h4><span class="span-hero">40+</span>
-            </div>
-            <div class="slide-slick" >
-                <h4 class="">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
+            <div id="home-carousal-banner" style="height: 150px;">
+                <div class="slide-slick">
+                    <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
+                </div>
+                <div class="slide-slick">
+                    <h4 class="">Leverage </h4><span class="span-hero">500:1</span>
+                </div>
+                <div class="slide-slick">
+                    <h4 class="">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
+                </div>
+                <div class="slide-slick">
+                    <h4 class="">Awards </h4><span class="span-hero">40+</span>
+                </div>
+                <div class="slide-slick">
+                    <h4 class="">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
+                </div>
             </div>
         </div>
-    </div>
 
 
         <div class="home-banner-container">
@@ -2244,9 +2244,9 @@ foreach ($allnews as $item) {
                 centerMode: true,
                 centerPadding: '60px',
                 slidesToShow: 1,
-                arrows:false
+                arrows: false
             });
-          
+
         });
     </script>
     <style>
