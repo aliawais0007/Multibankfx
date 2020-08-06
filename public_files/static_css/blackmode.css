@@ -12292,8 +12292,7 @@ a span strong {
         height: 28px;
     }
     .home-banner-title2 {
-        position: absolute;
-        top: 55%;
+        padding: 2% 0 5% 0;
     }
 }
 
