@@ -12235,6 +12235,12 @@ a span strong {
     }
 }
 
+@media (min-width:1200px) and (max-width:1360px) {
+    .logo {
+        height: 32px;
+    }
+}
+
 @media (min-width:1366px) {
     .home-banner-title2 {
         margin: 2vh 0;
