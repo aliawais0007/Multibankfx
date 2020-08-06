@@ -2243,12 +2243,10 @@ foreach ($allnews as $item) {
             });
 
             $('#home-carousal-banner').slick({
-                dots: true,
-                infinite: true,
-                speed: 300,
-                slidesToShow: 1,
                 centerMode: true,
-                variableWidth: true
+                centerPadding: '60px',
+                slidesToShow: 1,
+
             });
           
         });
