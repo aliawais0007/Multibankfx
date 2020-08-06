@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header sticky-top">
     <div class="header-top d-none d-md-block">
         <div class="row">
             <div class="col-sm-6">
@@ -24,7 +24,7 @@
             </div>
         </div>
     </div>
-    <div class="header-bottom sticky-top">
+    <div class="header-bottom ">
         <div class="position-relative">
             <div class="row nav-bar justify-content-between mx-0">
                 <div class="line-height-75 line-height-1280-55 header-bottom-left-container">
