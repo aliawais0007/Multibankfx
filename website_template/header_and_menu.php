@@ -24,7 +24,7 @@
             </div>
         </div>
     </div>
-    <div class="header-bottom">
+    <div class="header-bottom sticky-top">
         <div class="position-relative">
             <div class="row nav-bar justify-content-between mx-0">
                 <div class="line-height-75 line-height-1280-55 header-bottom-left-container">
