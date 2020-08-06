@@ -88,6 +88,7 @@
     </script>
     <link rel="stylesheet" type="text/css" href="/public_files/static_css/swiper-3.4.2.min.css">
     <link rel="stylesheet" href="/public_files/static_css/rtl.css">
+    <link rel="stylesheet" href="/public_files/static_css/rtl.css">
     <script>
         if (localStorage.getItem("theme") === "dark") {
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');

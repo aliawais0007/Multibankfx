@@ -196,6 +196,7 @@ foreach ($allnews as $item) {
  
             </div>
         </div>
+
         <div class="home-banner-container">
             <div class="row">
                 <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
@@ -2021,6 +2022,7 @@ foreach ($allnews as $item) {
     </script>
     <script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/public_files/static_js/slick.min.js"></script>
     <style>
         .home-banner-form .btn-contact {
             line-height: 1.1;
@@ -2208,32 +2210,25 @@ foreach ($allnews as $item) {
                 autoplayDisableOnInteraction: false,
                 effect: 'fade',
             });
-         
-            var index_banner = $('.').slick({
+         if(window.innerWidth < 767){
+            var index_banner = $('.hero-box').slick({
                 centerMode: true,
                 centerPadding: '60px',
-                slidesToShow: 3,
+                slidesToShow: 1,
                 responsive: [{
-                        breakpoint: 768,
+                        breakpoint: 767,
                         settings: {
                             arrows: false,
                             centerMode: true,
                             centerPadding: '40px',
-                            slidesToShow: 3
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            arrows: false,
-                            centerMode: true,
-                            centerPadding: '40px',
-                            slidesToShow: 1
+                            slidesToShow:1
                         }
                     }
                 ]
             });
-        })
+        }
+        });
+    
     </script>
     <style>
         .home-banner-form .btn-contact {
