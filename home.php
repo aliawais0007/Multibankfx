@@ -218,7 +218,7 @@ foreach ($allnews as $item) {
         </div>
     </div>
 
-    <div class="home-carousal-banner d-block d-md-none" style="height: 150px; background-color:blue">
+    <div class="home-carousal-banner" style="height: 150px; background-color:black">
                 <div><h4 class="h4-hero-box-1" >Paid <br>Capital</h4><span class="span-hero" >$320m</span></div>
                 <div><h4 class="h4-hero-box" >Leverage </h4><span class="span-hero" >500:1</span></div>
                 <div><h4 class="h4-hero-box" >Tight  <br>Spreads</h4><span class="span-hero" >0.0 pips</span></div>
@@ -2222,10 +2222,12 @@ foreach ($allnews as $item) {
             });
             
             $('.home-carousal-banner').slick({
-                centerMode: true,
-                centerPadding: '60px',
-                slidesToShow: 1
-            });
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   fade: true,
+   asNavFor: '.slider-nav'
+ });
         });
     
     </script>
