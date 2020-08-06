@@ -56,6 +56,7 @@
     --color-blue: #178ecc;
     --color-grey: #333;
     --boxshadow-dark: rgba(0, 0, 0, 0.1) 0 0 15px 3px;
+    --cards-border: none;
 }
 
 [data-theme=dark] {
@@ -114,6 +115,7 @@
     --color-blue: transparent;
     --color-grey: transparent;
     --boxshadow-dark: none;
+    --cards-border: #ccc;
 }
 
 body {
@@ -11920,7 +11922,7 @@ label {
 .mex-block-card,
 .mex-block-card-v,
 .platforms_content {
-    border: 1px solid var(--border-color)
+    border: 1px solid var(--cards-border)
 }
 
 section.mex-block-card-v {
@@ -12162,7 +12164,7 @@ a span strong {
 }
 
 .platforms_content {
-    border: 1px solid var(--border-color)
+    border: 1px solid var(--cards-border)
 }
 
 .milestone-card {
