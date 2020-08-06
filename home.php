@@ -2185,7 +2185,8 @@ foreach ($allnews as $item) {
                 paginationClickable: true,
                 spaceBetween: 30,
                 centeredSlides: true,
-                autoplayDisableOnInteraction: false
+                autoplayDisableOnInteraction: false,
+                effect: 'fade',
             });
         })
     </script>
