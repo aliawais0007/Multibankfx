@@ -12211,10 +12211,13 @@ a span strong {
 }
 
 .news-main-title~.news-con-date {
-    /* color: var(--font-color) !important; */
+    color: var(--font-color) !important;
 }
 
 @media (max-width:767px) {
+    .news-main-title~.news-con-date {
+        color: var(--font-color) !important;
+    }
     .news-con-det-rbox {
         background-color: var(--background-dark) !important
     }
