@@ -145,6 +145,10 @@ foreach ($allnews as $item) {
             <div class="swiper-slide home-page" style="overflow: hidden;">
                 <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg');">
+                        <div class="row flex-column justify-content-center align-items-center">
+                            <span class="home-banner-title1">ESTABLISHED IN 2005</span>
+                            <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span>
+                        </div>
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-01-750x600.jpg');">
                         <img src="/public_files/images/home/home-banner-multibank-01-750x600.jpg" />
@@ -152,22 +156,22 @@ foreach ($allnews as $item) {
                 </a>
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
-            <a>
+                <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-04-750x600.jpg');">
                         <img src="public_files/images/home/home-banner-multibank-04-750x600.jpg" />
                     </div>
-            </a>
+                </a>
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
-            <a>
+                <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
                         <img src="public_files/images/home/home-banner-multibank-mt5-750x600.jpg" />
                     </div>
-            </a>
+                </a>
             </div>
 
         </div>
@@ -175,18 +179,20 @@ foreach ($allnews as $item) {
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
         <div class="home-banner-container">
-        <div class="row flex-column justify-content-center align-items-center">
-            <span class="home-banner-title1">ESTABLISHED IN 2005</span>
-            <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span>
-            <div class="row">
-            <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Try free Demo</a>
-            <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+            <div class="row flex-column justify-content-center align-items-center">
+                <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
+                <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span> -->
+                <div class="col-12">
+                    <div class="row">
+                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Try free Demo</a>
+                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                    </div>
+                </div>
+                <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span>
             </div>
-            <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span>
         </div>
     </div>
-    </div>
-  
+
 
     <style>
         .bmw {
@@ -470,7 +476,7 @@ foreach ($allnews as $item) {
     <section class="d-md-none d-block twc-section">
         <div class="mex-h1 text-1e32a3 text-center uppercase mt-3">Trade with confidence</div>
         <div class="container twc-mobile" style="background-size: cover;">
-        <!-- <div class="container" style="background-image: url(public_files/images/home/home_trade_start_trading.png);
+            <!-- <div class="container" style="background-image: url(public_files/images/home/home_trade_start_trading.png);
                                       background-size: cover;"> -->
             <div class="row">
                 <div style="
@@ -1170,7 +1176,7 @@ foreach ($allnews as $item) {
         </div>
     </section>
     <h2 class=" text-center text-1e32a3 uppercase mb-4 d-block d-md-none" style="padding-top: 15px;">Awards</h2>
-  <?php include_from_root('website_template/about_awards.php')?>
+    <?php include_from_root('website_template/about_awards.php') ?>
     <section class="bg-white p0 index-platforms  d-md-flex d-none">
         <!--<img class="d-none d-md-none lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png"-->
         <!--    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">-->

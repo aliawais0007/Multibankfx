@@ -6,9 +6,9 @@ $item = "";
 $itemb = "";
 $page = 1;
 if(isset($_GET['id'])){
-    $page =(int)$_GET['page'];
+    $page =(int)$_GET['page']+1;
 } 
-echo (int)$_GET['page'];
+
 
     foreach ($pagNews as $key=>$list) {
         if ($key==0) {
@@ -1817,7 +1817,7 @@ echo (int)$_GET['page'];
                         }
                         
                         ?>
-                        <li class="page-item "><a class="page-link" href="/article/company-news.php?page=<?php echo $page++?>">Next</a>
+                        <li class="page-item "><a class="page-link" href="/article/company-news.php?page=<?php echo $page?>">Next</a>
 
                         </li>
                     </ul>
