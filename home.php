@@ -206,25 +206,7 @@ foreach ($allnews as $item) {
 
             </div>
         </div>
-        <div class="main-banner d-block d-md-none">
-            <div id="home-carousal-banner" style="height: 150px;">
-                <div class="slide-slick">
-                    <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Leverage </h4><span class="span-hero">500:1</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Awards </h4><span class="span-hero">40+</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
-                </div>
-            </div>
-        </div>
+       
 
 
         <div class="home-banner-container">
@@ -243,7 +225,25 @@ foreach ($allnews as $item) {
             </div>
         </div>
     </div>
-
+    <div class="main-banner d-block d-md-none">
+            <div id="home-carousal-banner" style="height: 150px;">
+                <div class="slide-slick">
+                    <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
+                </div>
+                <div class="slide-slick">
+                    <h4 class="">Leverage </h4><span class="span-hero">500:1</span>
+                </div>
+                <div class="slide-slick">
+                    <h4 class="">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
+                </div>
+                <div class="slide-slick">
+                    <h4 class="">Awards </h4><span class="span-hero">40+</span>
+                </div>
+                <div class="slide-slick">
+                    <h4 class="">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
+                </div>
+            </div>
+        </div>
     <style>
         .bmw {
             background-position: left !important;
