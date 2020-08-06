@@ -1539,5 +1539,10 @@ $(window).scroll(function() {
         $('.top-btn-1').addClass('d-flex');
         $('.top-btn-2').removeClass('d-none');
         $('.top-btn-2').addClass('d-flex');
+    } else {
+        $('.top-btn-1').addClass('d-none');
+        $('.top-btn-1').removeClass('d-flex');
+        $('.top-btn-2').addClass('d-none');
+        $('.top-btn-2').removeClass('d-flex');
     }
 })
