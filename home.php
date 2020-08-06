@@ -2246,8 +2246,7 @@ foreach ($allnews as $item) {
                 centerMode: true,
                 centerPadding: '60px',
                 slidesToShow: 1,
-                arrows:false,
-                slide
+                arrows:false
             });
           
         });
