@@ -57,6 +57,7 @@
     --color-grey: #333;
     --boxshadow-dark: rgba(0, 0, 0, 0.1) 0 0 15px 3px;
     --cards-border: none;
+    --full-bW-color: black;
 }
 
 [data-theme=dark] {
@@ -116,6 +117,7 @@
     --color-grey: transparent;
     --boxshadow-dark: none;
     --cards-border: #ccc;
+    --full-bW-color: white;
 }
 
 body {
@@ -12196,7 +12198,7 @@ a span strong {
 
 .sticky-top {
     top: 0;
-    background: black;
+    background: var(--full-bW-color);
     z-index: 1020;
     width: 100%;
 }
