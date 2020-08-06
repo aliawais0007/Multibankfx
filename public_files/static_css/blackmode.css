@@ -12218,7 +12218,7 @@ a span strong {
     .news-con-det-rbox {
         background-color: var(--background-dark) !important
     }
-    .news-con-det {
+    .news-con-det-sec.news-con-det-marnone {
         background-color: var(--background-dark) !important
     }
     #swiper-container-awards,
