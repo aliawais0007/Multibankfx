@@ -12181,6 +12181,10 @@ a span strong {
     border-bottom: 1px solid var(--border-color)
 }
 
+.mex-block-card-v {
+    box-shadow: var(--boxshadow-dark);
+}
+
 @media (max-width:768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
