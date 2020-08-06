@@ -11,7 +11,7 @@
                          <input type="checkbox" id="checkbox" checked/>
                          <div class="slider round"></div>
                        </label>
-                         <em>Enable Dark Mode!</em>
+                         <em id="darkmode-text">Enable Dark Mode!</em>
                        </div></li>
                 </ul>
             </div>
