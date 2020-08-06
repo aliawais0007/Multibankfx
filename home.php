@@ -2256,9 +2256,9 @@ foreach ($allnews as $item) {
             $('.home-carousal-banner').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                arrows: true,
+                arrows: fasle,
                 fade: true,
-                asNavFor: '.slider-nav'
+        
             });
           
         });
