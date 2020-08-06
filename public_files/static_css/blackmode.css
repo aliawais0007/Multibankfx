@@ -12214,6 +12214,12 @@ a span strong {
     color: var(--font-color) !important;
 }
 
+.slider-content {
+    height: 100%;
+    top: -15%;
+    position: relative;
+}
+
 @media (max-width:767px) {
     .page3,
     .page4,
