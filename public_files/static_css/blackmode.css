@@ -12195,7 +12195,7 @@ a span strong {
 }
 
 .top-btn-1 {
-    transition: all .35s ease-in-out;
+    transition: all ease-in-out .35s;
 }
 
 .top-btn-2 {
