@@ -187,7 +187,7 @@ foreach ($allnews as $item) {
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
         <div class="container-fluid hero-container">
-            <div class="row hero-box">
+            <div class="row hero-box d-none d-md-block">
                 <div>
                     <h4 class="h4-hero-box">Paid <br>Capital</h4><span class="span-hero">$320m</span>
                 </div>
@@ -206,28 +206,7 @@ foreach ($allnews as $item) {
 
             </div>
         </div>
-        <div class="d-lg-none d-block">
-
-        </div>
-
-
-        <div class="home-banner-container">
-            <div class="row">
-                <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
-                <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span> -->
-                <div class="col-12 d-flex justify-content-center">
-                    <div class="row justify-content-center align-items-center" style="height:100%">
-                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Try free Demo</a>
-                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
-                    </div>
-                    <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-    <div class="main">
+        <div class="main d-block d-md-none">
         <div id="home-carousal-banner" style="height: 150px;">
             <div class="slide-slick" >
                 <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
@@ -246,6 +225,25 @@ foreach ($allnews as $item) {
             </div>
         </div>
     </div>
+
+
+        <div class="home-banner-container">
+            <div class="row">
+                <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
+                <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span> -->
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="row justify-content-center align-items-center" style="height:100%">
+                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Try free Demo</a>
+                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                    </div>
+                    <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
     <style>
         .bmw {
             background-position: left !important;
