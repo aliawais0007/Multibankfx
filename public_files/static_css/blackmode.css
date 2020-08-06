@@ -12211,7 +12211,7 @@ a span strong {
 }
 
 .news-main-title~.news-con-date {
-    color: var(--font-color) !important;
+    /* color: var(--font-color) !important; */
 }
 
 @media (max-width:767px) {
