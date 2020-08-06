@@ -179,14 +179,12 @@ foreach ($allnews as $item) {
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
         <div class="home-banner-container">
-            <div class="row flex-column justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center">
                 <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
                 <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span> -->
                 <div class="col-12">
-                    <div class="row">
                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Try free Demo</a>
                         <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
-                    </div>
                 </div>
                 <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span>
             </div>
