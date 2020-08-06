@@ -863,7 +863,7 @@ $(document).ready(function() {
     // Toggle dark mode script
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
     const currentTheme = localStorage.getItem('theme');
-
+    let currentTheme = 'dark';
     if (currentTheme) {
         document.documentElement.setAttribute('data-theme', currentTheme);
 
