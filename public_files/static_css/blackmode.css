@@ -12194,6 +12194,14 @@ a span strong {
     width: 100%;
 }
 
+.top-btn-1 {
+    transition: ease-in-out 0.3s;
+}
+
+.top-btn-2 {
+    transition: ease-in-out 0.3s;
+}
+
 @media (max-width:768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
