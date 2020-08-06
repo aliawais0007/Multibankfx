@@ -8,7 +8,7 @@ $page = 1;
 if(isset($_GET['id'])){
     $page =(int)$_GET['page'];
 } 
-    
+echo (int)$_GET['page'];
 
     foreach ($pagNews as $key=>$list) {
         if ($key==0) {
