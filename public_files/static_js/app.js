@@ -1540,7 +1540,7 @@ $(window).scroll(function() {
     if (scrollY > 450) {
         $('.top-btn-1').removeClass('d-none');
         $('.top-btn-1').addClass('d-flex');
-        $('.top-btn-1').css('transition', 'display 0.5s ease-in-out');
+        $('.top-btn-1').css('transition', 'all 0.5s ease-in-out');
         $('.top-btn-2').removeClass('d-none');
         $('.top-btn-2').addClass('d-flex');
     } else {

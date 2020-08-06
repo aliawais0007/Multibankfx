@@ -12195,11 +12195,11 @@ a span strong {
 }
 
 .top-btn-1 {
-    transition: display ease-in-out 0.5s;
+    transition: all .35s ease-in-out;
 }
 
 .top-btn-2 {
-    transition: display ease-in-out 0.5s;
+    transition: all .35s ease-in-out;
 }
 
 @media (max-width:768px) {
