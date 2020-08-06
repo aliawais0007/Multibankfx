@@ -5961,8 +5961,9 @@ li a .country-name {
 
 .home-banner-small-text {
     font-size: 1vw;
-    margin-top: 3%;
-    font-family: Calibri
+    font-family: Calibri;
+    position: absolute;
+    top: 55%;
 }
 
 .home-banner-form input,
