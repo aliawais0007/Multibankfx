@@ -2187,7 +2187,7 @@ foreach ($allnews as $item) {
                     clickable: true,
                     el: '#swiper-container-lp .swiper-pagination',
                 },
-                loop: false,
+                loop: true,
                 autoplay: {
                     delay: 5000
                 },
