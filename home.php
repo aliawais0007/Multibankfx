@@ -188,18 +188,28 @@ foreach ($allnews as $item) {
         <div class="swiper-button-prev swiper-button-white"></div>
         <div class="container-fluid hero-container">
             <div class="row hero-box">
-                <div><h4 class="h4-hero-box" >Paid <br>Capital</h4><span class="span-hero" >$320m</span></div>
-                <div><h4 class="h4-hero-box" >Leverage </h4><span class="span-hero" >500:1</span></div>
-                <div><h4 class="h4-hero-box" >Tight  <br>Spreads</h4><span class="span-hero" >0.0 pips</span></div>
-                <div><h4 class="h4-hero-box" >Awards </h4><span class="span-hero" >40+</span></div>
-                <div><h4 class="h4-hero-box" >Trading <br>Instruments</h4><span class="span-hero" >1000+</span></div>
- 
+                <div>
+                    <h4 class="h4-hero-box">Paid <br>Capital</h4><span class="span-hero">$320m</span>
+                </div>
+                <div>
+                    <h4 class="h4-hero-box">Leverage </h4><span class="span-hero">500:1</span>
+                </div>
+                <div>
+                    <h4 class="h4-hero-box">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
+                </div>
+                <div>
+                    <h4 class="h4-hero-box">Awards </h4><span class="span-hero">40+</span>
+                </div>
+                <div>
+                    <h4 class="h4-hero-box">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
+                </div>
+
             </div>
         </div>
         <div class="d-lg-none d-block">
 
         </div>
-     
+
 
         <div class="home-banner-container">
             <div class="row">
@@ -217,20 +227,36 @@ foreach ($allnews as $item) {
             </div>
         </div>
     </div>
-<div class="main">
-    <div class="home-carousal-banner" style="height: 150px; background-color:black">
-                <div><h4 class="h4-hero-box-1" >Paid <br>Capital</h4><span class="span-hero" >$320m</span></div>
-                <div><h4 class="h4-hero-box" >Leverage </h4><span class="span-hero" >500:1</span></div>
-                <div><h4 class="h4-hero-box" >Tight  <br>Spreads</h4><span class="span-hero" >0.0 pips</span></div>
-                <div><h4 class="h4-hero-box" >Awards </h4><span class="span-hero" >40+</span></div>
-                <div><h4 class="h4-hero-box" >Trading <br>Instruments</h4><span class="span-hero" >1000+</span></div>
-    </div>
-    <div class="slider slider-nav">
-    <div><h3>1</h3></div>
-    <div><h3>2</h3></div>
-    <div><h3>3</h3></div>
-    </div>
+    <div class="main">
+        <div class="home-carousal-banner" style="height: 150px; background-color:black">
+            <div>
+                <h4 class="h4-hero-box-1">Paid <br>Capital</h4><span class="span-hero">$320m</span>
+            </div>
+            <div>
+                <h4 class="h4-hero-box">Leverage </h4><span class="span-hero">500:1</span>
+            </div>
+            <div>
+                <h4 class="h4-hero-box">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
+            </div>
+            <div>
+                <h4 class="h4-hero-box">Awards </h4><span class="span-hero">40+</span>
+            </div>
+            <div>
+                <h4 class="h4-hero-box">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
+            </div>
         </div>
+        <div class="slider slider-nav">
+            <div>
+                <h3>1</h3>
+            </div>
+            <div>
+                <h3>2</h3>
+            </div>
+            <div>
+                <h3>3</h3>
+            </div>
+        </div>
+    </div>
     <style>
         .bmw {
             background-position: left !important;
@@ -2226,16 +2252,22 @@ foreach ($allnews as $item) {
                 autoplayDisableOnInteraction: false,
                 effect: 'fade',
             });
-            
+
             $('.home-carousal-banner').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: true,
                 fade: true,
                 asNavFor: '.slider-nav'
-                });
+            });
+            $('.slider-nav').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: true,
+                focusOnSelect: true
+            });
         });
-    
     </script>
     <style>
         .home-banner-form .btn-contact {

@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="/public_files/static_min_css/library.min.css">
     <!-- <link rel="stylesheet" href="/public_files/static_min_css/custom.min.css"> -->
     <link rel="stylesheet" href="/public_files/static_css/blackmode.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <style>
         form {
             position: relative;
