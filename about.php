@@ -12,7 +12,7 @@ foreach ($milestones as $value) {
                             <div class='card card-left mb-4'>
                                 <a href='//article/milestone-detail.php?id=$id' target='_blank' class='row flex-column-reverse flex-md-row about-milestone-card'>
                                     <div class='col-12 col-md-8 col-xl-9'>
-                                        <div class='card-body mex-content'>
+                                        <div class='card-body milestone-card  mex-content'>
                                             <p class='card-title text-overflow-1'>$main_title</p>
                                             <p class='card-time'>$date</p>
                                             <p class='card-text text-overflow-2'>
