@@ -12203,7 +12203,7 @@ a span strong {
 }
 
 .article-big-title {
-    color: var(--font-color);
+    color: black;
 }
 
 .news-main-title {
