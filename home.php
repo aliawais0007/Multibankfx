@@ -187,8 +187,10 @@ foreach ($allnews as $item) {
                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Try free Demo</a>
                         <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
                     </div>
+                    <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span>
                 </div>
-                <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span>
+                
+                
             </div>
         </div>
     </div>
