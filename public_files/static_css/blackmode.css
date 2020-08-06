@@ -12215,6 +12215,9 @@ a span strong {
 }
 
 @media (max-width:768px) {
+    .news-con-det-rbox {
+        background-color: var(--font-color) !important
+    }
     #swiper-container-awards,
     #swiper-container-awards section {
         height: 60vw!important
