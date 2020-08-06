@@ -11920,7 +11920,7 @@ label {
 .mex-block-card,
 .mex-block-card-v,
 .platforms_content {
-    border: 1px solid var(--boxshadow)
+    border: 1px solid var(--border-color)
 }
 
 section.mex-block-card-v {
