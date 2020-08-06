@@ -12202,6 +12202,10 @@ a span strong {
     transition: all .35s ease-in-out;
 }
 
+.article-big-title {
+    color: black !important;
+}
+
 @media (max-width:768px) {
     #swiper-container-awards,
     #swiper-container-awards section {
