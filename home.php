@@ -196,6 +196,17 @@ foreach ($allnews as $item) {
  
             </div>
         </div>
+        <div class="d-lg-none d-block">
+            <div class="home-carousal-banner">
+                <div><h4 class="h4-hero-box-1" >Paid <br>Capital</h4><span class="span-hero" >$320m</span></div>
+                <div><h4 class="h4-hero-box" >Leverage </h4><span class="span-hero" >500:1</span></div>
+                <div><h4 class="h4-hero-box" >Tight  <br>Spreads</h4><span class="span-hero" >0.0 pips</span></div>
+                <div><h4 class="h4-hero-box" >Awards </h4><span class="span-hero" >40+</span></div>
+                <div><h4 class="h4-hero-box" >Trading <br>Instruments</h4><span class="span-hero" >1000+</span></div>
+ 
+            </div>
+        </div>
+     
 
         <div class="home-banner-container">
             <div class="row">
@@ -2211,7 +2222,7 @@ foreach ($allnews as $item) {
                 effect: 'fade',
             });
          if(window.innerWidth < 767){
-            var index_banner = $('.hero-box').slick({
+            var index_banner = $('.home-carousal-banner').slick({
                 centerMode: true,
                 centerPadding: '60px',
                 slidesToShow: 1,

@@ -1550,3 +1550,13 @@ $(window).scroll(function() {
         $('.top-btn-2').removeClass('d-flex');
     }
 })
+
+$(window).resize(function(e) {
+    if (window.innerWidth < 767) {
+        $('.hero-container').css("display", "none");
+
+    } else {
+        $('.hero-container').css("display", "flex");
+
+    }
+});
