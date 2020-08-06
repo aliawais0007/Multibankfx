@@ -2242,7 +2242,11 @@ foreach ($allnews as $item) {
                 effect: 'fade',
             });
 
-            $('#home-carousal-banner').slick();
+            $('#home-carousal-banner').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
           
         });
     </script>
