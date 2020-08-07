@@ -58,6 +58,7 @@
     --boxshadow-dark: rgba(0, 0, 0, 0.1) 0 0 15px 3px;
     --cards-border: none;
     --full-bW-color: white;
+    --scrollbar-color: #1834a7;
 }
 
 [data-theme=dark] {
@@ -118,6 +119,7 @@
     --boxshadow-dark: none;
     --cards-border: #ccc;
     --full-bW-color: black;
+    --scrollbar-color: white;
 }
 
 body {
@@ -182,7 +184,7 @@ a:hover {
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
-    background: #1834a7
+    background: var(--scrollbar-color)
 }
 
 ::-webkit-scrollbar-track {
@@ -3401,7 +3403,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
-    background: #1834a7
+    background: var(--scrollbar-color)
 }
 
 ::-webkit-scrollbar-track {
@@ -11721,9 +11723,9 @@ table.dataTable tbody tr {
     background-color: var(--bg-black)
 }
 
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
     background: #fff
-}
+} */
 
 .mex-h2.mex-bold {
     color: var(--font-color)
