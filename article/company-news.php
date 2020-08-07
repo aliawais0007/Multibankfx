@@ -1807,7 +1807,7 @@ if(isset($_GET['id'])){
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-lg-9 col-lg-offset-1 mex-m-b-50 text-center">
+            <div class="col-12 col-lg-6 offset-lg-1 mex-m-b-50 text-center">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
                         <li class="page-item disabled"><a class="page-link" href="/article/company-news.php?page=<?php echo $page - 1;?>" tabindex="-1">Previous</a> </li>
