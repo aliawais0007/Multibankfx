@@ -887,6 +887,7 @@ $(document).ready(function() {
             localStorage.setItem('theme', 'dark');
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
             $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360_dark.png');
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
             $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
             $('#darkmode-text').html('Enable Light Mode');
 
@@ -896,7 +897,9 @@ $(document).ready(function() {
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
             $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
             $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
-            $('#darkmode-text').html('Enable Dark Mode');
+            $('#darkmode-text').html('Enable Dark Mode'); 
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+
         }
     }
 
