@@ -60,6 +60,7 @@
     --cards-border: none;
     --full-bW-color: white;
     --scrollbar-color: #1834a7;
+    --table-odd:#f1fbfc;
 }
 
 [data-theme=dark] {
@@ -122,6 +123,7 @@
     --cards-border: #ccc;
     --full-bW-color: black;
     --scrollbar-color: white;
+    --table-odd:#737576;
 }
 
 body {
@@ -12241,6 +12243,9 @@ a span strong {
     background: var(--hiring-now) no-repeat 100%;
 }
 
+table.dataTable tr:nth-of-type(odd) {
+    background-color: var(--table-odd) !important;
+}
 @media (max-width:767px) {
     .page3,
     .page4,
