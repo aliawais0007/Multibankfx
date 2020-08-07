@@ -12246,6 +12246,9 @@ a span strong {
 table.dataTable tr:nth-of-type(odd) {
     background-color: var(--table-odd) !important;
 }
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background: var(--table-odd) !important;;
+}
 @media (max-width:767px) {
     .page3,
     .page4,
