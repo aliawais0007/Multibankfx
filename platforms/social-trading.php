@@ -619,8 +619,8 @@
             </div>
         </div>
     </section>
-    <section class="st-section">
-        <img style="object-fit: cover;" src="/public_files/images/social_trading/st_earn_money_bg.jpg" alt="" />
+    <section class="st-section st-faq-background">
+        <!-- <img style="object-fit: cover;" src="/public_files/images/social_trading/st_earn_money_bg.jpg" alt="" /> -->
         <div class="container text-center">
             <div class="mex-h2 mex-m-b-20 text-005190">Still Have Questions About MultiBank Social Trading?</div>
             <div class="">Check out our <a href="/social-trading/faq.php" class="text-005190">FAQ</a> or <a class="text-005190">Request</a> a Call Back Now!</div>

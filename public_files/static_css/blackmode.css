@@ -45,6 +45,7 @@
     --download-center-background: url(../images/platforms/download_center/download_center_web_trader_banner.jpg);
     --hiring-now:url(/public_files/images/about_us/about_career_top_banner.jpg);
     --mt5-background:url(/public_files/images/platforms/MT5Plarform_topbanner.png);
+    --st-faq-background:url(/public_files/images/social_trading/st_earn_money_bg.jpg);
     --border-color: #ccc;
     --color-737576: #e4e7e9;
     --choose-next-background-color: black;
@@ -111,6 +112,7 @@
     --download-center-background: url(../images/platforms/download_center/download_center_web_trader_banner.png);
     --hiring-now:url(/public_files/images/about_us/about_career_top_banner_dark.png);
     --mt5-background:url(/public_files/images/platforms/MT5Plarform_topbanner_dark.png);
+    --st-faq-background:url(/public_files/images/social_trading/st_earn_money_bg_dark.png);
     --color-737576: #737576;
     --choose-next-background-color: white;
     --trader-color: white;
@@ -12263,6 +12265,9 @@ table.dataTable tr:nth-of-type(odd) {
 }
 .improve-knowledge-st .container .row div p:first-child,.improve-knowledge-st .container .row div ul{
     color: var(--st-link-color) !important;
+}
+.st-faq-background{
+    background-image: var(--st-faq-background);
 }
 @media (max-width:767px) {
     .page3,
