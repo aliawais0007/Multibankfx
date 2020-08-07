@@ -43,6 +43,7 @@
     --conatct-top: url(../images/contact/contact_top_banner.jpg);
     --table-background: url(../images/common/pp-main-content-bg.png);
     --download-center-background: url(../images/platforms/download_center/download_center_web_trader_banner.jpg);
+    --hiring-now:url(/public_files/images/about_us/about_career_top_banner.jpg);
     --border-color: #ccc;
     --color-737576: #e4e7e9;
     --choose-next-background-color: black;
@@ -105,6 +106,7 @@
     --conatct-top: url(../images/contact/contact_top_banner_dark.jpg);
     --table-background: url(../images/common/pp-main-content-bg-dark.jpg);
     --download-center-background: url(../images/platforms/download_center/download_center_web_trader_banner.png);
+    --hiring-now:url(/public_files/images/about_us/about_career_top_banner_dark.png);
     --color-737576: #737576;
     --choose-next-background-color: white;
     --trader-color: white;
@@ -12233,6 +12235,10 @@ a span strong {
     height: 100%;
     top: -10%;
     position: relative;
+}
+
+.hiring-now-banner{
+    background: var(--hiring-now) no-repeat 100%;
 }
 
 @media (max-width:767px) {
