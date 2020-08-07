@@ -3325,7 +3325,7 @@ table.dataTable thead>tr>th {
 }
 
 .table-striped tbody tr:hover {
-    background: var(--bg-black)
+    background-color: var(--secondary-color)
 }
 
 .table-striped-blue tbody tr:hover {
