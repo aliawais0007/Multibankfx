@@ -600,7 +600,7 @@
             </div>
         </div>
     </section>
-    <section style="background-color: #fff">
+    <section class="improve-knowledge-st">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 col-xl-8">

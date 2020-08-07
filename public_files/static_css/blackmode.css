@@ -12254,6 +12254,10 @@ table.dataTable tr:nth-of-type(odd) {
 .mt5-top-banner{
     background: var(--mt5-background) no-repeat 100%;
 }
+
+.improve-knowledge-st{
+   background-color: var(--background-dark); 
+}
 @media (max-width:767px) {
     .page3,
     .page4,
