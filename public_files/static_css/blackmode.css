@@ -11987,7 +11987,7 @@ strong {
 }
 
 .st-section {
-    background-color: var(--background-dark)
+    background-color: var(--background-dark) !important
 }
 
 .st-section.pt-0 {
