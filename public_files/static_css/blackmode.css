@@ -2694,8 +2694,8 @@ h1.uppercase {
     padding: 0;
     width: 100%;
     background-color: #fff;
-    -webkit-box-shadow: var(--boxshadow-dark) 0 0 15px 3px;
-    box-shadow: var(--boxshadow-dark) 0 0 15px 3px;
+    -webkit-box-shadow: var(--boxshadow-dark) 0 0 15px 3px !important;
+    box-shadow: var(--boxshadow-dark) 0 0 15px 3px !important;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-transition: -webkit-transform .3s ease-in-out 0s, -webkit-box-shadow .3s ease-in-out 0s;
