@@ -2694,8 +2694,8 @@ h1.uppercase {
     padding: 0;
     width: 100%;
     background-color: #fff;
-    -webkit-box-shadow: var(--boxshadow) 0 0 15px 3px;
-    box-shadow: var(--boxshadow) 0 0 15px 3px;
+    -webkit-box-shadow: var(--boxshadow-dark) 0 0 15px 3px;
+    box-shadow: var(--boxshadow-dark) 0 0 15px 3px;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-transition: -webkit-transform .3s ease-in-out 0s, -webkit-box-shadow .3s ease-in-out 0s;
@@ -12074,7 +12074,7 @@ a {
 
 .shadow-box-smooth {
     box-shadow: var(--boxshadow-dark)!important;
-    border: 1px solid #495057
+    border: 1px solid var(--cards-border);
 }
 
 .iti__country-name {
