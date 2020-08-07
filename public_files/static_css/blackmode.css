@@ -12261,7 +12261,7 @@ table.dataTable tr:nth-of-type(odd) {
    background-color: var(--background-dark); 
    color: var(--font-color);
 }
-.improve-knowledge-st .container .row div p,.improve-knowledge-st .container .row div ul{
+.improve-knowledge-st .container .row div p:first-child,.improve-knowledge-st .container .row div ul{
     color: var(--st-link-color) !important;
 }
 @media (max-width:767px) {
