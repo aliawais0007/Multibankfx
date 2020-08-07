@@ -12268,6 +12268,7 @@ table.dataTable tr:nth-of-type(odd) {
 }
 .st-faq-background{
     background-image: var(--st-faq-background);
+    background-color: transparent !important;
 }
 @media (max-width:767px) {
     .page3,
