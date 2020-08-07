@@ -12073,7 +12073,7 @@ a {
 }
 
 .shadow-box-smooth {
-    box-shadow: var(--boxshadow-dark)!important;
+    box-shadow: var(--boxshadow-dark) 0 0 15px 3px !important;
     border: 1px solid var(--cards-border);
 }
 
