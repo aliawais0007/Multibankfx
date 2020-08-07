@@ -62,6 +62,7 @@
     --full-bW-color: white;
     --scrollbar-color: #1834a7;
     --table-odd:#f1fbfc;
+    --st-link-color:#005190;
 }
 
 [data-theme=dark] {
@@ -126,6 +127,7 @@
     --full-bW-color: black;
     --scrollbar-color: white;
     --table-odd:#737576;
+    --st-link-color:white
 }
 
 body {
@@ -12257,6 +12259,10 @@ table.dataTable tr:nth-of-type(odd) {
 
 .improve-knowledge-st{
    background-color: var(--background-dark); 
+   color: var(--font-color);
+}
+.improve-knowledge-st .container .row div p,.improve-knowledge-st .container .row div ul{
+    color: var(--st-link-color) !important;
 }
 @media (max-width:767px) {
     .page3,
