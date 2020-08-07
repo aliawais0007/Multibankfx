@@ -6546,7 +6546,7 @@ ul.mex-list-disc li {
 .mex-card-cover {
     padding: 0;
     height: 360px;
-    border: 1px solid var(--bg-color)
+    border: 1px solid var(--border-color)
 }
 
 .mex-card-cover .card-content {
