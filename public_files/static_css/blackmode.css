@@ -55,7 +55,7 @@
     --color-red: #ce0b0b;
     --color-blue: #178ecc;
     --color-grey: #333;
-    --boxshadow-dark: rgba(0, 0, 0, 0.1) 0 0 15px 3px;
+    --boxshadow-dark: rgba(0, 0, 0, 0.1);
     --cards-border: none;
     --full-bW-color: white;
     --scrollbar-color: #1834a7;
