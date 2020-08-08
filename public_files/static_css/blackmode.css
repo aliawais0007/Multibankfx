@@ -12451,5 +12451,5 @@ table.dataTable tr:nth-of-type(odd) {
 }
 
 .demo-account-banner{
-    background: var(--demo-account-banenr) no-repeat 100%;
+    background: var(--demo-account-banner) no-repeat 100%;
 }
