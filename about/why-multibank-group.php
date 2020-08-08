@@ -468,7 +468,6 @@ whereToGoItem.injectIcons('.target-icon', icons);
 </div>
 <style type="text/css">.slidebar a span.btn {
     padding: 0;
-    background: none !important;
     margin: 0 0 3px 0;
 }
 
