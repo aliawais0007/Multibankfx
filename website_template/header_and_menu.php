@@ -281,14 +281,16 @@
             </ul>
             <ul class="nav-menu-mobile text-uppercase">
                 <li>
-                    <div class="theme-switch-wrapper">
-                    <em id="darkmode-text">Enable Dark Mode!</em>
-                        <label class="theme-switch" for="checkbox">
-                            <input type="checkbox" id="checkbox" checked />
-                            <div class="slider round"></div>
-                        </label>
-                        
-                    </div>
+                    <a>
+                        <div class="theme-switch-wrapper">
+                            <em id="darkmode-text">Enable Dark Mode!</em>
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox" checked />
+                                <div class="slider round"></div>
+                            </label>
+
+                        </div>
+                    </a>
                 </li>
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/about.php"><?php translate('About us'); ?></a>
                     <ul class="text-center">
