@@ -124,6 +124,9 @@
 <script>
 $.get("https://ipinfo.io/json", function (response) {
     $("#ip").html("IP: " + response.ip);
+    if(response.country.toLowerCase()=="ae"){
+        $('#header-pn').html("UAE : "+ "+971 4 875 1311");
+    }
     $("#address").html("Location: " + response.city + ", " + response.region);
     $("#details").html(JSON.stringify(response));
 }, "jsonp");
