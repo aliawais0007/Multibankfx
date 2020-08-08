@@ -60,7 +60,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="flex-center page-top-banner">
-        <img class="mex-img-cover" src="/public_files/images/partnership/prime_of_primes/Prime_of_Primes_banner1.jpg" alt="Prime Liquidity &amp; Technology">
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/partnership/prime_of_primes/Prime_of_Primes_banner1.jpg" alt="Prime Liquidity &amp; Technology">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-12">

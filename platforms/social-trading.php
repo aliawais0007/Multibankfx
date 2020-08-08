@@ -427,7 +427,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="page-top-banner p-0">
         <div class="banner_overlay"></div>
-        <img class="mex-img-cover" src="/public_files/images/social_trading/social_trading_t_banner.jpg" alt="Trade Forex" />
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/social_trading/social_trading_t_banner.jpg" alt="Trade Forex" />
         <div class="st-banner-text-container">
             <div>
                 <div class="slider-title">
@@ -455,7 +455,7 @@
         </div>
     </section>
     <section class="flex-center">
-        <img class="mex-img-cover" src="/public_files/images/platforms/download_center/download_center_mobile_trader_banner.jpg" alt=" MEX Mobile Trader">
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/platforms/download_center/download_center_mobile_trader_banner.jpg" alt=" MEX Mobile Trader">
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-lg-6 ">

@@ -58,7 +58,7 @@
     </style>
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <section class="flex-center page-top-banner"><img alt="Platforms" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/platforms/platforms_topbanner.jpg" />
+    <section class="flex-center page-top-banner"><img alt="Platforms" class="mex-img-cover lower-brightness" data-entity-type="" data-entity-uuid="" src="/public_files/images/platforms/platforms_topbanner.jpg" />
         <div class="container">
             <div class="row justify-content-start">
                 <div class="col-xl-6">
@@ -69,7 +69,7 @@
         </div>
     </section>
     <section class="flex-center">
-        <img class="mex-img-cover" src="/public_files/images/platforms/img_bg2_product_box.jpg" alt="PLATFORMS bg">
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/platforms/img_bg2_product_box.jpg" alt="PLATFORMS bg">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mex-m-b-30">

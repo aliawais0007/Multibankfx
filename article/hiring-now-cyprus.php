@@ -63,7 +63,7 @@
     </noscript>
     <div class="main-container">
         <section class="mex-block-h600 flex-center mex-p-b-none hiring-now-banner">
-        <!-- <img alt="Career with MultiBank" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_career_top_banner.jpg" /> -->
+        <!-- <img alt="Career with MultiBank" class="mex-img-cover lower-brightness" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_career_top_banner.jpg" /> -->
             <div class="container">
                 <div>
                     <div class="col-10 col-sm-10 col-md-8 col-xl-6 ">

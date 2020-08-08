@@ -62,7 +62,7 @@
     </noscript>
     <div class="main-container">
         <section class="flex-center page-top-banner live-account-banner">
-            <!-- <img src="/public_files/images/accounts_funding/live_account_top_banner.jpg" alt="Islamic Account" class="mex-img-cover" /> -->
+            <!-- <img src="/public_files/images/accounts_funding/live_account_top_banner.jpg" alt="Islamic Account" class="mex-img-cover lower-brightness" /> -->
             <div class="container">
                 <div class="row">
                     <div class="col-10 col-xl-6 col-sm-10">

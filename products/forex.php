@@ -7,7 +7,7 @@
   
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="main-container">
-        <section class="flex-center page-top-banner"><img alt="Trade Indices" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/forex_top_banner1.jpg" />
+        <section class="flex-center page-top-banner"><img alt="Trade Indices" class="mex-img-cover lower-brightness" data-entity-type="" data-entity-uuid="" src="/public_files/images/forex_top_banner1.jpg" />
             <div class="container">
                 <div class="row justify-content-end">
                     <div class="col-md-6 col-sm-12">

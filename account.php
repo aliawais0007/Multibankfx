@@ -59,7 +59,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="main-container">
-        <section class="flex-center page-top-banner"><img src="/public_files/images/accounts_funding/account_top_banner.jpg" alt="Live Account" class="mex-img-cover" />
+        <section class="flex-center page-top-banner"><img src="/public_files/images/accounts_funding/account_top_banner.jpg" alt="Live Account" class="mex-img-cover lower-brightness" />
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
@@ -98,7 +98,7 @@
             }
         </style>
         <section class="flex-center flex-initial mex-p-t-none mex-p-b-none">
-            <div class="col-lg-6 col-sm5 col-xs-12 mex-p-l-none p0-xs"><img src="/public_files/images/accounts_funding/account_second_banner.jpg" alt="Demo Account" class="mex-img-cover" /></div>
+            <div class="col-lg-6 col-sm5 col-xs-12 mex-p-l-none p0-xs"><img src="/public_files/images/accounts_funding/account_second_banner.jpg" alt="Demo Account" class="mex-img-cover lower-brightness" /></div>
             <div class="col-lg-6 col-sm5 col-xs-12 p32 pt24 pb24">
                 <div class="mex-h1 text-1e32a3 text-left">
                 <?php translate('Demo Account'); ?></div>
@@ -131,7 +131,7 @@
             }
         </style>
         <section class="flex-center">
-            <img class="mex-img-cover" src="/public_files/images/accounts_funding/account_third_banner.jpg" alt="Islamic Account">
+            <img class="mex-img-cover lower-brightness" src="/public_files/images/accounts_funding/account_third_banner.jpg" alt="Islamic Account">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">

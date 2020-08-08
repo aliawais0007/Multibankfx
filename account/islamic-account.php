@@ -62,7 +62,7 @@
     </noscript>
     <div class="main-container">
         <section class="flex-center page-top-banner">
-            <img src="/public_files/images/accounts_funding/islamic_account_top_banner.jpg" alt="Islamic Account" class="mex-img-cover" />
+            <img src="/public_files/images/accounts_funding/islamic_account_top_banner.jpg" alt="Islamic Account" class="mex-img-cover lower-brightness" />
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
@@ -473,7 +473,7 @@
             </div>
         </section>
         <section class="flex-center page-top-banner">
-            <img class="mex-img-cover" src="/public_files/images/accounts_funding/islamic_condition_bg.jpg" alt="Islamic Account Benefits">
+            <img class="mex-img-cover lower-brightness" src="/public_files/images/accounts_funding/islamic_condition_bg.jpg" alt="Islamic Account Benefits">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">

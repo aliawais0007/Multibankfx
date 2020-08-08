@@ -59,7 +59,7 @@
         </style>
 
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <section class="flex-center page-top-banner"><img src="/public_files/images/partnership/CPA_affiliate_program/multibank_affiliate_program_top_banner@2x.jpg" alt="CPA Affiliate Program" class="mex-img-cover" />
+        <section class="flex-center page-top-banner"><img src="/public_files/images/partnership/CPA_affiliate_program/multibank_affiliate_program_top_banner@2x.jpg" alt="CPA Affiliate Program" class="mex-img-cover lower-brightness" />
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 col-sm-12">
@@ -402,7 +402,7 @@
             </div>
         </section>
         <section class="flex-center">
-            <img class="mex-img-cover" src="/public_files/images/partnership/CPA_affiliate_program/multibank_affiliate_download_multibank_branding_guidelines@2x.jpg" alt=" Download MultiBank’s Branding Guidelines">
+            <img class="mex-img-cover lower-brightness" src="/public_files/images/partnership/CPA_affiliate_program/multibank_affiliate_download_multibank_branding_guidelines@2x.jpg" alt=" Download MultiBank’s Branding Guidelines">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 mex-h1 mex-h1-color text-fff text-center mex-m-b-40">

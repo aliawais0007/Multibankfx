@@ -61,7 +61,7 @@
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <div class="main-container">
-        <section class="flex-center page-top-banner"><img alt="Sponsorship" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/sponsorship_top_banner.jpg" />
+        <section class="flex-center page-top-banner"><img alt="Sponsorship" class="mex-img-cover lower-brightness" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/sponsorship_top_banner.jpg" />
             <div class="container mex-p-t-30 mex-p-b-30">
                 <div class="row justify-content-start">
                     <div class="col-lg-6 col-md-10">

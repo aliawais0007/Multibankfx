@@ -269,7 +269,7 @@
                     <div class=" flex-center contact_section bg-white mex-m-b-40">
                         <div class="row mx-0">
                             <div class="col-xl-6 col-12 p0">
-                                <div class="mex-img-cover">
+                                <div class="mex-img-cover lower-brightness">
                                     <img class="contact-service-image" src="/public_files/images/contact/contact_box_email.jpg" alt="EMAIL">
                                 </div>
                             </div>
@@ -293,7 +293,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-6 col-12 p0">
-                                <div class="mex-img-cover">
+                                <div class="mex-img-cover lower-brightness">
                                     <img class="contact-service-image" src="/public_files/images/contact/contact_box_livechat.jpg" alt="Live Chat">
                                 </div>
                             </div>
@@ -302,7 +302,7 @@
                     <div class=" flex-center contact_section bg-white mb0">
                         <div class="row mx-0">
                             <div class="col-xl-6 col-12 p0">
-                                <div class="mex-img-cover">
+                                <div class="mex-img-cover lower-brightness">
                                     <img class="contact-service-image" src="/public_files/images/contact/contact_box_connect.jpg" alt="CONNECT TO US">
                                 </div>
                             </div>

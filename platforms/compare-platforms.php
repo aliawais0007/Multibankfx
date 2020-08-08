@@ -59,7 +59,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="flex-center">
-        <img class="mex-img-cover" src="/public_files/images/platforms/compare_platforms/compare_platforms_top_banner2.jpg" alt="compare platforms">
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/platforms/compare_platforms/compare_platforms_top_banner2.jpg" alt="compare platforms">
         <div class="container mex-block--focus-inner">
             <div class="row">
                 <div class="col-sm-12">

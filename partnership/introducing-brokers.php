@@ -62,7 +62,7 @@
 
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display: none; visibility: hidden;"></iframe></noscript>
   <section class="flex-center page-top-banner">
-    <img class="filter-shadow" src="/public_files/images/partnership/introducing_brokers/img_topbanner_Introducing_Brokers.jpg" alt="Introducing Brokers" class="mex-img-cover" />
+    <img class="filter-shadow" src="/public_files/images/partnership/introducing_brokers/img_topbanner_Introducing_Brokers.jpg" alt="Introducing Brokers" class="mex-img-cover lower-brightness" />
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12">

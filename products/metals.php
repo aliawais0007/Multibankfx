@@ -59,7 +59,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="main-container">
-        <section class="flex-center page-top-banner "><img class="mex-img-cover" src="/public_files/images/img_topbanner_Metals.jpg" alt="Trade Metals" />
+        <section class="flex-center page-top-banner "><img class="mex-img-cover lower-brightness" src="/public_files/images/img_topbanner_Metals.jpg" alt="Trade Metals" />
             <div class="container">
                 <div class="row justify-content-end">
                     <div class="col-sm-6 col-12">

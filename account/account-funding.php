@@ -60,8 +60,8 @@
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <div class="main-container">
-        <section class="flex-center page-top-banner account-funding-banner">
-            <!-- <img src="/public_files/images/accounts_funding/account_funding_top_banner.jpg" alt="Fund Your Account banner" class="mex-img-cover" /> -->
+        <section class="flex-center page-top-banner">
+            <img src="/public_files/images/accounts_funding/account_funding_top_banner.jpg" alt="Fund Your Account banner" class="mex-img-cover lower-brightness" />
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-12">
@@ -265,7 +265,7 @@
             </div>
         </section>
         <section class="flex-center page-top-banner">
-            <img class="mex-img-cover" src="/public_files/images/accounts_funding/deposit-conditions-bg.jpg" alt="Deposit Conditions">
+            <img class="mex-img-cover lower-brightness" src="/public_files/images/accounts_funding/deposit-conditions-bg.jpg" alt="Deposit Conditions">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-12">

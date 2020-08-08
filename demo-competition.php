@@ -60,7 +60,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="main-container">
         <section class="flex-center page-top-banner demo-account-banner">
-            <!-- <img alt="Demo Account" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/accounts_funding/demo_account_top_banner.jpg" /> -->
+            <!-- <img alt="Demo Account" class="mex-img-cover lower-brightness" data-entity-type="" data-entity-uuid="" src="/public_files/images/accounts_funding/demo_account_top_banner.jpg" /> -->
             <div class="container">
                 <div class="row">
                     <div class="col-8 col-sm-8 col-md-7 col-lg-6 ">

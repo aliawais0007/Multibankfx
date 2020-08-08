@@ -59,7 +59,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="flex-center page-top-banner">
-        <img class="mex-img-cover" src="/public_files/images/tools/Trading_Conditions_topbanner.jpg" alt="Trading Conditions banner">
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/tools/Trading_Conditions_topbanner.jpg" alt="Trading Conditions banner">
         <div class="container">
             <div class="row arabic-content-center">
                 <div class="col-sm-12 text-center">
@@ -79,7 +79,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 mb-s-30">
                     <section class="mex-block-card-v tools-mex-block-card-v">
                         <div class="card-img-box">
-                            <img class="mex-img-cover" src="/public_files/images/tools/bn_vps@2x.png" alt="Account Base Currencies">
+                            <img class="mex-img-cover lower-brightness" src="/public_files/images/tools/bn_vps@2x.png" alt="Account Base Currencies">
                         </div>
                         <div class=" card-content bg-white text-left">
                             <div class="mex-h2 uppercase">
@@ -96,7 +96,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 mb-s-30">
                     <section class="mex-block-card-v tools-mex-block-card-v">
                         <div class="card-img-box">
-                            <img class="mex-img-cover" src="/public_files/images/tools/bn_multibank@2x.png" alt="Margin">
+                            <img class="mex-img-cover lower-brightness" src="/public_files/images/tools/bn_multibank@2x.png" alt="Margin">
                         </div>
                         <div class=" card-content bg-white text-left">
                             <div class="mex-h2 uppercase">
@@ -125,7 +125,7 @@
             </div>
         </div>
     </section>
-    <section class="mex-block-h600 flex-center"><img src="/public_files/images/tools/trading_conditions_submit_a_vps_request@2x.jpg" alt="Stop-out Level" class="mex-img-cover" />
+    <section class="mex-block-h600 flex-center"><img src="/public_files/images/tools/trading_conditions_submit_a_vps_request@2x.jpg" alt="Stop-out Level" class="mex-img-cover lower-brightness" />
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">

@@ -59,7 +59,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="flex-center page-top-banner">
-        <img class="mex-img-cover" src="/public_files/images/tools/img_topbanner_tools.jpg" alt="Trading Tools">
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/tools/img_topbanner_tools.jpg" alt="Trading Tools">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 hidden-xs"></div>
@@ -822,7 +822,7 @@
         </div>
     </section>
     <section class="mex-block-h600 flex-center">
-        <img class="mex-img-cover" src="/public_files/images/tools/bg_mam_bg.png" alt="MAM Advantages">
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/tools/bg_mam_bg.png" alt="MAM Advantages">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 mex-m-b-30">
@@ -848,7 +848,7 @@
         </div>
     </section>
     <section class="flex-center" id="fix-api">
-        <img class="mex-img-cover" src="/public_files/images/tools/tools_trading_tools_fix_ap.png" alt="FIX API">
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/tools/tools_trading_tools_fix_ap.png" alt="FIX API">
         <div class="container">
             <div class="row d-block">
                 <div class="col-md-8 col-sm-12 text-center offset-md-2">

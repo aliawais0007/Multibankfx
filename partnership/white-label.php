@@ -60,7 +60,7 @@
     </style>
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <section class="flex-center page-top-banner"><img src="/public_files/images/partnership/white_label/img_top_banner_White_Label_banner.jpg" alt="White Label" class="mex-img-cover" />
+    <section class="flex-center page-top-banner"><img src="/public_files/images/partnership/white_label/img_top_banner_White_Label_banner.jpg" alt="White Label" class="mex-img-cover lower-brightness" />
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
@@ -91,7 +91,7 @@
         }
     </style>
     <section class=" flex-center">
-        <img class="mex-img-cover" src="/public_files/images/partnership/white_label/White_Label_Highlights.png" alt=" White Label Highlights">
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/partnership/white_label/White_Label_Highlights.png" alt=" White Label Highlights">
         <div class="container">
             <div class="row d-block">
                 <div class="col-lg-6 col-sm7 col-xs-12 right">

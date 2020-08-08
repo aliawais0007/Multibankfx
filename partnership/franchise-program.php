@@ -60,7 +60,7 @@
 
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display: none; visibility: hidden;"></iframe></noscript>
   <section class="flex-center page-top-banner">
-    <img src="/public_files/images/partnership/franchise_program/img_topbanner_Franchise_Program.jpg" alt="Franchise Program" class="mex-img-cover" />
+    <img src="/public_files/images/partnership/franchise_program/img_topbanner_Franchise_Program.jpg" alt="Franchise Program" class="mex-img-cover lower-brightness" />
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -106,7 +106,7 @@
     }
   </style>
   <section class="flex-center">
-    <img class="mex-img-cover" src="/public_files/images/partnership/franchise_program/Become_MultiBanks_Franchise_Partner.jpg" alt="Become MultiBank’s Franchise Partner" />
+    <img class="mex-img-cover lower-brightness" src="/public_files/images/partnership/franchise_program/Become_MultiBanks_Franchise_Partner.jpg" alt="Become MultiBank’s Franchise Partner" />
     <div class="container">
       <div class="row d-block">
         <div class="col-lg-6 col-sm7 col-xs-12 right">

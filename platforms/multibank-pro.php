@@ -58,7 +58,7 @@
     </style>
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <section class="flex-center page-top-banner"><img alt="MULTIBANK PRO PLATFORM" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/platforms/multibank_pro/mutibank_bg.jpg" />
+    <section class="flex-center page-top-banner"><img alt="MULTIBANK PRO PLATFORM" class="mex-img-cover lower-brightness" data-entity-type="" data-entity-uuid="" src="/public_files/images/platforms/multibank_pro/mutibank_bg.jpg" />
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">

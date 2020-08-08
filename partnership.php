@@ -58,7 +58,7 @@
     </style>
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <section class="flex-center page-top-banner pb96 pt96"><img src="/public_files/images/partnership/partnership_top_banner.jpg" alt="partnership top banner" class="mex-img-cover" />
+    <section class="flex-center page-top-banner pb96 pt96"><img src="/public_files/images/partnership/partnership_top_banner.jpg" alt="partnership top banner" class="mex-img-cover lower-brightness" />
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">

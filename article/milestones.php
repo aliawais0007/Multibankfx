@@ -93,7 +93,7 @@ foreach($milestones as $value){
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <div class="main-container">
-        <section class="flex-center page-top-banner"><img alt="Milestones" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_milestones_top_banner.jpg" class="mex-img-cover" />
+        <section class="flex-center page-top-banner"><img alt="Milestones" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_milestones_top_banner.jpg" class="mex-img-cover lower-brightness" />
             <div class="container text-center">
                 <div class="row">
                     <div class="col-12">

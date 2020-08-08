@@ -61,7 +61,7 @@
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <div class="main-container">
-    <section class="flex-center page-top-banner"><img alt="Demo Account" class="mex-img-cover" data-entity-type=""
+    <section class="flex-center page-top-banner"><img alt="Demo Account" class="mex-img-cover lower-brightness" data-entity-type=""
                                                       data-entity-uuid=""
                                                       src="/public_files/images/accounts_funding/demo_account_top_banner.jpg"/>
         <div class="container">

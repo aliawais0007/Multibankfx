@@ -12459,3 +12459,7 @@ table.dataTable tr:nth-of-type(odd) {
 .account-funding-banner{
     background: var(--account-funding-banner) no-repeat 100%; 
 }
+
+.lower-brightness{
+    filter:brightness(0.5)
+}

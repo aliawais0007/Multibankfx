@@ -59,7 +59,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="main-container">
-        <section class="flex-center page-top-banner"><img class="mex-img-cover" src="/public_files/images/img_topbanner_product.jpg" alt="PRODUCTS" />
+        <section class="flex-center page-top-banner"><img class="mex-img-cover lower-brightness" src="/public_files/images/img_topbanner_product.jpg" alt="PRODUCTS" />
             <div class="container">
                 <div class="row justify-content-end">
                     <div class="col-md-6 col-sm-12 col-12  mex-p-t-30 mex-p-b-30">
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </section>
-        <section class="flex-center"><img alt="product box" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/img_bg2_product_box.jpg" />
+        <section class="flex-center"><img alt="product box" class="mex-img-cover lower-brightness" data-entity-type="" data-entity-uuid="" src="/public_files/images/img_bg2_product_box.jpg" />
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12 mex-m-b-30">
@@ -155,7 +155,7 @@
                 </div>
             </div>
         </section>
-        <section class="flex-center"><img alt="OPEN ACCOUNT" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/products/img_account_bgproduct.jpg" />
+        <section class="flex-center"><img alt="OPEN ACCOUNT" class="mex-img-cover lower-brightness" data-entity-type="" data-entity-uuid="" src="/public_files/images/products/img_account_bgproduct.jpg" />
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-12 text-center m-b-30">

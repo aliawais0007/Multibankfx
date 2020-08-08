@@ -59,7 +59,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="flex-center page-top-banner">
-        <img src="/public_files/images/tools/tools_topbanner.jpg" alt="tools top banner" class="mex-img-cover" />
+        <img src="/public_files/images/tools/tools_topbanner.jpg" alt="tools top banner" class="mex-img-cover lower-brightness" />
         <div class="container">
             <div class="row justify-content-end top-banner-arabic">
                 <div class="col-xl-6 mex-p-t-30 mex-p-b-30">
@@ -138,7 +138,7 @@
                 <div class="col-md-6 mex-m-b-15">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box hover-img-zoom">
-                            <img class="mex-img-cover" src="/public_files/images/tools/trading_tools_trading_conditions.jpg" alt="Trading Conditions">
+                            <img class="mex-img-cover lower-brightness" src="/public_files/images/tools/trading_tools_trading_conditions.jpg" alt="Trading Conditions">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content text-center">
@@ -154,7 +154,7 @@
                 <div class="col-md-6 mex-m-b-15">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box hover-img-zoom">
-                            <img class="mex-img-cover" src="/public_files/images/tools/trading_tools_holiday_hours_notices.jpg" alt="Holiday Hours &amp; Notices">
+                            <img class="mex-img-cover lower-brightness" src="/public_files/images/tools/trading_tools_holiday_hours_notices.jpg" alt="Holiday Hours &amp; Notices">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -171,7 +171,7 @@
         </div>
     </section>
     <section class="flex-center page-top-banner">
-        <img class="mex-img-cover" src="/public_files/images/tools/scalping_policy_bg.jpg" alt="Scalping Policy">
+        <img class="mex-img-cover lower-brightness" src="/public_files/images/tools/scalping_policy_bg.jpg" alt="Scalping Policy">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">

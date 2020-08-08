@@ -134,7 +134,7 @@ foreach ($newss as $key => $value) {
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="main-container">
-        <section class="flex-center page-top-banner"><img alt="/ABOUT US" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_top_banner.jpg" />
+        <section class="flex-center page-top-banner"><img alt="/ABOUT US" class="mex-img-cover lower-brightness" data-entity-type="" data-entity-uuid="" src="/public_files/images/about_us/about_top_banner.jpg" />
             <div class="container text-center mex-p-t-30 mex-p-b-30">
                 <div class="row justify-content-center">
                     <div class="col-xl-10 padding-20 page-top-banner-video-bg">

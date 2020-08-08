@@ -92,7 +92,7 @@
         }
     </style>
     <section class="flex-center page-top-banner"><img src="/public_files/images/accounts_funding/bonus_top_banner.jpg"
-                                                      alt="bonuses banner" class="mex-img-cover"/>
+                                                      alt="bonuses banner" class="mex-img-cover lower-brightness"/>
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-sm-12"><h1 class="mex-h1 text-left"> BONUSES </h1>

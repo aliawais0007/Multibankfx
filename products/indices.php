@@ -60,7 +60,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="main-container">
-        <section class="flex-center page-top-banner"><img alt="Trade Indices" class="mex-img-cover" data-entity-type="" data-entity-uuid="" src="/public_files/images/indices_top_banner@2x.png" />
+        <section class="flex-center page-top-banner"><img alt="Trade Indices" class="mex-img-cover lower-brightness" data-entity-type="" data-entity-uuid="" src="/public_files/images/indices_top_banner@2x.png" />
             <div class="container">
                 <div class="row justify-content-end">
                     <div class="col-lg-6 col-sm-8 col-8">

@@ -59,7 +59,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="flex-center page-top-banner">
-        <img src="/public_files/images/accounts_funding/live_account_top_banner.jpg" alt="Islamic Account" class="mex-img-cover" />
+        <img src="/public_files/images/accounts_funding/live_account_top_banner.jpg" alt="Islamic Account" class="mex-img-cover lower-brightness" />
         <div class="container">
             <div class="row">
                 <div class="col-10 col-xl-6 col-sm-10" ">

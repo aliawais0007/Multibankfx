@@ -59,7 +59,7 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="mex-block-h600 flex-center page-top-banner">
-        <img src="/public_files/images/tools/img_topbanner_Holiday.jpg" alt="Holiday Hours & Notices" class="mex-img-cover" />
+        <img src="/public_files/images/tools/img_topbanner_Holiday.jpg" alt="Holiday Hours & Notices" class="mex-img-cover lower-brightness" />
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
