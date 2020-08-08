@@ -11,6 +11,12 @@ $only_country=explode (" ", $country);
 // echo "Country : ".$only_country[1]." ".substr($only_country[2],0,4);
 
 ?>
+<html>
+    <head>
+        <title>
+            Hello
+        </title>
+    </head>
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <h3>Client side IP geolocation using <a href="http://ipinfo.io">ipinfo.io</a></h3>
@@ -28,3 +34,4 @@ $.get("https://ipinfo.io/json", function (response) {
 }, "jsonp");
 </script>
 </body>
+</html>
