@@ -12461,5 +12461,5 @@ table.dataTable tr:nth-of-type(odd) {
 }
 
 .lower-brightness{
-    filter:brightness(0.5)
+    filter:var(--brightness-img)
 }
