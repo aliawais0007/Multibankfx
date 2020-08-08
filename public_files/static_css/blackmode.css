@@ -48,6 +48,7 @@
     --st-faq-background:url(/public_files/images/social_trading/st_earn_money_bg.jpg);
     --live-account-banner:url(/public_files/images/accounts_funding/live_account_top_banner.jpg);
     --demo-account-banner:url(/public_files/images/accounts_funding/demo_account_top_banner.jpg);
+    --account-funding-banner:url(/public_files/images/accounts_funding/account_funding_top_banner.jpg);
     --border-color: #ccc;
     --color-737576: #e4e7e9;
     --choose-next-background-color: black;
@@ -117,6 +118,7 @@
     --st-faq-background:url(/public_files/images/social_trading/st_earn_money_bg_dark.png);
     --live-account-banner:url(/public_files/images/accounts_funding/live_account_top_banner_dark.png);
     --demo-account-banner:url(/public_files/images/accounts_funding/demo_account_top_banner_dark.png);
+    --account-funding-banner:url(/public_files/images/accounts_funding/account_funding_top_banner_dark.png);
     --color-737576: #737576;
     --choose-next-background-color: white;
     --trader-color: white;
@@ -12452,4 +12454,8 @@ table.dataTable tr:nth-of-type(odd) {
 
 .demo-account-banner{
     background: var(--demo-account-banner) no-repeat 100%;
+}
+
+.account-funding-banner{
+    background: var(--account-funding-banner) no-repeat 100%; 
 }
