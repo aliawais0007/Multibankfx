@@ -152,6 +152,10 @@ foreach ($allnews as $item) {
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-01-750x600.jpg');">
                         <img src="/public_files/images/home/home-banner-multibank-01-750x600.jpg" />
+                        <div class="row flex-column justify-content-center align-items-center slider-content">
+                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
+                            <span class="home-banner-title2">Improved trading functionalities</span>
+                        </div>
                     </div>
                 </a>
             </div>
@@ -165,6 +169,10 @@ foreach ($allnews as $item) {
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-04-750x600.jpg');">
                         <img src="public_files/images/home/home-banner-multibank-04-750x600.jpg" />
+                        <div class="row flex-column justify-content-center align-items-center slider-content">
+                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
+                            <span class="home-banner-title2">Improved trading functionalities</span>
+                        </div>
                     </div>
                 </a>
             </div>
@@ -178,6 +186,10 @@ foreach ($allnews as $item) {
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
                         <img src="public_files/images/home/home-banner-multibank-mt5-750x600.jpg" />
+                        <div class="row flex-column justify-content-center align-items-center slider-content">
+                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
+                            <span class="home-banner-title2">Improved trading functionalities</span>
+                        </div>
                     </div>
                 </a>
             </div>
