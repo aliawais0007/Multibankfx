@@ -2240,6 +2240,7 @@ foreach ($allnews as $item) {
                 effect: 'fade',
             });
 
+// banner slider under Hero slider
             $('#home-carousal-banner').slick({
                 centerMode: true,
                 centerPadding: '40px',

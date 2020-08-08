@@ -280,6 +280,13 @@
             <ul class="nav-menu-mobile text-uppercase">
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/about.php"><?php translate('About us'); ?></a>
                     <ul class="text-center">
+                    <li>  <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                         <input type="checkbox" id="checkbox" checked/>
+                         <div class="slider round"></div>
+                       </label>
+                         <em id="darkmode-text">Enable Dark Mode!</em>
+                       </div></li>
                         <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
                         <li><a href="/about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
                         <li><a href="/mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
