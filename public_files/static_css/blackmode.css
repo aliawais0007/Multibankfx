@@ -12445,5 +12445,5 @@ table.dataTable tr:nth-of-type(odd) {
 
 /* new updates and fixes */
 .live-account-banner{
-    background: var(--lieve-account-banner) no-repeat 100%;
+    background: var(--live-account-banner) no-repeat 100%;
 }
