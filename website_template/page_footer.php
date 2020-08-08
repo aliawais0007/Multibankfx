@@ -125,8 +125,21 @@
 $.get("https://ipinfo.io/json", function (response) {
     $("#ip").html("IP: " + response.ip);
     if(response.country.toLowerCase()=="ae"){
-        $('#header-pn').html("UAE : "+ "+971 4 875 1311");
+        $('#header-pn').html("UAE : +971 4 875 1311");
     }
+    else if(response.country.toLowerCase()=="my"){
+        $('#header-pn').html("Malaysia: +60 32 201 0966");
+    }
+    else if(response.country.toLowerCase()=="id"){
+        $('#header-pn').html("Indonesia: +62 02129264151");
+    }
+    else if(response.country.toLowerCase()=="es"){
+        $('#header-pn').html("Spain: +34 931220671");
+    }
+    else {
+        $('#header-pn').html("US: +1 213 992 4748");
+    }
+
     $("#address").html("Location: " + response.city + ", " + response.region);
     $("#details").html(JSON.stringify(response));
 }, "jsonp");
