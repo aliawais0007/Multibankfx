@@ -5953,7 +5953,7 @@ section.mex-block-full .mex-img-cover {
 
 .home-banner-btn1 {
     background: #1e32a3 0 0 no-repeat padding-box;
-    border: 1px solid #1e32a3;
+    border: none;
     font-size: 1.3vw;
     color: #fff!important;
     font-family: Calibri;
@@ -5965,7 +5965,7 @@ section.mex-block-full .mex-img-cover {
 
 .home-banner-btn2 {
     background: #cd0b0b 0 0 no-repeat padding-box;
-    border: 1px solid #cd0b0b;
+    border: none;
     font-size: 1.3vw;
     font-family: Calibri;
     letter-spacing: 0;
