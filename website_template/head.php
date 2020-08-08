@@ -7,7 +7,7 @@
     <meta name='keywords' content="live account forms, pdf trade account application forms, forex pdf application, individual trade account form, joint trading account, corporate trading account application, forex broker transfer form, VPS account application form, request changes for fore">
     <meta property='og:title' content="Client Forms | Download Account Application Forms">
     <meta property='og:description' content="Access and download our Account Forms, including Client Agreement, Financial Services Guide, Product Disclosure Statement, Account Application Forms.">
-    <link rel='canonical' href="account-forms.html">
+    <link rel='canonical' href="/account-forms.php">
     <link rel="alternate" href="https://es.multibankfx.com/account/account-forms" hreflang="es-ES" />
     <link rel="alternate" href="https://ru.multibankfx.com/account/account-forms" hreflang="ru-RU" />
     <link rel="alternate" href="https://ae.multibankfx.com/account/account-forms" hreflang="en-ae" />
@@ -17,7 +17,7 @@
     <link rel="alternate" href="https://ph.multibankfx.com/account/account-forms" hreflang="tl-PH" />
     <link rel="alternate" href="https://th.multibankfx.com/account/account-forms" hreflang="th-TH" />
     <link rel="alternate" href="https://fr.multibankfx.com/account/account-forms" hreflang="fr-FR" />
-    <link rel="alternate" href="account-forms.html" hreflang="x-default" />
+    <link rel="alternate" href="/account-forms.php" hreflang="x-default" />
 
     <script type="text/javascript" async>
         function init_google(w, d, s, l, i) {

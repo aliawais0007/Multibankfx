@@ -488,14 +488,14 @@
                         </form>
                         <hr class="mx-1 my-2 bg-dark">
                         <div class="px-1 contact-form-button-container">
-                            <a style="padding: 5px 10px !important;" href="/account/live-account.html" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/account/live-account.php" class="d-flex btn btn-mex-red mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe91d;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="abre una cuenta real" data-fr="OUVRIR UN COMPTE RÉEL" data-ae="افتح حساب حقيقي" data-ms="Buka Akaun Live" data-th="เปิดบัญชี">OPEN LIVE
                                     ACCOUNT
                                 </div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="/demo_competition.html" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/demo_competition.php" class="d-flex btn btn-mex-blue mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe918;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="Abre una cuenta de prueba" data-fr="OUVRIR UN COMPTE DÉMO" data-ms="Buka Akaun Demo" data-th="เปิดบัญชีทดลอง" data-ae="افتح حساب تجريبي">OPEN DEMO ACCOUNT
@@ -508,7 +508,7 @@
                                     REGISTRATION
                                 </div>
                             </a>
-                            <a style="padding: 5px 10px !important;" href="/account/account-funding.html" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
+                            <a style="padding: 5px 10px !important;" href="/account/account-funding.php" class="d-flex btn btn-mex mex-m-b-5 col-md-12 col-xs-12 align-items-center">
                                 <span>&#xe921;</span>
                                 <div class="btn-vr"></div>
                                 <div class="mex-translatable" data-es="financia tu cuenta" data-fr="CRÉDITEZ VOTRE COMPTE" data-ms="Dana Akaun Anda" data-th="เติมเงินในบัญชีขอ" data-ae="تمويل حسابك">FUND YOUR
@@ -518,12 +518,12 @@
                             <div class="px-1 font-10" style="padding:0px;">
                                 <div class="form-check form-check-inline">
                                     <label class="form-check-label label-1 mex-translatable" for="terms_conditions" data-ms='Saya menerima <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terma & Syarat</a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">Dasar Privasi</a>, dan <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;"> Dasar Cookie.</a>.' data-fr='En soumettant ce formulaire, vous acceptez  <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">les Termes et conditions</a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">la Politique de confidentialité</a>, et <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;"> la Politique sur les cookies.</a>.' data-ae='أوافق على <a href="https://www.multibankfx.com/terms-conditions" target="_blank" class="text-22A0C4" style="padding:0 !important;">الشروط والأحكام </a>, <a href="https://www.multibankfx.com/privacy-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">وسياسة الخصوصية </a>, <a href="https://www.multibankfx.com/cookie-policy" target="_blank" class="text-22A0C4" style="padding:0 !important;">وسياسة ملفات تعريف الارتباط</a>.' data-th='เมื่อส่งแบบฟอร์มนี้ถือว่าคุณยอมรับ
-    <a href="/terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">ข้อกำหนดและเงื่อนไข </a>,
-    <a href="/privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">นโยบายความเป็นส่วนตัว</a>
-    , <a href="/cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">และนโยบายคุกกี้</a>.'>By
-                                        submitting this form, you agree to accept the <a href="/terms-conditions.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms
-                                            &amp; Conditions</a>, <a href="/privacy-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy
-                                            Policy</a>, and <a href="/cookie-policy.html" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie
+    <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">ข้อกำหนดและเงื่อนไข </a>,
+    <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">นโยบายความเป็นส่วนตัว</a>
+    , <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">และนโยบายคุกกี้</a>.'>By
+                                        submitting this form, you agree to accept the <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms
+                                            &amp; Conditions</a>, <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy
+                                            Policy</a>, and <a href="/cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie
                                             Policy</a>.
                                     </label>
                                 </div>
