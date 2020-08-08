@@ -18,7 +18,7 @@
     --arrow-color: #E5E5E5;
     --color-c7c7c6: #c7c7c6;
     --bg-nav-menu-mobile-inner-ul: #efefef;
-    --brightness-img: 100%;
+    --brightness-img: brightness(1);
     --article-title: rgb(30, 50, 163);
     --common-light-dark: white;
     --filter-shadow: 100%;
@@ -85,7 +85,7 @@
     --text-1e32a3: #ffffff;
     --bg-light-black: #00000070;
     --arrow-color: #6b5252;
-    --brightness-img: 90%;
+    --brightness-img: brightness(0.6);
     --color-c7c7c6: #4e4e461f;
     --article-title: #fff;
     --bg-nav-menu-mobile-inner-ul: #000000;
