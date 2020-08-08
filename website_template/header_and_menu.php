@@ -280,10 +280,10 @@
                 </li>
             </ul>
             <ul class="nav-menu-mobile text-uppercase">
-                <li style="margin-left:1.5rem !important">
+                <li style="margin:1rem">
                     <a>
                         <div class="theme-switch-wrapper d-flex justify-content-between">
-                            <em id="darkmode-text">Enable Dark Mode!</em>
+                            <span id="darkmode-text">Enable Dark Mode!</span>
                             <label class="theme-switch" for="checkbox">
                                 <input type="checkbox" id="checkbox"/>
                                 <div class="slider round"></div>
