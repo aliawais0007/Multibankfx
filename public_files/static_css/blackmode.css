@@ -12467,3 +12467,7 @@ table.dataTable tr:nth-of-type(odd) {
 #darkmode-text{
     color: var(--font-color) !important;
 }
+
+.slick-slide h4{
+    color: var(--font-color) !important;
+}

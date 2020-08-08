@@ -126,18 +126,23 @@ $.get("https://ipinfo.io/json", function (response) {
     $("#ip").html("IP: " + response.ip);
     if(response.country.toLowerCase()=="ae"){
         $('#header-pn').html("UAE : +971 4 875 1311");
+        $('#header-pn').attr('href',`tel:'+971 4 875 1311?call`);
     }
     else if(response.country.toLowerCase()=="my"){
         $('#header-pn').html("Malaysia: +60 32 201 0966");
+        $('#header-pn').attr('href',`tel:'+60 32 201 0966?call`);
     }
     else if(response.country.toLowerCase()=="id"){
         $('#header-pn').html("Indonesia: +62 02129264151");
+        $('#header-pn').attr('href',`tel:'+62 02129264151?call`);
     }
     else if(response.country.toLowerCase()=="es"){
         $('#header-pn').html("Spain: +34 931220671");
+        $('#header-pn').attr('href',`tel:'+34 931220671?call`);
     }
     else {
         $('#header-pn').html("US: +1 213 992 4748");
+        $('#header-pn').attr('href',`tel:'+1 213 992 4748?call`);
     }
 
     $("#address").html("Location: " + response.city + ", " + response.region);
