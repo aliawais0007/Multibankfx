@@ -12165,8 +12165,8 @@ a span strong {
     background: 0 0
 }
 
-.slidebar a {
-    background-color: transparent!important;
+.slidebar a span{
+    background-color: white !important;
     border: none!important
 }
 
