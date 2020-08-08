@@ -280,9 +280,9 @@
                 </li>
             </ul>
             <ul class="nav-menu-mobile text-uppercase">
-                <li>
+                <li style="margin-left:1.5rem !important">
                     <a>
-                        <div class="theme-switch-wrapper">
+                        <div class="theme-switch-wrapper d-flex justify-content-between">
                             <em id="darkmode-text">Enable Dark Mode!</em>
                             <label class="theme-switch" for="checkbox">
                                 <input type="checkbox" id="checkbox" checked />

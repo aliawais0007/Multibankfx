@@ -861,7 +861,15 @@ $(document).ready(function() {
     // Toggle dark mode script
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
     // const currentTheme = localStorage.getItem('theme');
-    let currentTheme = 'dark';
+
+    let currentTheme = '';
+    let mode = localStorage.getItem('defaultMode');
+    if(mode!='0'){
+        currentTheme = 'dark'
+    }
+    else{
+        currentTheme = 'light'
+    }
     if (currentTheme) {
         document.documentElement.setAttribute('data-theme', currentTheme);
 
@@ -873,6 +881,7 @@ $(document).ready(function() {
             $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
             $('#darkmode-text').html('Enable Light Mode')
         } else {
+            toggleSwitch.checked = false;
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
             $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
             $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
@@ -883,6 +892,7 @@ $(document).ready(function() {
 
     function switchTheme(e) {
         if (e.target.checked) {
+            localStorage.setItem('defaultMode',"1");
             document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem('theme', 'dark');
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
@@ -892,6 +902,8 @@ $(document).ready(function() {
             $('#darkmode-text').html('Enable Light Mode');
 
         } else {
+            toggleSwitch.checked = false;
+            localStorage.setItem('defaultMode',"0");
             document.documentElement.setAttribute('data-theme', 'light');
             localStorage.setItem('theme', 'light');
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
