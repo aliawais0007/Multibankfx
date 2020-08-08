@@ -518,10 +518,9 @@
     </div>
     <style type="text/css">
         .slidebar a span.btn {
-            padding: 0;
-            background: none !important;
-            margin: 0 0 3px 0;
-        }
+    padding: 0;
+    margin: 0 0 3px 0;
+}
 
         @media screen and (max-width: 640px) {
             .slidebar {
