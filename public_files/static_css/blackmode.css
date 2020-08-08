@@ -12463,3 +12463,7 @@ table.dataTable tr:nth-of-type(odd) {
 .lower-brightness{
     filter:var(--brightness-img)
 }
+
+#darkmode-text{
+    color: var(--font-color) !important;
+}
