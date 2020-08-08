@@ -902,6 +902,7 @@ $(document).ready(function() {
             $('#darkmode-text').html('Enable Light Mode');
 
         } else {
+            debugger
             toggleSwitch.checked = false;
             localStorage.setItem('defaultMode',"0");
             document.documentElement.setAttribute('data-theme', 'light');
