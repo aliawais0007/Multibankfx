@@ -6,20 +6,22 @@
                     <li class="border-right hide-1200"><a href="/cdn-cgi/l/email-protection.html#8ae9f9cae7ffe6fee3e8ebe4e1ecf2a4e9e5e7"><i class="ti-email">&nbsp;</i> <span><?php translate('EMAIL') ?></span> </a></li>
                     <li class="border-right hide-1024"><i class="ti-world">&nbsp;</i> <span><?php translate('Global Alexa Ranking:'); ?>14224</span></li>
                     <li class="hide-1280"><span><a href="tel:+12139924748?call">US: +1 213 992 4748</a> </span></li>
-                    <li>  <div class="theme-switch-wrapper">
+                    <li>
+                        <div class="theme-switch-wrapper">
                             <label class="theme-switch" for="checkbox">
-                         <input type="checkbox" id="checkbox" checked/>
-                         <div class="slider round"></div>
-                       </label>
-                         <em id="darkmode-text">Enable Dark Mode!</em>
-                       </div></li>
+                                <input type="checkbox" id="checkbox" checked />
+                                <div class="slider round"></div>
+                            </label>
+                            <em id="darkmode-text">Enable Dark Mode!</em>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="col-md-6 col-12 header-top-right-menu text-nowrap">
-                <a class="d-none top-btn-1 btn btn-sm mr-1 header-mb-btn align-items-center" href="/account/live-account.php"><i class="ti-user">&nbsp;</i><?php translate('Live Account'); ?></a> 
+                <a class="d-none top-btn-1 btn btn-sm mr-1 header-mb-btn align-items-center" href="/account/live-account.php"><i class="ti-user">&nbsp;</i><?php translate('Live Account'); ?></a>
                 <a class="d-none top-btn-2 btn btn-sm hide-768 mr-1 align-items-center" href="/demo-competition.php"><i class="ti-desktop">&nbsp;</i><?php translate('Demo Account') ?></a>
                 <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1 d-flex align-items-center" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"><img alt="" data-entity-type="" data-entity-uuid="" height="12px" src="/public_files/images/common/icons/btn_mymex_icon.png" width="auto;" /> </span>&nbsp;<?php translate('MyMultibank'); ?></a>
-                <a class="btn btn-sm btn-gold mr-1 header-mb-btn d-md-flex d-none align-items-center" href="/contact.php"><i class="ti-headphone-alt">&nbsp;</i><?php translate('Contact Us'); ?></a> 
+                <a class="btn btn-sm btn-gold mr-1 header-mb-btn d-md-flex d-none align-items-center" href="/contact.php"><i class="ti-headphone-alt">&nbsp;</i><?php translate('Contact Us'); ?></a>
                 <a class="btn btn-sm btn-grey hide-768 mr-1 d-flex align-items-center" href="/partnership/introducing-brokers.php"><i style="font-family: 'icomoon' !important; font-size:9px; font-style: normal; margin-right: 5px;">&nbsp;&#xe920;</i><?php translate('IB Registration'); ?></a>
             </div>
         </div>
@@ -278,15 +280,19 @@
                 </li>
             </ul>
             <ul class="nav-menu-mobile text-uppercase">
+                <li>
+                    <div class="theme-switch-wrapper">
+                    <em id="darkmode-text">Enable Dark Mode!</em>
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox" checked />
+                            <div class="slider round"></div>
+                        </label>
+                        
+                    </div>
+                </li>
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/about.php"><?php translate('About us'); ?></a>
                     <ul class="text-center">
-                    <li>  <div class="theme-switch-wrapper">
-                            <label class="theme-switch" for="checkbox">
-                         <input type="checkbox" id="checkbox" checked/>
-                         <div class="slider round"></div>
-                       </label>
-                         <em id="darkmode-text">Enable Dark Mode!</em>
-                       </div></li>
+
                         <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
                         <li><a href="/about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
                         <li><a href="/mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
@@ -351,7 +357,7 @@
                     </ul>
                 </li>
                 <li class="nav-menu-mobile-section py-1 px-4 lang-mobile-menu" style="border-top: 1px solid #ccc;">
-                English
+                    English
                     <ul class="text-center">
                         <li><a href="https://es.multibankfx.com">Español</a></li>
                         <li><a href="?lang=">EN</a></li>
