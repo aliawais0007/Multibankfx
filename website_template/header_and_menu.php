@@ -7,7 +7,7 @@
                     <li class="border-right hide-1024"><i class="ti-world">&nbsp;</i> <span><?php translate('Global Alexa Ranking:'); ?>14224</span></li>
                     <li class="hide-1280"><span><a href="" id="header-pn"></a> </span></li>
                     <li>
-                        <div class="theme-switch-wrapper d-none d-md-block">
+                        <div class="theme-switch-wrapper d-none d-md-flex">
                             <label class="theme-switch" for="checkbox">
                                 <input type="checkbox" id="checkbox"/>
                                 <div class="slider round"></div>

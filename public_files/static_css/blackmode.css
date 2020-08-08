@@ -12471,3 +12471,6 @@ table.dataTable tr:nth-of-type(odd) {
 .slick-slide h4{
     color: var(--font-color) !important;
 }
+.theme-switch{
+    margin-bottom: 0;
+}
