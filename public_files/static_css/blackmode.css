@@ -47,6 +47,7 @@
     --mt5-background:url(/public_files/images/platforms/MT5Plarform_topbanner.png);
     --st-faq-background:url(/public_files/images/social_trading/st_earn_money_bg.jpg);
     --live-account-banner:url(/public_files/images/accounts_funding/live_account_top_banner.jpg);
+    --demo-account-banner:url(/public_files/images/accounts_funding/demo_account_top_banner.jpg);
     --border-color: #ccc;
     --color-737576: #e4e7e9;
     --choose-next-background-color: black;
@@ -115,6 +116,7 @@
     --mt5-background:url(/public_files/images/platforms/MT5Plarform_topbanner_dark.png);
     --st-faq-background:url(/public_files/images/social_trading/st_earn_money_bg_dark.png);
     --live-account-banner:url(/public_files/images/accounts_funding/live_account_top_banner_dark.png);
+    --demo-account-banner:url(/public_files/images/accounts_funding/demo_account_top_banner_dark.png);
     --color-737576: #737576;
     --choose-next-background-color: white;
     --trader-color: white;
@@ -12446,4 +12448,8 @@ table.dataTable tr:nth-of-type(odd) {
 /* new updates and fixes */
 .live-account-banner{
     background: var(--live-account-banner) no-repeat 100%;
+}
+
+.demo-account-banner{
+    background: var(--demo-account-banenr) no-repeat 100%;
 }
