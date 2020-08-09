@@ -12553,3 +12553,14 @@ table.dataTable tr:nth-of-type(odd) {
     width: 100%;
     text-align: center;
 }
+
+.slide-bar-toggled:after {
+    content: '\2715' !important;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
