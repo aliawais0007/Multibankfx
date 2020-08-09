@@ -862,10 +862,10 @@ $(document).ready(function() {
     $('.slide-bar-toggle').click(function() {
         let display = $('.slidebar').css('display');
         if (display == "none") {
-            $('.slidebar').show(300);
+            $('.slidebar').show(200);
             $(this).addClass('slide-bar-toggled');
         } else {
-            $('.slidebar').hide(200);
+            $('.slidebar').hide(150);
             $(this).removeClass('slide-bar-toggled');
         }
 
