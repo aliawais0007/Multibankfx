@@ -1244,7 +1244,7 @@ foreach ($allnews as $item) {
         <div class="container mex-p-t-80 mex-p-b-80">
             <div class="row">
                 <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
-                    <h3 class="mex-h1 text-1e32a3 text-center lower-brightness">Platforms</h3>
+                    <h3 class="mex-h1 text-1e32a3 text-center lower-brightness-pt">Platforms</h3>
                 </div>
                 <div class=" col-xl-8 col-lg-12 row mx-0 d-md-flex d-none d-md-block">
                     <div class="col-lg-6 mex-p-l-0 p0-xs mb-3">
