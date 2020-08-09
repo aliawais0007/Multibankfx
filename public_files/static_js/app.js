@@ -864,11 +864,9 @@ $(document).ready(function() {
         if (display == "none") {
             $('.slidebar').show(200);
             $(this).removeClass('slide-bar-toggle');
-            $(this).addClass('slide-bar-toggled');
         } else {
             $('.slidebar').hide(150);
             $(this).removeClass('slide-bar-toggled');
-            $(this).addClass('slide-bar-toggle');
         }
     })
 
