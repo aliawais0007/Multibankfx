@@ -12167,9 +12167,13 @@ a span strong {
 }
 
 .slidebar a span {
-    background-color: transparent !important;
+    background-color: #484747 !important;
     border: none!important;
-    color: #302AE6;
+    color: white;
+    border-radius: 5px;
+    height: max-content;
+    padding: 5px;
+    margin-right: 5px;
 }
 
 .slidebar a span.btn {
