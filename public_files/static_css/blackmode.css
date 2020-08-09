@@ -12546,13 +12546,13 @@ table.dataTable tr:nth-of-type(odd) {
 }
 
 .slide-bar-toggle:after {
-    content: '\2632';
+    content: '\2807';
     font-size: 24px;
     margin-top: 10px;
 }
 
 .slide-bar-toggled:after {
-    content: '\2807' !important;
+    content: '\2715' !important;
     font-size: 24px;
     display: flex;
     justify-content: center;
