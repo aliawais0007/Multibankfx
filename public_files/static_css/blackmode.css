@@ -12505,3 +12505,7 @@ table.dataTable tr:nth-of-type(odd) {
 .deposit_table .deposit_amount_box {
     color: var(--font-color);
 }
+
+.nav-item:hover .nav-menu.py-3 {
+    display: block !important;
+}
