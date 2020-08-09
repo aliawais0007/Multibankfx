@@ -12534,7 +12534,7 @@ table.dataTable tr:nth-of-type(odd) {
 .slide-bar-toggle:hover {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    transform: rotate(275deg);
+    transform: rotate(180deg);
     cursor: pointer;
     transition: all 0.5s;
 }
