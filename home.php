@@ -640,7 +640,7 @@ foreach ($allnews as $item) {
         <div class="container" style="height: 100%;padding: 40px 0;">
             <div class="row">
                 <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
-                    <h3 class="mex-h1 text-1e32a3 text-center lower-brightness">Platforms</h3>
+                    <h3 class="mex-h1 text-1e32a3 text-center">Platforms</h3>
                 </div>
                 <div class="col-xl-8 col-lg-12 row mx-0 d-flex ">
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">
