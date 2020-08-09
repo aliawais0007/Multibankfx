@@ -12290,9 +12290,13 @@ table.dataTable tr:nth-of-type(odd) {
     .slider-content {
         height: 100%;
         width: 100%;
-        display: flex;
-        top: -10%;
+        display: block;
+        top: 27%;
         position: absolute;
+        margin: 0 auto;
+    }
+    .demo-btn-custom {
+        padding-top: 80px;
     }
     .slider-content {}
     .page3,
@@ -12321,10 +12325,10 @@ table.dataTable tr:nth-of-type(odd) {
         height: 200px
     }
     .home-banner-title1 {
-        font-size: 7.5vw
+        font-size: 6.5vw
     }
     .home-banner-title2 {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
         padding: 6% 0 5% 0
     }
     .home-banner-btn1 {
@@ -12337,7 +12341,8 @@ table.dataTable tr:nth-of-type(odd) {
         padding: 6px 5px
     }
     .home-banner-small-text {
-        font-size: 2.5vw
+        font-size: 3vw;
+        padding-top: 43px;
     }
     .nav-menu-hamburger,
     .nav-menu-mymex {

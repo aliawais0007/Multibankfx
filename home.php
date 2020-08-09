@@ -225,7 +225,7 @@ foreach ($allnews as $item) {
             <div class="row">
                 <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
                 <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span> -->
-                <div class="col-12 d-flex justify-content-center">
+                <div class="col-12 d-flex justify-content-center demo-btn-custom">
                     <div class="row justify-content-center align-items-center" style="height:100%">
                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Try free Demo</a>
                         <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
@@ -2241,7 +2241,7 @@ foreach ($allnews as $item) {
                 },
                 loop: true,
                 autoplay: {
-                    delay: 1500
+                    delay: 5000
                 },
                 updateOnImagesReady: true,
                 paginationClickable: true,
