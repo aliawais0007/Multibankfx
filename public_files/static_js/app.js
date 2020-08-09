@@ -860,7 +860,7 @@ var jointAccountDocFields = {
 $(document).ready(function() {
     // Toggle button action
     $('.slide-bar-toggle').click(function() {
-        $('.slidebar').css('display', 'flex');
+        $('.slidebar').css('display', 'block');
     })
 
     // Toggle dark mode script
