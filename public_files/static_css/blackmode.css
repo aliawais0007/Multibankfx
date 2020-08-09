@@ -12548,16 +12548,11 @@ table.dataTable tr:nth-of-type(odd) {
 .slide-bar-toggle:after {
     content: '\2632';
     font-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    text-align: center;
+    margin-top: 10px;
 }
 
 .slide-bar-toggled:after {
-    content: '\2715' !important;
+    content: '\2807' !important;
     font-size: 24px;
     display: flex;
     justify-content: center;
