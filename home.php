@@ -153,8 +153,8 @@ foreach ($allnews as $item) {
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-01-750x600.jpg');">
                         <img src="/public_files/images/home/home-banner-multibank-01-750x600.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
-                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
-                            <span class="home-banner-title2">Improved trading functionalities</span>
+                            <span class="home-banner-title1">ESTABLISHED IN 2005</span>
+                            <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span>
                         </div>
                     </div>
                 </a>
@@ -170,8 +170,8 @@ foreach ($allnews as $item) {
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-04-750x600.jpg');">
                         <img src="public_files/images/home/home-banner-multibank-04-750x600.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content">
-                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
-                            <span class="home-banner-title2">Improved trading functionalities</span>
+                            <span class="home-banner-title1">Trade With The Industry Leader</span>
+                            <span class="home-banner-title2">Enjoy the highest level of funds security</span>
                         </div>
                     </div>
                 </a>
