@@ -5507,7 +5507,8 @@ section.mex-block-full .mex-img-cover {
     font-size: 20px;
     -webkit-transition: all .35s ease-in-out;
     transition: all .35s ease-in-out;
-    background: transparent
+    background: transparent;
+    justify-content: space-between;
 }
 
 .slidebar a span {
@@ -12166,8 +12167,9 @@ a span strong {
 }
 
 .slidebar a span {
-    background-color: white !important;
-    border: none!important
+    background-color: transparent !important;
+    border: none!important;
+    color: #302AE6;
 }
 
 .slidebar a span.btn {
