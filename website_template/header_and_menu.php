@@ -8,10 +8,11 @@
                     <li class="hide-1280"><span><a href="" id="header-pn"></a> </span></li>
                     <li>
                         <div class="theme-switch-wrapper d-none d-md-flex">
-                            <label class="theme-switch" for="checkbox">
+                            <!-- <label class="theme-switch" for="checkbox">
                                 <input type="checkbox" id="checkbox"/>
                                 <div class="slider round"></div>
-                            </label>
+                            </label> -->
+                            <input id="checkbox" type="checkbox" class="theme-switch" checked data-toggle="toggle">
                             <span id="darkmode-text">Enable Dark Mode!</span>
                         </div>
                     </li>
