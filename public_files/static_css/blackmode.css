@@ -12563,5 +12563,6 @@ table.dataTable tr:nth-of-type(odd) {
     align-items: center;
     height: 100%;
     width: 100%;
+    margin-top: 0px !important;
     text-align: center;
 }
