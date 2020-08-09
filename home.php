@@ -675,7 +675,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box hover-img-zoom">
-                            <img class="lower-bightness home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" alt="OUR ADVANTAGES">
+                            <img class="lower-brightness home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" alt="OUR ADVANTAGES">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -693,7 +693,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box hover-img-zoom">
-                            <img class="lower-bightness home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS">
+                            <img class="lower-brightness home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -714,7 +714,7 @@ foreach ($allnews as $item) {
             <div class="row d-block d-md-none">
                 <div class="col-12 mb-2 mb-md-0">
                     <div class="card">
-                        <img alt="Introducing Brokers" class="lower-bightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" />
+                        <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" />
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 OUR ADVANTAGES </div>
@@ -726,7 +726,7 @@ foreach ($allnews as $item) {
                 </div>
                 <div class="col-12 mb-2">
                     <div class="card">
-                        <img class="lower-bightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS" />
+                        <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS" />
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 REGULATIONS </div>
@@ -737,7 +737,7 @@ foreach ($allnews as $item) {
                 </div>
                 <div class="col-12 mb-2">
                     <div class="card">
-                        <img alt="Introducing Brokers" class="lower-bightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_security_of_funds_banner.jpg">
+                        <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_security_of_funds_banner.jpg">
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 SECURITY OF FUNDS </div>
@@ -749,7 +749,7 @@ foreach ($allnews as $item) {
                 </div>
                 <div class="col-12 ">
                     <div class="card">
-                        <img class="lower-bightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_milestones_banner.png" alt="REGULATIONS" />
+                        <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_milestones_banner.png" alt="REGULATIONS" />
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 MILESTONES </div>
@@ -1204,7 +1204,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 mb-4">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box">
-                            <img class="lower-bightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_security_of_funds_banner.jpg" alt="SECURITY OF FUNDS">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_security_of_funds_banner.jpg" alt="SECURITY OF FUNDS">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -1220,7 +1220,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 mb-4">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box">
-                            <img class="lower-bightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_milestones_banner.png" alt="MILESTONES">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_milestones_banner.png" alt="MILESTONES">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
