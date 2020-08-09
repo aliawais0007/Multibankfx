@@ -863,11 +863,12 @@ $(document).ready(function() {
         let display = $('.slidebar').css('display');
         if (display == "none") {
             $('.slidebar').show(200);
-            $(this).removeClass('slide-bar-toggle');
+            $(this).addClass('slide-bar-toggled');
         } else {
             $('.slidebar').hide(150);
             $(this).removeClass('slide-bar-toggled');
         }
+
     })
 
     // Toggle dark mode script
