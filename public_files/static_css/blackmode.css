@@ -12509,3 +12509,7 @@ table.dataTable tr:nth-of-type(odd) {
 .nav-item:hover .nav-menu.py-3 {
     display: block !important;
 }
+
+#widget-global-dgzvg7hxawo {
+    display: none;
+}
