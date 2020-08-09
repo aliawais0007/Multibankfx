@@ -1240,8 +1240,7 @@ foreach ($allnews as $item) {
     <h2 class=" text-center text-1e32a3 uppercase mb-4 d-block d-md-none" style="padding-top: 15px;">Awards</h2>
     <?php include_from_root('website_template/about_awards.php') ?>
     <section class="bg-white p0 index-platforms  d-md-flex d-none">
-        <!--<img class="d-none d-md-none lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png"-->
-        <!--    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">-->
+        <img class="d-none d-md-none lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">
         <div class="container mex-p-t-80 mex-p-b-80">
             <div class="row">
                 <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
@@ -1300,7 +1299,7 @@ foreach ($allnews as $item) {
         <div class="container mex-p-t-80 mex-p-b-80">
             <div class="row">
                 <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
-                    <h3 class="mex-h1 text-1e32a3 text-center">Platforms</h3>
+                    <h3 class="mex-h1 text-1e32a3 text-center lower-brightness">Platforms</h3>
                 </div>
                 <div class="col-xl-8 col-lg-12 row mx-0 d-flex ">
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">

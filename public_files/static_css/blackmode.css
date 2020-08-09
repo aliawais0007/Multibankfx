@@ -12370,7 +12370,8 @@ table.dataTable tr:nth-of-type(odd) {
     bottom: 0;
     z-index: 10;
     width: auto;
-    height: 111px;
+    min-height: 111px;
+    max-height: 160px;
     background: #202347 0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
