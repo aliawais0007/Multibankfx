@@ -27,6 +27,9 @@ foreach ($allnews as $item) {
 <body>
     <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
+        .nav-item:hover .nav-menu.py-3{
+            display: block !important;
+        }
         .slidebar .get-a-all-btn.call-btn .btn,
         .slidebar .live-account-btn.whatsapp-btn .btn,
         .slidebar .email-us-tg.email-btn .btn,

@@ -144,8 +144,5 @@ $.get("https://ipinfo.io/json", function (response) {
         $('#header-pn').html("US: +1 213 992 4748");
         $('#header-pn').attr('href',`tel:'+1 213 992 4748?call`);
     }
-
-    $("#address").html("Location: " + response.city + ", " + response.region);
-    $("#details").html(JSON.stringify(response));
 }, "jsonp");
 </script>
