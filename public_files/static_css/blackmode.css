@@ -12290,7 +12290,7 @@ table.dataTable tr:nth-of-type(odd) {
     .slider-content {
         height: 100%;
         width: 100%;
-        display: block;
+        display: block !important;
         top: 27%;
         position: absolute;
         margin: 0 auto;
