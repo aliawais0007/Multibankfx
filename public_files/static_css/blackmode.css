@@ -5499,7 +5499,7 @@ section.mex-block-full .mex-img-cover {
 .slidebar a {
     width: auto;
     height: 52px;
-    display: block;
+    display: flex;
     padding: 0;
     border: 0!important;
     cursor: pointer;
@@ -5507,7 +5507,7 @@ section.mex-block-full .mex-img-cover {
     font-size: 20px;
     -webkit-transition: all .35s ease-in-out;
     transition: all .35s ease-in-out;
-    background: 0 0
+    background: transparent
 }
 
 .slidebar a span {
