@@ -168,48 +168,13 @@
     <?php include_from_root('website_template/choose_where_to.php');?>
     
     <?php include_from_root('website_template/page_footer.php'); ?>
-    <div class="slidebar">
-        <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
-        </a>
-        <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
-        </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#d2b1a192bfa7bea6bbb0b3bcb9b4aafcb1bdbf">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
-        </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-04afc925fbe11b685f8c83f4-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
-        </a>
-    </div>
+
     <style type="text/css">
         .slidebar a span.btn {
     padding: 0;
     margin: 0 0 3px 0;
 }
 
-        @media screen and (max-width: 640px) {
-            .slidebar {
-                display: inline-block;
-                background: #fff;
-                top: inherit;
-                bottom: 0;
-                width: 100%;
-                right: 0;
-                padding: 10px 0 5px 0;
-                text-align: center;
-            }
-
-            .slidebar a {
-                display: inline-block;
-            }
-
-            .slidebar a span.btn {
-                display: inline-block;
-                margin: 0 15px;
-            }
-
-        }
     </style>
     <style>
         .top-mb-ic {

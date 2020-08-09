@@ -868,7 +868,6 @@ $(document).ready(function() {
             $('.slidebar').hide(150);
             $(this).removeClass('slide-bar-toggled');
         }
-
     })
 
     // Toggle dark mode script
