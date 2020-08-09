@@ -12530,3 +12530,9 @@ table.dataTable tr:nth-of-type(odd) {
     color: white;
     background-color: #ec7d0a;
 }
+
+.slide-bar-toggle:hover {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    transform: translate3d(0px, 5px, 0px);
+}
