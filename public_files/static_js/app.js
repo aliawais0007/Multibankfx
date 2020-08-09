@@ -861,7 +861,7 @@ $(document).ready(function() {
     // Toggle button action
     $('.slide-bar-toggle').click(function() {
         $('.slidebar').css('display', 'block');
-        $(this).attr('data-content', '\2715');
+        $(this).attr('data-content', "*");
     })
 
     // Toggle dark mode script
