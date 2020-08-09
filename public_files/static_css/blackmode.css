@@ -12531,16 +12531,15 @@ table.dataTable tr:nth-of-type(odd) {
     background-color: #ec7d0a;
 }
 
-
-/* .slide-bar-toggle:hover {
+.slide-bar-toggle:hover {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    transform: translate3d(0px, 5px, 0px);
-} */
+    transform: rotate(180deg)
+}
 
 .slide-bar-toggle:after {
     content: '\2632';
-    font-size: 47px;
+    font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
