@@ -12547,8 +12547,9 @@ table.dataTable tr:nth-of-type(odd) {
 
 .slide-bar-toggle:after {
     content: '\2807';
-    font-size: 24px;
+    font-size: 38px;
     margin-top: 10px;
+    transform: rotate(90deg);
 }
 
 .slide-bar-toggled:after {
