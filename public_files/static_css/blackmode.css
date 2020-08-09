@@ -12294,6 +12294,7 @@ table.dataTable tr:nth-of-type(odd) {
         top: -10%;
         position: absolute;
     }
+    .slider-content {}
     .page3,
     .page4,
     .page5,

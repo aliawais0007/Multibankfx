@@ -145,14 +145,14 @@ foreach ($allnews as $item) {
             <div class="swiper-slide home-page" style="overflow: hidden;">
                 <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg');">
-                        <div class="row flex-column justify-content-center align-items-center slider-content">
+                        <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1">ESTABLISHED IN 2005</span>
                             <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span>
                         </div>
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-01-750x600.jpg');">
                         <img src="/public_files/images/home/home-banner-multibank-01-750x600.jpg" />
-                        <div class="row flex-column justify-content-center align-items-center slider-content">
+                        <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
                             <span class="home-banner-title2">Improved trading functionalities</span>
                         </div>
@@ -162,7 +162,7 @@ foreach ($allnews as $item) {
             <div class="swiper-slide home-page" style="overflow: hidden;">
                 <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
-                        <div class="row flex-column justify-content-center align-items-center slider-content">
+                        <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1">Trade With The Industry Leader</span>
                             <span class="home-banner-title2">Enjoy the highest level of funds security</span>
                         </div>
@@ -218,7 +218,7 @@ foreach ($allnews as $item) {
 
             </div>
         </div>
-       
+
 
 
         <div class="home-banner-container">
@@ -238,24 +238,24 @@ foreach ($allnews as $item) {
         </div>
     </div>
     <div class="main-banner d-block d-md-none">
-            <div id="home-carousal-banner" style="height: 150px;">
-                <div class="slide-slick">
-                    <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Leverage </h4><span class="span-hero">500:1</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Awards </h4><span class="span-hero">40+</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
-                </div>
+        <div id="home-carousal-banner" style="height: 150px;">
+            <div class="slide-slick">
+                <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
+            </div>
+            <div class="slide-slick">
+                <h4 class="">Leverage </h4><span class="span-hero">500:1</span>
+            </div>
+            <div class="slide-slick">
+                <h4 class="">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
+            </div>
+            <div class="slide-slick">
+                <h4 class="">Awards </h4><span class="span-hero">40+</span>
+            </div>
+            <div class="slide-slick">
+                <h4 class="">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
             </div>
         </div>
+    </div>
     <style>
         .bmw {
             background-position: left !important;
@@ -2241,17 +2241,24 @@ foreach ($allnews as $item) {
                 },
                 loop: true,
                 autoplay: {
-                    delay: 5000
+                    delay: 1500
                 },
                 updateOnImagesReady: true,
                 paginationClickable: true,
                 spaceBetween: 30,
                 centeredSlides: true,
                 autoplayDisableOnInteraction: false,
-                effect: 'fade',
+                effect: 'coverflowEffect',
+                zoom: {
+                    maxRatio: 5,
+                },
+                coverflowEffect: {
+                    rotate: 30,
+                    slideShadows: false,
+                },
             });
 
-// banner slider under Hero slider
+            // banner slider under Hero slider
             $('#home-carousal-banner').slick({
                 centerMode: true,
                 centerPadding: '40px',
