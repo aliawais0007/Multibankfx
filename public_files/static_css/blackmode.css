@@ -12284,6 +12284,16 @@ table.dataTable tr:nth-of-type(odd) {
 }
 
 @media (max-width:767px) {
+    .lower-brightness-pt {
+        filter: var(--brightness-img)
+    }
+    .slider-content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        top: -10%;
+        position: absolute;
+    }
     .page3,
     .page4,
     .page5,
@@ -12345,16 +12355,6 @@ table.dataTable tr:nth-of-type(odd) {
     }
     .home-banner-title2 {
         padding: 2% 0 5% 0;
-    }
-    .lower-brightness-pt {
-        filter: var(--brightness-img)
-    }
-    .slider-content {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        top: -10%;
-        position: absolute;
     }
 }
 
