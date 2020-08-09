@@ -1340,7 +1340,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-12 col-xl-8 mex-m-b-30 d-none d-md-block ">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/introducing-brokers">
-                            <img alt="Introducing Brokers" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
+                            <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                     Introducing Brokers </div>
@@ -1355,7 +1355,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/franchise-program.php">
-                            <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                     Franchise Program </div>
@@ -1370,7 +1370,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/white-label.php">
-                            <img alt="White Label" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
+                            <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
                             ">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
@@ -1386,7 +1386,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/prime-of-primes.php">
-                            <img alt="Prime of Primes" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                            <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
                             <div class="card-content text-left">
                                 <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
                                     Prime of Primes </div>
@@ -1400,7 +1400,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/cpa-affiliate-program.php">
-                            <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnership_cpa_affiliate_program_newx.png" alt="CPA Affiliate Program">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnership_cpa_affiliate_program_newx.png" alt="CPA Affiliate Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                     CPA Affiliate Program </div>
@@ -1417,7 +1417,7 @@ foreach ($allnews as $item) {
         <div class="row d-block d-md-none">
             <div class="col-12 col-md-12 col-xl-8 mex-m-b-10 custom-card-img">
                 <div class="card">
-                    <img alt="Introducing Brokers" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
+                    <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                             Introducing Brokers </div>
@@ -1429,7 +1429,7 @@ foreach ($allnews as $item) {
             </div>
             <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
                 <div class="card">
-                    <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
+                    <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                             Franchise Program </div>
@@ -1440,7 +1440,7 @@ foreach ($allnews as $item) {
             </div>
             <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
                 <div class="card">
-                    <img alt="White Label" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
+                    <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                             White Label </div>
@@ -1450,7 +1450,7 @@ foreach ($allnews as $item) {
             </div>
             <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img d-none">
                 <div class="card">
-                    <img alt="Prime of Primes" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                    <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
                             Prime of Primes </div>
