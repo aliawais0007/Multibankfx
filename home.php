@@ -1501,9 +1501,6 @@ foreach ($allnews as $item) {
 
 
 <div class="slide-bar-toggle">
-    <span>.</span>
-    <span>.</span>
-    <span>.</span>
 </div>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
