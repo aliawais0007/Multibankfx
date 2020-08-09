@@ -2240,9 +2240,9 @@ foreach ($allnews as $item) {
                     el: '#swiper-container-lp .swiper-pagination',
                 },
                 loop: true,
-                autoplay: {
-                    delay: 5000
-                },
+                // autoplay: {
+                //     delay: 5000
+                // },
                 updateOnImagesReady: true,
                 paginationClickable: true,
                 spaceBetween: 30,
