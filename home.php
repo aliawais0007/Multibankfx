@@ -1500,7 +1500,9 @@ foreach ($allnews as $item) {
 
 
 
-
+<div class="slide-bar-toggle">
+    ...
+</div>
     <div class="slidebar">
         <a class="get-a-all-btn call-btn" href="tel:+12139924748">
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
