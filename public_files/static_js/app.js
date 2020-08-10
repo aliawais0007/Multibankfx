@@ -33,6 +33,7 @@ $(function() {
         $('nav-menu').empty();
     } else {
         $('.header-menu-trigger').hover(function() {
+            $(".lang-menu-dropdown").hide();
             $(this).addClass('active');
             var menu_type = $(this).data('type') + '-menu';
             openDropdownMenu(menu_type);
