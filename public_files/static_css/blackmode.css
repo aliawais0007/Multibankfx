@@ -12654,3 +12654,7 @@ table.dataTable tr:nth-of-type(odd) {
 .section-products a .card-content {
     background-color: var(--background-dark) !important;
 }
+
+#darkmode-text {
+    margin-left: 15px;
+}
