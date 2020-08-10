@@ -20,7 +20,7 @@
             <div class="col-md-6 col-12 header-top-right-menu text-nowrap">
                 <a class="d-none top-btn-1 btn btn-sm mr-1 header-mb-btn align-items-center" href="/account/live-account.php"><i class="ti-user">&nbsp;</i><?php translate('Live Account'); ?></a>
                 <a class="d-none top-btn-2 btn btn-sm hide-768 mr-1 align-items-center" href="/demo-competition.php"><i class="ti-desktop">&nbsp;</i><?php translate('Demo Account') ?></a>
-                <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1 d-flex align-items-center" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"> </span>&nbsp;<?php translate('MyMultibank'); ?></a>
+                <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1 d-flex align-items-center" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"><img alt="" data-entity-type="" data-entity-uuid="" height="12px" src="" width="auto;" /> </span>&nbsp;<?php translate('MyMultibank'); ?></a>
                 <a class="btn btn-sm btn-gold mr-1 header-mb-btn d-md-flex d-none align-items-center" href="" id="header-pn"><i class="fa fa-phone">&nbsp;</i></a>
                 <!-- <a class="btn btn-sm btn-grey hide-768 mr-1 d-flex align-items-center" href="/partnership/introducing-brokers.php"><i style="font-family: 'icomoon' !important; font-size:9px; font-style: normal; margin-right: 5px;">&nbsp;&#xe920;</i><?php translate('IB Registration'); ?></a> -->
             </div>
