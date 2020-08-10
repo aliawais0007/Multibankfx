@@ -12506,7 +12506,8 @@ table.dataTable tr:nth-of-type(odd) {
 }
 
 .slide-slick h4 {
-    order: 2
+    order: 2;
+    margin-bottom: 0;
 }
 
 
