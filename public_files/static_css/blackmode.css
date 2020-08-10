@@ -12304,7 +12304,8 @@ table.dataTable tr:nth-of-type(odd) {
     .header-bottom {
         padding: 15px 8px;
     }
-    .nav-menu-hamburger {
+    .nav-menu-hamburger,
+    .nav-menu-mymex {
         background-color: transparent !important;
     }
     .lower-brightness-pt {
