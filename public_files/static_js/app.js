@@ -858,6 +858,13 @@ var jointAccountDocFields = {
 // Regulations
 //Regulations page start
 $(document).ready(function() {
+    $('.btn-navy').mouseover(() => {
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+    })
+    $('.btn-navy').mouseleave(() => {
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+    })
+
     // Toggle button action
     $('.slide-bar-toggle').click(function() {
         let display = $('.slidebar-parent').css('display');
