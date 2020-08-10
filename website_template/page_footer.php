@@ -123,7 +123,7 @@
 
 <!-- toggle menuu bottom -->
 <div class="slide-bar-toggle">
-    <img src="/public_files/images/home/sidebar_icon/threedots.png"/>
+    <img src="/public_files/images/home/sidebar_icon/threedots.png" style="width: 30px;"/>
 </div>
 <div class="slidebar-parent">
     <div class="slidebar">
