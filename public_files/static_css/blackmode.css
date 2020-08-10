@@ -12555,10 +12555,10 @@ table.dataTable tr:nth-of-type(odd) {
 }
 
 .slide-bar-toggle:after {
-    content: '\2807';
+    /* content: '\2807';
     font-size: 38px;
     margin-top: 10px;
-    transform: rotate(90deg);
+    transform: rotate(90deg); */
 }
 
 .slide-bar-toggled:after {
