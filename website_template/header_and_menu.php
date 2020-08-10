@@ -5,7 +5,7 @@
                 <ul class="header-top-left-menu hide-1024">
                     <li class="border-right hide-1200">Regulated and authorized by <a style="text-decoration: underline;">ASIC </a> and <a style="text-decoration: underline;">FSC</a></li>
                     <li class="border-right hide-1024"><i class="ti-world">&nbsp;</i> <span><?php translate('Global Alexa Ranking:'); ?>14224</span></li>
-                    <li class="hide-1280"><span><a href="" id="header-pn"></a> </span></li>
+                    <!-- <li class="hide-1280"><span><a href="" id="header-pn"></a> </span></li> -->
                     <li>
                         <div class="theme-switch-wrapper d-none d-md-flex">
                             <label class="theme-switch" for="checkbox">
