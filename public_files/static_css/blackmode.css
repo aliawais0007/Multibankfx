@@ -12498,10 +12498,15 @@ table.dataTable tr:nth-of-type(odd) {
 .slide-slick {
     display: flex !important;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-color: #202347;
     min-height: 100px !important;
     margin: 0px 5px;
+}
+
+.slide-slick h4 {
+    order: 2
 }
 
 
