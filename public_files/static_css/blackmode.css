@@ -12569,4 +12569,10 @@ table.dataTable tr:nth-of-type(odd) {
 
 .slidebar-parent {
     display: none;
+    width: 100vw;
+    position: fixed;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.5);
+    top: 0px;
+    z-index: 123;
 }
