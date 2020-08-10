@@ -12612,3 +12612,7 @@ table.dataTable tr:nth-of-type(odd) {
     border-radius: 50% !important;
     margin: 0px 0 3px 0;
 }
+
+.COP-section {
+    background-color: var(--background-dark);
+}
