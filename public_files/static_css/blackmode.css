@@ -12193,7 +12193,7 @@ a span strong {
 
 .header-top-right-menu a {
     background-color: transparent;
-    color: white;
+    color: var(--font-color);
     border: 1px solid gray!important
 }
 
