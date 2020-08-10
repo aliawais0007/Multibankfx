@@ -12614,5 +12614,5 @@ table.dataTable tr:nth-of-type(odd) {
 }
 
 .COP-section {
-    background-color: var(--background-dark);
+    background-color: var(--background-dark) !important;
 }
