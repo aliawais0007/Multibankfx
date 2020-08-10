@@ -48,7 +48,7 @@
                     </div>
                     <div class="lang-menu">
                         <div class="lang-menu-current">
-                            <a href="?lang=">EN</a>
+                            <a>EN</a>
                         </div>
                         <div class="lang-menu-dropdown">
                             <a href="https://es.multibankfx.com">Español</a>
