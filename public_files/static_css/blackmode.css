@@ -12503,6 +12503,7 @@ table.dataTable tr:nth-of-type(odd) {
     background-color: #202347;
     min-height: 100px !important;
     margin: 0px 5px;
+    text-align: center;
 }
 
 .slide-slick h4 {

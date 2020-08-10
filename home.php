@@ -2226,6 +2226,8 @@ foreach ($allnews as $item) {
                 slidesToShow: 2,
                 infinite: false,
                 arrows: false,
+                autoplay: true,
+                autoplaySpeed: 2000,
 
             });
 
