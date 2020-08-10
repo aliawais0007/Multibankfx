@@ -166,14 +166,14 @@ foreach ($allnews as $item) {
                 <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
                         <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
-                            <span class="home-banner-title1">Trade With The Industry Leader</span>
+                            <span class="home-banner-title1 text-uppercase">Trade With The Industry Leader</span>
                             <span class="home-banner-title2">Enjoy the highest level of funds security</span>
                         </div>
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-04-750x600.jpg');">
                         <img src="public_files/images/home/home-banner-multibank-04-750x600.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content">
-                            <span class="home-banner-title1">Trade With The Industry Leader</span>
+                            <span class="home-banner-title1 text-uppercase">Trade With The Industry Leader</span>
                             <span class="home-banner-title2">Enjoy the highest level of funds security</span>
                         </div>
                     </div>
@@ -228,7 +228,7 @@ foreach ($allnews as $item) {
             <div class="row">
                 <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
                 <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span> -->
-                <div class="col-12 d-flex justify-content-center demo-btn-custom">
+                <div class="col-12 d-flex justify-content-center demo-btn-custom flex-column">
                     <div class="row justify-content-center align-items-center" style="height:100%">
                     <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>

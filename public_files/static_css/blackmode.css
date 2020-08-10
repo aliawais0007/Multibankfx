@@ -12366,12 +12366,13 @@ table.dataTable tr:nth-of-type(odd) {
     }
     .home-banner-btn1 {
         font-size: 4vw;
-        padding: 6px 14px;
-        margin-right: 20px
+        padding: 6px 35px;
+        margin-top: 15px;
     }
     .home-banner-btn2 {
         font-size: 4vw;
-        padding: 6px 5px
+        padding: 6px 35px;
+        margin-top: 15px;
     }
     .home-banner-small-text {
         font-size: 3vw;
