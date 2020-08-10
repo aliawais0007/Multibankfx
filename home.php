@@ -531,7 +531,7 @@ foreach ($allnews as $item) {
                                     and withdrawals.
                                 </div>
                             </div>
-                            <a href="account/account-funding.php" class="btn btn-mex mex-m-r-15 mex-m-b-15" style="margin-top: 38px;">Deposit Now</a>
+                            <a href="/account/account-funding.php" class="btn btn-mex mex-m-r-15 mex-m-b-15" style="margin-top: 38px;">Deposit Now</a>
                         </div>
                     </div>
                 </div>
@@ -557,8 +557,8 @@ foreach ($allnews as $item) {
                             trade on.</span>
                     </div>
                     <div class="col-12">
-                        <a href="account/live-account.php" class="btn btn-mex-red mex-m-b-15 " style="min-width: initial; padding: 13px 10px;"><i class="fa fa-user mex-m-r-5" aria-hidden="true"></i>Live Account</a>
-                        <a href="account/demo-account.php" class="btn btn-mex-blue mex-m-b-15" style="min-width: initial; padding: 13px 10px;"><i class="fa fa-desktop mex-m-r-5" aria-hidden="true"></i>Demo Account</a>
+                        <a href="/account/live-account.php" class="btn btn-mex-red mex-m-b-15 " style="min-width: initial; padding: 13px 10px;"><i class="fa fa-user mex-m-r-5" aria-hidden="true"></i>Live Account</a>
+                        <a href="/account/demo-account.php" class="btn btn-mex-blue mex-m-b-15" style="min-width: initial; padding: 13px 10px;"><i class="fa fa-desktop mex-m-r-5" aria-hidden="true"></i>Demo Account</a>
                     </div>
                 </div>
             </div>
@@ -573,7 +573,7 @@ foreach ($allnews as $item) {
         <div class="swiper-container swiper-container-horizontal" id="swiper-container-2">
             <div class="swiper-wrapper" style="transform: translate3d(-2932px, 0px, 0px); transition-duration: 300ms;">
                 <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 1436px; margin-right: 30px;">
-                    <a href="account/bonus-ib.php">
+                    <a href="/account/bonus-ib.php">
                         <div class="min1 d-none d-lg-block">
                             <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg" alt="image">
                         </div>
@@ -583,7 +583,7 @@ foreach ($allnews as $item) {
                     </a>
                 </div>
                 <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" style="width: 1436px; margin-right: 30px;">
-                    <a href="account/bonus.php">
+                    <a href="/account/bonus.php">
                         <div class="min1 d-none d-lg-block">
                             <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_extra.jpg" alt="image">
                         </div>
@@ -593,7 +593,7 @@ foreach ($allnews as $item) {
                     </a>
                 </div>
                 <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 1436px; margin-right: 30px;">
-                    <a href="account/bonus.php">
+                    <a href="/account/bonus.php">
                         <div class="min1 d-none d-lg-block">
                             <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_400.jpg" alt="image">
                         </div>
@@ -603,7 +603,7 @@ foreach ($allnews as $item) {
                     </a>
                 </div>
                 <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" style="width: 1436px; margin-right: 30px;">
-                    <a href="account/bonus-ib.php">
+                    <a href="/account/bonus-ib.php">
                         <div class="min1 d-none d-lg-block">
                             <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg" alt="image">
                         </div>
@@ -613,23 +613,23 @@ foreach ($allnews as $item) {
                     </a>
                 </div>
                 <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1436px; margin-right: 30px;">
-                    <a href="account/bonus.php">
+                    <a href="/account/bonus.php">
                         <div class="min1 d-none d-lg-block">
                             <!--<img class="lazyloadXXX" src="/public_files/images/about_us/global_presence/home_bonus_extra.png"-->
                             <!--    alt="image">-->
                         </div>
-                        <div class="min2 d-block d-lg-none">
+                        <!-- <div class="min2 d-block d-lg-none"> -->
                             <!--<img class="lazyloadXXX" src="/public_files/images/about_us/global_presence/home_bonus_extra.png"-->
                             <!--    alt="image">-->
-                        </div>
+                        <!-- </div> -->
                     </a>
                 </div>
             </div>
-            <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets">
+            <!-- <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets">
                 <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
                 <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span>
                 <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
-            </div>
+            </div> -->
             <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide">
             </div>
             <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide">
@@ -1586,7 +1586,7 @@ foreach ($allnews as $item) {
                     <div class='d-none'>
                         <label for='' class='m-0 d-none'>
                         </label>
-                        <div class='form-check form-check-inline'><input data-message='Account Type is Required.' data-extra-message="Account type Invalid." class='   ' name='account_type' type='radio' required value='1' checked />
+                        <div class='form-check form-check-inline'><input data-message='Account Type is Required.' data-extra-message="/Account type Invalid." class='   ' name='account_type' type='radio' required value='1' checked />
                             <label class='  ' for=''>INDIVIDUAL</label>
                         </div>
                     </div>
@@ -2044,7 +2044,7 @@ foreach ($allnews as $item) {
         }
 
         .swiper-slide .min1 {
-            height: 745px;
+            height: 600px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -2066,7 +2066,7 @@ foreach ($allnews as $item) {
         @media (min-width: 1281px) and (max-width: 1440px) {
             .swiper-slide .min1 {
                 width: 1680px;
-                height: 760px;
+                height: 600px;
             }
 
             .home-banner-form {
@@ -2104,7 +2104,7 @@ foreach ($allnews as $item) {
         @media (min-width: 992px) and (max-width: 1200px) {
             .swiper-slide .min1 {
                 width: 1440px;
-                height: 760px;
+                height: 600px;
             }
 
             .home-banner-form {
@@ -2246,7 +2246,7 @@ foreach ($allnews as $item) {
         }
 
         .swiper-slide .min1 {
-            height: 745px;
+            height: 600px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -2268,7 +2268,7 @@ foreach ($allnews as $item) {
         @media (min-width: 992px) and (max-width: 1440px) {
             .swiper-slide .min1 {
                 width: 1680px;
-                height: 700px;
+                height: 600px;
             }
 
             .home-banner-form {
@@ -2385,13 +2385,13 @@ foreach ($allnews as $item) {
 
         @media (max-width: 1440px) and (min-width: 992px) {
             #swiper-container-lp .swiper-slide .min1 {
-                height: 710px;
+                height: 600px;
             }
         }
 
         @media (max-width: 1280px) and (min-width: 992px) {
             #swiper-container-lp .swiper-slide .min1 {
-                height: 650px;
+                height: 600px;
             }
         }
     </style>
