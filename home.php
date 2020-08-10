@@ -567,8 +567,8 @@ foreach ($allnews as $item) {
     <section class="p0 bg-white d-none d-md-block">
         <div class="col-md-12">
             <h3 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-none">Bonuses </h3>
-            <p class="lead text-222 mex-m-b-30 text-center">Find out more about our latest bonus and promotions for
-                Introducing Brokers &amp; individual clients alike!</p>
+            <!-- <p class="lead text-222 mex-m-b-30 text-center">Find out more about our latest bonus and promotions for
+                Introducing Brokers &amp; individual clients alike!</p> -->
         </div>
         <div class="swiper-container swiper-container-horizontal" id="swiper-container-2">
             <div class="swiper-wrapper" style="transform: translate3d(-2932px, 0px, 0px); transition-duration: 300ms;">
