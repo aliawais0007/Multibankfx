@@ -12190,7 +12190,7 @@ a span strong {
 
 .header-top-right-menu a:hover {
     background-color: white;
-    color: black;
+    color: black !important;
     border: 1px solid whitesmoke!important
 }
 
