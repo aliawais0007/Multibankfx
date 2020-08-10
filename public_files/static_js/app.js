@@ -863,10 +863,10 @@ $(document).ready(function() {
         let display = $('.slidebar-parent').css('display');
         if (display == "none") {
             $('.slidebar-parent').show(200);
-            $('.slidebar').addClass('slide-bar-toggled');
+            $(this).first().addClass('slide-bar-toggled');
         } else {
             $('.slidebar-parent').hide(150);
-            $('.slidebar').removeClass('slide-bar-toggled');
+            $(this).first().removeClass('slide-bar-toggled');
         }
     })
 
