@@ -12404,7 +12404,7 @@ table.dataTable tr:nth-of-type(odd) {
     width: auto;
     min-height: 111px;
     max-height: 160px;
-    background: #202347 0% 0% no-repeat padding-box;
+    background: black 0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
     justify-content: space-around;

@@ -20,8 +20,8 @@
             <div class="col-md-6 col-12 header-top-right-menu text-nowrap">
                 <a class="d-none top-btn-1 btn btn-sm mr-1 header-mb-btn align-items-center" href="/account/live-account.php"><i class="ti-user">&nbsp;</i><?php translate('Live Account'); ?></a>
                 <a class="d-none top-btn-2 btn btn-sm hide-768 mr-1 align-items-center" href="/demo-competition.php"><i class="ti-desktop">&nbsp;</i><?php translate('Demo Account') ?></a>
-                <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1 d-flex align-items-center" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"><img alt="" data-entity-type="" data-entity-uuid="" height="12px" src="" width="auto;" /> </span>&nbsp;<?php translate('MyMultibank'); ?></a>
                 <a class="btn btn-sm btn-gold mr-1 header-mb-btn d-md-flex d-none align-items-center" href="" id="header-pn"><i class="ti-phone">&nbsp;</i></a>
+                <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1 d-flex align-items-center" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"><img alt="" data-entity-type="" data-entity-uuid="" height="12px" src="" width="auto;" /> </span>&nbsp;<?php translate('MyMultibank'); ?></a>
                 <!-- <a class="btn btn-sm btn-grey hide-768 mr-1 d-flex align-items-center" href="/partnership/introducing-brokers.php"><i style="font-family: 'icomoon' !important; font-size:9px; font-style: normal; margin-right: 5px;">&nbsp;&#xe920;</i><?php translate('IB Registration'); ?></a> -->
             </div>
         </div>
@@ -77,8 +77,7 @@
                     <div class="w-75 mx-auto row">
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="menu_txt_content">
-                                <div class="mex-h2 uppercase mb0 "><a class="font-40  text-left mex-p-l-none mex-p-r-none" href="/about.php"><?php translate('About
-                                        us'); ?></a>
+                                <div class="mex-h2 uppercase mb0 "><a class="font-40  text-left mex-p-l-none mex-p-r-none" href="/about.php"><?php translate('About'); ?></a>
                                 </div>
                                 <p class="line-height-30"><?php translate('MultiBank was established in California, USA in 2005. '); ?> <?php translate('Since
                                     its launch MultiBank has evolved into one of the largest financial derivatives companies worldwide,'); ?> <?php translate('with a current paid up capital of over US $322 million.'); ?></p>
@@ -86,7 +85,7 @@
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12 nav-col-hr">
                             <div class="nav-menu-heading">
-                                <h4 class="uppercase mb0"><a class="font-24" href="/about.php"><?php translate('About us'); ?></a></h4>
+                                <h4 class="uppercase mb0"><a class="font-24" href="/about.php"><?php translate('About'); ?></a></h4>
                             </div>
                             <ul class="nav-menu-list">
                                 <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
@@ -180,16 +179,14 @@
                     <div class="w-75 mx-auto row">
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="menu_txt_content">
-                                <div class="mex-h2 uppercase mb0"><a class="font-40  text-left mex-p-l-none mex-p-r-none" href="/account.php"><?php translate('Accounts
-                                        & Funding'); ?></a></div>
+                                <div class="mex-h2 uppercase mb0"><a class="font-40  text-left mex-p-l-none mex-p-r-none" href="/account.php"><?php translate('Accounts'); ?></a></div>
                                 <p class="line-height-30"><?php translate('MultiBank offers customers direct access to banks and
                                     exchanges through its advanced trading platforms.'); ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12  col-xs-12 nav-col-hr">
                             <div class="nav-menu-heading">
-                                <h4 class="uppercase mb0"><a class="font-24" href="/account.php"><?php translate('Accounts &
-                                        Funding'); ?></a>
+                                <h4 class="uppercase mb0"><a class="font-24" href="/account.php"><?php translate('Accounts'); ?></a>
                                 </h4>
                             </div>
                             <ul class="nav-menu-list">
@@ -292,7 +289,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/about.php"><?php translate('About us'); ?></a>
+                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/about.php"><?php translate('About'); ?></a>
                     <ul class="text-center">
 
                         <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
@@ -328,7 +325,7 @@
                         <li><a href="/platforms/download-center.php"><?php translate('Download Center'); ?></a></li>
                     </ul>
                 </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/account.php"><?php translate('Account & Funding'); ?></a>
+                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/account.php"><?php translate('Accounts'); ?></a>
                     <ul class="text-center">
                         <li><a href="/account/live-account.php"><?php translate('Live Account'); ?></a></li>
                         <li><a href="/demo-competition.php"><?php translate('Demo Account'); ?></a></li>
