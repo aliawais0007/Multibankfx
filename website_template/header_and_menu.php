@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <ul class="header-top-left-menu hide-1024">
-                    <li class="border-right hide-1200"><a href="/cdn-cgi/l/email-protection.html#8ae9f9cae7ffe6fee3e8ebe4e1ecf2a4e9e5e7"><i class="ti-email">&nbsp;</i> <span><?php translate('EMAIL') ?></span> </a></li>
+                    <li class="border-right hide-1200">Regulated and authorized by <a>ASIC </a> and <a>FSC</a></li>
                     <li class="border-right hide-1024"><i class="ti-world">&nbsp;</i> <span><?php translate('Global Alexa Ranking:'); ?>14224</span></li>
                     <li class="hide-1280"><span><a href="" id="header-pn"></a> </span></li>
                     <li>
