@@ -862,10 +862,7 @@ $(document).ready(function() {
     $('.slide-bar-toggle').click(function() {
         let display = $('.slidebar-parent').css('display');
         if (display == "none") {
-            $('.slidebar-parent').animate({
-                display: 'block',
-
-            });
+            $('.slidebar-parent').show(200);
             $('.slidebar').show(250);
             $(this).first().addClass('slide-bar-toggled');
         } else {
