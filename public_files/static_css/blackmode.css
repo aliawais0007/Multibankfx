@@ -12522,7 +12522,7 @@ table.dataTable tr:nth-of-type(odd) {
 }
 
 .slide-slick h4 {
-    color: var(--font-color) !important;
+    color: white !important;
     font-family: Calibri !important;
 }
 
