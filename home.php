@@ -255,7 +255,7 @@ foreach ($allnews as $item) {
                 <h4 class="text-uppercase">Global Awards </h4><span class="span-hero">40+</span>
             </div>
             <div class="slide-slick">
-                <h4 class="text-uppercase">Trading Instruments</h4><span class="span-hero">1000+</span>
+                <h4 class="text-uppercase">Instruments</h4><span class="span-hero">1000+</span>
             </div>
         </div>
     </div>

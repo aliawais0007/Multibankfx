@@ -12500,10 +12500,12 @@ table.dataTable tr:nth-of-type(odd) {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #202347;
+    /* background-color: #202347; */
     min-height: 100px !important;
     margin: 0px 5px;
     text-align: center;
+    background: black;
+    border-right: 1px solid #413d3d;
 }
 
 .slide-slick h4 {
