@@ -12357,12 +12357,15 @@ table.dataTable tr:nth-of-type(odd) {
         height: 200px
     }
     .home-banner-title1 {
-        font-size: 6.5vw
+        font-size: 10vw
     }
     .home-banner-title2 {
         font-size: 4.5vw;
         padding: 4% 0 5% 0;
         display: block;
+    }
+    .demo-btn-custom {
+        padding-top: 110px;
     }
     .home-banner-btn1 {
         font-size: 4vw;
