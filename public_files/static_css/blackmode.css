@@ -4908,7 +4908,8 @@ sup.sup-size {
 }
 
 .lang-menu:hover .lang-menu-dropdown {
-    display: block
+    display: block;
+    z-index: 999999;
 }
 
 .lang-mobile-menu:after {
