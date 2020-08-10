@@ -6183,7 +6183,7 @@ li a .country-name {
 
 @media (min-width:992px) {
     .trade-confidence-container {
-        margin-bottom: 50px!important
+        /* margin-bottom: 50px!important */
     }
 }
 
