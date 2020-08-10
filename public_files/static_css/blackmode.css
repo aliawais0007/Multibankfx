@@ -5970,8 +5970,7 @@ section.mex-block-full .mex-img-cover {
     font-family: Calibri;
     letter-spacing: 0;
     text-align: center;
-    padding: 18px 52px;
-    margin-right: 30px
+    padding: 18px 28px;
 }
 
 .home-banner-btn2 {
@@ -5982,7 +5981,8 @@ section.mex-block-full .mex-img-cover {
     letter-spacing: 0;
     color: #fff!important;
     text-align: center;
-    padding: 17px 28px;
+    margin-right: 30px;
+    padding: 18px 52px;
     margin: auto
 }
 
