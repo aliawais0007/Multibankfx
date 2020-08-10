@@ -122,7 +122,7 @@
     <link rel="shortcut icon" href="/public_files/images/common/icons/favicon.ico">
 
     <link rel="stylesheet" href="/public_files/static_min_css/library_mena25bonus.min.css" />
-    <link rel="stylesheet" href="/public_files/static_min_css/custom_mena25bonus.min.css?v=20200618" />
+    <link rel="stylesheet" href="/public_files/static_min_css/custom_mena25bonus.min.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800&display=swap" rel="stylesheet">
 

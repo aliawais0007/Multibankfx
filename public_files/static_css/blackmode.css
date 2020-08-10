@@ -12566,3 +12566,7 @@ table.dataTable tr:nth-of-type(odd) {
     margin-top: 0px !important;
     text-align: center;
 }
+
+.slidebar-parent {
+    display: none;
+}

@@ -860,15 +860,14 @@ var jointAccountDocFields = {
 $(document).ready(function() {
     // Toggle button action
     $('.slide-bar-toggle').click(function() {
-        let display = $('.slidebar').css('display');
+        let display = $('.slidebar-parent').css('display');
         if (display == "none") {
-            $('.slidebar').show(200);
-            $(this).addClass('slide-bar-toggled');
+            $('.slidebar-parent').show(200);
+            $(this).first().addClass('slide-bar-toggled');
         } else {
-            $('.slidebar').hide(150);
-            $(this).removeClass('slide-bar-toggled');
+            $('.slidebar-parent').hide(150);
+            $(this).first().removeClass('slide-bar-toggled');
         }
-
     })
 
     // Toggle dark mode script
@@ -1397,166 +1396,6 @@ $(function() {
             $('#leaderboard').hide();
         }
     }
-});
-
-
-//script for ajax request to save data to db
-$("#contact_us_form").submit(function(e) {
-    debugger
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = '/forms/forms.php';
-    var datais = form.serialize();
-    // console.log('form is here'+form);
-    // console.log('url is here',url);
-
-
-    $.ajax({
-        type: "POST",
-        url: url, //submission.php
-        data: datais, // serializes the form's elements.
-
-        beforeSend: function(data) {
-
-
-            console.log("data is here");
-            // console.log('form data'+data);
-        },
-        success: function(data) {
-
-        },
-        error: function(XMLHttpRequest, textStatus, errorThrown) {
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    })
-
-});
-
-$("#live_account_form").submit(function(e) {
-
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = 'index.php';
-    var datais = form.serialize();
-    // console.log('form is here'+form);
-    console.log(datais);
-
-
-    $.ajax({
-        type: "POST",
-        url: url, //submission.php
-        data: datais, // serializes the form's elements.
-
-        beforeSend: function(data) {
-
-
-            console.log("data is here");
-            // console.log('form data'+data);
-        },
-        success: function(data) {
-
-        }
-    })
-
-});
-
-
-$("#demo_account_form").submit(function(e) {
-
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = 'index.php';
-    var datais = form.serialize();
-    // console.log('form is here'+form);
-    // console.log('url is here',url);
-    header("Access-Control-Allow-Origin: *");
-    header("Access-Control-Allow-Methods: POST");
-    header("Access-Control-Allow-Headers: Origin, Methods, Content-Type");
-
-    $.ajax({
-        type: "POST",
-        url: url, //submission.php
-        data: datais, // serializes the form's elements.
-
-        beforeSend: function(data) {
-
-
-            console.log("data is here");
-            // console.log('form data'+data);
-        },
-        success: function(data) {
-
-        }
-    })
-
-});
-
-
-//these are for call backs form .there are maany froms
-$("#call_back_footer_form").submit(function(e) {
-    debugger
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = 'index.php';
-    var datais = form.serialize();
-    // console.log('form is here'+form);
-    // console.log('url is here',url);
-    $.ajax({
-        type: "POST",
-        url: url, //submission.php
-        data: datais, // serializes the form's elements.
-
-        beforeSend: function(data) {
-
-
-            console.log("data is here");
-            // console.log('form data'+data);
-        },
-        success: function(data) {
-
-        },
-        error: function(XMLHttpRequest, textStatus, errorThrown) {
-            alert("some error");
-        }
-    })
-
-});
-
-//partnership form
-$("#ib_form").submit(function(e) {
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = 'index.php';
-    var datais = form.serialize();
-    // console.log('form is here'+form);
-    // console.log('url is here',url);
-
-
-    $.ajax({
-        type: "POST",
-        url: url, //submission.php
-        data: datais, // serializes the form's elements.
-
-        beforeSend: function(data) {
-
-
-            console.log("data is here");
-            // console.log('form data'+data);
-        },
-        success: function(data) {
-
-        }
-    })
-
 });
 
 $(window).scroll(function() {
