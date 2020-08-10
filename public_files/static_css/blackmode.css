@@ -4787,7 +4787,8 @@ sup.sup-size {
     top: 1px;
     right: 15px;
     font-size: 11px;
-    content: "\e64b";
+    content: '';
+    /* content: "\e64b"; */
     font-family: themify;
     speak: none;
     font-style: normal;
@@ -4844,7 +4845,7 @@ sup.sup-size {
 
 .lang-menu {
     margin-right: 20px;
-    border-left: 1px solid #ccc;
+    border-left: none;
     cursor: pointer
 }
 
@@ -12211,15 +12212,15 @@ a span strong {
 }
 
 .border-right {
-    border-right: 1px solid var(--border-color)!important
+    border-right: none!important
 }
 
 .header-top {
-    border-bottom: 1px solid var(--border-color)
+    border-bottom: none
 }
 
 .header-bottom {
-    border-bottom: 1px solid var(--border-color)
+    border-bottom: none
 }
 
 .mex-block-card-v {
