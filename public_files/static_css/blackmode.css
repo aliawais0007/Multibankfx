@@ -69,6 +69,7 @@
     --scrollbar-color: #1834a7;
     --table-odd: #f1fbfc;
     --st-link-color: #005190;
+    --border-top-bottom: #ccc
 }
 
 [data-theme=dark] {
@@ -139,7 +140,8 @@
     --full-bW-color: black;
     --scrollbar-color: white;
     --table-odd: #737576;
-    --st-link-color: white
+    --st-link-color: white;
+    --border-top-bottom: #212529
 }
 
 body {
@@ -12214,11 +12216,11 @@ a span strong {
 }
 
 .border-right {
-    border-right: none!important
+    border-right: 1px solid var(--border-top-bottom)!important
 }
 
 .header-top {
-    border-bottom: none
+    border-bottom: 1px solid var(--border-top-bottom)
 }
 
 .header-bottom {
