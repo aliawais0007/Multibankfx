@@ -1955,15 +1955,13 @@ foreach ($allnews as $item) {
                 var s = document.getElementsByTagName('script')[0];
                 s.parentNode.insertBefore(lc, s);
                 window.LC_API = window.LC_API || {};
-                if (window.innerWidth < 640) {
                     LC_API.on_before_load = function() {
                         LC_API.hide_chat_window();
                     }
                     LC_API.on_chat_window_minimized = function() {
                         setTimeout(function() {
                             LC_API.hide_chat_window();
-                        }, 10000);
-                    }
+                        }, 200);
                 }
             };
 
@@ -2012,8 +2010,6 @@ foreach ($allnews as $item) {
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
-            console.log(typeof is_iframe);
-            console.log(typeof iframe_ibnum);
             if (typeof iframe_ibnum === 'string' && typeof is_iframe === 'string') {
                 $('a').each(function() {
                     var querystring = 'ibNum=888104724';
