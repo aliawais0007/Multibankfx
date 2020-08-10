@@ -154,7 +154,7 @@ foreach ($allnews as $item) {
                         </div>
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-01-750x600.jpg');">
-                        <img src="/public_files/images/home/home-banner-1.jpg" />
+                        <img src="/public_files/images/home/mobile-banner-1.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1">ESTABLISHED IN 2005</span>
                             <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span>
