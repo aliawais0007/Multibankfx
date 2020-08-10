@@ -863,9 +863,11 @@ $(document).ready(function() {
         let display = $('.slidebar-parent').css('display');
         if (display == "none") {
             $('.slidebar-parent').show(200);
+            $('.slidebar').show(250);
             $(this).first().addClass('slide-bar-toggled');
         } else {
             $('.slidebar-parent').hide(150);
+            $('.slidebar').hide(100);
             $(this).first().removeClass('slide-bar-toggled');
         }
     })
