@@ -862,11 +862,11 @@ $(document).ready(function() {
     $('.slide-bar-toggle').click(function() {
         let display = $('.slidebar-parent').css('display');
         if (display == "none") {
-            $('.slidebar-parent').show(200);
+            $('.slidebar-parent').show(50);
             $('.slidebar').show(250);
             $(this).first().addClass('slide-bar-toggled');
         } else {
-            $('.slidebar-parent').hide(150);
+            $('.slidebar-parent').hide(100);
             $('.slidebar').hide(100);
             $(this).first().removeClass('slide-bar-toggled');
         }
