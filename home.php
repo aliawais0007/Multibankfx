@@ -2224,7 +2224,7 @@ foreach ($allnews as $item) {
             $('#home-carousal-banner').slick({
                 centerMode: false,
                 centerPadding: '10px',
-                slidesToShow: 2,
+                slidesToShow: 1,
                 infinite: false,
                 arrows: false
             });

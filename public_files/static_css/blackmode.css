@@ -12442,6 +12442,7 @@ table.dataTable tr:nth-of-type(odd) {
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    font-family: oswald;
 }
 
 .hero-box div:last-child {
@@ -12511,6 +12512,7 @@ table.dataTable tr:nth-of-type(odd) {
 
 .slide-slick h4 {
     color: var(--font-color) !important;
+    font-family: Calibri !important;
 }
 
 .theme-switch {
