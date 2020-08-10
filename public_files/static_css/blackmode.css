@@ -12537,6 +12537,8 @@ table.dataTable tr:nth-of-type(odd) {
 .slide-slick h4 {
     color: white !important;
     font-family: Calibri !important;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 .theme-switch {
