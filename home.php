@@ -2223,7 +2223,7 @@ foreach ($allnews as $item) {
             // banner slider under Hero slider
             $('#home-carousal-banner').slick({
                 centerMode: true,
-                centerPadding: '30px',
+                centerPadding: '10px',
                 slidesToShow: 1,
                 infinite: false,
                 arrows: false,
