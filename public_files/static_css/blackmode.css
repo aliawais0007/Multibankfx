@@ -12424,7 +12424,7 @@ table.dataTable tr:nth-of-type(odd) {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-left: 1px solid white;
+    border-left: 1px solid #ccc;
 }
 
 .h4-hero-box {
