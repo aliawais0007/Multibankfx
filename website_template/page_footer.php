@@ -127,7 +127,7 @@
 </div>
 <div class="slidebar-parent">
     <div class="slidebar">
-        <a class="get-a-all-btn call-btn" href="tel:+12139924748">
+        <a class="get-a-all-btn call-btn slidebar-pn" href="">
             <span>Make call</span>
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-phone.png" width="50" /> </span>
         </a>
@@ -152,23 +152,23 @@
         if (response.country.toLowerCase() == "ae") {
             $('#header-pn').html("+971 4 875 1311");
             $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-            $('#header-pn').attr('href', `tel:'+971 4 875 1311?call`);
+            $('#header-pn, .slidebar-pn').attr('href', `tel:'+971 4 875 1311?call`);
         } else if (response.country.toLowerCase() == "my") {
-            $('#header-pn').html("+60 32 201 0966");
-            $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-            $('#header-pn').attr('href', `tel:'+60 32 201 0966?call`);
+            $('#header-pn, .slidebar-pn').html("+60 32 201 0966");
+            $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
+            $('#header-pn, .slidebar-pn').attr('href', `tel:'+60 32 201 0966?call`);
         } else if (response.country.toLowerCase() == "id") {
-            $('#header-pn').html("+62 02129264151");
-            $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-            $('#header-pn').attr('href', `tel:'+62 02129264151?call`);
+            $('#header-pn, .slidebar-pn').html("+62 02129264151");
+            $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
+            $('#header-pn, .slidebar-pn').attr('href', `tel:'+62 02129264151?call`);
         } else if (response.country.toLowerCase() == "es") {
-            $('#header-pn').html("+34 931220671");
-            $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-            $('#header-pn').attr('href', `tel:'+34 931220671?call`);
+            $('#header-pn, .slidebar-pn').html("+34 931220671");
+            $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
+            $('#header-pn, .slidebar-pn').attr('href', `tel:'+34 931220671?call`);
         } else {
-            $('#header-pn').html("+1 213 992 4748");
-            $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-            $('#header-pn').attr('href', `tel:'+1 213 992 4748?call`);
+            $('#header-pn, .slidebar-pn').html("+1 213 992 4748");
+            $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
+            $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
         }
     }, "jsonp");
 </script>
