@@ -5508,6 +5508,7 @@ section.mex-block-full .mex-img-cover {
     height: 52px;
     display: flex;
     padding: 0;
+    margin: 5px 0;
     border: 0!important;
     cursor: pointer;
     border-radius: 0;
@@ -12597,4 +12598,10 @@ table.dataTable tr:nth-of-type(odd) {
 
 .slide-bar-toggled img {
     display: none
+}
+
+.slidebar a span.btn {
+    padding: 0;
+    border-radius: 50% !important;
+    margin: 0px 0 3px 0;
 }
