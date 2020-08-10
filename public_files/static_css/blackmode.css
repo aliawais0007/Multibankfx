@@ -5492,7 +5492,6 @@ section.mex-block-full .mex-img-cover {
     right: 20px;
     bottom: 75px;
     z-index: 1000;
-    display: none;
     background: #fff6;
     transition: all 0.5s;
 }
