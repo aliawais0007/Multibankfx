@@ -49,7 +49,8 @@
     --live-account-banner: url(/public_files/images/accounts_funding/live_account_top_banner.jpg);
     --demo-account-banner: url(/public_files/images/accounts_funding/demo_account_top_banner.jpg);
     --account-funding-banner: url(/public_files/images/accounts_funding/account_funding_top_banner.jpg);
-    --small-logo-m: /public_files/images/common/icons/btn_mymex_icon_dark.png;
+    --small-logo-m-white: /public_files/images/common/icons/btn_mymex_icon_dark.png;
+    --small-logo-m-dark: /public_files/images/common/icons/btn_mymex_icon.png;
     --border-color: #ccc;
     --color-737576: #e4e7e9;
     --choose-next-background-color: black;
@@ -120,7 +121,8 @@
     --live-account-banner: url(/public_files/images/accounts_funding/live_account_top_banner_dark.png);
     --demo-account-banner: url(/public_files/images/accounts_funding/demo_account_top_banner_dark.png);
     --account-funding-banner: url(/public_files/images/accounts_funding/account_funding_top_banner_dark.png);
-    --small-logo-m: /public_files/images/common/icons/btn_mymex_icon.png;
+    --small-logo-m-dark: /public_files/images/common/icons/btn_mymex_icon.png;
+    --small-logo-m-white: /public_files/images/common/icons/btn_mymex_icon_dark.png;
     --color-737576: #737576;
     --choose-next-background-color: white;
     --trader-color: white;
@@ -12580,5 +12582,9 @@ table.dataTable tr:nth-of-type(odd) {
 }
 
 .small-M-logo::before {
-    content: url(--small-logo-m);
+    content: url(--small-logo-m-white);
+}
+
+.header-top-right-menu a:hover .small-M-logo::before {
+    content: url(--small-logo-m-dark);
 }
