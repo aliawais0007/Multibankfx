@@ -12525,9 +12525,10 @@ table.dataTable tr:nth-of-type(odd) {
     display: block !important;
 }
 
-#chat-widget-container {
+
+/* #chat-widget-container {
     display: none !important;
-}
+} */
 
 .slide-bar-toggle {
     border-radius: 40%;
