@@ -12307,7 +12307,7 @@ table.dataTable tr:nth-of-type(odd) {
 
 @media (max-width:767px) {
     #swiper-container-lp {
-        height: calc(100vh - 171px)
+        height: calc(100vh - 185px)
     }
     .header-bottom {
         padding: 15px 8px;
