@@ -12616,3 +12616,7 @@ table.dataTable tr:nth-of-type(odd) {
 .COP-section {
     background-color: var(--background-dark) !important;
 }
+
+.section-products a .card-content {
+    background-color: var(--background-dark) !important;
+}
