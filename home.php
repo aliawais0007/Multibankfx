@@ -566,7 +566,7 @@ foreach ($allnews as $item) {
     </section>
     <section class="p0 bg-white d-none d-md-block">
         <div class="col-md-12">
-            <h3 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-none " style="margin:30px 0">Bonuses </h3>
+            <h3 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-none " style="margin:30px 0 !important">Bonuses </h3>
             <!-- <p class="lead text-222 mex-m-b-30 text-center">Find out more about our latest bonus and promotions for
                 Introducing Brokers &amp; individual clients alike!</p> -->
         </div>
