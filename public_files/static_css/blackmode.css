@@ -4874,7 +4874,8 @@ sup.sup-size {
     top: 0;
     right: 0;
     font-size: 11px;
-    content: "\e64b";
+    content: '';
+    /* content: "\e64b"; */
     font-family: themify;
     speak: none;
     font-style: normal;
