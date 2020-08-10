@@ -12588,3 +12588,7 @@ table.dataTable tr:nth-of-type(odd) {
 .header-top-right-menu a:hover .small-M-logo::before {
     content: url(--small-logo-m-dark);
 }
+
+.small-M-logo::before {
+    content: url(--small-logo-m-white);
+}
