@@ -11779,7 +11779,7 @@ table.dataTable tbody tr {
 .platforms_conten,
 .platforms_content {
     background-color: var(--bg-black)!important;
-    z-index: 9999;
+    z-index: 99;
 }
 
 p {
