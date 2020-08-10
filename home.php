@@ -230,8 +230,8 @@ foreach ($allnews as $item) {
                 <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span> -->
                 <div class="col-12 d-flex justify-content-center demo-btn-custom">
                     <div class="row justify-content-center align-items-center" style="height:100%">
+                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
-                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
                     </div>
                     <!-- <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span> -->
                 </div>
