@@ -32,7 +32,7 @@ $(function() {
     if (width <= 1024) {
         $('nav-menu').empty();
     } else {
-        $('.header-menu-trigger').click(function() {
+        $('.header-menu-trigger').onhover(function() {
             $(this).addClass('active');
             var menu_type = $(this).data('type') + '-menu';
             openDropdownMenu(menu_type);
