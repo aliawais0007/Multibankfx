@@ -340,18 +340,18 @@ foreach ($allnews as $item) {
         }
     </style>
 
-    <section class="bg-gray p0">
+    <section class="bg-gray p0 COP-section">
         <div class="container ">
             <div class="row d-none">
                 <div class="col-12">
-                    <h3 class="mex-h1 text-1e32a3 mex-m-t-50 mex-m-b-40 text-center COP-section">Our Products</h3>
+                    <h3 class="mex-h1 text-1e32a3 mex-m-t-50 mex-m-b-40 text-center ">Our Products</h3>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 ">
-                    <h3 class="mex-h1 text-1e32a3 text-center COP-section" style="margin: 30px 0px 20px 0;">Choose Your Product</h3>
+                    <h3 class="mex-h1 text-1e32a3 text-center" style="margin: 30px 0px 20px 0;">Choose Your Product</h3>
                 </div>
                 <div class="col-4 col-md-6 col-lg-3 mex-m-b-30">
                     <section class="mex-block-card-v mex-qtr box-animate section-products">
