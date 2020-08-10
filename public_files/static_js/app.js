@@ -861,7 +861,7 @@ $(document).ready(function() {
 
     // language click dropsown
     $('.lang-menu').click(() => {
-        $('.lang-menu-dropdown').show();
+        $('.lang-menu-dropdown').toggle();
     });
     $('.btn-navy').mouseover(() => {
         $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
