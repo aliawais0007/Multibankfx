@@ -4907,10 +4907,11 @@ sup.sup-size {
     color: var(--font-color)
 }
 
-.lang-menu:hover .lang-menu-dropdown {
+
+/* .lang-menu:hover .lang-menu-dropdown {
     display: block;
     z-index: 999999;
-}
+} */
 
 .lang-mobile-menu:after {
     right: 1.5rem!important;
