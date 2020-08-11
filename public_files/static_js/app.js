@@ -862,13 +862,15 @@ $(document).ready(function() {
     // platforms tab panels
     $(".nav-home-tab-1").click(function() {
         $(this).addClass('active show');
-        $("#nav-mt4").addClass("active show");
         $("#nav-mt5").removeClass("active show");
+        $("#nav-mt4").addClass("active show");
+
     });
     $(".nav-home-tab-2").click(function() {
         $(this).addClass('active show');
-        $("#nav-mt5").addClass("active show");
         $("#nav-mt4").removeClass("active show")
+        $("#nav-mt5").addClass("active show");
+  
     });
     // language click dropsown
     $('.lang-menu').click(() => {
