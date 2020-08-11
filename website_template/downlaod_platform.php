@@ -145,8 +145,8 @@
           <div class="col-xs-12 ">
             <nav class = "nav-platform mt-4">
               <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">             
-                <a class="btn custom-btn-plat active nav-home-tab-1" id="nav-home-tab" data-toggle="tab"  role="tab" aria-controls="nav-home" aria-selected="true">MT4</a>
-                <a class="btn  custom-btn-plat nav-home-tab-2" id="nav-profile-tab" data-toggle="tab" role="tab" aria-controls="nav-profile" aria-selected="false">MT5</a>
+                <a class="btn custom-btn-plat active nav-home-tab-1" id="nav-home-tab" data-toggle="tab"  role="tab" aria-controls="nav-home" aria-selected="true" style="border-radius: 20px !IMPORTANT;">MT4</a>
+                <a class="btn  custom-btn-plat nav-home-tab-2" id="nav-profile-tab" data-toggle="tab" role="tab" aria-controls="nav-profile" aria-selected="false" style="border-radius: 20px !IMPORTANT;">MT5</a>
               </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
@@ -300,8 +300,8 @@
                 </div>
                 <nav class="nav-2">
                   <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                    <a class="custom-nav-2-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab"  role="tab" aria-controls="nav-home" aria-selected="true">ECN  PRO</a>
-                    <a class="custom-nav-2-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
+                    <a class="custom-nav-2-link nav-item nav-link active" id="nav-home-tab-3" data-toggle="tab"  role="tab" aria-controls="nav-home" aria-selected="true">ECN  PRO</a>
+                    <a class="custom-nav-2-link nav-item nav-link" id="nav-profile-tab-3" data-toggle="tab" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
                   </div>
                 </nav>
               </div>
