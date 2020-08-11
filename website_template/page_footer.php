@@ -149,12 +149,14 @@
 <script>
     $.get("https://ipinfo.io/json", function(response) {
         $.getJSON('/public_files/static_data/contact_no.json', function(contacts){
-            contact.map(data=>
-            if(data.toLowerCase()===response.country){
+            contact.map(data=>{
+            debugger
+            if(data['Country Sn'].toLowerCase()===response.country){
                 $('#header-pn').html(`${data.Phone}`);
                 $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
                 $('#header-pn, .slidebar-pn').attr('href', `tel:${data.Phone}?call`);
             }
+        }
             )
             
         });
