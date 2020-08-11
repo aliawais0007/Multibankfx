@@ -156,13 +156,13 @@
                 $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
                 $('#header-pn, .slidebar-pn').attr('href', `tel:${data.Phone}?call`);
             }
-            if(index == contacts.length && $('#header-pn').html()=="")
+        }
+          if($('#header-pn').html()=="")
             {
                 $('#header-pn, .slidebar-pn').html("+1 213 992 4748");
                 $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
                 $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
             }
-        }
             )
             
         });
