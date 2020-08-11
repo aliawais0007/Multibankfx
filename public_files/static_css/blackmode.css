@@ -12733,6 +12733,14 @@ div#nav-tab {
     padding: 8px 25px;
 }
 
+.nav-platform {
+    justify-content: center;
+}
+
+#nav-tabContent .tab-pane .nav-1 {
+    justify-content: center !important;
+}
+
 .btn-custom-compare:hover {
     border: 1px solid #1E32A3;
     background: white;
@@ -12781,7 +12789,6 @@ a.custom-nav-2-link {
 
 .platforms-content h5 {
     font-size: 24px;
-    ;
 }
 
 .flex-container {
