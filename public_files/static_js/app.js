@@ -860,12 +860,12 @@ var jointAccountDocFields = {
 //Regulations page start
 $(document).ready(function() {
     // platforms tab panels
-    $(".nav-home-tab-1").click(function() {
+    $("#nav-mt4").click(function() {
         $(this).addClass('active');
         $(".tab-pane-1").addClass("active");
         $(".tab-pane-2").removeClass("active");
     });
-    $(".nav-home-tab-2").click(function() {
+    $("#nav-mt5").click(function() {
         $(this).addClass('active');
         $(".tab-pane-2").addClass("active");
         $(".tab-pane-1").removeClass("active")
