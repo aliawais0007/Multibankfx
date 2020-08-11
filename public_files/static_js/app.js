@@ -861,13 +861,14 @@ var jointAccountDocFields = {
 $(document).ready(function() {
     // platforms tab panels
     $(".nav-home-tab-1").click(function() {
-        $("#nav-mt4").addClass("active");
-        $("#nav-mt5").removeClass("active");
+        $(this).addClass('active show');
+        $("#nav-mt4").addClass("active show");
+        $("#nav-mt5").removeClass("active show");
     });
     $(".nav-home-tab-2").click(function() {
-        // $(this).addClass('active');
-        $("#nav-mt5").addClass("active");
-        $("#nav-mt4").removeClass("active")
+        $(this).addClass('active show');
+        $("#nav-mt5").addClass("active show");
+        $("#nav-mt4").removeClass("active show")
     });
     // language click dropsown
     $('.lang-menu').click(() => {
