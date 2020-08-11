@@ -145,15 +145,15 @@
           <div class="col-xs-12 ">
             <nav class = "nav-platform mt-4">
               <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">             
-                <a class="btn custom-btn-plat active" id="nav-home-tab" data-toggle="tab" href="#nav-mt4" role="tab" aria-controls="nav-home" aria-selected="true">MT4</a>
-                <a class="btn  custom-btn-plat" id="nav-profile-tab" data-toggle="tab" href="#nav-mt5" role="tab" aria-controls="nav-profile" aria-selected="false">MT5</a>
+                <a class="btn custom-btn-plat active nav-home-tab-1" id="nav-home-tab" data-toggle="tab" href="#nav-mt4" role="tab" aria-controls="nav-home" aria-selected="true">MT4</a>
+                <a class="btn  custom-btn-plat nav-home-tab-2" id="nav-profile-tab" data-toggle="tab" href="#nav-mt5" role="tab" aria-controls="nav-profile" aria-selected="false">MT5</a>
               </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
               <div class="tab-pane fade show active" id="nav-mt4" role="tabpanel" aria-labelledby="nav-home-tab">
                
                 <div class="tab-content " id="nav-tabContent">
-                  <div class="container tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <div class="container tab-pane tab-pane-1 fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="row platforms-content">
                       <div class="col-md-2 col-12">
                         <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
@@ -180,7 +180,7 @@
                       </div>
                     </div>                    
                   </div>
-                  <div class="container tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  <div class="container tab-pane tab-pane-2 fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <div class="row platforms-content">
                       <div class="col-md-2 col-12">
                         <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
