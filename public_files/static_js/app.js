@@ -936,6 +936,7 @@ $(document).ready(function() {
             $('.slidebar-parent').show(50);
             $('.slidebar').show(250);
             $(this).first().addClass('slide-bar-toggled');
+            debugger
         } else {
             $('.slidebar-parent').hide(100);
             $('.slidebar').hide(100);
