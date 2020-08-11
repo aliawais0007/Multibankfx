@@ -149,18 +149,19 @@
 <script>
     $.get("https://ipinfo.io/json", function(response) {
         $.getJSON('/public_files/static_data/contact_no.json', function(contacts){
-            contacts.map(data=>{
+            contacts.map((data, index)=>{
                 debugger
             if(data['Country SN'].toLowerCase() == response.country.toLowerCase()){
                 $('#header-pn').html(`${data.Phone}`);
                 $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
                 $('#header-pn, .slidebar-pn').attr('href', `tel:${data.Phone}?call`);
             }
-        //     else if($('#header-pn').html()=="") {
-        //     $('#header-pn, .slidebar-pn').html("+1 213 992 4748");
-        //     $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-        //     $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
-        // }
+            if(index == contacts.length && $('#header-pn').html()=="")
+            {
+                $('#header-pn, .slidebar-pn').html("+1 213 992 4748");
+                $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
+                $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
+            }
         }
             )
             
