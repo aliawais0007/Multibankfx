@@ -1135,38 +1135,6 @@
     <script src="/public_files/static_js/jquery.validate.min.js" type="ceec64c3d932c5a0d195cb41-text/javascript"></script>
     <script src="/public_files/static_js/intlTelInput.min.js" type="ceec64c3d932c5a0d195cb41-text/javascript"></script>
     <script src="/public_files/static_js/app.js" type="ceec64c3d932c5a0d195cb41-text/javascript"></script>
-    <script type="ceec64c3d932c5a0d195cb41-text/javascript" async>
-        url = new URL(window.location.href);
-        if (!url.searchParams.get('is_iframe')) {
-            window.__lc = window.__lc || {};
-            window.__lc.license = 3413162;
-            window.__lc.chat_between_groups = false;
-            window.__lc.group = 2;
-
-
-            function initliveChat() {
-                var lc = document.createElement('script');
-                lc.type = 'text/javascript';
-                lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(lc, s);
-                window.LC_API = window.LC_API || {};
-                if (window.innerWidth < 640) {
-                    LC_API.on_before_load = function() {
-                        LC_API.hide_chat_window();
-                    }
-                    LC_API.on_chat_window_minimized = function() {
-                        setTimeout(function() {
-                            LC_API.hide_chat_window();
-                        }, 10000);
-                    }
-                }
-            };
- 
-            setTimeout(() => initliveChat(), 10000);
-        }
-    </script>
     <script type="ceec64c3d932c5a0d195cb41-text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
