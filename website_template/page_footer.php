@@ -163,26 +163,6 @@
                 $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
                 $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
             }
-    } )
-            
-        });
-        // if (response.country.toLowerCase() == "ae") {
-        //     $('#header-pn').html("+971 4 875 1311");
-        //     $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-        //     $('#header-pn, .slidebar-pn').attr('href', `tel:'+971 4 875 1311?call`);
-        // } else if (response.country.toLowerCase() == "my") {
-        //     $('#header-pn, .slidebar-pn').html("+60 32 201 0966");
-        //     $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-        //     $('#header-pn, .slidebar-pn').attr('href', `tel:'+60 32 201 0966?call`);
-        // } else if (response.country.toLowerCase() == "id") {
-        //     $('#header-pn, .slidebar-pn').html("+62 02129264151");
-        //     $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-        //     $('#header-pn, .slidebar-pn').attr('href', `tel:'+62 02129264151?call`);
-        // } else if (response.country.toLowerCase() == "es") {
-        //     $('#header-pn, .slidebar-pn').html("+34 931220671");
-        //     $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-        //     $('#header-pn, .slidebar-pn').attr('href', `tel:'+34 931220671?call`);
-        // } 
-       
+    } );       
     }, "jsonp");
 </script>
