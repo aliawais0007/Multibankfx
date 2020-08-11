@@ -1323,36 +1323,7 @@
     <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/intlTelInput.min.js?version=20191128" type="text/javascript"></script>
     <script src="/public_files/static_js/app.js?version=20200720" type="text/javascript"></script>
-    <script type="text/javascript" async>
-        url = new URL(window.location.href);
-        if (!url.searchParams.get('is_iframe')) {
-            window.__lc = window.__lc || {};
-            window.__lc.license = 3413162;
-            window.__lc.chat_between_groups = false;
-            window.__lc.group = 2;
 
-
-            (function() {
-                var lc = document.createElement('script');
-                lc.type = 'text/javascript';
-                lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(lc, s);
-                window.LC_API = window.LC_API || {};
-                if (window.innerWidth < 640) {
-                    LC_API.on_before_load = function() {
-                        LC_API.hide_chat_window();
-                    }
-                    LC_API.on_chat_window_minimized = function() {
-                        setTimeout(function() {
-                            LC_API.hide_chat_window();
-                        }, 200);
-                    }
-                }
-            })();
-        }
-    </script>
     <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {

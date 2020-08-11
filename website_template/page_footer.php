@@ -181,14 +181,12 @@
                 var s = document.getElementsByTagName('script')[0];
                 s.parentNode.insertBefore(lc, s);
                 window.LC_API = window.LC_API || {};
-                if (window.innerWidth < 640) {
                     LC_API.on_before_load = function() {
                     LC_API.hide_chat_window();
-                    }
                     LC_API.on_chat_window_minimized = function() {
                     setTimeout(function() {
                         LC_API.hide_chat_window();
-                    }, 10000);
+                    }, 200);
                     }
                 }
                 };

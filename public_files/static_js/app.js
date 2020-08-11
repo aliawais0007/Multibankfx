@@ -583,14 +583,14 @@ $(function() {
         $(this).find('.text').hide();
     });
 
-    // function toggleSideBar() {
-    //     var scrollTop = $(window).scrollTop();
-    //     if (scrollTop >= winHeight && window.innerWidth >= 768) {
-    //         $('.slidebar').show(200);
-    //     } else if (scrollTop < winHeight && window.innerWidth >= 768) {
-    //         $('.slidebar').hide(200);
-    //     }
-    // }
+    function toggleSideBar() {
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop >= winHeight && window.innerWidth >= 768) {
+            $('.slidebar').show(200);
+        } else if (scrollTop < winHeight && window.innerWidth >= 768) {
+            $('.slidebar').hide(200);
+        }
+    }
 
     function toggleHeader() {
         var scrollTop = $(window).scrollTop();
@@ -876,45 +876,45 @@ $(document).ready(function() {
   
     });
 
-    $("#nav-home-tab").click(function(){
-        $(this).addClass('active show');
-        $("#nav-home").addClass("active show");
-        $("#nav-profile").removeClass("active show");
-        $("#nav-contact").removeClass("active show");
-        $('#nav-profile-tab').removeClass("active show");
-        $('#nav-contact-tab').removeClass("active show");
-    });
+//     $("#nav-home-tab").click(function(){
+//         $(this).addClass('active show');
+//         $("#nav-home").addClass("active show");
+//         $("#nav-profile").removeClass("active show");
+//         $("#nav-contact").removeClass("active show");
+//         $('#nav-profile-tab').removeClass("active show");
+//         $('#nav-contact-tab').removeClass("active show");
+//     });
 
-     $("#nav-profile-tab").click(function(){
-        $(this).addClass('active show');
-        $("#nav-home").removeClass("active show");
-        $("#nav-profile").addClass("active show");
-        $("#nav-contact").removeClass("active show");
-        $('#nav-home-tab').removeClass("active show");
-        $('#nav-contact-tab').removeClass("active show");
-    });
+//      $("#nav-profile-tab").click(function(){
+//         $(this).addClass('active show');
+//         $("#nav-home").removeClass("active show");
+//         $("#nav-profile").addClass("active show");
+//         $("#nav-contact").removeClass("active show");
+//         $('#nav-home-tab').removeClass("active show");
+//         $('#nav-contact-tab').removeClass("active show");
+//     });
 
-    $("#nav-contact-tab").click(function(){
-        $(this).addClass('active show');
-        $("#nav-home").removeClass("active show");
-        $("#nav-profile").removeClass("active show");
-        $("#nav-contact").addClass("active show");
-        $('#nav-home-tab').removeClass("active show");
-         $('#nav-profile-tab').removeClass("active show");
-    });
+//     $("#nav-contact-tab").click(function(){
+//         $(this).addClass('active show');
+//         $("#nav-home").removeClass("active show");
+//         $("#nav-profile").removeClass("active show");
+//         $("#nav-contact").addClass("active show");
+//         $('#nav-home-tab').removeClass("active show");
+//          $('#nav-profile-tab').removeClass("active show");
+//     });
 
-$("#nav-home-tab-3").click(function(){
-    $(this).addClass('active show');
-    $("#nav-home-2").addClass("active show");
-    $("#nav-profile-2").removeClass("active show");
-    $("#nav-profile-tab-3").removeClass("active show");
-});
-$("#nav-profile-tab-3").click(function(){
-    $(this).addClass('active show');
-    $("#nav-home-2").removeClass("active show");
-    $("#nav-profile-2").addClass("active show");
-    $("#nav-home-tab-3").removeClass("active show");
-});
+// $("#nav-home-tab-3").click(function(){
+//     $(this).addClass('active show');
+//     $("#nav-home-2").addClass("active show");
+//     $("#nav-profile-2").removeClass("active show");
+//     $("#nav-profile-tab-3").removeClass("active show");
+// });
+// $("#nav-profile-tab-3").click(function(){
+//     $(this).addClass('active show');
+//     $("#nav-home-2").removeClass("active show");
+//     $("#nav-profile-2").addClass("active show");
+//     $("#nav-home-tab-3").removeClass("active show");
+// });
 
 
     // language click dropsown
