@@ -150,7 +150,6 @@
     $.get("https://ipinfo.io/json", function(response) {
         $.getJSON('/public_files/static_data/contact_no.json', function(contacts){
             contacts.map((data, index)=>{
-                debugger
             if(data['Country SN'].toLowerCase() == response.country.toLowerCase()){
                 $('#header-pn').html(`${data.Phone}`);
                 $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
