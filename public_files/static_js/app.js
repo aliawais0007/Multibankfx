@@ -860,7 +860,7 @@ var jointAccountDocFields = {
 //Regulations page start
 $(document).ready(function() {
         // Toggle button action
-    $('.slide-bar-toggle').off('click').on('click', function() {
+    $('.slide-bar-toggle').on('click', function() {
         let display = $('.slidebar-parent').css('display');
         if (display == "none") {
             $('.slidebar-parent').show(50);
