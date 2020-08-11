@@ -149,7 +149,7 @@
 <script>
     $.get("https://ipinfo.io/json", function(response) {
         $.getJSON('/public_files/static_data/contact_no.json', function(contacts){
-            contact.map(data=>{
+            contacts.map(data=>{
             debugger
             if(data['Country Sn'].toLowerCase()===response.country){
                 $('#header-pn').html(`${data.Phone}`);
