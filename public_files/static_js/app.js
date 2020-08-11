@@ -859,19 +859,7 @@ var jointAccountDocFields = {
 // Regulations
 //Regulations page start
 $(document).ready(function() {
-        // Toggle button action
-    $('.slide-bar-toggle').on('click', function() {
-        let display = $('.slidebar-parent').css('display');
-        if (display == "none") {
-            $('.slidebar-parent').show(50);
-            $('.slidebar').show(250);
-            $(this).first().addClass('slide-bar-toggled');
-        } else {
-            $('.slidebar-parent').hide(100);
-            $('.slidebar').hide(100);
-            $(this).first().removeClass('slide-bar-toggled');
-        }
-    })
+ 
     // platforms tab panels
     $(".nav-home-tab-1").click(function() {
         $(this).addClass('active show');

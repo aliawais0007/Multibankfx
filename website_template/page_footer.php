@@ -194,6 +194,21 @@
             setTimeout(()=>initliveChat(), 10000);
         }
     </script>
+    <script>
+           // Toggle button action
+    $('.slide-bar-toggle').on('click', function() {
+        let display = $('.slidebar-parent').css('display');
+        if (display == "none") {
+            $('.slidebar-parent').show(50);
+            $('.slidebar').show(250);
+            $(this).first().addClass('slide-bar-toggled');
+        } else {
+            $('.slidebar-parent').hide(100);
+            $('.slidebar').hide(100);
+            $(this).first().removeClass('slide-bar-toggled');
+        }
+    })
+</script>
      <!-- Start of REVE Chat Script-->
  <!-- <script type='text/javascript'>
  window.$_REVECHAT_API || (function(d, w) { var r = $_REVECHAT_API = function(c) {r._.push(c);}; w.__revechat_account='6516159';w.__revechat_version=2;
