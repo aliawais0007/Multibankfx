@@ -207,7 +207,8 @@
             $('.slidebar').hide(100);
             $(this).first().removeClass('slide-bar-toggled');
         }
-        $(this).unbind()
+        $(this).unbind();
+        $(this).bind('click');
     })
 </script>
      <!-- Start of REVE Chat Script-->
