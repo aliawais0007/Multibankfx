@@ -195,22 +195,7 @@
         }
     </script>
     <script>
-           // Toggle button action
-    $('.slide-bar-toggle').on('click', function() {
-        var $tgt = $(event.target);
-                    event.preventDefault();
-                    event.stopPropagation()
-        let display = $('.slidebar-parent').css('display');
-        if (display == "none") {
-            $('.slidebar-parent').show(50);
-            $('.slidebar').show(250);
-            $(this).first().addClass('slide-bar-toggled');
-        } else {
-            $('.slidebar-parent').hide(100);
-            $('.slidebar').hide(100);
-            $(this).first().removeClass('slide-bar-toggled');
-        }
-    })
+    
 </script>
      <!-- Start of REVE Chat Script-->
  <!-- <script type='text/javascript'>
