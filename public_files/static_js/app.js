@@ -933,11 +933,12 @@ $(document).ready(function() {
     $('.slide-bar-toggle').click(function() {
         let display = $('.slidebar-parent').css('display');
         if (display == "none") {
+             debugger
             $('.slidebar-parent').show(50);
             $('.slidebar').show(250);
             $(this).first().addClass('slide-bar-toggled');
-            debugger
         } else {
+             debugger
             $('.slidebar-parent').hide(100);
             $('.slidebar').hide(100);
             $(this).first().removeClass('slide-bar-toggled');
