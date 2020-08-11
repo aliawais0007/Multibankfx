@@ -674,7 +674,7 @@ foreach ($allnews as $item) {
         </div>
     </section> -->
 
-    <div class="section-platform pt-5 pb-5">
+    <section class="section-platform pt-5 pb-5">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-12">
@@ -696,7 +696,7 @@ foreach ($allnews as $item) {
                   <div class="container tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="row platforms-content">
                       <div class="col-md-2 col-12">
-                        <img src="./images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
+                        <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
                       </div>
                       <div class="col-md-9 col-12">
                         <h3>ECN PRO</h3>
@@ -708,22 +708,21 @@ foreach ($allnews as $item) {
 
 
                           <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
-                          <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="./images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="./images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="./images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="./images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="./images/common/chrome.png"></a></span> </div></div> -->
+                          <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> </div></div> -->
 
                           <div class="center-span">
-                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="./images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="./images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="./images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="./images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="./images/common/chrome.png"></a></span> 
+                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> 
                           </div>
-
-                          
 
                         </div>
                       </div>
                     </div>                    
                   </div>
+
                   <div class="container tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <div class="row platforms-content">
                       <div class="col-md-2 col-12">
-                        <img src="./images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
+                        <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
                       </div>
                       <div class="col-md-9 col-12">
                         <h3>MAXIMUS</h3>
@@ -733,13 +732,10 @@ foreach ($allnews as $item) {
                           <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spreads from 1.4 pips</span></div>
                           <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $50</span></div>
                           <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
-                          <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="./images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="./images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="./images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="./images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="./images/common/chrome.png"></a></span></div></div> -->
+                          <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span></div></div> -->
                           <div class="center-span">
-                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="./images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="./images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="./images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="./images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="./images/common/chrome.png"></a></span>
+                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
                           </div>
-
-                       
-                          
 
                         </div>
                       </div>
@@ -748,7 +744,7 @@ foreach ($allnews as $item) {
                   <div class="container tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <div class="row platforms-content">
                       <div class="col-md-2 col-12">
-                        <img src="./images/common/MultiBank Pro.png" class="img-responsive custom-img-plat">
+                        <img src="/public_files/images/common/MultiBank Pro.png" class="img-responsive custom-img-plat">
                       </div>
                       <div class="col-md-9 col-12">
                         <h3>multibank pro</h3>
@@ -759,10 +755,8 @@ foreach ($allnews as $item) {
                           <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $1,000</span></div>
                           <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
                           <div class="center-span">
-                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="./images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="./images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="./images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/promexintgroup4setup.exe"><img src="./images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="./images/common/chrome.png"></a></span> 
-                          </div>
-
-                          
+                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/promexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> 
+                          </div>                        
 
                         </div>
                       </div>
@@ -787,7 +781,7 @@ foreach ($allnews as $item) {
                   <div class="container tab-pane fade show active" id="nav-home-2" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="row platforms-content">
                       <div class="col-md-2 col-12">
-                        <img src="./images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
+                        <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
                       </div>
                       <div class="col-md-9 col-12">
                         <h3>ECN PRO</h3>
@@ -798,7 +792,7 @@ foreach ($allnews as $item) {
                           <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $5,000</span></div>
                           <div></div>
                           <div class="center-span">
-                            <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="./images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="./images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="./images/common/windows.png"></a></span>
+                            <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
                            </div>
 
 
@@ -813,7 +807,7 @@ foreach ($allnews as $item) {
                   <div class="container tab-pane fade" id="nav-profile-2" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <div class="row platforms-content">
                       <div class="col-md-2 col-12">
-                        <img src="./images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
+                        <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
                       </div>
                       <div class="col-md-9 col-12">
                         <h3>maximus</h3>
@@ -824,7 +818,7 @@ foreach ($allnews as $item) {
                           <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $50</span></div>      
                           <div></div>
                           <div class="center-span">
-                            <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="./images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="./images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="./images/common/windows.png"></a></span>
+                            <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
                           </div>
                    
                           
@@ -855,9 +849,7 @@ foreach ($allnews as $item) {
           </div>
         </div>
       </div>
-
-      
-    </div>
+    </section>
      <!-- downlaod platforms -->
 
     <section class="bg-gray mex-p-t-none">
