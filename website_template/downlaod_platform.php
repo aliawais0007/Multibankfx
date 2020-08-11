@@ -300,8 +300,8 @@
                 </div>
                 <nav class="nav-2">
                   <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                    <a class="custom-nav-2-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home-2" role="tab" aria-controls="nav-home" aria-selected="true">ECN  PRO</a>
-                    <a class="custom-nav-2-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-2" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
+                    <a class="custom-nav-2-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab"  role="tab" aria-controls="nav-home" aria-selected="true">ECN  PRO</a>
+                    <a class="custom-nav-2-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
                   </div>
                 </nav>
               </div>
