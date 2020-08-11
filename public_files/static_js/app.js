@@ -860,15 +860,14 @@ var jointAccountDocFields = {
 //Regulations page start
 $(document).ready(function() {
     // platforms tab panels
-    $("#nav-mt4").click(function() {
-        $(this).addClass('active');
-        $(".tab-pane-1").addClass("active");
-        $(".tab-pane-2").removeClass("active");
+    $(".nav-home-tab-1").click(function() {
+        $("#nav-mt4").addClass("active");
+        $("#nav-mt5").removeClass("active");
     });
-    $("#nav-mt5").click(function() {
-        $(this).addClass('active');
-        $(".tab-pane-2").addClass("active");
-        $(".tab-pane-1").removeClass("active")
+    $(".nav-home-tab-2").click(function() {
+        // $(this).addClass('active');
+        $("#nav-mt5").addClass("active");
+        $("#nav-mt4").removeClass("active")
     });
     // language click dropsown
     $('.lang-menu').click(() => {
