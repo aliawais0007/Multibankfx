@@ -150,12 +150,16 @@
     $.get("https://ipinfo.io/json", function(response) {
         $.getJSON('/public_files/static_data/contact_no.json', function(contacts){
             contacts.map(data=>{
-            debugger
             if(data['Country SN'].toLowerCase() == response.country.toLowerCase()){
                 $('#header-pn').html(`${data.Phone}`);
                 $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
                 $('#header-pn, .slidebar-pn').attr('href', `tel:${data.Phone}?call`);
             }
+             else {
+            $('#header-pn, .slidebar-pn').html("+1 213 992 4748");
+            $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
+            $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
+        }
         }
             )
             
@@ -176,10 +180,7 @@
         //     $('#header-pn, .slidebar-pn').html("+34 931220671");
         //     $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
         //     $('#header-pn, .slidebar-pn').attr('href', `tel:'+34 931220671?call`);
-        // } else {
-        //     $('#header-pn, .slidebar-pn').html("+1 213 992 4748");
-        //     $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
-        //     $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
-        // }
+        // } 
+       
     }, "jsonp");
 </script>
