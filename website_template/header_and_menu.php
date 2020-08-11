@@ -280,7 +280,7 @@
                 <li style="margin:0 1rem">
                     <a>
                         <div class="theme-switch-wrapper d-flex justify-content-between">
-                            <span id="darkmode-text">Enable Dark Mode!</span>
+                            <span id="darkmode-text">Enable Dark Mode</span>
                             <label class="theme-switch" for="checkbox">
                                 <input type="checkbox" id="checkbox"/>
                                 <div class="slider round"></div>
