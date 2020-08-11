@@ -213,7 +213,7 @@ foreach ($allnews as $item) {
                     <h4 class="h4-hero-box">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
                 </div>
                 <div>
-                    <h4 class="h4-hero-box">Awards </h4><span class="span-hero">40+</span>
+                    <h4 class="h4-hero-box">Global Awards </h4><span class="span-hero">40+</span>
                 </div>
                 <div>
                     <h4 class="h4-hero-box">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
