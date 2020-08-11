@@ -196,7 +196,7 @@
     </script>
     <script>
            // Toggle button action
-    $('.slide-bar-toggle').unbind().on('click', function() {
+    $('.slide-bar-toggle').on('click', function() {
         let display = $('.slidebar-parent').css('display');
         if (display == "none") {
             $('.slidebar-parent').show(50);
@@ -207,6 +207,7 @@
             $('.slidebar').hide(100);
             $(this).first().removeClass('slide-bar-toggled');
         }
+        $(this).unbind()
     })
 </script>
      <!-- Start of REVE Chat Script-->
