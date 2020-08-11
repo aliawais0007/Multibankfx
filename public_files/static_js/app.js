@@ -658,7 +658,7 @@ function getUrlVars() {
 
 
 // Live Account
-const uploadButton = document.querySelector('.browse-btn');
+// const uploadButton = document.querySelector('.browse-btn');
 
 $(function() {
     if ($('#la_select_company option:selected').val() == '1' && $('#la_select_client_type option:selected').val() == '1') {
@@ -902,7 +902,7 @@ $(document).ready(function() {
         $('#nav-home-tab').removeClass("active show");
          $('#nav-profile-tab').removeClass("active show");
     });
-    
+
 $("#nav-home-tab-3").click(function(){
     $(this).addClass('active show');
     $("#nav-home-2").addClass("active show");
