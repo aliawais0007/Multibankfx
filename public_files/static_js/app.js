@@ -867,13 +867,15 @@ $(document).ready(function() {
         $('.nav-home-tab-2').removeClass("active show");
 
     });
+
     $(".nav-home-tab-2").click(function() {
         $(this).addClass('active show');
         $("#nav-mt4").removeClass("active show")
         $("#nav-mt5").addClass("active show");
-        $('.nav-home-tab-1').removeClass("active show");
+        $('nav-home-tab-1').removeClass("active show");
   
     });
+
     $("#nav-home-tab").click(function(){
         $(this).addClass('active show');
         $("#nav-home").addClass("active show");
@@ -881,9 +883,8 @@ $(document).ready(function() {
         $("#nav-contact").removeClass("active show");
         $('#nav-profile-tab').removeClass("active show");
         $('#nav-contact-tab').removeClass("active show");
-
-
     });
+
      $("#nav-profile-tab").click(function(){
         $(this).addClass('active show');
         $("#nav-home").removeClass("active show");
@@ -892,15 +893,16 @@ $(document).ready(function() {
         $('#nav-home-tab').removeClass("active show");
         $('#nav-contact-tab').removeClass("active show");
     });
+
     $("#nav-contact-tab").click(function(){
         $(this).addClass('active show');
         $("#nav-home").removeClass("active show");
         $("#nav-profile").removeClass("active show");
         $("#nav-contact").addClass("active show");
-         $('#nav-profile-tab').removeClass("active show");
         $('#nav-home-tab').removeClass("active show");
-
+         $('#nav-profile-tab').removeClass("active show");
     });
+    
 $("#nav-home-tab-3").click(function(){
     $(this).addClass('active show');
     $("#nav-home-2").addClass("active show");

@@ -205,7 +205,7 @@
                       </div>
                     </div>                
                   </div>
-                  <div class="container tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                  <div class="container tab-pane tab-pane-3 fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <div class="row platforms-content">
                       <div class="col-md-2 col-12">
                         <img src="/public_files/images/common/MultiBank Pro.png" class="img-responsive custom-img-plat">
