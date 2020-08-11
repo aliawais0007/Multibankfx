@@ -497,7 +497,7 @@ foreach ($allnews as $item) {
             <a class="btn btn-mex text-fff" style="margin-left: 20px; padding: 10px 20px;" href="products.php">Learn More</a>
         </div>
     </section>
-    <section class="p0 mex-block-full sectiopn-trade-with-confidence d-md-block d-none">
+    <!-- <section class="p0 mex-block-full sectiopn-trade-with-confidence d-md-block d-none">
         <div class="mex-h1 text-1e32a3 text-center uppercase mex-m-t-50 mex-m-b-30">Trade with confidence</div>
         <div class="container trade-confidence-container">
             <div class="row">
@@ -537,7 +537,7 @@ foreach ($allnews as $item) {
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="d-md-none d-block twc-section">
         <div class="mex-h1 text-1e32a3 text-center uppercase mt-3">Trade with confidence</div>
         <div class="container twc-mobile" style="background-size: cover;">
