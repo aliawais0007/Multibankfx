@@ -107,48 +107,12 @@
         </style>
     </p>
     <?php include_from_root('website_template/page_footer.php'); ?>
-    <div class="slidebar">
-        <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
-        </a>
-        <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
-        </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#87e4f4c7eaf2ebf3eee5e6e9ece1ffa9e4e8ea">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
-        </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-26ed3cf7412d5ffd8eb89211-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
-        </a>
-    </div>
+
     <style type="text/css">
         .slidebar a span.btn {
     padding: 0;
     margin: 0 0 3px 0;
 }
-
-        @media screen and (max-width: 640px) {
-            .slidebar {
-                display: inline-block;
-                background: #fff;
-                top: inherit;
-                bottom: 0;
-                width: 100%;
-                right: 0;
-                padding: 10px 0 5px 0;
-                text-align: center;
-            }
-
-            .slidebar a {
-                display: inline-block;
-            }
-
-            .slidebar a span.btn {
-                display: inline-block;
-                margin: 0 15px;
-            }
-
-        }
     </style>
     <style>
         .top-mb-ic {
@@ -509,7 +473,7 @@
                         <label for='order_message' class='d-block'>
                         </label>
                         <textarea data-message='Message is Required.' data-extra-message="Message is Invalid." data-regex='' class=' form-control w-100 ta-message' name='message' id='order_message' placeholder=''>Hello, I am interested in learning more about MultiBank products and services. Could you please contact me</textarea>
-                    </div><button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-26ed3cf7412d5ffd8eb89211-="">SEND</button>
+                    </div><button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SEND</button>
                 </form>
             </div>
         </div>
@@ -563,7 +527,7 @@
         }
     </style>
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="26ed3cf7412d5ffd8eb89211-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.email-us-tg').click(function(e) {
                 e.preventDefault();
@@ -575,44 +539,14 @@
             });
         })
     </script>
-    <script src="/public_files/static_js/lang_data/en.js" type="26ed3cf7412d5ffd8eb89211-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.dataTables.min.js" type="26ed3cf7412d5ffd8eb89211-text/javascript"></script>
-    <script src="/public_files/static_js/lazysizes.min.js" type="26ed3cf7412d5ffd8eb89211-text/javascript"></script>
-    <script src="/public_files/static_js/jquery.validate.min.js" type="26ed3cf7412d5ffd8eb89211-text/javascript"></script>
-    <script src="/public_files/static_js/intlTelInput.min.js" type="26ed3cf7412d5ffd8eb89211-text/javascript"></script>
-    <script src="/public_files/static_js/app.js" type="26ed3cf7412d5ffd8eb89211-text/javascript"></script>
-    <script type="text/javascript" async>
-        url = new URL(window.location.href);
-        if (!url.searchParams.get('is_iframe')) {
-            window.__lc = window.__lc || {};
-            window.__lc.license = 3413162;
-            window.__lc.chat_between_groups = false;
-            window.__lc.group = 2;
+    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
 
-            function initliveChat() {
-      var lc = document.createElement('script');
-      lc.type = 'text/javascript';
-      lc.async = true;
-      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(lc, s);
-      window.LC_API = window.LC_API || {};
-      if (window.innerWidth < 640) {
-        LC_API.on_before_load = function() {
-          LC_API.hide_chat_window();
-        }
-        LC_API.on_chat_window_minimized = function() {
-          setTimeout(function() {
-            LC_API.hide_chat_window();
-          }, 10000);
-        }
-      }
-    };
-
-    setTimeout(()=>initliveChat(), 10000);
-        }
-    </script>
-    <script type="26ed3cf7412d5ffd8eb89211-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
                 var url_parts = location.hostname.split('.');
@@ -645,12 +579,12 @@
             }
         });
     </script>
-    <script type="26ed3cf7412d5ffd8eb89211-text/javascript">
+    <script type="text/javascript">
         $(function() {
             $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
         });
     </script>
-    <script type="26ed3cf7412d5ffd8eb89211-text/javascript">
+    <script type="text/javascript">
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
@@ -668,7 +602,7 @@
             }
         });
     </script>
-    <script type="26ed3cf7412d5ffd8eb89211-text/javascript">
+    <script type="text/javascript">
         $(function() {
             //hide footer
             $('section').hide();
@@ -681,7 +615,7 @@
             display: none;
         }
     </style>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="26ed3cf7412d5ffd8eb89211-|49" defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
 </body>
 
 </html>

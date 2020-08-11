@@ -27,6 +27,9 @@ foreach ($allnews as $item) {
 <body>
     <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
+        .nav-item:hover .nav-menu.py-3{
+            display: block !important;
+        }
         .slidebar .get-a-all-btn.call-btn .btn,
         .slidebar .live-account-btn.whatsapp-btn .btn,
         .slidebar .email-us-tg.email-btn .btn,
@@ -145,16 +148,16 @@ foreach ($allnews as $item) {
             <div class="swiper-slide home-page" style="overflow: hidden;">
                 <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg');">
-                        <div class="row flex-column justify-content-center align-items-center slider-content">
-                            <span class="home-banner-title1">ESTABLISHED IN 2005</span>
-                            <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span>
+                        <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
+                            <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
+                            <span class="home-banner-title2">ESTABLISHED IN 2005</span>
                         </div>
                     </div>
-                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-01-750x600.jpg');">
-                        <img src="/public_files/images/home/home-banner-multibank-01-750x600.jpg" />
-                        <div class="row flex-column justify-content-center align-items-center slider-content">
-                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
-                            <span class="home-banner-title2">Improved trading functionalities</span>
+                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-1.jpg');">
+                        <img src="/public_files/images/home/mobile-banner-1.jpg" />
+                        <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
+                            <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
+                            <span class="home-banner-title2">ESTABLISHED IN 2005</span>
                         </div>
                     </div>
                 </a>
@@ -162,16 +165,16 @@ foreach ($allnews as $item) {
             <div class="swiper-slide home-page" style="overflow: hidden;">
                 <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
-                        <div class="row flex-column justify-content-center align-items-center slider-content">
-                            <span class="home-banner-title1">Trade With The Industry Leader</span>
-                            <span class="home-banner-title2">Enjoy the highest level of funds security</span>
+                        <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
+                            <span class="home-banner-title1 text-uppercase">Enjoy the highest level of funds security</span>
+                            <span class="home-banner-title2">Trade With The Industry Leader</span>
                         </div>
                     </div>
-                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-04-750x600.jpg');">
-                        <img src="public_files/images/home/home-banner-multibank-04-750x600.jpg" />
+                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-2.jpg');">
+                        <img src="/public_files/images/home/mobile-banner-2.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content">
-                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
-                            <span class="home-banner-title2">Improved trading functionalities</span>
+                            <span class="home-banner-title1 text-uppercase">Enjoy the highest level of funds security</span>
+                            <span class="home-banner-title2">Trade With The Industry Leader</span>
                         </div>
                     </div>
                 </a>
@@ -180,15 +183,15 @@ foreach ($allnews as $item) {
                 <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
                         <div class="row flex-column justify-content-center align-items-center slider-content">
-                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
-                            <span class="home-banner-title2">Improved trading functionalities</span>
+                            <span class="home-banner-title1">Improved trading functionalities</span>
+                            <span class="home-banner-title2">MULTIBANK OFFERS MT5 PLATFORM</span>
                         </div>
                     </div>
-                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
-                        <img src="public_files/images/home/home-banner-multibank-mt5-750x600.jpg" />
+                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-3.jpg');">
+                        <img src="/public_files/images/home/mobile-banner-3.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content">
-                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
-                            <span class="home-banner-title2">Improved trading functionalities</span>
+                            <span class="home-banner-title1">Improved trading functionalities</span>
+                            <span class="home-banner-title2">MULTIBANK OFFERS MT5 PLATFORM</span>
                         </div>
                     </div>
                 </a>
@@ -199,18 +202,18 @@ foreach ($allnews as $item) {
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
         <div class="container-fluid hero-container d-none d-md-flex">
-            <div class="row hero-box ">
+            <div class="row hero-box">
                 <div>
                     <h4 class="h4-hero-box">Paid <br>Capital</h4><span class="span-hero">$320m</span>
                 </div>
                 <div>
-                    <h4 class="h4-hero-box">Leverage </h4><span class="span-hero">500:1</span>
+                    <h4 class="h4-hero-box">Leverage <br> Up To</h4><span class="span-hero">500:1</span>
                 </div>
                 <div>
                     <h4 class="h4-hero-box">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
                 </div>
                 <div>
-                    <h4 class="h4-hero-box">Awards </h4><span class="span-hero">40+</span>
+                    <h4 class="h4-hero-box">Globl <br>Awards </h4><span class="span-hero">40+</span>
                 </div>
                 <div>
                     <h4 class="h4-hero-box">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
@@ -218,19 +221,19 @@ foreach ($allnews as $item) {
 
             </div>
         </div>
-       
+
 
 
         <div class="home-banner-container">
             <div class="row">
                 <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
                 <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span> -->
-                <div class="col-12 d-flex justify-content-center">
-                    <div class="row justify-content-center align-items-center" style="height:100%">
-                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Try free Demo</a>
-                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                    <div class="row justify-content-center align-items-center flex-column flex-md-row" style="height:100%">
+                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
                     </div>
-                    <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span>
+                    <!-- <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span> -->
                 </div>
 
 
@@ -238,24 +241,24 @@ foreach ($allnews as $item) {
         </div>
     </div>
     <div class="main-banner d-block d-md-none">
-            <div id="home-carousal-banner" style="height: 150px;">
-                <div class="slide-slick">
-                    <h4 class="">Paid <br>Capital</h4><span class="span-hero">$320m</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Leverage </h4><span class="span-hero">500:1</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Awards </h4><span class="span-hero">40+</span>
-                </div>
-                <div class="slide-slick">
-                    <h4 class="">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
-                </div>
+        <div id="home-carousal-banner" style="height: 150px;">
+            <div class="slide-slick">
+                <h4 class="text-uppercase">Paid Capital</h4><span class="span-hero">$320m</span>
+            </div>
+            <div class="slide-slick">
+                <h4 class="text-uppercase">Leverage Up To</h4><span class="span-hero">500:1</span>
+            </div>
+            <div class="slide-slick">
+                <h4 class="text-uppercase">Tight Spreads</h4><span class="span-hero">0.0 pips</span>
+            </div>
+            <div class="slide-slick">
+                <h4 class="text-uppercase">Global Awards </h4><span class="span-hero">40+</span>
+            </div>
+            <div class="slide-slick">
+                <h4 class="text-uppercase">Instruments</h4><span class="span-hero">1000+</span>
             </div>
         </div>
+    </div>
     <style>
         .bmw {
             background-position: left !important;
@@ -337,11 +340,11 @@ foreach ($allnews as $item) {
         }
     </style>
 
-    <section class="bg-gray p0">
+    <section class="bg-gray p0 COP-section">
         <div class="container ">
             <div class="row d-none">
                 <div class="col-12">
-                    <h3 class="mex-h1 text-1e32a3 mex-m-t-50 mex-m-b-40 text-center">Our Products</h3>
+                    <h3 class="mex-h1 text-1e32a3 mex-m-t-50 mex-m-b-40 text-center ">Our Products</h3>
                 </div>
             </div>
         </div>
@@ -494,7 +497,7 @@ foreach ($allnews as $item) {
             <a class="btn btn-mex text-fff" style="margin-left: 20px; padding: 10px 20px;" href="products.php">Learn More</a>
         </div>
     </section>
-    <section class="p0 mex-block-full sectiopn-trade-with-confidence d-md-block d-none">
+    <!-- <section class="p0 mex-block-full sectiopn-trade-with-confidence d-md-block d-none">
         <div class="mex-h1 text-1e32a3 text-center uppercase mex-m-t-50 mex-m-b-30">Trade with confidence</div>
         <div class="container trade-confidence-container">
             <div class="row">
@@ -528,13 +531,13 @@ foreach ($allnews as $item) {
                                     and withdrawals.
                                 </div>
                             </div>
-                            <a href="account/account-funding.php" class="btn btn-mex mex-m-r-15 mex-m-b-15" style="margin-top: 38px;">Deposit Now</a>
+                            <a href="/account/account-funding.php" class="btn btn-mex mex-m-r-15 mex-m-b-15" style="margin-top: 38px;">Deposit Now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="d-md-none d-block twc-section">
         <div class="mex-h1 text-1e32a3 text-center uppercase mt-3">Trade with confidence</div>
         <div class="container twc-mobile" style="background-size: cover;">
@@ -554,8 +557,8 @@ foreach ($allnews as $item) {
                             trade on.</span>
                     </div>
                     <div class="col-12">
-                        <a href="account/live-account.php" class="btn btn-mex-red mex-m-b-15 " style="min-width: initial; padding: 13px 10px;"><i class="fa fa-user mex-m-r-5" aria-hidden="true"></i>Live Account</a>
-                        <a href="account/demo-account.php" class="btn btn-mex-blue mex-m-b-15" style="min-width: initial; padding: 13px 10px;"><i class="fa fa-desktop mex-m-r-5" aria-hidden="true"></i>Demo Account</a>
+                        <a href="/account/live-account.php" class="btn btn-mex-red mex-m-b-15 " style="min-width: initial; padding: 13px 10px;"><i class="fa fa-user mex-m-r-5" aria-hidden="true"></i>Live Account</a>
+                        <a href="/account/demo-account.php" class="btn btn-mex-blue mex-m-b-15" style="min-width: initial; padding: 13px 10px;"><i class="fa fa-desktop mex-m-r-5" aria-hidden="true"></i>Demo Account</a>
                     </div>
                 </div>
             </div>
@@ -563,14 +566,14 @@ foreach ($allnews as $item) {
     </section>
     <section class="p0 bg-white d-none d-md-block">
         <div class="col-md-12">
-            <h3 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-none">Bonuses </h3>
-            <p class="lead text-222 mex-m-b-30 text-center">Find out more about our latest bonus and promotions for
-                Introducing Brokers &amp; individual clients alike!</p>
+            <h3 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-none " style="margin:30px 0 !important">Bonuses </h3>
+            <!-- <p class="lead text-222 mex-m-b-30 text-center">Find out more about our latest bonus and promotions for
+                Introducing Brokers &amp; individual clients alike!</p> -->
         </div>
         <div class="swiper-container swiper-container-horizontal" id="swiper-container-2">
             <div class="swiper-wrapper" style="transform: translate3d(-2932px, 0px, 0px); transition-duration: 300ms;">
                 <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 1436px; margin-right: 30px;">
-                    <a href="account/bonus-ib.php">
+                    <a href="/account/bonus-ib.php">
                         <div class="min1 d-none d-lg-block">
                             <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg" alt="image">
                         </div>
@@ -580,7 +583,7 @@ foreach ($allnews as $item) {
                     </a>
                 </div>
                 <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" style="width: 1436px; margin-right: 30px;">
-                    <a href="account/bonus.php">
+                    <a href="/account/bonus.php">
                         <div class="min1 d-none d-lg-block">
                             <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_extra.jpg" alt="image">
                         </div>
@@ -590,7 +593,7 @@ foreach ($allnews as $item) {
                     </a>
                 </div>
                 <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 1436px; margin-right: 30px;">
-                    <a href="account/bonus.php">
+                    <a href="/account/bonus.php">
                         <div class="min1 d-none d-lg-block">
                             <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_400.jpg" alt="image">
                         </div>
@@ -600,7 +603,7 @@ foreach ($allnews as $item) {
                     </a>
                 </div>
                 <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" style="width: 1436px; margin-right: 30px;">
-                    <a href="account/bonus-ib.php">
+                    <a href="/account/bonus-ib.php">
                         <div class="min1 d-none d-lg-block">
                             <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg" alt="image">
                         </div>
@@ -610,23 +613,23 @@ foreach ($allnews as $item) {
                     </a>
                 </div>
                 <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1436px; margin-right: 30px;">
-                    <a href="account/bonus.php">
+                    <a href="/account/bonus.php">
                         <div class="min1 d-none d-lg-block">
                             <!--<img class="lazyloadXXX" src="/public_files/images/about_us/global_presence/home_bonus_extra.png"-->
                             <!--    alt="image">-->
                         </div>
-                        <div class="min2 d-block d-lg-none">
+                        <!-- <div class="min2 d-block d-lg-none"> -->
                             <!--<img class="lazyloadXXX" src="/public_files/images/about_us/global_presence/home_bonus_extra.png"-->
                             <!--    alt="image">-->
-                        </div>
+                        <!-- </div> -->
                     </a>
                 </div>
             </div>
-            <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets">
+            <!-- <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets">
                 <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
                 <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span>
                 <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
-            </div>
+            </div> -->
             <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide">
             </div>
             <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide">
@@ -634,9 +637,11 @@ foreach ($allnews as $item) {
             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
         </div>
     </section>
-    <section class="bg-white p0 index-platforms d-md-none" style="background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;">
+
+    <!-- downlaod platforms -->
+    <!-- <section class="bg-white p0 index-platforms d-md-none" style="background-size: contain;
+                                                                background-position: center;
+                                                                background-repeat: no-repeat;">
         <div class="container" style="height: 100%;padding: 40px 0;">
             <div class="row">
                 <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
@@ -667,7 +672,186 @@ foreach ($allnews as $item) {
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section class="section-platform pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <h2 class="text-center text-uppercase  h2-platform mb-3">Platforms</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 ">
+            <nav class = "nav-platform mt-4">
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">             
+                <a class="btn custom-btn-plat active" id="nav-home-tab" data-toggle="tab" href="#nav-mt4" role="tab" aria-controls="nav-home" aria-selected="true">MT4</a>
+                <a class="btn  custom-btn-plat" id="nav-profile-tab" data-toggle="tab" href="#nav-mt5" role="tab" aria-controls="nav-profile" aria-selected="false">MT5</a>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-mt4" role="tabpanel" aria-labelledby="nav-home-tab">
+               
+                <div class="tab-content " id="nav-tabContent">
+                  <div class="container tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row platforms-content">
+                      <div class="col-md-2 col-12">
+                        <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
+                      </div>
+                      <div class="col-md-9 col-12">
+                        <h3>ECN PRO</h3>
+                        <p class="d-none d-md-block">Enjoy raw price feed directly through our ECN connection to prime brokers and access the tightest spread in the industry. This account type is available on iOS, Android and Windows.</p>
+                        <div class="flex-container">
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $5,000</span></div>
+
+
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
+                          <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> </div></div> -->
+
+                          <div class="center-span">
+                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> 
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>                    
+                  </div>
+
+                  <div class="container tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="row platforms-content">
+                      <div class="col-md-2 col-12">
+                        <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
+                      </div>
+                      <div class="col-md-9 col-12">
+                        <h3>MAXIMUS</h3>
+                      <p class="d-none d-md-block">This MT4 trading platform is ideal for Introducing Brokers and traders who seek no-frill trading experience.</p>  
+                      <div class="flex-container">
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spreads from 1.4 pips</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $50</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
+                          <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span></div></div> -->
+                          <div class="center-span">
+                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>                
+                  </div>
+                  <div class="container tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="row platforms-content">
+                      <div class="col-md-2 col-12">
+                        <img src="/public_files/images/common/MultiBank Pro.png" class="img-responsive custom-img-plat">
+                      </div>
+                      <div class="col-md-9 col-12">
+                        <h3>multibank pro</h3>
+                        <p class="d-none d-md-block">Ideal for traders looking for a smooth trading experience on the MT4 platform without the high investment commitment.</p>              
+                          <div class="flex-container">
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spreads from 0.8 pips</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $1,000</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
+                          <div class="center-span">
+                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/promexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> 
+                          </div>                        
+
+                        </div>
+                      </div>
+                    </div>                   
+                  </div>
+                 
+                </div>
+                <nav class="nav-1">
+                  <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                    <a class="custom-nav-1-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">ECN PRO</a>
+                    <a class="custom-nav-1-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
+                    <a class="custom-nav-1-link nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">MULTIBANK PRO</a>
+                  </div>
+                </nav>
+              </div>
+              <div class="tab-pane fade" id="nav-mt5" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+
+
+
+                <div class="tab-content" id="nav-tabContent-2">
+                  <div class="container tab-pane fade show active" id="nav-home-2" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row platforms-content">
+                      <div class="col-md-2 col-12">
+                        <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
+                      </div>
+                      <div class="col-md-9 col-12">
+                        <h3>ECN PRO</h3>
+                        <p class="d-none d-md-block">Enjoy raw price feed directly through our ECN connection to prime brokers and access the tightest spread in the industry. This account type is available on iOS, Android and Windows.</p>
+                        <div class="flex-container">
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $5,000</span></div>
+                          <div></div>
+                          <div class="center-span">
+                            <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
+                           </div>
+
+
+                     
+                        
+                          
+
+                        </div>
+                      </div>
+                    </div>                 
+                 </div>
+                  <div class="container tab-pane fade" id="nav-profile-2" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="row platforms-content">
+                      <div class="col-md-2 col-12">
+                        <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
+                      </div>
+                      <div class="col-md-9 col-12">
+                        <h3>maximus</h3>
+                        <p class="d-none d-md-block">This MT5 Trading Platform is ideal for Introducing Brokers and traders who seek no-frill trading experience.</p>
+                        <div class="flex-container">
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
+                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $50</span></div>      
+                          <div></div>
+                          <div class="center-span">
+                            <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
+                          </div>
+                   
+                          
+                        
+                          
+
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                  
+                 
+                </div>
+                <nav class="nav-2">
+                  <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                    <a class="custom-nav-2-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home-2" role="tab" aria-controls="nav-home" aria-selected="true">ECN  PRO</a>
+                    <a class="custom-nav-2-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-2" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
+                  </div>
+                </nav>
+              </div>
+             
+            </div>          
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-12 col-12 text-center text-uppercase">
+            <a href="https://www.multibankfx.com/platforms/compare-platforms" class = "btn btn-custom-compare">COMPARE PLATFORMS</a>
+          </div>
+        </div>
+      </div>
     </section>
+     <!-- downlaod platforms -->
+
     <section class="bg-gray mex-p-t-none">
         <div class="container">
             <h1 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-30">About MultiBank Group</h1>
@@ -675,7 +859,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box hover-img-zoom">
-                            <img class="home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" alt="OUR ADVANTAGES">
+                            <img class="lower-brightness home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" alt="OUR ADVANTAGES">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -693,7 +877,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box hover-img-zoom">
-                            <img class="home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS">
+                            <img class="lower-brightness home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -714,7 +898,7 @@ foreach ($allnews as $item) {
             <div class="row d-block d-md-none">
                 <div class="col-12 mb-2 mb-md-0">
                     <div class="card">
-                        <img alt="Introducing Brokers" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" />
+                        <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" />
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 OUR ADVANTAGES </div>
@@ -726,7 +910,7 @@ foreach ($allnews as $item) {
                 </div>
                 <div class="col-12 mb-2">
                     <div class="card">
-                        <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS" />
+                        <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS" />
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 REGULATIONS </div>
@@ -737,7 +921,7 @@ foreach ($allnews as $item) {
                 </div>
                 <div class="col-12 mb-2">
                     <div class="card">
-                        <img alt="Introducing Brokers" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_security_of_funds_banner.jpg">
+                        <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_security_of_funds_banner.jpg">
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 SECURITY OF FUNDS </div>
@@ -749,7 +933,7 @@ foreach ($allnews as $item) {
                 </div>
                 <div class="col-12 ">
                     <div class="card">
-                        <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_milestones_banner.png" alt="REGULATIONS" />
+                        <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_milestones_banner.png" alt="REGULATIONS" />
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 MILESTONES </div>
@@ -1204,7 +1388,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 mb-4">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box">
-                            <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_security_of_funds_banner.jpg" alt="SECURITY OF FUNDS">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_security_of_funds_banner.jpg" alt="SECURITY OF FUNDS">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -1220,7 +1404,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 mb-4">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box">
-                            <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_milestones_banner.png" alt="MILESTONES">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_milestones_banner.png" alt="MILESTONES">
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
@@ -1239,13 +1423,12 @@ foreach ($allnews as $item) {
     </section>
     <h2 class=" text-center text-1e32a3 uppercase mb-4 d-block d-md-none" style="padding-top: 15px;">Awards</h2>
     <?php include_from_root('website_template/about_awards.php') ?>
-    <section class="bg-white p0 index-platforms  d-md-flex d-none">
-        <!--<img class="d-none d-md-none lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png"-->
-        <!--    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">-->
+    <!-- <section class="bg-white p0 index-platforms  d-md-flex d-none">
+        <img class="d-none d-md-none lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">
         <div class="container mex-p-t-80 mex-p-b-80">
             <div class="row">
                 <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
-                    <h3 class="mex-h1 text-1e32a3 text-center">Platforms</h3>
+                    <h3 class="mex-h1 text-1e32a3 text-center lower-brightness-pt">Platforms</h3>
                 </div>
                 <div class=" col-xl-8 col-lg-12 row mx-0 d-md-flex d-none d-md-block">
                     <div class="col-lg-6 mex-p-l-0 p0-xs mb-3">
@@ -1293,14 +1476,14 @@ foreach ($allnews as $item) {
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="bg-white p0 index-platforms d-none d-md-none">
         <!--<img class=" lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png"-->
         <!--    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">-->
         <div class="container mex-p-t-80 mex-p-b-80">
             <div class="row">
                 <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
-                    <h3 class="mex-h1 text-1e32a3 text-center">Platforms</h3>
+                    <h3 class="mex-h1 text-1e32a3 text-center ">Platforms</h3>
                 </div>
                 <div class="col-xl-8 col-lg-12 row mx-0 d-flex ">
                     <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">
@@ -1341,7 +1524,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-12 col-xl-8 mex-m-b-30 d-none d-md-block ">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/introducing-brokers">
-                            <img alt="Introducing Brokers" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
+                            <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                     Introducing Brokers </div>
@@ -1356,7 +1539,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/franchise-program.php">
-                            <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                     Franchise Program </div>
@@ -1371,7 +1554,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/white-label.php">
-                            <img alt="White Label" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
+                            <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
                             ">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
@@ -1387,7 +1570,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/prime-of-primes.php">
-                            <img alt="Prime of Primes" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                            <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
                             <div class="card-content text-left">
                                 <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
                                     Prime of Primes </div>
@@ -1401,7 +1584,7 @@ foreach ($allnews as $item) {
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
                     <section class="mex-card-cover box-animate">
                         <a href="partnership/cpa-affiliate-program.php">
-                            <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnership_cpa_affiliate_program_newx.png" alt="CPA Affiliate Program">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnership_cpa_affiliate_program_newx.png" alt="CPA Affiliate Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                     CPA Affiliate Program </div>
@@ -1418,7 +1601,7 @@ foreach ($allnews as $item) {
         <div class="row d-block d-md-none">
             <div class="col-12 col-md-12 col-xl-8 mex-m-b-10 custom-card-img">
                 <div class="card">
-                    <img alt="Introducing Brokers" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
+                    <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                             Introducing Brokers </div>
@@ -1430,7 +1613,7 @@ foreach ($allnews as $item) {
             </div>
             <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
                 <div class="card">
-                    <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
+                    <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                             Franchise Program </div>
@@ -1441,7 +1624,7 @@ foreach ($allnews as $item) {
             </div>
             <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
                 <div class="card">
-                    <img alt="White Label" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
+                    <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                             White Label </div>
@@ -1451,7 +1634,7 @@ foreach ($allnews as $item) {
             </div>
             <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img d-none">
                 <div class="card">
-                    <img alt="Prime of Primes" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                    <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                         <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
                             Prime of Primes </div>
@@ -1499,49 +1682,12 @@ foreach ($allnews as $item) {
 
 
 
-    <div class="slidebar">
-        <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
-        </a>
-        <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
-        </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#177464577a627b637e7576797c716f3974787a">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
-        </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
-        </a>
-    </div>
     <style type="text/css">
         .slidebar a span.btn {
             padding: 0;
             background: none;
             margin: 0 0 3px 0;
-        }
-
-        @media screen and (max-width: 640px) {
-            .slidebar {
-                display: inline-block;
-                background: #fff;
-                top: inherit;
-                bottom: 0;
-                width: 100%;
-                right: 0;
-                padding: 10px 0 5px 0;
-                text-align: center;
-            }
-
-            .slidebar a {
-                display: inline-block;
-            }
-
-            .slidebar a span.btn {
-                display: inline-block;
-                margin: 0 15px;
-            }
-
-        }
+        } 
     </style>
     <style>
         .top-mb-ic {
@@ -1621,7 +1767,7 @@ foreach ($allnews as $item) {
                     <div class='d-none'>
                         <label for='' class='m-0 d-none'>
                         </label>
-                        <div class='form-check form-check-inline'><input data-message='Account Type is Required.' data-extra-message="Account type Invalid." class='   ' name='account_type' type='radio' required value='1' checked />
+                        <div class='form-check form-check-inline'><input data-message='Account Type is Required.' data-extra-message="/Account type Invalid." class='   ' name='account_type' type='radio' required value='1' checked />
                             <label class='  ' for=''>INDIVIDUAL</label>
                         </div>
                     </div>
@@ -1973,38 +2119,8 @@ foreach ($allnews as $item) {
     <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
-    <script type="text/javascript" async>
-        url = new URL(window.location.href);
-        if (!url.searchParams.get('is_iframe')) {
-            window.__lc = window.__lc || {};
-            window.__lc.license = 3413162;
-            window.__lc.chat_between_groups = false;
-            window.__lc.group = 2;
+    <script src="/public_files/static_js/app.js?n=1" type="text/javascript"></script>
 
-            function initliveChat() {
-                var lc = document.createElement('script');
-                lc.type = 'text/javascript';
-                lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(lc, s);
-                window.LC_API = window.LC_API || {};
-                if (window.innerWidth < 640) {
-                    LC_API.on_before_load = function() {
-                        LC_API.hide_chat_window();
-                    }
-                    LC_API.on_chat_window_minimized = function() {
-                        setTimeout(function() {
-                            LC_API.hide_chat_window();
-                        }, 10000);
-                    }
-                }
-            };
-
-            setTimeout(() => initliveChat(), 10000);
-        }
-    </script>
     <script type="text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
@@ -2047,8 +2163,6 @@ foreach ($allnews as $item) {
         $(function() {
             var iframe_ibnum = getUrlVars()['ibNum'];
             var is_iframe = getUrlVars()['is_iframe'];
-            console.log(typeof is_iframe);
-            console.log(typeof iframe_ibnum);
             if (typeof iframe_ibnum === 'string' && typeof is_iframe === 'string') {
                 $('a').each(function() {
                     var querystring = 'ibNum=888104724';
@@ -2083,7 +2197,7 @@ foreach ($allnews as $item) {
         }
 
         .swiper-slide .min1 {
-            height: 745px;
+            height: 600px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -2105,7 +2219,7 @@ foreach ($allnews as $item) {
         @media (min-width: 1281px) and (max-width: 1440px) {
             .swiper-slide .min1 {
                 width: 1680px;
-                height: 760px;
+                height: 600px;
             }
 
             .home-banner-form {
@@ -2143,7 +2257,7 @@ foreach ($allnews as $item) {
         @media (min-width: 992px) and (max-width: 1200px) {
             .swiper-slide .min1 {
                 width: 1440px;
-                height: 760px;
+                height: 600px;
             }
 
             .home-banner-form {
@@ -2241,23 +2355,33 @@ foreach ($allnews as $item) {
                     el: '#swiper-container-lp .swiper-pagination',
                 },
                 loop: true,
-                autoplay: {
-                    delay: 5000
-                },
+                // autoplay: {
+                //     delay: 5000
+                // },
                 updateOnImagesReady: true,
                 paginationClickable: true,
                 spaceBetween: 30,
                 centeredSlides: true,
                 autoplayDisableOnInteraction: false,
-                effect: 'fade',
+                effect: 'coverflowEffect',
+                zoom: {
+                    maxRatio: 5,
+                },
+                coverflowEffect: {
+                    rotate: 30,
+                    slideShadows: false,
+                },
             });
 
-// banner slider under Hero slider
+            // banner slider under Hero slider
             $('#home-carousal-banner').slick({
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1,
-                arrows: false
+                centerMode: false,
+                slidesToShow: 2,
+                infinite: false,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 2000,
+
             });
 
         });
@@ -2277,7 +2401,7 @@ foreach ($allnews as $item) {
         }
 
         .swiper-slide .min1 {
-            height: 745px;
+            height: 600px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -2299,7 +2423,7 @@ foreach ($allnews as $item) {
         @media (min-width: 992px) and (max-width: 1440px) {
             .swiper-slide .min1 {
                 width: 1680px;
-                height: 700px;
+                height: 600px;
             }
 
             .home-banner-form {
@@ -2416,13 +2540,13 @@ foreach ($allnews as $item) {
 
         @media (max-width: 1440px) and (min-width: 992px) {
             #swiper-container-lp .swiper-slide .min1 {
-                height: 710px;
+                height: 600px;
             }
         }
 
         @media (max-width: 1280px) and (min-width: 992px) {
             #swiper-container-lp .swiper-slide .min1 {
-                height: 650px;
+                height: 600px;
             }
         }
     </style>

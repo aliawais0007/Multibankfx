@@ -32,7 +32,8 @@ $(function() {
     if (width <= 1024) {
         $('nav-menu').empty();
     } else {
-        $('.header-menu-trigger').click(function() {
+        $('.header-menu-trigger').hover(function() {
+            $(".lang-menu-dropdown").hide();
             $(this).addClass('active');
             var menu_type = $(this).data('type') + '-menu';
             openDropdownMenu(menu_type);
@@ -657,7 +658,7 @@ function getUrlVars() {
 
 
 // Live Account
-const uploadButton = document.querySelector('.browse-btn');
+// const uploadButton = document.querySelector('.browse-btn');
 
 $(function() {
     if ($('#la_select_company option:selected').val() == '1' && $('#la_select_client_type option:selected').val() == '1') {
@@ -858,16 +859,104 @@ var jointAccountDocFields = {
 // Regulations
 //Regulations page start
 $(document).ready(function() {
+        // Toggle button action
+        $('.slide-bar-toggle').on('click', function() {
+            var $tgt = $(event.target);
+                event.preventDefault();
+                event.stopPropagation()          
+            let display = $('.slidebar-parent').css('display');
+            if (display == "none") {
+                $('.slidebar-parent').show(50);
+                $('.slidebar').show(250);
+                $(this).first().addClass('slide-bar-toggled');
+            } else {
+                $('.slidebar-parent').hide(100);
+                $('.slidebar').hide(100);
+                $(this).first().removeClass('slide-bar-toggled');
+            }
+
+        })
+    // platforms tab panels
+    $(".nav-home-tab-1").click(function() {
+        $(this).addClass('active show');
+        $("#nav-mt5").removeClass("active show");
+        $("#nav-mt4").addClass("active show");
+        $('.nav-home-tab-2').removeClass("active show");
+
+    });
+
+    $(".nav-home-tab-2").click(function() {
+        $(this).addClass('active show');
+        $("#nav-mt4").removeClass("active show")
+        $("#nav-mt5").addClass("active show");
+        $('nav-home-tab-1').removeClass("active show");
+  
+    });
+
+//     $("#nav-home-tab").click(function(){
+//         $(this).addClass('active show');
+//         $("#nav-home").addClass("active show");
+//         $("#nav-profile").removeClass("active show");
+//         $("#nav-contact").removeClass("active show");
+//         $('#nav-profile-tab').removeClass("active show");
+//         $('#nav-contact-tab').removeClass("active show");
+//     });
+
+//      $("#nav-profile-tab").click(function(){
+//         $(this).addClass('active show');
+//         $("#nav-home").removeClass("active show");
+//         $("#nav-profile").addClass("active show");
+//         $("#nav-contact").removeClass("active show");
+//         $('#nav-home-tab').removeClass("active show");
+//         $('#nav-contact-tab').removeClass("active show");
+//     });
+
+//     $("#nav-contact-tab").click(function(){
+//         $(this).addClass('active show');
+//         $("#nav-home").removeClass("active show");
+//         $("#nav-profile").removeClass("active show");
+//         $("#nav-contact").addClass("active show");
+//         $('#nav-home-tab').removeClass("active show");
+//          $('#nav-profile-tab').removeClass("active show");
+//     });
+
+// $("#nav-home-tab-3").click(function(){
+//     $(this).addClass('active show');
+//     $("#nav-home-2").addClass("active show");
+//     $("#nav-profile-2").removeClass("active show");
+//     $("#nav-profile-tab-3").removeClass("active show");
+// });
+// $("#nav-profile-tab-3").click(function(){
+//     $(this).addClass('active show');
+//     $("#nav-home-2").removeClass("active show");
+//     $("#nav-profile-2").addClass("active show");
+//     $("#nav-home-tab-3").removeClass("active show");
+// });
+
+
+    // language click dropsown
+    $('.lang-menu').click(() => {
+        $('.lang-menu-dropdown').toggle();
+        $('.nav-menu').hide();
+    });
+    $('.btn-navy').mouseover(() => {
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+    })
+    $('.btn-navy').mouseleave(() => {
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+    })
+
+
+
     // Toggle dark mode script
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
     // const currentTheme = localStorage.getItem('theme');
 
     let currentTheme = '';
     let mode = localStorage.getItem('defaultMode');
-    if(mode!='0'){
+    if (mode != '0') {
         currentTheme = 'dark'
-    }
-    else{
+    } else {
         currentTheme = 'light'
     }
     if (currentTheme) {
@@ -892,7 +981,7 @@ $(document).ready(function() {
 
     function switchTheme(e) {
         if (e.target.checked) {
-            localStorage.setItem('defaultMode',"1");
+            localStorage.setItem('defaultMode', "1");
             document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem('theme', 'dark');
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
@@ -902,13 +991,13 @@ $(document).ready(function() {
             $('#darkmode-text').html('Enable Light Mode');
 
         } else {
-            localStorage.setItem('defaultMode',"0");
+            localStorage.setItem('defaultMode', "0");
             document.documentElement.setAttribute('data-theme', 'light');
             localStorage.setItem('theme', 'light');
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
             $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
             $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
-            $('#darkmode-text').html('Enable Dark Mode'); 
+            $('#darkmode-text').html('Enable Dark Mode');
             $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
 
         }
@@ -1385,166 +1474,6 @@ $(function() {
             $('#leaderboard').hide();
         }
     }
-});
-
-
-//script for ajax request to save data to db
-$("#contact_us_form").submit(function(e) {
-    debugger
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = '/forms/forms.php';
-    var datais = form.serialize();
-    // console.log('form is here'+form);
-    // console.log('url is here',url);
-
-
-    $.ajax({
-        type: "POST",
-        url: url, //submission.php
-        data: datais, // serializes the form's elements.
-
-        beforeSend: function(data) {
-
-
-            console.log("data is here");
-            // console.log('form data'+data);
-        },
-        success: function(data) {
-
-        },
-        error: function(XMLHttpRequest, textStatus, errorThrown) {
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    })
-
-});
-
-$("#live_account_form").submit(function(e) {
-
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = 'index.php';
-    var datais = form.serialize();
-    // console.log('form is here'+form);
-    console.log(datais);
-
-
-    $.ajax({
-        type: "POST",
-        url: url, //submission.php
-        data: datais, // serializes the form's elements.
-
-        beforeSend: function(data) {
-
-
-            console.log("data is here");
-            // console.log('form data'+data);
-        },
-        success: function(data) {
-
-        }
-    })
-
-});
-
-
-$("#demo_account_form").submit(function(e) {
-
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = 'index.php';
-    var datais = form.serialize();
-    // console.log('form is here'+form);
-    // console.log('url is here',url);
-    header("Access-Control-Allow-Origin: *");
-    header("Access-Control-Allow-Methods: POST");
-    header("Access-Control-Allow-Headers: Origin, Methods, Content-Type");
-
-    $.ajax({
-        type: "POST",
-        url: url, //submission.php
-        data: datais, // serializes the form's elements.
-
-        beforeSend: function(data) {
-
-
-            console.log("data is here");
-            // console.log('form data'+data);
-        },
-        success: function(data) {
-
-        }
-    })
-
-});
-
-
-//these are for call backs form .there are maany froms
-$("#call_back_footer_form").submit(function(e) {
-    debugger
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = 'index.php';
-    var datais = form.serialize();
-    // console.log('form is here'+form);
-    // console.log('url is here',url);
-    $.ajax({
-        type: "POST",
-        url: url, //submission.php
-        data: datais, // serializes the form's elements.
-
-        beforeSend: function(data) {
-
-
-            console.log("data is here");
-            // console.log('form data'+data);
-        },
-        success: function(data) {
-
-        },
-        error: function(XMLHttpRequest, textStatus, errorThrown) {
-            alert("some error");
-        }
-    })
-
-});
-
-//partnership form
-$("#ib_form").submit(function(e) {
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = 'index.php';
-    var datais = form.serialize();
-    // console.log('form is here'+form);
-    // console.log('url is here',url);
-
-
-    $.ajax({
-        type: "POST",
-        url: url, //submission.php
-        data: datais, // serializes the form's elements.
-
-        beforeSend: function(data) {
-
-
-            console.log("data is here");
-            // console.log('form data'+data);
-        },
-        success: function(data) {
-
-        }
-    })
-
 });
 
 $(window).scroll(function() {

@@ -7,17 +7,16 @@
     <meta name='keywords' content="live account forms, pdf trade account application forms, forex pdf application, individual trade account form, joint trading account, corporate trading account application, forex broker transfer form, VPS account application form, request changes for fore">
     <meta property='og:title' content="Client Forms | Download Account Application Forms">
     <meta property='og:description' content="Access and download our Account Forms, including Client Agreement, Financial Services Guide, Product Disclosure Statement, Account Application Forms.">
-    <link rel='canonical' href="/account-forms.php">
-    <link rel="alternate" href="https://es.multibankfx.com/account/account-forms" hreflang="es-ES" />
-    <link rel="alternate" href="https://ru.multibankfx.com/account/account-forms" hreflang="ru-RU" />
-    <link rel="alternate" href="https://ae.multibankfx.com/account/account-forms" hreflang="en-ae" />
-    <link rel="alternate" href="https://vn.multibankfx.com/account/account-forms" hreflang="vi-VN" />
-    <link rel="alternate" href="https://id.multibankfx.com/account/account-forms" hreflang="id-ID" />
-    <link rel="alternate" href="https://mys.multibankfx.com/account/account-forms" hreflang="ms-MY" />
-    <link rel="alternate" href="https://ph.multibankfx.com/account/account-forms" hreflang="tl-PH" />
-    <link rel="alternate" href="https://th.multibankfx.com/account/account-forms" hreflang="th-TH" />
-    <link rel="alternate" href="https://fr.multibankfx.com/account/account-forms" hreflang="fr-FR" />
-    <link rel="alternate" href="/account-forms.php" hreflang="x-default" />
+    <link rel='canonical' href="https://multibankfx.com">
+    <link rel="alternate" href="https://multibankfx.com/en" hreflang="x-default" />
+    <link rel="alternate" href="https://multibankfx.com/es" hreflang="es" />
+    <link rel="alternate" href="https://multibankfx.com/ru" hreflang="ru" />
+    <link rel="alternate" href="https://multibankfx.com/ar" hreflang="ar" />
+    <link rel="alternate" href="https://multibankfx.com/vn" hreflang="vn" />
+    <link rel="alternate" href="https://multibankfx.com/id" hreflang="id" />
+    <link rel="alternate" href="https://multibankfx.com/ms" hreflang="ms" />
+    <link rel="alternate" href="https://multibankfx.com/th" hreflang="th" />
+    <link rel="alternate" href="https://multibankfx.com/fr" hreflang="fr" />
 
     <script type="text/javascript" async>
         function init_google(w, d, s, l, i) {
@@ -90,18 +89,9 @@
     <link rel="stylesheet" type="text/css" href="/public_files/static_css/swiper-3.4.2.min.css">
     <link rel="stylesheet" href="/public_files/static_css/rtl.css">
     <link rel="stylesheet" href="/public_files/static_css/rtl.css">
-    <script>
-        if (localStorage.getItem("theme") === "dark") {
-            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-            $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
-            $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
-            
-        } else {
-            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
-            $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
-            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
-            $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
-        }
-    </script>
+<!-- <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous"> -->
+
+
+
+
 </head>

@@ -1,4 +1,4 @@
-<section class="about-page-awards table-background_1" id="about-page-awards" style="padding:30px 0; background-image: url(public_files/images/about_us/home_awards_bg.png);background-position: top;background-size: cover;">
+<section class="about-page-awards table-background_1" id="about-page-awards" style="padding:30px 0; background-image: none;background-position: top;background-size: cover;">
         <div class="container index-awards">
             <div class="row">
                 <div class="col-md-12 text-center mex-m-b-30 d-none d-md-block d-lg-block">

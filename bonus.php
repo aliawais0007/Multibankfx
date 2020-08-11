@@ -122,7 +122,7 @@
     <link rel="shortcut icon" href="/public_files/images/common/icons/favicon.ico">
 
     <link rel="stylesheet" href="/public_files/static_min_css/library_mena25bonus.min.css" />
-    <link rel="stylesheet" href="/public_files/static_min_css/custom_mena25bonus.min.css?v=20200618" />
+    <link rel="stylesheet" href="/public_files/static_min_css/custom_mena25bonus.min.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800&display=swap" rel="stylesheet">
 
@@ -2533,48 +2533,11 @@
             }
         }
     </style>
-    <div class="slidebar">
-        <a class="get-a-all-btn call-btn" href="tel:+97148751312">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/mena25bonus/icons/phn.png" width="50" /> </span>
-        </a>
-        <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=971526507398" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/mena25bonus/icons/whatsapp.png" width="50" /> </span>
-        </a>
-        <a class="demo-account-btn email-btn email-us-tg" href="/cdn-cgi/l/email-protection#026b6c646d6f67426f776e766b60636c69647a2c616d6f">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/mena25bonus/icons/emal.png" width="50" /> </span>
-        </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/mena25bonus/icons/chat.png" width="50" /> </span>
-        </a>
-    </div>
     <style type="text/css">
         .slidebar a span.btn {
     padding: 0;
     margin: 0 0 3px 0;
 }
-
-        @media screen and (max-width: 640px) {
-            .slidebar {
-                display: inline-block;
-                background: #000;
-                top: inherit;
-                bottom: 0;
-                width: 100%;
-                right: 0;
-                padding: 10px 0 5px 0;
-                text-align: center;
-            }
-
-            .slidebar a {
-                display: inline-block;
-            }
-
-            .slidebar a span.btn {
-                display: inline-block;
-                margin: 0 15px;
-            }
-
-        }
 
         @media screen and (max-width: 350px) {
             .slidebar a span.btn {

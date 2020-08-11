@@ -72,8 +72,8 @@
                             <li><a href="/tools.php"><strong><?php translate('Tools'); ?></strong></a> <a href="/tools/trading-tools.php" target="_parent"><?php translate('Trading Tools'); ?> </a>
                                 <a href="/tools/trading-conditions.php" target="_parent"><?php translate('Trading Conditions'); ?> </a> <a href="/tools/holiday-hours-notices.php" target="_parent"><?php translate('Trading Hours &
                                     Holiday
-                                    Notice'); ?></a> 
-                                    <a href="cfd-expiration-dates.php" target="_parent"><?php translate('CFD Expiration
+                                    Notice'); ?></a>
+                                <a href="cfd-expiration-dates.php" target="_parent"><?php translate('CFD Expiration
                                     Dates'); ?></a>
 
                                 <a href="/scalping-policy.php" target="_parent"><?php translate('Scalping Policy'); ?></a></li>
@@ -82,10 +82,10 @@
                     <div class="col-md-2">
                         <ul class="footer_map">
                             <li><a href="/investor-relations.php"><strong><?php translate('Partnership'); ?></strong></a> <a href="/partnership/introducing-brokers.php" target="_parent"><?php translate('Introducing
-                                    Brokers'); ?> </a> 
-                                    <a href="/partnership/franchise-program.php" target="_parent"><?php translate('Franchise
-                                    Program'); ?> </a> 
-                                    <a href="/partnership/white-label.php" target="_parent"><?php translate('White Label'); ?> </a> <a href="/partnership/prime-of-primes.php" target="_parent"><?php translate('Prime of Primes'); ?></a> <a href="/partnership/cpa-affiliate-program.php" target="_parent"><?php translate('CPA Affiliate
+                                    Brokers'); ?> </a>
+                                <a href="/partnership/franchise-program.php" target="_parent"><?php translate('Franchise
+                                    Program'); ?> </a>
+                                <a href="/partnership/white-label.php" target="_parent"><?php translate('White Label'); ?> </a> <a href="/partnership/prime-of-primes.php" target="_parent"><?php translate('Prime of Primes'); ?></a> <a href="/partnership/cpa-affiliate-program.php" target="_parent"><?php translate('CPA Affiliate
                                     Program'); ?></a>
                             </li>
                         </ul>
@@ -121,31 +121,88 @@
     </div>
 </section>
 
-<script>
-$.get("https://ipinfo.io/json", function (response) {
-    $("#ip").html("IP: " + response.ip);
-    if(response.country.toLowerCase()=="ae"){
-        $('#header-pn').html("UAE : +971 4 875 1311");
-        $('#header-pn').attr('href',`tel:'+971 4 875 1311?call`);
-    }
-    else if(response.country.toLowerCase()=="my"){
-        $('#header-pn').html("Malaysia: +60 32 201 0966");
-        $('#header-pn').attr('href',`tel:'+60 32 201 0966?call`);
-    }
-    else if(response.country.toLowerCase()=="id"){
-        $('#header-pn').html("Indonesia: +62 02129264151");
-        $('#header-pn').attr('href',`tel:'+62 02129264151?call`);
-    }
-    else if(response.country.toLowerCase()=="es"){
-        $('#header-pn').html("Spain: +34 931220671");
-        $('#header-pn').attr('href',`tel:'+34 931220671?call`);
-    }
-    else {
-        $('#header-pn').html("US: +1 213 992 4748");
-        $('#header-pn').attr('href',`tel:'+1 213 992 4748?call`);
-    }
+<!-- toggle menuu bottom -->
+<div class="slide-bar-toggle">
+    <img src="/public_files/images/home/sidebar_icon/threedots.png" style="width: 30px;"/>
+</div>
+<div class="slidebar-parent">
+    <div class="slidebar">
+        <a class="get-a-all-btn call-btn slidebar-pn" href="">
+            <span>Make call</span>
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-phone.png" width="50" /> </span>
+        </a>
+        <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
+            <span>Whatsapp</span>
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-whatsapp.png" width="50" /> </span>
+        </a>
+        <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#177464577a627b637e7576797c716f3974787a">
+            <span>Email Us</span>
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-email.png" width="50" /> </span>
+        </a>
+        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
+            <span>Live chat</span>
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-chat.png" width="50" /> </span>
+        </a>
+    </div>
+</div>
 
-    $("#address").html("Location: " + response.city + ", " + response.region);
-    $("#details").html(JSON.stringify(response));
-}, "jsonp");
+<script>
+    $.get("https://ipinfo.io/json", function(response) {
+        $.getJSON('/public_files/static_data/contact_no.json', function(contacts){
+            contacts.map((data, index)=>{
+            if(data['Country SN'].toLowerCase() == response.country.toLowerCase()){
+                $('#header-pn').html(`${data.Phone}`);
+                $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
+                $('#header-pn, .slidebar-pn').attr('href', `tel:${data.Phone}?call`);
+            }
+        });
+        if($('#header-pn').html()=="")
+            {
+                $('#header-pn, .slidebar-pn').html("+1 213 992 4748");
+                $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
+                $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
+            }
+    } );       
+    }, "jsonp");
 </script>
+<script type="text/javascript" async>
+        url = new URL(window.location.href);
+        if (!url.searchParams.get('is_iframe')) {
+            window.__lc = window.__lc || {};
+            window.__lc.license = 3413162;
+            window.__lc.chat_between_groups = false;
+            window.__lc.group = 2;
+
+            function initliveChat() {
+                var lc = document.createElement('script');
+                lc.type = 'text/javascript';
+                lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(lc, s);
+                window.LC_API = window.LC_API || {};
+                    LC_API.on_before_load = function() {
+                    LC_API.hide_chat_window();
+                    LC_API.on_chat_window_minimized = function() {
+                    setTimeout(function() {
+                        LC_API.hide_chat_window();
+                    }, 200);
+                    }
+                }
+                };
+                
+            setTimeout(()=>initliveChat(), 10000);
+        }
+    </script>
+    <script>
+    
+</script>
+     <!-- Start of REVE Chat Script-->
+ <!-- <script type='text/javascript'>
+ window.$_REVECHAT_API || (function(d, w) { var r = $_REVECHAT_API = function(c) {r._.push(c);}; w.__revechat_account='6516159';w.__revechat_version=2;
+   r._= []; var rc = d.createElement('script'); rc.type = 'text/javascript'; rc.async = true; rc.setAttribute('charset', 'utf-8');
+   rc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'static.revechat.com/widget/scripts/new-livechat.js?'+new Date().getTime();
+   var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(rc, s);
+ })(document, window);
+</script> -->
+<!-- End of REVE Chat Script -->

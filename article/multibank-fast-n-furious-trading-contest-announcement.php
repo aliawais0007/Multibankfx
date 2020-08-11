@@ -808,48 +808,11 @@
     </style>
        <?php include_from_root('website_template/page_footer.php'); ?>
 
-    <div class="slidebar">
-        <a class="get-a-all-btn call-btn" href="tel:+12139924748">
-            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/phone.png" width="50" /> </span>
-        </a>
-        <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
-            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/whatsapp.png" width="50" /> </span>
-        </a>
-        <a class="email-us-tg demo-account-btn email-btn" href="/cdn-cgi/l/email-protection.php#b2d1c1f2dfc7dec6dbd0d3dcd9d4ca9cd1dddf">
-            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/email.png" width="50" /> </span>
-        </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-fc0918bdca3c8bf3439ea432-="">
-            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/chat.png" width="50" /> </span>
-        </a>
-    </div>
     <style type="text/css">
         .slidebar a span.btn {
     padding: 0;
     margin: 0 0 3px 0;
 }
-
-        @media screen and (max-width: 640px) {
-            .slidebar {
-                display: inline-block;
-                background: #fff;
-                top: inherit;
-                bottom: 0;
-                width: 100%;
-                right: 0;
-                padding: 10px 0 5px 0;
-                text-align: center;
-            }
-
-            .slidebar a {
-                display: inline-block;
-            }
-
-            .slidebar a span.btn {
-                display: inline-block;
-                margin: 0 15px;
-            }
-
-        }
     </style>
     <style>
         .top-mb-ic {
@@ -1304,38 +1267,7 @@
     <script src="/public_files/static_js/jquery.validate.min.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
     <script src="/public_files/static_js/intlTelInput.min.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
     <script src="/public_files/static_js/app.js" type="fc0918bdca3c8bf3439ea432-text/javascript"></script>
-    <script type="fc0918bdca3c8bf3439ea432-text/javascript" async>
-        url = new URL(window.location.href);
-        if (!url.searchParams.get('is_iframe')) {
-            window.__lc = window.__lc || {};
-            window.__lc.license = 3413162;
-            window.__lc.chat_between_groups = false;
-            window.__lc.group = 2;
 
-
-            function initliveChat() {
-                var lc = document.createElement('script');
-                lc.type = 'text/javascript';
-                lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(lc, s);
-                window.LC_API = window.LC_API || {};
-                if (window.innerWidth < 640) {
-                    LC_API.on_before_load = function() {
-                        LC_API.hide_chat_window();
-                    }
-                    LC_API.on_chat_window_minimized = function() {
-                        setTimeout(function() {
-                            LC_API.hide_chat_window();
-                        }, 10000);
-                    }
-                }
-            };
- 
-            setTimeout(() => initliveChat(), 10000);
-        }
-    </script>
     <script type="fc0918bdca3c8bf3439ea432-text/javascript">
         $(function() {
             $('.mex-translatable').each(function() {
