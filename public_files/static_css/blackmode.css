@@ -12469,7 +12469,7 @@ table.dataTable tr:nth-of-type(odd) {
 }
 
 .slide-slick h4{
-    color: var(--font-color) !important;
+    color: white !important;
 }
 .theme-switch{
     margin-bottom: 0;
