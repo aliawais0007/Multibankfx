@@ -878,7 +878,7 @@ $(document).ready(function() {
         $(this).addClass('active show');
         $("#nav-home").addClass("active show");
         $("#nav-profile").removeClass("active show");
-        $("#nav-contact")removeClass("active show");
+        $("#nav-contact").removeClass("active show");
         $('#nav-profile-tab').removeClass("active show");
         $('#nav-contact-tab').removeClass("active show");
 
