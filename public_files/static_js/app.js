@@ -931,14 +931,13 @@ $(document).ready(function() {
 
     // Toggle button action
     $('.slide-bar-toggle').click(function() {
+        debugger
         let display = $('.slidebar-parent').css('display');
         if (display == "none") {
-             debugger
             $('.slidebar-parent').show(50);
             $('.slidebar').show(250);
             $(this).first().addClass('slide-bar-toggled');
         } else {
-             debugger
             $('.slidebar-parent').hide(100);
             $('.slidebar').hide(100);
             $(this).first().removeClass('slide-bar-toggled');
