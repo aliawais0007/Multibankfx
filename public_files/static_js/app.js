@@ -1432,7 +1432,6 @@ $(window).resize(function(e) {
 
 $(document).ready(() => {
     $('.slide-bar-toggle').on("click", function() {
-        debugger
         if ($('.slidebar-parent').css('display') == "none") {
             $('.slidebar-parent').show(50);
             $('.slidebar-m').show(250);
