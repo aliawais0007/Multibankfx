@@ -202,7 +202,7 @@ foreach ($allnews as $item) {
         <!-- <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div> -->
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="animate__animated animate__bounce animate__repeat-3 container-fluid hero-container d-none d-md-flex">
+        <div class="animate__animated animate__bounce container-fluid hero-container d-none d-md-flex">
             <div class="row hero-box">
                 <div>
                     <h4 class="h4-hero-box">Paid <br>Capital</h4><span class="span-hero">$320m</span>
@@ -230,7 +230,7 @@ foreach ($allnews as $item) {
                 <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
                 <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span> -->
                 <div class="col-12 d-flex justify-content-center demo-btn-custom ">
-                    <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__fadeInRight" style="height:100%">
+                    <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__bounce animate__repeat-2" style="height:100%">
                     <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase" >Open Live Account</a>
                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
                     </div>
