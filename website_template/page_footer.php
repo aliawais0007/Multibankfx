@@ -127,8 +127,8 @@
 </div>
 <script>
     $(document).ready(() => {
-    document.getElementById("test-id").addEventListener("click", function() {
-        alert("click");
+    document.getElementById("test-id").addEventListener("mousedown", function() {
+        alert("i am clicked");
         // if ($('.slidebar-parent').css('display') == "none") {
         //     $('.slidebar-parent').show(50);
         //     $('.slidebar-m').show(250);
