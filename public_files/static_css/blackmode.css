@@ -5495,7 +5495,7 @@ section.mex-block-full .mex-img-cover {
     }
 }
 
-.slidebar {
+.slidebar-m {
     width: auto;
     height: auto;
     display: inline-block;
@@ -5503,6 +5503,20 @@ section.mex-block-full .mex-img-cover {
     position: fixed;
     right: 20px;
     bottom: 75px;
+    z-index: 1000;
+    display: none;
+    background: #fff6;
+    transition: all 0.5s;
+}
+
+.slidebar {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    background: 0 0;
+    position: fixed;
+    right: 20px;
+    top: 25%;
     z-index: 1000;
     display: none;
     background: #fff6;
