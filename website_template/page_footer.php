@@ -122,7 +122,7 @@
 </section>
 
 <!-- toggle menuu bottom -->
-<div class="slide-bar-toggle" id="test-id">
+<div class="slide-bar-toggle">
     <img src="/public_files/images/home/sidebar_icon/threedots.png" style="width: 30px;"/>
 </div>
 <script>
