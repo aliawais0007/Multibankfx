@@ -586,9 +586,9 @@ $(function() {
     function toggleSideBar() {
         var scrollTop = $(window).scrollTop();
         if (scrollTop >= winHeight && window.innerWidth >= 768) {
-            $('.slidebar').show(200);
+            $('.slidebar-d').show(200);
         } else if (scrollTop < winHeight && window.innerWidth >= 768) {
-            $('.slidebar').hide(200);
+            $('.slidebar-d').hide(200);
         }
     }
 
