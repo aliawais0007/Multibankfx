@@ -859,591 +859,609 @@ var jointAccountDocFields = {
 // Regulations
 //Regulations page start
 $(document).ready(function() {
+    // // Toggle button action
+    // $('.slide-bar-toggle').on('click', function() {
+    //     var $tgt = $(event.target);
+    //         event.preventDefault();
+    //         event.stopPropagation()          
+    //     let display = $('.slidebar-parent').css('display');
+    //     if (display == "none") {
+    //         $('.slidebar-parent').show(50);
+    //         $('.slidebar').show(250);
+    //         $(this).first().addClass('slide-bar-toggled');
+    //     } else {
+    //         $('.slidebar-parent').hide(100);
+    //         $('.slidebar').hide(100);
+    //         $(this).first().removeClass('slide-bar-toggled');
+    //     }
+
+    // })
+    // platforms tab panels
+    $(".nav-home-tab-1").click(function() {
+        $(this).addClass('active show');
+        $("#nav-mt5").removeClass("active show");
+        $("#nav-mt4").addClass("active show");
+        $('.nav-home-tab-2').removeClass("active show");
+
+    });
+
+    $(".nav-home-tab-2").click(function() {
+        $(this).addClass('active show');
+        $("#nav-mt4").removeClass("active show")
+        $("#nav-mt5").addClass("active show");
+        $('nav-home-tab-1').removeClass("active show");
+
+    });
 
 
 
-            // language click dropsown
-            $('.lang-menu').click(() => {
-                $('.lang-menu-dropdown').toggle();
-                $('.nav-menu').hide();
-            });
-            $('.btn-navy').mouseover(() => {
-                $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
-            })
-            $('.btn-navy').mouseleave(() => {
-                $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
-            })
+    // language click dropsown
+    $('.lang-menu').click(() => {
+        $('.lang-menu-dropdown').toggle();
+        $('.nav-menu').hide();
+    });
+    $('.btn-navy').mouseover(() => {
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+    })
+    $('.btn-navy').mouseleave(() => {
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+    })
 
 
 
-            // Toggle dark mode script
-            const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-            // const currentTheme = localStorage.getItem('theme');
+    // Toggle dark mode script
+    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+    // const currentTheme = localStorage.getItem('theme');
 
-            let currentTheme = '';
-            let mode = localStorage.getItem('defaultMode');
-            if (mode != '0') {
-                currentTheme = 'dark'
-            } else {
-                currentTheme = 'light'
-            }
-            if (currentTheme) {
-                document.documentElement.setAttribute('data-theme', currentTheme);
+    let currentTheme = '';
+    let mode = localStorage.getItem('defaultMode');
+    if (mode != '0') {
+        currentTheme = 'dark'
+    } else {
+        currentTheme = 'light'
+    }
+    if (currentTheme) {
+        document.documentElement.setAttribute('data-theme', currentTheme);
 
-                if (currentTheme === 'dark') {
-                    toggleSwitch.checked = true;
-                    $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-                    $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-                    $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
-                    $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
-                    $('#darkmode-text').html('Enable Light Mode')
-                } else {
-                    toggleSwitch.checked = false;
-                    $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
-                    $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
-                    $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
-                    $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
-                    $('#darkmode-text').html('Enable Dark Mode')
-                }
-            }
+        if (currentTheme === 'dark') {
+            toggleSwitch.checked = true;
+            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
+            $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360_dark.png');
+            $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+            $('#darkmode-text').html('Enable Light Mode')
+        } else {
+            toggleSwitch.checked = false;
+            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
+            $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
+            $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+            $('#darkmode-text').html('Enable Dark Mode')
+        }
+    }
 
-            function switchTheme(e) {
-                debugger
-                if (e.target.checked) {
-                    localStorage.setItem('defaultMode', "1");
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                    localStorage.setItem('theme', 'dark');
-                    $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-                    $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-                    $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
-                    $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
-                    $('#darkmode-text').html('Enable Light Mode');
+    function switchTheme(e) {
+        if (e.target.checked) {
+            localStorage.setItem('defaultMode', "1");
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
+            $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360_dark.png');
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+            $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
+            $('#darkmode-text').html('Enable Light Mode');
 
-                } else {
-                    localStorage.setItem('defaultMode', "0");
-                    document.documentElement.setAttribute('data-theme', 'light');
-                    localStorage.setItem('theme', 'light');
-                    $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
-                    $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
-                    $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
-                    $('#darkmode-text').html('Enable Dark Mode');
-                    $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+        } else {
+            localStorage.setItem('defaultMode', "0");
+            document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
+            $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
+            $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
+            $('#darkmode-text').html('Enable Dark Mode');
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
 
-                }
-            }
+        }
+    }
 
-            toggleSwitch.addEventListener('change', switchTheme, false);
-            // Toggle dark mode script
+    toggleSwitch.addEventListener('change', switchTheme, false);
+    // Toggle dark mode script
 
-            $('.st-slide-header1').click(function() {
-                $(this).next().slideToggle("slow");
-            });
+    $('.st-slide-header1').click(function() {
+        $(this).next().slideToggle("slow");
+    });
 
-            if ($('#regulations-global-presence').length) {
-                var regulations_swiper = new Swiper('#regulations-global-presence', {
-                    navigation: {
-                        nextEl: '.global-presence .swiper-button-next',
-                        prevEl: '.global-presence .swiper-button-prev',
-                    },
-                    pagination: {
-                        el: '.global-presence .swiper-pagination',
-                        clickable: true,
-                        renderBullet: function(index, className) {
-                            switch (index) {
-                                case 0:
-                                    text = 'ASIC';
-                                    img_url = '/public_files/images/common/country/australia.png';
-                                    break;
-                                case 1:
-                                    text = 'BaFin';
-                                    img_url = '/public_files/images/common/country/germany.png';
-                                    break;
+    if ($('#regulations-global-presence').length) {
+        var regulations_swiper = new Swiper('#regulations-global-presence', {
+            navigation: {
+                nextEl: '.global-presence .swiper-button-next',
+                prevEl: '.global-presence .swiper-button-prev',
+            },
+            pagination: {
+                el: '.global-presence .swiper-pagination',
+                clickable: true,
+                renderBullet: function(index, className) {
+                    switch (index) {
+                        case 0:
+                            text = 'ASIC';
+                            img_url = '/public_files/images/common/country/australia.png';
+                            break;
+                        case 1:
+                            text = 'BaFin';
+                            img_url = '/public_files/images/common/country/germany.png';
+                            break;
 
-                                case 2:
-                                    text = 'FMA';
-                                    img_url = '/public_files/images/common/country/austria.png';
-                                    break;
-                                case 3:
-                                    text = 'CNMV';
-                                    img_url = '/public_files/images/common/country/spain.png';
-                                    break;
-                                case 4:
-                                    text = 'FSC';
-                                    img_url = '/public_files/images/common/country/british_virgin_islands.png';
-                                    break;
-                                case 5:
-                                    text = 'CIMA';
-                                    img_url = '/public_files/images/common/country/cayman_islands.png';
-                                    break;
-                                case 6:
-                                    text = 'RAK';
-                                    img_url = '/public_files/images/common/country/uae.png';
-                                    break;
-                                    //case 7:text='TFG';img_url='/resource/newwebsite/v1_0/images/country/china.png';break;
-                            }
-                            return '<span class="' + className + '" data-img="' + img_url + '">' +
-                                '<span>' + text + '</span>' +
-                                '<img src="' + img_url + '">' +
-                                '</span>';
-                        },
-                    },
-                    updateOnImagesReady: true,
+                        case 2:
+                            text = 'FMA';
+                            img_url = '/public_files/images/common/country/austria.png';
+                            break;
+                        case 3:
+                            text = 'CNMV';
+                            img_url = '/public_files/images/common/country/spain.png';
+                            break;
+                        case 4:
+                            text = 'FSC';
+                            img_url = '/public_files/images/common/country/british_virgin_islands.png';
+                            break;
+                        case 5:
+                            text = 'CIMA';
+                            img_url = '/public_files/images/common/country/cayman_islands.png';
+                            break;
+                        case 6:
+                            text = 'RAK';
+                            img_url = '/public_files/images/common/country/uae.png';
+                            break;
+                            //case 7:text='TFG';img_url='/resource/newwebsite/v1_0/images/country/china.png';break;
+                    }
+                    return '<span class="' + className + '" data-img="' + img_url + '">' +
+                        '<span>' + text + '</span>' +
+                        '<img src="' + img_url + '">' +
+                        '</span>';
+                },
+            },
+            updateOnImagesReady: true,
+            slidesPerView: 1,
+            loop: true,
+            breakpoints: {
+                991: {
                     slidesPerView: 1,
-                    loop: true,
-                    breakpoints: {
-                        991: {
-                            slidesPerView: 1,
-                        },
-                    },
-                    on: {
-                        init: function() {
-                            regulations_toggle_card(this)
-                        },
-                        slideChangeTransitionStart: function() {
-                            regulations_toggle_card(this)
-                        },
-                    },
-                });
+                },
+            },
+            on: {
+                init: function() {
+                    regulations_toggle_card(this)
+                },
+                slideChangeTransitionStart: function() {
+                    regulations_toggle_card(this)
+                },
+            },
+        });
 
 
-                $(window).resize(function() {
-                    regulations_swiper_next();
-                })
-                regulations_swiper_next()
+        $(window).resize(function() {
+            regulations_swiper_next();
+        })
+        regulations_swiper_next()
 
-                function regulations_swiper_next() {
-                    var swiper_next = $('.regulations-bg .swiper-button-next');
-                    var swiper_prev = $('.regulations-bg .swiper-button-prev');
-                    var swiper_container_width = $('#regulations-global-presence').width();
-                    var size = ($(window).width() - swiper_container_width - (swiper_next.width() * 2)) / 2;
-                    if ($(window).width() < 767) {
-                        size = 50;
-                    }
-                    swiper_next.css({
-                        right: size - 40 + 'px'
-                    })
-                    swiper_prev.css({
-                        left: size - 40 + 'px'
-                    })
-                }
-
-                function regulations_toggle_card(obj) {
-                    var this_slide = obj.slides.eq(obj.activeIndex);
-                    var img_src = this_slide.attr('data-img');
-                    $('.global-presence.regulations-bg').css({
-                        backgroundImage: 'url(' + img_src + ')'
-                    })
-                }
+        function regulations_swiper_next() {
+            var swiper_next = $('.regulations-bg .swiper-button-next');
+            var swiper_prev = $('.regulations-bg .swiper-button-prev');
+            var swiper_container_width = $('#regulations-global-presence').width();
+            var size = ($(window).width() - swiper_container_width - (swiper_next.width() * 2)) / 2;
+            if ($(window).width() < 767) {
+                size = 50;
             }
-            //     // Toggle button action
-            //     $('.slide-bar-toggle').on('click', function() {
-            //         var $tgt = $(event.target);
-            //         let display = $('.slidebar-parent').css('display');
-            //         if (display == "none") {
-            //             $('.slidebar-parent').show(50);
-            //             $('.slidebar').show(250);
-            //             $(this).first().addClass('slide-bar-toggled');
-            //         } else {
-            //             $('.slidebar-parent').hide(100);
-            //             $('.slidebar').hide(100);
-            //             $(this).first().removeClass('slide-bar-toggled');
-            //         }
-            //     })
-            // });
-
-            // Platform - Download Center
-            $(function() {
-                $('.platform-selector').click(function() {
-                    var tab_id = $(this).data('tab');
-                    $('.tab-platform').removeClass('show').removeClass('active');
-                    setTimeout(function() {
-                        $('.tab-platform').removeClass('active');
-                        $('#' + tab_id).addClass('active');
-                    }, 150)
-                    setTimeout(function() {
-                        $('#' + tab_id).addClass('show');
-                    }, 300)
-                    $('.platform-selector-container').removeClass('active');
-                    $(this).parent().addClass('active');
-                });
-            });
-
-            function slider_login() {
-                var slides_li_height = $('#swiper-container-1').height();
-                if ($('.login_Block').length > 0) {
-                    var window_width = $(window).width();
-                    var right_size = window_width * 0.1;
-                    var top_size = slides_li_height * 0.1 + $('.nav-container nav').height();
-                    if (window_width >= 1400) {
-                        right_size = (window_width - 1300) / 2;
-                    } else if (window_width >= 1150) {
-                        right_size = (window_width - 1150) / 2;
-                    } else if (window_width >= 1000) {
-                        right_size = 20;
-                    }
-
-                    $('.home_page .login_Block').css({
-                        right: right_size
-                    }).fadeIn();
-                }
-            }
-
-            // Home Banner
-            function slider_login() {
-                var slides_li_height = $('#swiper-container-1').height();
-                if ($('.login_Block').length > 0) {
-                    var window_width = $(window).width();
-                    var right_size = window_width * 0.1;
-                    var top_size = slides_li_height * 0.1 + $('.nav-container nav').height();
-                    if (window_width >= 1400) {
-                        right_size = (window_width - 1300) / 2;
-                    } else if (window_width >= 1150) {
-                        right_size = (window_width - 1150) / 2;
-                    } else if (window_width >= 1000) {
-                        right_size = 20;
-                    }
-
-                    $('.home_page .login_Block').css({
-                        right: right_size
-                    }).fadeIn();
-                }
-            }
-
-            $(function() {
-                slider_login()
-                $(window).resize(function() {
-                    slider_login()
-                })
-
-                $('#login_Block_Modal').on('hidden.bs.modal', function(e) {
-                    var login_obj = $('#login_Block_Modal .login_Block');
-                    login_obj.remove();
-                    $('body').append(login_obj);
-                });
-                $('#login_Block_Modal').on('show.bs.modal', function(e) {
-                    var login_obj = $('.login_Block');
-                    login_obj.remove();
-                    $('#login_Block_Modal .modal-body').append(login_obj);
-                });
-
-                $(document).on('click', '.login_Block .title span', function() {
-                    var form_obj = $('.' + $(this).attr('data-name'));
-
-                    if ($(this).attr('data-name') == 'long-form-block') {
-                        $('.socialMedia-block .media_action_name').html('LOGIN WITH');
-                    } else {
-                        $('.socialMedia-block .media_action_name').html('REGISTER WITH');
-                    }
-
-                    $(this).addClass('active')
-                        .siblings().removeClass('active');
-                    form_obj.addClass('active')
-                        .siblings().removeClass('active');
-                    slider_login()
-                })
-            });
-
-            /***  Where to go ***/
-            /* definition of default label */
-
-            if (typeof whereToGoItemLabel === 'undefined') {
-                //the language specific language object is not loaded from static_js/lang_data/, lets use the English labels below
-                var whereToGoItemLabel = {
-                    //attributes
-                    ic_our_milestones_label: 'Our Milestones',
-                    ic_our_regulations_label: 'Our Regulations',
-                    ic_security_of_funds_label: 'Security of Funds',
-                    ic_why_multibank_label: 'Why Multibank',
-                    ic_accounts_funding_label: 'Accounts and Funding',
-                    ic_bonus_programs_label: 'Bonus Programs',
-                    ic_bonus_programs_for_ibs_label: 'Bonus Programs for IBs',
-                    ic_Bonus_Programs_for_Individual_Clients_label: 'Bonus Programs for Individual Clients',
-                    ic_compare_our_trading_platforms_label: 'Compare our Trading Platforms',
-                    ic_download_mt4_label: 'Download MT4',
-                    ic_our_products_label: 'Our Products',
-                    ic_trading_tools_label: 'Trading Tools',
-                    ic_partnership_programs_label: 'Partnership Programs',
-                    ic_become_an_ib_label: 'Become an IB',
-                    ic_live_chat_support_label: 'Live Chat Support',
-                    ic_mymultibank_account_panel_label: 'MyMultiBank Account Panel',
-                    ic_Call_Our_24_7_Hotline_label: 'Call Our 24/5 Hotline',
-                    ic_forex_spreads_label: 'View Forex Spreads',
-                    ic_global_offices_label: 'Our Global Offices',
-                    ic_awards_label: 'Our Awards'
-                };
-
-            }
-
-            /* definition of all icons */
-            // var whereToGoItem = {
-            //     //attributes
-            //     ic_our_milestones: '<a href="/about/milestones"><span class="ico-ic_our_milestones"> </span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_milestones_label + '</div></a>',
-            //     ic_our_regulations: '<a href="/about/regulations"><span class="ico-ic_our_regulations"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_regulations_label + '</div></a>',
-            //     ic_security_of_funds: '<a href="/about/security-of-funds"><span class="ico-ic_security_of_funds"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_security_of_funds_label + '</div></a>',
-            //     ic_why_multibank: '<a href="/about/why-multibank-group"><span class="ico-ic_why_multibank"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_why_multibank_label + '</div></a>',
-            //     ic_accounts_funding: '<a href="/account"><span class="ico-ic_accounts_funding"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_accounts_funding_label + '</div></a>',
-            //     ic_bonus_programs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_label + '</div></a>',
-            //     ic_bonus_programs_for_ibs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs_for_ibs"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_for_ibs_label + '</div></a>',
-            //     ic_Bonus_Programs_for_Individual_Clients: '<a href="/account/bonus"><span class="ico-ic_Bonus_Programs_for_Individual_Clients"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Bonus_Programs_for_Individual_Clients_label + '</div></a>',
-            //     ic_compare_our_trading_platforms: '<a href="/platforms/compare-platforms"><span class="ico-ic_compare_our_trading_platforms"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_compare_our_trading_platforms_label + '</div></a>',
-            //     ic_download_mt4: '<a href="/platforms/download-center"><span class="ico-ic_download_mt4"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_download_mt4_label + '</div></a>',
-            //     ic_our_products: '<a href="/products"><span class="ico-ic_our_products"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_products_label + '</div></a>',
-            //     ic_trading_tools: '<a href="/tools"><span class="ico-ic_trading_tools"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_trading_tools_label + '</div></a>',
-            //     ic_partnership_programs: '<a href="/partnership"><span class="ico-ic_partnership_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_partnership_programs_label + '</div></a>',
-            //     ic_become_an_ib: '<a href="/partnership/introducing-brokers#introducing-brokers-form"><span class="ico-ic_become_an_ib"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_become_an_ib_label + '</div></a>',
-            //     ic_live_chat_support: '<a href="/#" onclick="LC_API.open_chat_window();return false;"><span class="ico-ic_live_chat_support"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_live_chat_support_label + '</div></a>',
-            //     ic_mymultibank_account_panel: '<a href="https://my.multibankfx.com" target="_blank"><span class="ico-ic_mymultibank_account_panel"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_mymultibank_account_panel_label + '</div></a>',
-            //     ic_Call_Our_24_7_Hotline: '<a href="/contact"><span class="ico-ic_Call_Our_24_7_Hotline"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Call_Our_24_7_Hotline_label + '</div></a>',
-            //     ic_forex_spreads: '<a href="/products/forex"><span class="ico-ic_forex_spreads"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_forex_spreads_label + '</div></a>',
-            //     ic_global_offices: '<a href="/about/global-presence"><span class="ico-ic_global_offices"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_global_offices_label + '</div></a>',
-            //     ic_awards: '<a href="/about/awards"><span class="ico-ic_awards"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_awards_label + '</div></a>',
-            //     //method
-            //     injectIcons: function(cssSelector_, icons_) {
-            //         /**
-            //          * Insert list of Where to go icons in ul selected by cssSelector_
-            //          * The selected tag should be an ul
-            //          */
-            //         var list = '';
-            //         var attrName = '';
-            //         $(cssSelector_).hide();
-            //         for (i = 0; i < icons_.length; i++) {
-            //             attrName = icons_[i];
-            //             if (this.hasOwnProperty(attrName)) {
-            //                 list += '<li>' + this[attrName] + '</li>';
-            //             }
-            //         }
-            //         $(cssSelector_).html(list);
-            //         $(cssSelector_).show();
-            //     }
-            // };
-            /*** End Where to go ***/
-
-            /* Footer Contact Form SMS Code and Send SMS styling */
-            $(function() {
-                $('#call_back_footer_form, #contact_us_form, #career_apply_job').find('.send-code-container').removeClass('col-md-2').addClass('col-md-6');
-                $('#call_back_footer_form, #contact_us_form, #career_apply_job').find('.sms-code-container').removeClass('col-md-4').addClass('col-md-6');
-                $('#call_back_footer_form .cb-partnership > label , #contact_us_form .cb-partnership > label').remove();
-                $('#contact_us_form .cb-partership input').first().attr('checked', 'checked');
-                $('#call_back_footer_form .cb-partnership label , #contact_us_form .cb-partnership label').addClass('mb-0 ml-1');
-
-                $('#career_apply_job .send-verification-code-btn').css('width', '100%');
-            });
-
-            /* End Footer Contact Form styling */
-
-            /* Withdrawal Page */
-            $(function() {
-                var validator = $('#withdrawal_selection_form').validate();
-                if (validator != null) {
-                    validator.destroy();
-
-                    var exchange = ["neteller", "skrill", "fasapay", "bank_transfer", "credit_card", "paytrust", "perfectmoney"];
-                    var multibankfx = ["neteller", "skrill", "bank_transfer", "credit_card", "paytrust", "perfectmoney", "fxbit", "globepay", "thunderxpay"];
-                    var clearing = ["neteller", "skrill", "bank_transfer", "credit_card", "paytrust", "perfectmoney", "fxbit"];
-
-                    if (document.documentElement.lang === 'vn') {
-                        clearing.push('ngan_luong');
-                        multibankfx.push("ngan_luong");
-                    }
-
-                    // var exchange = ["neteller", "skrill", "fasapay", "bank_transfer", "credit_card", "paytrust", "perfectmoney","help_2_pay"];
-                    // var multibankfx = ["neteller", "skrill", "bank_transfer","credit_card", "paytrust", "perfectmoney","help_2_pay", "fxbit"];
-                    // var clearing = ["neteller", "skrill", "bank_transfer", "credit_card", "paytrust", "perfectmoney","help_2_pay", "fxbit"];
-                    var list;
-
-                    var r = getUrlVars()["r"];
-                    var gateway = getUrlVars()["gateway"];
-
-                    switch (r) {
-                        case "1":
-                            list = exchange;
-                            break;
-                        case "3":
-                            list = multibankfx;
-                            break;
-                        case "6":
-                            list = clearing;
-                            break;
-                        default:
-                            list = exchange;
-                    }
-
-                    $('.payment_method option').each(function() {
-                        if (list.indexOf($(this).data('method')) == -1) {
-                            $(this).remove();
-                        }
-                    });
-
-                    $('.form-icon').each(function() {
-                        if (list.indexOf($(this).data('method')) == -1) {
-                            $(this).remove();
-                        }
-                    })
-
-                    $('#withdrawal_selection_form .deposit_table td').click(function() {
-                        $('#withdrawal_selection_form .deposit_table td').each(function() {
-                            $(this).removeClass('active');
-                        });
-                        $(this).addClass('active');
-                        $(this).find('input').prop('checked', true);
-                        update_amount_value($(this).find('input').val())
-                    });
-
-                    $('.withdrawal-form-modal .modal-bg').click(function() {
-                        closeWithdrawalForm();
-                    });
-
-                    $('#withdrawal_selection_form .deposit_amount_value').change(function() {
-                        update_amount_value($(this).val())
-                        return false;
-                    })
-
-                    $('#withdrawal_selection_form .deposit_submit').click(function() {
-                        var withdrawalMethod = $('.payment_method option:selected').val();
-                        var amount = $('.deposit_amount_value').val();
-                        var currency = $('.currency_type option:selected').val();
-
-                        openWithdrawalForm(withdrawalMethod, amount, currency);
-
-                    });
-
-
-                }
-            });
-
-            function openWithdrawalForm(withdrawalMethod, amount, currency) {
-                $('.withdrawal-form-modal').addClass('show');
-                $('.withdrawal-form-modal').show();
-
-                $('#withdrawal_' + withdrawalMethod + '_form').removeClass('d-none');
-                $('body').css('overflow', 'hidden');
-            }
-
-            function closeWithdrawalForm() {
-                $('.withdrawal-form-modal').removeClass('show');
-                $('.withdrawal-form-modal').hide();
-                $('.withdrawal-form-modal form').addClass('d-none');
-                $('body').css('overflow', 'initial');
-            }
-
-            function update_amount_value(value) {
-                $('.deposit_amount_value').val(value);
-                $('.payment_form').find('input[name="amount"]').val(value);
-                $('.deposit_amount_value_text').html(value);
-            }
-
-
-            function openRedirectionOption() {
-                $('.paytrust-modalbox-container').css("display", "block");
-            }
-
-            function closeModalBox() {
-                $('.paytrust-modalbox-container').css("display", "none");
-            }
-
-            function toggleWMGModal(index) {
-                $('#wmg_modal_box_' + index).show();
-            }
-
-            function closeWMGModal(index) {
-                $('#wmg_modal_box_' + index).hide();
-            }
-            /*
-            function deleteMktCookie(name_, domain_, path_) {
-
-            	//document.cookie = name_+"=;domain="+domain_+";path="+path_+";expires=Thu, 01 Jan 1970 00:00:00 GMT";
-            }
-            */
-
-
-            $(document).ready(function() {
-
-                if ($('#about-page-awards .swiper-container').length) {
-                    new Swiper('#about-page-awards .swiper-container', {
-                        navigation: {
-                            nextEl: '#about-page-awards .swiper-button-next',
-                            prevEl: '#about-page-awards .swiper-button-prev',
-                        },
-                        //autoplay:{delay: 5000, },
-                        updateOnImagesReady: true,
-                        slidesPerView: 7,
-                        spaceBetween: 20,
-                        grabCursor: true,
-                        loop: true,
-                        breakpoints: {
-                            991: {
-                                slidesPerView: 1,
-                            },
-                        },
-                        on: {
-                            init: function() {
-                                about_toggle_card_awards(this)
-                            },
-                            slideChangeTransitionStart: function() {
-                                about_toggle_card_awards(this)
-                            },
-                        },
-                        pagination: {
-                            el: '#about-page-awards .swiper-pagination',
-                            type: 'bullets',
-                        },
-                    });
-                }
-
-                function about_toggle_card_awards(obj) {
-                    if ($(window).width() > 991) {
-                        $('#about-page-awards .width-30').removeClass('width-30');
-                        $('#about-page-awards .width-40').removeClass('width-40');
-                        obj.slides.eq(obj.activeIndex + 3).addClass('width-40');
-                        for (var i = 0; i < obj.slides.length; i++) {
-                            if (i != obj.activeIndex + 3) {
-                                obj.slides.eq(i).addClass('width-30');
-                            }
-                        }
-                    } else {
-                        $('#about-page-awards .width-30').removeClass('width-30');
-                        $('#about-page-awards .width-40').removeClass('width-40');
-                    }
-                }
+            swiper_next.css({
+                right: size - 40 + 'px'
             })
-
-            $(function() {
-                if (document.getElementById('leaderboard')) {
-                    let leaderboard_display_time = new Date('2020-01-05T22:00:00Z').getTime();
-                    let now = new Date().getTime();
-                    if (now >= leaderboard_display_time) {
-                        $('#leaderboard').show();
-                    } else {
-                        $('#leaderboard').hide();
-                    }
-                }
-            });
-
-            $(window).scroll(function() {
-                var scrollY = $(document).scrollTop();
-                // if (scrollY > 200) {
-                //     $('.sticky-top').css('position', 'fixed');
-                // }
-                if (scrollY > 450) {
-                    $('.top-btn-1').removeClass('d-none');
-                    $('.top-btn-1').addClass('d-flex');
-                    $('.top-btn-1').css('transition', 'all ease-in-out 0.5s');
-                    $('.top-btn-2').removeClass('d-none');
-                    $('.top-btn-2').addClass('d-flex');
-                } else {
-                    $('.top-btn-1').addClass('d-none');
-                    $('.top-btn-1').removeClass('d-flex');
-                    $('.top-btn-2').addClass('d-none');
-                    $('.top-btn-2').removeClass('d-flex');
-                }
+            swiper_prev.css({
+                left: size - 40 + 'px'
             })
+        }
 
-            $(window).resize(function(e) {
-                if (window.innerWidth < 767) {
-                    $('.hero-container').css("display", "none");
+        function regulations_toggle_card(obj) {
+            var this_slide = obj.slides.eq(obj.activeIndex);
+            var img_src = this_slide.attr('data-img');
+            $('.global-presence.regulations-bg').css({
+                backgroundImage: 'url(' + img_src + ')'
+            })
+        }
+    }
+});
 
-                } else {
-                    $('.hero-container').css("display", "flex");
+// Platform - Download Center
+$(function() {
+    $('.platform-selector').click(function() {
+        var tab_id = $(this).data('tab');
+        $('.tab-platform').removeClass('show').removeClass('active');
+        setTimeout(function() {
+            $('.tab-platform').removeClass('active');
+            $('#' + tab_id).addClass('active');
+        }, 150)
+        setTimeout(function() {
+            $('#' + tab_id).addClass('show');
+        }, 300)
+        $('.platform-selector-container').removeClass('active');
+        $(this).parent().addClass('active');
+    });
+});
 
-                }
+function slider_login() {
+    var slides_li_height = $('#swiper-container-1').height();
+    if ($('.login_Block').length > 0) {
+        var window_width = $(window).width();
+        var right_size = window_width * 0.1;
+        var top_size = slides_li_height * 0.1 + $('.nav-container nav').height();
+        if (window_width >= 1400) {
+            right_size = (window_width - 1300) / 2;
+        } else if (window_width >= 1150) {
+            right_size = (window_width - 1150) / 2;
+        } else if (window_width >= 1000) {
+            right_size = 20;
+        }
+
+        $('.home_page .login_Block').css({
+            right: right_size
+        }).fadeIn();
+    }
+}
+
+// Home Banner
+function slider_login() {
+    var slides_li_height = $('#swiper-container-1').height();
+    if ($('.login_Block').length > 0) {
+        var window_width = $(window).width();
+        var right_size = window_width * 0.1;
+        var top_size = slides_li_height * 0.1 + $('.nav-container nav').height();
+        if (window_width >= 1400) {
+            right_size = (window_width - 1300) / 2;
+        } else if (window_width >= 1150) {
+            right_size = (window_width - 1150) / 2;
+        } else if (window_width >= 1000) {
+            right_size = 20;
+        }
+
+        $('.home_page .login_Block').css({
+            right: right_size
+        }).fadeIn();
+    }
+}
+
+$(function() {
+    slider_login()
+    $(window).resize(function() {
+        slider_login()
+    })
+
+    $('#login_Block_Modal').on('hidden.bs.modal', function(e) {
+        var login_obj = $('#login_Block_Modal .login_Block');
+        login_obj.remove();
+        $('body').append(login_obj);
+    });
+    $('#login_Block_Modal').on('show.bs.modal', function(e) {
+        var login_obj = $('.login_Block');
+        login_obj.remove();
+        $('#login_Block_Modal .modal-body').append(login_obj);
+    });
+
+    $(document).on('click', '.login_Block .title span', function() {
+        var form_obj = $('.' + $(this).attr('data-name'));
+
+        if ($(this).attr('data-name') == 'long-form-block') {
+            $('.socialMedia-block .media_action_name').html('LOGIN WITH');
+        } else {
+            $('.socialMedia-block .media_action_name').html('REGISTER WITH');
+        }
+
+        $(this).addClass('active')
+            .siblings().removeClass('active');
+        form_obj.addClass('active')
+            .siblings().removeClass('active');
+        slider_login()
+    })
+});
+
+/***  Where to go ***/
+/* definition of default label */
+
+if (typeof whereToGoItemLabel === 'undefined') {
+    //the language specific language object is not loaded from static_js/lang_data/, lets use the English labels below
+    var whereToGoItemLabel = {
+        //attributes
+        ic_our_milestones_label: 'Our Milestones',
+        ic_our_regulations_label: 'Our Regulations',
+        ic_security_of_funds_label: 'Security of Funds',
+        ic_why_multibank_label: 'Why Multibank',
+        ic_accounts_funding_label: 'Accounts and Funding',
+        ic_bonus_programs_label: 'Bonus Programs',
+        ic_bonus_programs_for_ibs_label: 'Bonus Programs for IBs',
+        ic_Bonus_Programs_for_Individual_Clients_label: 'Bonus Programs for Individual Clients',
+        ic_compare_our_trading_platforms_label: 'Compare our Trading Platforms',
+        ic_download_mt4_label: 'Download MT4',
+        ic_our_products_label: 'Our Products',
+        ic_trading_tools_label: 'Trading Tools',
+        ic_partnership_programs_label: 'Partnership Programs',
+        ic_become_an_ib_label: 'Become an IB',
+        ic_live_chat_support_label: 'Live Chat Support',
+        ic_mymultibank_account_panel_label: 'MyMultiBank Account Panel',
+        ic_Call_Our_24_7_Hotline_label: 'Call Our 24/5 Hotline',
+        ic_forex_spreads_label: 'View Forex Spreads',
+        ic_global_offices_label: 'Our Global Offices',
+        ic_awards_label: 'Our Awards'
+    };
+
+}
+
+/* definition of all icons */
+// var whereToGoItem = {
+//     //attributes
+//     ic_our_milestones: '<a href="/about/milestones"><span class="ico-ic_our_milestones"> </span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_milestones_label + '</div></a>',
+//     ic_our_regulations: '<a href="/about/regulations"><span class="ico-ic_our_regulations"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_regulations_label + '</div></a>',
+//     ic_security_of_funds: '<a href="/about/security-of-funds"><span class="ico-ic_security_of_funds"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_security_of_funds_label + '</div></a>',
+//     ic_why_multibank: '<a href="/about/why-multibank-group"><span class="ico-ic_why_multibank"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_why_multibank_label + '</div></a>',
+//     ic_accounts_funding: '<a href="/account"><span class="ico-ic_accounts_funding"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_accounts_funding_label + '</div></a>',
+//     ic_bonus_programs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_label + '</div></a>',
+//     ic_bonus_programs_for_ibs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs_for_ibs"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_for_ibs_label + '</div></a>',
+//     ic_Bonus_Programs_for_Individual_Clients: '<a href="/account/bonus"><span class="ico-ic_Bonus_Programs_for_Individual_Clients"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Bonus_Programs_for_Individual_Clients_label + '</div></a>',
+//     ic_compare_our_trading_platforms: '<a href="/platforms/compare-platforms"><span class="ico-ic_compare_our_trading_platforms"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_compare_our_trading_platforms_label + '</div></a>',
+//     ic_download_mt4: '<a href="/platforms/download-center"><span class="ico-ic_download_mt4"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_download_mt4_label + '</div></a>',
+//     ic_our_products: '<a href="/products"><span class="ico-ic_our_products"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_products_label + '</div></a>',
+//     ic_trading_tools: '<a href="/tools"><span class="ico-ic_trading_tools"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_trading_tools_label + '</div></a>',
+//     ic_partnership_programs: '<a href="/partnership"><span class="ico-ic_partnership_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_partnership_programs_label + '</div></a>',
+//     ic_become_an_ib: '<a href="/partnership/introducing-brokers#introducing-brokers-form"><span class="ico-ic_become_an_ib"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_become_an_ib_label + '</div></a>',
+//     ic_live_chat_support: '<a href="/#" onclick="LC_API.open_chat_window();return false;"><span class="ico-ic_live_chat_support"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_live_chat_support_label + '</div></a>',
+//     ic_mymultibank_account_panel: '<a href="https://my.multibankfx.com" target="_blank"><span class="ico-ic_mymultibank_account_panel"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_mymultibank_account_panel_label + '</div></a>',
+//     ic_Call_Our_24_7_Hotline: '<a href="/contact"><span class="ico-ic_Call_Our_24_7_Hotline"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Call_Our_24_7_Hotline_label + '</div></a>',
+//     ic_forex_spreads: '<a href="/products/forex"><span class="ico-ic_forex_spreads"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_forex_spreads_label + '</div></a>',
+//     ic_global_offices: '<a href="/about/global-presence"><span class="ico-ic_global_offices"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_global_offices_label + '</div></a>',
+//     ic_awards: '<a href="/about/awards"><span class="ico-ic_awards"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_awards_label + '</div></a>',
+//     //method
+//     injectIcons: function(cssSelector_, icons_) {
+//         /**
+//          * Insert list of Where to go icons in ul selected by cssSelector_
+//          * The selected tag should be an ul
+//          */
+//         var list = '';
+//         var attrName = '';
+//         $(cssSelector_).hide();
+//         for (i = 0; i < icons_.length; i++) {
+//             attrName = icons_[i];
+//             if (this.hasOwnProperty(attrName)) {
+//                 list += '<li>' + this[attrName] + '</li>';
+//             }
+//         }
+//         $(cssSelector_).html(list);
+//         $(cssSelector_).show();
+//     }
+// };
+/*** End Where to go ***/
+
+/* Footer Contact Form SMS Code and Send SMS styling */
+$(function() {
+    $('#call_back_footer_form, #contact_us_form, #career_apply_job').find('.send-code-container').removeClass('col-md-2').addClass('col-md-6');
+    $('#call_back_footer_form, #contact_us_form, #career_apply_job').find('.sms-code-container').removeClass('col-md-4').addClass('col-md-6');
+    $('#call_back_footer_form .cb-partnership > label , #contact_us_form .cb-partnership > label').remove();
+    $('#contact_us_form .cb-partership input').first().attr('checked', 'checked');
+    $('#call_back_footer_form .cb-partnership label , #contact_us_form .cb-partnership label').addClass('mb-0 ml-1');
+
+    $('#career_apply_job .send-verification-code-btn').css('width', '100%');
+});
+
+/* End Footer Contact Form styling */
+
+/* Withdrawal Page */
+$(function() {
+    var validator = $('#withdrawal_selection_form').validate();
+    if (validator != null) {
+        validator.destroy();
+
+        var exchange = ["neteller", "skrill", "fasapay", "bank_transfer", "credit_card", "paytrust", "perfectmoney"];
+        var multibankfx = ["neteller", "skrill", "bank_transfer", "credit_card", "paytrust", "perfectmoney", "fxbit", "globepay", "thunderxpay"];
+        var clearing = ["neteller", "skrill", "bank_transfer", "credit_card", "paytrust", "perfectmoney", "fxbit"];
+
+        if (document.documentElement.lang === 'vn') {
+            clearing.push('ngan_luong');
+            multibankfx.push("ngan_luong");
+        }
+
+        // var exchange = ["neteller", "skrill", "fasapay", "bank_transfer", "credit_card", "paytrust", "perfectmoney","help_2_pay"];
+        // var multibankfx = ["neteller", "skrill", "bank_transfer","credit_card", "paytrust", "perfectmoney","help_2_pay", "fxbit"];
+        // var clearing = ["neteller", "skrill", "bank_transfer", "credit_card", "paytrust", "perfectmoney","help_2_pay", "fxbit"];
+        var list;
+
+        var r = getUrlVars()["r"];
+        var gateway = getUrlVars()["gateway"];
+
+        switch (r) {
+            case "1":
+                list = exchange;
+                break;
+            case "3":
+                list = multibankfx;
+                break;
+            case "6":
+                list = clearing;
+                break;
+            default:
+                list = exchange;
+        }
+
+        $('.payment_method option').each(function() {
+            if (list.indexOf($(this).data('method')) == -1) {
+                $(this).remove();
+            }
+        });
+
+        $('.form-icon').each(function() {
+            if (list.indexOf($(this).data('method')) == -1) {
+                $(this).remove();
+            }
+        })
+
+        $('#withdrawal_selection_form .deposit_table td').click(function() {
+            $('#withdrawal_selection_form .deposit_table td').each(function() {
+                $(this).removeClass('active');
             });
+            $(this).addClass('active');
+            $(this).find('input').prop('checked', true);
+            update_amount_value($(this).find('input').val())
+        });
+
+        $('.withdrawal-form-modal .modal-bg').click(function() {
+            closeWithdrawalForm();
+        });
+
+        $('#withdrawal_selection_form .deposit_amount_value').change(function() {
+            update_amount_value($(this).val())
+            return false;
+        })
+
+        $('#withdrawal_selection_form .deposit_submit').click(function() {
+            var withdrawalMethod = $('.payment_method option:selected').val();
+            var amount = $('.deposit_amount_value').val();
+            var currency = $('.currency_type option:selected').val();
+
+            openWithdrawalForm(withdrawalMethod, amount, currency);
+
+        });
+
+
+    }
+});
+
+function openWithdrawalForm(withdrawalMethod, amount, currency) {
+    $('.withdrawal-form-modal').addClass('show');
+    $('.withdrawal-form-modal').show();
+
+    $('#withdrawal_' + withdrawalMethod + '_form').removeClass('d-none');
+    $('body').css('overflow', 'hidden');
+}
+
+function closeWithdrawalForm() {
+    $('.withdrawal-form-modal').removeClass('show');
+    $('.withdrawal-form-modal').hide();
+    $('.withdrawal-form-modal form').addClass('d-none');
+    $('body').css('overflow', 'initial');
+}
+
+function update_amount_value(value) {
+    $('.deposit_amount_value').val(value);
+    $('.payment_form').find('input[name="amount"]').val(value);
+    $('.deposit_amount_value_text').html(value);
+}
+
+
+function openRedirectionOption() {
+    $('.paytrust-modalbox-container').css("display", "block");
+}
+
+function closeModalBox() {
+    $('.paytrust-modalbox-container').css("display", "none");
+}
+
+function toggleWMGModal(index) {
+    $('#wmg_modal_box_' + index).show();
+}
+
+function closeWMGModal(index) {
+    $('#wmg_modal_box_' + index).hide();
+}
+/*
+function deleteMktCookie(name_, domain_, path_) {
+
+	//document.cookie = name_+"=;domain="+domain_+";path="+path_+";expires=Thu, 01 Jan 1970 00:00:00 GMT";
+}
+*/
+
+
+$(document).ready(function() {
+
+    if ($('#about-page-awards .swiper-container').length) {
+        new Swiper('#about-page-awards .swiper-container', {
+            navigation: {
+                nextEl: '#about-page-awards .swiper-button-next',
+                prevEl: '#about-page-awards .swiper-button-prev',
+            },
+            //autoplay:{delay: 5000, },
+            updateOnImagesReady: true,
+            slidesPerView: 7,
+            spaceBetween: 20,
+            grabCursor: true,
+            loop: true,
+            breakpoints: {
+                991: {
+                    slidesPerView: 1,
+                },
+            },
+            on: {
+                init: function() {
+                    about_toggle_card_awards(this)
+                },
+                slideChangeTransitionStart: function() {
+                    about_toggle_card_awards(this)
+                },
+            },
+            pagination: {
+                el: '#about-page-awards .swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    }
+
+    function about_toggle_card_awards(obj) {
+        if ($(window).width() > 991) {
+            $('#about-page-awards .width-30').removeClass('width-30');
+            $('#about-page-awards .width-40').removeClass('width-40');
+            obj.slides.eq(obj.activeIndex + 3).addClass('width-40');
+            for (var i = 0; i < obj.slides.length; i++) {
+                if (i != obj.activeIndex + 3) {
+                    obj.slides.eq(i).addClass('width-30');
+                }
+            }
+        } else {
+            $('#about-page-awards .width-30').removeClass('width-30');
+            $('#about-page-awards .width-40').removeClass('width-40');
+        }
+    }
+})
+
+$(function() {
+    if (document.getElementById('leaderboard')) {
+        let leaderboard_display_time = new Date('2020-01-05T22:00:00Z').getTime();
+        let now = new Date().getTime();
+        if (now >= leaderboard_display_time) {
+            $('#leaderboard').show();
+        } else {
+            $('#leaderboard').hide();
+        }
+    }
+});
+
+$(window).scroll(function() {
+    var scrollY = $(document).scrollTop();
+    // if (scrollY > 200) {
+    //     $('.sticky-top').css('position', 'fixed');
+    // }
+    if (scrollY > 450) {
+        $('.top-btn-1').removeClass('d-none');
+        $('.top-btn-1').addClass('d-flex');
+        $('.top-btn-1').css('transition', 'all ease-in-out 0.5s');
+        $('.top-btn-2').removeClass('d-none');
+        $('.top-btn-2').addClass('d-flex');
+    } else {
+        $('.top-btn-1').addClass('d-none');
+        $('.top-btn-1').removeClass('d-flex');
+        $('.top-btn-2').addClass('d-none');
+        $('.top-btn-2').removeClass('d-flex');
+    }
+})
+
+$(window).resize(function(e) {
+    if (window.innerWidth < 767) {
+        $('.hero-container').css("display", "none");
+
+    } else {
+        $('.hero-container').css("display", "flex");
+
+    }
+});
