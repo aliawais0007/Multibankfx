@@ -125,6 +125,22 @@
 <div class="slide-bar-toggle" id="test-id">
     <img src="/public_files/images/home/sidebar_icon/threedots.png" style="width: 30px;"/>
 </div>
+<script>
+    $(document).ready(() => {
+    document.getElementById("test-id").addEventListener("click", function() {
+        alert("click");
+        // if ($('.slidebar-parent').css('display') == "none") {
+        //     $('.slidebar-parent').show(50);
+        //     $('.slidebar-m').show(250);
+        //     $(this).first().addClass('slide-bar-toggled');
+        // } else {
+        //     $('.slidebar-parent').hide(50);
+        //     $('.slidebar-m').hide(100);
+        //     $(this).first().removeClass('slide-bar-toggled');
+        // }
+    })
+})
+</script>
 <div class="slidebar-parent" >
     <div class="slidebar-m">
         <a class="get-a-all-btn call-btn slidebar-pn" href="">

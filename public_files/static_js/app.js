@@ -1429,18 +1429,3 @@ $(window).resize(function(e) {
 
     }
 })
-
-$(document).ready(() => {
-    document.getElementById("test-id").addEventListener("click", function() {
-        alert("click");
-        // if ($('.slidebar-parent').css('display') == "none") {
-        //     $('.slidebar-parent').show(50);
-        //     $('.slidebar-m').show(250);
-        //     $(this).first().addClass('slide-bar-toggled');
-        // } else {
-        //     $('.slidebar-parent').hide(50);
-        //     $('.slidebar-m').hide(100);
-        //     $(this).first().removeClass('slide-bar-toggled');
-        // }
-    })
-})
