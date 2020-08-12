@@ -345,7 +345,7 @@ foreach ($allnews as $item) {
         <div class="container ">
             <div class="row d-none">
                 <div class="col-12">
-                    <h3 class="mex-h1 text-1e32a3 mex-m-t-50 mex-m-b-40 text-center ">Our Products</h3>
+                    <h3 class="mex-h1 text-1e32a3 mex-m-t-50 mex-m-b-40 text-center animate__animated animate__slideInDown animate__slow">Our Products</h3>
                 </div>
             </div>
         </div>
@@ -540,7 +540,7 @@ foreach ($allnews as $item) {
         </div>
     </section> -->
     <section class="d-md-none d-block twc-section">
-        <div class="mex-h1 text-1e32a3 text-center uppercase mt-3">Trade with confidence</div>
+        <div class="mex-h1 text-1e32a3 text-center uppercase mt-3 animate__animated animate__slideInDown animate__slow">Trade with confidence</div>
         <div class="container twc-mobile" style="background-size: cover;">
             <!-- <div class="container" style="background-image: url(public_files/images/home/home_trade_start_trading.png);
                                       background-size: cover;"> -->
@@ -567,7 +567,7 @@ foreach ($allnews as $item) {
     </section>
     <section class="p0 bg-white d-none d-md-block">
         <div class="col-md-12">
-            <h3 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-none " style="margin:30px 0 !important">Bonuses </h3>
+            <h3 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-none animate__animated animate__slideInDown animate__slow" style="margin:30px 0 !important">Bonuses </h3>
             <!-- <p class="lead text-222 mex-m-b-30 text-center">Find out more about our latest bonus and promotions for
                 Introducing Brokers &amp; individual clients alike!</p> -->
         </div>
@@ -679,7 +679,7 @@ foreach ($allnews as $item) {
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-12">
-            <h2 class="text-center text-uppercase  h2-platform mb-3">Platforms</h3>
+            <h2 class="text-center text-uppercase  h2-platform mb-3 animate__animated animate__slideInDown animate__slow">Platforms</h3>
           </div>
         </div>
         <div class="row">
@@ -855,7 +855,7 @@ foreach ($allnews as $item) {
 
     <section class="bg-gray mex-p-t-none">
         <div class="container">
-            <h1 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-30">About MultiBank Group</h1>
+            <h1 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-30 animate__animated animate__slideInDown animate__slow">About MultiBank Group</h1>
             <div class="row about-custom-mobile d-none d-md-flex">
                 <div class="col-12 col-md-6 mb-4 mb-md-0 animate__animated animate__fadeInLeft">
                     <section class="mex-block-card bg-white shadow-box-animate">
@@ -948,7 +948,7 @@ foreach ($allnews as $item) {
     </section>
     <section class="pt64 pb16 table-background global-presence d-none d-md-block lazyload" id="home_global_presence" style="background-image: url(public_files/images/about_us/global_presence/home_global_presence_bg.jpg)">
         <div class="mex-content">
-            <h2 class="mex-h1 text-fff text-center">Global Presence</h2>
+            <h2 class="mex-h1 text-fff text-center animate__animated animate__slideInDown animate__slow">Global Presence</h2>
         </div>
         <div class="swiper-container swiper-container-horizontal swiper-container-autoheight" id="swiper-container-global-presence">
             <div class="swiper-wrapper mex-m-b-100" style="transition-duration: 0ms; transform: translate3d(-2011.33px, 0px, 0px); height: 402px;">
@@ -1393,9 +1393,9 @@ foreach ($allnews as $item) {
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
-                                <div class="mex-h2 uppercase mex-m-b-20 text-overflow-1">
+                                <div class="mex-h2 uppercase mex-m-b-20 text-overflow-1 animate__animated animate__slideInDown animate__slow">
                                     SECURITY OF FUNDS </div>
-                                <div class="mex-content text-overflow-2">
+                                <div class="mex-content text-overflow-2 animate__animated animate__slideInDown animate__slow">
                                     Clients enjoy the highest level of funds security through MultiBank </div>
                                 <a href="about/security-of-funds.php" class="btn btn-mex mex-m-r-15 mex-m-b-15 mex-m-t-15">LEARN MORE</a>
                             </div>
@@ -1409,9 +1409,9 @@ foreach ($allnews as $item) {
                         </div>
                         <div class="card-content-box">
                             <div class=" card-content bg-white text-center">
-                                <div class="mex-h2 uppercase mex-m-b-20 text-overflow-1">
+                                <div class="mex-h2 uppercase mex-m-b-20 text-overflow-1 animate__animated animate__slideInDown animate__slow">
                                     MILESTONES </div>
-                                <div class="mex-content text-overflow-2">
+                                <div class="mex-content text-overflow-2 animate__animated animate__slideInDown animate__slow">
                                     Learn more about MultiBank’s achievements from over the years </div>
                                 <a href="/article/milestones.php" class="btn btn-mex mex-m-r-15 mex-m-b-15 mex-m-t-15">LEARN
                                     MORE</a>
@@ -1422,7 +1422,7 @@ foreach ($allnews as $item) {
             </div>
         </div>
     </section>
-    <h2 class=" text-center text-1e32a3 uppercase mb-4 d-block d-md-none" style="padding-top: 15px;">Awards</h2>
+    <h2 class=" text-center text-1e32a3 uppercase mb-4 d-block d-md-none animate__animated animate__slideInDown animate__slow" style="padding-top: 15px;">Awards</h2>
     <?php include_from_root('website_template/about_awards.php') ?>
     <!-- <section class="bg-white p0 index-platforms  d-md-flex d-none">
         <img class="d-none d-md-none lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">
