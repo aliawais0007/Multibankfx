@@ -1430,10 +1430,16 @@ $(window).resize(function(e) {
     }
 })
 
-// $(document).ready(() => {
-//     $('.slide-bar-toggle').on('click', function() {
-//         $('.slidebar-parent').slideToggle("slow");
-//         $('.slidebar-m').slideToggle("slow");
-//         $(this).first().toggleClass('slide-bar-toggled');
-//     });
-// })
+$(document).ready(() => {
+    $('.slide-bar-toggle').on("click", function() {
+        if ($('.slide-bar-toggle').css('display') == "none") {
+            $('.slidebar-parent').show(50);
+            $('.slidebar-m').show(250);
+            $(this).first().addClass('slide-bar-toggled');
+        } else {
+            $('.slidebar-parent').hide(50);
+            $('.slidebar-m').hide(100);
+            $(this).first().removeClass('slide-bar-toggled');
+        }
+    })
+})

@@ -207,17 +207,7 @@
                 
             setTimeout(()=>initliveChat(), 10000);
         }
-$('.slide-bar-toggle').on("click", function(){
-    if ($('.slide-bar-toggle').css('display') == "none") {
-        $('.slidebar-parent').show(50);
-        $('.slidebar-m').show(250);
-        $(this).first().addClass('slide-bar-toggled');
-    } else {
-        $('.slidebar-parent').hide(50);
-        $('.slidebar-m').hide(100);
-        $(this).first().removeClass('slide-bar-toggled');
-    }
-})
+
     
 
     </script>
