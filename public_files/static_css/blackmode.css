@@ -5505,7 +5505,7 @@ section.mex-block-full .mex-img-cover {
     bottom: 75px;
     z-index: 1000;
     display: none;
-    background: #fff6;
+    background: transparent;
     transition: all 0.5s;
 }
 
