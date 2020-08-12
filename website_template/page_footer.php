@@ -129,18 +129,19 @@
 
 <script>
     $(document).ready(() => {
-    $('#test-btn').off().on("click", function() {
-        alert("i am clicked");
-        // if ($('.slidebar-parent').css('display') == "none") {
-        //     $('.slidebar-parent').show(50);
-        //     $('.slidebar-m').show(250);
-        //     $(this).first().addClass('slide-bar-toggled');
-        // } else {
-        //     $('.slidebar-parent').hide(50);
-        //     $('.slidebar-m').hide(100);
-        //     $(this).first().removeClass('slide-bar-toggled');
-        // }
-    })
+        $('#test-btn').click(()=>toggle());
+        function toggle() {
+            alert("i am clicked");
+            // if ($('.slidebar-parent').css('display') == "none") {
+            //     $('.slidebar-parent').show(50);
+            //     $('.slidebar-m').show(250);
+            //     $(this).first().addClass('slide-bar-toggled');
+            // } else {
+            //     $('.slidebar-parent').hide(50);
+            //     $('.slidebar-m').hide(100);
+            //     $(this).first().removeClass('slide-bar-toggled');
+            // }
+        }
 })
 </script>
 <div class="slidebar-parent" >
