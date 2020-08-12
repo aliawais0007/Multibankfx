@@ -12593,7 +12593,7 @@ table.dataTable tr:nth-of-type(odd) {
     width: 50px;
     height: 50px;
     position: fixed;
-    right: 20px;
+    left: 20px;
     bottom: 20px;
     text-align: center;
     display: flex;
