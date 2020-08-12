@@ -5561,32 +5561,38 @@ section.mex-block-full .mex-img-cover {
     color: #fff;
     height: 52px;
     display: inline-block;
-    border-radius: 0;
     padding: 0;
     margin-top: 0;
     margin-bottom: 0
 }
 
 .slidebar-m a span {
-    color: black;
-    height: 52px;
+    color: white;
+    height: 42px;
     display: inline-block;
-    border-radius: 0;
-    padding: 0;
+    border-radius: 15px;
+    padding: 7px 5px 0px 5px;
     margin-top: 0;
-    margin-bottom: 0
+    margin-bottom: 0;
+    background-color: #332e2e;
 }
 
 .slidebar-d a .btn {
-    min-width: max-content !important;
+    min-width: max-content;
     background-color: rgba(255, 255, 255, 1);
-    border-radius: 50% !important;
+    border-radius: 50%;
 }
 
 .slidebar-m a .btn {
-    min-width: max-content !important;
+    min-width: max-content;
     background-color: rgba(255, 255, 255, 1);
-    border-radius: 50% !important;
+    border-radius: 50%;
+    color: black;
+    height: 52px;
+    display: inline-block;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .slidebar-d a .text {
