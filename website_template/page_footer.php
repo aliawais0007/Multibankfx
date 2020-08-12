@@ -122,10 +122,10 @@
 </section>
 
 <!-- toggle menuu bottom -->
-<div class="slide-bar-toggle">
+<div class="slide-bar-toggle" id="test-id">
     <img src="/public_files/images/home/sidebar_icon/threedots.png" style="width: 30px;"/>
 </div>
-<div class="slidebar-parent" id="test-id">
+<div class="slidebar-parent" >
     <div class="slidebar-m">
         <a class="get-a-all-btn call-btn slidebar-pn" href="">
             <span>Make call</span>

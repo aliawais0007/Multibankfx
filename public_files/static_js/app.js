@@ -1432,7 +1432,7 @@ $(window).resize(function(e) {
 
 $(document).ready(() => {
     $('#test-id').on("click", function() {
-        console.log("click");
+        alert("click");
         // if ($('.slidebar-parent').css('display') == "none") {
         //     $('.slidebar-parent').show(50);
         //     $('.slidebar-m').show(250);
