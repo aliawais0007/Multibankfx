@@ -861,35 +861,6 @@ var jointAccountDocFields = {
 $(document).ready(function() {
     // // Toggle button action
 
-    // let display = $('.slidebar-parent').css('display');
-    // if (display == "none") {
-    //     $('.slidebar-parent').show(50);
-    //     $('.slidebar-m').show(250);
-    //     $(this).first().addClass('slide-bar-toggled');
-    // } else {
-    //     $('.slidebar-parent').hide(100);
-    //     $('.slidebar-m').hide(100);
-    //     $(this).first().removeClass('slide-bar-toggled');
-    // }
-
-    // })
-    // platforms tab panels
-    $(".nav-home-tab-1").click(function() {
-        $(this).addClass('active show');
-        $("#nav-mt5").removeClass("active show");
-        $("#nav-mt4").addClass("active show");
-        $('.nav-home-tab-2').removeClass("active show");
-
-    });
-
-    $(".nav-home-tab-2").click(function() {
-        $(this).addClass('active show');
-        $("#nav-mt4").removeClass("active show")
-        $("#nav-mt5").addClass("active show");
-        $('nav-home-tab-1').removeClass("active show");
-
-    });
-
 
 
     // language click dropsown
@@ -1463,10 +1434,10 @@ $(window).resize(function(e) {
     }
 })
 
-$(document).ready(() => {
-    $('.slide-bar-toggle').on('click', function() {
-        $('.slidebar-parent').slideToggle("slow");
-        $('.slidebar-m').slideToggle("slow");
-        $(this).first().toggleClass('slide-bar-toggled');
-    });
-})
+// $(document).ready(() => {
+//     $('.slide-bar-toggle').on('click', function() {
+//         $('.slidebar-parent').slideToggle("slow");
+//         $('.slidebar-m').slideToggle("slow");
+//         $(this).first().toggleClass('slide-bar-toggled');
+//     });
+// })
