@@ -125,8 +125,8 @@
 <div class="slide-bar-toggle">
     <img src="/public_files/images/home/sidebar_icon/threedots.png" style="width: 30px;"/>
 </div>
-<div class="slidebar-parent">
-    <div class="slidebar">
+<div class="slidebar-parent d-block d-md-none">
+    <div class="slidebar-m">
         <a class="get-a-all-btn call-btn slidebar-pn" href="">
             <span>Make call</span>
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-phone.png" width="50" /> </span>
