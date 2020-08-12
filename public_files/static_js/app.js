@@ -1431,9 +1431,7 @@ $(window).resize(function(e) {
 })
 
 $(document).ready(() => {
-    $('.slide-bar-toggle').click(function() { toggle(this) });
-
-    function toggle(this) {
+    $('.slide-bar-toggle').click(function toggle() {
         debugger
         if ($('.slidebar-parent').css('display') == "none") {
             $('.slidebar-parent').show(50);
@@ -1444,5 +1442,11 @@ $(document).ready(() => {
             $('.slidebar-m').hide(100);
             $(this).first().removeClass('slide-bar-toggled');
         }
-    }
+    });
+
+    $('#reve-chat-container-div, #test-btn').click(function() {
+        $_REVECHAT_API && $_REVECHAT_API.Button.maximize();
+    })
+
+
 })
