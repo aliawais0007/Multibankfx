@@ -859,79 +859,7 @@ var jointAccountDocFields = {
 // Regulations
 //Regulations page start
 $(document).ready(function() {
-        // Toggle button action
-        $('.slide-bar-toggle').on('click', function() {
-            var $tgt = $(event.target);
-                event.preventDefault();
-                event.stopPropagation()          
-            let display = $('.slidebar-parent').css('display');
-            if (display == "none") {
-                $('.slidebar-parent').show(50);
-                $('.slidebar').show(250);
-                $(this).first().addClass('slide-bar-toggled');
-            } else {
-                $('.slidebar-parent').hide(100);
-                $('.slidebar').hide(100);
-                $(this).first().removeClass('slide-bar-toggled');
-            }
 
-        })
-    // platforms tab panels
-    $(".nav-home-tab-1").click(function() {
-        $(this).addClass('active show');
-        $("#nav-mt5").removeClass("active show");
-        $("#nav-mt4").addClass("active show");
-        $('.nav-home-tab-2').removeClass("active show");
-
-    });
-
-    $(".nav-home-tab-2").click(function() {
-        $(this).addClass('active show');
-        $("#nav-mt4").removeClass("active show")
-        $("#nav-mt5").addClass("active show");
-        $('nav-home-tab-1').removeClass("active show");
-  
-    });
-
-//     $("#nav-home-tab").click(function(){
-//         $(this).addClass('active show');
-//         $("#nav-home").addClass("active show");
-//         $("#nav-profile").removeClass("active show");
-//         $("#nav-contact").removeClass("active show");
-//         $('#nav-profile-tab').removeClass("active show");
-//         $('#nav-contact-tab').removeClass("active show");
-//     });
-
-//      $("#nav-profile-tab").click(function(){
-//         $(this).addClass('active show');
-//         $("#nav-home").removeClass("active show");
-//         $("#nav-profile").addClass("active show");
-//         $("#nav-contact").removeClass("active show");
-//         $('#nav-home-tab').removeClass("active show");
-//         $('#nav-contact-tab').removeClass("active show");
-//     });
-
-//     $("#nav-contact-tab").click(function(){
-//         $(this).addClass('active show');
-//         $("#nav-home").removeClass("active show");
-//         $("#nav-profile").removeClass("active show");
-//         $("#nav-contact").addClass("active show");
-//         $('#nav-home-tab').removeClass("active show");
-//          $('#nav-profile-tab').removeClass("active show");
-//     });
-
-// $("#nav-home-tab-3").click(function(){
-//     $(this).addClass('active show');
-//     $("#nav-home-2").addClass("active show");
-//     $("#nav-profile-2").removeClass("active show");
-//     $("#nav-profile-tab-3").removeClass("active show");
-// });
-// $("#nav-profile-tab-3").click(function(){
-//     $(this).addClass('active show');
-//     $("#nav-home-2").removeClass("active show");
-//     $("#nav-profile-2").addClass("active show");
-//     $("#nav-home-tab-3").removeClass("active show");
-// });
 
 
     // language click dropsown
@@ -1106,6 +1034,20 @@ $(document).ready(function() {
             })
         }
     }
+    // Toggle button action
+    $('.slide-bar-toggle').on('click', function() {
+        var $tgt = $(event.target);
+        let display = $('.slidebar-parent').css('display');
+        if (display == "none") {
+            $('.slidebar-parent').show(50);
+            $('.slidebar').show(250);
+            $(this).first().addClass('slide-bar-toggled');
+        } else {
+            $('.slidebar-parent').hide(100);
+            $('.slidebar').hide(100);
+            $(this).first().removeClass('slide-bar-toggled');
+        }
+    })
 });
 
 // Platform - Download Center
