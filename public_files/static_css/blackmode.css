@@ -12883,6 +12883,6 @@ a.custom-nav-2-link {
     }
 }
 
-#swiper-container-lp .swiper-slide .min1{
-    height: calc(100vh - 160px) !important;
+#swiper-container-lp .swiper-slide .min1 {
+    height: calc(100vh - 230px) !important;
 }
