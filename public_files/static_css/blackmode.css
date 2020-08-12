@@ -5550,6 +5550,10 @@ section.mex-block-full .mex-img-cover {
     margin-bottom: 0
 }
 
+.slidebar-d a.btn {
+    min-width: max-content !important;
+}
+
 .slidebar-d a .text {
     height: 52px;
     line-height: 52px;
