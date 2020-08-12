@@ -202,7 +202,7 @@ foreach ($allnews as $item) {
         <!-- <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div> -->
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="animate__animated animate__bounce container-fluid hero-container d-none d-md-flex">
+        <div class="animate__animated animate__bounce animate__repeat-3 container-fluid hero-container d-none d-md-flex">
             <div class="row hero-box">
                 <div>
                     <h4 class="h4-hero-box">Paid <br>Capital</h4><span class="span-hero">$320m</span>
