@@ -129,7 +129,7 @@
 
 <script>
     $(document).ready(() => {
-    document.getElementById("test-btn").addEventListener("mousedown", function() {
+    $('#test-btn').on("click", function() {
         alert("i am clicked");
         // if ($('.slidebar-parent').css('display') == "none") {
         //     $('.slidebar-parent').show(50);
