@@ -1429,3 +1429,20 @@ $(window).resize(function(e) {
 
     }
 })
+
+$(document).ready(() => {
+    $('.slide-bar-toggle').click(() => toggle($(event).target));
+
+    function toggle(el) {
+        debugger
+        if ($('.slidebar-parent').css('display') == "none") {
+            $('.slidebar-parent').show(50);
+            $('.slidebar-m').show(250);
+            $(el).first().addClass('slide-bar-toggled');
+        } else {
+            $('.slidebar-parent').hide(50);
+            $('.slidebar-m').hide(100);
+            $(el).first().removeClass('slide-bar-toggled');
+        }
+    }
+})
