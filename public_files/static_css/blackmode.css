@@ -5515,11 +5515,11 @@ section.mex-block-full .mex-img-cover {
     display: inline-block;
     background: 0 0;
     position: fixed;
-    right: 20px;
+    right: 5px;
     top: 25%;
     z-index: 1000;
     display: none;
-    background: #fff6;
+    background: transparent;
     transition: all 0.5s;
 }
 
