@@ -143,7 +143,7 @@ foreach ($allnews as $item) {
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <div class="swiper-container" id="swiper-container-lp">
-        <button  id="test-id">Click me to test</button>
+
         <div class="swiper-wrapper">
 
             <div class="swiper-slide home-page" style="overflow: hidden;">

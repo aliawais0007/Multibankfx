@@ -125,9 +125,10 @@
 <div class="slide-bar-toggle">
     <img src="/public_files/images/home/sidebar_icon/threedots.png" style="width: 30px;"/>
 </div>
+<button  id="test-btn">Click me to test</button>
 <script>
     $(document).ready(() => {
-    document.getElementById("test-id").addEventListener("mousedown", function() {
+    document.getElementById("test-btn").addEventListener("mousedown", function() {
         alert("i am clicked");
         // if ($('.slidebar-parent').css('display') == "none") {
         //     $('.slidebar-parent').show(50);
