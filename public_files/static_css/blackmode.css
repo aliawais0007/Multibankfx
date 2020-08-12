@@ -5512,7 +5512,7 @@ section.mex-block-full .mex-img-cover {
 .slidebar-d {
     width: auto;
     height: auto;
-    display: inline-block;
+    display: none;
     background: 0 0;
     position: fixed;
     right: 5px;
