@@ -211,6 +211,7 @@
     <script>
     
 </script>
+<script src="/public_files/static_js/app.js" type="text/javascript"></script>
 <script id="et-iframe" data-version="0.5" data-widgetId="5f339806c026597522452917" src="https://client.consolto.com/iframeApp/iframeApp.js"  ></script>
      <!-- Start of REVE Chat Script-->
  <!-- <script type='text/javascript'>

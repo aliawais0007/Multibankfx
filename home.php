@@ -2119,7 +2119,7 @@ foreach ($allnews as $item) {
     <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
     <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
+
 
     <script type="text/javascript">
         $(function() {
