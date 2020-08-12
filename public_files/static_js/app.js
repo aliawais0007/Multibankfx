@@ -859,10 +859,6 @@ var jointAccountDocFields = {
 // Regulations
 //Regulations page start
 $(document).ready(function() {
-    // // Toggle button action
-
-
-
     // language click dropsown
     $('.lang-menu').click(() => {
         $('.lang-menu-dropdown').toggle();

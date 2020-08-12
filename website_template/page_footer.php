@@ -207,17 +207,16 @@
                 
             setTimeout(()=>initliveChat(), 10000);
         }
-
-        let display = $('.slidebar-parent').css('display');
+$('.slide-bar-toggle').slideToggle("slow", function(){
     if (display == "none") {
-        $('.slidebar-parent').show(50);
         $('.slidebar-m').show(250);
         $(this).first().addClass('slide-bar-toggled');
     } else {
-        $('.slidebar-parent').hide(100);
         $('.slidebar-m').hide(100);
         $(this).first().removeClass('slide-bar-toggled');
     }
+})
+    
 
     </script>
     <script>
