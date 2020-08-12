@@ -12460,6 +12460,9 @@ table.dataTable tr:nth-of-type(odd) {
         height: 22px!important;
         padding-left: 10px!important
     }
+    #swiper-container-lp .swiper-slide .min1 {
+        height: auto;
+    }
 }
 
 @media (min-width:768px) and (max-width:1360px) {
@@ -12952,5 +12955,5 @@ a.custom-nav-2-link {
 }
 
 #swiper-container-lp .swiper-slide .min1 {
-    height: calc(100vh - 230px) !important;
+    height: calc(100vh - 230px);
 }
