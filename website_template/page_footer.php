@@ -122,7 +122,7 @@
 </section>
 
 <!-- toggle menuu bottom -->
-<div class="slide-bar-toggle d-block d-md-none">
+<div class="slide-bar-toggle">
     <img src="/public_files/images/home/sidebar_icon/threedots.png" style="width: 30px;"/>
 </div>
 <div class="slidebar-parent">
@@ -209,11 +209,11 @@
         }
 $('.slide-bar-toggle').on("click", function(){
     if ($('.slide-bar-toggle').css('display') == "none") {
-        $(this).show(50);
+        $('.slidebar-parent').show(50);
         $('.slidebar-m').show(250);
         $(this).first().addClass('slide-bar-toggled');
     } else {
-        $(this).show(50);
+        $('.slidebar-parent').hide(50);
         $('.slidebar-m').hide(100);
         $(this).first().removeClass('slide-bar-toggled');
     }
