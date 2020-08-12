@@ -1,6 +1,7 @@
 <?php include_from_root('website_template/contact_us_footer.php'); ?>
 
 <section>
+<button  id="test-btn">Click me to test</button>
     <div class="container">
         <div class="col-lg-12 footer">
             <div class="row justify-content-between" style="padding-bottom: 25px; border-bottom: 1px solid #808080;">
@@ -125,7 +126,7 @@
 <div class="slide-bar-toggle">
     <img src="/public_files/images/home/sidebar_icon/threedots.png" style="width: 30px;"/>
 </div>
-<button  id="test-btn">Click me to test</button>
+
 <script>
     $(document).ready(() => {
     document.getElementById("test-btn").addEventListener("mousedown", function() {
