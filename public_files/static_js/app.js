@@ -860,11 +860,7 @@ var jointAccountDocFields = {
 //Regulations page start
 $(document).ready(function() {
     // // Toggle button action
-    $('.slide-bar-toggle').on('click', function() {
-        $('.slidebar-parent').slideToggle("slow");
-        $('.slidebar-m').slideToggle("slow");
-        $(this).first().toggleClass('slide-bar-toggled');
-    });
+
     // let display = $('.slidebar-parent').css('display');
     // if (display == "none") {
     //     $('.slidebar-parent').show(50);
@@ -1465,4 +1461,12 @@ $(window).resize(function(e) {
         $('.hero-container').css("display", "flex");
 
     }
-});
+})
+
+$(document).ready(() => {
+    $('.slide-bar-toggle').on('click', function() {
+        $('.slidebar-parent').slideToggle("slow");
+        $('.slidebar-m').slideToggle("slow");
+        $(this).first().toggleClass('slide-bar-toggled');
+    });
+})
