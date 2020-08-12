@@ -864,6 +864,7 @@ $(document).ready(function() {
         $('.slidebar-parent').slideToggle("slow");
         $('.slidebar-m').slideToggle("slow");
         $(this).first().toggleClass('slide-bar-toggled');
+        debugger
     });
     // let display = $('.slidebar-parent').css('display');
     // if (display == "none") {
