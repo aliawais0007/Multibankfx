@@ -5550,8 +5550,9 @@ section.mex-block-full .mex-img-cover {
     margin-bottom: 0
 }
 
-.slidebar-d a.btn {
+.slidebar-d a .btn {
     min-width: max-content !important;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .slidebar-d a .text {
