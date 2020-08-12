@@ -207,11 +207,13 @@
                 
             setTimeout(()=>initliveChat(), 10000);
         }
-$('.slide-bar-toggle').slideToggle("slow", function(){
-    if (display == "none") {
+$('.slide-bar-toggle').on("click", function(){
+    if ($('.slide-bar-toggle').css('display') == "none") {
+        $(this).show(50);
         $('.slidebar-m').show(250);
         $(this).first().addClass('slide-bar-toggled');
     } else {
+        $(this).show(50);
         $('.slidebar-m').hide(100);
         $(this).first().removeClass('slide-bar-toggled');
     }
