@@ -1432,7 +1432,7 @@ $(window).resize(function(e) {
 
 $(document).ready(() => {
     $('.slide-bar-toggle').on("click", function() {
-        if ($('.slide-bar-toggle').css('display') == "none") {
+        if ($('.slidebar-parent').css('display') == "none") {
             $('.slidebar-parent').show(50);
             $('.slidebar-m').show(250);
             $(this).first().addClass('slide-bar-toggled');
