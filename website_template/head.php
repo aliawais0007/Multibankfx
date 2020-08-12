@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="/public_files/static_min_css/library.min.css">
     <!-- <link rel="stylesheet" href="/public_files/static_min_css/custom.min.css"> -->
     <link rel="stylesheet" href="/public_files/static_css/blackmode.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <style>
         form {
             position: relative;
@@ -69,7 +70,7 @@
     <link rel="stylesheet" type="text/css" href="/public_files/static_css/swiper-3.4.2.min.css">
     <link rel="stylesheet" href="/public_files/static_css/rtl.css">
     <link rel="stylesheet" href="/public_files/static_css/rtl.css">
-<!-- <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous"> -->
 
 
 

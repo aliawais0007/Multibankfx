@@ -6020,6 +6020,7 @@ section.mex-block-full .mex-img-cover {
     text-align: center;
     font-size: 4vw;
     font-weight: 500;
+    transition: all ease-in-out 1s;
     font-family: Oswald;
     letter-spacing: 0;
     color: #fff
@@ -6028,6 +6029,7 @@ section.mex-block-full .mex-img-cover {
 .home-banner-title2 {
     text-align: center;
     font-size: 1.7vw;
+    transition: all ease-in-out 1s;
     font-family: Calibri;
     letter-spacing: 0;
     color: #fff;
@@ -6039,6 +6041,7 @@ section.mex-block-full .mex-img-cover {
     border: none;
     font-size: 1.3vw;
     color: #fff!important;
+    transition: all ease-in-out 1s;
     font-family: Calibri;
     letter-spacing: 0;
     text-align: center;
@@ -6052,6 +6055,7 @@ section.mex-block-full .mex-img-cover {
     font-size: 1.3vw;
     font-family: Calibri;
     letter-spacing: 0;
+    transition: all ease-in-out 1s;
     color: #fff!important;
     text-align: center;
     padding: 18px 52px;
@@ -6064,6 +6068,7 @@ li a .country-name {
 
 .home-banner-small-text {
     font-size: 1vw;
+    transition: all ease-in-out 1s;
     font-family: Calibri;
     position: absolute;
     top: 58%;
