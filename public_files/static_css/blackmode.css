@@ -5523,7 +5523,7 @@ section.mex-block-full .mex-img-cover {
     transition: all 0.5s;
 }
 
-.slidebar a {
+.slidebar-d a {
     width: auto;
     height: 52px;
     display: flex;
@@ -5540,7 +5540,7 @@ section.mex-block-full .mex-img-cover {
     transition: all 0.5s;
 }
 
-.slidebar a span {
+.slidebar-d a span {
     color: #fff;
     height: 52px;
     display: inline-block;
@@ -5550,7 +5550,7 @@ section.mex-block-full .mex-img-cover {
     margin-bottom: 0
 }
 
-.slidebar a .text {
+.slidebar-d a .text {
     height: 52px;
     line-height: 52px;
     float: left;
