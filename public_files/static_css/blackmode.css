@@ -5552,7 +5552,8 @@ section.mex-block-full .mex-img-cover {
 
 .slidebar-d a .btn {
     min-width: max-content !important;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50% !important;
 }
 
 .slidebar-d a .text {
