@@ -1431,7 +1431,7 @@ $(window).resize(function(e) {
 })
 
 $(document).ready(() => {
-    $('#test-id').on("click", function() {
+    document.getElementById("test-id").addEventListener("click", function() {
         alert("click");
         // if ($('.slidebar-parent').css('display') == "none") {
         //     $('.slidebar-parent').show(50);
