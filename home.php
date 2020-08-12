@@ -199,10 +199,10 @@ foreach ($allnews as $item) {
             </div>
 
         </div>
-        <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div>
+        <!-- <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div> -->
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="animate__animated animate__flash container-fluid hero-container d-none d-md-flex">
+        <div class="animate__animated animate__bounce container-fluid hero-container d-none d-md-flex">
             <div class="row hero-box">
                 <div>
                     <h4 class="h4-hero-box">Paid <br>Capital</h4><span class="span-hero">$320m</span>
@@ -857,7 +857,7 @@ foreach ($allnews as $item) {
         <div class="container">
             <h1 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-30">About MultiBank Group</h1>
             <div class="row about-custom-mobile d-none d-md-flex">
-                <div class="col-12 col-md-6 mb-4 mb-md-0 animate__fadeInLeft">
+                <div class="col-12 col-md-6 mb-4 mb-md-0 animate__animated animate__fadeInLeft">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box hover-img-zoom">
                             <img class="lower-brightness home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" alt="OUR ADVANTAGES">
@@ -875,7 +875,7 @@ foreach ($allnews as $item) {
                         </div>
                     </section>
                 </div>
-                <div class="col-12 col-md-6 animate__fadeInRight">
+                <div class="col-12 col-md-6 animate__animated animate__fadeInRight">
                     <section class="mex-block-card bg-white shadow-box-animate">
                         <div class="card-img-box hover-img-zoom">
                             <img class="lower-brightness home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS">
