@@ -149,7 +149,7 @@ foreach ($allnews as $item) {
             <div class="swiper-slide home-page" style="overflow: hidden;">
                 <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg');">
-                        <div class="animate__animated animate__bounce row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
+                        <div class="animate__animated animate__fadeInLeft row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
                             <span class="home-banner-title2">ESTABLISHED IN 2005</span>
                         </div>
@@ -165,7 +165,7 @@ foreach ($allnews as $item) {
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
                 <a>
-                    <div class="animate__animated animate__bounce min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
+                    <div class="animate__animated animate__fadeInLeft min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
                         <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1 text-uppercase">Enjoy the highest level of funds security</span>
                             <span class="home-banner-title2">Trade With The Industry Leader</span>
@@ -182,7 +182,7 @@ foreach ($allnews as $item) {
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
                 <a>
-                    <div class="animate__animated animate__bounce min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
+                    <div class="animate__animated animate__fadeInLeft min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
                         <div class="row flex-column justify-content-center align-items-center slider-content">
                             <span class="home-banner-title1">Improved trading functionalities</span>
                             <span class="home-banner-title2">MULTIBANK OFFERS MT5 PLATFORM</span>
