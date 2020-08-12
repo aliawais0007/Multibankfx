@@ -145,7 +145,7 @@
         </a>
     </div>
 </div>
-<div class="slidebar">
+<div class="slidebar-a">
         <a class="get-a-all-btn call-btn slidebar-pn" href="">
             <span>Make call</span>
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-phone.png" width="50" /> </span>
