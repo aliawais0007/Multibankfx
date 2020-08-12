@@ -908,6 +908,7 @@ $(document).ready(function() {
             }
 
             function switchTheme(e) {
+                debugger
                 if (e.target.checked) {
                     localStorage.setItem('defaultMode', "1");
                     document.documentElement.setAttribute('data-theme', 'dark');
