@@ -27,9 +27,10 @@ foreach ($allnews as $item) {
 <body>
     <?php include_from_root('website_template/header_and_menu.php'); ?>
     <style>
-        .nav-item:hover .nav-menu.py-3{
+        .nav-item:hover .nav-menu.py-3 {
             display: block !important;
         }
+
         .slidebar .get-a-all-btn.call-btn .btn,
         .slidebar .live-account-btn.whatsapp-btn .btn,
         .slidebar .email-us-tg.email-btn .btn,
@@ -152,6 +153,16 @@ foreach ($allnews as $item) {
                         <div class="animate__animated animate__slideInDown animate__delay-.5s animate__slow row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
                             <span class="home-banner-title2">ESTABLISHED IN 2005</span>
+                            <div class="home-banner-container">
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                                        <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
+                                            <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                                            <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-1.jpg');">
@@ -159,6 +170,16 @@ foreach ($allnews as $item) {
                         <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
                             <span class="home-banner-title2">ESTABLISHED IN 2005</span>
+                        </div>
+                        <div class="home-banner-container">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                                    <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
+                                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </a>
@@ -170,12 +191,32 @@ foreach ($allnews as $item) {
                             <span class="home-banner-title1 text-uppercase">Enjoy the highest level of funds security</span>
                             <span class="home-banner-title2">Trade With The Industry Leader</span>
                         </div>
+                        <div class="home-banner-container">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                                    <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
+                                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-2.jpg');">
                         <img src="/public_files/images/home/mobile-banner-2.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content">
                             <span class="home-banner-title1 text-uppercase">Enjoy the highest level of funds security</span>
                             <span class="home-banner-title2">Trade With The Industry Leader</span>
+                        </div>
+                        <div class="home-banner-container">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                                    <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
+                                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </a>
@@ -187,12 +228,32 @@ foreach ($allnews as $item) {
                             <span class="home-banner-title1">Improved trading functionalities</span>
                             <span class="home-banner-title2">MULTIBANK OFFERS MT5 PLATFORM</span>
                         </div>
+                        <div class="home-banner-container">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                                    <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
+                                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-3.jpg');">
                         <img src="/public_files/images/home/mobile-banner-3.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content">
                             <span class="home-banner-title1">Improved trading functionalities</span>
                             <span class="home-banner-title2">MULTIBANK OFFERS MT5 PLATFORM</span>
+                        </div>
+                        <div class="home-banner-container">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                                    <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
+                                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </a>
@@ -219,24 +280,6 @@ foreach ($allnews as $item) {
                 <div>
                     <h4 class="h4-hero-box">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
                 </div>
-
-            </div>
-        </div>
-
-
-
-        <div class="home-banner-container">
-            <div class="row">
-                <!-- <span class="home-banner-title1">ESTABLISHED IN 2005</span>
-                <span class="home-banner-title2">World's No.1 Forex & CFD Broker</span> -->
-                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
-                    <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
-                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase" >Open Live Account</a>
-                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
-                    </div>
-                    <!-- <span class="home-banner-small-text">All trading involves risk. Losses can exceed deposits.</span> -->
-                </div>
-
 
             </div>
         </div>
@@ -620,8 +663,8 @@ foreach ($allnews as $item) {
                             <!--    alt="image">-->
                         </div>
                         <!-- <div class="min2 d-block d-lg-none"> -->
-                            <!--<img class="lazyloadXXX" src="/public_files/images/about_us/global_presence/home_bonus_extra.png"-->
-                            <!--    alt="image">-->
+                        <!--<img class="lazyloadXXX" src="/public_files/images/about_us/global_presence/home_bonus_extra.png"-->
+                        <!--    alt="image">-->
                         <!-- </div> -->
                     </a>
                 </div>
@@ -676,182 +719,182 @@ foreach ($allnews as $item) {
     </section> -->
 
     <section class="section-platform pt-5 pb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-12">
-            <h2 class="text-center text-uppercase  h2-platform mb-3 animate__animated animate__slideInDown ">Platforms</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 ">
-            <nav class = "nav-platform mt-4">
-              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">             
-                <a class="btn custom-btn-plat active" id="nav-home-tab" data-toggle="tab" href="#nav-mt4" role="tab" aria-controls="nav-home" aria-selected="true">MT4</a>
-                <a class="btn  custom-btn-plat" id="nav-profile-tab" data-toggle="tab" href="#nav-mt5" role="tab" aria-controls="nav-profile" aria-selected="false">MT5</a>
-              </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active" id="nav-mt4" role="tabpanel" aria-labelledby="nav-home-tab">
-               
-                <div class="tab-content " id="nav-tabContent">
-                  <div class="container tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <div class="row platforms-content">
-                      <div class="col-md-2 col-12">
-                        <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
-                      </div>
-                      <div class="col-md-9 col-12">
-                        <h3>ECN PRO</h3>
-                        <p class="d-none d-md-block">Enjoy raw price feed directly through our ECN connection to prime brokers and access the tightest spread in the industry. This account type is available on iOS, Android and Windows.</p>
-                        <div class="flex-container">
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $5,000</span></div>
-
-
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
-                          <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> </div></div> -->
-
-                          <div class="center-span">
-                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> 
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>                    
-                  </div>
-
-                  <div class="container tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    <div class="row platforms-content">
-                      <div class="col-md-2 col-12">
-                        <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
-                      </div>
-                      <div class="col-md-9 col-12">
-                        <h3>MAXIMUS</h3>
-                      <p class="d-none d-md-block">This MT4 trading platform is ideal for Introducing Brokers and traders who seek no-frill trading experience.</p>  
-                      <div class="flex-container">
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spreads from 1.4 pips</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $50</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
-                          <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span></div></div> -->
-                          <div class="center-span">
-                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>                
-                  </div>
-                  <div class="container tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                    <div class="row platforms-content">
-                      <div class="col-md-2 col-12">
-                        <img src="/public_files/images/common/MultiBank Pro.png" class="img-responsive custom-img-plat">
-                      </div>
-                      <div class="col-md-9 col-12">
-                        <h3>multibank pro</h3>
-                        <p class="d-none d-md-block">Ideal for traders looking for a smooth trading experience on the MT4 platform without the high investment commitment.</p>              
-                          <div class="flex-container">
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spreads from 0.8 pips</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $1,000</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
-                          <div class="center-span">
-                            <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/promexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> 
-                          </div>                        
-
-                        </div>
-                      </div>
-                    </div>                   
-                  </div>
-                 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <h2 class="text-center text-uppercase  h2-platform mb-3 animate__animated animate__slideInDown ">Platforms</h3>
                 </div>
-                <nav class="nav-1">
-                  <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                    <a class="custom-nav-1-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">ECN PRO</a>
-                    <a class="custom-nav-1-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
-                    <a class="custom-nav-1-link nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">MULTIBANK PRO</a>
-                  </div>
-                </nav>
-              </div>
-              <div class="tab-pane fade" id="nav-mt5" role="tabpanel" aria-labelledby="nav-profile-tab">
-
-
-
-
-                <div class="tab-content" id="nav-tabContent-2">
-                  <div class="container tab-pane fade show active" id="nav-home-2" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <div class="row platforms-content">
-                      <div class="col-md-2 col-12">
-                        <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
-                      </div>
-                      <div class="col-md-9 col-12">
-                        <h3>ECN PRO</h3>
-                        <p class="d-none d-md-block">Enjoy raw price feed directly through our ECN connection to prime brokers and access the tightest spread in the industry. This account type is available on iOS, Android and Windows.</p>
-                        <div class="flex-container">
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $5,000</span></div>
-                          <div></div>
-                          <div class="center-span">
-                            <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
-                           </div>
-
-
-                     
-                        
-                          
-
+            </div>
+            <div class="row">
+                <div class="col-xs-12 ">
+                    <nav class="nav-platform mt-4">
+                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                            <a class="btn custom-btn-plat active" id="nav-home-tab" data-toggle="tab" href="#nav-mt4" role="tab" aria-controls="nav-home" aria-selected="true">MT4</a>
+                            <a class="btn  custom-btn-plat" id="nav-profile-tab" data-toggle="tab" href="#nav-mt5" role="tab" aria-controls="nav-profile" aria-selected="false">MT5</a>
                         </div>
-                      </div>
-                    </div>                 
-                 </div>
-                  <div class="container tab-pane fade" id="nav-profile-2" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    <div class="row platforms-content">
-                      <div class="col-md-2 col-12">
-                        <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
-                      </div>
-                      <div class="col-md-9 col-12">
-                        <h3>maximus</h3>
-                        <p class="d-none d-md-block">This MT5 Trading Platform is ideal for Introducing Brokers and traders who seek no-frill trading experience.</p>
-                        <div class="flex-container">
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
-                          <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $50</span></div>      
-                          <div></div>
-                          <div class="center-span">
-                            <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
-                          </div>
-                   
-                          
-                        
-                          
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-mt4" role="tabpanel" aria-labelledby="nav-home-tab">
 
+                            <div class="tab-content " id="nav-tabContent">
+                                <div class="container tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <div class="row platforms-content">
+                                        <div class="col-md-2 col-12">
+                                            <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
+                                        </div>
+                                        <div class="col-md-9 col-12">
+                                            <h3>ECN PRO</h3>
+                                            <p class="d-none d-md-block">Enjoy raw price feed directly through our ECN connection to prime brokers and access the tightest spread in the industry. This account type is available on iOS, Android and Windows.</p>
+                                            <div class="flex-container">
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $5,000</span></div>
+
+
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
+                                                <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> </div></div> -->
+
+                                                <div class="center-span">
+                                                    <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="container tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <div class="row platforms-content">
+                                        <div class="col-md-2 col-12">
+                                            <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
+                                        </div>
+                                        <div class="col-md-9 col-12">
+                                            <h3>MAXIMUS</h3>
+                                            <p class="d-none d-md-block">This MT4 trading platform is ideal for Introducing Brokers and traders who seek no-frill trading experience.</p>
+                                            <div class="flex-container">
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spreads from 1.4 pips</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $50</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
+                                                <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span></div></div> -->
+                                                <div class="center-span">
+                                                    <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                    <div class="row platforms-content">
+                                        <div class="col-md-2 col-12">
+                                            <img src="/public_files/images/common/MultiBank Pro.png" class="img-responsive custom-img-plat">
+                                        </div>
+                                        <div class="col-md-9 col-12">
+                                            <h3>multibank pro</h3>
+                                            <p class="d-none d-md-block">Ideal for traders looking for a smooth trading experience on the MT4 platform without the high investment commitment.</p>
+                                            <div class="flex-container">
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spreads from 0.8 pips</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $1,000</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
+                                                <div class="center-span">
+                                                    <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/promexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <nav class="nav-1">
+                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                    <a class="custom-nav-1-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">ECN PRO</a>
+                                    <a class="custom-nav-1-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
+                                    <a class="custom-nav-1-link nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">MULTIBANK PRO</a>
+                                </div>
+                            </nav>
                         </div>
-                      </div>
-                    </div> 
-                  </div>
-                  
-                 
+                        <div class="tab-pane fade" id="nav-mt5" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+
+
+
+                            <div class="tab-content" id="nav-tabContent-2">
+                                <div class="container tab-pane fade show active" id="nav-home-2" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <div class="row platforms-content">
+                                        <div class="col-md-2 col-12">
+                                            <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
+                                        </div>
+                                        <div class="col-md-9 col-12">
+                                            <h3>ECN PRO</h3>
+                                            <p class="d-none d-md-block">Enjoy raw price feed directly through our ECN connection to prime brokers and access the tightest spread in the industry. This account type is available on iOS, Android and Windows.</p>
+                                            <div class="flex-container">
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $5,000</span></div>
+                                                <div></div>
+                                                <div class="center-span">
+                                                    <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
+                                                </div>
+
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container tab-pane fade" id="nav-profile-2" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <div class="row platforms-content">
+                                        <div class="col-md-2 col-12">
+                                            <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
+                                        </div>
+                                        <div class="col-md-9 col-12">
+                                            <h3>maximus</h3>
+                                            <p class="d-none d-md-block">This MT5 Trading Platform is ideal for Introducing Brokers and traders who seek no-frill trading experience.</p>
+                                            <div class="flex-container">
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
+                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $50</span></div>
+                                                <div></div>
+                                                <div class="center-span">
+                                                    <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
+                                                </div>
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <nav class="nav-2">
+                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                    <a class="custom-nav-2-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home-2" role="tab" aria-controls="nav-home" aria-selected="true">ECN PRO</a>
+                                    <a class="custom-nav-2-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-2" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
+                                </div>
+                            </nav>
+                        </div>
+
+                    </div>
                 </div>
-                <nav class="nav-2">
-                  <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                    <a class="custom-nav-2-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home-2" role="tab" aria-controls="nav-home" aria-selected="true">ECN  PRO</a>
-                    <a class="custom-nav-2-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-2" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
-                  </div>
-                </nav>
-              </div>
-             
-            </div>          
-          </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 col-12 text-center text-uppercase">
+                    <a href="https://www.multibankfx.com/platforms/compare-platforms" class="btn btn-custom-compare">COMPARE PLATFORMS</a>
+                </div>
+            </div>
         </div>
-        <div class="row mt-5">
-          <div class="col-md-12 col-12 text-center text-uppercase">
-            <a href="https://www.multibankfx.com/platforms/compare-platforms" class = "btn btn-custom-compare">COMPARE PLATFORMS</a>
-          </div>
-        </div>
-      </div>
     </section>
-     <!-- downlaod platforms -->
+    <!-- downlaod platforms -->
 
     <section class="bg-gray mex-p-t-none">
         <div class="container">
@@ -1688,7 +1731,7 @@ foreach ($allnews as $item) {
             padding: 0;
             background: none;
             margin: 0 0 3px 0;
-        } 
+        }
     </style>
     <style>
         .top-mb-ic {
