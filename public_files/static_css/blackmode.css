@@ -4667,7 +4667,7 @@ sup.sup-size {
     left: 0;
     background-color: #fff;
     width: 100%;
-    z-index: 9998
+    z-index: 9999999999 !important
 }
 
 .header-spacer {
