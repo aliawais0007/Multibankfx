@@ -148,7 +148,7 @@ foreach ($allnews as $item) {
         <div class="swiper-wrapper">
 
             <div class="swiper-slide home-page" style="overflow: hidden;">
-                    <div class="animate__animated animate__slideInDown animate__delay-.5s animate__slow min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg');">
+                    <div class="animate__animated animate__slideInDown animate__delay-.5s animate__slow min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg'); width:100%">
                         <div class="row justify-content-center align-items-center slider-content swiper-zoom-container">
                             <div class="col-12 d-flex justify-content-center flex-column">
                                 <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
@@ -162,7 +162,7 @@ foreach ($allnews as $item) {
                             </div>
                         </div>
                     </div>
-                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-1.jpg');">
+                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-1.jpg'); width:100%">
                         <img src="/public_files/images/home/mobile-banner-1.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <div class="col-12">
@@ -176,7 +176,6 @@ foreach ($allnews as $item) {
                                 </div>
                             </div>
                         </div>
-
                     </div>
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
