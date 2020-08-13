@@ -6093,7 +6093,7 @@ li a .country-name {
 
 @media (min-width:1440px) {
     .swiper-slide.home-page a {
-        width: 100%!important
+        width: auto!important
     }
     .swiper-slide.home-page a .min1>img {
         width: 100%!important
