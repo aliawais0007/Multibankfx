@@ -165,7 +165,7 @@ foreach ($allnews as $item) {
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-1.jpg'); width:100%">
                         <img src="/public_files/images/home/mobile-banner-1.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
-                            <div class="col-12">
+                            <div class="col-12 justify-content-center flex-column">
                                 <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
                                 <span class="home-banner-title2">ESTABLISHED IN 2005</span>
                             </div>
@@ -182,7 +182,7 @@ foreach ($allnews as $item) {
                 <a>
                     <div class="animate__animated animate__slideInDown animate__delay-.5s animate__slow min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
                         <div class="row justify-content-center align-items-center slider-content swiper-zoom-container">
-                            <div class="col-12">
+                            <div class="col-12 justify-content-center flex-column">
                                 <span class="home-banner-title1 text-uppercase">Enjoy the highest level of funds security</span>
                                 <span class="home-banner-title2">Trade With The Industry Leader</span>
                             </div>
