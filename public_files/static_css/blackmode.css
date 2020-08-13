@@ -12961,5 +12961,5 @@ a.custom-nav-2-link {
 }
 
 #swiper-container-lp .swiper-slide .min1 {
-    height: calc(100vh - 230px);
+    height: calc(100vh - 230px) !important;
 }
