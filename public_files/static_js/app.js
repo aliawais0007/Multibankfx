@@ -1431,8 +1431,7 @@ $(window).resize(function(e) {
 })
 
 $(document).ready(() => {
-    $('.slide-bar-toggle').click(function toggle() {
-        debugger
+    $('.slide-bar-toggle').on('mouseenter', function() {
         if ($('.slidebar-parent').css('display') == "none") {
             $('.slidebar-parent').show(50);
             $('.slidebar-m').show(250);
