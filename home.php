@@ -153,15 +153,11 @@ foreach ($allnews as $item) {
                         <div class="animate__animated animate__slideInDown animate__delay-.5s animate__slow row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
                             <span class="home-banner-title2">ESTABLISHED IN 2005</span>
-                            <div class="home-banner-container">
-                                <div class="row">
-                                    <div class="col-12 d-flex justify-content-center demo-btn-custom ">
-                                        <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
-                                            <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
-                                            <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
-                                        </div>
+                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                                    <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
+                                        <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
+                                        <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -170,17 +166,14 @@ foreach ($allnews as $item) {
                         <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
                             <span class="home-banner-title2">ESTABLISHED IN 2005</span>
-                        </div>
-                        <div class="home-banner-container">
-                            <div class="row">
-                                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
                                     <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
                                         <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
                                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
                                     </div>
-                                </div>
                             </div>
                         </div>
+                    
                     </div>
                 </a>
             </div>
@@ -190,34 +183,28 @@ foreach ($allnews as $item) {
                         <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <span class="home-banner-title1 text-uppercase">Enjoy the highest level of funds security</span>
                             <span class="home-banner-title2">Trade With The Industry Leader</span>
-                        </div>
-                        <div class="home-banner-container">
-                            <div class="row">
-                                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
                                     <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
                                         <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
                                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
                                     </div>
-                                </div>
                             </div>
                         </div>
+                  
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-2.jpg');">
                         <img src="/public_files/images/home/mobile-banner-2.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content">
                             <span class="home-banner-title1 text-uppercase">Enjoy the highest level of funds security</span>
                             <span class="home-banner-title2">Trade With The Industry Leader</span>
-                        </div>
-                        <div class="home-banner-container">
-                            <div class="row">
-                                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
                                     <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
                                         <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
                                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
                                     </div>
-                                </div>
                             </div>
                         </div>
+                   
                     </div>
                 </a>
             </div>
@@ -227,32 +214,30 @@ foreach ($allnews as $item) {
                         <div class="row flex-column justify-content-center align-items-center slider-content">
                             <span class="home-banner-title1">Improved trading functionalities</span>
                             <span class="home-banner-title2">MULTIBANK OFFERS MT5 PLATFORM</span>
-                        </div>
-                        <div class="home-banner-container">
-                            <div class="row">
-                                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
                                     <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
                                         <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
                                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
                                     </div>
-                                </div>
                             </div>
                         </div>
+                       
                     </div>
                     <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-3.jpg');">
                         <img src="/public_files/images/home/mobile-banner-3.jpg" />
                         <div class="row flex-column justify-content-center align-items-center slider-content">
                             <span class="home-banner-title1">Improved trading functionalities</span>
                             <span class="home-banner-title2">MULTIBANK OFFERS MT5 PLATFORM</span>
-                        </div>
-                        <div class="home-banner-container">
-                            <div class="row">
-                                <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
                                     <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
                                         <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
                                         <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
                                     </div>
-                                </div>
+                            </div>
+                        </div>
+                        <div class="home-banner-container">
+                            <div class="row">
+                               
                             </div>
                         </div>
                     </div>
