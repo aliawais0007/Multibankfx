@@ -150,7 +150,7 @@ foreach ($allnews as $item) {
             <div class="swiper-slide home-page" style="overflow: hidden;">
                 <a>
                     <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg');">
-                        <div class="animate__animated animate__slideInDown animate__delay-.5s animate__slow row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
+                        <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                             <div class="col-12">
                                 <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
                                 <span class="home-banner-title2">ESTABLISHED IN 2005</span>
