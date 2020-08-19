@@ -68,6 +68,7 @@ $(function() {
 
     $('.nav-menu-hamburger').click(function() {
         $('.nav-menu-mobile').toggle();
+        debugger
     });
 });
 
@@ -859,16 +860,18 @@ var jointAccountDocFields = {
 // Regulations
 //Regulations page start
 $(document).ready(function() {
+    $('.home-banner-title1').show(100);
+    $('.home-banner-title2').show(100);
     // language click dropsown
     $('.lang-menu').click(() => {
         $('.lang-menu-dropdown').toggle();
         $('.nav-menu').hide();
     });
     $('.btn-navy').mouseover(() => {
-        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
     })
     $('.btn-navy').mouseleave(() => {
-        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
     })
 
 
@@ -892,14 +895,14 @@ $(document).ready(function() {
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
             $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360_dark.png');
             $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
-            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
             $('#darkmode-text').html('Enable Light Mode')
         } else {
             toggleSwitch.checked = false;
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
             $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
             $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
-            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
             $('#darkmode-text').html('Enable Dark Mode')
         }
     }
@@ -911,7 +914,7 @@ $(document).ready(function() {
             localStorage.setItem('theme', 'dark');
             $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
             $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
             $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
             $('#darkmode-text').html('Enable Light Mode');
 
@@ -923,7 +926,7 @@ $(document).ready(function() {
             $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
             $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
             $('#darkmode-text').html('Enable Dark Mode');
-            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
 
         }
     }
@@ -1348,8 +1351,8 @@ $(document).ready(function() {
             },
             //autoplay:{delay: 5000, },
             updateOnImagesReady: true,
-            slidesPerView: 7,
-            spaceBetween: 20,
+            slidesPerView: 5,
+            spaceBetween: 30,
             grabCursor: true,
             loop: true,
             breakpoints: {
@@ -1376,9 +1379,9 @@ $(document).ready(function() {
         if ($(window).width() > 991) {
             $('#about-page-awards .width-30').removeClass('width-30');
             $('#about-page-awards .width-40').removeClass('width-40');
-            obj.slides.eq(obj.activeIndex + 3).addClass('width-40');
+            obj.slides.eq(obj.activeIndex + 2).addClass('width-40');
             for (var i = 0; i < obj.slides.length; i++) {
-                if (i != obj.activeIndex + 3) {
+                if (i != obj.activeIndex + 2) {
                     obj.slides.eq(i).addClass('width-30');
                 }
             }

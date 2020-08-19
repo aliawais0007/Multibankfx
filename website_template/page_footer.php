@@ -148,7 +148,7 @@
     </div>
 </div>
 <div class="slidebar-d">
-        <a class="get-a-all-btn call-btn slidebar-pn" href="">
+        <a class="get-a-all-btn call-btn slidebar-pn-d" href="">
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
@@ -170,6 +170,7 @@
                 $('#header-pn').html(`${data.Phone}`);
                 $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
                 $('#header-pn, .slidebar-pn').attr('href', `tel:${data.Phone}?call`);
+                $('.slidebar-pn-d').attr('href', `tel:${data.Phone}?call`);
             }
         });
         if($('#header-pn').html()=="")
@@ -177,6 +178,7 @@
                 $('#header-pn, .slidebar-pn').html("+1 213 992 4748");
                 $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
                 $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
+                $('.slidebar-pn-d').attr('href', `tel:'+1 213 992 4748?call`);
             }
     } );       
     }, "jsonp");

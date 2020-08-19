@@ -1,7 +1,7 @@
 <div class="header sticky-top">
-    <div class="header-top d-none d-md-block">
+    <div class="header-top d-none d-md-block ">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 header-top-parent-left">
                 <ul class="header-top-left-menu hide-1024">
                     <li class="border-right hide-1200">Regulated and authorized by <a style="text-decoration: underline;">ASIC </a> and <a style="text-decoration: underline;">FSC</a></li>
                     <li class="border-right hide-1024"><i class="ti-world">&nbsp;</i> <span><?php translate('Global Alexa Ranking:'); ?>14224</span></li>
@@ -17,9 +17,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-6 col-12 header-top-right-menu text-nowrap">
-                <a class="d-none top-btn-1 btn btn-sm mr-1 header-mb-btn align-items-center" href="/account/live-account.php"><i class="ti-user">&nbsp;</i><?php translate('Live Account'); ?></a>
-                <a class="d-none top-btn-2 btn btn-sm hide-768 mr-1 align-items-center" href="/demo-competition.php"><i class="ti-desktop">&nbsp;</i><?php translate('Demo Account') ?></a>
+            <div class="col-md-6 col-12 header-top-right-menu text-nowrap header-top-parent-right">
+                <a class="d-none top-btn-1 btn btn-sm mr-1 header-mb-btn align-items-center" href="/account/live-account.php"><i class="ti-user">&nbsp;</i><?php translate('Live Trading'); ?></a>
+                <a class="d-none top-btn-2 btn btn-sm hide-768 mr-1 align-items-center" href="/demo-competition.php"><i class="ti-desktop">&nbsp;</i><?php translate('Simulated Trading') ?></a>
                 <a class="btn btn-sm btn-gold mr-1 header-mb-btn d-md-flex d-none align-items-center" href="" id="header-pn"></a>
                 <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1 d-flex align-items-center" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"><img alt="" data-entity-type="" data-entity-uuid="" height="12px" src="" width="auto;" /> </span>&nbsp;<?php translate('MyMultibank'); ?></a>
                 <!-- <a class="btn btn-sm btn-grey hide-768 mr-1 d-flex align-items-center" href="/partnership/introducing-brokers.php"><i style="font-family: 'icomoon' !important; font-size:9px; font-style: normal; margin-right: 5px;">&nbsp;&#xe920;</i><?php translate('IB Registration'); ?></a> -->
