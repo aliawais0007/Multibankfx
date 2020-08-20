@@ -146,7 +146,9 @@
     <div class="swiper-container" id="swiper-container-lp">
         <div class="swiper-wrapper">
             <div class="swiper-slide home-page" style="overflow: hidden;">
-                <div class="min1 d-none d-md-block" style="background:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg')">
+                <div class="min1 d-none d-md-block" style="background:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg')">
+                    <!-- <div id="player" style="pointer-events: none;"></div> -->
+                    <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/457QPGzux9M?rel=0?version=3&amp;autoplay=1&amp;controls=0&amp;&amp;showinfo=0&amp;loop=1&amp;modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     <div class="row flex-nowrap flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                         <div class="col-12 flex-none d-flex justify-content-center flex-column">
                             <span class="home-banner-title1">WORLD'S NO.1 FOREX & CFD BROKER</span>
@@ -154,63 +156,63 @@
                         </div>
                         <div class="col-12 d-flex flex-none justify-content-center demo-btn-custom ">
                             <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
-                                <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Live Trading</a>
-                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading</a>
+                                <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Live Trading<br><span class="banner-btn">Free $100 Credit</span></a>
+                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading<br><span class="banner-btn">Real Market Conditions</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-1.jpg'); width:100%">
-                    <img src="/public_files/images/home/mobile-banner-1.jpg" />
+                    <img src="/public_files/images/home/mobile-banner-2.jpg" style="width:100%" />
                     <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                         <div class="col-12 d-flex justify-content-center flex-column">
                             <span class="home-banner-title1">WORLD'S NO.1 FOREX & CFD BROKER</span>
                             <span class="home-banner-title2">Established In 2005</span>
                         </div>
-                        <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                        <div class="col-12 d-flex flex-none justify-content-center demo-btn-custom ">
                             <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
-                                <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Live Trading</a>
-                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading</a>
+                                <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Live Trading<br><span class="banner-btn">Free $100 Credit</span></a>
+                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading<br><span class="banner-btn">Real Market Conditions</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="swiper-slide home-page" style="overflow: hidden;">
-                <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg'); width:100%">
+                <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/20-bonusbanner.jpg'); width:100%">
                     <div class="row flex-nowrap flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                         <div class="col-12 d-flex justify-content-center flex-column">
-                            <span class="home-banner-title1 text-uppercase">TRADE WITH THE INDUSTRY LEADER</span>
-                            <span class="home-banner-title2">Enjoy the highest level of funds security</span>
+                            <span class="home-banner-title1 text-uppercase">20% BONUS ON DEPOSIT </span>
+                            <span class="home-banner-title2">Both Tradable & Withdrawable</span>
                         </div>
                         <div class="col-12 d-flex justify-content-center demo-btn-custom ">
                             <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
-                                <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Live Trading</a>
-                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading</a>
+                                <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Claim Bonus<br><span class="banner-btn">For MT4 & MT5 Platforms</span></a>
+                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading<br><span class="banner-btn">Everything You Need To Know</span></a>
                             </div>
                         </div>
                     </div>
 
                 </div>
                 <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-2.jpg');width:100%">
-                    <img src="/public_files/images/home/mobile-banner-2.jpg" />
+                    <img src="/public_files/images/home/20-bonusbanner-1258x1920.jpg" style="width:100%" />
                     <div class="row justify-content-center align-items-center slider-content swiper-zoom-container">
                         <div class="col-12 d-flex justify-content-center flex-column">
-                            <span class="home-banner-title1 text-uppercase">TRADE WITH THE INDUSTRY LEADER</span>
-                            <span class="home-banner-title2">Enjoy the highest level of funds security</span>
+                            <span class="home-banner-title1 text-uppercase">20% BONUS ON DEPOSIT</span>
+                            <span class="home-banner-title2">Both Tradable And withdrawable</span>
                         </div>
                         <div class="col-12 d-flex justify-content-center demo-btn-custom ">
                             <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
-                                <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Live Trading</a>
-                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading</a>
+                                <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Claim Bonus<br><span class="banner-btn">For MT4 & MT5 Platforms</span></a>
+                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Learn More<br><span class="banner-btn">Everything You Need To Know</span></a>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div class="swiper-slide home-page" style="overflow: hidden;">
-                <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg'); width:100%">
+            <!-- <div class="swiper-slide home-page" style="overflow: hidden;">
+                <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/banner-01.jpg'); width:100%">
                     <div class="row flex-nowrap flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
                         <div class="col-12 d-flex justify-content-center flex-column">
                             <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
@@ -219,7 +221,7 @@
                         <div class="col-12 d-flex justify-content-center demo-btn-custom ">
                             <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
                                 <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Live Trading</a>
-                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading</a>
+                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -239,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div> -->
         <!-- <div class="swiper-button-next swiper-button-white"></div>
@@ -519,7 +521,7 @@
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                             <div class="row platforms-content">
-                                <div class="col-md-5 offset-md-1 mb-3 br-1 d-md-block d-none">
+                                <div class="col-md-5 offset-md-1 mb-3 br-1 ">
                                     <div class="card custom-card-platform">
                                         <img class="img-responsive custom-img-plat" src="/public_files/images/common/ECN-PRO.png" alt="Card image">
                                         <div class="card-body ">
@@ -541,14 +543,14 @@
                                                 </span>
                                             </div>
                                             <div class="text-center pt-5">
-                                               <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
 
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
-                                    <div class="card custom-card-platform d-md-block d-none">
+                                    <div class="card custom-card-platform">
                                         <img class="img-responsive custom-img-plat" src="/public_files/images/common/MAXIMUS.png" alt="Card image">
                                         <div class="card-body">
                                             <h4 class="card-title text-center">MAXIMUS</h4>
@@ -564,14 +566,14 @@
                                                 <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
                                             </div>
                                             <div class="text-center pt-5">
-                                               <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="row platforms-content d-md-none d-block platform-slide">
+                            <!-- <div class="row platforms-content d-md-none d-block platform-slide">
                                 <div class="col-12">
                                     <div class="card custom-card-platform ">
                                         <img class="img-responsive custom-img-plat" src="/public_files/images/common/ECN-PRO.png" alt="Card image">
@@ -594,7 +596,7 @@
                                                 </span>
                                             </div>
                                             <div class="text-center pt-5">
-                                               <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
 
                                             </div>
                                         </div>
@@ -617,14 +619,14 @@
                                                 <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
                                             </div>
                                             <div class="text-center pt-5">
-                                               <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
 
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                            </div>
+                            </div> -->
                         </div>
                         <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                             <div class="row platforms-content mt-5">
@@ -647,7 +649,7 @@
                                                 <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
                                             </div>
                                             <div class="text-center pt-5">
-                                              <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
 
                                             </div>
                                         </div>
@@ -672,7 +674,7 @@
                                                 <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
                                             </div>
                                             <div class="text-center pt-5">
-                                              <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
 
                                             </div>
                                         </div>
@@ -694,7 +696,7 @@
                                                 <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
                                             </div>
                                             <div class="text-center pt-5">
-                                              <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
 
                                             </div>
                                         </div>
@@ -721,7 +723,7 @@
                                                 <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
                                             </div>
                                             <div class="text-center pt-5">
-                                              <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
 
                                             </div>
                                         </div>
@@ -746,7 +748,7 @@
                                                 <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
                                             </div>
                                             <div class="text-center pt-5">
-                                              <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
 
                                             </div>
                                         </div>
@@ -771,7 +773,7 @@
                                                 <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
                                             </div>
                                             <div class="text-center pt-5">
-                                              <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
 
                                             </div>
                                         </div>
@@ -783,11 +785,9 @@
                             <div class="row platforms-content mt-5">
                                 <div class="col-md-6 offset-md-3 col-12 text-center imulti-custom">
                                     <h4>Multibank institutional</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
+                                    <p>MultiBank Institutional provides bespoke liquidity, trading & custody solutions to institutions backed by leading-edge trading technologies and infrastructure. Our institutional solutions minimize trading & operational costs, provide risk management and as a result improve your business’ profitability.</p>
                                     <div class="text-center pt-5">
-                                        <a href="£" class="btn btn-learn-more">Learn More</a>
+                                        <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
 
                                     </div>
                                 </div>
@@ -1386,12 +1386,12 @@
         <div class="container">
             <div class="row ">
                 <div class="col-lg-12 ">
-                    <h3 class="mex-h1 mex-m-t-50 mex-m-b-30 text-1e32a3 text-center">Partnership</h3>
+                    <h3 class="mex-h1 mb-0 text-1e32a3 text-center">Partnership</h3>
                 </div>
                 <div class="col-12 col-md-12 col-xl-6 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/introducing-brokers">
-                            <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
+                            <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-introducing-brokers.jpg">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                     Introducing Brokers
@@ -1403,7 +1403,7 @@
                                     of over 30,000
                                     Introducing Brokers and enjoy the highest levels of personalized customer care.
                                 </p>
-                               <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                             </div>
                         </a>
                     </section>
@@ -1411,7 +1411,7 @@
                 <div class="col-12 col-md-12 col-xl-6 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/franchise-program.php">
-                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-franchise-program.jpg" alt="Franchise Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                     Franchise Program </div>
@@ -1422,7 +1422,7 @@
                                     services in the
                                     region
                                 </p>
-                               <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                             </div>
                         </a>
                     </section>
@@ -1430,8 +1430,8 @@
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/white-label.php">
-                            <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
-                            ">
+                            <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-white-label.jpg">
+
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                     White Label </div>
@@ -1443,7 +1443,7 @@
                                     branded in your
                                     corporate name
                                 </p>
-                               <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                             </div>
                         </a>
                     </section>
@@ -1451,7 +1451,7 @@
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/prime-of-primes.php">
-                            <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                            <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-prime-of-primes.jpg">
                             <div class="card-content text-left">
                                 <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
                                     Prime of Primes </div>
@@ -1461,7 +1461,7 @@
                                 <p>
                                     A to Z prime technology solution for MultiBank’s institutional partners
                                 </p>
-                               <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                             </div>
                         </a>
                     </section>
@@ -1469,7 +1469,7 @@
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/cpa-affiliate-program.php">
-                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnership_cpa_affiliate_program_newx.png" alt="CPA Affiliate Program">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-cpa-affiliate-program.jpg" alt="CPA Affiliate Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                     CPA Affiliate Program </div>
@@ -1480,55 +1480,57 @@
                                     every active trader
                                     they introduce
                                 </p>
-                               <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                             </div>
                         </a>
                     </section>
                 </div>
             </div>
         </div>
-        <div class="row d-block d-md-none">
-            <div class="col-12 col-md-12 col-xl-8 mex-m-b-10 custom-card-img">
-                <div class="card">
-                    <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
-                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                        <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
-                            Introducing Brokers </div>
-                        <div class="mex-content mb0 text-overflow-3"> <a href="/partnership/introducing-brokers.php" class="btn btn-mex text-white">Learn
-                                More</a>
+        <div class="container">
+            <div class="row d-block d-md-none">
+                <div class="col-12 col-md-12 col-xl-8 mex-m-b-10 custom-card-img">
+                    <div class="card">
+                        <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-introducing-brokers.jpg">
+                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
+                            <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
+                                Introducing Brokers </div>
+                            <div class="mex-content mb0 text-overflow-3"> <a href="/partnership/introducing-brokers.php" class="btn btn-mex text-white">Learn
+                                    More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
-                <div class="card">
-                    <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
-                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                        <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
-                            Franchise Program </div>
-                        <div class="mex-content mb0 text-overflow-3"> <a href="/partnership/franchise-program.php" class="btn btn-mex text-white">Learn
-                                More</a></div>
+                <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
+                    <div class="card">
+                        <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-franchise-program.jpg" alt="Franchise Program">
+                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
+                            <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
+                                Franchise Program </div>
+                            <div class="mex-content mb0 text-overflow-3"> <a href="/partnership/franchise-program.php" class="btn btn-mex text-white">Learn
+                                    More</a></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
-                <div class="card">
-                    <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
-                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                        <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
-                            White Label </div>
-                        <div class="mex-content mb0 text-overflow-3"> <a href="/partnership/white-label.php" class="btn btn-mex text-white">Learn More</a></div>
+                <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
+                    <div class="card">
+                        <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-prime-of-primes.jpg">
+                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
+                            <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
+                                White Label </div>
+                            <div class="mex-content mb0 text-overflow-3"> <a href="/partnership/white-label.php" class="btn btn-mex text-white">Learn More</a></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img d-none">
-                <div class="card">
-                    <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
-                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                        <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
-                            Prime of Primes </div>
-                        <div class="mex-content mb0 text-overflow-3"> <a href="/partnership/prime-of-primes.php" class="btn btn-mex text-white">Learn
-                                More</a></div>
+                <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img d-none">
+                    <div class="card">
+                        <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
+                            <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
+                                Prime of Primes </div>
+                            <div class="mex-content mb0 text-overflow-3"> <a href="/partnership/prime-of-primes.php" class="btn btn-mex text-white">Learn
+                                    More</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1550,16 +1552,16 @@
                     <h4 class="contact-h4 mb-4">CALL US</h4>
                     <div class="mex-form-item col-8" style="margin-bottom: 10px;padding-left: 0 !important;">
                         <label for="" class="d-none">
-                        </label> 
-                    <select class="country-list" id="myselect">
-                        <option value="UAE">UAE</option>
-                    <option value="SPAIN" >SPAIN</option>
-                    <option value="INDONESIA" >INDONESIA</option>
-                    <option value="MALAYSIA" >MALAYSIA</option>
-                    <option value="USA" >USA</option>
-                    
-                    </select>
-                </div>
+                        </label>
+                        <select class="country-list" id="myselect">
+                            <option value="UAE">UAE</option>
+                            <option value="SPAIN">SPAIN</option>
+                            <option value="INDONESIA">INDONESIA</option>
+                            <option value="MALAYSIA">MALAYSIA</option>
+                            <option value="USA">USA</option>
+
+                        </select>
+                    </div>
                     <!-- <div class="dropdown custom-dropdown">
                         <button type="button" class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           UAE
@@ -1573,9 +1575,9 @@
                         </div>
                       </div> -->
 
-                      <ul class="contact-country">
-                        <li class="d-block"  id="uae"><a href="tel:+60322010966?call"><img alt="uae" class="country-icon" data-entity-type="" data-entity-uuid="" src="./public_files/images/common/country/uae.png">
-                            <span> <strong class="country-name">UAE:</strong> +971 4 875 1311</span> </a></li>
+                    <ul class="contact-country">
+                        <li class="d-block" id="uae"><a href="tel:+60322010966?call"><img alt="uae" class="country-icon" data-entity-type="" data-entity-uuid="" src="./public_files/images/common/country/uae.png">
+                                <span> <strong class="country-name">UAE:</strong> +971 4 875 1311</span> </a></li>
                         <li class="d-none" id="usa"><a href="tel:+12139924748?call"><img alt="US" class="country-icon" data-entity-type="" data-entity-uuid="" src="./public_files/images/common/country/usa_big.png">
                                 <span> <strong class="country-name">US:</strong> +1 213 992 4748 </span> </a></li>
                         <li class="d-none" id="spain"><a href="tel:+34931220671?call"><img alt="Spain" class="country-icon" data-entity-type="" data-entity-uuid="" src="./public_files/images/common/country/spain_big.png">
@@ -1585,7 +1587,7 @@
                         <li class="d-none" id="malay"><a href="tel:+60322010966?call"><img alt="Malaysia" class="country-icon" data-entity-type="" data-entity-uuid="" src="./public_files/images/common/country/malaysia_big.png">
                                 <span> <strong class="country-name">Malaysia:</strong> +60 32 201 0966</span> </a></li>
 
-                        
+
                     </ul>
 
                     <h4 class="contact-h4 mb-4 mt-5">eMAIL US</h4>
@@ -1611,7 +1613,7 @@
                                 <span><i class="fa fa-instagram"></i></span>
                             </a>
                         </li>
-                        </ul>
+                    </ul>
                 </div>
                 <div class="col-md-8 col-12 div-form">
                     <h4 class="contact-h4 mb-4">Get a Call back</h4>
@@ -1628,7 +1630,7 @@
                             <div class="mex-form-item col-6 col-md-3 p-1 cb-partnership font-16" style="
                             margin-bottom: 10px;
                         ">
-                                
+
                                 <div class="form-check form-check-inline"><input data-message="Account Type is Required." data-extra-message="Full Name Invalid." class="   " name="account_type" type="radio" required="" value="1" checked="">
                                     <label class="mb-0 ml-1" for="">INDIVIDUAL</label>
                                 </div>
@@ -1636,7 +1638,7 @@
                             <div class="mex-form-item col-6 col-md-3 p-1 cb-partnership font-16" style="
                             margin-bottom: 10px;
                         ">
-                                
+
                                 <div class="form-check form-check-inline"><input data-message="" data-extra-message="Full Name Invalid." class="   " name="account_type" type="radio" required="" value="2">
                                     <label class="mb-0 ml-1" for="">PARTNERSHIP</label>
                                 </div>
@@ -1665,7 +1667,7 @@
                             <div class="d-none">
                                 <label for="" class="d-none">
                                 </label>
-                               
+
                                 <select data-message="Country Name is Required." data-extra-message="Country Name Invalid." class="selection-country form-control &nbsp;mb-0 select_with_country select_with_country" name="country_name" required="">
                                     <option value="" selected="selected">Select Country</option>
                                     <option data-country_iso_code="AF" data-name="AF" value="AF">AFGHANISTAN</option>
@@ -1988,249 +1990,249 @@
                             </div> -->
                             <div class="mex-form-item col-md-11 col-12 p-1" style="margin-block: 10p;">
                                 <label for="" class="d-none">
-                                </label> 
+                                </label>
                                 <select class="country-list">
                                     <option value="Afghanistan">Afghanistan</option>
-                                <option value="Albania">Albania</option>
-                                <option value="Algeria">Algeria</option>
-                                <option value="American Samoa">American Samoa</option>
-                                <option value="Andorra">Andorra</option>
-                                <option value="Angola">Angola</option>
-                                <option value="Anguilla">Anguilla</option>
-                                <option value="Antartica">Antarctica</option>
-                                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                <option value="Argentina">Argentina</option>
-                                <option value="Armenia">Armenia</option>
-                                <option value="Aruba">Aruba</option>
-                                <option value="Australia">Australia</option>
-                                <option value="Austria">Austria</option>
-                                <option value="Azerbaijan">Azerbaijan</option>
-                                <option value="Bahamas">Bahamas</option>
-                                <option value="Bahrain">Bahrain</option>
-                                <option value="Bangladesh">Bangladesh</option>
-                                <option value="Barbados">Barbados</option>
-                                <option value="Belarus">Belarus</option>
-                                <option value="Belgium">Belgium</option>
-                                <option value="Belize">Belize</option>
-                                <option value="Benin">Benin</option>
-                                <option value="Bermuda">Bermuda</option>
-                                <option value="Bhutan">Bhutan</option>
-                                <option value="Bolivia">Bolivia</option>
-                                <option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
-                                <option value="Botswana">Botswana</option>
-                                <option value="Bouvet Island">Bouvet Island</option>
-                                <option value="Brazil">Brazil</option>
-                                <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
-                                <option value="Brunei Darussalam">Brunei Darussalam</option>
-                                <option value="Bulgaria">Bulgaria</option>
-                                <option value="Burkina Faso">Burkina Faso</option>
-                                <option value="Burundi">Burundi</option>
-                                <option value="Cambodia">Cambodia</option>
-                                <option value="Cameroon">Cameroon</option>
-                                <option value="Canada">Canada</option>
-                                <option value="Cape Verde">Cape Verde</option>
-                                <option value="Cayman Islands">Cayman Islands</option>
-                                <option value="Central African Republic">Central African Republic</option>
-                                <option value="Chad">Chad</option>
-                                <option value="Chile">Chile</option>
-                                <option value="China">China</option>
-                                <option value="Christmas Island">Christmas Island</option>
-                                <option value="Cocos Islands">Cocos (Keeling) Islands</option>
-                                <option value="Colombia">Colombia</option>
-                                <option value="Comoros">Comoros</option>
-                                <option value="Congo">Congo</option>
-                                <option value="Congo">Congo, the Democratic Republic of the</option>
-                                <option value="Cook Islands">Cook Islands</option>
-                                <option value="Costa Rica">Costa Rica</option>
-                                <option value="Cota D'Ivoire">Cote d'Ivoire</option>
-                                <option value="Croatia">Croatia (Hrvatska)</option>
-                                <option value="Cuba">Cuba</option>
-                                <option value="Cyprus">Cyprus</option>
-                                <option value="Czech Republic">Czech Republic</option>
-                                <option value="Denmark">Denmark</option>
-                                <option value="Djibouti">Djibouti</option>
-                                <option value="Dominica">Dominica</option>
-                                <option value="Dominican Republic">Dominican Republic</option>
-                                <option value="East Timor">East Timor</option>
-                                <option value="Ecuador">Ecuador</option>
-                                <option value="Egypt">Egypt</option>
-                                <option value="El Salvador">El Salvador</option>
-                                <option value="Equatorial Guinea">Equatorial Guinea</option>
-                                <option value="Eritrea">Eritrea</option>
-                                <option value="Estonia">Estonia</option>
-                                <option value="Ethiopia">Ethiopia</option>
-                                <option value="Falkland Islands">Falkland Islands (Malvinas)</option>
-                                <option value="Faroe Islands">Faroe Islands</option>
-                                <option value="Fiji">Fiji</option>
-                                <option value="Finland">Finland</option>
-                                <option value="France">France</option>
-                                <option value="France Metropolitan">France, Metropolitan</option>
-                                <option value="French Guiana">French Guiana</option>
-                                <option value="French Polynesia">French Polynesia</option>
-                                <option value="French Southern Territories">French Southern Territories</option>
-                                <option value="Gabon">Gabon</option>
-                                <option value="Gambia">Gambia</option>
-                                <option value="Georgia">Georgia</option>
-                                <option value="Germany">Germany</option>
-                                <option value="Ghana">Ghana</option>
-                                <option value="Gibraltar">Gibraltar</option>
-                                <option value="Greece">Greece</option>
-                                <option value="Greenland">Greenland</option>
-                                <option value="Grenada">Grenada</option>
-                                <option value="Guadeloupe">Guadeloupe</option>
-                                <option value="Guam">Guam</option>
-                                <option value="Guatemala">Guatemala</option>
-                                <option value="Guinea">Guinea</option>
-                                <option value="Guinea-Bissau">Guinea-Bissau</option>
-                                <option value="Guyana">Guyana</option>
-                                <option value="Haiti">Haiti</option>
-                                <option value="Heard and McDonald Islands">Heard and Mc Donald Islands</option>
-                                <option value="Holy See">Holy See (Vatican City State)</option>
-                                <option value="Honduras">Honduras</option>
-                                <option value="Hong Kong">Hong Kong</option>
-                                <option value="Hungary">Hungary</option>
-                                <option value="Iceland">Iceland</option>
-                                <option value="India">India</option>
-                                <option value="Indonesia">Indonesia</option>
-                                <option value="Iran">Iran (Islamic Republic of)</option>
-                                <option value="Iraq">Iraq</option>
-                                <option value="Ireland">Ireland</option>
-                                <option value="Israel">Israel</option>
-                                <option value="Italy">Italy</option>
-                                <option value="Jamaica">Jamaica</option>
-                                <option value="Japan">Japan</option>
-                                <option value="Jordan">Jordan</option>
-                                <option value="Kazakhstan">Kazakhstan</option>
-                                <option value="Kenya">Kenya</option>
-                                <option value="Kiribati">Kiribati</option>
-                                <option value="Democratic People's Republic of Korea">Korea, Democratic People's Republic of</option>
-                                <option value="Korea">Korea, Republic of</option>
-                                <option value="Kuwait">Kuwait</option>
-                                <option value="Kyrgyzstan">Kyrgyzstan</option>
-                                <option value="Lao">Lao People's Democratic Republic</option>
-                                <option value="Latvia">Latvia</option>
-                                <option value="Lebanon" selected="">Lebanon</option>
-                                <option value="Lesotho">Lesotho</option>
-                                <option value="Liberia">Liberia</option>
-                                <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
-                                <option value="Liechtenstein">Liechtenstein</option>
-                                <option value="Lithuania">Lithuania</option>
-                                <option value="Luxembourg">Luxembourg</option>
-                                <option value="Macau">Macau</option>
-                                <option value="Macedonia">Macedonia, The Former Yugoslav Republic of</option>
-                                <option value="Madagascar">Madagascar</option>
-                                <option value="Malawi">Malawi</option>
-                                <option value="Malaysia">Malaysia</option>
-                                <option value="Maldives">Maldives</option>
-                                <option value="Mali">Mali</option>
-                                <option value="Malta">Malta</option>
-                                <option value="Marshall Islands">Marshall Islands</option>
-                                <option value="Martinique">Martinique</option>
-                                <option value="Mauritania">Mauritania</option>
-                                <option value="Mauritius">Mauritius</option>
-                                <option value="Mayotte">Mayotte</option>
-                                <option value="Mexico">Mexico</option>
-                                <option value="Micronesia">Micronesia, Federated States of</option>
-                                <option value="Moldova">Moldova, Republic of</option>
-                                <option value="Monaco">Monaco</option>
-                                <option value="Mongolia">Mongolia</option>
-                                <option value="Montserrat">Montserrat</option>
-                                <option value="Morocco">Morocco</option>
-                                <option value="Mozambique">Mozambique</option>
-                                <option value="Myanmar">Myanmar</option>
-                                <option value="Namibia">Namibia</option>
-                                <option value="Nauru">Nauru</option>
-                                <option value="Nepal">Nepal</option>
-                                <option value="Netherlands">Netherlands</option>
-                                <option value="Netherlands Antilles">Netherlands Antilles</option>
-                                <option value="New Caledonia">New Caledonia</option>
-                                <option value="New Zealand">New Zealand</option>
-                                <option value="Nicaragua">Nicaragua</option>
-                                <option value="Niger">Niger</option>
-                                <option value="Nigeria">Nigeria</option>
-                                <option value="Niue">Niue</option>
-                                <option value="Norfolk Island">Norfolk Island</option>
-                                <option value="Northern Mariana Islands">Northern Mariana Islands</option>
-                                <option value="Norway">Norway</option>
-                                <option value="Oman">Oman</option>
-                                <option value="Pakistan">Pakistan</option>
-                                <option value="Palau">Palau</option>
-                                <option value="Panama">Panama</option>
-                                <option value="Papua New Guinea">Papua New Guinea</option>
-                                <option value="Paraguay">Paraguay</option>
-                                <option value="Peru">Peru</option>
-                                <option value="Philippines">Philippines</option>
-                                <option value="Pitcairn">Pitcairn</option>
-                                <option value="Poland">Poland</option>
-                                <option value="Portugal">Portugal</option>
-                                <option value="Puerto Rico">Puerto Rico</option>
-                                <option value="Qatar">Qatar</option>
-                                <option value="Reunion">Reunion</option>
-                                <option value="Romania">Romania</option>
-                                <option value="Russia">Russian Federation</option>
-                                <option value="Rwanda">Rwanda</option>
-                                <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option> 
-                                <option value="Saint LUCIA">Saint LUCIA</option>
-                                <option value="Saint Vincent">Saint Vincent and the Grenadines</option>
-                                <option value="Samoa">Samoa</option>
-                                <option value="San Marino">San Marino</option>
-                                <option value="Sao Tome and Principe">Sao Tome and Principe</option> 
-                                <option value="Saudi Arabia">Saudi Arabia</option>
-                                <option value="Senegal">Senegal</option>
-                                <option value="Seychelles">Seychelles</option>
-                                <option value="Sierra">Sierra Leone</option>
-                                <option value="Singapore">Singapore</option>
-                                <option value="Slovakia">Slovakia (Slovak Republic)</option>
-                                <option value="Slovenia">Slovenia</option>
-                                <option value="Solomon Islands">Solomon Islands</option>
-                                <option value="Somalia">Somalia</option>
-                                <option value="South Africa">South Africa</option>
-                                <option value="South Georgia">South Georgia and the South Sandwich Islands</option>
-                                <option value="Span">Spain</option>
-                                <option value="SriLanka">Sri Lanka</option>
-                                <option value="St. Helena">St. Helena</option>
-                                <option value="St. Pierre and Miguelon">St. Pierre and Miquelon</option>
-                                <option value="Sudan">Sudan</option>
-                                <option value="Suriname">Suriname</option>
-                                <option value="Svalbard">Svalbard and Jan Mayen Islands</option>
-                                <option value="Swaziland">Swaziland</option>
-                                <option value="Sweden">Sweden</option>
-                                <option value="Switzerland">Switzerland</option>
-                                <option value="Syria">Syrian Arab Republic</option>
-                                <option value="Taiwan">Taiwan, Province of China</option>
-                                <option value="Tajikistan">Tajikistan</option>
-                                <option value="Tanzania">Tanzania, United Republic of</option>
-                                <option value="Thailand">Thailand</option>
-                                <option value="Togo">Togo</option>
-                                <option value="Tokelau">Tokelau</option>
-                                <option value="Tonga">Tonga</option>
-                                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
-                                <option value="Tunisia">Tunisia</option>
-                                <option value="Turkey">Turkey</option>
-                                <option value="Turkmenistan">Turkmenistan</option>
-                                <option value="Turks and Caicos">Turks and Caicos Islands</option>
-                                <option value="Tuvalu">Tuvalu</option>
-                                <option value="Uganda">Uganda</option>
-                                <option value="Ukraine">Ukraine</option>
-                                <option value="United Arab Emirates">United Arab Emirates</option>
-                                <option value="United Kingdom">United Kingdom</option>
-                                <option value="United States">United States</option>
-                                <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
-                                <option value="Uruguay">Uruguay</option>
-                                <option value="Uzbekistan">Uzbekistan</option>
-                                <option value="Vanuatu">Vanuatu</option>
-                                <option value="Venezuela">Venezuela</option>
-                                <option value="Vietnam">Viet Nam</option>
-                                <option value="Virgin Islands (British)">Virgin Islands (British)</option>
-                                <option value="Virgin Islands (U.S)">Virgin Islands (U.S.)</option>
-                                <option value="Wallis and Futana Islands">Wallis and Futuna Islands</option>
-                                <option value="Western Sahara">Western Sahara</option>
-                                <option value="Yemen">Yemen</option>
-                                <option value="Serbia">Serbia</option>
-                                <option value="Zambia">Zambia</option>
-                                <option value="Zimbabwe">Zimbabwe</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                    <option value="American Samoa">American Samoa</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Anguilla">Anguilla</option>
+                                    <option value="Antartica">Antarctica</option>
+                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Armenia">Armenia</option>
+                                    <option value="Aruba">Aruba</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Azerbaijan">Azerbaijan</option>
+                                    <option value="Bahamas">Bahamas</option>
+                                    <option value="Bahrain">Bahrain</option>
+                                    <option value="Bangladesh">Bangladesh</option>
+                                    <option value="Barbados">Barbados</option>
+                                    <option value="Belarus">Belarus</option>
+                                    <option value="Belgium">Belgium</option>
+                                    <option value="Belize">Belize</option>
+                                    <option value="Benin">Benin</option>
+                                    <option value="Bermuda">Bermuda</option>
+                                    <option value="Bhutan">Bhutan</option>
+                                    <option value="Bolivia">Bolivia</option>
+                                    <option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+                                    <option value="Botswana">Botswana</option>
+                                    <option value="Bouvet Island">Bouvet Island</option>
+                                    <option value="Brazil">Brazil</option>
+                                    <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                                    <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                    <option value="Bulgaria">Bulgaria</option>
+                                    <option value="Burkina Faso">Burkina Faso</option>
+                                    <option value="Burundi">Burundi</option>
+                                    <option value="Cambodia">Cambodia</option>
+                                    <option value="Cameroon">Cameroon</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Cape Verde">Cape Verde</option>
+                                    <option value="Cayman Islands">Cayman Islands</option>
+                                    <option value="Central African Republic">Central African Republic</option>
+                                    <option value="Chad">Chad</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="China">China</option>
+                                    <option value="Christmas Island">Christmas Island</option>
+                                    <option value="Cocos Islands">Cocos (Keeling) Islands</option>
+                                    <option value="Colombia">Colombia</option>
+                                    <option value="Comoros">Comoros</option>
+                                    <option value="Congo">Congo</option>
+                                    <option value="Congo">Congo, the Democratic Republic of the</option>
+                                    <option value="Cook Islands">Cook Islands</option>
+                                    <option value="Costa Rica">Costa Rica</option>
+                                    <option value="Cota D'Ivoire">Cote d'Ivoire</option>
+                                    <option value="Croatia">Croatia (Hrvatska)</option>
+                                    <option value="Cuba">Cuba</option>
+                                    <option value="Cyprus">Cyprus</option>
+                                    <option value="Czech Republic">Czech Republic</option>
+                                    <option value="Denmark">Denmark</option>
+                                    <option value="Djibouti">Djibouti</option>
+                                    <option value="Dominica">Dominica</option>
+                                    <option value="Dominican Republic">Dominican Republic</option>
+                                    <option value="East Timor">East Timor</option>
+                                    <option value="Ecuador">Ecuador</option>
+                                    <option value="Egypt">Egypt</option>
+                                    <option value="El Salvador">El Salvador</option>
+                                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                    <option value="Eritrea">Eritrea</option>
+                                    <option value="Estonia">Estonia</option>
+                                    <option value="Ethiopia">Ethiopia</option>
+                                    <option value="Falkland Islands">Falkland Islands (Malvinas)</option>
+                                    <option value="Faroe Islands">Faroe Islands</option>
+                                    <option value="Fiji">Fiji</option>
+                                    <option value="Finland">Finland</option>
+                                    <option value="France">France</option>
+                                    <option value="France Metropolitan">France, Metropolitan</option>
+                                    <option value="French Guiana">French Guiana</option>
+                                    <option value="French Polynesia">French Polynesia</option>
+                                    <option value="French Southern Territories">French Southern Territories</option>
+                                    <option value="Gabon">Gabon</option>
+                                    <option value="Gambia">Gambia</option>
+                                    <option value="Georgia">Georgia</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="Ghana">Ghana</option>
+                                    <option value="Gibraltar">Gibraltar</option>
+                                    <option value="Greece">Greece</option>
+                                    <option value="Greenland">Greenland</option>
+                                    <option value="Grenada">Grenada</option>
+                                    <option value="Guadeloupe">Guadeloupe</option>
+                                    <option value="Guam">Guam</option>
+                                    <option value="Guatemala">Guatemala</option>
+                                    <option value="Guinea">Guinea</option>
+                                    <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                    <option value="Guyana">Guyana</option>
+                                    <option value="Haiti">Haiti</option>
+                                    <option value="Heard and McDonald Islands">Heard and Mc Donald Islands</option>
+                                    <option value="Holy See">Holy See (Vatican City State)</option>
+                                    <option value="Honduras">Honduras</option>
+                                    <option value="Hong Kong">Hong Kong</option>
+                                    <option value="Hungary">Hungary</option>
+                                    <option value="Iceland">Iceland</option>
+                                    <option value="India">India</option>
+                                    <option value="Indonesia">Indonesia</option>
+                                    <option value="Iran">Iran (Islamic Republic of)</option>
+                                    <option value="Iraq">Iraq</option>
+                                    <option value="Ireland">Ireland</option>
+                                    <option value="Israel">Israel</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="Jamaica">Jamaica</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="Jordan">Jordan</option>
+                                    <option value="Kazakhstan">Kazakhstan</option>
+                                    <option value="Kenya">Kenya</option>
+                                    <option value="Kiribati">Kiribati</option>
+                                    <option value="Democratic People's Republic of Korea">Korea, Democratic People's Republic of</option>
+                                    <option value="Korea">Korea, Republic of</option>
+                                    <option value="Kuwait">Kuwait</option>
+                                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                    <option value="Lao">Lao People's Democratic Republic</option>
+                                    <option value="Latvia">Latvia</option>
+                                    <option value="Lebanon" selected="">Lebanon</option>
+                                    <option value="Lesotho">Lesotho</option>
+                                    <option value="Liberia">Liberia</option>
+                                    <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                                    <option value="Liechtenstein">Liechtenstein</option>
+                                    <option value="Lithuania">Lithuania</option>
+                                    <option value="Luxembourg">Luxembourg</option>
+                                    <option value="Macau">Macau</option>
+                                    <option value="Macedonia">Macedonia, The Former Yugoslav Republic of</option>
+                                    <option value="Madagascar">Madagascar</option>
+                                    <option value="Malawi">Malawi</option>
+                                    <option value="Malaysia">Malaysia</option>
+                                    <option value="Maldives">Maldives</option>
+                                    <option value="Mali">Mali</option>
+                                    <option value="Malta">Malta</option>
+                                    <option value="Marshall Islands">Marshall Islands</option>
+                                    <option value="Martinique">Martinique</option>
+                                    <option value="Mauritania">Mauritania</option>
+                                    <option value="Mauritius">Mauritius</option>
+                                    <option value="Mayotte">Mayotte</option>
+                                    <option value="Mexico">Mexico</option>
+                                    <option value="Micronesia">Micronesia, Federated States of</option>
+                                    <option value="Moldova">Moldova, Republic of</option>
+                                    <option value="Monaco">Monaco</option>
+                                    <option value="Mongolia">Mongolia</option>
+                                    <option value="Montserrat">Montserrat</option>
+                                    <option value="Morocco">Morocco</option>
+                                    <option value="Mozambique">Mozambique</option>
+                                    <option value="Myanmar">Myanmar</option>
+                                    <option value="Namibia">Namibia</option>
+                                    <option value="Nauru">Nauru</option>
+                                    <option value="Nepal">Nepal</option>
+                                    <option value="Netherlands">Netherlands</option>
+                                    <option value="Netherlands Antilles">Netherlands Antilles</option>
+                                    <option value="New Caledonia">New Caledonia</option>
+                                    <option value="New Zealand">New Zealand</option>
+                                    <option value="Nicaragua">Nicaragua</option>
+                                    <option value="Niger">Niger</option>
+                                    <option value="Nigeria">Nigeria</option>
+                                    <option value="Niue">Niue</option>
+                                    <option value="Norfolk Island">Norfolk Island</option>
+                                    <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                                    <option value="Norway">Norway</option>
+                                    <option value="Oman">Oman</option>
+                                    <option value="Pakistan">Pakistan</option>
+                                    <option value="Palau">Palau</option>
+                                    <option value="Panama">Panama</option>
+                                    <option value="Papua New Guinea">Papua New Guinea</option>
+                                    <option value="Paraguay">Paraguay</option>
+                                    <option value="Peru">Peru</option>
+                                    <option value="Philippines">Philippines</option>
+                                    <option value="Pitcairn">Pitcairn</option>
+                                    <option value="Poland">Poland</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Puerto Rico">Puerto Rico</option>
+                                    <option value="Qatar">Qatar</option>
+                                    <option value="Reunion">Reunion</option>
+                                    <option value="Romania">Romania</option>
+                                    <option value="Russia">Russian Federation</option>
+                                    <option value="Rwanda">Rwanda</option>
+                                    <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                    <option value="Saint LUCIA">Saint LUCIA</option>
+                                    <option value="Saint Vincent">Saint Vincent and the Grenadines</option>
+                                    <option value="Samoa">Samoa</option>
+                                    <option value="San Marino">San Marino</option>
+                                    <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                    <option value="Saudi Arabia">Saudi Arabia</option>
+                                    <option value="Senegal">Senegal</option>
+                                    <option value="Seychelles">Seychelles</option>
+                                    <option value="Sierra">Sierra Leone</option>
+                                    <option value="Singapore">Singapore</option>
+                                    <option value="Slovakia">Slovakia (Slovak Republic)</option>
+                                    <option value="Slovenia">Slovenia</option>
+                                    <option value="Solomon Islands">Solomon Islands</option>
+                                    <option value="Somalia">Somalia</option>
+                                    <option value="South Africa">South Africa</option>
+                                    <option value="South Georgia">South Georgia and the South Sandwich Islands</option>
+                                    <option value="Span">Spain</option>
+                                    <option value="SriLanka">Sri Lanka</option>
+                                    <option value="St. Helena">St. Helena</option>
+                                    <option value="St. Pierre and Miguelon">St. Pierre and Miquelon</option>
+                                    <option value="Sudan">Sudan</option>
+                                    <option value="Suriname">Suriname</option>
+                                    <option value="Svalbard">Svalbard and Jan Mayen Islands</option>
+                                    <option value="Swaziland">Swaziland</option>
+                                    <option value="Sweden">Sweden</option>
+                                    <option value="Switzerland">Switzerland</option>
+                                    <option value="Syria">Syrian Arab Republic</option>
+                                    <option value="Taiwan">Taiwan, Province of China</option>
+                                    <option value="Tajikistan">Tajikistan</option>
+                                    <option value="Tanzania">Tanzania, United Republic of</option>
+                                    <option value="Thailand">Thailand</option>
+                                    <option value="Togo">Togo</option>
+                                    <option value="Tokelau">Tokelau</option>
+                                    <option value="Tonga">Tonga</option>
+                                    <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                    <option value="Tunisia">Tunisia</option>
+                                    <option value="Turkey">Turkey</option>
+                                    <option value="Turkmenistan">Turkmenistan</option>
+                                    <option value="Turks and Caicos">Turks and Caicos Islands</option>
+                                    <option value="Tuvalu">Tuvalu</option>
+                                    <option value="Uganda">Uganda</option>
+                                    <option value="Ukraine">Ukraine</option>
+                                    <option value="United Arab Emirates">United Arab Emirates</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="United States">United States</option>
+                                    <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                                    <option value="Uruguay">Uruguay</option>
+                                    <option value="Uzbekistan">Uzbekistan</option>
+                                    <option value="Vanuatu">Vanuatu</option>
+                                    <option value="Venezuela">Venezuela</option>
+                                    <option value="Vietnam">Viet Nam</option>
+                                    <option value="Virgin Islands (British)">Virgin Islands (British)</option>
+                                    <option value="Virgin Islands (U.S)">Virgin Islands (U.S.)</option>
+                                    <option value="Wallis and Futana Islands">Wallis and Futuna Islands</option>
+                                    <option value="Western Sahara">Western Sahara</option>
+                                    <option value="Yemen">Yemen</option>
+                                    <option value="Serbia">Serbia</option>
+                                    <option value="Zambia">Zambia</option>
+                                    <option value="Zimbabwe">Zimbabwe</option>
                                 </select>
-                                
+
                                 <input type="hidden" name="phone">
                             </div>
                             <!-- <div class="mex-form-item col-6 col-md-6 p-1 sms-code-container">
@@ -2242,19 +2244,22 @@
                             <div class="px-1 font-10" style="padding-top:20px; padding-bottom: 30px;">
                                 <div class="form-check form-check-inline text-submit">
                                     <label class="form-check-label label-1 " for="terms_conditions">By submitting this form,
-                                    you agree to accept the <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>,
+                                        you agree to accept the <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>,
                                         <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
                                     </label>
                                 </div>
                             </div>
                             <div class="text-right" style="position: absolute;
-                            bottom: 3%;
-                            right: 10%;">
-                                <button type="submit" class="btn btn-custom-compare " onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-785e4eb336bec21b04c19cf7-="">REQUEST A CALL BACK </button>
+    bottom: -11%;
+    /* right: 10%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;">
+                                <button type="submit" class="btn btn-custom-compare " onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-785e4eb336bec21b04c19cf7-="">SUBMIT DETAILS </button>
 
                             </div>
                         </form>
-                       
+
                     </div>
 
                 </div>
@@ -2404,7 +2409,10 @@
                 <span>Email Us</span>
                 <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-email.png" width="50" /> </span>
             </a>
-            <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
+            <!-- <a class="ib-registration-btn chat-btn" onclick="$_REVECHAT_API && $_REVECHAT_API.Button.maximize().Button.maximize()" data-cf-modified-="">
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-chat.png" width="50" /> </span>
+        </a> -->
+            <a class="ib-registration-btn chat-btn" onclick="$_REVECHAT_API && $_REVECHAT_API.Button.maximize().Button.maximize()" data-cf-modified-="">
                 <span>Live chat</span>
                 <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-chat.png" width="50" /> </span>
             </a>
@@ -2420,10 +2428,52 @@
         <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#177464577a627b637e7576797c716f3974787a">
             <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-email.png" width="50" /> </span>
         </a>
-        <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
+        <a class="ib-registration-btn chat-btn" onclick="$_REVECHAT_API && $_REVECHAT_API.Button.maximize().Button.maximize()" data-cf-modified-="">
             <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-chat.png" width="50" /> </span>
         </a>
+        <!-- <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-chat.png" width="50" /> </span>
+        </a> -->
     </div>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '100%',
+                width: '100%',
+                videoId: '457QPGzux9M',
+                loop: true,
+                autoplay: true,
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+
+        // 4. The API will call this function when the video player is ready.
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+
+        // 5. The API calls this function when the player's state changes.
+        //    The function indicates that when playing a video (state=1),
+        //    the player should play for six seconds and then stop.
+        function onPlayerStateChange(event) {
+            event.target.playVideo();
+        }
+    </script>
+
 
     <script>
         $.get("https://ipinfo.io/json", function(response) {
@@ -2477,21 +2527,33 @@
 
     <!-- Start of REVE Chat Script-->
     <script type='text/javascript'>
-        window.$_REVECHAT_API || (function(d, w) {
-            var r = $_REVECHAT_API = function(c) {
-                r._.push(c);
-            };
-            w.__revechat_account = '6598532';
-            w.__revechat_version = 2;
-            r._ = [];
-            var rc = d.createElement('script');
-            rc.type = 'text/javascript';
-            rc.async = true;
-            rc.setAttribute('charset', 'utf-8');
-            rc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'static.revechat.com/widget/scripts/new-livechat.js?' + new Date().getTime();
-            var s = d.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(rc, s);
-        })(document, window);
+        function initRevchat() {
+            window.$_REVECHAT_API || (function(d, w) {
+                var r = $_REVECHAT_API = function(c) {
+                    r._.push(c);
+                };
+                w.__revechat_account = '6598532';
+                w.__revechat_version = 2;
+                r._ = [];
+                var rc = d.createElement('script');
+                rc.type = 'text/javascript';
+                rc.async = true;
+                rc.setAttribute('charset', 'utf-8');
+                rc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'static.revechat.com/widget/scripts/new-livechat.js?' + new Date().getTime();
+                var s = d.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(rc, s);
+            })(document, window);
+            $_REVECHAT_API && $_REVECHAT_API.Button.hide();
+            $_REVECHAT_API && $_REVECHAT_API.Button.onMinimize(function() {
+                debugger
+                $_REVECHAT_API.Button.hide();
+            })
+        }
+
+        setTimeout(() => {
+            initRevchat();
+
+        }, 5000)
     </script>
     <!-- End of REVE Chat Script -->
     <script type="text/javascript" async>
@@ -2529,11 +2591,10 @@
             // fade: true,
             // cssEase: 'ease-in-out',
             arrows: true,
-            centerMode: true,
+            centerMode: false,
             draggable: true,
             autoplay: true,
-            /* this is the new line */
-            autoplaySpeed: 3000,
+            autoplaySpeed: 2000,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,

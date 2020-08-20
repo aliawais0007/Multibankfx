@@ -68,7 +68,6 @@ $(function() {
 
     $('.nav-menu-hamburger').click(function() {
         $('.nav-menu-mobile').toggle();
-        debugger
     });
 });
 
@@ -1349,7 +1348,7 @@ $(document).ready(function() {
                 nextEl: '#about-page-awards .swiper-button-next',
                 prevEl: '#about-page-awards .swiper-button-prev',
             },
-            //autoplay:{delay: 5000, },
+            autoplay: { delay: 2000, },
             updateOnImagesReady: true,
             slidesPerView: 5,
             spaceBetween: 30,
