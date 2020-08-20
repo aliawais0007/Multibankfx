@@ -13794,8 +13794,14 @@
                         visibility: hidden;
                     } */
                     
-                    @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+                    @media only screen and (device-height: 375px) and (device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
                         .flex-container ul>li {
                             font-size: 12px !important;
+                        }
+                        .basic .slick-next {
+                            right: 20px;
+                        }
+                        .basic .slick-prev {
+                            left: 20px;
                         }
                     }
