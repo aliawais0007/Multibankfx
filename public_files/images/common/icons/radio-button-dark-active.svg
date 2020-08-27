@@ -1,0 +1,27 @@
+<svg id="radio-button-dark-active" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2c2c2c;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_50" data-name="Ellipse 50" class="cls-1">
+    <circle class="cls-3" cx="12.5" cy="12.5" r="12.5"/>
+    <circle class="cls-4" cx="12.5" cy="12.5" r="12"/>
+  </g>
+  <circle id="Ellipse_51" data-name="Ellipse 51" class="cls-2" cx="4.5" cy="4.5" r="4.5" transform="translate(8 8)"/>
+</svg>

@@ -3,19 +3,19 @@ var is_menu_hover = false;
 var is_menu_btn_hover = false;
 
 var special_country_list = new Array(
-    "AT","BE","BG","HR","CY","CZ","DK",
-    "EE","FI","FR","DE","GR","HU","IE",
-    "IT","LV","LT","LU","MT","NL","PL",
-    "PT","RO","SM","SK","SI","ES","SE",
-    "GB","VA","UK","AU"
+    "AT", "BE", "BG", "HR", "CY", "CZ", "DK",
+    "EE", "FI", "FR", "DE", "GR", "HU", "IE",
+    "IT", "LV", "LT", "LU", "MT", "NL", "PL",
+    "PT", "RO", "SM", "SK", "SI", "ES", "SE",
+    "GB", "VA", "UK", "AU"
 );
 //
 
-var telOnlyCountryList = ['al','at','by','be','bg','hr','cy','cz','dk','ee','fi','fr','ge','de','gr','hu','ie','it','kz','lv','lt','lu','mt','mc','nl','no','pl','pt','ro','ru','rs','sk','si','es','se','ch','tr','ua','gb','bh','eg','jo','kw','om','qa','sa','ae','ar','bo','br','cl','co','cr','ec','mx','pz','py','pe','uy','ve','ca','id','my','ph','vn','hk'];
+var telOnlyCountryList = ['al', 'at', 'by', 'be', 'bg', 'hr', 'cy', 'cz', 'dk', 'ee', 'fi', 'fr', 'ge', 'de', 'gr', 'hu', 'ie', 'it', 'kz', 'lv', 'lt', 'lu', 'mt', 'mc', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'rs', 'sk', 'si', 'es', 'se', 'ch', 'tr', 'ua', 'gb', 'bh', 'eg', 'jo', 'kw', 'om', 'qa', 'sa', 'ae', 'ar', 'bo', 'br', 'cl', 'co', 'cr', 'ec', 'mx', 'pz', 'py', 'pe', 'uy', 've', 'ca', 'id', 'my', 'ph', 'vn', 'hk'];
 
 /**** Additional JS ******/
-$(function(){
-    $('.std-la-form .selection-country').change(function(){
+$(function() {
+    $('.std-la-form .selection-country').change(function() {
         var country = $(this).find('option:selected').data('name');
         $(this).parent().find('input[name="country_name"]').val(country);
         var form = $(this).parent().parent('form');
@@ -32,16 +32,17 @@ $(function() {
     if (width <= 1024) {
         $('nav-menu').empty();
     } else {
-        $('.header-menu-trigger').click(function () {
+        $('.header-menu-trigger').hover(function() {
+            $(".lang-menu-dropdown").hide();
             $(this).addClass('active');
             var menu_type = $(this).data('type') + '-menu';
             openDropdownMenu(menu_type);
 
             $('.nav-menu').unbind('hover');
 
-            $('.nav-menu').hover(function () {
+            $('.nav-menu').hover(function() {
                 is_menu_hover = true;
-            }, function () {
+            }, function() {
                 is_menu_hover = false;
                 closeDropdownMenu(menu_type);
             });
@@ -63,7 +64,18 @@ $(function() {
             sub_list.show();
         }
     });
+    if ($('.nav-menu-mobile-section ul').css('display') == 'block') {
+        // $('.nav-menu-mobile-section:after').css('transform', 'rotate(90deg)');
+        $('.nav-menu-mobile-section:after').css({
+            'transform': 'rotate(90deg)',
+            '-ms-transform': 'rotate(90deg)',
+            '-moz-transform': 'rotate(90deg)',
+            '-o-transform': 'rotate(90deg)'
+        });
+    } else {
+        $('.nav-menu-mobile-section:after').css('transform', 'rotate(0deg)');
 
+    }
 
     $('.nav-menu-hamburger').click(function() {
         $('.nav-menu-mobile').toggle();
@@ -94,7 +106,7 @@ var itiList = {};
 
 // Form Funcionality
 $(function() {
-    $('.send-verification-code-btn').click(function (e) {
+    $('.send-verification-code-btn').click(function(e) {
         e.preventDefault();
         // var country = $(this).parent().parent().find(".select_with_country").children("option:selected");
         var formId = $(this).parent().parent().attr('id');
@@ -119,8 +131,8 @@ $(function() {
             $.ajax({
                 url: '/api/sendSMSCode',
                 type: 'POST',
-                data: {'countrycode': countryCode, 'phone': filteredPhoneCode},
-                success: function (data) {
+                data: { 'countrycode': countryCode, 'phone': filteredPhoneCode },
+                success: function(data) {
                     var response = JSON.parse(data);
 
                     if (response.response.status.toLowerCase() == 'success') {
@@ -128,7 +140,7 @@ $(function() {
                         smscode.parent().append('<span class="form-tooltip active success">SMS Code Sent</span>');
                         smscode.data('verified', '0');
                         let countdownSeconds = 60;
-                        var countdown = setInterval(function(){
+                        var countdown = setInterval(function() {
                             sendBtn.text('(' + countdownSeconds + ')');
                             countdownSeconds--;
                             if (countdownSeconds <= 0) {
@@ -139,7 +151,7 @@ $(function() {
                                 }
                                 sendBtn.text('Send Code');
                             }
-                        },1000);
+                        }, 1000);
                     } else {
                         sendBtn.attr("disabled", false);
                     }
@@ -174,8 +186,8 @@ $(function() {
         $.ajax({
             url: '/api/verifySMSCode',
             type: 'POST',
-            data: {'countrycode': countryCode, 'phone': filteredPhoneCode, 'verify_code': smscode.val()},
-            success: function (data) {
+            data: { 'countrycode': countryCode, 'phone': filteredPhoneCode, 'verify_code': smscode.val() },
+            success: function(data) {
                 var response = JSON.parse(data);
                 if (response.response.status.toLowerCase() == 'success') {
                     smscode.addClass('border-valid');
@@ -213,20 +225,22 @@ $(function() {
     $.validator.addMethod(
         "phone_format",
         function(value, element) {
-            if ($.trim(value)) {
-                let form_id = $(element).closest('form').attr('id');
-                if (itiList[form_id].isValidNumber()) {
-                    return true;
-                } else {
-                    return false;
-                }
-            } else {
-                return false;
-            }
-        },
-        function(params, element) {
-            return 'Invalid Phone Number Format';
+            return true;
+            // if ($.trim(value)) {
+            //     let form_id = $(element).closest('form').attr('id');
+            //     if (itiList[form_id].isValidNumber()) {
+            //         return true;
+            //     } else {
+            //         return false;
+            //     }
+            // } else {
+            //     return false;
+            // }
         }
+        // ,
+        // function(params, element) {
+        //     return 'Invalid Phone Number Format';
+        // }
 
     );
 
@@ -546,7 +560,7 @@ $(document).ready(function () {
 });
 */
 
-$('.bonus-page-tab').click(function(event){
+$('.bonus-page-tab').click(function(event) {
     var tab = $(this).data('tab');
 
     $('.bonus-page-tab').removeClass('active');
@@ -576,22 +590,22 @@ $(function() {
         $(this).find('.text').show();
     });
 
-    $('.slidebar a').mouseout(function () {
+    $('.slidebar a').mouseout(function() {
         $(this).find('.text').hide();
     });
 
     function toggleSideBar() {
         var scrollTop = $(window).scrollTop();
-        if ( scrollTop >= winHeight && window.innerWidth >= 768) {
-            $('.slidebar').show(200);
-        } else if (scrollTop < winHeight && window.innerWidth >= 768) {
-            $('.slidebar').hide(200);
+        if (window.innerWidth >= 768) {
+            $('.slidebar-d').show(300);
+        } else if (window.innerWidth >= 768) {
+            $('.slidebar-d').hide(300);
         }
     }
 
     function toggleHeader() {
         var scrollTop = $(window).scrollTop();
-        if ( scrollTop >= winHeight && !isHeaderFixed && window.innerWidth >= 1200) {
+        if (scrollTop >= winHeight && !isHeaderFixed && window.innerWidth >= 1200) {
             $('.header').addClass('sticky');
             //$('.header-spacer').addClass('active');
             isHeaderFixed = true;
@@ -604,7 +618,7 @@ $(function() {
 
     function toggleLPBtn() {
         var scrollTop = $(window).scrollTop();
-        if ( scrollTop >= winHeight && window.innerWidth >= 1200) {
+        if (scrollTop >= winHeight && window.innerWidth >= 1200) {
             $('.bottom-bar').slideDown(300);
         } else if (scrollTop < winHeight && window.innerWidth >= 1200) {
             $('.bottom-bar').slideUp(300);
@@ -613,41 +627,41 @@ $(function() {
 });
 
 // Company News
-$(function() {
-    var page_year = getUrlVars()["page_year"];
-    if (typeof page_year === 'undefined') {
-        page_year = 1;
-    }
+// $(function() {
+//     var page_year = getUrlVars()["page_year"];
+//     if (typeof page_year === 'undefined') {
+//         page_year = 1;
+//     }
 
-    if (typeof numNewsPage !== 'undefined') {
-        var paginationCode = '<li class="page-item';
-        if (page_year == 1) {
-            paginationCode += ' disabled';
-        }
-        paginationCode += '"><a class="page-link" href="/about/company-news?page_year=' + (page_year - 1) + '" tabindex="-1">Previous</a></li>';
-        for (var i = 0; i < numNewsPage; i++) {
-            paginationCode += '<li class="page-item';
-            if ((i + 1) == page_year) {
-                paginationCode += ' active';
-            }
+//     if (typeof numNewsPage !== 'undefined') {
+//         var paginationCode = '<li class="page-item';
+//         if (page_year == 1) {
+//             paginationCode += ' disabled';
+//         }
+//         paginationCode += '"><a class="page-link" href="/about/company-news?page_year=' + (page_year - 1) + '" tabindex="-1">Previous</a></li>';
+//         for (var i = 0; i < numNewsPage; i++) {
+//             paginationCode += '<li class="page-item';
+//             if ((i + 1) == page_year) {
+//                 paginationCode += ' active';
+//             }
 
-            paginationCode += '"><a class="page-link" href="/about/company-news?page_year=' + (i + 1) + '">' + (i + 1) + '</a></li>';
-        }
+//             paginationCode += '"><a class="page-link" href="/about/company-news?page_year=' + (i + 1) + '">' + (i + 1) + '</a></li>';
+//         }
 
-        paginationCode += '<li class="page-item';
-        if (page_year == numNewsPage) {
-            paginationCode += ' disabled';
-        }
+//         paginationCode += '<li class="page-item';
+//         if (page_year == numNewsPage) {
+//             paginationCode += ' disabled';
+//         }
 
-        paginationCode += '"><a class="page-link" href="/about/company-news?page_year=2">Next</a></li>';
-        $('.pagination').html(paginationCode);
-    }
-});
+//         paginationCode += '"><a class="page-link" href="/about/company-news?page_year=2">Next</a></li>';
+//         $('.pagination').html(paginationCode);
+//     }
+// });
 
 
 function getUrlVars() {
     var vars = {};
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
         vars[key] = value;
     });
     return vars;
@@ -655,7 +669,7 @@ function getUrlVars() {
 
 
 // Live Account
-const uploadButton = document.querySelector('.browse-btn');
+// const uploadButton = document.querySelector('.browse-btn');
 
 $(function() {
     if ($('#la_select_company option:selected').val() == '1' && $('#la_select_client_type option:selected').val() == '1') {
@@ -665,11 +679,11 @@ $(function() {
         $('.lei-input-container').removeClass('visible');
         $('.lei-input-container').addClass('invisible');
     }
-    
+
     if ($('#la_select_company').length) {
         alterForm_TinField();
     }
-    
+
     //show or hide second holder document fields
     /*
     if($('#la_select_client_type').val() == 3) {
@@ -680,11 +694,11 @@ $(function() {
       jointAccountDocFields.hideJointAccountDocFields();
    }
    */
-   
-   
+
+
     $('#la_select_company').change(function() {
         alterForm_TinField();
-        
+
         if ($('#la_select_company option:selected').val() == '1' && $('#la_select_client_type option:selected').val() == '1') {
             $('.lei-input-container').removeClass('invisible');
             $('.lei-input-container').addClass('visible');
@@ -708,7 +722,7 @@ $(function() {
             var allowedExtensions = /(\.jpg|\.jpeg|\.png|\.doc|\.pdf|\.docx)$/i;
             $(this).parent().find('.file-upload-error').remove();
 
-            if(!allowedExtensions.exec(filePath)){
+            if (!allowedExtensions.exec(filePath)) {
                 $(this).parent().append('<div class="text-danger file-upload-error">Invalid file format.<br/>.jpeg/.jpg/.png/.doc/.docx/.pdf only</div>');
                 realInput.val('');
                 return false;
@@ -718,9 +732,9 @@ $(function() {
                 return false;
             } else {
                 const name = realInput.val().split(/\\|\//).pop();
-                const truncated = name.length > 20
-                    ? name.substr(name.length - 20)
-                    : name;
+                const truncated = name.length > 20 ?
+                    name.substr(name.length - 20) :
+                    name;
 
                 var fileInfo = $(this).parent().find('.file-info');
                 fileInfo.text(truncated);
@@ -731,7 +745,7 @@ $(function() {
 
     var ibNum = getUrlVars()["ibNum"];
     if (typeof ibNum !== 'undefined') {
-        var type = ibNum.substring(0,2);
+        var type = ibNum.substring(0, 2);
         var regulatorValue = 1;
         switch (type) {
             case '88':
@@ -752,32 +766,32 @@ $(function() {
 
 function alterForm_TinField() {
     var na = 'not available';
-    var companyRequireTinNumber = new Array("1");   //we set 1 as string as html input return string
+    var companyRequireTinNumber = new Array("1"); //we set 1 as string as html input return string
     var selectedCompany = $('#la_select_company option:selected').val();
-    if(companyRequireTinNumber.indexOf(selectedCompany) >= 0) {
-        $('.la-container-has_tin').removeClass("d-none");                       //we show the check box
-        $('.std-la-form input[name=has_tin]').prop('required',true);                           //make it required
-        $('.std-la-form input[name=tin_number]').prop('required',true);                        //together with the field
-        if($('.std-la-form input[name=has_tin]:checked').val() == 1) {
+    if (companyRequireTinNumber.indexOf(selectedCompany) >= 0) {
+        $('.la-container-has_tin').removeClass("d-none"); //we show the check box
+        $('.std-la-form input[name=has_tin]').prop('required', true); //make it required
+        $('.std-la-form input[name=tin_number]').prop('required', true); //together with the field
+        if ($('.std-la-form input[name=has_tin]:checked').val() == 1) {
             //yes has been selected, so let the user input or reshow what was submitted
-            if($('.std-la-form input[name=tin_number]').val() == na) {
+            if ($('.std-la-form input[name=tin_number]').val() == na) {
                 $('.std-la-form input[name=tin_number]').val('');
             }
-            $('.la-container-tin_number').removeClass("d-none");                //we show the field
-        }else if($('.std-la-form input[name=has_tin]:checked').val() == 0){
+            $('.la-container-tin_number').removeClass("d-none"); //we show the field
+        } else if ($('.std-la-form input[name=has_tin]:checked').val() == 0) {
             // no is selected, set "not available" and hide field
-            $('.la-container-tin_number').addClass("d-none");                       //we hide the field tin_number
-            $('.std-la-form input[name=tin_number]').val(na);                 //we set tin_number as "not available"
+            $('.la-container-tin_number').addClass("d-none"); //we hide the field tin_number
+            $('.std-la-form input[name=tin_number]').val(na); //we set tin_number as "not available"
 
         }
-    }else {
+    } else {
         //no need TIN
         $('.std-la-form input[name=has_tin]').prop('checked', false); //we uncheck has_tin
-        $('.la-container-has_tin').addClass("d-none");                      //we hide the check box
-        $('.std-la-form input[name=tin_number]').val('');             //we set tin_number as ""
-        $('.la-container-tin_number').addClass("d-none");                   //we hide the field
-        $('.std-la-form input[name=tin_number]').prop('required',false);                   //we set tin_number as not required
-        $('.std-la-form input[name=has_tin]').prop('required',false);                    //we set has_tin as not required
+        $('.la-container-has_tin').addClass("d-none"); //we hide the check box
+        $('.std-la-form input[name=tin_number]').val(''); //we set tin_number as ""
+        $('.la-container-tin_number').addClass("d-none"); //we hide the field
+        $('.std-la-form input[name=tin_number]').prop('required', false); //we set tin_number as not required
+        $('.std-la-form input[name=has_tin]').prop('required', false); //we set has_tin as not required
 
     }
 }
@@ -819,7 +833,7 @@ function switchLayout() {
 
             break;
     }
-    
+
     if (selectedClientType == '1' && $('#la_select_company option:selected').val() == '1') {
         $('.lei-input-container').removeClass('invisible');
         $('.lei-input-container').addClass('visible');
@@ -830,32 +844,110 @@ function switchLayout() {
 }
 
 var jointAccountDocFields = {
-  listJointAccountDocFields: function() {
-   return ['secondary_file_id_front', 'secondary_file_id_back', 'secondary_file_address_proof'];
-  },
-  disableJointAccountDocFields: function() {
-    var fields = this.listJointAccountDocFields();
-    for (var i = 0; i < fields.length; i++) { 
-      $("input[name=" + fields[i] + "]").prop( "disabled", true);
+    listJointAccountDocFields: function() {
+        return ['secondary_file_id_front', 'secondary_file_id_back', 'secondary_file_address_proof'];
+    },
+    disableJointAccountDocFields: function() {
+        var fields = this.listJointAccountDocFields();
+        for (var i = 0; i < fields.length; i++) {
+            $("input[name=" + fields[i] + "]").prop("disabled", true);
+        }
+    },
+    enableJointAccountDocFields: function() {
+        var fields = this.listJointAccountDocFields();
+        for (var i = 0; i < fields.length; i++) {
+            $("input[name=" + fields[i] + "]").removeAttr("disabled");
+        }
+    },
+    showJointAccountDocFields: function() {
+        $(".secondary-file-upload-container").show();
+    },
+    hideJointAccountDocFields: function() {
+        $(".secondary-file-upload-container").hide();
     }
-  },
-  enableJointAccountDocFields: function () {
-    var fields = this.listJointAccountDocFields();
-    for (var i = 0; i < fields.length; i++) { 
-      $("input[name=" + fields[i] + "]").removeAttr("disabled");
-    }  
-  },
-  showJointAccountDocFields: function() {
-    $(".secondary-file-upload-container").show();
-  },
-  hideJointAccountDocFields: function () {
-    $(".secondary-file-upload-container").hide();
-  }
 };
 
 // Regulations
 //Regulations page start
-$(document).ready(function () {
+$(document).ready(function() {
+
+    $('.home-banner-title1').show(100);
+    $('.home-banner-title2').show(100);
+    // language click dropsown
+    $('.lang-menu').click(() => {
+        $('.lang-menu-dropdown').toggle();
+        $('.nav-menu').hide();
+    });
+    $('.btn-navy').mouseover(() => {
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/mymultibank_ico.png');
+    })
+    $('.btn-navy').mouseleave(() => {
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/mymultibank_ico.png');
+    })
+
+
+
+    // Toggle dark mode script
+    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+    // const currentTheme = localStorage.getItem('theme');
+
+    let currentTheme = '';
+    let mode = localStorage.getItem('defaultMode');
+    // if (mode == '1') {
+    //     currentTheme = 'dark';
+    // } else {
+    //     currentTheme = 'light';
+    // }
+    // if (currentTheme) {
+    //     document.documentElement.setAttribute('data-theme', currentTheme);
+    //     if (currentTheme == 'dark') {
+    //         toggleSwitch.checked = true;
+    //         localStorage.setItem('defaultMode', "0");;
+    //         $(".checkbox-m").prop("checked", true);
+    //         // $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
+    //         // $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+    //         $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+    //         $('#darkmode-text').html('Enable Dark Mode')
+
+
+    //     } else {
+    //         toggleSwitch.checked = false;
+    //         localStorage.setItem('defaultMode', "1");
+    //         $(".checkbox-m").prop("checked", false)
+    //             // $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
+    //         $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+    //         $('#darkmode-text').html('Enable Light Mode')
+    //     }
+    // }
+
+    function switchTheme(e) {
+        if (e.target.checked) {
+            localStorage.setItem('defaultMode', "0");
+            document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'dark');
+            $(".checkbox-m").prop("checked", true);
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+            // $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
+            $('#darkmode-text').html('Enable Light Mode');
+
+        } else {
+            localStorage.setItem('defaultMode', "1");
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'light');
+            $(".checkbox-m").prop("checked", false);
+            // $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
+            $('#darkmode-text').html('Enable Dark Mode');
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+        }
+    }
+
+    toggleSwitch.addEventListener('change', switchTheme, false);
+    // Toggle dark mode script
+
+    $('.st-slide-header1').click(function() {
+        $(this).next().slideToggle("slow");
+    });
+
     if ($('#regulations-global-presence').length) {
         var regulations_swiper = new Swiper('#regulations-global-presence', {
             navigation: {
@@ -865,7 +957,7 @@ $(document).ready(function () {
             pagination: {
                 el: '.global-presence .swiper-pagination',
                 clickable: true,
-                renderBullet: function (index, className) {
+                renderBullet: function(index, className) {
                     switch (index) {
                         case 0:
                             text = 'ASIC';
@@ -896,7 +988,7 @@ $(document).ready(function () {
                             text = 'RAK';
                             img_url = '/public_files/images/common/country/uae.png';
                             break;
-                        //case 7:text='TFG';img_url='/resource/newwebsite/v1_0/images/country/china.png';break;
+                            //case 7:text='TFG';img_url='/resource/newwebsite/v1_0/images/country/china.png';break;
                     }
                     return '<span class="' + className + '" data-img="' + img_url + '">' +
                         '<span>' + text + '</span>' +
@@ -913,17 +1005,17 @@ $(document).ready(function () {
                 },
             },
             on: {
-                init: function () {
+                init: function() {
                     regulations_toggle_card(this)
                 },
-                slideChangeTransitionStart: function () {
+                slideChangeTransitionStart: function() {
                     regulations_toggle_card(this)
                 },
             },
         });
 
 
-        $(window).resize(function () {
+        $(window).resize(function() {
             regulations_swiper_next();
         })
         regulations_swiper_next()
@@ -1014,22 +1106,22 @@ function slider_login() {
 
 $(function() {
     slider_login()
-    $(window).resize(function () {
+    $(window).resize(function() {
         slider_login()
     })
 
-    $('#login_Block_Modal').on('hidden.bs.modal', function (e) {
+    $('#login_Block_Modal').on('hidden.bs.modal', function(e) {
         var login_obj = $('#login_Block_Modal .login_Block');
         login_obj.remove();
         $('body').append(login_obj);
     });
-    $('#login_Block_Modal').on('show.bs.modal', function (e) {
+    $('#login_Block_Modal').on('show.bs.modal', function(e) {
         var login_obj = $('.login_Block');
         login_obj.remove();
         $('#login_Block_Modal .modal-body').append(login_obj);
     });
 
-    $(document).on('click', '.login_Block .title span', function () {
+    $(document).on('click', '.login_Block .title span', function() {
         var form_obj = $('.' + $(this).attr('data-name'));
 
         if ($(this).attr('data-name') == 'long-form-block') {
@@ -1049,7 +1141,7 @@ $(function() {
 /***  Where to go ***/
 /* definition of default label */
 
-if(typeof whereToGoItemLabel === 'undefined') {
+if (typeof whereToGoItemLabel === 'undefined') {
     //the language specific language object is not loaded from static_js/lang_data/, lets use the English labels below
     var whereToGoItemLabel = {
         //attributes
@@ -1078,47 +1170,47 @@ if(typeof whereToGoItemLabel === 'undefined') {
 }
 
 /* definition of all icons */
-var whereToGoItem = {
-    //attributes
-    ic_our_milestones: '<a href="/about/milestones"><span class="ico-ic_our_milestones"> </span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_milestones_label + '</div></a>',
-    ic_our_regulations: '<a href="/about/regulations"><span class="ico-ic_our_regulations"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_regulations_label + '</div></a>',
-    ic_security_of_funds: '<a href="/about/security-of-funds"><span class="ico-ic_security_of_funds"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_security_of_funds_label + '</div></a>',
-    ic_why_multibank: '<a href="/about/why-multibank-group"><span class="ico-ic_why_multibank"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_why_multibank_label + '</div></a>',
-    ic_accounts_funding: '<a href="/account"><span class="ico-ic_accounts_funding"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_accounts_funding_label + '</div></a>',
-    ic_bonus_programs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_label + '</div></a>',
-    ic_bonus_programs_for_ibs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs_for_ibs"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_for_ibs_label + '</div></a>',
-    ic_Bonus_Programs_for_Individual_Clients: '<a href="/account/bonus"><span class="ico-ic_Bonus_Programs_for_Individual_Clients"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Bonus_Programs_for_Individual_Clients_label + '</div></a>',
-    ic_compare_our_trading_platforms: '<a href="/platforms/compare-platforms"><span class="ico-ic_compare_our_trading_platforms"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_compare_our_trading_platforms_label + '</div></a>',
-    ic_download_mt4: '<a href="/platforms/download-center"><span class="ico-ic_download_mt4"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_download_mt4_label + '</div></a>',
-    ic_our_products: '<a href="/products"><span class="ico-ic_our_products"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_products_label + '</div></a>',
-    ic_trading_tools: '<a href="/tools"><span class="ico-ic_trading_tools"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_trading_tools_label + '</div></a>',
-    ic_partnership_programs: '<a href="/partnership"><span class="ico-ic_partnership_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_partnership_programs_label + '</div></a>',
-    ic_become_an_ib: '<a href="/partnership/introducing-brokers#introducing-brokers-form"><span class="ico-ic_become_an_ib"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_become_an_ib_label + '</div></a>',
-    ic_live_chat_support: '<a href="/#" onclick="LC_API.open_chat_window();return false;"><span class="ico-ic_live_chat_support"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_live_chat_support_label + '</div></a>',
-    ic_mymultibank_account_panel: '<a href="https://my.multibankfx.com" target="_blank"><span class="ico-ic_mymultibank_account_panel"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_mymultibank_account_panel_label + '</div></a>',
-    ic_Call_Our_24_7_Hotline: '<a href="/contact"><span class="ico-ic_Call_Our_24_7_Hotline"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Call_Our_24_7_Hotline_label + '</div></a>',
-    ic_forex_spreads: '<a href="/products/forex"><span class="ico-ic_forex_spreads"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_forex_spreads_label + '</div></a>',
-    ic_global_offices: '<a href="/about/global-presence"><span class="ico-ic_global_offices"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_global_offices_label + '</div></a>',
-    ic_awards: '<a href="/about/awards"><span class="ico-ic_awards"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_awards_label + '</div></a>',
-    //method
-    injectIcons: function (cssSelector_, icons_) {
-        /**
-         * Insert list of Where to go icons in ul selected by cssSelector_
-         * The selected tag should be an ul
-         */
-        var list = '';
-        var attrName = '';
-        $(cssSelector_).hide();
-        for(i = 0; i < icons_.length; i++) {
-            attrName = icons_[i];
-            if(this.hasOwnProperty(attrName)) {
-                list += '<li>'+ this[attrName] +'</li>';
-            }
-        }
-        $(cssSelector_).html(list);
-        $(cssSelector_).show();
-    }
-};
+// var whereToGoItem = {
+//     //attributes
+//     ic_our_milestones: '<a href="/about/milestones"><span class="ico-ic_our_milestones"> </span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_milestones_label + '</div></a>',
+//     ic_our_regulations: '<a href="/about/regulations"><span class="ico-ic_our_regulations"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_regulations_label + '</div></a>',
+//     ic_security_of_funds: '<a href="/about/security-of-funds"><span class="ico-ic_security_of_funds"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_security_of_funds_label + '</div></a>',
+//     ic_why_multibank: '<a href="/about/why-multibank-group"><span class="ico-ic_why_multibank"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_why_multibank_label + '</div></a>',
+//     ic_accounts_funding: '<a href="/account"><span class="ico-ic_accounts_funding"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_accounts_funding_label + '</div></a>',
+//     ic_bonus_programs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_label + '</div></a>',
+//     ic_bonus_programs_for_ibs: '<a href="/account/bonus"><span class="ico-ic_bonus_programs_for_ibs"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_bonus_programs_for_ibs_label + '</div></a>',
+//     ic_Bonus_Programs_for_Individual_Clients: '<a href="/account/bonus"><span class="ico-ic_Bonus_Programs_for_Individual_Clients"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Bonus_Programs_for_Individual_Clients_label + '</div></a>',
+//     ic_compare_our_trading_platforms: '<a href="/platforms/compare-platforms"><span class="ico-ic_compare_our_trading_platforms"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_compare_our_trading_platforms_label + '</div></a>',
+//     ic_download_mt4: '<a href="/platforms/download-center"><span class="ico-ic_download_mt4"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_download_mt4_label + '</div></a>',
+//     ic_our_products: '<a href="/products"><span class="ico-ic_our_products"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_our_products_label + '</div></a>',
+//     ic_trading_tools: '<a href="/tools"><span class="ico-ic_trading_tools"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_trading_tools_label + '</div></a>',
+//     ic_partnership_programs: '<a href="/partnership"><span class="ico-ic_partnership_programs"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_partnership_programs_label + '</div></a>',
+//     ic_become_an_ib: '<a href="/partnership/introducing-brokers#introducing-brokers-form"><span class="ico-ic_become_an_ib"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_become_an_ib_label + '</div></a>',
+//     ic_live_chat_support: '<a href="/#" onclick="LC_API.open_chat_window();return false;"><span class="ico-ic_live_chat_support"><!-- --></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_live_chat_support_label + '</div></a>',
+//     ic_mymultibank_account_panel: '<a href="https://my.multibankfx.com" target="_blank"><span class="ico-ic_mymultibank_account_panel"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_mymultibank_account_panel_label + '</div></a>',
+//     ic_Call_Our_24_7_Hotline: '<a href="/contact"><span class="ico-ic_Call_Our_24_7_Hotline"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_Call_Our_24_7_Hotline_label + '</div></a>',
+//     ic_forex_spreads: '<a href="/products/forex"><span class="ico-ic_forex_spreads"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_forex_spreads_label + '</div></a>',
+//     ic_global_offices: '<a href="/about/global-presence"><span class="ico-ic_global_offices"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_global_offices_label + '</div></a>',
+//     ic_awards: '<a href="/about/awards"><span class="ico-ic_awards"></span><div class="mex-content mex-clamp-3">' + whereToGoItemLabel.ic_awards_label + '</div></a>',
+//     //method
+//     injectIcons: function(cssSelector_, icons_) {
+//         /**
+//          * Insert list of Where to go icons in ul selected by cssSelector_
+//          * The selected tag should be an ul
+//          */
+//         var list = '';
+//         var attrName = '';
+//         $(cssSelector_).hide();
+//         for (i = 0; i < icons_.length; i++) {
+//             attrName = icons_[i];
+//             if (this.hasOwnProperty(attrName)) {
+//                 list += '<li>' + this[attrName] + '</li>';
+//             }
+//         }
+//         $(cssSelector_).html(list);
+//         $(cssSelector_).show();
+//     }
+// };
 /*** End Where to go ***/
 
 /* Footer Contact Form SMS Code and Send SMS styling */
@@ -1141,14 +1233,14 @@ $(function() {
         validator.destroy();
 
         var exchange = ["neteller", "skrill", "fasapay", "bank_transfer", "credit_card", "paytrust", "perfectmoney"];
-        var multibankfx = ["neteller", "skrill", "bank_transfer","credit_card", "paytrust", "perfectmoney", "fxbit", "globepay", "thunderxpay"];
+        var multibankfx = ["neteller", "skrill", "bank_transfer", "credit_card", "paytrust", "perfectmoney", "fxbit", "globepay", "thunderxpay"];
         var clearing = ["neteller", "skrill", "bank_transfer", "credit_card", "paytrust", "perfectmoney", "fxbit"];
-        
+
         if (document.documentElement.lang === 'vn') {
             clearing.push('ngan_luong');
             multibankfx.push("ngan_luong");
         }
-        
+
         // var exchange = ["neteller", "skrill", "fasapay", "bank_transfer", "credit_card", "paytrust", "perfectmoney","help_2_pay"];
         // var multibankfx = ["neteller", "skrill", "bank_transfer","credit_card", "paytrust", "perfectmoney","help_2_pay", "fxbit"];
         // var clearing = ["neteller", "skrill", "bank_transfer", "credit_card", "paytrust", "perfectmoney","help_2_pay", "fxbit"];
@@ -1183,8 +1275,8 @@ $(function() {
             }
         })
 
-        $('#withdrawal_selection_form .deposit_table td').click(function () {
-            $('#withdrawal_selection_form .deposit_table td').each(function () {
+        $('#withdrawal_selection_form .deposit_table td').click(function() {
+            $('#withdrawal_selection_form .deposit_table td').each(function() {
                 $(this).removeClass('active');
             });
             $(this).addClass('active');
@@ -1196,7 +1288,7 @@ $(function() {
             closeWithdrawalForm();
         });
 
-        $('#withdrawal_selection_form .deposit_amount_value').change(function () {
+        $('#withdrawal_selection_form .deposit_amount_value').change(function() {
             update_amount_value($(this).val())
             return false;
         })
@@ -1259,7 +1351,7 @@ function deleteMktCookie(name_, domain_, path_) {
 */
 
 
-$(document).ready(function () {
+$(document).ready(function() {
 
     if ($('#about-page-awards .swiper-container').length) {
         new Swiper('#about-page-awards .swiper-container', {
@@ -1267,10 +1359,10 @@ $(document).ready(function () {
                 nextEl: '#about-page-awards .swiper-button-next',
                 prevEl: '#about-page-awards .swiper-button-prev',
             },
-            //autoplay:{delay: 5000, },
+            autoplay: { delay: 2000, },
             updateOnImagesReady: true,
-            slidesPerView: 7,
-            spaceBetween: 20,
+            slidesPerView: 5,
+            spaceBetween: 30,
             grabCursor: true,
             loop: true,
             breakpoints: {
@@ -1279,10 +1371,10 @@ $(document).ready(function () {
                 },
             },
             on: {
-                init: function () {
+                init: function() {
                     about_toggle_card_awards(this)
                 },
-                slideChangeTransitionStart: function () {
+                slideChangeTransitionStart: function() {
                     about_toggle_card_awards(this)
                 },
             },
@@ -1297,9 +1389,9 @@ $(document).ready(function () {
         if ($(window).width() > 991) {
             $('#about-page-awards .width-30').removeClass('width-30');
             $('#about-page-awards .width-40').removeClass('width-40');
-            obj.slides.eq(obj.activeIndex + 3).addClass('width-40');
+            obj.slides.eq(obj.activeIndex + 2).addClass('width-40');
             for (var i = 0; i < obj.slides.length; i++) {
-                if (i != obj.activeIndex + 3) {
+                if (i != obj.activeIndex + 2) {
                     obj.slides.eq(i).addClass('width-30');
                 }
             }
@@ -1310,15 +1402,56 @@ $(document).ready(function () {
     }
 })
 
-$(function(){
-        if(document.getElementById('leaderboard')){
-            let leaderboard_display_time = new Date('2020-01-05T22:00:00Z').getTime();
-            let now = new Date().getTime();
-            if(now >= leaderboard_display_time){
-                $('#leaderboard').show();
-            }
-            else{
-                $('#leaderboard').hide();
-            }
+$(function() {
+    if (document.getElementById('leaderboard')) {
+        let leaderboard_display_time = new Date('2020-01-05T22:00:00Z').getTime();
+        let now = new Date().getTime();
+        if (now >= leaderboard_display_time) {
+            $('#leaderboard').show();
+        } else {
+            $('#leaderboard').hide();
         }
+    }
+});
+
+$(window).scroll(function() {
+    var scrollY = $(document).scrollTop();
+    // if (scrollY > 200) {
+    //     $('.sticky-top').css('position', 'fixed');
+    // }
+    if (scrollY > 450) {
+        $('.top-btn-1').removeClass('d-none');
+        $('.top-btn-1').addClass('d-flex');
+        $('.top-btn-1').css('transition', 'all ease-in-out 0.5s');
+        $('.top-btn-2').removeClass('d-none');
+        $('.top-btn-2').addClass('d-flex');
+    } else {
+        $('.top-btn-1').addClass('d-none');
+        $('.top-btn-1').removeClass('d-flex');
+        $('.top-btn-2').addClass('d-none');
+        $('.top-btn-2').removeClass('d-flex');
+    }
+})
+
+// $(window).resize(function(e) {
+//     if (window.innerWidth < 767) {
+//         $('.hero-container').css("display", "none");
+
+//     } else {
+//         $('.hero-container').css("display", "flex");
+
+//     }
+// })
+
+$(document).ready(() => {
+    $('.slide-bar-toggle').on('click', function() {
+        $('.slidebar-parent').slideToggle("fast");
+        $('.slidebar-m').slideToggle("slow");
     });
+
+    $('#reve-chat-container-div, #test-btn').click(function() {
+        $_REVECHAT_API && $_REVECHAT_API.Button.maximize();
+    })
+
+
+})
