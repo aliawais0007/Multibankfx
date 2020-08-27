@@ -7,7 +7,7 @@
             <div class="row justify-content-between" style="padding-bottom: 25px; border-bottom: 1px solid #808080;">
                 <div class="col-xs-12 col-sm-12 col-md-8 footer_other_left align-self-center">
                     <a class="footer_logo" href="/home.php" target="_parent">
-                        <img alt="logo" data-entity-type="" data-entity-uuid="" src="" width="200" />
+                        <img alt="logo" data-entity-type="" data-entity-uuid="" src="/public_files/images/common/logo-gold.svg" width="200" />
                     </a>
                     <a href="https://my.multibankfx.com/en/traders/login" target="_blank"><?php translate('MyMultibank'); ?></a>
                     <a href="/contact.php" target="_parent"><?php translate('Contact Us'); ?></a>
@@ -148,7 +148,7 @@
     </div>
 </div>
 <div class="slidebar-d">
-        <a class="get-a-all-btn call-btn slidebar-pn" href="">
+        <a class="get-a-all-btn call-btn slidebar-pn-d" href="">
             <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-phone.png" width="50" /> </span>
         </a>
         <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
@@ -170,6 +170,7 @@
                 $('#header-pn').html(`${data.Phone}`);
                 $('#header-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
                 $('#header-pn, .slidebar-pn').attr('href', `tel:${data.Phone}?call`);
+                $('.slidebar-pn-d').attr('href', `tel:${data.Phone}?call`);
             }
         });
         if($('#header-pn').html()=="")
@@ -177,6 +178,7 @@
                 $('#header-pn, .slidebar-pn').html("+1 213 992 4748");
                 $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
                 $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
+                $('.slidebar-pn-d').attr('href', `tel:'+1 213 992 4748?call`);
             }
     } );       
     }, "jsonp");

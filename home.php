@@ -1,23 +1,23 @@
 <?php
-$allnews = get_news();
-$itemc = "";
-$item = "";
-$itemb = "";
-$page = "";
-foreach ($allnews as $item) {
-    $news .= '
-<li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
-                                            <div class="mex-h3 col-1 pl-4 text-left">2020-02-18</div>
-                                            <div class="mex-new-desc mex-content col-8"><a
-                                                    href="/article/news-detail.php?id=' . $item->id . '"
-                                                    class="text-222 mex-clamp-4 text-left pl-3">' . $item->title . '</a></div>
-                                            <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
-                                                    src="' . $item->post_image . '"
-                                                    alt="' . $item->main_title . '">
-                                            </div>
-                                        </li>
-';
-}
+// $allnews = get_news();
+// $itemc = "";
+// $item = "";
+// $itemb = "";
+// $page = "";
+// foreach ($allnews as $item) {
+//     $news .= '
+// <li class="row mx-0 mex-new-content swiper-slide" style="height: 133.75px;">
+//                                             <div class="mex-h3 col-1 pl-4 text-left">2020-02-18</div>
+//                                             <div class="mex-new-desc mex-content col-8"><a
+//                                                     href="/article/news-detail.php?id=' . $item->id . '"
+//                                                     class="text-222 mex-clamp-4 text-left pl-3">' . $item->title . '</a></div>
+//                                             <div class="mex-new-img col-3"><img class="mex-img-cover lazyloadXXX"
+//                                                     src="' . $item->post_image . '"
+//                                                     alt="' . $item->main_title . '">
+//                                             </div>
+//                                         </li>
+// ';
+// }
 ?>
 <!DOCTYPE html>
 <html lang='en'>
@@ -143,139 +143,116 @@ foreach ($allnews as $item) {
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNJQJTN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
-    <div class="swiper-container" id="swiper-container-lp">
+    <div style="background: url(/public_files/images/common/bg_video.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;">
+        <video class="embed-responsive-item" playsinline="" autoplay="" muted="" loop="true" style="position: absolute;z-index: 0; left: 0; filter:brightness(0.6); width:100%">
+            <source src="/public_files/videos/social_trading/vdo-mb-blue-old.mp4" type="video/mp4">
+        </video>
+        <div class="swiper-container" id="swiper-container-lp">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide home-page" style="overflow: hidden;">
+                    <div class="min1 d-none d-md-block" style="background:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jp')">
+                        <!-- <div id="player" style="pointer-events: none;"></div> -->
+                        <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/457QPGzux9M?rel=0?version=3&amp;autoplay=1&amp;controls=0&amp;&amp;showinfo=0&amp;loop=1&amp;modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <div class="row flex-nowrap flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
+                            <div class="col-12 flex-none d-flex justify-content-center flex-column">
+                                <span class="home-banner-title1">WORLD'S NO.1 FOREX & CFD BROKER</span>
+                                <span class="home-banner-title2">Established In 2005</span>
+                            </div>
+                            <div class="col-12 d-flex flex-none justify-content-center demo-btn-custom ">
+                                <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
+                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase"><span>Live Trading</span><span class="banner-btn">Free $100 Credit</span></a>
+                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase"><span>Simulated Trading</span><span class="banner-btn">Real Market Conditions</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-1.jp'); width:100%">
+                        <img src="/public_files/images/home/mobile-banner-2.jpg" style="width:100%" />
+                        <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
+                            <div class="col-12 d-flex justify-content-center flex-column">
+                                <span class="home-banner-title1">WORLD'S NO.1 FOREX & CFD BROKER</span>
+                                <span class="home-banner-title2">Established In 2005</span>
+                            </div>
+                            <div class="col-12 d-flex flex-none justify-content-center demo-btn-custom ">
+                                <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
+                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Live Trading<br><span class="banner-btn">Free $100 Credit</span></a>
+                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading<br><span class="banner-btn">Real Market Conditions</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide home-page" style="overflow: hidden;">
+                    <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/20-bonusbanner.jp'); width:100%">
+                        <div class="row flex-nowrap flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
+                            <div class="col-12 d-flex justify-content-center flex-column">
+                                <span class="home-banner-title1 text-uppercase">20% BONUS ON DEPOSIT </span>
+                                <span class="home-banner-title2">Both Tradable & Withdrawable</span>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                                <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
+                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Claim Bonus<br><span class="banner-btn">For MT4 & MT5 Platforms</span></a>
+                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading<br><span class="banner-btn">Everything You Need To Know</span></a>
+                                </div>
+                            </div>
+                        </div>
 
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide home-page" style="overflow: hidden;">
-                    <div class="animate__animated animate__slideInDown animate__delay-.5s animate__slow min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-est-in-2005-01.jpg'); width:100%">
+                    </div>
+                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-2.jp');width:100%">
+                        <img src="/public_files/images/home/20-bonusbanner-1258x1920.jpg" style="width:100%" />
                         <div class="row justify-content-center align-items-center slider-content swiper-zoom-container">
                             <div class="col-12 d-flex justify-content-center flex-column">
-                                <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
-                                <span class="home-banner-title2">ESTABLISHED IN 2005</span>
+                                <span class="home-banner-title1 text-uppercase">20% BONUS ON DEPOSIT</span>
+                                <span class="home-banner-title2">Both Tradable And withdrawable</span>
                             </div>
                             <div class="col-12 d-flex justify-content-center demo-btn-custom ">
-                                <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
-                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
-                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
+                                <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
+                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Claim Bonus<br><span class="banner-btn">For MT4 & MT5 Platforms</span></a>
+                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Learn More<br><span class="banner-btn">Everything You Need To Know</span></a>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-1.jpg'); width:100%">
-                        <img src="/public_files/images/home/mobile-banner-1.jpg" />
-                        <div class="row flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
-                            <div class="col-12">
-                                <span class="home-banner-title1">World's No.1 Forex & CFD Broker</span>
-                                <span class="home-banner-title2">ESTABLISHED IN 2005</span>
-                            </div>
-                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
-                                <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
-                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
-                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
-                                </div>
+                </div>
+                <!-- <div class="swiper-slide home-page" style="overflow: hidden;">
+                <div class="min1 d-none d-md-block" style="background-image:url('/public_files/images/home/banner-01.jpg'); width:100%">
+                    <div class="row flex-nowrap flex-column justify-content-center align-items-center slider-content swiper-zoom-container">
+                        <div class="col-12 d-flex justify-content-center flex-column">
+                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
+                            <span class="home-banner-title2">Improved trading functionalities</span>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                            <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
+                                <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Live Trading</a>
+                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Learn More</a>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-3.jpg');">
+                    <img src="/public_files/images/home/mobile-banner-3.jpg" />
+                    <div class="row justify-content-center align-items-center slider-content">
+                        <div class="col-12 d-flex justify-content-center flex-column">
+                            <span class="home-banner-title1">MULTIBANK OFFERS MT5 PLATFORM</span>
+                            <span class="home-banner-title2">Improved trading functionalities</span>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center demo-btn-custom ">
+                            <div class="row justify-content-center align-items-center flex-column flex-md-row " style="height:100%">
+                                <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Live Trading</a>
+                                <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Simulated Trading</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
             </div>
-            <div class="swiper-slide home-page" style="overflow: hidden;">
-                <a>
-                    <div class="animate__animated animate__slideInDown animate__delay-.5s animate__slow min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-industry-leader-02.jpg');">
-                        <div class="row justify-content-center align-items-center slider-content swiper-zoom-container">
-                            <div class="col-12">
-                                <span class="home-banner-title1 text-uppercase">Enjoy the highest level of funds security</span>
-                                <span class="home-banner-title2">Trade With The Industry Leader</span>
-                            </div>
-                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
-                                <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
-                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
-                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
-                                </div>
-                            </div>
-                        </div>
+            <!-- <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div> -->
+            <!-- <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div> -->
 
-                    </div>
-                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-2.jpg');">
-                        <img src="/public_files/images/home/mobile-banner-2.jpg" />
-                        <div class="row justify-content-center align-items-center slider-content">
-                            <div class="col-12">
-                                <span class="home-banner-title1 text-uppercase">Enjoy the highest level of funds security</span>
-                                <span class="home-banner-title2">Trade With The Industry Leader</span>
-                            </div>
-                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
-                                <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
-                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
-                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </a>
-            </div>
-            <div class="swiper-slide home-page" style="overflow: hidden;">
-                <a>
-                    <div class="animate__animated animate__slideInDown animate__delay-.5s animate__slow min1 d-none d-md-block" style="background-image:url('/public_files/images/home/home-banner-multibank-mt5.jpg');">
-                        <div class="row justify-content-center align-items-center slider-content">
-                            <div class="col-12">
-                                <span class="home-banner-title1">Improved trading functionalities</span>
-                                <span class="home-banner-title2">MULTIBANK OFFERS MT5 PLATFORM</span>
-                            </div>
-                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
-                                <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
-                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
-                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="min2 d-block d-md-none" style="background-image:url('/public_files/images/home/mobile-banner-3.jpg');">
-                        <img src="/public_files/images/home/mobile-banner-3.jpg" />
-                        <div class="row justify-content-center align-items-center slider-content">
-                            <div class="col-12">
-                                <span class="home-banner-title1">Improved trading functionalities</span>
-                                <span class="home-banner-title2">MULTIBANK OFFERS MT5 PLATFORM</span>
-                            </div>
-                            <div class="col-12 d-flex justify-content-center demo-btn-custom ">
-                                <div class="row justify-content-center align-items-center flex-column flex-md-row animate__animated animate__zoomIn animate__delay-.5s animate__slow" style="height:100%">
-                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Open Live Account</a>
-                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Free Demo Account</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="home-banner-container">
-                            <div class="row">
-
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-        </div>
-        <!-- <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div> -->
-        <div class="swiper-button-next swiper-button-white"></div>
-        <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="animate__animated animate__lightSpeedInRight animate__slow container-fluid hero-container d-none d-md-flex">
-            <div class="row hero-box">
-                <div>
-                    <h4 class="h4-hero-box">Paid <br>Capital</h4><span class="span-hero">$320m</span>
-                </div>
-                <div>
-                    <h4 class="h4-hero-box">Leverage <br> Up To</h4><span class="span-hero">500:1</span>
-                </div>
-                <div>
-                    <h4 class="h4-hero-box">Tight <br>Spreads</h4><span class="span-hero">0.0 pips</span>
-                </div>
-                <div>
-                    <h4 class="h4-hero-box">Globl <br>Awards </h4><span class="span-hero">40+</span>
-                </div>
-                <div>
-                    <h4 class="h4-hero-box">Trading <br>Instruments</h4><span class="span-hero">1000+</span>
-                </div>
-
-            </div>
         </div>
     </div>
     <div class="main-banner d-block d-md-none">
@@ -378,1335 +355,2078 @@ foreach ($allnews as $item) {
         }
     </style>
 
-    <section class="bg-gray p0 COP-section">
-        <div class="container ">
-            <div class="row d-none">
-                <div class="col-12">
-                    <h3 class="mex-h1 text-1e32a3 mex-m-t-50 mex-m-b-40 text-center animate__animated animate__slideInDown ">Our Products</h3>
+    <div class="animate__animated animate__bounce animate__slow container-fluid hero-container d-none d-md-flex">
+        <div class="container">
+            <div class="row hero-box" id="home-carousal-banner-1">
+                <div class="slide-slick-1">
+                    <h4 class="h4-hero-box">Paid Capital</h4><span class="span-hero">$320m</span>
+                </div>
+                <div class="slide-slick-1">
+                    <h4 class="h4-hero-box">Leverage Up To</h4><span class="span-hero">500:1</span>
+                </div>
+                <div class="slide-slick-1">
+                    <h4 class="h4-hero-box">Tight Spreads</h4><span class="span-hero">0.0 pips</span>
+                </div>
+                <div class="slide-slick-1">
+                    <h4 class="h4-hero-box">Global Awards </h4><span class="span-hero">40+</span>
+                </div>
+                <div class="slide-slick-1">
+                    <h4 class="h4-hero-box">Trading Instruments</h4><span class="span-hero">1000+</span>
+                </div>
+                <div class="slide-slick-1">
+                    <h4 class="h4-hero-box">Paid Capital</h4><span class="span-hero">$320m</span>
+                </div>
+                <div class="slide-slick-1">
+                    <h4 class="h4-hero-box">Leverage Up To</h4><span class="span-hero">500:1</span>
+                </div>
+                <div class="slide-slick-1">
+                    <h4 class="h4-hero-box">Tight Spreads</h4><span class="span-hero">0.0 pips</span>
+                </div>
+                <div class="slide-slick-1">
+                    <h4 class="h4-hero-box">Global Awards </h4><span class="span-hero">40+</span>
+                </div>
+                <div class="slide-slick-1">
+                    <h4 class="h4-hero-box">Trading Instruments</h4><span class="span-hero">1000+</span>
                 </div>
             </div>
         </div>
+    </div>
+
+
+    <section class="our-product p-auto p-md-0" >
         <div class="container">
             <div class="row">
-                <div class="col-md-12 ">
-                    <h3 class="mex-h1 text-1e32a3 text-center" style="margin: 30px 0px 20px 0;">Choose Your Product</h3>
-                </div>
-                <div class="col-4 col-md-6 col-lg-3 mex-m-b-30">
-                    <section class="mex-block-card-v mex-qtr box-animate section-products">
-                        <a href="products/forex.php">
-                            <div class="card-img-box">
-                                <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_forex.jpg" alt="Forex">
-                            </div>
-                            <div class="card-content bg-white card-content-mobile">
-                                <div class="mex-h3 text-overflow-1 ">
-                                    Forex </div>
-                                <div class="mex-content text-overflow-2 mb0 d-md-block d-none">
-                                    Trade forex on the largest market in the world </div>
-                            </div>
-                        </a>
-                    </section>
-                </div>
-                <div class="col-4 col-md-6 col-lg-3 mex-m-b-30 d-none d-md-block">
-                    <section class="mex-block-card-v mex-qtr box-animate section-products">
-                        <a href="products/metals.php">
-                            <div class="card-img-box">
-                                <img alt="Metals" class="card-img mex-img-cover  lazyloadXXX" src="/public_files/images/home/home_product_metals.jpg">
-                            </div>
-                            <div class="card-content bg-white  card-content-mobile">
-                                <div class="mex-h3 text-overflow-1">
-                                    Metals
-                                </div>
-                                <div class="mex-content text-overflow-2 mb0 d-md-block d-none">
-                                    Trade gold and silver on the tightest spreads
-                                </div>
-                            </div>
-                        </a>
-                    </section>
-                </div>
-                <div class="col-4 col-md-6 col-lg-3 mex-m-b-30 ">
-                    <section class="mex-block-card-v mex-qtr box-animate section-products">
-                        <a href="products/shares.php">
-                            <div class="card-img-box">
-                                <img alt="Shares" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_shares.jpg">
-                            </div>
-                            <div class="card-content bg-white  card-content-mobile">
-                                <div class="mex-h3 text-overflow-1">
-                                    Shares </div>
-                                <div class="mex-content text-overflow-2 mb0 d-md-block d-none">
-                                    Trade shares of top performing companies from around the world </div>
-                            </div>
-                        </a>
-                    </section>
-                </div>
-                <div class="col-4 col-md-6 col-lg-3 mex-m-b-30 ">
-                    <section class="mex-block-card-v mex-qtr box-animate section-products">
-                        <a href="products/indices.php">
-                            <div class="card-img-box">
-                                <img alt="Indices" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_indices.jpg">
-                            </div>
-                            <div class="card-content bg-white card-content-mobile">
-                                <div class="mex-h3 text-overflow-1">
-                                    Indices </div>
-                                <div class="mex-content text-overflow-2 mb0 d-md-block d-none">
-                                    Trade global stock indices such as US Wall Street 30, NASDAQ, and German DAX </div>
-                            </div>
-                        </a>
-                    </section>
-                </div>
-                <div class="mx-auto col-12 row justify-content-sm-start justify-content-lg-center"></div>
-                <div class="col-4 col-md-6 col-lg-3  mex-m-b-30  ">
-                    <section class="mex-block-card-v mex-qtr box-animate section-products">
-                        <a href="products/commodities.php">
-                            <div class="card-img-box">
-                                <img alt="Commodities" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_commodities.jpg">
-                            </div>
-                            <div class="card-content bg-white  card-content-mobile">
-                                <div class="mex-h3 text-overflow-1">
-                                    Commodities </div>
-                                <div class="mex-content text-overflow-2 mb0 d-md-block d-none">
-                                    Trade commodity CFDs such as natural gas, crude oil and copper </div>
-                            </div>
-                        </a>
-                    </section>
-                </div>
-                <div class="col-4 col-md-6 col-lg-3 mex-m-b-30">
-                    <section class="mex-block-card-v mex-qtr box-animate section-products">
-                        <a href="partnership/white-label.php">
-                            <div class="card-img-box">
-                                <img alt="white label" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_white_label.jpg">
-                            </div>
-                            <div class="card-content bg-white  card-content-mobile">
-                                <div class="mex-h3 text-overflow-1">
-                                    White Label </div>
-                                <div class="mex-content text-overflow-2 mb0 d-md-block d-none">
-                                    MultiBank Group offers a full white label technology package for institutional customer </div>
-                            </div>
-                        </a>
-                    </section>
-                </div>
-                <div class="col-4 col-md-6 col-lg-3 mex-m-b-30 d-none d-md-block">
-                    <section class="mex-block-card-v mex-qtr box-animate section-products">
-                        <a href="partnership/prime-of-primes.php">
-                            <div class="card-img-box">
-                                <img alt="Prime of Primes" class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_prime.jpg">
-                            </div>
-                            <div class="card-content bg-white  card-content-mobile">
-                                <div class="mex-h3 text-overflow-1">
-                                    Prime of Primes </div>
-                                <div class="mex-content text-overflow-2 mb0 d-md-block d-none">
-                                    Complete A to Z White Label solution for MultiBank’s institutional partners </div>
-                            </div>
-                        </a>
-                    </section>
-                </div>
-                <div class="col-4 col-md-6 col-lg-3 mex-m-b-30">
-                    <section class="mex-block-card-v mex-qtr box-animate section-products">
-                        <a href="social-trading.php">
-                            <div class="card-img-box">
-                                <img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_product_social_trading.jpg" alt="Social Trading Platform">
-                            </div>
-                            <div class="card-content bg-white  card-content-mobile">
-                                <div class="mex-h3 text-overflow-1">
-                                    Social Trading </div>
-                                <div class="mex-content text-overflow-2 mb0 d-md-block d-none">
-                                    Join thousands of investors and earn money by following our successful traders! No knowledge or
-                                    experience required </div>
-                            </div>
-                        </a>
-                    </section>
+                <div class="col-12 col-md-12">
+                    <h2 class="text-center text-uppercase h2-product mb-3 text-1e32a3 ">OUR PRODUCTS</h2>
                 </div>
             </div>
-        </div>
-        <!--<div class="col-12 py-5 mb-5 d-block d-md-none" style=" display:none !important; background-image: url('public_files/images/home/bg_our_product.png')">-->
-        <div class="col-12 py-5 mb-5 d-block d-md-none" style=" display:none !important; ">
-            <div class="d-flex mex-h3 text-1e32a3">
-                <ul class="mr-2" style="list-style: disc;">
-                    <li>Forex</li>
-                    <li>Metals</li>
-                    <li>Shares</li>
-                    <li>Indices</li>
-                </ul>
-                <ul style="list-style: disc;">
-                    <li>Commodities</li>
-                    <li>Prime of Primes</li>
-                    <li>Social Trading Platform</li>
-                </ul>
-            </div>
-            <a class="btn btn-mex text-fff" style="margin-left: 20px; padding: 10px 20px;" href="products.php">Learn More</a>
-        </div>
-    </section>
-    <!-- <section class="p0 mex-block-full sectiopn-trade-with-confidence d-md-block d-none">
-        <div class="mex-h1 text-1e32a3 text-center uppercase mex-m-t-50 mex-m-b-30">Trade with confidence</div>
-        <div class="container trade-confidence-container">
-            <div class="row">
-                <div class="col-md-12 col-lg-6 col-12">
-                    <div class="row trade-with-confidence-card ">
-                        <img class="mex-img-cover px-0 lazyloadXXX" src="/public_files/images/home/home_trade_start_trading.png " alt="Start Trading">
-                        <div class="col-12 both-content mx-lg-4 my-lg-5">
-                            <div class="col-lg-8 col-12 px-3 px-3 p-lg-0">
-                                <div class="mex-h2 mex-m-b-10 start-trading-mobile-h">Start Trading</div>
-                                <div class="mex-content mex-m-b-15 start-trading-mobile-desc">
-                                    MultiBank offers a range of award-winning MT4 platforms for you to trade on. </div>
-                                <div class="mex-content mex-m-b-15">
-                                    <strong>Open an account &amp; start trading today!</strong>
-                                </div>
-                                <div class="live-account-wrapper">
-                                    <a href="/account/live-account.php" class="btn btn-mex-red mex-m-r-15 mex-m-b-15 col-md-6 col-xs-12 start-trading-mobile-btn-1"><i class="fa fa-user mex-m-r-5" aria-hidden="true"></i>Live Account</a>
-                                    <a href="/account/demo-account.php" class="btn btn-mex-blue mex-m-r-15 mex-m-b-15 col-md-6 col-xs-12 start-trading-mobile-btn-2"><i class="fa fa-desktop mex-m-r-5" aria-hidden="true"></i>Demo Account</a>
-                                </div>
-                            </div>
+            <div class="row cards-product">
+                <div class="col-lg-4 col-sm-6 col-12 mb-1">
+                    <div class="card flex-row">
+                        <div class=" custom-header-product border-0">
+                            <img src="/public_files/images/common/product-icons/icon-fx.png" class="custom-product-img" alt="">
                         </div>
+                        <div class="card-block custom-block-product px-2">
+                            <h4 class="card-title">Forex</h4>
+                            <p class="card-product-p">Have the courage to follow your heart and intuition. They somehow already know what you truly want.</p>
+                            <a href="#" class="btn-product ">Learn More <i class="fa fa-angle-right"></i></a>
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-6">
-                    <div class="row trade-with-confidence-card dnone-mobile">
-                        <img style="z-index: -1;" class="mex-img-cover col-12 px-0 lazyloadXXX" src="/public_files/images/home/home_trade_fund_account.jpg" alt="Fund Your Account">
-                        <div class="col-12 both-content mx-lg-4 my-lg-5 px-3 px-3 p-lg-0">
-                            <div class="mex-h2 mex-m-b-15 text-fff">Fund Your Account</div>
-                            <div class="row">
-                                <div class="mex-content mex-m-b-15 text-fff col-md-8 col-12 text-md-left">
-                                    Choose from a selection of instant, simple and secure payment options for deposits
-                                    and withdrawals.
-                                </div>
-                            </div>
-                            <a href="/account/account-funding.php" class="btn btn-mex mex-m-r-15 mex-m-b-15" style="margin-top: 38px;">Deposit Now</a>
+                <div class="col-lg-4 col-sm-6 col-12 mb-1">
+                    <div class="card flex-row">
+                        <div class=" custom-header-product border-0">
+                            <img src="/public_files/images/common/product-icons/icon-metal.png" class="custom-product-img" alt="">
                         </div>
+                        <div class="card-block custom-block-product px-2">
+                            <h4 class="card-title">METALS</h4>
+                            <p class="card-product-p">Have the courage to follow your heart and intuition. They somehow already know what you truly want.</p>
+                            <a href="#" class="btn-product">Learn More <i class="fa fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 mb-1">
+                    <div class="card flex-row">
+                        <div class=" custom-header-product border-0">
+                            <img src="/public_files/images/common/product-icons/icon-shares.png" class="custom-product-img" alt="">
+                        </div>
+                        <div class="card-block custom-block-product px-2">
+                            <h4 class="card-title">SHARES</h4>
+                            <p class="card-product-p">Have the courage to follow your heart and intuition. They somehow already know what you truly want.</p>
+                            <a href="#" class="btn-product">Learn More <i class="fa fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 col-sm-6 mb-1">
+                    <div class="card flex-row">
+                        <div class=" custom-header-product border-0">
+                            <img src="/public_files/images/common/product-icons/icon-commodities.png" class="custom-product-img" alt="">
+                        </div>
+                        <div class="card-block custom-block-product px-2">
+                            <h4 class="card-title">COMMODITIES</h4>
+                            <p class="card-product-p">Have the courage to follow your heart and intuition. They somehow already know what you truly want.</p>
+                            <a href="#" class="btn-product">Learn More <i class="fa fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 col-sm-6 mb-1">
+                    <div class="card flex-row">
+                        <div class=" custom-header-product border-0">
+                            <img src="/public_files/images/common/product-icons/icon-indices.png" class="custom-product-img" alt="">
+                        </div>
+                        <div class="card-block custom-block-product px-2">
+                            <h4 class="card-title">INDICES</h4>
+                            <p class="card-product-p">Have the courage to follow your heart and intuition. They somehow already know what you truly want.</p>
+                            <a href="#" class="btn-product">Learn More <i class="fa fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 col-sm-6 mb-1">
+                    <div class="card flex-row">
+                        <div class=" custom-header-product border-0">
+                            <img src="/public_files/images/common/product-icons/icon-social-trading.png" class="custom-product-img" alt="">
+                        </div>
+                        <div class="card-block custom-block-product px-2">
+                            <h4 class="card-title">SOCIAL TRADING</h4>
+                            <p class="card-product-p">Have the courage to follow your heart and intuition. They somehow already know what you truly want.</p>
+                            <a href="#" class="btn-product">Learn More <i class="fa fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 col-sm-6 mb-1">
+                    <div class="card flex-row">
+                        <div class=" custom-header-product border-0">
+                            <img src="/public_files/images/common/product-icons/icon-white-label.png" class="custom-product-img" alt="">
+                        </div>
+                        <div class="card-block custom-block-product px-2">
+                            <h4 class="card-title">WHITE LABEL</h4>
+                            <p class="card-product-p">Have the courage to follow your heart and intuition. They somehow already know what you truly want.</p>
+                            <a href="#" class="btn-product">Learn More <i class="fa fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 col-sm-6 mb-1">
+                    <div class="card flex-row">
+                        <div class=" custom-header-product border-0">
+                            <img src="/public_files/images/common/product-icons/icon-prime-of-primes.png" class="custom-product-img" alt="">
+                        </div>
+                        <div class="card-block custom-block-product px-2">
+                            <h4 class="card-title">PRIME OF PRIMES</h4>
+                            <p class="card-product-p">Have the courage to follow your heart and intuition. They somehow already know what you truly want.</p>
+                            <a href="#" class="btn-product">Learn More <i class="fa fa-angle-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 col-sm-6 mb-1">
+                    <div class="card flex-row">
+                        <div class=" custom-header-product border-0">
+                            <img src="/public_files/images/common/product-icons/icon-crypto-wallet.png" class="custom-product-img" alt="">
+                        </div>
+                        <div class="card-block custom-block-product px-2">
+                            <h4 class="card-title">MEX Wallet&nbsp; <span class="card-span"> Coming Soon</span></h4>
+                            <p class="card-product-p">Have the courage to follow your heart and intuition. They somehow already know what you truly want.</p>
+                            <a href="#" class="btn-product">Learn More <i class="fa fa-angle-right"></i></a>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
-    </section> -->
-    <section class="d-md-none d-block twc-section">
-        <div class="mex-h1 text-1e32a3 text-center uppercase mt-3 animate__animated animate__slideInDown ">Trade with confidence</div>
-        <div class="container twc-mobile" style="background-size: cover;">
-            <!-- <div class="container" style="background-image: url(public_files/images/home/home_trade_start_trading.png);
-                                      background-size: cover;"> -->
-            <div class="row">
-                <div style="
-                        height: 100%;
-                        width: 100%;
-                        background-color: rgba(255, 255, 255, 0.5);
-                        position: absolute;
-                        " class="col-12"></div>
-                <div class="col-12 py-5  d-block" style="background-size: cover;background-color: rgba(0, 0, 0, 0.5) !important;">
-                    <div class="col-lg-8 col-12 p-lg-0  mex-m-b-15 text-left">
-                        <h3 class="uppercase mex-m-b-10">Start Trading</h3>
-                        <span class="mex-content">MultiBank offers a range of award-winning MT4 platforms for you to
-                            trade on.</span>
-                    </div>
-                    <div class="col-12">
-                        <a href="/account/live-account.php" class="btn btn-mex-red mex-m-b-15 " style="min-width: initial; padding: 13px 10px;"><i class="fa fa-user mex-m-r-5" aria-hidden="true"></i>Live Account</a>
-                        <a href="/account/demo-account.php" class="btn btn-mex-blue mex-m-b-15" style="min-width: initial; padding: 13px 10px;"><i class="fa fa-desktop mex-m-r-5" aria-hidden="true"></i>Demo Account</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="p0 bg-white d-none d-md-block">
-        <div class="col-md-12">
-            <h3 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-none animate__animated animate__slideInDown " style="margin:30px 0 !important">Bonuses </h3>
-            <!-- <p class="lead text-222 mex-m-b-30 text-center">Find out more about our latest bonus and promotions for
-                Introducing Brokers &amp; individual clients alike!</p> -->
-        </div>
-        <div class="swiper-container swiper-container-horizontal" id="swiper-container-2">
-            <div class="swiper-wrapper" style="transform: translate3d(-2932px, 0px, 0px); transition-duration: 300ms;">
-                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 1436px; margin-right: 30px;">
-                    <a href="/account/bonus-ib.php">
-                        <div class="min1 d-none d-lg-block">
-                            <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg" alt="image">
-                        </div>
-                        <div class="min2 d-block d-lg-none">
-                            <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg" alt="image">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" style="width: 1436px; margin-right: 30px;">
-                    <a href="/account/bonus.php">
-                        <div class="min1 d-none d-lg-block">
-                            <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_extra.jpg" alt="image">
-                        </div>
-                        <div class="min2 d-block d-lg-none">
-                            <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_extra.jpg" alt="image">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 1436px; margin-right: 30px;">
-                    <a href="/account/bonus.php">
-                        <div class="min1 d-none d-lg-block">
-                            <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_400.jpg" alt="image">
-                        </div>
-                        <div class="min2 d-block d-lg-none">
-                            <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_400.jpg" alt="image">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" style="width: 1436px; margin-right: 30px;">
-                    <a href="/account/bonus-ib.php">
-                        <div class="min1 d-none d-lg-block">
-                            <img class=" lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg" alt="image">
-                        </div>
-                        <div class="min2 d-block d-lg-none">
-                            <img class="lazyloadXXX" src="/public_files/images/home/home_bonus_5000.jpg" alt="image">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1436px; margin-right: 30px;">
-                    <a href="/account/bonus.php">
-                        <div class="min1 d-none d-lg-block">
-                            <!--<img class="lazyloadXXX" src="/public_files/images/about_us/global_presence/home_bonus_extra.png"-->
-                            <!--    alt="image">-->
-                        </div>
-                        <!-- <div class="min2 d-block d-lg-none"> -->
-                        <!--<img class="lazyloadXXX" src="/public_files/images/about_us/global_presence/home_bonus_extra.png"-->
-                        <!--    alt="image">-->
-                        <!-- </div> -->
-                    </a>
-                </div>
-            </div>
-            <!-- <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets">
-                <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
-                <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span>
-                <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
-            </div> -->
-            <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide">
-            </div>
-            <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide">
-            </div>
-            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
         </div>
     </section>
 
-    <!-- downlaod platforms -->
-    <!-- <section class="bg-white p0 index-platforms d-md-none" style="background-size: contain;
-                                                                background-position: center;
-                                                                background-repeat: no-repeat;">
-        <div class="container" style="height: 100%;padding: 40px 0;">
-            <div class="row">
-                <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
-                    <h3 class="mex-h1 text-1e32a3 text-center">Platforms</h3>
-                </div>
-                <div class="col-xl-8 col-lg-12 row mx-0 d-flex ">
-                    <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">
-                        <img class="mb-platform-icon mb-2 lazyloadXXX" src="/public_files/images/home/home_platforms_ecn_icon.png" alt="ECN Pro Platform">
-                        ECN Pro
-                    </div>
-                    <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">
-                        <img class=" mb-platform-icon mb-2 lazyloadXXX" src="/public_files/images/home/home_platforms_multibank_pro_icon.png" alt="MultiBank Pro Platform">
-                        MultiBank Pro
-                    </div>
-                    <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">
-                        <img class="mb-platform-icon mb-2 lazyloadXXX" src="/public_files/images/home/home_platforms_maximus_icon.png" alt="Maximus Platform">
-                        Maximus
-                    </div>
-                    <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">
-                        <img class="mb-platform-icon mb-2 lazyloadXXX" src="/public_files/images/home/home_platforms_mt5_platform.png" alt="Maximus Platform">
-                        MT5
-                    </div>
-                    <div class="col-12 mt-4 text-center">
-                        <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/download-center.php"><i class="fa fa-bars mr-2"></i>MT4</a>
-                        <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/download-center.php"><i class="fa fa-mobile mr-2"></i>Mobile</a>
-                        <a class="btn btn-mex btn-sm mex-m-b-15" href="mql5.php"><i class="fa fa-desktop mr-2" style="top: 1px; position: relative;"></i> Web Trading</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
-    <section class="section-platform pt-5 pb-5">
+    <!-- Platforms Section -->
+    <section class="section-platform">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-12">
-                    <h2 class="text-center text-uppercase  h2-platform mb-3 animate__animated animate__slideInDown ">Platforms</h3>
+                    <h2 class="text-center text-uppercase  h2-platform pb-3 pt-5 pb-md-5 pt-md-5 text-1e32a3 ">Platforms</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 ">
-                    <nav class="nav-platform mt-4">
+                <div class="col-md-12 col-12">
+                    <nav class="nav-1">
                         <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                            <a class="btn custom-btn-plat active" id="nav-home-tab" data-toggle="tab" href="#nav-mt4" role="tab" aria-controls="nav-home" aria-selected="true">MT4</a>
-                            <a class="btn  custom-btn-plat" id="nav-profile-tab" data-toggle="tab" href="#nav-mt5" role="tab" aria-controls="nav-profile" aria-selected="false">MT5</a>
+                            <a class="custom-nav-1-link nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">MT5</a>
+                            <a class="custom-nav-1-link nav-item nav-link active" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">MT4</a>
+                            <a class="custom-nav-1-link nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">iMultiBank</a>
                         </div>
                     </nav>
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="nav-mt4" role="tabpanel" aria-labelledby="nav-home-tab">
-
-                            <div class="tab-content " id="nav-tabContent">
-                                <div class="container tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                    <div class="row platforms-content">
-                                        <div class="col-md-2 col-12">
-                                            <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
-                                        </div>
-                                        <div class="col-md-9 col-12">
-                                            <h3>ECN PRO</h3>
-                                            <p class="d-none d-md-block">Enjoy raw price feed directly through our ECN connection to prime brokers and access the tightest spread in the industry. This account type is available on iOS, Android and Windows.</p>
+                        <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="row platforms-content">
+                                <div class="col-md-5 offset-md-1 mb-3 br-1 ">
+                                    <div class="card custom-card-platform">
+                                        <img class="img-responsive custom-img-plat" src="/public_files/images/common/ECN-PRO.png" alt="Card image">
+                                        <div class="card-body ">
+                                            <h4 class="card-title text-center">ECN PRO</h4>
                                             <div class="flex-container">
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $5,000</span></div>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $5,000</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</li>
+                                                </ul>
 
 
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
-                                                <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span> </div></div> -->
-
-                                                <div class="center-span">
-                                                    <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
-                                                </div>
+                                            </div>
+                                            <div class="center-span">
+                                                <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span>
+                                                <span class="span-img-plat">
+                                                    <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a>
+                                                </span>
+                                            </div>
+                                            <div class="text-center pt-5">
+                                                <a href="#" class="btn-product-partnerships">Learn More <i class="fa fa-angle-right"></i></a>
 
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="container tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                    <div class="row platforms-content">
-                                        <div class="col-md-2 col-12">
-                                            <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
-                                        </div>
-                                        <div class="col-md-9 col-12">
-                                            <h3>MAXIMUS</h3>
-                                            <p class="d-none d-md-block">This MT4 trading platform is ideal for Introducing Brokers and traders who seek no-frill trading experience.</p>
+                                <div class="col-md-5">
+                                    <div class="card custom-card-platform">
+                                        <img class="img-responsive custom-img-plat" src="/public_files/images/common/MAXIMUS.png" alt="Card image">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">MAXIMUS</h4>
                                             <div class="flex-container">
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spreads from 1.4 pips</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $50</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
-                                                <!-- <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Available on</span><div><span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span></div></div> -->
-                                                <div class="center-span">
-                                                    <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/maximusmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
-                                                </div>
-
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $50</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 1.4 pips</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</li>
+                                                </ul>
+                                            </div>
+                                            <div class="center-span">
+                                                <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
+                                            </div>
+                                            <div class="text-center pt-5">
+                                                <a href="#" class="btn-product-partnerships">Learn More <i class="fa fa-angle-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                    <div class="row platforms-content">
-                                        <div class="col-md-2 col-12">
-                                            <img src="/public_files/images/common/MultiBank Pro.png" class="img-responsive custom-img-plat">
-                                        </div>
-                                        <div class="col-md-9 col-12">
-                                            <h3>multibank pro</h3>
-                                            <p class="d-none d-md-block">Ideal for traders looking for a smooth trading experience on the MT4 platform without the high investment commitment.</p>
-                                            <div class="flex-container">
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spreads from 0.8 pips</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $1,000</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</span></div>
-                                                <div class="center-span">
-                                                    <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/promexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
-                            <nav class="nav-1">
-                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                                    <a class="custom-nav-1-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">ECN PRO</a>
-                                    <a class="custom-nav-1-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
-                                    <a class="custom-nav-1-link nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">MULTIBANK PRO</a>
+
+                            <!-- <div class="row platforms-content d-md-none d-block platform-slide">
+                                <div class="col-12">
+                                    <div class="card custom-card-platform ">
+                                        <img class="img-responsive custom-img-plat" src="/public_files/images/common/ECN-PRO.png" alt="Card image">
+                                        <div class="card-body ">
+                                            <h4 class="card-title text-center">ECN PRO</h4>
+                                            <div class="flex-container">
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $5,000</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</li>
+                                                </ul>
+
+
+                                            </div>
+                                            <div class="center-span">
+                                                <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span>
+                                                <span class="span-img-plat">
+                                                    <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a>
+                                                </span>
+                                            </div>
+                                            <div class="text-center pt-5">
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </nav>
+                                <div class="col-12">
+                                    <div class="card custom-card-platform ">
+                                        <img class="img-responsive custom-img-plat" src="/public_files/images/common/MAXIMUS.png" alt="Card image">
+                                        <div class="card-body ">
+                                            <h4 class="card-title text-center">MAXIMUS</h4>
+                                            <div class="flex-container">
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $50</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 1.4 pips</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</li>
+                                                </ul>
+                                            </div>
+                                            <div class="center-span">
+                                                <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
+                                            </div>
+                                            <div class="text-center pt-5">
+                                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div> -->
                         </div>
-                        <div class="tab-pane fade" id="nav-mt5" role="tabpanel" aria-labelledby="nav-profile-tab">
-
-
-
-
-                            <div class="tab-content" id="nav-tabContent-2">
-                                <div class="container tab-pane fade show active" id="nav-home-2" role="tabpanel" aria-labelledby="nav-home-tab">
-                                    <div class="row platforms-content">
-                                        <div class="col-md-2 col-12">
-                                            <img src="/public_files/images/common/ECN-PRO.png" class="img-responsive custom-img-plat">
-                                        </div>
-                                        <div class="col-md-9 col-12">
-                                            <h3>ECN PRO</h3>
-                                            <p class="d-none d-md-block">Enjoy raw price feed directly through our ECN connection to prime brokers and access the tightest spread in the industry. This account type is available on iOS, Android and Windows.</p>
+                        <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="row platforms-content mt-5">
+                                <div class="col-md-4  col-12 mb-3 d-md-block d-none">
+                                    <div class="card custom-card-platform">
+                                        <img class="img-responsive custom-img-plat" src="/public_files/images/common/ECN-PRO.png" alt="Card image">
+                                        <div class="card-body ">
+                                            <h4 class="card-title text-center">ECN PRO</h4>
                                             <div class="flex-container">
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $5,000</span></div>
-                                                <div></div>
-                                                <div class="center-span">
-                                                    <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
-                                                </div>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $5,000</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</li>
+
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</li>
 
 
-
-
-
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</li>
+                                            </div>
+                                            <div class="center-span">
+                                                <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
+                                            </div>
+                                            <div class="text-center pt-5">
+                                                <a href="#" class="btn-product-partnerships">Learn More <i class="fa fa-angle-right"></i></a>
 
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container tab-pane fade" id="nav-profile-2" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                    <div class="row platforms-content">
-                                        <div class="col-md-2 col-12">
-                                            <img src="/public_files/images/common/MAXIMUS.png" class="img-responsive custom-img-plat">
-                                        </div>
-                                        <div class="col-md-9 col-12">
-                                            <h3>maximus</h3>
-                                            <p class="d-none d-md-block">This MT5 Trading Platform is ideal for Introducing Brokers and traders who seek no-frill trading experience.</p>
+                                <div class="col-md-4 col-12 mb-3 br-2 d-md-block d-none ">
+                                    <div class="card custom-card-platform">
+                                        <img class="img-responsive custom-img-plat" src="/public_files/images/common/multibank-pro@2x.png" alt="Card image">
+                                        <div class="card-body ">
+                                            <h4 class="card-title text-center">MutltiBank Pro</h4>
                                             <div class="flex-container">
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</span></div>
-                                                <div><span><i class="fa fa-check-circle" aria-hidden="true"></i>Min. Balance $50</span></div>
-                                                <div></div>
-                                                <div class="center-span">
-                                                    <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://download.mql5.com/cdn/mobile/mt5/android?server=MEXIntGroup-Demo,MEXIntGroup-Real"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"> <a href="https://download.mql5.com/cdn/web/mex.international.group/mt5/mexintgroup5setup.exe"><img src="/public_files/images/common/windows.png"></a></span>
-                                                </div>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $1,000</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.8 pips</li>
+
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</li>
 
 
-
-
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</li>
+                                            </div>
+                                            <div class="center-span">
+                                                <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
+                                            </div>
+                                            <div class="text-center pt-5">
+                                                <a href="#" class="btn-product-partnerships">Learn More <i class="fa fa-angle-right"></i></a>
 
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 br-2 d-md-block d-none">
+                                    <div class="card custom-card-platform">
+                                        <img class="img-responsive custom-img-plat" src="/public_files/images/common/MAXIMUS.png" alt="Card image">
+                                        <div class="card-body ">
+                                            <h4 class="card-title text-center">Maximus</h4>
+                                            <div class="flex-container">
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $50</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 1.4 pips</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</li>
+                                            </div>
+                                            <div class="center-span">
+                                                <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
+                                            </div>
+                                            <div class="text-center pt-5">
+                                                <a href="#" class="btn-product-partnerships">Learn More <i class="fa fa-angle-right"></i></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="row platforms-content platform-slide-2">
+                                <div class="col-12">
+                                    <div class="card custom-card-platform">
+                                        <img class="img-responsive custom-img-plat" src="/public_files/images/common/MAXIMUS.png" alt="Card image">
+                                        <div class="card-body ">
+                                            <h4 class="card-title text-center">Maximus</h4>
+                                            <div class="flex-container">
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $50</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 1.4 pips</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</li>
+                                            </div>
+                                            <div class="center-span">
+                                                <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
+                                            </div>
+                                            <div class="text-center pt-5">
+                                                <a href="#" class="btn-product-partnerships">Learn More <i class="fa fa-angle-right"></i></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card custom-card-platform">
+                                        <img class="img-responsive custom-img-plat" src="/public_files/images/common/ECN-PRO.png" alt="Card image">
+                                        <div class="card-body ">
+                                            <h4 class="card-title text-center">ECN PRO</h4>
+                                            <div class="flex-container">
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $5,000</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.0 pips</li>
+
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</li>
+
+
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</li>
+                                            </div>
+                                            <div class="center-span">
+                                                <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
+                                            </div>
+                                            <div class="text-center pt-5">
+                                                <a href="#" class="btn-product-partnerships">Learn More <i class="fa fa-angle-right"></i></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card custom-card-platform">
+                                        <img class="img-responsive custom-img-plat" src="/public_files/images/common/MultiBank Pro.png" alt="Card image">
+                                        <div class="card-body ">
+                                            <h4 class="card-title text-center">MutltiBank Pro</h4>
+                                            <div class="flex-container">
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Minimum Balance $1,000</li>
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Spread from 0.8 pips</li>
+
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Leverage up to 500:1</li>
+
+
+                                                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social Trading</li>
+                                            </div>
+                                            <div class="center-span">
+                                                <span class="span-img-plat"><a href="https://itunes.apple.com/us/app/metatrader-4/id496212596"><img src="/public_files/images/common/ic_apple@2x.png"></a></span> <span class="span-img-plat"><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"><img src="/public_files/images/common/playstore.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/web/uploads/democomp/metatrader4.apk"><img src="/public_files/images/common/ic_android.svg"></a></span> <span class="span-img-plat"> <a href="https://www.multibankfx.com/web/uploads/democomp/demo/ecnmexintgroup4setup.exe"><img src="/public_files/images/common/windows.png"></a></span> <span class="span-img-plat"><a href="https://www.multibankfx.com/mql5"><img src="/public_files/images/common/chrome.png"></a></span>
+                                            </div>
+                                            <div class="text-center pt-5">
+                                                <a href="#" class="btn-product-partnerships">Learn More <i class="fa fa-angle-right"></i></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="row platforms-content mt-5">
+                                <div class="col-md-6 offset-md-3 col-12 text-center imulti-custom">
+                                    <h4>Multibank institutional</h4>
+                                    <p>MultiBank Institutional provides bespoke liquidity, trading & custody solutions to institutions backed by leading-edge trading technologies and infrastructure. Our institutional solutions minimize trading & operational costs, provide risk management and as a result improve your business’ profitability.</p>
+                                    <div class="text-center pt-5">
+                                        <a href="#" class="btn-product-partnerships ">Learn More <i class="fa fa-angle-right"></i></a>
+
                                     </div>
                                 </div>
 
 
                             </div>
-                            <nav class="nav-2">
-                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                                    <a class="custom-nav-2-link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home-2" role="tab" aria-controls="nav-home" aria-selected="true">ECN PRO</a>
-                                    <a class="custom-nav-2-link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-2" role="tab" aria-controls="nav-profile" aria-selected="false">MAXIMUS</a>
-                                </div>
-                            </nav>
                         </div>
 
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-3">
                 <div class="col-md-12 col-12 text-center text-uppercase">
                     <a href="https://www.multibankfx.com/platforms/compare-platforms" class="btn btn-custom-compare">COMPARE PLATFORMS</a>
                 </div>
             </div>
         </div>
+        </div>
     </section>
-    <!-- downlaod platforms -->
 
-    <section class="bg-gray mex-p-t-none">
+    <!-- About section -->
+
+    <section class="about-multibank">
         <div class="container">
-            <h1 class="mex-h1 text-1e32a3 text-center mex-m-t-50 mex-m-b-30 animate__animated animate__slideInDown ">About MultiBank Group</h1>
-            <div class="row about-custom-mobile d-none d-md-flex">
-                <div class="col-12 col-md-6 mb-4 mb-md-0 animate__animated animate__fadeInLeft">
-                    <section class="mex-block-card bg-white shadow-box-animate">
-                        <div class="card-img-box hover-img-zoom">
-                            <img class="lower-brightness home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" alt="OUR ADVANTAGES">
-                        </div>
-                        <div class="card-content-box">
-                            <div class=" card-content bg-white text-center">
-                                <div class="mex-h2 uppercase mex-m-b-20 text-overflow-1">
-                                    OUR ADVANTAGES
+            <!-- <div class="row pb-3">
+                <div class="col-12 col-md-12">
+                    <h2 class="text-center text-uppercase h2-about mb-3">ABOUT MULTIBANK</h3>
+                </div>
+            </div> -->
+            <div class="row">
+
+                <div class="col-12 col-md-6 pt-4">
+                    <h2 class=" text-uppercase h2-about text-center pt-3 pb-3 pt-md-5 pb-md-5 text-1e32a3  ">ABOUT MULTIBANK</h3>
+
+                        <div class="panel-group custom-pan-group accordion" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne">
+                                    <h4 class="panel-title">Who We Are</h4>
+
                                 </div>
-                                <div class="mex-content text-overflow-2 text-overflow-3-xs">
-                                    Learn more about MultiBank’s award-winning platforms and comprehensive partnership
-                                    programs </div>
-                                <a href="about/why-multibank-group.php" class="btn btn-mex mex-m-r-15 mex-m-b-15 mex-m-t-15">LEARN MORE</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="col-12 col-md-6 animate__animated animate__fadeInRight">
-                    <section class="mex-block-card bg-white shadow-box-animate">
-                        <div class="card-img-box hover-img-zoom">
-                            <img class="lower-brightness home-about-multibank card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS">
-                        </div>
-                        <div class="card-content-box">
-                            <div class=" card-content bg-white text-center">
-                                <div class="mex-h2 uppercase mex-m-b-20 text-overflow-1">
-                                    REGULATIONS
+                                <div id="collapseOne" class="panel-collapse collapse in show">
+                                    <div class="panel-body">
+                                        <p>MultiBank was established in California, USA in 2005. Since its launch MultiBank has evolved into one of the largest online financial derivatives providers worldwide, with a current paid up capital of over US $322 million.</p>
+                                        <a href="#" class="btn-product-2">Learn More <i class="fa fa-angle-right"></i></a>
+
+                                    </div>
                                 </div>
-                                <div class="mex-content text-overflow-2 text-overflow-3-xs">
-                                    MultiBank comprises a number of companies which are regulated by top financial
-                                    bodies worldwide
-                                    including ASIC, BaFin, FMA, CNMV, FSC, and CIMA</div>
-                                <a href="about/regulations.php" class="btn btn-mex mex-m-r-15 mex-m-b-15 mex-m-t-15">LEARN
-                                    MORE</a>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo">
+                                    <h4 class="panel-title">Regulations</h4>
+
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>MultiBank was established in California, USA in 2005. Since its launch MultiBank has evolved into one of the largest online financial derivatives providers worldwide, with a current paid up capital of over US $322 million.</p>
+                                        <a href="#" class="btn-product-2">Learn More <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree">
+                                    <h4 class="panel-title">Our Advantages</h4>
+
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>MultiBank was established in California, USA in 2005. Since its launch MultiBank has evolved into one of the largest online financial derivatives providers worldwide, with a current paid up capital of over US $322 million.</p>
+                                        <a href="#" class="btn-product-2">Learn More <i class="fa fa-angle-right"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour">
+                                    <h4 class="panel-title">security of funds</h4>
+
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>MultiBank was established in California, USA in 2005. Since its launch MultiBank has evolved into one of the largest online financial derivatives providers worldwide, with a current paid up capital of over US $322 million.</p>
+                                        <a href="#" class="btn-product-2">Learn More <i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </section>
                 </div>
-            </div>
-            <div class="row d-block d-md-none">
-                <div class="col-12 mb-2 mb-md-0">
-                    <div class="card">
-                        <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_advantage.png" />
-                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                            <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
-                                OUR ADVANTAGES </div>
-                            <div class="mex-content mb0 text-overflow-3"> <a href="about/why-multibank-group.php" class="btn btn-mex text-white">Learn
-                                    More</a>
+                <div class="col-12 col-md-5 offset-md-1 pt-4">
+                    <h2 class="text-center text-uppercase h2-about text-1e32a3  pb-4 pt-3 pt-md-5 pt-mb-5">GLOBAL PRESENCE</h3>
+
+                        <div class="basic">
+                            <div class="card custom-card-global">
+                                <img class="img-responsive custom-img-plat" src="/public_files/images/common/country/icon-flags/flag-uae.png" alt="Card image">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title text-center">United Arab Emirates</h4>
+                                    <h5 class="pt-4">MultiBank MENA</h5>
+                                    <p> Registered as: <br>MultiBank FX International Corporation <br>Dubai Branch <br>License Number: 825403 <br>Phone: +971 4 875 1311</p>
+                                    <div class="text-center pt-3">
+                                        <a href="#" class="btn btn-learn-more">VIEW ALL OFFICES</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card custom-card-global ">
+                                <img class="img-responsive custom-img-plat" src="/public_files/images/common/country/icon-flags/flag-turkey.png" alt="Card image">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title text-center">TURKEY</h4>
+                                    <h5 class="pt-4">MultiBank TURKEY</h5>
+                                    <p> Registered as: <br>MultiBank FX International Corporation <br>Turkey Branch <br>License Number: 825403 <br>Phone: +971 4 875 1311</p>
+                                    <div class="text-center pt-3">
+                                        <a href="#" class="btn btn-learn-more">VIEW ALL OFFICES</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card custom-card-global">
+                                <img class="img-responsive custom-img-plat" src="/public_files/images/common/country/icon-flags/flag-kuwait.png" alt="Card image">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title text-center">KUWAIT</h4>
+                                    <h5 class="pt-4">MultiBank </h5>
+                                    <p> Registered as: <br>MultiBank FX International Corporation <br>Kuwait Branch <br>License Number: 825403 <br>Phone: +971 4 875 1311</p>
+                                    <div class="text-center pt-3">
+                                        <a href="#" class="btn btn-learn-more">VIEW ALL OFFICES</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card custom-card-global">
+                                <img class="img-responsive custom-img-plat" src="/public_files/images/common/country/icon-flags/flag-germany.png" alt="Card image">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title text-center">GERMANY</h4>
+                                    <h5 class="pt-4">MultiBank GERMANY</h5>
+                                    <p> Registered as: <br>MultiBank FX International Corporation <br>Germany Branch <br>License Number: 825403 <br>Phone: +971 4 875 1311</p>
+                                    <div class="text-center pt-3">
+                                        <a href="#" class="btn btn-learn-more">VIEW ALL OFFICES</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card custom-card-global">
+                                <img class="img-responsive custom-img-plat" src="/public_files/images/common/country/icon-flags/flag-china.png" alt="Card image">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title text-center">CHINA</h4>
+                                    <h5 class="pt-4">MultiBank CHINA</h5>
+                                    <p> Registered as: <br>MultiBank FX International Corporation <br>China Branch <br>License Number: 825403 <br>Phone: +971 4 875 1311</p>
+                                    <div class="text-center pt-3">
+                                        <a href="#" class="btn btn-learn-more">VIEW ALL OFFICES</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <!-- <div class="basic">
+                        <div><img src="https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
+                        <div><img src="https://images.pexels.com/photos/552791/pexels-photo-552791.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
+                        <div><img src="https://images.pexels.com/photos/218983/pexels-photo-218983.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
+                        <div><img src="https://images.pexels.com/photos/552766/pexels-photo-552766.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
+                        <div><img src="https://images.pexels.com/photos/531872/pexels-photo-531872.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
+                        <div><img src="https://images.pexels.com/photos/216623/pexels-photo-216623.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
+                    </div> -->
                 </div>
-                <div class="col-12 mb-2">
-                    <div class="card">
-                        <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_about_regulations.png" alt="REGULATIONS" />
-                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                            <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
-                                REGULATIONS </div>
-                            <div class="mex-content mb0 text-overflow-3"> <a href="about/regulations.php" class="btn btn-mex text-white">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 mb-2">
-                    <div class="card">
-                        <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_security_of_funds_banner.jpg">
-                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                            <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
-                                SECURITY OF FUNDS </div>
-                            <div class="mex-content mb0 text-overflow-3"> <a href="about/security-of-funds.php" class="btn btn-mex text-white">Learn
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 ">
-                    <div class="card">
-                        <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_milestones_banner.png" alt="REGULATIONS" />
-                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                            <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
-                                MILESTONES </div>
-                            <div class="mex-content mb0 text-overflow-3"> <a href="/article/milestones.php" class="btn btn-mex text-white">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
+
     </section>
-    <section class="pt64 pb16 table-background global-presence d-none d-md-block lazyload" id="home_global_presence" style="background-image: url(public_files/images/about_us/global_presence/home_global_presence_bg.jpg)">
-        <div class="mex-content">
-            <h2 class="mex-h1 text-fff text-center animate__animated animate__slideInDown ">Global Presence</h2>
-        </div>
-        <div class="swiper-container swiper-container-horizontal swiper-container-autoheight" id="swiper-container-global-presence">
-            <div class="swiper-wrapper mex-m-b-100" style="transition-duration: 0ms; transform: translate3d(-2011.33px, 0px, 0px); height: 402px;">
-                <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="15" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_turkey.jpg" alt="British Virgin Islands"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Turkey
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Financial Technologies
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Registered as: MEX Yazilim Teknoloji ve Danismanlik Limited Sti<br>
-                                Company Number: 210352-5
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="16" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                British Virgin Islands
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Multibank FX International
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: FSC<br>License Number: SIBA/L/14/1068
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="17" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_british_virgin_islands_mbg.jpg" alt="British Virgin Islands MBG"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                British Virgin Islands
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MBG
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: FSC
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="0" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_cayman_islands.jpg" alt="Cayman Islands"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Cayman Islands
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MultiBank Wealth Management
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: CIMA<br>Registration Number: HS-320499<br>Phone: + 1 345 769 1891
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="1" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_hong_kong.jpg" alt="Hong Kong">
-                        </div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Hong Kong
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Fintech
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Company Number: 2205192
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_australia.jpg" alt="Australia">
-                        </div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Australia
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Exchange
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: ASIC<br>
-                                ACN (Company Number): 155 084 058<br>
-                                AFSL (License Number): 416279<br>
-                                Phone: +61 291954000<br>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="3" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_germany.jpg" alt="Germany"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Germany
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Asset Management
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: BaFin<br>
-                                HRB (License Number): 73406<br>
-                                Phone: +49 69257377474
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide swiper-slide-active width-30" data-swiper-slide-index="4" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_austria.jpg" alt="Austria"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Austria
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Asset Management (Austria)
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: FMA
-                                <br>License Number: 491129z
-                                <br>Phone: +43 720775835<br>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide swiper-slide-next width-40" data-swiper-slide-index="5" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_spain.jpg" alt="Spain"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Spain
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Spain
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: CNMV<br>
-                                License Number: 120<br>
-                                Offices in: Barcelona &amp; Marbella<br>
-                                Phone: + 34 931220671
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide width-30" data-swiper-slide-index="6" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_usa.jpg" alt="USA"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                USA
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Multibank Forex Exchange
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Company Number: 3918038<br>Phone: +1 213 992 4748
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="7" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_mexico.jpg" alt="Mexico"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Mexico
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MultiBank LATAM
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Registered as: Mex Capital Markets SA de CV<br>
-                                Registration Number: 825403<br>
-                                Phone: +52 558 880 8058
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="8" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_china.jpg" alt="China">
-                        </div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                China
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Group
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Toll Free Hotline: 400 120 8619
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="9" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-coverlazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_vietnam.jpg" alt="UAE"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Vietnam
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Multibank Vietnam
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Registration Number: 0315953856<br>
-                                Phone: +84 28 77 77 65 65
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="10" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_philippines.jpg" alt="UAE"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Philippines
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MultiBank Philippines
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Registered as: MBFX Business Consultancy<br>
-                                Company Number: 1123633<br>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="11" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_malaysia.jpg" alt="UAE"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Malaysia
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MultiBank Malaysia
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Registered as: MBG Business Consultancy Sdn. Bhd<br>
-                                Company Number: 201901042318<br>
-                                Phone: +60 32 201 0966
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="12" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_uae2.jpg" alt="UAE"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                UAE
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MultiBank MENA
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Registered as: Multibank FX International Corporation- Dubai Branch <br>
-                                License Number: 825403<br>
-                                Phone: +971 4875 1311
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="13" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_kuwai.jpg" alt="British Virgin Islands"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Kuwait
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MultiBank Kuwait
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Registered as: Multibank International Company<br>
-                                License Number: 2019/27087<br>
-                                Phone: +971 4875 1311
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="14" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_cyprus.jpg" alt="British Virgin Islands"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Cyprus
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Prime
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Company Number: 2713393<br>Phone: +357 25262058
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="15" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_turkey.jpg" alt="British Virgin Islands"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Turkey
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Financial Technologies
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Registered as: MEX Yazilim Teknoloji ve Danismanlik Limited Sti<br>
-                                Company Number: 210352-5
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="16" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_british_virgin_islands.jpg" alt="British Virgin Islands"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                British Virgin Islands
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Multibank FX International
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: FSC<br>License Number: SIBA/L/14/1068
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="17" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box"><img class="card-img mex-img-cover lazyloadXXX" src="/public_files/images/about_us/global_presence/global_presence_british_virgin_islands_mbg.jpg" alt="British Virgin Islands MBG"></div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                British Virgin Islands
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MBG
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: FSC
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box">
-                            <!--<img class="card-img mex-img-cover lazyloadXXX"-->
-                            <!--    src="/public_files/images/about_us/global_presence/global_presence_cayman_islands.png"-->
-                            <!--    alt="Cayman Islands">-->
-                        </div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Cayman Islands
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MultiBank Wealth Management
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: CIMA<br>Registration Number: HS-320499<br>Phone: + 1 345 769 1891
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box">
-                            <!--<img class="card-img mex-img-cover lazyloadXXX"-->
-                            <!--    src="/public_files/images/about_us/global_presence/global_presence_hong_kong.png"-->
-                            <!--    alt="Hong Kong">-->
-                        </div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Hong Kong
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Fintech
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Company Number: 2205192
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 287.333px;">
-                    <section class="mex-block-card-v mex-third">
-                        <div class="card-img-box">
-                            <!--<img class="card-img mex-img-cover lazyloadXXX"-->
-                            <!--    src="/public_files/images/about_us/global_presence/global_presence_australia.png"-->
-                            <!--    alt="Australia">-->
-                        </div>
-                        <div class="card-content bg-white text-center">
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                Australia
-                            </div>
-                            <div class="mex-h3 mex-clamp-1 mex-m-b-15">
-                                MEX Exchange
-                            </div>
-                            <div class="mex-content mex-clamp-2 mb0">
-                                Regulation: ASIC<br>
-                                ACN (Company Number): 155 084 058<br>
-                                AFSL (License Number): 416279<br>
-                                Phone: +61 291954000<br>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-        </div>
-        <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide"></div>
-        <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide">
-        </div>
-    </section>
-    <section class="bg-gray d-none d-md-block">
-        <div class="container">
+
+    <!-- Awards section -->
+    <section class="about-page-awards " id="about-page-awards" style="padding:0px 0; background-image: none;background-position: top;background-size: cover;">
+        <div class="container index-awards">
             <div class="row">
-                <div class="col-12 col-md-6 mb-4">
-                    <section class="mex-block-card bg-white shadow-box-animate">
-                        <div class="card-img-box">
-                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_security_of_funds_banner.jpg" alt="SECURITY OF FUNDS">
-                        </div>
-                        <div class="card-content-box">
-                            <div class=" card-content bg-white text-center">
-                                <div class="mex-h2 uppercase mex-m-b-20 text-overflow-1 animate__animated animate__slideInDown ">
-                                    SECURITY OF FUNDS </div>
-                                <div class="mex-content text-overflow-2 animate__animated animate__slideInDown ">
-                                    Clients enjoy the highest level of funds security through MultiBank </div>
-                                <a href="about/security-of-funds.php" class="btn btn-mex mex-m-r-15 mex-m-b-15 mex-m-t-15">LEARN MORE</a>
-                            </div>
-                        </div>
-                    </section>
+                <div class="col-md-12 text-center mex-m-b-30 ">
+
+                    <h2 class="mex-h1 text-center mx-auto awards-title ">Awards</h2>
+                    <div class="mex-content mex-content col-md-10 font-24 mx-auto d-none">
+                        <p class=" lead text-fff mb15 text-center font-24 d-none d-md-block d-lg-block">Find out more about our awards and
+                            recognitions as
+                            industry leader</p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 mb-4">
-                    <section class="mex-block-card bg-white shadow-box-animate">
-                        <div class="card-img-box">
-                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/home/home_milestones_banner.png" alt="MILESTONES">
-                        </div>
-                        <div class="card-content-box">
-                            <div class=" card-content bg-white text-center">
-                                <div class="mex-h2 uppercase mex-m-b-20 text-overflow-1 animate__animated animate__slideInDown ">
-                                    MILESTONES </div>
-                                <div class="mex-content text-overflow-2 animate__animated animate__slideInDown ">
-                                    Learn more about MultiBank’s achievements from over the years </div>
-                                <a href="/article/milestones.php" class="btn btn-mex mex-m-r-15 mex-m-b-15 mex-m-t-15">LEARN
-                                    MORE</a>
+                <div class="col-md-12 text-center">
+                    <div class="swiper-container swiper-container-horizontal" id="swiper-container-awards" style="cursor: grab;">
+                        <div class="swiper-wrapper" style="transform: translate3d(-1097px, 0px, 0px); transition-duration: 0ms;">
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="34" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/2013Asia.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Broker 2013</span>
+                                    <span class="mex-content ">Asia Franchise Industry Association</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="35" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2012</span>
+                                    <span class="mex-content ">Jinrongjie</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="36" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/rtb_china_awards_2012.png">
+                                    <span class="mex-h3 mex-m-b-5 ">RTB China Awards 2012</span>
+                                    <span class="mex-content ">Global RTB Summit</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="37" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_2012_11china.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2012</span>
+                                    <span class="mex-content ">11th China International Investment &amp; Finance
+                                        Expo</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="38" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/best_ecn_broker_2012.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best ECN Broker (Asia) 2012</span>
+                                    <span class="mex-content ">Global Banking &amp; Finance Review</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="39" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Service Provider 2011</span>
+                                    <span class="mex-content ">Hexun</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30 swiper-slide-prev" data-swiper-slide-index="40" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2011</span>
+                                    <span class="mex-content ">Hexun</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30 swiper-slide-active" data-swiper-slide-index="0" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/Best_Forex_CFD_Broker_JFEX_Award.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex and CFD Broker 2019</span>
+                                    <span class="mex-content ">16th Jordan Forex Expo &amp; Awards</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30 swiper-slide-next" data-swiper-slide-index="1" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-wins-financial-services-provider-asia-award-2019.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/Financial_Services_Provider_of_the_Year_Asia_2019.jpg">
+                                    <span class="mex-h3 mex-m-b-5 ">Financial Services Provider of the Year (Asia)
+                                        2019</span>
+                                    <span class="mex-content ">Global Brands Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="2" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-chosen-best-FX-CFD-broker-2019.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/best_fx_broker_euas_2019.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best FX &amp; CFD Broker (Europe &amp; Asia)
+                                        2019</span>
+                                    <span class="mex-content ">International Investor</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-40" data-swiper-slide-index="3" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-wins-ecn-broker-best-forex-platform-2019.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/ecn_broker_eu_2019.png">
+                                    <span class="mex-h3 mex-m-b-5 ">ECN Broker of the Year (Europe) 2019</span>
+                                    <span class="mex-content ">International Business Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="4" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-wins-ecn-broker-best-forex-platform-2019.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_mena_2019.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Platform MENA 2019</span>
+                                    <span class="mex-content ">International Business Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="5" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-named-best-financial-derivatives-broker-2019.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/2019best_financial_derivatives_broker_europe.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Financial Derivatives Broker 2019</span>
+                                    <span class="mex-content ">Global Banking &amp; Finance Review</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="6" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-selected-best-forex-broker-forex-expo-dubai-2019.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_broker_2019.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Broker 2019</span>
+                                    <span class="mex-content ">The Forex Expo Dubai</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="7" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/milestones_multibank-chairman-naser-taher-awarded-ceo-of-the-year-2019.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/2019CEO_of_the_year_financial_services_asia_europe.png">
+                                    <span class="mex-h3 mex-m-b-5 ">CEO of the Year (Financial Services) (Asia &amp;
+                                        Europe) 2019</span>
+                                    <span class="mex-content ">Le Fonti Awards (International Alternative Investment
+                                        Review)</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="8" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-honored-best-ecn-broker-asia-2019.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/best_ecn_broker_asia_2019.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best ECN Broker of the Year (Asia) 2019</span>
+                                    <span class="mex-content ">Finance Derivative</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="9" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/best_education_provider_2019.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Education Provider 2019</span>
+                                    <span class="mex-content ">FX Daily Info</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="10" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class=" lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_platform_2018.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform (Hong Kong) 2018</span>
+                                    <span class="mex-content ">International Finance Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="11" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_ecn_broker_2018.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best ECN Broker Europe 2018</span>
+                                    <span class="mex-content ">International Business Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="12" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_ecn_platform_2018.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex ECN Platform (Europe &amp; Asia)</span>
+                                    <span class="mex-content ">Capital Finance International</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="13" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/most_admired_2017.png">
+                                    <span class="mex-h3 mex-m-b-5 ">30 Most Admired Companies of 2017</span>
+                                    <span class="mex-content ">Insights Success Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="14" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/ceo_of_the_year_2017.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Financial Derivatives Broker of the Year (Asia &amp;
+                                        Europe)
+                                        2017</span>
+                                    <span class="mex-content ">International Alternative Investment Review</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="15" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/ceo_of_the_year_2017.png">
+                                    <span class="mex-h3 mex-m-b-5 ">CEO of the Year-- Financial Services (Asia &amp;
+                                        Europe) 2017</span>
+                                    <span class="mex-content ">International Alternative Investment Review</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="16" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_platform_2016.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Exchange Platform (Hong Kong) 2016</span>
+                                    <span class="mex-content ">Global Brands Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="17" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_ceo_2016.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Financial Services CEO (Hong Kong) 2016</span>
+                                    <span class="mex-content ">Global Brands Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="18" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_china_2016.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Platform 2016</span>
+                                    <span class="mex-content ">China Forex Expo</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="19" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_execution_broker_2016.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Execution Broker 2016</span>
+                                    <span class="mex-content ">China Forex Expo</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="20" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_broker_2015.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Broker 2015</span>
+                                    <span class="mex-content ">IFeng</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="21" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_platform_2015.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform (Asia &amp; Europe)
+                                        2015</span>
+                                    <span class="mex-content ">Capital Finance International</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="22" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_broker_europe_2015.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Broker Europe 2015</span>
+                                    <span class="mex-content ">International Alternative Investment Review</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="23" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_platform_2014.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Institutional FX Platform 2014</span>
+                                    <span class="mex-content ">7th Saudi Money Expo</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="24" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/top_provider_2014.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Top FX Liquidity Provider 2014</span>
+                                    <span class="mex-content ">6th Saudi Money Expo</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="25" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/most_secure_broker_2014.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Most Secure Broker 2014</span>
+                                    <span class="mex-content ">KG Forex World Conference</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="26" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_ecn_broker_2013.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best ECN Forex Broker Asia 2013<br> Best ECN Forex
+                                        Broker Europe
+                                        2013</span>
+                                    <span class="mex-content ">Global Banking &amp; FinanceReview</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="27" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_company_leadership_2013.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Company for Leadership 2013</span>
+                                    <span class="mex-content ">International Alternative Investment Review</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="28" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_broker_2013.png"> <span class="mex-h3 mex-m-b-5 ">Most Secure Forex Broker 2013</span>
+                                    <span class="mex-content ">Shanghai Financial Investment Management
+                                        Association</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="29" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_broker_2013.png"> <span class="mex-h3 mex-m-b-5 ">Best Forex Broker 2013</span>
+                                    <span class="mex-content ">Shanghai Financial Investment Management
+                                        Association</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="30" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/broker_of_the_year_2013.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Broker of the Year 2013</span>
+                                    <span class="mex-content ">China International Online Trading Expo</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="31" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/most_powerful_team_2013.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2013</span>
+                                    <span class="mex-content ">CNFOL</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="32" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/most_powerful_team_2013.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Most Powerful Forex Technical Research &amp;
+                                        Development Team
+                                        2013</span>
+                                    <span class="mex-content ">CNFOL</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="33" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/2013Asia.png"> <span class="mex-h3 mex-m-b-5 ">Most Secure Forex Broker 2013</span>
+                                    <span class="mex-content ">Asia Franchise Industry Association</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="34" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/2013Asia.png"> <span class="mex-h3 mex-m-b-5 ">Best Forex Broker 2013</span>
+                                    <span class="mex-content ">Asia Franchise Industry Association</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="35" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_trading_platform_2012.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2012</span>
+                                    <span class="mex-content ">Jinrongjie</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="36" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/rtb_china_awards_2012.png"> <span class="mex-h3 mex-m-b-5 ">RTB China Awards 2012</span>
+                                    <span class="mex-content ">Global RTB Summit</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="37" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_2012_11china.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2012</span>
+                                    <span class="mex-content ">11th China International Investment &amp; Finance
+                                        Expo</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="38" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_ecn_broker_2012.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best ECN Broker (Asia) 2012</span>
+                                    <span class="mex-content ">Global Banking &amp; Finance Review</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30" data-swiper-slide-index="39" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_provider_2011.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Service Provider 2011</span>
+                                    <span class="mex-content ">Hexun</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide width-30 swiper-slide-duplicate-prev" data-swiper-slide-index="40" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_provider_2011.png" alt="best_forex_provider_2011">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Trading Platform 2011</span>
+                                    <span class="mex-content ">Hexun</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30 swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/about/awards.php">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/Best_Forex_CFD_Broker_JFEX_Award.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex and CFD Broker 2019</span>
+                                    <span class="mex-content ">16th Jordan Forex Expo &amp; Awards</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30 swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-wins-financial-services-provider-asia-award-2019">
+                                    <!--<img class="lazyloadXXX"-->
+                                    <!--    src="/public_files/images/about_us/awards/Financial_Services_Provider_of_the_Year_Asia_2019.png">-->
+
+                                    <span class="mex-h3 mex-m-b-5 ">Financial Services Provider of the Year (Asia)
+                                        2019</span>
+                                    <span class="mex-content ">Global Brands Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="2" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-chosen-best-FX-CFD-broker-2019">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_fx_broker_euas_2019.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best FX &amp; CFD Broker (Europe &amp; Asia)
+                                        2019</span>
+                                    <span class="mex-content ">International Investor</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="3" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-wins-ecn-broker-best-forex-platform-2019">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/ecn_broker_eu_2019.png">
+                                    <span class="mex-h3 mex-m-b-5 ">ECN Broker of the Year (Europe) 2019</span>
+                                    <span class="mex-content ">International Business Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="4" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-wins-ecn-broker-best-forex-platform-2019">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_mena_2019.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Platform MENA 2019</span>
+                                    <span class="mex-content ">International Business Magazine</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="5" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-named-best-financial-derivatives-broker-2019">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/2019best_financial_derivatives_broker_europe.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Financial Derivatives Broker 2019</span>
+                                    <span class="mex-content ">Global Banking &amp; Finance Review</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate width-30" data-swiper-slide-index="6" style="width: 136.714px; margin-right: 20px;">
+                                <a href="/article/multibank-selected-best-forex-broker-forex-expo-dubai-2019">
+                                    <img class="lazyloadXXX" src="/public_files/images/about_us/awards/best_forex_broker_2019.png">
+                                    <span class="mex-h3 mex-m-b-5 ">Best Forex Broker 2019</span>
+                                    <span class="mex-content ">The Forex Expo Dubai</span>
+                                </a>
                             </div>
                         </div>
-                    </section>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                    <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide"></div>
+                    <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <h2 class=" text-center text-1e32a3 uppercase mb-4 d-block d-md-none animate__animated animate__slideInDown " style="padding-top: 15px;">Awards</h2>
-    <?php include_from_root('website_template/about_awards.php') ?>
-    <!-- <section class="bg-white p0 index-platforms  d-md-flex d-none">
-        <img class="d-none d-md-none lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">
-        <div class="container mex-p-t-80 mex-p-b-80">
-            <div class="row">
-                <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
-                    <h3 class="mex-h1 text-1e32a3 text-center lower-brightness-pt">Platforms</h3>
-                </div>
-                <div class=" col-xl-8 col-lg-12 row mx-0 d-md-flex d-none d-md-block">
-                    <div class="col-lg-6 mex-p-l-0 p0-xs mb-3">
-                        <div class="platforms_content mex-box-shadow">
-                            <h4 class="uppercase  mb16  mb-xs-8  ">
-                                <img class=" lazyloadXXX" src="/public_files/images/home/home_platforms_multibank_pro_icon.png" alt="MultiBank Pro Platform">
-                                <span>MultiBank Pro
-                                    Platform</span>
-                            </h4>
-                            <p class=" platforms_box_txt mex-clamp-4 mex-content">Ideal for traders looking for an ECN
-                                experience with tight spreads and zero platform fees</p>
-                            <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/multibank-pro.php"><i class="fa fa-bar-chart" aria-hidden="true"></i>MT4</a>
-                            <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/multibank-pro.php"><i class="fa fa-mobile" aria-hidden="true"></i>Mobile</a>
-                            <a class="btn btn-mex btn-sm mex-m-b-15" href="mql5.php"><i class="fa fa-desktop" style="top: 1px;
-    position: relative;"></i> Web Trading</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mex-p-l-0 p0-xs mb-3">
-                        <div class="platforms_content mex-box-shadow">
-                            <h4 class="uppercase  mb16  mb-xs-8  ">
-                                <img class=" lazyloadXXX" src="/public_files/images/home/home_platforms_maximus_icon.png" alt="Maximus Platform">
-                                <span>Maximus Platform</span>
-                            </h4>
-                            <p class=" platforms_box_txt mex-clamp-4 mex-content">Recommended for traders looking for no
-                                restrictions on EA and scalping trading</p>
-                            <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/maximus.php"><i class="fa fa-bar-chart" aria-hidden="true"></i>MT4</a>
-                            <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/maximus.php"><i class="fa fa-mobile" aria-hidden="true"></i>Mobile</a>
-                            <a class="btn btn-mex btn-sm mex-m-b-15" href="mql5.php"><i class="fa fa-desktop" style="top: 1px;position: relative;"></i> Web Trading</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mex-p-l-0 p0-xs mb-3">
-                        <div class="platforms_content mex-box-shadow">
-                            <h4 class="uppercase  mb16  mb-xs-8  "><img class=" lazyloadXXX" src="/public_files/images/home/home_platforms_mt5_platform.png" alt="MT5 Platform"><span>MT5 Platform</span>
-                            </h4>
-                            <p class=" platforms_box_txt mex-clamp-4 mex-content">Suitable for traders looking for
-                                enhanced
-                                trading functionalities such as advanced scripting tools for custom indicators and
-                                expert
-                                advisors</p>
-                            <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/mt5-platform.php"><i class="fa fa-bar-chart" aria-hidden="true"></i>MT5</a>
-                            <a class="btn btn-mex btn-sm mex-m-b-15" href="platforms/mt5-platform.php"><i class="fa fa-mobile" aria-hidden="true"></i>Mobile</a>
-                            <a class="btn btn-mex btn-sm mex-m-b-15" href="mql5.php"><i class="fa fa-desktop" style="top: 1px;position: relative;"></i> Web Trading</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <section class="bg-white p0 index-platforms d-none d-md-none">
-        <!--<img class=" lazyloadXXX" src="/public_files/images/about_us/global_presence/home_platforms_bg.png"-->
-        <!--    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.1;">-->
-        <div class="container mex-p-t-80 mex-p-b-80">
-            <div class="row">
-                <div class="col-xl-10 mx-auto col-lg-12 text-center mex-m-b-15 ">
-                    <h3 class="mex-h1 text-1e32a3 text-center ">Platforms</h3>
-                </div>
-                <div class="col-xl-8 col-lg-12 row mx-0 d-flex ">
-                    <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">
-                        <!--<img class="mb-platform-icon mb-2 lazyloadXXX"-->
-                        <!--    src="/public_files/images/about_us/global_presence/home_platforms_ecn_icon.png"-->
-                        <!--    alt="ECN Pro Platform">-->
-                        ECN Pro<br>Platform
-                    </div>
-                    <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">
-                        <!--<img class=" mb-platform-icon mb-2 lazyloadXXX"-->
-                        <!--    src="/public_files/images/about_us/global_presence/home_platforms_multibank_pro_icon.png"-->
-                        <!--    alt="MultiBank Pro Platform">-->
-                        MultiBank Pro<br>Platform
-                    </div>
-                    <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">
-                        <!--<img class="mb-platform-icon mb-2 lazyloadXXX" alt="Maximus Platform"-->
-                        <!--    src="/public_files/images/about_us/global_presence/home_platforms_maximus_icon.png">-->
-                        Maximus<br>Platform
-                    </div>
-                    <div class="col-3 d-flex align-items-center flex-column text-center text-uppercase mex-h3 font-16" style="line-height: 20px;">
-                        <!--<img class="mb-platform-icon mb-2 lazyloadXXX" alt="Maximus Platform"-->
-                        <!--    src="/public_files/images/about_us/global_presence/home_platforms_mt5_platform.png">-->
-                        MT5<br>Platform
-                    </div>
-                    <div class="col-12 d-flex justify-content-center my-4">
-                        <a href="platforms.php" class="btn btn-mex text-white">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="bg-gray p0">
+
+    <!-- Partnerships section -->
+    <section class="bg-gray p0 section-partnerships">
         <div class="container">
             <div class="row ">
                 <div class="col-lg-12 ">
-                    <h3 class="mex-h1 mex-m-t-50 mex-m-b-30 text-1e32a3 text-center">Partnership</h3>
+                    <h3 class="mex-h1 mb-0 mt-0 mb-lg-1 mt-lg-1 text-1e32a3 pb-5 pt-5  text-center">Partnership</h3>
                 </div>
-                <div class="col-12 col-md-12 col-xl-8 mex-m-b-30 d-none d-md-block ">
+                <div class="col-12 col-md-12 col-xl-6 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/introducing-brokers">
-                            <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
+                            <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-introducing-brokers.jpg">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
-                                    Introducing Brokers </div>
-                                <div class="mex-content mb0 text-overflow-3 col-lg-6 p0 col-12">Join MultiBank’s network
+                                    Introducing Brokers
+                                </div>
+                            </div>
+                            <div class="partnership-cont">
+                                <h5 class="text-uppercase">Introducing Brokers</h5>
+                                <p> Join MultiBank’s network
                                     of over 30,000
                                     Introducing Brokers and enjoy the highest levels of personalized customer care.
-                                </div>
+                                </p>
+                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                             </div>
                         </a>
                     </section>
                 </div>
-                <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
+                <div class="col-12 col-md-12 col-xl-6 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
-                        <a href="partnership/franchise-program.php">
-                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
+                        <a href="/partnership/franchise-program.php">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-franchise-program.jpg" alt="Franchise Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                     Franchise Program </div>
-                                <div class="mex-content mb0 text-overflow-3">
-                                    Open offices under the MultiBank name and obtain exclusivity of our products and
+                            </div>
+                            <div class="partnership-cont">
+                                <h5 class="text-uppercase">Franchise Program</h5>
+                                <p>Open offices under the MultiBank name and obtain exclusivity of our products and
                                     services in the
-                                    region </div>
+                                    region
+                                </p>
+                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                             </div>
                         </a>
                     </section>
                 </div>
-                <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
+                <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
-                        <a href="partnership/white-label.php">
-                            <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
-                            ">
+                        <a href="/partnership/white-label.php">
+                            <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-white-label.jpg">
+
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                     White Label </div>
-                                <div class="mex-content mb0 text-overflow-3">
-                                    Become MultiBank’s White Label Partner and have your own proprietary trading system,
+
+                            </div>
+                            <div class="mex-content mb0 text-overflow-3 partnership-cont">
+                                <h5 class="text-uppercase">White Label</h5>
+                                <p>Become MultiBank’s White Label Partner and have your own proprietary trading system,
                                     branded in your
-                                    corporate name </div>
+                                    corporate name
+                                </p>
+                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                             </div>
                         </a>
                     </section>
                 </div>
-                <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
+                <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
-                        <a href="partnership/prime-of-primes.php">
-                            <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                        <a href="/partnership/prime-of-primes.php">
+                            <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-prime-of-primes.jpg">
                             <div class="card-content text-left">
                                 <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
                                     Prime of Primes </div>
-                                <div class="mex-content mb0 text-overflow-3">
-                                    Complete A to Z prime technology solution for MultiBank’s institutional partners
-                                </div>
+                            </div>
+                            <div class="partnership-cont">
+                                <h5 class="text-uppercase">Prime of Primes</h5>
+                                <p>
+                                    A to Z prime technology solution for MultiBank’s institutional partners
+                                </p>
+                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                             </div>
                         </a>
                     </section>
                 </div>
-                <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block">
+                <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
-                        <a href="partnership/cpa-affiliate-program.php">
-                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnership_cpa_affiliate_program_newx.png" alt="CPA Affiliate Program">
+                        <a href="/partnership/cpa-affiliate-program.php">
+                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-cpa-affiliate-program.jpg" alt="CPA Affiliate Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                     CPA Affiliate Program </div>
-                                <div class="mex-content mb0 text-overflow-3">
-                                    MultiBank’s CPA Affiliate Program allows digital marketers to earn commission for
+                            </div>
+                            <div class="partnership-cont">
+                                <h5 class="text-uppercase">CPA Affiliate Program</h5>
+                                <p>MultiBank’s CPA Affiliate Program allows digital marketers to earn commission for
                                     every active trader
-                                    they introduce </div>
+                                    they introduce
+                                </p>
+                                <a href="#" class="btn-product-partnerships text-white">Learn More <i class="fa fa-angle-right text-white"></i></a>
                             </div>
                         </a>
                     </section>
                 </div>
             </div>
         </div>
-        <div class="row d-block d-md-none">
-            <div class="col-12 col-md-12 col-xl-8 mex-m-b-10 custom-card-img">
-                <div class="card">
-                    <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_introducing_broker@2x.png">
-                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                        <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
-                            Introducing Brokers </div>
-                        <div class="mex-content mb0 text-overflow-3"> <a href="partnership/introducing-brokers.php" class="btn btn-mex text-white">Learn
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
-                <div class="card">
-                    <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_franchise_program@2x.png" alt="Franchise Program">
-                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                        <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
-                            Franchise Program </div>
-                        <div class="mex-content mb0 text-overflow-3"> <a href="partnership/franchise-program.php" class="btn btn-mex text-white">Learn
-                                More</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
-                <div class="card">
-                    <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_white_label@2x.png">
-                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                        <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
-                            White Label </div>
-                        <div class="mex-content mb0 text-overflow-3"> <a href="partnership/white-label.php" class="btn btn-mex text-white">Learn More</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img d-none">
-                <div class="card">
-                    <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
-                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
-                        <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
-                            Prime of Primes </div>
-                        <div class="mex-content mb0 text-overflow-3"> <a href="partnership/prime-of-primes.php" class="btn btn-mex text-white">Learn
-                                More</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="table-background plants d-md-flex d-none">
-        <div class="container ">
-            <div class="row">
-                <div class="col-lg-8 col-12 mx-auto">
-                    <section class="mex-company-news">
-                        <div class="mex-h2 mex-bold text-center uppercase">
-                            Company News
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <ul class="mex-new-content-box swiper-container-vertical" id="home_company_news_container" style="min-height: 535px; overflow-y: hidden; height: 440px;">
-                                    <div class="swiper-wrapper" style="transform: translate3d(0px, -267.5px, 0px); transition-duration: 0ms;">
-                                        <!-- dynmic news slides -->
-                                        <?php echo $news ?>
-                                        <!-- dynmic news slides -->
-                                    </div>
-                                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                                </ul>
+        <div class="container">
+            <div class="row d-block d-md-none">
+                <div class="col-12 col-md-12 col-xl-8 mex-m-b-10 custom-card-img">
+                    <div class="card">
+                        <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-introducing-brokers.jpg">
+                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
+                            <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
+                                Introducing Brokers </div>
+                            <div class="mex-content mb0 text-overflow-3">
+                                <a href="/partnership/introducing-brokers.php" class="btn-product-partnerships text-white">Learn More</a>
                             </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
-                <div class="text-center mex-p-15 index_sup_a col-12">
-                    <a href="/article/company-news.php" class="btn btn-mex ">MORE</a>
+                <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
+                    <div class="card">
+                        <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-franchise-program.jpg" alt="Franchise Program">
+                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
+                            <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
+                                Franchise Program </div>
+                            <div class="mex-content mb0 text-overflow-3"> <a href="/partnership/franchise-program.php" class="btn-product-partnerships text-white">Learn
+                                    More</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
+                    <div class="card">
+                        <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-prime-of-primes.jpg">
+                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
+                            <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
+                                White Label </div>
+                            <div class="mex-content mb0 text-overflow-3">
+                                <a href="/partnership/white-label.php" class="btn-product-partnerships text-white">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img d-none">
+                    <div class="card">
+                        <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                        <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
+                            <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
+                                Prime of Primes </div>
+                            <div class="mex-content mb0 text-overflow-3">
+                                <a href="/partnership/prime-of-primes.php" class="btn-product-partnerships text-white">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-12 text-white text-center">
+                    <h2 class="text-uppercase  h2-contact mb-3 ">contact us</h2>
+                    <p class="pb-5 pt-3">For any questions or inquiries, please do not hesitate to contact our 24/5 professional multilingual Customer Service</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-12 div-call">
+                    <h4 class="contact-h4 mb-4">CALL US</h4>
+                    <div class="mex-form-item col-8" style="margin-bottom: 10px;padding-left: 0 !important;">
+                        <label for="" class="d-none">
+                        </label>
+                        <select class="country-list" id="myselect">
+                            <option value="UAE">UAE</option>
+                            <option value="SPAIN">SPAIN</option>
+                            <option value="INDONESIA">INDONESIA</option>
+                            <option value="MALAYSIA">MALAYSIA</option>
+                            <option value="USA">USA</option>
+
+                        </select>
+                    </div>
+                    <!-- <div class="dropdown custom-dropdown">
+                        <button type="button" class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          UAE
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">USA</a>
+                          <a class="dropdown-item" href="#">SPAIN</a>
+                          <a class="dropdown-item" href="#">INDONESIA</a>
+                          <a class="dropdown-item" href="#">MALAYSIA</a>
+
+                        </div>
+                      </div> -->
+
+                    <ul class="contact-country">
+                        <li class="d-block" id="uae"><a href="tel:+60322010966?call"><img alt="uae" class="country-icon" data-entity-type="" data-entity-uuid="" src="./public_files/images/common/country/uae.png">
+                                <span> <strong class="country-name">UAE:</strong> +971 4 875 1311</span> </a></li>
+                        <li class="d-none" id="usa"><a href="tel:+12139924748?call"><img alt="US" class="country-icon" data-entity-type="" data-entity-uuid="" src="./public_files/images/common/country/usa_big.png">
+                                <span> <strong class="country-name">US:</strong> +1 213 992 4748 </span> </a></li>
+                        <li class="d-none" id="spain"><a href="tel:+34931220671?call"><img alt="Spain" class="country-icon" data-entity-type="" data-entity-uuid="" src="./public_files/images/common/country/spain_big.png">
+                                <span> <strong class="country-name">Spain:</strong> +34 931220671</span></a></li>
+                        <li class="d-none" id="indo"><a href="tel:+6202129264151?call"><img alt="Indonesia" class="country-icon" data-entity-type="" data-entity-uuid="" src="./public_files/images/common/country/indonesia_big.png">
+                                <span> <strong class="country-name">Indonesia:</strong> +62 02129264151 </span> </a></li>
+                        <li class="d-none" id="malay"><a href="tel:+60322010966?call"><img alt="Malaysia" class="country-icon" data-entity-type="" data-entity-uuid="" src="./public_files/images/common/country/malaysia_big.png">
+                                <span> <strong class="country-name">Malaysia:</strong> +60 32 201 0966</span> </a></li>
+
+
+                    </ul>
+
+                    <h4 class="contact-h4 mb-md-4 mb-0 mt-md-5 mt-0">eMAIL US</h4>
+                    <div class="contact-email custom-email">
+                        <a class="text-000033" href="mailto:cs@multibankfx.com">cs@multibankfx.com</a>
+                    </div>
+                    <ul class="contact-social-media">
+                        <li class="social-contact">
+                            <div class="mex-h3 mb-md-4 mb-2 mt-3 mt-md-5 text-center text-md-left">Follow us</div>
+                            <a href="https://www.facebook.com/multibank.official" target="_blank">
+                                <span><i class="fa fa-facebook"></i></span>
+                            </a>
+                            <a href="https://twitter.com/multibankgroup" target="_blank">
+                                <span><i class="fa fa-twitter"></i></span>
+                            </a>
+                            <a href="https://www.youtube.com/c/MultiBankGoup" target="_blank">
+                                <span><i class="fa fa-youtube"></i></span>
+                            </a>
+                            <a href="https://www.linkedin.com/company/multibankgroup/" target="_blank">
+                                <span><i class="fa fa-linkedin"></i></span>
+                            </a>
+                            <a href="https://www.instagram.com/multibank_group/" target="_blank">
+                                <span><i class="fa fa-instagram"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8 col-12 div-form">
+                    <h4 class="contact-h4 mb-4">Get a Call back</h4>
+
+                    <!-- <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked>
+                    <label class="custom-control-label" for="customRadio1">Individual</label>
+                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked>
+                    <label class="custom-control-label" for="customRadio1">partnership</label> -->
+
+                    <div style="width: 100%;">
+                        <form action="https://www.multibankfx.com/form/callback?" name="call_back_footer_form" class="multibank-form row mx-0 w-100 new" method="post" enctype="" id="call_back_footer_form" target="" autocomplete="on">
+                            <input type="hidden" name="t_date" value="MjAyMC0wNi0yNyAwMjo0OToxNA==">
+                            <input type="hidden" name="token" value="$2y$10$ckeztx1BOdjmTuHO2vxCAeZMeyHurUeRWV.MLqIXEMw9UcUuRkgo6">
+                            <input type="hidden" name="source" value="[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:12] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:13] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:49:14] https://www.multibankfx.com/<br/><br/> <br/><br/> posted From: www.multibankfx.com/about/awards?web=true">
+                            <div class="mex-form-item col-6 col-md-3 p-1 cb-partnership font-16" style="
+                            margin-bottom: 10px;
+                        ">
+
+                                <div class="form-check form-check-inline"><input data-message="Account Type is Required." data-extra-message="Full Name Invalid." class="   " name="account_type" type="radio" required="" value="1" checked="">
+                                    <label class="mb-0 ml-1" for="">INDIVIDUAL</label>
+                                </div>
+                            </div>
+                            <div class="mex-form-item col-6 col-md-3 p-1 cb-partnership font-16" style="
+                            margin-bottom: 10px;
+                        ">
+
+                                <div class="form-check form-check-inline"><input data-message="" data-extra-message="Full Name Invalid." class="   " name="account_type" type="radio" required="" value="2">
+                                    <label class="mb-0 ml-1" for="">PARTNERSHIP</label>
+                                </div>
+                            </div>
+                            <div class="mex-form-item col-md-11 col-12  p-1" style="
+                            margin-bottom: 10px;
+                        ">
+                                <label for="" class="d-none">
+                                </label>
+                                <input type="text" data-message="Name is Required." data-extra-message="Full Name Invalid." data-regex="" class=" form-control mb-0" name="name" placeholder="Full Name" required="" value="">
+                            </div>
+                            <div class="mex-form-item col-md-11 col-12   p-1" style="
+                            margin-bottom: 10px;
+                        ">
+                                <label for="" class="d-none">
+                                </label>
+                                <input type="email" data-message="Email is Required." data-extra-message="Email is Invalid." data-regex="" class="form-control mb-0" name="email" placeholder="Email" required="" value="">
+                            </div>
+                            <div class="mex-form-item col-md-11 col-12  p-1" style="
+                            margin-bottom: 10px;
+                        ">
+                                <label for="" class="d-none">
+                                </label>
+                                <input type="email" data-message="Confirm Email is Required." data-extra-message="Email Mismatched." data-regex="" class="form-control mb-0" name="confirm_email" placeholder="Confirm Email" required="" value="">
+                            </div>
+                            <div class="d-none">
+                                <label for="" class="d-none">
+                                </label>
+
+                                <select data-message="Country Name is Required." data-extra-message="Country Name Invalid." class="selection-country form-control &nbsp;mb-0 select_with_country select_with_country" name="country_name" required="">
+                                    <option value="" selected="selected">Select Country</option>
+                                    <option data-country_iso_code="AF" data-name="AF" value="AF">AFGHANISTAN</option>
+                                    <option data-country_iso_code="AL" data-name="AL" value="AL">ALBANIA</option>
+                                    <option data-country_iso_code="DZ" data-name="DZ" value="DZ">ALGERIA</option>
+                                    <option data-country_iso_code="AS" data-name="AS" value="AS">AMERICAN SAMOA</option>
+                                    <option data-country_iso_code="AD" data-name="AD" value="AD">ANDORRA</option>
+                                    <option data-country_iso_code="AO" data-name="AO" value="AO">ANGOLA</option>
+                                    <option data-country_iso_code="AI" data-name="AI" value="AI">ANGUILLA</option>
+                                    <option data-country_iso_code="AQ" data-name="AQ" value="AQ">ANTARCTICA</option>
+                                    <option data-country_iso_code="AG" data-name="AG" value="AG">ANTIGUA AND BARBUDA
+                                    </option>
+                                    <option data-country_iso_code="AR" data-name="AR" value="AR">ARGENTINA</option>
+                                    <option data-country_iso_code="AM" data-name="AM" value="AM">ARMENIA</option>
+                                    <option data-country_iso_code="AW" data-name="AW" value="AW">ARUBA</option>
+                                    <option data-country_iso_code="AU" data-name="AU" value="AU">AUSTRALIA</option>
+                                    <option data-country_iso_code="AT" data-name="AT" value="AT">AUSTRIA</option>
+                                    <option data-country_iso_code="AZ" data-name="AZ" value="AZ">AZERBAIJAN</option>
+                                    <option data-country_iso_code="BS" data-name="BS" value="BS">BAHAMAS</option>
+                                    <option data-country_iso_code="BH" data-name="BH" value="BH">BAHRAIN</option>
+                                    <option data-country_iso_code="BD" data-name="BD" value="BD">BANGLADESH</option>
+                                    <option data-country_iso_code="BB" data-name="BB" value="BB">BARBADOS</option>
+                                    <option data-country_iso_code="BY" data-name="BY" value="BY">BELARUS</option>
+                                    <option data-country_iso_code="BE" data-name="BE" value="BE">BELGIUM</option>
+                                    <option data-country_iso_code="BZ" data-name="BZ" value="BZ">BELIZE</option>
+                                    <option data-country_iso_code="BJ" data-name="BJ" value="BJ">BENIN</option>
+                                    <option data-country_iso_code="BM" data-name="BM" value="BM">BERMUDA</option>
+                                    <option data-country_iso_code="BT" data-name="BT" value="BT">BHUTAN</option>
+                                    <option data-country_iso_code="BO" data-name="BO" value="BO">BOLIVIA</option>
+                                    <option data-country_iso_code="BA" data-name="BA" value="BA">BOSNIA AND
+                                        HERZEGOVINA
+                                    </option>
+                                    <option data-country_iso_code="BW" data-name="BW" value="BW">BOTSWANA</option>
+                                    <option data-country_iso_code="BV" data-name="BV" value="BV">BOUVET ISLAND</option>
+                                    <option data-country_iso_code="BR" data-name="BR" value="BR">BRAZIL</option>
+                                    <option data-country_iso_code="IO" data-name="IO" value="IO">BRITISH INDIAN OCEAN
+                                        TERRITORY
+                                    </option>
+                                    <option data-country_iso_code="BN" data-name="BN" value="BN">BRUNEI DARUSSALAM
+                                    </option>
+                                    <option data-country_iso_code="BG" data-name="BG" value="BG">BULGARIA</option>
+                                    <option data-country_iso_code="BF" data-name="BF" value="BF">BURKINA FASO</option>
+                                    <option data-country_iso_code="BI" data-name="BI" value="BI">BURUNDI</option>
+                                    <option data-country_iso_code="KH" data-name="KH" value="KH">CAMBODIA</option>
+                                    <option data-country_iso_code="CM" data-name="CM" value="CM">CAMEROON</option>
+                                    <option data-country_iso_code="CA" data-name="CA" value="CA">CANADA</option>
+                                    <option data-country_iso_code="CV" data-name="CV" value="CV">CAPE VERDE</option>
+                                    <option data-country_iso_code="KY" data-name="KY" value="KY">CAYMAN ISLANDS</option>
+                                    <option data-country_iso_code="CF" data-name="CF" value="CF">CENTRAL AFRICAN
+                                        REPUBLIC
+                                    </option>
+                                    <option data-country_iso_code="TD" data-name="TD" value="TD">CHAD</option>
+                                    <option data-country_iso_code="CL" data-name="CL" value="CL">CHILE</option>
+                                    <option data-country_iso_code="CN" data-name="CN" value="CN">CHINA</option>
+                                    <option data-country_iso_code="CX" data-name="CX" value="CX">CHRISTMAS ISLAND
+                                    </option>
+                                    <option data-country_iso_code="CC" data-name="CC" value="CC">COCOS (KEELING)
+                                        ISLANDS
+                                    </option>
+                                    <option data-country_iso_code="CO" data-name="CO" value="CO">COLOMBIA</option>
+                                    <option data-country_iso_code="KM" data-name="KM" value="KM">COMOROS</option>
+                                    <option data-country_iso_code="CG" data-name="CG" value="CG">CONGO</option>
+                                    <option data-country_iso_code="CD" data-name="CD" value="CD">CONGO, THE DEMOCRATIC
+                                        REPUBLIC OF THE
+                                    </option>
+                                    <option data-country_iso_code="CK" data-name="CK" value="CK">COOK ISLANDS</option>
+                                    <option data-country_iso_code="CR" data-name="CR" value="CR">COSTA RICA</option>
+                                    <option data-country_iso_code="CI" data-name="CI" value="CI">COTE D'IVOIRE</option>
+                                    <option data-country_iso_code="HR" data-name="HR" value="HR">CROATIA</option>
+                                    <option data-country_iso_code="CU" data-name="CU" value="CU">CUBA</option>
+                                    <option data-country_iso_code="CY" data-name="CY" value="CY">CYPRUS</option>
+                                    <option data-country_iso_code="CZ" data-name="CZ" value="CZ">CZECH REPUBLIC</option>
+                                    <option data-country_iso_code="DK" data-name="DK" value="DK">DENMARK</option>
+                                    <option data-country_iso_code="DJ" data-name="DJ" value="DJ">DJIBOUTI</option>
+                                    <option data-country_iso_code="DM" data-name="DM" value="DM">DOMINICA</option>
+                                    <option data-country_iso_code="DO" data-name="DO" value="DO">DOMINICAN REPUBLIC
+                                    </option>
+                                    <option data-country_iso_code="EC" data-name="EC" value="EC">ECUADOR</option>
+                                    <option data-country_iso_code="EG" data-name="EG" value="EG">EGYPT</option>
+                                    <option data-country_iso_code="SV" data-name="SV" value="SV">EL SALVADOR</option>
+                                    <option data-country_iso_code="GQ" data-name="GQ" value="GQ">EQUATORIAL GUINEA
+                                    </option>
+                                    <option data-country_iso_code="ER" data-name="ER" value="ER">ERITREA</option>
+                                    <option data-country_iso_code="EE" data-name="EE" value="EE">ESTONIA</option>
+                                    <option data-country_iso_code="ET" data-name="ET" value="ET">ETHIOPIA</option>
+                                    <option data-country_iso_code="FK" data-name="FK" value="FK">FALKLAND ISLANDS
+                                        (MALVINAS)
+                                    </option>
+                                    <option data-country_iso_code="FO" data-name="FO" value="FO">FAROE ISLANDS</option>
+                                    <option data-country_iso_code="FJ" data-name="FJ" value="FJ">FIJI</option>
+                                    <option data-country_iso_code="FI" data-name="FI" value="FI">FINLAND</option>
+                                    <option data-country_iso_code="FR" data-name="FR" value="FR">FRANCE</option>
+                                    <option data-country_iso_code="GF" data-name="GF" value="GF">FRENCH GUIANA</option>
+                                    <option data-country_iso_code="PF" data-name="PF" value="PF">FRENCH POLYNESIA
+                                    </option>
+                                    <option data-country_iso_code="TF" data-name="TF" value="TF">FRENCH SOUTHERN
+                                        TERRITORIES
+                                    </option>
+                                    <option data-country_iso_code="GA" data-name="GA" value="GA">GABON</option>
+                                    <option data-country_iso_code="GM" data-name="GM" value="GM">GAMBIA</option>
+                                    <option data-country_iso_code="GE" data-name="GE" value="GE">GEORGIA</option>
+                                    <option data-country_iso_code="DE" data-name="DE" value="DE">GERMANY</option>
+                                    <option data-country_iso_code="GH" data-name="GH" value="GH">GHANA</option>
+                                    <option data-country_iso_code="GI" data-name="GI" value="GI">GIBRALTAR</option>
+                                    <option data-country_iso_code="GR" data-name="GR" value="GR">GREECE</option>
+                                    <option data-country_iso_code="GL" data-name="GL" value="GL">GREENLAND</option>
+                                    <option data-country_iso_code="GD" data-name="GD" value="GD">GRENADA</option>
+                                    <option data-country_iso_code="GP" data-name="GP" value="GP">GUADELOUPE</option>
+                                    <option data-country_iso_code="GU" data-name="GU" value="GU">GUAM</option>
+                                    <option data-country_iso_code="GT" data-name="GT" value="GT">GUATEMALA</option>
+                                    <option data-country_iso_code="GN" data-name="GN" value="GN">GUINEA</option>
+                                    <option data-country_iso_code="GW" data-name="GW" value="GW">GUINEA-BISSAU</option>
+                                    <option data-country_iso_code="GY" data-name="GY" value="GY">GUYANA</option>
+                                    <option data-country_iso_code="HT" data-name="HT" value="HT">HAITI</option>
+                                    <option data-country_iso_code="HM" data-name="HM" value="HM">HEARD ISLAND AND
+                                        MCDONALD ISLANDS
+                                    </option>
+                                    <option data-country_iso_code="VA" data-name="VA" value="VA">HOLY SEE (VATICAN CITY
+                                        STATE)
+                                    </option>
+                                    <option data-country_iso_code="HN" data-name="HN" value="HN">HONDURAS</option>
+                                    <option data-country_iso_code="HK" data-name="HK" value="HK">HONG KONG</option>
+                                    <option data-country_iso_code="HU" data-name="HU" value="HU">HUNGARY</option>
+                                    <option data-country_iso_code="IS" data-name="IS" value="IS">ICELAND</option>
+                                    <option data-country_iso_code="IN" data-name="IN" value="IN">INDIA</option>
+                                    <option data-country_iso_code="ID" data-name="ID" value="ID">INDONESIA</option>
+                                    <option data-country_iso_code="IR" data-name="IR" value="IR">IRAN, ISLAMIC REPUBLIC
+                                        OF
+                                    </option>
+                                    <option data-country_iso_code="IQ" data-name="IQ" value="IQ">IRAQ</option>
+                                    <option data-country_iso_code="IE" data-name="IE" value="IE">IRELAND</option>
+                                    <option data-country_iso_code="IL" data-name="IL" value="IL">ISRAEL</option>
+                                    <option data-country_iso_code="IT" data-name="IT" value="IT">ITALY</option>
+                                    <option data-country_iso_code="JM" data-name="JM" value="JM">JAMAICA</option>
+                                    <option data-country_iso_code="JP" data-name="JP" value="JP">JAPAN</option>
+                                    <option data-country_iso_code="JO" data-name="JO" value="JO">JORDAN</option>
+                                    <option data-country_iso_code="KZ" data-name="KZ" value="KZ">KAZAKHSTAN</option>
+                                    <option data-country_iso_code="KE" data-name="KE" value="KE">KENYA</option>
+                                    <option data-country_iso_code="KI" data-name="KI" value="KI">KIRIBATI</option>
+                                    <option data-country_iso_code="KP" data-name="KP" value="KP">KOREA, DEMOCRATIC
+                                        PEOPLE'S REPUBLIC OF
+                                    </option>
+                                    <option data-country_iso_code="KR" data-name="KR" value="KR">KOREA, REPUBLIC OF
+                                    </option>
+                                    <option data-country_iso_code="KW" data-name="KW" value="KW">KUWAIT</option>
+                                    <option data-country_iso_code="KG" data-name="KG" value="KG">KYRGYZSTAN</option>
+                                    <option data-country_iso_code="LA" data-name="LA" value="LA">LAO PEOPLE'S DEMOCRATIC
+                                        REPUBLIC
+                                    </option>
+                                    <option data-country_iso_code="LV" data-name="LV" value="LV">LATVIA</option>
+                                    <option data-country_iso_code="LB" data-name="LB" value="LB">LEBANON</option>
+                                    <option data-country_iso_code="LS" data-name="LS" value="LS">LESOTHO</option>
+                                    <option data-country_iso_code="LR" data-name="LR" value="LR">LIBERIA</option>
+                                    <option data-country_iso_code="LY" data-name="LY" value="LY">LIBYAN ARAB
+                                        JAMAHIRIYA
+                                    </option>
+                                    <option data-country_iso_code="LI" data-name="LI" value="LI">LIECHTENSTEIN</option>
+                                    <option data-country_iso_code="LT" data-name="LT" value="LT">LITHUANIA</option>
+                                    <option data-country_iso_code="LU" data-name="LU" value="LU">LUXEMBOURG</option>
+                                    <option data-country_iso_code="MO" data-name="MO" value="MO">MACAO</option>
+                                    <option data-country_iso_code="MK" data-name="MK" value="MK">MACEDONIA, THE FORMER
+                                        YUGOSLAV REPUBLIC OF
+                                    </option>
+                                    <option data-country_iso_code="MG" data-name="MG" value="MG">MADAGASCAR</option>
+                                    <option data-country_iso_code="MW" data-name="MW" value="MW">MALAWI</option>
+                                    <option data-country_iso_code="MY" data-name="MY" value="MY">MALAYSIA</option>
+                                    <option data-country_iso_code="MV" data-name="MV" value="MV">MALDIVES</option>
+                                    <option data-country_iso_code="ML" data-name="ML" value="ML">MALI</option>
+                                    <option data-country_iso_code="MT" data-name="MT" value="MT">MALTA</option>
+                                    <option data-country_iso_code="MH" data-name="MH" value="MH">MARSHALL ISLANDS
+                                    </option>
+                                    <option data-country_iso_code="MQ" data-name="MQ" value="MQ">MARTINIQUE</option>
+                                    <option data-country_iso_code="MR" data-name="MR" value="MR">MAURITANIA</option>
+                                    <option data-country_iso_code="MU" data-name="MU" value="MU">MAURITIUS</option>
+                                    <option data-country_iso_code="YT" data-name="YT" value="YT">MAYOTTE</option>
+                                    <option data-country_iso_code="MX" data-name="MX" value="MX">MEXICO</option>
+                                    <option data-country_iso_code="FM" data-name="FM" value="FM">MICRONESIA, FEDERATED
+                                        STATES OF
+                                    </option>
+                                    <option data-country_iso_code="MD" data-name="MD" value="MD">MOLDOVA, REPUBLIC OF
+                                    </option>
+                                    <option data-country_iso_code="MC" data-name="MC" value="MC">MONACO</option>
+                                    <option data-country_iso_code="MN" data-name="MN" value="MN">MONGOLIA</option>
+                                    <option data-country_iso_code="ME" data-name="ME" value="ME">MONTENEGRO</option>
+                                    <option data-country_iso_code="MS" data-name="MS" value="MS">MONTSERRAT</option>
+                                    <option data-country_iso_code="MA" data-name="MA" value="MA">MOROCCO</option>
+                                    <option data-country_iso_code="MZ" data-name="MZ" value="MZ">MOZAMBIQUE</option>
+                                    <option data-country_iso_code="MM" data-name="MM" value="MM">MYANMAR</option>
+                                    <option data-country_iso_code="NA" data-name="NA" value="NA">NAMIBIA</option>
+                                    <option data-country_iso_code="NR" data-name="NR" value="NR">NAURU</option>
+                                    <option data-country_iso_code="NP" data-name="NP" value="NP">NEPAL</option>
+                                    <option data-country_iso_code="NL" data-name="NL" value="NL">NETHERLANDS</option>
+                                    <option data-country_iso_code="AN" data-name="AN" value="AN">NETHERLANDS ANTILLES
+                                    </option>
+                                    <option data-country_iso_code="NC" data-name="NC" value="NC">NEW CALEDONIA</option>
+                                    <option data-country_iso_code="NZ" data-name="NZ" value="NZ">NEW ZEALAND</option>
+                                    <option data-country_iso_code="NI" data-name="NI" value="NI">NICARAGUA</option>
+                                    <option data-country_iso_code="NE" data-name="NE" value="NE">NIGER</option>
+                                    <option data-country_iso_code="NG" data-name="NG" value="NG">NIGERIA</option>
+                                    <option data-country_iso_code="NU" data-name="NU" value="NU">NIUE</option>
+                                    <option data-country_iso_code="NF" data-name="NF" value="NF">NORFOLK ISLAND</option>
+                                    <option data-country_iso_code="MP" data-name="MP" value="MP">NORTHERN MARIANA
+                                        ISLANDS
+                                    </option>
+                                    <option data-country_iso_code="NO" data-name="NO" value="NO">NORWAY</option>
+                                    <option data-country_iso_code="OM" data-name="OM" value="OM">OMAN</option>
+                                    <option data-country_iso_code="PK" data-name="PK" value="PK">PAKISTAN</option>
+                                    <option data-country_iso_code="PW" data-name="PW" value="PW">PALAU</option>
+                                    <option data-country_iso_code="PS" data-name="PS" value="PS">PALESTINE, STATE OF
+                                    </option>
+                                    <option data-country_iso_code="PA" data-name="PA" value="PA">PANAMA</option>
+                                    <option data-country_iso_code="PG" data-name="PG" value="PG">PAPUA NEW GUINEA
+                                    </option>
+                                    <option data-country_iso_code="PY" data-name="PY" value="PY">PARAGUAY</option>
+                                    <option data-country_iso_code="PE" data-name="PE" value="PE">PERU</option>
+                                    <option data-country_iso_code="PH" data-name="PH" value="PH">PHILIPPINES</option>
+                                    <option data-country_iso_code="PN" data-name="PN" value="PN">PITCAIRN</option>
+                                    <option data-country_iso_code="PL" data-name="PL" value="PL">POLAND</option>
+                                    <option data-country_iso_code="PT" data-name="PT" value="PT">PORTUGAL</option>
+                                    <option data-country_iso_code="PR" data-name="PR" value="PR">PUERTO RICO</option>
+                                    <option data-country_iso_code="QA" data-name="QA" value="QA">QATAR</option>
+                                    <option data-country_iso_code="RE" data-name="RE" value="RE">REUNION</option>
+                                    <option data-country_iso_code="RO" data-name="RO" value="RO">ROMANIA</option>
+                                    <option data-country_iso_code="RU" data-name="RU" value="RU">RUSSIAN FEDERATION
+                                    </option>
+                                    <option data-country_iso_code="RW" data-name="RW" value="RW">RWANDA</option>
+                                    <option data-country_iso_code="SH" data-name="SH" value="SH">SAINT HELENA</option>
+                                    <option data-country_iso_code="KN" data-name="KN" value="KN">SAINT KITTS AND NEVIS
+                                    </option>
+                                    <option data-country_iso_code="LC" data-name="LC" value="LC">SAINT LUCIA</option>
+                                    <option data-country_iso_code="PM" data-name="PM" value="PM">SAINT PIERRE AND
+                                        MIQUELON
+                                    </option>
+                                    <option data-country_iso_code="VC" data-name="VC" value="VC">SAINT VINCENT AND THE
+                                        GRENADINES
+                                    </option>
+                                    <option data-country_iso_code="WS" data-name="WS" value="WS">SAMOA</option>
+                                    <option data-country_iso_code="SM" data-name="SM" value="SM">SAN MARINO</option>
+                                    <option data-country_iso_code="ST" data-name="ST" value="ST">SAO TOME AND PRINCIPE
+                                    </option>
+                                    <option data-country_iso_code="SA" data-name="SA" value="SA">SAUDI ARABIA</option>
+                                    <option data-country_iso_code="SN" data-name="SN" value="SN">SENEGAL</option>
+                                    <option data-country_iso_code="RS" data-name="RS" value="RS">SERBIA</option>
+                                    <option data-country_iso_code="SC" data-name="SC" value="SC">SEYCHELLES</option>
+                                    <option data-country_iso_code="SL" data-name="SL" value="SL">SIERRA LEONE</option>
+                                    <option data-country_iso_code="SG" data-name="SG" value="SG">SINGAPORE</option>
+                                    <option data-country_iso_code="SK" data-name="SK" value="SK">SLOVAKIA</option>
+                                    <option data-country_iso_code="SI" data-name="SI" value="SI">SLOVENIA</option>
+                                    <option data-country_iso_code="SB" data-name="SB" value="SB">SOLOMON ISLANDS
+                                    </option>
+                                    <option data-country_iso_code="SO" data-name="SO" value="SO">SOMALIA</option>
+                                    <option data-country_iso_code="ZA" data-name="ZA" value="ZA">SOUTH AFRICA</option>
+                                    <option data-country_iso_code="GS" data-name="GS" value="GS">SOUTH GEORGIA AND THE
+                                        SOUTH SANDWICH ISLANDS
+                                    </option>
+                                    <option data-country_iso_code="ES" data-name="ES" value="ES">SPAIN</option>
+                                    <option data-country_iso_code="LK" data-name="LK" value="LK">SRI LANKA</option>
+                                    <option data-country_iso_code="SD" data-name="SD" value="SD">SUDAN</option>
+                                    <option data-country_iso_code="SR" data-name="SR" value="SR">SURINAME</option>
+                                    <option data-country_iso_code="SJ" data-name="SJ" value="SJ">SVALBARD AND JAN
+                                        MAYEN
+                                    </option>
+                                    <option data-country_iso_code="SZ" data-name="SZ" value="SZ">SWAZILAND</option>
+                                    <option data-country_iso_code="SE" data-name="SE" value="SE">SWEDEN</option>
+                                    <option data-country_iso_code="CH" data-name="CH" value="CH">SWITZERLAND</option>
+                                    <option data-country_iso_code="SY" data-name="SY" value="SY">SYRIAN ARAB REPUBLIC
+                                    </option>
+                                    <option data-country_iso_code="TW" data-name="TW" value="TW">TAIWAN, PROVINCE OF
+                                        CHINA
+                                    </option>
+                                    <option data-country_iso_code="TJ" data-name="TJ" value="TJ">TAJIKISTAN</option>
+                                    <option data-country_iso_code="TZ" data-name="TZ" value="TZ">TANZANIA, UNITED
+                                        REPUBLIC OF
+                                    </option>
+                                    <option data-country_iso_code="TH" data-name="TH" value="TH">THAILAND</option>
+                                    <option data-country_iso_code="TL" data-name="TL" value="TL">TIMOR-LESTE</option>
+                                    <option data-country_iso_code="TG" data-name="TG" value="TG">TOGO</option>
+                                    <option data-country_iso_code="TK" data-name="TK" value="TK">TOKELAU</option>
+                                    <option data-country_iso_code="TO" data-name="TO" value="TO">TONGA</option>
+                                    <option data-country_iso_code="TT" data-name="TT" value="TT">TRINIDAD AND TOBAGO
+                                    </option>
+                                    <option data-country_iso_code="TN" data-name="TN" value="TN">TUNISIA</option>
+                                    <option data-country_iso_code="TR" data-name="TR" value="TR">TURKEY</option>
+                                    <option data-country_iso_code="TM" data-name="TM" value="TM">TURKMENISTAN</option>
+                                    <option data-country_iso_code="TC" data-name="TC" value="TC">TURKS AND CAICOS
+                                        ISLANDS
+                                    </option>
+                                    <option data-country_iso_code="TV" data-name="TV" value="TV">TUVALU</option>
+                                    <option data-country_iso_code="UG" data-name="UG" value="UG">UGANDA</option>
+                                    <option data-country_iso_code="UA" data-name="UA" value="UA">UKRAINE</option>
+                                    <option data-country_iso_code="AE" data-name="AE" value="AE">UNITED ARAB EMIRATES
+                                    </option>
+                                    <option data-country_iso_code="GB" data-name="GB" value="GB">UNITED KINGDOM</option>
+                                    <option data-country_iso_code="US" data-name="US" value="US">UNITED STATES</option>
+                                    <option data-country_iso_code="UM" data-name="UM" value="UM">UNITED STATES MINOR
+                                        OUTLYING ISLANDS
+                                    </option>
+                                    <option data-country_iso_code="UY" data-name="UY" value="UY">URUGUAY</option>
+                                    <option data-country_iso_code="UZ" data-name="UZ" value="UZ">UZBEKISTAN</option>
+                                    <option data-country_iso_code="VU" data-name="VU" value="VU">VANUATU</option>
+                                    <option data-country_iso_code="VE" data-name="VE" value="VE">VENEZUELA</option>
+                                    <option data-country_iso_code="VN" data-name="VN" value="VN">VIET NAM</option>
+                                    <option data-country_iso_code="VG" data-name="VG" value="VG">VIRGIN ISLANDS,
+                                        BRITISH
+                                    </option>
+                                    <option data-country_iso_code="VI" data-name="VI" value="VI">VIRGIN ISLANDS, U.S.
+                                    </option>
+                                    <option data-country_iso_code="WF" data-name="WF" value="WF">WALLIS AND FUTUNA
+                                    </option>
+                                    <option data-country_iso_code="EH" data-name="EH" value="EH">WESTERN SAHARA</option>
+                                    <option data-country_iso_code="YE" data-name="YE" value="YE">YEMEN</option>
+                                    <option data-country_iso_code="ZM" data-name="ZM" value="ZM">ZAMBIA</option>
+                                    <option data-country_iso_code="ZW" data-name="ZW" value="ZW">ZIMBABWE</option>
+                                </select><input type="hidden" name="country_code" value=""></div>
+                            <!-- <div class="mex-form-item col-md-11 col-12 p-1" style="margin-block: 10p;">
+                                <label for="" class="d-none">
+                                </label>
+                                <input type="phone" data-ip_country_code="IN" data-message="Phone Number is required." data-extra-message="Phone Number Invalid" data-regex="" class="input_with_phone form-control mb-0 input_with_phone" name="phone_display" placeholder="" required="" value="">
+                                <input type="hidden" name="phone">
+                            </div> -->
+                            <div class="mex-form-item col-md-11 col-12 p-1" style="margin-block: 10p;">
+                                <label for="" class="d-none">
+                                </label>
+                                <select class="country-list">
+                                    <option value="Afghanistan">Afghanistan</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                    <option value="American Samoa">American Samoa</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Anguilla">Anguilla</option>
+                                    <option value="Antartica">Antarctica</option>
+                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Armenia">Armenia</option>
+                                    <option value="Aruba">Aruba</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Azerbaijan">Azerbaijan</option>
+                                    <option value="Bahamas">Bahamas</option>
+                                    <option value="Bahrain">Bahrain</option>
+                                    <option value="Bangladesh">Bangladesh</option>
+                                    <option value="Barbados">Barbados</option>
+                                    <option value="Belarus">Belarus</option>
+                                    <option value="Belgium">Belgium</option>
+                                    <option value="Belize">Belize</option>
+                                    <option value="Benin">Benin</option>
+                                    <option value="Bermuda">Bermuda</option>
+                                    <option value="Bhutan">Bhutan</option>
+                                    <option value="Bolivia">Bolivia</option>
+                                    <option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+                                    <option value="Botswana">Botswana</option>
+                                    <option value="Bouvet Island">Bouvet Island</option>
+                                    <option value="Brazil">Brazil</option>
+                                    <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                                    <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                    <option value="Bulgaria">Bulgaria</option>
+                                    <option value="Burkina Faso">Burkina Faso</option>
+                                    <option value="Burundi">Burundi</option>
+                                    <option value="Cambodia">Cambodia</option>
+                                    <option value="Cameroon">Cameroon</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Cape Verde">Cape Verde</option>
+                                    <option value="Cayman Islands">Cayman Islands</option>
+                                    <option value="Central African Republic">Central African Republic</option>
+                                    <option value="Chad">Chad</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="China">China</option>
+                                    <option value="Christmas Island">Christmas Island</option>
+                                    <option value="Cocos Islands">Cocos (Keeling) Islands</option>
+                                    <option value="Colombia">Colombia</option>
+                                    <option value="Comoros">Comoros</option>
+                                    <option value="Congo">Congo</option>
+                                    <option value="Congo">Congo, the Democratic Republic of the</option>
+                                    <option value="Cook Islands">Cook Islands</option>
+                                    <option value="Costa Rica">Costa Rica</option>
+                                    <option value="Cota D'Ivoire">Cote d'Ivoire</option>
+                                    <option value="Croatia">Croatia (Hrvatska)</option>
+                                    <option value="Cuba">Cuba</option>
+                                    <option value="Cyprus">Cyprus</option>
+                                    <option value="Czech Republic">Czech Republic</option>
+                                    <option value="Denmark">Denmark</option>
+                                    <option value="Djibouti">Djibouti</option>
+                                    <option value="Dominica">Dominica</option>
+                                    <option value="Dominican Republic">Dominican Republic</option>
+                                    <option value="East Timor">East Timor</option>
+                                    <option value="Ecuador">Ecuador</option>
+                                    <option value="Egypt">Egypt</option>
+                                    <option value="El Salvador">El Salvador</option>
+                                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                    <option value="Eritrea">Eritrea</option>
+                                    <option value="Estonia">Estonia</option>
+                                    <option value="Ethiopia">Ethiopia</option>
+                                    <option value="Falkland Islands">Falkland Islands (Malvinas)</option>
+                                    <option value="Faroe Islands">Faroe Islands</option>
+                                    <option value="Fiji">Fiji</option>
+                                    <option value="Finland">Finland</option>
+                                    <option value="France">France</option>
+                                    <option value="France Metropolitan">France, Metropolitan</option>
+                                    <option value="French Guiana">French Guiana</option>
+                                    <option value="French Polynesia">French Polynesia</option>
+                                    <option value="French Southern Territories">French Southern Territories</option>
+                                    <option value="Gabon">Gabon</option>
+                                    <option value="Gambia">Gambia</option>
+                                    <option value="Georgia">Georgia</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="Ghana">Ghana</option>
+                                    <option value="Gibraltar">Gibraltar</option>
+                                    <option value="Greece">Greece</option>
+                                    <option value="Greenland">Greenland</option>
+                                    <option value="Grenada">Grenada</option>
+                                    <option value="Guadeloupe">Guadeloupe</option>
+                                    <option value="Guam">Guam</option>
+                                    <option value="Guatemala">Guatemala</option>
+                                    <option value="Guinea">Guinea</option>
+                                    <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                    <option value="Guyana">Guyana</option>
+                                    <option value="Haiti">Haiti</option>
+                                    <option value="Heard and McDonald Islands">Heard and Mc Donald Islands</option>
+                                    <option value="Holy See">Holy See (Vatican City State)</option>
+                                    <option value="Honduras">Honduras</option>
+                                    <option value="Hong Kong">Hong Kong</option>
+                                    <option value="Hungary">Hungary</option>
+                                    <option value="Iceland">Iceland</option>
+                                    <option value="India">India</option>
+                                    <option value="Indonesia">Indonesia</option>
+                                    <option value="Iran">Iran (Islamic Republic of)</option>
+                                    <option value="Iraq">Iraq</option>
+                                    <option value="Ireland">Ireland</option>
+                                    <option value="Israel">Israel</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="Jamaica">Jamaica</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="Jordan">Jordan</option>
+                                    <option value="Kazakhstan">Kazakhstan</option>
+                                    <option value="Kenya">Kenya</option>
+                                    <option value="Kiribati">Kiribati</option>
+                                    <option value="Democratic People's Republic of Korea">Korea, Democratic People's Republic of</option>
+                                    <option value="Korea">Korea, Republic of</option>
+                                    <option value="Kuwait">Kuwait</option>
+                                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                    <option value="Lao">Lao People's Democratic Republic</option>
+                                    <option value="Latvia">Latvia</option>
+                                    <option value="Lebanon" selected="">Lebanon</option>
+                                    <option value="Lesotho">Lesotho</option>
+                                    <option value="Liberia">Liberia</option>
+                                    <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                                    <option value="Liechtenstein">Liechtenstein</option>
+                                    <option value="Lithuania">Lithuania</option>
+                                    <option value="Luxembourg">Luxembourg</option>
+                                    <option value="Macau">Macau</option>
+                                    <option value="Macedonia">Macedonia, The Former Yugoslav Republic of</option>
+                                    <option value="Madagascar">Madagascar</option>
+                                    <option value="Malawi">Malawi</option>
+                                    <option value="Malaysia">Malaysia</option>
+                                    <option value="Maldives">Maldives</option>
+                                    <option value="Mali">Mali</option>
+                                    <option value="Malta">Malta</option>
+                                    <option value="Marshall Islands">Marshall Islands</option>
+                                    <option value="Martinique">Martinique</option>
+                                    <option value="Mauritania">Mauritania</option>
+                                    <option value="Mauritius">Mauritius</option>
+                                    <option value="Mayotte">Mayotte</option>
+                                    <option value="Mexico">Mexico</option>
+                                    <option value="Micronesia">Micronesia, Federated States of</option>
+                                    <option value="Moldova">Moldova, Republic of</option>
+                                    <option value="Monaco">Monaco</option>
+                                    <option value="Mongolia">Mongolia</option>
+                                    <option value="Montserrat">Montserrat</option>
+                                    <option value="Morocco">Morocco</option>
+                                    <option value="Mozambique">Mozambique</option>
+                                    <option value="Myanmar">Myanmar</option>
+                                    <option value="Namibia">Namibia</option>
+                                    <option value="Nauru">Nauru</option>
+                                    <option value="Nepal">Nepal</option>
+                                    <option value="Netherlands">Netherlands</option>
+                                    <option value="Netherlands Antilles">Netherlands Antilles</option>
+                                    <option value="New Caledonia">New Caledonia</option>
+                                    <option value="New Zealand">New Zealand</option>
+                                    <option value="Nicaragua">Nicaragua</option>
+                                    <option value="Niger">Niger</option>
+                                    <option value="Nigeria">Nigeria</option>
+                                    <option value="Niue">Niue</option>
+                                    <option value="Norfolk Island">Norfolk Island</option>
+                                    <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                                    <option value="Norway">Norway</option>
+                                    <option value="Oman">Oman</option>
+                                    <option value="Pakistan">Pakistan</option>
+                                    <option value="Palau">Palau</option>
+                                    <option value="Panama">Panama</option>
+                                    <option value="Papua New Guinea">Papua New Guinea</option>
+                                    <option value="Paraguay">Paraguay</option>
+                                    <option value="Peru">Peru</option>
+                                    <option value="Philippines">Philippines</option>
+                                    <option value="Pitcairn">Pitcairn</option>
+                                    <option value="Poland">Poland</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Puerto Rico">Puerto Rico</option>
+                                    <option value="Qatar">Qatar</option>
+                                    <option value="Reunion">Reunion</option>
+                                    <option value="Romania">Romania</option>
+                                    <option value="Russia">Russian Federation</option>
+                                    <option value="Rwanda">Rwanda</option>
+                                    <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                    <option value="Saint LUCIA">Saint LUCIA</option>
+                                    <option value="Saint Vincent">Saint Vincent and the Grenadines</option>
+                                    <option value="Samoa">Samoa</option>
+                                    <option value="San Marino">San Marino</option>
+                                    <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                    <option value="Saudi Arabia">Saudi Arabia</option>
+                                    <option value="Senegal">Senegal</option>
+                                    <option value="Seychelles">Seychelles</option>
+                                    <option value="Sierra">Sierra Leone</option>
+                                    <option value="Singapore">Singapore</option>
+                                    <option value="Slovakia">Slovakia (Slovak Republic)</option>
+                                    <option value="Slovenia">Slovenia</option>
+                                    <option value="Solomon Islands">Solomon Islands</option>
+                                    <option value="Somalia">Somalia</option>
+                                    <option value="South Africa">South Africa</option>
+                                    <option value="South Georgia">South Georgia and the South Sandwich Islands</option>
+                                    <option value="Span">Spain</option>
+                                    <option value="SriLanka">Sri Lanka</option>
+                                    <option value="St. Helena">St. Helena</option>
+                                    <option value="St. Pierre and Miguelon">St. Pierre and Miquelon</option>
+                                    <option value="Sudan">Sudan</option>
+                                    <option value="Suriname">Suriname</option>
+                                    <option value="Svalbard">Svalbard and Jan Mayen Islands</option>
+                                    <option value="Swaziland">Swaziland</option>
+                                    <option value="Sweden">Sweden</option>
+                                    <option value="Switzerland">Switzerland</option>
+                                    <option value="Syria">Syrian Arab Republic</option>
+                                    <option value="Taiwan">Taiwan, Province of China</option>
+                                    <option value="Tajikistan">Tajikistan</option>
+                                    <option value="Tanzania">Tanzania, United Republic of</option>
+                                    <option value="Thailand">Thailand</option>
+                                    <option value="Togo">Togo</option>
+                                    <option value="Tokelau">Tokelau</option>
+                                    <option value="Tonga">Tonga</option>
+                                    <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                    <option value="Tunisia">Tunisia</option>
+                                    <option value="Turkey">Turkey</option>
+                                    <option value="Turkmenistan">Turkmenistan</option>
+                                    <option value="Turks and Caicos">Turks and Caicos Islands</option>
+                                    <option value="Tuvalu">Tuvalu</option>
+                                    <option value="Uganda">Uganda</option>
+                                    <option value="Ukraine">Ukraine</option>
+                                    <option value="United Arab Emirates">United Arab Emirates</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="United States">United States</option>
+                                    <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                                    <option value="Uruguay">Uruguay</option>
+                                    <option value="Uzbekistan">Uzbekistan</option>
+                                    <option value="Vanuatu">Vanuatu</option>
+                                    <option value="Venezuela">Venezuela</option>
+                                    <option value="Vietnam">Viet Nam</option>
+                                    <option value="Virgin Islands (British)">Virgin Islands (British)</option>
+                                    <option value="Virgin Islands (U.S)">Virgin Islands (U.S.)</option>
+                                    <option value="Wallis and Futana Islands">Wallis and Futuna Islands</option>
+                                    <option value="Western Sahara">Western Sahara</option>
+                                    <option value="Yemen">Yemen</option>
+                                    <option value="Serbia">Serbia</option>
+                                    <option value="Zambia">Zambia</option>
+                                    <option value="Zimbabwe">Zimbabwe</option>
+                                </select>
+
+                                <input type="hidden" name="phone">
+                            </div>
+                            <!-- <div class="mex-form-item col-6 col-md-6 p-1 sms-code-container">
+                                <input type="number" name="phone_sms_verif_code" class="sms_verif_code regCon oth_sp" placeholder="SMS Code" required="required" number="true" autocomplete="off" list="autocompleteOff">
+                            </div>
+                            <div class="mex-form-item col-6 col-md-6 p-1 send-code-container">
+                                <button class="btn btn-mex w-100 h-40p send-verification-code-btn min-w-unset " id="button-send-callme_form" type="button" title="Send Code">Send Code                                    </button>
+                            </div>  -->
+                            <div class="px-1 font-10" style="padding-top:20px; padding-bottom: 30px;">
+                                <div class="form-check form-check-inline text-submit">
+                                    <label class="form-check-label label-1 " for="terms_conditions">By submitting this form,
+                                        you agree to accept the <a href="/terms-conditions.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Terms &amp; Conditions</a>,
+                                        <a href="/privacy-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Privacy Policy</a>, and <a href="cookie-policy.php" target="_blank" class="text-22A0C4" style="padding:0 !important;">Cookie Policy</a>.
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="text-right" style="position: absolute;
+    bottom: -11%;
+    /* right: 10%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;">
+                                <button type="submit" class="btn btn-custom-compare " onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-785e4eb336bec21b04c19cf7-="">SUBMIT DETAILS </button>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Letter Section -->
+    <section class="section-news-letter">
+        <div class="container">
+            <div class="row justify-content-lg-between justify-content-center align-items-center text-center text-md-left">
+                <div class="col-md-4">
+                    <h2 class="text-uppercase text-newsletter d-flex align-items-center mb-0 text-center text-md-left mb-3 mb-md-0">Stay Connected and Subscribe to our newsletter</h2>
+                </div>
+                <div class="offset-1 mb-3 mb-md-0 mt-2 mt-md-0 offset-md-0 col-md-4 d-flex align-items-center text-center text-md-left">
+                    <input class="input-newsletter" type="text" width="100%" height="100%" placeholder="Enter Your Email Here" />
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0 text-center text-md-left">
+                    <button class="text-uppercase btn-subscribe btn btn-custom-compare ">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
+        <div class="container">
+            <div class="col-lg-12 footer">
+                <div class="row justify-content-between" style="padding-bottom: 25px; border-bottom: 1px solid #808080;">
+                    <div class="col-xs-12 col-sm-12 col-md-8 footer_other_left align-self-center">
+                        <a class="footer_logo" href="/home.php" target="_parent">
+                            <img alt="logo" data-entity-type="" data-entity-uuid="" src="" width="200" />
+                        </a>
+                        <a href="https://my.multibankfx.com/en/traders/login" target="_blank"><?php translate('MyMultibank'); ?></a>
+                        <a href="/contact.php" target="_parent"><?php translate('Contact Us'); ?></a>
+                        <a onclick="if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-785e4eb336bec21b04c19cf7-=""><?php translate('Support'); ?></a>
+                        <a href="/article/hiring-now-cyprus.php" target="_parent"><?php translate('Career'); ?></a>
+                        <a href="/investor-relations.php" target="_parent"><?php translate('Investor Relations'); ?></a>
+                    </div>
+                    <!-- <div class="footer_btn col-xs-12  col-sm-12 col-md-4 align-self-center">
+                        <a href="https://www.facebook.com/multibank.official" target="_blank">
+                            <img alt="facebook" data-entity-type="" data-entity-uuid="" height="30" src="/public_files/images/common/en_foote_btn_01.png" width="30" />
+                        </a>
+                        <a href="https://twitter.com/multibankgroup" target="_blank">
+                            <img alt="twitter" data-entity-type="" data-entity-uuid="" height="30" src="/public_files/images/common/en_foote_btn_02.png" width="30" />
+                        </a>
+                        <a href="https://www.youtube.com/c/MultiBankGoup" target="_blank">
+                            <img alt="youtube" data-entity-type="" data-entity-uuid="" height="30" src="/public_files/images/common/en_foote_btn_03.png" width="30" />
+                        </a>
+                        <a href="https://www.linkedin.com/company/multibankgroup/" target="_blank">
+                            <img alt="linkedin" data-entity-type="" data-entity-uuid="" height="30" src="/public_files/images/common/en_foote_btn_04.png" width="30" />
+                        </a>
+                        <a href="https://www.instagram.com/multibank_group/" target="_blank">
+                            <img alt="instagram" data-entity-type="" data-entity-uuid="" height="30" src="/public_files/images/common/en_foote_btn_05.png" width="30" />
+                        </a>
+                    </div> -->
+                </div>
+                <div class="footer_map_content d-none d-md-block" style="margin-top: 0; border-top: none">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <ul class="footer_map">
+                                <li><a href="/about.php"><strong><?php translate('About us'); ?></strong></a> <a href="/about/why-multibank-group.php" target="_parent"><?php translate('Why Multibank'); ?></a> <a href="/about/global-presence.php" target="_parent"><?php translate('Global Presence'); ?></a> <a href="/mfx/v1/about/regulations.php" target="_parent"><?php translate('Regulations'); ?></a> <a href="/about/security-of-funds.php" target="_parent"><?php translate('Security of Funds'); ?></a> <a href="/article/milestones.php" target="_parent"><?php translate('Milestones'); ?></a> <a href="/about/management.php" target="_parent"><?php translate('Management'); ?></a>
+                                    <a href="/about/awards.php" target="_parent"><?php translate('Awards'); ?></a> <a href="/about/sponsorship.php" target="_parent"><?php translate('Sponsorship'); ?></a>
+                                    <a href="/article/company-news.php" target="_parent"><?php translate('Company News'); ?></a> <a href="/article/hiring-now-cyprus.php" target="_parent"><?php translate('Career'); ?></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <ul class="footer_map">
+                                <li><a href="/products.php"><strong><?php translate('Products'); ?></strong></a> <a href="/products/forex.php" target="_parent"><?php translate('Forex'); ?></a> <a href="/products/metals.php" target="_parent"><?php translate('Metals'); ?></a> <a href="/products/shares.php" target="_parent"><?php translate('Shares'); ?></a>
+                                    <a href="/products/indices.php" target="_parent"><?php translate('Indices'); ?></a> <a href="/products/commodities.php" target="_parent"><?php translate('Commodities'); ?></a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <ul class="footer_map">
+                                <li><a href="/platforms.php"><strong><?php translate('Platforms'); ?></strong></a>
+                                    <a href="/platforms/compare-platforms.php" target="_parent"><?php translate('Compare Platforms'); ?></a>
+                                    <a href="/platforms/ecn-pro.php" target="_parent">ECN Pro</a>
+                                    <a href="/platforms/multibank-pro.php" target="_parent"><?php translate('MultiBank Pro'); ?> </a>
+                                    <a href="/platforms/maximus.php" target="_parent"><?php translate('Maximus'); ?></a>
+                                    <a href="/platforms/mt5-platform.php" target="_parent"><?php translate('MT5 Platform'); ?> </a>
+                                    <a href="/platforms/social-trading.php" target="_parent">Social Trading</a>
+                                    <a href="/platforms/download-center.php" target="_parent"><?php translate('Download Center'); ?></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <ul class="footer_map">
+                                <li><a href="/account.php"><strong><?php translate('Accounts & Funding'); ?></strong></a> <a href="/account/live-account.php" target="_parent"><?php translate('Live Account'); ?> </a> <a href="/demo-competition.php" target="_parent"><?php translate('Demo Account'); ?> </a> <a href="/account/islamic-account.php" target="_parent"><?php translate('Islamic Account'); ?> </a> <a href="/account/account-funding.php" target="_parent"><?php translate('Account Funding'); ?> </a> <a href="/account/withdrawals.php" target="_parent"><?php translate('Withdrawals'); ?></a> <a href="/account/account-forms.php" target="_parent"><?php translate('Account Forms'); ?> </a> <a href="/account/bonus.php" target="_parent"><?php translate('Bonuses'); ?></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <ul class="footer_map">
+                                <li><a href="/tools.php"><strong><?php translate('Tools'); ?></strong></a> <a href="/tools/trading-tools.php" target="_parent"><?php translate('Trading Tools'); ?> </a>
+                                    <a href="/tools/trading-conditions.php" target="_parent"><?php translate('Trading Conditions'); ?> </a> <a href="/tools/holiday-hours-notices.php" target="_parent"><?php translate('Trading Hours &
+                                    Holiday
+                                    Notice'); ?></a>
+                                    <a href="cfd-expiration-dates.php" target="_parent"><?php translate('CFD Expiration
+                                    Dates'); ?></a>
+
+                                    <a href="/scalping-policy.php" target="_parent"><?php translate('Scalping Policy'); ?></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <ul class="footer_map">
+                                <li><a href="/investor-relations.php"><strong><?php translate('Partnership'); ?></strong></a> <a href="/partnership/introducing-brokers.php" target="_parent"><?php translate('Introducing
+                                    Brokers'); ?> </a>
+                                    <a href="/partnership/franchise-program.php" target="_parent"><?php translate('Franchise
+                                    Program'); ?> </a>
+                                    <a href="/partnership/white-label.php" target="_parent"><?php translate('White Label'); ?> </a> <a href="/partnership/prime-of-primes.php" target="_parent"><?php translate('Prime of Primes'); ?></a> <a href="/partnership/cpa-affiliate-program.php" target="_parent"><?php translate('CPA Affiliate
+                                    Program'); ?></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_pa">
+                    <div class="container">
+                        <div class="row">
+                            <img class="w-100 h-auto d-block d-lg-none" src="/public_files/images/common/icons/payment-options.jpg">
+                            <div class="footer-icon-list d-lg-block d-none">
+                                <img class="footer-icon" alt="nab" src="" style="width: auto; height: 30px;">
+                                <img class="footer-icon" alt="neteller" src="/public_files/images/common/icons/logo_footer_neteller.png" style="width: auto; height: 20px;">
+                                <img class="footer-icon" alt="skrill" src="/public_files/images/common/icons/logo_footer_skrill.png" style="width: auto; height: 25px;">
+                                <img class="footer-icon" alt="swift" src="/public_files/images/common/icons/logo_footer_swift.png" style="width: auto; height: 25px;">
+                                <img class="footer-icon" alt="visa" src="/public_files/images/common/icons/logo_footer_visa.png" style="width: auto; height: 25px;">
+                                <img class="footer-icon" alt="mastercard" src="/public_files/images/common/icons/logo_footer_mastercard.png" style="width: auto; height: 25px;">
+                            </div>
+                        </div>
+                    </div>
+                    <p><a href="/privacy-policy.php" target="_parent"><?php translate('Privacy Policy'); ?> </a> | <a href="/cookie-policy.php" target="_parent"> <?php translate('Cookie
+                        Policy'); ?></a> | <a href="/terms-conditions.php" target="_parent"><?php translate('Terms & Conditions'); ?> </a> | <a href="/website-disclaimer.php" target="_parent"> <?php translate('Website Disclaimer'); ?> </a> | <a href="/risk-warning.php" target="_parent"> <?php translate('Risk
+                        Warning'); ?></a></p>
+                    <p><?php translate('Copyright © : 2005-2020 MEX Group Worldwide Limited. All rights reserved.'); ?> <?php translate('MultiBank Exchange is the
+                    trading name of MultiBank Forex Exchange Corporation incorporated in California, USA with Company
+                    No. 3918038.'); ?> <?php translate('MultibankFX is the trading name of Multibank FX International Corporation (BVI) Company
+                    No. 1377324.'); ?> <?php translate('High Risk Investment Warning: Trading foreign exchange and/or contracts for differences
+                    on margin carries a high level of risk, and may not be suitable for all investors.'); ?> <?php translate('The possibility
+                    exists that you could sustain a loss in excess of your deposited funds.'); ?> <?php translate('Please refer to specific
+                    risk warning for each regulated entity during the account opening process.'); ?></p>
                 </div>
             </div>
         </div>
@@ -1714,882 +2434,313 @@ foreach ($allnews as $item) {
 
 
 
+    <!-- toggle menuu bottom -->
+    <div class="slide-bar-toggle">
+        <img src="/public_files/images/home/sidebar_icon/threedots.png" style="width: 30px;" />
+    </div>
 
-    <?php include_from_root('website_template/page_footer.php'); ?>
-
-
-
-
-    <style type="text/css">
-        .slidebar a span.btn {
-            padding: 0;
-            background: none;
-            margin: 0 0 3px 0;
-        }
-    </style>
-    <style>
-        .top-mb-ic {
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            padding: 5px;
-        }
-
-        .top-mb-ic.red {
-            background-color: #CE0B0B;
-        }
-
-        .top-mb-ic.blue {
-            background-color: #178ECC;
-        }
-
-        .top-mb-ic.black {
-            background-color: #333;
-        }
-
-        .top-mb-ic.dark-blue {
-            background-color: #000032;
-        }
-
-        .font-16 {
-            font-size: 16px !important;
-        }
-
-        .font-14 {
-            font-size: 14px !important;
-        }
-
-        .footer-contact-ic {
-            width: 30%;
-            height: auto;
-        }
-
-        .top-mb-ic img {
-            width: 100%;
-            height: auto;
-        }
-
-        .mb-header-btn:hover .top-mb-text {
-            color: #e2a840 !important;
-        }
-
-        @media (max-width: 767px) {
-            section.contact-us {
-                padding: 40px 0 0 0 !important;
-            }
-        }
-
-        @media (max-width: 400px) {
-            .footer-mb-social-media {
-                font-size: 20px !important;
-            }
-
-            .hide-400 {
-                display: none !important;
-            }
-        }
-    </style>
-    <div class="modal-box__email-us">
-        <div class="container row">
-            <div class="col-12 col-md-7 mx-auto bg-white p-4">
-                <span class="btn-modal-close fa fa-times"></span>
-                <form action="https://www.multibankfx.com/form/contactus?" name='email_us_form' class='multibank-form row mx-0 w-100 new' method='post' enctype='' id='email_us_form' target='' autocomplete='on'>
-                    <input type='hidden' name='t_date' value='MjAyMC0wNi0yNyAwMzowMTozMw==' />
-                    <input type='hidden' name='token' value='$2y$10$jw4S1XQRcJWM6S2.CwYGf.Nh7UOTHe8Npg2q.nSFuFIUIoJXiaw0u' />
-                    <input type='hidden' name='source' value='[2020-06-27 02:49:03] https://www.multibankfx.com/<br/><br/>[2020-06-27 02:59:53] https://www.multibankfx.com/article/multibank-honored-best-ecn-broker-asia-2019<br/><br/>[2020-06-27 02:59:54] https://www.multibankfx.com/article/multibank-honored-best-ecn-broker-asia-2019<br/><br/>[2020-06-27 02:59:56] https://www.multibankfx.com/article/multibank-honored-best-ecn-broker-asia-2019<br/><br/>[2020-06-27 03:01:33] https://www.multibankfx.com/article/multibank-fast-n-furious-trading-contest<br/><br/> <br/><br/> posted From: www.multibankfx.com/account/demo-account?web=true' />
-                    <div class='col-12 p-0'>
-                        <label for='' class='mex-h3'>
-                            EMAIL US</label>
-                        <input type='hidden' data-message='' data-extra-message="" data-regex='' class=' d-none' name='label_title' placeholder='' value='' />
-                    </div>
-                    <div class='d-none'>
-                        <label for='' class='m-0 d-none'>
-                        </label>
-                        <div class='form-check form-check-inline'><input data-message='Account Type is Required.' data-extra-message="/Account type Invalid." class='   ' name='account_type' type='radio' required value='1' checked />
-                            <label class='  ' for=''>INDIVIDUAL</label>
-                        </div>
-                    </div>
-                    <div class='mex-form-item col-6 p-1 pb-3'>
-                        <label for='' class='d-none'>
-                            Full Name</label>
-                        <input type="text" data-message="Full Name is Required." data-extra-message="Full Name Invalid." data-regex="" class="form-control mb-0" name="name" $field_id_code placeholder="Full Name" required value="" />
-                    </div>
-                    <div class='mex-form-item col-6 p-1 pb-3'>
-                        <label for='' class='d-none'>
-                            البريد الإلكتروني</label>
-                        <input type='email' data-message='Email is Required.' data-extra-message="Email is Invalid." data-regex='' class='form-control mb-0' name='email' placeholder='Email' required value='' />
-                    </div>
-                    <div class='mex-form-item col-12 p-1 d-none'>
-                        <label for='' class='d-none'>
-                        </label>
-                        <select data-message='Confirm Email is Required.' data-extra-message="Email Mismatched." class='selection-country form-control  mb-0 select_with_country select_with_country' name='country_name' required>
-                            <option value='' selected='selected'>Select Country</option>
-                            <option data-country_iso_code="AF" data-name='AF' value='AF'>AFGHANISTAN</option>
-                            <option data-country_iso_code="AL" data-name='AL' value='AL'>ALBANIA</option>
-                            <option data-country_iso_code="DZ" data-name='DZ' value='DZ'>ALGERIA</option>
-                            <option data-country_iso_code="AS" data-name='AS' value='AS'>AMERICAN SAMOA</option>
-                            <option data-country_iso_code="AD" data-name='AD' value='AD'>ANDORRA</option>
-                            <option data-country_iso_code="AO" data-name='AO' value='AO'>ANGOLA</option>
-                            <option data-country_iso_code="AI" data-name='AI' value='AI'>ANGUILLA</option>
-                            <option data-country_iso_code="AQ" data-name='AQ' value='AQ'>ANTARCTICA</option>
-                            <option data-country_iso_code="AG" data-name='AG' value='AG'>ANTIGUA AND BARBUDA</option>
-                            <option data-country_iso_code="AR" data-name='AR' value='AR'>ARGENTINA</option>
-                            <option data-country_iso_code="AM" data-name='AM' value='AM'>ARMENIA</option>
-                            <option data-country_iso_code="AW" data-name='AW' value='AW'>ARUBA</option>
-                            <option data-country_iso_code="AU" data-name='AU' value='AU'>AUSTRALIA</option>
-                            <option data-country_iso_code="AT" data-name='AT' value='AT'>AUSTRIA</option>
-                            <option data-country_iso_code="AZ" data-name='AZ' value='AZ'>AZERBAIJAN</option>
-                            <option data-country_iso_code="BS" data-name='BS' value='BS'>BAHAMAS</option>
-                            <option data-country_iso_code="BH" data-name='BH' value='BH'>BAHRAIN</option>
-                            <option data-country_iso_code="BD" data-name='BD' value='BD'>BANGLADESH</option>
-                            <option data-country_iso_code="BB" data-name='BB' value='BB'>BARBADOS</option>
-                            <option data-country_iso_code="BY" data-name='BY' value='BY'>BELARUS</option>
-                            <option data-country_iso_code="BE" data-name='BE' value='BE'>BELGIUM</option>
-                            <option data-country_iso_code="BZ" data-name='BZ' value='BZ'>BELIZE</option>
-                            <option data-country_iso_code="BJ" data-name='BJ' value='BJ'>BENIN</option>
-                            <option data-country_iso_code="BM" data-name='BM' value='BM'>BERMUDA</option>
-                            <option data-country_iso_code="BT" data-name='BT' value='BT'>BHUTAN</option>
-                            <option data-country_iso_code="BO" data-name='BO' value='BO'>BOLIVIA</option>
-                            <option data-country_iso_code="BA" data-name='BA' value='BA'>BOSNIA AND HERZEGOVINA</option>
-                            <option data-country_iso_code="BW" data-name='BW' value='BW'>BOTSWANA</option>
-                            <option data-country_iso_code="BV" data-name='BV' value='BV'>BOUVET ISLAND</option>
-                            <option data-country_iso_code="BR" data-name='BR' value='BR'>BRAZIL</option>
-                            <option data-country_iso_code="IO" data-name='IO' value='IO'>BRITISH INDIAN OCEAN TERRITORY</option>
-                            <option data-country_iso_code="BN" data-name='BN' value='BN'>BRUNEI DARUSSALAM</option>
-                            <option data-country_iso_code="BG" data-name='BG' value='BG'>BULGARIA</option>
-                            <option data-country_iso_code="BF" data-name='BF' value='BF'>BURKINA FASO</option>
-                            <option data-country_iso_code="BI" data-name='BI' value='BI'>BURUNDI</option>
-                            <option data-country_iso_code="KH" data-name='KH' value='KH'>CAMBODIA</option>
-                            <option data-country_iso_code="CM" data-name='CM' value='CM'>CAMEROON</option>
-                            <option data-country_iso_code="CA" data-name='CA' value='CA'>CANADA</option>
-                            <option data-country_iso_code="CV" data-name='CV' value='CV'>CAPE VERDE</option>
-                            <option data-country_iso_code="KY" data-name='KY' value='KY'>CAYMAN ISLANDS</option>
-                            <option data-country_iso_code="CF" data-name='CF' value='CF'>CENTRAL AFRICAN REPUBLIC</option>
-                            <option data-country_iso_code="TD" data-name='TD' value='TD'>CHAD</option>
-                            <option data-country_iso_code="CL" data-name='CL' value='CL'>CHILE</option>
-                            <option data-country_iso_code="CN" data-name='CN' value='CN'>CHINA</option>
-                            <option data-country_iso_code="CX" data-name='CX' value='CX'>CHRISTMAS ISLAND</option>
-                            <option data-country_iso_code="CC" data-name='CC' value='CC'>COCOS (KEELING) ISLANDS</option>
-                            <option data-country_iso_code="CO" data-name='CO' value='CO'>COLOMBIA</option>
-                            <option data-country_iso_code="KM" data-name='KM' value='KM'>COMOROS</option>
-                            <option data-country_iso_code="CG" data-name='CG' value='CG'>CONGO</option>
-                            <option data-country_iso_code="CD" data-name='CD' value='CD'>CONGO, THE DEMOCRATIC REPUBLIC OF THE</option>
-                            <option data-country_iso_code="CK" data-name='CK' value='CK'>COOK ISLANDS</option>
-                            <option data-country_iso_code="CR" data-name='CR' value='CR'>COSTA RICA</option>
-                            <option data-country_iso_code="CI" data-name='CI' value='CI'>COTE D'IVOIRE</option>
-                            <option data-country_iso_code="HR" data-name='HR' value='HR'>CROATIA</option>
-                            <option data-country_iso_code="CU" data-name='CU' value='CU'>CUBA</option>
-                            <option data-country_iso_code="CY" data-name='CY' value='CY'>CYPRUS</option>
-                            <option data-country_iso_code="CZ" data-name='CZ' value='CZ'>CZECH REPUBLIC</option>
-                            <option data-country_iso_code="DK" data-name='DK' value='DK'>DENMARK</option>
-                            <option data-country_iso_code="DJ" data-name='DJ' value='DJ'>DJIBOUTI</option>
-                            <option data-country_iso_code="DM" data-name='DM' value='DM'>DOMINICA</option>
-                            <option data-country_iso_code="DO" data-name='DO' value='DO'>DOMINICAN REPUBLIC</option>
-                            <option data-country_iso_code="EC" data-name='EC' value='EC'>ECUADOR</option>
-                            <option data-country_iso_code="EG" data-name='EG' value='EG'>EGYPT</option>
-                            <option data-country_iso_code="SV" data-name='SV' value='SV'>EL SALVADOR</option>
-                            <option data-country_iso_code="GQ" data-name='GQ' value='GQ'>EQUATORIAL GUINEA</option>
-                            <option data-country_iso_code="ER" data-name='ER' value='ER'>ERITREA</option>
-                            <option data-country_iso_code="EE" data-name='EE' value='EE'>ESTONIA</option>
-                            <option data-country_iso_code="ET" data-name='ET' value='ET'>ETHIOPIA</option>
-                            <option data-country_iso_code="FK" data-name='FK' value='FK'>FALKLAND ISLANDS (MALVINAS)</option>
-                            <option data-country_iso_code="FO" data-name='FO' value='FO'>FAROE ISLANDS</option>
-                            <option data-country_iso_code="FJ" data-name='FJ' value='FJ'>FIJI</option>
-                            <option data-country_iso_code="FI" data-name='FI' value='FI'>FINLAND</option>
-                            <option data-country_iso_code="FR" data-name='FR' value='FR'>FRANCE</option>
-                            <option data-country_iso_code="GF" data-name='GF' value='GF'>FRENCH GUIANA</option>
-                            <option data-country_iso_code="PF" data-name='PF' value='PF'>FRENCH POLYNESIA</option>
-                            <option data-country_iso_code="TF" data-name='TF' value='TF'>FRENCH SOUTHERN TERRITORIES</option>
-                            <option data-country_iso_code="GA" data-name='GA' value='GA'>GABON</option>
-                            <option data-country_iso_code="GM" data-name='GM' value='GM'>GAMBIA</option>
-                            <option data-country_iso_code="GE" data-name='GE' value='GE'>GEORGIA</option>
-                            <option data-country_iso_code="DE" data-name='DE' value='DE'>GERMANY</option>
-                            <option data-country_iso_code="GH" data-name='GH' value='GH'>GHANA</option>
-                            <option data-country_iso_code="GI" data-name='GI' value='GI'>GIBRALTAR</option>
-                            <option data-country_iso_code="GR" data-name='GR' value='GR'>GREECE</option>
-                            <option data-country_iso_code="GL" data-name='GL' value='GL'>GREENLAND</option>
-                            <option data-country_iso_code="GD" data-name='GD' value='GD'>GRENADA</option>
-                            <option data-country_iso_code="GP" data-name='GP' value='GP'>GUADELOUPE</option>
-                            <option data-country_iso_code="GU" data-name='GU' value='GU'>GUAM</option>
-                            <option data-country_iso_code="GT" data-name='GT' value='GT'>GUATEMALA</option>
-                            <option data-country_iso_code="GN" data-name='GN' value='GN'>GUINEA</option>
-                            <option data-country_iso_code="GW" data-name='GW' value='GW'>GUINEA-BISSAU</option>
-                            <option data-country_iso_code="GY" data-name='GY' value='GY'>GUYANA</option>
-                            <option data-country_iso_code="HT" data-name='HT' value='HT'>HAITI</option>
-                            <option data-country_iso_code="HM" data-name='HM' value='HM'>HEARD ISLAND AND MCDONALD ISLANDS</option>
-                            <option data-country_iso_code="VA" data-name='VA' value='VA'>HOLY SEE (VATICAN CITY STATE)</option>
-                            <option data-country_iso_code="HN" data-name='HN' value='HN'>HONDURAS</option>
-                            <option data-country_iso_code="HK" data-name='HK' value='HK'>HONG KONG</option>
-                            <option data-country_iso_code="HU" data-name='HU' value='HU'>HUNGARY</option>
-                            <option data-country_iso_code="IS" data-name='IS' value='IS'>ICELAND</option>
-                            <option data-country_iso_code="IN" data-name='IN' value='IN'>INDIA</option>
-                            <option data-country_iso_code="ID" data-name='ID' value='ID'>INDONESIA</option>
-                            <option data-country_iso_code="IR" data-name='IR' value='IR'>IRAN, ISLAMIC REPUBLIC OF</option>
-                            <option data-country_iso_code="IQ" data-name='IQ' value='IQ'>IRAQ</option>
-                            <option data-country_iso_code="IE" data-name='IE' value='IE'>IRELAND</option>
-                            <option data-country_iso_code="IL" data-name='IL' value='IL'>ISRAEL</option>
-                            <option data-country_iso_code="IT" data-name='IT' value='IT'>ITALY</option>
-                            <option data-country_iso_code="JM" data-name='JM' value='JM'>JAMAICA</option>
-                            <option data-country_iso_code="JP" data-name='JP' value='JP'>JAPAN</option>
-                            <option data-country_iso_code="JO" data-name='JO' value='JO'>JORDAN</option>
-                            <option data-country_iso_code="KZ" data-name='KZ' value='KZ'>KAZAKHSTAN</option>
-                            <option data-country_iso_code="KE" data-name='KE' value='KE'>KENYA</option>
-                            <option data-country_iso_code="KI" data-name='KI' value='KI'>KIRIBATI</option>
-                            <option data-country_iso_code="KP" data-name='KP' value='KP'>KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</option>
-                            <option data-country_iso_code="KR" data-name='KR' value='KR'>KOREA, REPUBLIC OF</option>
-                            <option data-country_iso_code="KW" data-name='KW' value='KW'>KUWAIT</option>
-                            <option data-country_iso_code="KG" data-name='KG' value='KG'>KYRGYZSTAN</option>
-                            <option data-country_iso_code="LA" data-name='LA' value='LA'>LAO PEOPLE'S DEMOCRATIC REPUBLIC</option>
-                            <option data-country_iso_code="LV" data-name='LV' value='LV'>LATVIA</option>
-                            <option data-country_iso_code="LB" data-name='LB' value='LB'>LEBANON</option>
-                            <option data-country_iso_code="LS" data-name='LS' value='LS'>LESOTHO</option>
-                            <option data-country_iso_code="LR" data-name='LR' value='LR'>LIBERIA</option>
-                            <option data-country_iso_code="LY" data-name='LY' value='LY'>LIBYAN ARAB JAMAHIRIYA</option>
-                            <option data-country_iso_code="LI" data-name='LI' value='LI'>LIECHTENSTEIN</option>
-                            <option data-country_iso_code="LT" data-name='LT' value='LT'>LITHUANIA</option>
-                            <option data-country_iso_code="LU" data-name='LU' value='LU'>LUXEMBOURG</option>
-                            <option data-country_iso_code="MO" data-name='MO' value='MO'>MACAO</option>
-                            <option data-country_iso_code="MK" data-name='MK' value='MK'>MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</option>
-                            <option data-country_iso_code="MG" data-name='MG' value='MG'>MADAGASCAR</option>
-                            <option data-country_iso_code="MW" data-name='MW' value='MW'>MALAWI</option>
-                            <option data-country_iso_code="MY" data-name='MY' value='MY'>MALAYSIA</option>
-                            <option data-country_iso_code="MV" data-name='MV' value='MV'>MALDIVES</option>
-                            <option data-country_iso_code="ML" data-name='ML' value='ML'>MALI</option>
-                            <option data-country_iso_code="MT" data-name='MT' value='MT'>MALTA</option>
-                            <option data-country_iso_code="MH" data-name='MH' value='MH'>MARSHALL ISLANDS</option>
-                            <option data-country_iso_code="MQ" data-name='MQ' value='MQ'>MARTINIQUE</option>
-                            <option data-country_iso_code="MR" data-name='MR' value='MR'>MAURITANIA</option>
-                            <option data-country_iso_code="MU" data-name='MU' value='MU'>MAURITIUS</option>
-                            <option data-country_iso_code="YT" data-name='YT' value='YT'>MAYOTTE</option>
-                            <option data-country_iso_code="MX" data-name='MX' value='MX'>MEXICO</option>
-                            <option data-country_iso_code="FM" data-name='FM' value='FM'>MICRONESIA, FEDERATED STATES OF</option>
-                            <option data-country_iso_code="MD" data-name='MD' value='MD'>MOLDOVA, REPUBLIC OF</option>
-                            <option data-country_iso_code="MC" data-name='MC' value='MC'>MONACO</option>
-                            <option data-country_iso_code="MN" data-name='MN' value='MN'>MONGOLIA</option>
-                            <option data-country_iso_code="ME" data-name='ME' value='ME'>MONTENEGRO</option>
-                            <option data-country_iso_code="MS" data-name='MS' value='MS'>MONTSERRAT</option>
-                            <option data-country_iso_code="MA" data-name='MA' value='MA'>MOROCCO</option>
-                            <option data-country_iso_code="MZ" data-name='MZ' value='MZ'>MOZAMBIQUE</option>
-                            <option data-country_iso_code="MM" data-name='MM' value='MM'>MYANMAR</option>
-                            <option data-country_iso_code="NA" data-name='NA' value='NA'>NAMIBIA</option>
-                            <option data-country_iso_code="NR" data-name='NR' value='NR'>NAURU</option>
-                            <option data-country_iso_code="NP" data-name='NP' value='NP'>NEPAL</option>
-                            <option data-country_iso_code="NL" data-name='NL' value='NL'>NETHERLANDS</option>
-                            <option data-country_iso_code="AN" data-name='AN' value='AN'>NETHERLANDS ANTILLES</option>
-                            <option data-country_iso_code="NC" data-name='NC' value='NC'>NEW CALEDONIA</option>
-                            <option data-country_iso_code="NZ" data-name='NZ' value='NZ'>NEW ZEALAND</option>
-                            <option data-country_iso_code="NI" data-name='NI' value='NI'>NICARAGUA</option>
-                            <option data-country_iso_code="NE" data-name='NE' value='NE'>NIGER</option>
-                            <option data-country_iso_code="NG" data-name='NG' value='NG'>NIGERIA</option>
-                            <option data-country_iso_code="NU" data-name='NU' value='NU'>NIUE</option>
-                            <option data-country_iso_code="NF" data-name='NF' value='NF'>NORFOLK ISLAND</option>
-                            <option data-country_iso_code="MP" data-name='MP' value='MP'>NORTHERN MARIANA ISLANDS</option>
-                            <option data-country_iso_code="NO" data-name='NO' value='NO'>NORWAY</option>
-                            <option data-country_iso_code="OM" data-name='OM' value='OM'>OMAN</option>
-                            <option data-country_iso_code="PK" data-name='PK' value='PK'>PAKISTAN</option>
-                            <option data-country_iso_code="PW" data-name='PW' value='PW'>PALAU</option>
-                            <option data-country_iso_code="PS" data-name='PS' value='PS'>PALESTINE, STATE OF</option>
-                            <option data-country_iso_code="PA" data-name='PA' value='PA'>PANAMA</option>
-                            <option data-country_iso_code="PG" data-name='PG' value='PG'>PAPUA NEW GUINEA</option>
-                            <option data-country_iso_code="PY" data-name='PY' value='PY'>PARAGUAY</option>
-                            <option data-country_iso_code="PE" data-name='PE' value='PE'>PERU</option>
-                            <option data-country_iso_code="PH" data-name='PH' value='PH'>PHILIPPINES</option>
-                            <option data-country_iso_code="PN" data-name='PN' value='PN'>PITCAIRN</option>
-                            <option data-country_iso_code="PL" data-name='PL' value='PL'>POLAND</option>
-                            <option data-country_iso_code="PT" data-name='PT' value='PT'>PORTUGAL</option>
-                            <option data-country_iso_code="PR" data-name='PR' value='PR'>PUERTO RICO</option>
-                            <option data-country_iso_code="QA" data-name='QA' value='QA'>QATAR</option>
-                            <option data-country_iso_code="RE" data-name='RE' value='RE'>REUNION</option>
-                            <option data-country_iso_code="RO" data-name='RO' value='RO'>ROMANIA</option>
-                            <option data-country_iso_code="RU" data-name='RU' value='RU'>RUSSIAN FEDERATION</option>
-                            <option data-country_iso_code="RW" data-name='RW' value='RW'>RWANDA</option>
-                            <option data-country_iso_code="SH" data-name='SH' value='SH'>SAINT HELENA</option>
-                            <option data-country_iso_code="KN" data-name='KN' value='KN'>SAINT KITTS AND NEVIS</option>
-                            <option data-country_iso_code="LC" data-name='LC' value='LC'>SAINT LUCIA</option>
-                            <option data-country_iso_code="PM" data-name='PM' value='PM'>SAINT PIERRE AND MIQUELON</option>
-                            <option data-country_iso_code="VC" data-name='VC' value='VC'>SAINT VINCENT AND THE GRENADINES</option>
-                            <option data-country_iso_code="WS" data-name='WS' value='WS'>SAMOA</option>
-                            <option data-country_iso_code="SM" data-name='SM' value='SM'>SAN MARINO</option>
-                            <option data-country_iso_code="ST" data-name='ST' value='ST'>SAO TOME AND PRINCIPE</option>
-                            <option data-country_iso_code="SA" data-name='SA' value='SA'>SAUDI ARABIA</option>
-                            <option data-country_iso_code="SN" data-name='SN' value='SN'>SENEGAL</option>
-                            <option data-country_iso_code="RS" data-name='RS' value='RS'>SERBIA</option>
-                            <option data-country_iso_code="SC" data-name='SC' value='SC'>SEYCHELLES</option>
-                            <option data-country_iso_code="SL" data-name='SL' value='SL'>SIERRA LEONE</option>
-                            <option data-country_iso_code="SG" data-name='SG' value='SG'>SINGAPORE</option>
-                            <option data-country_iso_code="SK" data-name='SK' value='SK'>SLOVAKIA</option>
-                            <option data-country_iso_code="SI" data-name='SI' value='SI'>SLOVENIA</option>
-                            <option data-country_iso_code="SB" data-name='SB' value='SB'>SOLOMON ISLANDS</option>
-                            <option data-country_iso_code="SO" data-name='SO' value='SO'>SOMALIA</option>
-                            <option data-country_iso_code="ZA" data-name='ZA' value='ZA'>SOUTH AFRICA</option>
-                            <option data-country_iso_code="GS" data-name='GS' value='GS'>SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</option>
-                            <option data-country_iso_code="ES" data-name='ES' value='ES'>SPAIN</option>
-                            <option data-country_iso_code="LK" data-name='LK' value='LK'>SRI LANKA</option>
-                            <option data-country_iso_code="SD" data-name='SD' value='SD'>SUDAN</option>
-                            <option data-country_iso_code="SR" data-name='SR' value='SR'>SURINAME</option>
-                            <option data-country_iso_code="SJ" data-name='SJ' value='SJ'>SVALBARD AND JAN MAYEN</option>
-                            <option data-country_iso_code="SZ" data-name='SZ' value='SZ'>SWAZILAND</option>
-                            <option data-country_iso_code="SE" data-name='SE' value='SE'>SWEDEN</option>
-                            <option data-country_iso_code="CH" data-name='CH' value='CH'>SWITZERLAND</option>
-                            <option data-country_iso_code="SY" data-name='SY' value='SY'>SYRIAN ARAB REPUBLIC</option>
-                            <option data-country_iso_code="TW" data-name='TW' value='TW'>TAIWAN, PROVINCE OF CHINA</option>
-                            <option data-country_iso_code="TJ" data-name='TJ' value='TJ'>TAJIKISTAN</option>
-                            <option data-country_iso_code="TZ" data-name='TZ' value='TZ'>TANZANIA, UNITED REPUBLIC OF</option>
-                            <option data-country_iso_code="TH" data-name='TH' value='TH'>THAILAND</option>
-                            <option data-country_iso_code="TL" data-name='TL' value='TL'>TIMOR-LESTE</option>
-                            <option data-country_iso_code="TG" data-name='TG' value='TG'>TOGO</option>
-                            <option data-country_iso_code="TK" data-name='TK' value='TK'>TOKELAU</option>
-                            <option data-country_iso_code="TO" data-name='TO' value='TO'>TONGA</option>
-                            <option data-country_iso_code="TT" data-name='TT' value='TT'>TRINIDAD AND TOBAGO</option>
-                            <option data-country_iso_code="TN" data-name='TN' value='TN'>TUNISIA</option>
-                            <option data-country_iso_code="TR" data-name='TR' value='TR'>TURKEY</option>
-                            <option data-country_iso_code="TM" data-name='TM' value='TM'>TURKMENISTAN</option>
-                            <option data-country_iso_code="TC" data-name='TC' value='TC'>TURKS AND CAICOS ISLANDS</option>
-                            <option data-country_iso_code="TV" data-name='TV' value='TV'>TUVALU</option>
-                            <option data-country_iso_code="UG" data-name='UG' value='UG'>UGANDA</option>
-                            <option data-country_iso_code="UA" data-name='UA' value='UA'>UKRAINE</option>
-                            <option data-country_iso_code="AE" data-name='AE' value='AE'>UNITED ARAB EMIRATES</option>
-                            <option data-country_iso_code="GB" data-name='GB' value='GB'>UNITED KINGDOM</option>
-                            <option data-country_iso_code="US" data-name='US' value='US'>UNITED STATES</option>
-                            <option data-country_iso_code="UM" data-name='UM' value='UM'>UNITED STATES MINOR OUTLYING ISLANDS</option>
-                            <option data-country_iso_code="UY" data-name='UY' value='UY'>URUGUAY</option>
-                            <option data-country_iso_code="UZ" data-name='UZ' value='UZ'>UZBEKISTAN</option>
-                            <option data-country_iso_code="VU" data-name='VU' value='VU'>VANUATU</option>
-                            <option data-country_iso_code="VE" data-name='VE' value='VE'>VENEZUELA</option>
-                            <option data-country_iso_code="VN" data-name='VN' value='VN'>VIET NAM</option>
-                            <option data-country_iso_code="VG" data-name='VG' value='VG'>VIRGIN ISLANDS, BRITISH</option>
-                            <option data-country_iso_code="VI" data-name='VI' value='VI'>VIRGIN ISLANDS, U.S.</option>
-                            <option data-country_iso_code="WF" data-name='WF' value='WF'>WALLIS AND FUTUNA</option>
-                            <option data-country_iso_code="EH" data-name='EH' value='EH'>WESTERN SAHARA</option>
-                            <option data-country_iso_code="YE" data-name='YE' value='YE'>YEMEN</option>
-                            <option data-country_iso_code="ZM" data-name='ZM' value='ZM'>ZAMBIA</option>
-                            <option data-country_iso_code="ZW" data-name='ZW' value='ZW'>ZIMBABWE</option>
-                        </select><input type="hidden" name="country_code" value="" /></div>
-                    <div class='d-none'>
-                        <label for='' class='d-none'>
-                        </label>
-                        <input type='hidden' data-message='' data-extra-message="" data-regex='' class=' d-none' name='form_key' placeholder='' value='email_us_form' />
-                    </div>
-                    <div class='mex-form-item col-12 p-1 pb-3'>
-                        <label for='' class='d-none'>
-                            Phone</label>
-                        <input type='phone' data-ip_country_code='IN' data-message='Phone Number is required.' data-extra-message="Phone Number Invalid" data-regex='' class='input_with_phone form-control mb-0 input_with_phone' name='phone_display' placeholder='' required value='' />
-                        <input type='hidden' name='phone' />
-                    </div>
-                    <div class='mex-form-item col-6 col-md-6 p-1 sms-code-container'>
-                        <input type='number' name='phone_sms_verif_code' class='sms_verif_code regCon oth_sp' placeholder='SMS Code' required='required' number='true' autocomplete='off' list='autocompleteOff' />
-                    </div>
-                    <div class='mex-form-item col-6 col-md-6 p-1 send-code-container'>
-                        <button class='btn btn-mex w-100 h-40p send-verification-code-btn min-w-unset ' id='button-send-callme_form' type='button' title='Send Code'>Send Code</button>
-                    </div>
-                    <div class='mex-form-item col-12 mb-3 p-1'>
-                        <label for='order_message' class='d-block'>
-                        </label>
-                        <textarea data-message='Message is Required.' data-extra-message="Message is Invalid." data-regex='' class=' form-control w-100 ta-message' name='message' id='order_message' placeholder=''>Hello, I am interested in learning more about MultiBank products and services. Could you please contact me</textarea>
-                    </div><button type='submit' class='btn btn-mex ml-auto btn-submit' onsubmit="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-="">SEND</button>
-                </form>
-            </div>
+    <div class="slidebar-parent">
+        <div class="slidebar-m">
+            <a class="get-a-all-btn call-btn slidebar-pn" href="">
+                <span>Make call</span>
+                <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-phone-light@2x.png" width="50" /> </span>
+            </a>
+            <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
+                <span>Whatsapp</span>
+                <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-whatsapp-light@2x.png" width="50" /> </span>
+            </a>
+            <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#177464577a627b637e7576797c716f3974787a">
+                <span>Email Us</span>
+                <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-email-light@2x.png" width="50" /> </span>
+            </a>
+            <!-- <a class="ib-registration-btn chat-btn" onclick="$_REVECHAT_API && $_REVECHAT_API.Button.maximize().Button.maximize()" data-cf-modified-="">
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-chat.png" width="50" /> </span>
+        </a> -->
+            <a class="ib-registration-btn chat-btn" onclick="$_REVECHAT_API && $_REVECHAT_API.Button.maximize().Button.maximize()" data-cf-modified-="">
+                <span>Live chat</span>
+                <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-chat-light@2x.png" width="50" /> </span>
+            </a>
         </div>
     </div>
-    <style>
-        .modal-box__email-us {
-            width: 100%;
-            height: 100vh;
+    <div class="slidebar-d">
+        <a class="get-a-all-btn call-btn slidebar-pn-d" href="">
+            <span class="btn"><img alt="phone" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-phone-light.png" width="50" /> </span>
+        </a>
+        <a class="live-account-btn whatsapp-btn" href="https://api.whatsapp.com/send?phone=85222438107" target="_blank">
+            <span class="btn"> <img alt="Whatsapp" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-whatsapp-light.png" width="50" /> </span>
+        </a>
+        <a class="email-us-tg demo-account-btn email-btn" href="cdn-cgi/l/email-protection.html#177464577a627b637e7576797c716f3974787a">
+            <span class="btn"> <img alt="email" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-email-light.png" width="50" /> </span>
+        </a>
+        <a class="ib-registration-btn chat-btn" onclick="$_REVECHAT_API && $_REVECHAT_API.Button.maximize().Button.maximize()" data-cf-modified-="">
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-chat-light.png" width="50" /> </span>
+        </a>
+        <!-- <a class="ib-registration-btn chat-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; LC_API.open_chat_window();return false;" data-cf-modified-="">
+            <span class="btn"> <img alt="Chat" data-entity-type="" data-entity-uuid="" src="/public_files/images/home/sidebar_icon/icon-chat.png" width="50" /> </span>
+        </a> -->
+    </div>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        let tag = document.createElement('script');
 
-            position: fixed;
-            top: 0;
-            left: 0;
+        tag.src = "https://www.youtube.com/iframe_api";
+        let firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-            display: none;
-            justify-content: center;
-            align-items: center;
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        let player;
 
-            z-index: 99999;
-            background-color: rgba(0, 0, 0, 0.4);
-        }
-
-        .modal-box__email-us.show {
-            display: flex;
-        }
-
-        .modal-box__email-us .btn-modal-close {
-            font-size: 20px;
-
-            position: absolute;
-            top: 10px;
-            right: 10px;
-
-            color: rgba(0, 0, 0, 0.5);
-            cursor: pointer;
-        }
-
-        #email_us_form .form-control {
-            height: 45px;
-            background: #FFF;
-        }
-
-        #email_us_form .btn-submit {
-            background-color: #0390D7;
-            border-color: #0390D7;
-            min-width: 100px;
-        }
-
-        #email_us_form .form-control.ta-message {
-            height: 130px;
-            border-radius: 0;
-        }
-    </style>
-    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            $('.email-us-tg').click(function(e) {
-                e.preventDefault();
-                $('.modal-box__email-us').addClass('show');
-            });
-            $('.modal-box__email-us .btn-modal-close').click(function(e) {
-                e.preventDefault();
-                $('.modal-box__email-us').removeClass('show');
-            });
-        })
-    </script>
-    <script src="/public_files/static_js/lang_data/en.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/jquery.dataTables.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/lazysizes.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/jquery.validate.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/intlTelInput.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/app.js" type="text/javascript"></script>
-
-    <script type="text/javascript">
-        $(function() {
-            $('.mex-translatable').each(function() {
-                var url_parts = location.hostname.split('.');
-                if (url_parts.length == 3) {
-                    var subdomain = url_parts.shift();
-
-                    if (subdomain == 'ae' && document.documentElement.lang == 'aen') {
-                        subdomain = 'aen';
-                    }
-                    if ($(this).data(subdomain) && (typeof $(this).data(subdomain) !== 'undefined')) {
-
-
-
-                        var translation = $(this).data(subdomain);
-                        $(this).html(translation);
-                    }
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '100%',
+                width: '100%',
+                videoId: '457QPGzux9M',
+                loop: true,
+                autoplay: true,
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
                 }
             });
+        }
+
+        // 4. The API will call this function when the video player is ready.
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+
+        // 5. The API calls this function when the player's state changes.
+        //    The function indicates that when playing a video (state=1),
+        //    the player should play for six seconds and then stop.
+        function onPlayerStateChange(event) {
+            event.target.playVideo();
+        }
+    </script>
 
 
-            var test_lang = getUrlVars()['test_lang'];
-            if (typeof test_lang !== 'undefined') {
-                $('a').each(function() {
-                    var old_url = $(this).attr("href");
-                    if (typeof old_url !== 'undefined') {
-                        var newUrl = old_url + '?test_lang=' + test_lang;
-                        $(this).attr("href", newUrl);
+    <script>
+        $.get("https://ipinfo.io/json", function(response) {
+            $.getJSON('/public_files/static_data/contact_no.json', function(contacts) {
+                contacts.map((data, index) => {
+                    if (data['Country SN'].toLowerCase() == response.country.toLowerCase()) {
+                        $('#header-pn').html(`${data.Phone}`);
+                        $('#header-pn').prepend('<i class="fa fa-phone">&nbsp;</i>')
+                        $('#header-pn, .slidebar-pn').attr('href', `tel:${data.Phone}?call`);
+                        $('.slidebar-pn-d').attr('href', `tel:${data.Phone}?call`);
                     }
                 });
-            }
-        });
+                if ($('#header-pn').html() == "") {
+                    $('#header-pn, .slidebar-pn').html("+1 213 992 4748");
+                    $('#header-pn, .slidebar-pn').prepend('<i class="ti-headphone-alt">&nbsp;</i>')
+                    $('#header-pn, .slidebar-pn').attr('href', `tel:'+1 213 992 4748?call`);
+                    $('.slidebar-pn-d').attr('href', `tel:'+1 213 992 4748?call`);
+                }
+            });
+        }, "jsonp");
     </script>
-    <script type="text/javascript">
-        $(function() {
-            $('form:not("#demo_competition_form_2019_08_13") .sms_verif_code').val('215121');
-        });
-    </script>
-    <script type="text/javascript">
-        $(function() {
-            var iframe_ibnum = getUrlVars()['ibNum'];
-            var is_iframe = getUrlVars()['is_iframe'];
-            if (typeof iframe_ibnum === 'string' && typeof is_iframe === 'string') {
-                $('a').each(function() {
-                    var querystring = 'ibNum=888104724';
-                    var href = $(this).attr('href');
-                    if (href) {
-                        href += (href.match(/\?/) ? '&' : '?') + querystring;
-                        $(this).attr('href', href);
+    <script type="text/javascript" async>
+        url = new URL(window.location.href);
+        if (!url.searchParams.get('is_iframe')) {
+            window.__lc = window.__lc || {};
+            window.__lc.license = 3413162;
+            window.__lc.chat_between_groups = false;
+            window.__lc.group = 2;
+
+            function initliveChat() {
+                let lc = document.createElement('script');
+                lc.type = 'text/javascript';
+                lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                let s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(lc, s);
+                window.LC_API = window.LC_API || {};
+                LC_API.on_before_load = function() {
+                    LC_API.hide_chat_window();
+                    LC_API.on_chat_window_minimized = function() {
+                        setTimeout(function() {
+                            LC_API.hide_chat_window();
+                        }, 200);
                     }
-                });
-            }
-        });
+                }
+            };
+
+            setTimeout(() => initliveChat(), 10000);
+        }
     </script>
+
+    <!-- Start of REVE Chat Script-->
+    <script type='text/javascript'>
+        function initRevchat() {
+            window.$_REVECHAT_API || (function(d, w) {
+                let r = $_REVECHAT_API = function(c) {
+                    r._.push(c);
+                };
+                w.__revechat_account = '6598532';
+                w.__revechat_version = 2;
+                r._ = [];
+                let rc = d.createElement('script');
+                rc.type = 'text/javascript';
+                rc.async = true;
+                rc.setAttribute('charset', 'utf-8');
+                rc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'static.revechat.com/widget/scripts/new-livechat.js?' + new Date().getTime();
+                let s = d.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(rc, s);
+            })(document, window);
+            $_REVECHAT_API && $_REVECHAT_API.Button.hide();
+            $_REVECHAT_API && $_REVECHAT_API.Button.onMinimize(function() {
+                debugger
+                $_REVECHAT_API.Button.hide();
+            })
+        }
+
+        setTimeout(() => {
+            initRevchat();
+
+        }, 5000)
+    </script>
+    <!-- End of REVE Chat Script -->
+    <script type="text/javascript" async>
+        function init_google(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            let f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        }
+        setTimeout(function() {
+            init_google(window, document, 'script', 'dataLayer', 'GTM-KNJQJTN')
+        }, 10000)
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> -->
+
+
+    <!-- Custom JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="/public_files/static_js/swiper-4.3.5.min.js" type="text/javascript"></script>
-    <script src="/public_files/static_js/app_home.js" type="text/javascript"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <style>
-        .home-banner-form .btn-contact {
-            line-height: 1.1;
-        }
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $('.basic').slick({
+            // fade: true,
+            // cssEase: 'ease-in-out',
+            arrows: true,
+            centerMode: false,
+            draggable: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            touchThreshold: 1000,
+        });
+        $('.platform-slide').slick({
+            // fade: true,
+            arrows: true,
+            autoplay: false,
+            autoplayspeed: 1000,
+            centerPadding: '0',
 
-        .home-banner-form .btn-partner {
-            padding: 5px 0;
-            line-height: 1 !important;
-        }
-
-        .home-banner-form .mex-h3 {
-            line-height: 20px;
-        }
-
-        .form-check-label {
-            line-height: 1.2;
-        }
-
-        .swiper-slide .min1 {
-            height: 600px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-
-        @media (min-width: 1441px) and (max-width: 1920px) {
-            .home-banner-form {
-                top: 220px;
-                left: 50%;
-                margin-left: 260px;
-            }
-
-            .container {
-                position: static;
-                width: auto;
-            }
-        }
-
-        @media (min-width: 1281px) and (max-width: 1440px) {
-            .swiper-slide .min1 {
-                width: 1680px;
-                height: 600px;
-            }
-
-            .home-banner-form {
-                top: 180px;
-                margin-left: 230px;
-            }
-
-            .home-banner-form .p-1 {
-                padding: 0.15rem 0.25rem !important;
-            }
-
-            .home-banner-form .cb-partnership {
-                padding: 0.25rem 0.25rem 0 0.25rem !important;
-            }
-
-            .home-banner-form label {
-                line-height: 12px;
-            }
-
-            .home-banner-form .bg-dark {
-                margin: 0.25rem !important;
-            }
-
-            .home-banner-form .btn-contact {
-                margin-top: 0.25rem !important;
-            }
-        }
-
-        @media (min-width: 1201px) and (max-width: 1280px) {
-            .home-banner-form {
-                top: 190px !important;
-            }
-        }
-
-        @media (min-width: 992px) and (max-width: 1200px) {
-            .swiper-slide .min1 {
-                width: 1440px;
-                height: 600px;
-            }
-
-            .home-banner-form {
-                top: 170px !important;
-                margin-left: 205px;
-                width: 27%;
-            }
-
-            .bg-000 {
-                width: 115%;
-            }
-
-            .home-banner-form .p-1 {
-                padding: 0.10rem 0.25rem !important;
-            }
-
-            .home-banner-form .my-2 {
-                margin: 0.20rem 0.25rem !important;
-            }
-
-            .home-banner-form .cb-partnership {
-                padding: 0.25rem 0.25rem 0 0.25rem !important;
-            }
-
-            .home-banner-form label {
-                line-height: 12px;
-            }
-
-            .home-banner-form .bg-dark {
-                margin: 0.15rem 0.25rem !important;
-            }
-
-            .home-banner-form .btn-contact {
-                margin-top: 0.15rem !important;
-                padding: 2px 0 !important;
-            }
-
-            .home-banner-form .contact-form-button-container a {
-                margin-bottom: 3px !important;
-                padding: 0 auto !important;
-            }
-
-            .home-banner-form .form-check {
-                margin: -10px auto -4px !important;
-            }
-
-            .home-banner-form .mex-form-item input,
-            .mex-form-item select {
-                height: 33px;
-            }
-
-            .home-banner-form .contact-form-button-container a {
-                padding: 5px 10px !important;
-            }
-        }
-
-        @media (min-width: 992px) and (max-width: 1200px) {
-            .home-banner-form {
-                top: 150px;
-            }
-        }
-
-        @media (max-width: 992px) {
-            .swiper-slide .min2 {
-                background-repeat: no-repeat;
-                background-size: contain;
-            }
-
-            .swiper-slide .min2 img {
-                width: 100%;
-                max-width: 100%;
-            }
-
-            .home-banner-form {
-                margin-top: 15px;
-            }
-        }
-
-        @media (max-width: 1920px) and (min-width: 1400px) {
-            .container .home-banner-form {
-                top: 272px;
-                margin-left: 388px;
-            }
-        }
-    </style>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            var index_swiper = new Swiper('#swiper-container-lp', {
-                navigation: {
-                    nextEl: '#swiper-container-lp .swiper-button-next',
-                    prevEl: '#swiper-container-lp .swiper-button-prev',
-                },
-                pagination: {
-                    clickable: true,
-                    el: '#swiper-container-lp .swiper-pagination',
-                },
-                loop: true,
-                // autoplay: {
-                //     delay: 5000
-                // },
-                updateOnImagesReady: true,
-                paginationClickable: true,
-                spaceBetween: 30,
-                centeredSlides: true,
-                autoplayDisableOnInteraction: false,
-                effect: 'coverflowEffect',
-                zoom: {
-                    maxRatio: 5,
-                },
-                coverflowEffect: {
-                    rotate: 30,
-                    slideShadows: false,
-                },
-            });
-
-            // banner slider under Hero slider
-            $('#home-carousal-banner').slick({
-                centerMode: false,
-                slidesToShow: 2,
-                infinite: false,
-                arrows: false,
-                autoplay: true,
-                autoplaySpeed: 2000,
-
-            });
+            centerMode: true
+        });
+        $('.platform-slide-2').slick({
+            // fade: true,
+            arrows: true,
+            autoplay: false,
+            slideToShow: 1,
+            SlideToScroll: 1,
+            centerPadding: '0',
+        });
+        $('#home-carousal-banner').slick({
+            centerMode: false,
+            slidesToShow: 2,
+            infinite: false,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
 
         });
+        $('#home-carousal-banner-1').slick({
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 5,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+
+        });
+
+        let index_swiper = new Swiper('#swiper-container-lp', {
+            navigation: {
+                nextEl: '#swiper-container-lp .swiper-button-next',
+                prevEl: '#swiper-container-lp .swiper-button-prev',
+            },
+            pagination: {
+                clickable: true,
+                el: '#swiper-container-lp .swiper-pagination',
+            },
+            loop: true,
+            autoplay: {
+                delay: 3000
+            },
+            updateOnImagesReady: true,
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplayDisableOnInteraction: false,
+            effect: 'coverflowEffect',
+            zoom: {
+                maxRatio: 5,
+            },
+            coverflowEffect: {
+                rotate: 30,
+                slideShadows: false,
+            },
+        });
+
+        // banner slider under Hero slider
+        let acc = $('.panel-heading');
+        let panel = $('.panel-collapse');
+        acc.click(function() {
+            let currEl = $(this);
+            for (let i = 0; i < panel.length; i++) {
+                if (!$(panel[i]).is(currEl.next()) && $(panel[i]).hasClass("show")) {
+                    $(panel[i]).removeClass("show in");
+                }
+            }
+        })
     </script>
-    <style>
-        .home-banner-form .btn-contact {
-            line-height: 1.1;
-        }
-
-        .home-banner-form .btn-partner {
-            padding: 5px 0;
-            line-height: 1 !important;
-        }
-
-        .form-check-label {
-            line-height: 1.2;
-        }
-
-        .swiper-slide .min1 {
-            height: 600px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-
-        @media (min-width: 992px) and (max-width: 1920px) {
-            .home-banner-form {
-                top: 260px;
-                left: 50%;
-                margin-left: 260px;
-            }
-
-            .container {
-                position: static;
-                width: auto;
-            }
-        }
-
-        @media (min-width: 992px) and (max-width: 1440px) {
-            .swiper-slide .min1 {
-                width: 1680px;
-                height: 600px;
-            }
-
-            .home-banner-form {
-                top: 245px;
-                margin-left: 230px;
-            }
-
-            .home-banner-form .p-1 {
-                padding: 0.15rem 0.25rem !important;
-            }
-
-            .home-banner-form .cb-partnership {
-                padding: 0.25rem 0.25rem 0 0.25rem !important;
-            }
-
-            .home-banner-form label {
-                line-height: 12px;
-            }
-
-            .home-banner-form .bg-dark {
-                margin: 0.25rem !important;
-            }
-
-            .home-banner-form .btn-contact {
-                margin-top: 0.25rem !important;
-            }
-        }
-
-        @media (min-width: 992px) and (max-width: 1280px) {
-            .swiper-slide .min1 {
-                width: 1440px;
-                height: 600px;
-            }
-
-            .home-banner-form {
-                top: 210px;
-                margin-left: 205px;
-                width: 27%;
-            }
-
-            .bg-000 {
-                width: 115%;
-            }
-
-            .home-banner-form .p-1 {
-                padding: 0.10rem 0.25rem !important;
-            }
-
-            .home-banner-form .my-2 {
-                margin: 0.20rem 0.25rem !important;
-            }
-
-            .home-banner-form .cb-partnership {
-                padding: 0.25rem 0.25rem 0 0.25rem !important;
-            }
-
-            .home-banner-form label {
-                line-height: 12px;
-            }
-
-            .home-banner-form .bg-dark {
-                margin: 0.15rem 0.25rem !important;
-            }
-
-            .home-banner-form .btn-contact {
-                margin-top: 0.15rem !important;
-                padding: 2px 0 !important;
-            }
-
-            .home-banner-form .contact-form-button-container a {
-                margin-bottom: 3px !important;
-                padding: 0 auto !important;
-            }
-
-            .home-banner-form .form-check {
-                margin: -10px auto -4px !important;
-            }
-
-            .home-banner-form .mex-form-item input,
-            .mex-form-item select {
-                height: 33px;
-            }
-
-            .home-banner-form .contact-form-button-container a {
-                padding: 5px 10px !important;
-            }
-        }
-
-        @media (min-width: 992px) and (max-width: 1024px) {
-            .home-banner-form {
-                top: 205px;
-            }
-        }
-
-        @media (max-width: 992px) {
-            .swiper-slide .min2 {
-                background-repeat: no-repeat;
-                background-size: contain;
-            }
-
-            .swiper-slide .min2 img {
-                width: 100%;
-                max-width: 100%;
-            }
-
-            .home-banner-form {
-                margin-top: 15px;
-            }
-        }
-
-        #swiper-container-lp .swiper-slide .min1 {
-            height: 703px;
-        }
-
-        @media (max-width: 1440px) and (min-width: 992px) {
-            #swiper-container-lp .swiper-slide .min1 {
-                height: 600px;
-            }
-        }
-
-        @media (max-width: 1280px) and (min-width: 992px) {
-            #swiper-container-lp .swiper-slide .min1 {
-                height: 600px;
-            }
-        }
-    </style>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="|49" defer=""></script>
-
+    <script type="text/javascript" src="/public_files/static_js/app.js"></script>
+    <script type="text/javascript" src="/public_files/static_js/app_home.js"></script>
+    <script src="/public_files/static_js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/home.js"></script>
 
 
 </body>

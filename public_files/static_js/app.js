@@ -64,7 +64,18 @@ $(function() {
             sub_list.show();
         }
     });
+    if ($('.nav-menu-mobile-section ul').css('display') == 'block') {
+        // $('.nav-menu-mobile-section:after').css('transform', 'rotate(90deg)');
+        $('.nav-menu-mobile-section:after').css({
+            'transform': 'rotate(90deg)',
+            '-ms-transform': 'rotate(90deg)',
+            '-moz-transform': 'rotate(90deg)',
+            '-o-transform': 'rotate(90deg)'
+        });
+    } else {
+        $('.nav-menu-mobile-section:after').css('transform', 'rotate(0deg)');
 
+    }
 
     $('.nav-menu-hamburger').click(function() {
         $('.nav-menu-mobile').toggle();
@@ -585,10 +596,10 @@ $(function() {
 
     function toggleSideBar() {
         var scrollTop = $(window).scrollTop();
-        if (scrollTop >= winHeight && window.innerWidth >= 768) {
-            $('.slidebar-d').show(200);
-        } else if (scrollTop < winHeight && window.innerWidth >= 768) {
-            $('.slidebar-d').hide(200);
+        if (window.innerWidth >= 768) {
+            $('.slidebar-d').show(300);
+        } else if (window.innerWidth >= 768) {
+            $('.slidebar-d').hide(300);
         }
     }
 
@@ -859,16 +870,19 @@ var jointAccountDocFields = {
 // Regulations
 //Regulations page start
 $(document).ready(function() {
+
+    $('.home-banner-title1').show(100);
+    $('.home-banner-title2').show(100);
     // language click dropsown
     $('.lang-menu').click(() => {
         $('.lang-menu-dropdown').toggle();
         $('.nav-menu').hide();
     });
     $('.btn-navy').mouseover(() => {
-        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/mymultibank_ico.png');
     })
     $('.btn-navy').mouseleave(() => {
-        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+        $('.small-M-logo img').attr('src', '/public_files/images/common/icons/mymultibank_ico.png');
     })
 
 
@@ -879,52 +893,51 @@ $(document).ready(function() {
 
     let currentTheme = '';
     let mode = localStorage.getItem('defaultMode');
-    if (mode != '0') {
-        currentTheme = 'dark'
-    } else {
-        currentTheme = 'light'
-    }
-    if (currentTheme) {
-        document.documentElement.setAttribute('data-theme', currentTheme);
+    // if (mode == '1') {
+    //     currentTheme = 'dark';
+    // } else {
+    //     currentTheme = 'light';
+    // }
+    // if (currentTheme) {
+    //     document.documentElement.setAttribute('data-theme', currentTheme);
+    //     if (currentTheme == 'dark') {
+    //         toggleSwitch.checked = true;
+    //         localStorage.setItem('defaultMode', "0");;
+    //         $(".checkbox-m").prop("checked", true);
+    //         // $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
+    //         // $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
+    //         $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+    //         $('#darkmode-text').html('Enable Dark Mode')
 
-        if (currentTheme === 'dark') {
-            toggleSwitch.checked = true;
-            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-            $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-            $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
-            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
-            $('#darkmode-text').html('Enable Light Mode')
-        } else {
-            toggleSwitch.checked = false;
-            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
-            $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
-            $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
-            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
-            $('#darkmode-text').html('Enable Dark Mode')
-        }
-    }
+
+    //     } else {
+    //         toggleSwitch.checked = false;
+    //         localStorage.setItem('defaultMode', "1");
+    //         $(".checkbox-m").prop("checked", false)
+    //             // $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
+    //         $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+    //         $('#darkmode-text').html('Enable Light Mode')
+    //     }
+    // }
 
     function switchTheme(e) {
         if (e.target.checked) {
-            localStorage.setItem('defaultMode', "1");
-            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('defaultMode', "0");
+            document.documentElement.setAttribute('data-theme', 'light');
             localStorage.setItem('theme', 'dark');
-            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-            $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360_dark.png');
-            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon.png');
-            $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
+            $(".checkbox-m").prop("checked", true);
+            $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
+            // $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
             $('#darkmode-text').html('Enable Light Mode');
 
         } else {
-            localStorage.setItem('defaultMode', "0");
-            document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem('defaultMode', "1");
+            document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem('theme', 'light');
-            $('.header-logo').attr('src', '/public_files/images/common/logo_black_360.png');
-            $('.footer_logo img').attr('src', '/public_files/images/common/logo_black_360.png');
-            $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab.png');
+            $(".checkbox-m").prop("checked", false);
+            // $('.footer-icon').first().attr('src', '/public_files/images/common/icons/logo_footer_nab_dark.png');
             $('#darkmode-text').html('Enable Dark Mode');
             $('.small-M-logo img').attr('src', '/public_files/images/common/icons/btn_mymex_icon_dark.png');
-
         }
     }
 
@@ -1346,10 +1359,10 @@ $(document).ready(function() {
                 nextEl: '#about-page-awards .swiper-button-next',
                 prevEl: '#about-page-awards .swiper-button-prev',
             },
-            //autoplay:{delay: 5000, },
+            autoplay: { delay: 2000, },
             updateOnImagesReady: true,
-            slidesPerView: 7,
-            spaceBetween: 20,
+            slidesPerView: 5,
+            spaceBetween: 30,
             grabCursor: true,
             loop: true,
             breakpoints: {
@@ -1376,9 +1389,9 @@ $(document).ready(function() {
         if ($(window).width() > 991) {
             $('#about-page-awards .width-30').removeClass('width-30');
             $('#about-page-awards .width-40').removeClass('width-40');
-            obj.slides.eq(obj.activeIndex + 3).addClass('width-40');
+            obj.slides.eq(obj.activeIndex + 2).addClass('width-40');
             for (var i = 0; i < obj.slides.length; i++) {
-                if (i != obj.activeIndex + 3) {
+                if (i != obj.activeIndex + 2) {
                     obj.slides.eq(i).addClass('width-30');
                 }
             }
@@ -1420,27 +1433,20 @@ $(window).scroll(function() {
     }
 })
 
-$(window).resize(function(e) {
-    if (window.innerWidth < 767) {
-        $('.hero-container').css("display", "none");
+// $(window).resize(function(e) {
+//     if (window.innerWidth < 767) {
+//         $('.hero-container').css("display", "none");
 
-    } else {
-        $('.hero-container').css("display", "flex");
+//     } else {
+//         $('.hero-container').css("display", "flex");
 
-    }
-})
+//     }
+// })
 
 $(document).ready(() => {
-    $('.slide-bar-toggle').on('mouseenter', function() {
-        if ($('.slidebar-parent').css('display') == "none") {
-            $('.slidebar-parent').show(50);
-            $('.slidebar-m').show(250);
-            $(this).first().addClass('slide-bar-toggled');
-        } else {
-            $('.slidebar-parent').hide(50);
-            $('.slidebar-m').hide(100);
-            $(this).first().removeClass('slide-bar-toggled');
-        }
+    $('.slide-bar-toggle').on('click', function() {
+        $('.slidebar-parent').slideToggle("fast");
+        $('.slidebar-m').slideToggle("slow");
     });
 
     $('#reve-chat-container-div, #test-btn').click(function() {

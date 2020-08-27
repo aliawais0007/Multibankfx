@@ -1,27 +1,27 @@
 <div class="header sticky-top">
-    <div class="header-top d-none d-md-block">
+    <div class="header-top d-none d-md-block ">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 header-top-parent-left">
                 <ul class="header-top-left-menu hide-1024">
                     <li class="border-right hide-1200">Regulated and authorized by <a style="text-decoration: underline;">ASIC </a> and <a style="text-decoration: underline;">FSC</a></li>
-                    <li class="border-right hide-1024"><i class="ti-world">&nbsp;</i> <span><?php translate('Global Alexa Ranking:'); ?>14224</span></li>
+                    <li><a class="border-right pr-md-3  d-md-flex d-none align-items-center" href="" id="header-pn"></a></li>
+                    <!-- <li class="border-right hide-1024"><i class="ti-world">&nbsp;</i> <span><?php translate('Global Alexa Ranking:'); ?>14224</span></li> -->
                     <!-- <li class="hide-1280"><span><a href="" id="header-pn"></a> </span></li> -->
-                    <li>
+                    <!-- <li>
                         <div class="theme-switch-wrapper d-none d-md-flex">
                             <label class="theme-switch" for="checkbox">
-                                <input type="checkbox" id="checkbox"/>
+                                <input type="checkbox" id="checkbox" />
                                 <div class="slider round"></div>
                             </label>
                             <span id="darkmode-text">Enable Dark Mode!</span>
                         </div>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
-            <div class="col-md-6 col-12 header-top-right-menu text-nowrap">
-                <a class="d-none top-btn-1 btn btn-sm mr-1 header-mb-btn align-items-center" href="/account/live-account.php"><i class="ti-user">&nbsp;</i><?php translate('Live Account'); ?></a>
-                <a class="d-none top-btn-2 btn btn-sm hide-768 mr-1 align-items-center" href="/demo-competition.php"><i class="ti-desktop">&nbsp;</i><?php translate('Demo Account') ?></a>
-                <a class="btn btn-sm btn-gold mr-1 header-mb-btn d-md-flex d-none align-items-center" href="" id="header-pn"></a>
-                <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1 d-flex align-items-center" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"><img alt="" data-entity-type="" data-entity-uuid="" height="12px" src="" width="auto;" /> </span>&nbsp;<?php translate('MyMultibank'); ?></a>
+            <div class="col-md-6 col-12 header-top-right-menu text-nowrap header-top-parent-right">
+                <a class="d-none top-btn-1 btn btn-sm mr-1 header-mb-btn align-items-center" href="/account/live-account.php"><i class="ti-user">&nbsp;</i><?php translate('Live Trading'); ?></a>
+                <a class="d-none top-btn-2 btn btn-sm hide-768 mr-1 align-items-center" href="/demo-competition.php"><i class="ti-desktop">&nbsp;</i><?php translate('Simulated Trading') ?></a>
+                <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1 d-flex align-items-center" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"><img alt="" data-entity-type="" data-entity-uuid="" height="12px" src="/public_files/images/common/icons/mymultibank_ico.png" width="auto;" /> </span>&nbsp;<?php translate('MyMultibank'); ?></a>
                 <!-- <a class="btn btn-sm btn-grey hide-768 mr-1 d-flex align-items-center" href="/partnership/introducing-brokers.php"><i style="font-family: 'icomoon' !important; font-size:9px; font-style: normal; margin-right: 5px;">&nbsp;&#xe920;</i><?php translate('IB Registration'); ?></a> -->
             </div>
         </div>
@@ -32,7 +32,7 @@
                 <div class="line-height-75 line-height-1280-55 header-bottom-left-container">
                     <div class="header-boottom-logo">
                         <a href="/">
-                            <img alt="logo" class="logo logo-dark header-logo" src="" />
+                            <img alt="logo" class="logo logo-dark header-logo" src="/public_files/images/common/logo-gold.svg" />
                         </a>
                     </div>
                 </div>
@@ -68,8 +68,12 @@
                         <img alt="" src="/public_files/images/common/icons/btn_mymex_icon.png" />
                     </a>
                     <div class="nav-menu-hamburger">
-                        <i class="ti-menu" style="font-size: 20px; color: #FFF;"></i>
-                    </div>
+                    <button class="custom-navbar navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false">
+
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                    </button>                    </div>
                 </div>
             </div>
             <ul class="nav-menu py-3">
@@ -276,21 +280,21 @@
                     </div>
                 </li>
             </ul>
-            <ul class="nav-menu-mobile text-uppercase">
-                <li style="margin:0 1rem">
+            <ul class="collapse navbar-collapse nav-menu-mobile text-uppercase" id="navbarNavDropdown">
+                <!-- <li style="margin:0 1rem">
                     <a>
                         <div class="theme-switch-wrapper d-flex justify-content-between">
                             <span id="darkmode-text">Enable Dark Mode</span>
                             <label class="theme-switch" for="checkbox">
-                                <input type="checkbox" id="checkbox"/>
+                                <input type="checkbox" id="checkbox" class="checkbox-m" />
                                 <div class="slider round"></div>
                             </label>
 
                         </div>
                     </a>
-                </li>
+                </li> -->
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/about.php"><?php translate('About'); ?></a>
-                    <ul class="text-center">
+                    <ul class="text-left">
 
                         <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
                         <li><a href="/about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
@@ -305,7 +309,7 @@
                     </ul>
                 </li>
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/products.php"><?php translate('Products'); ?></a>
-                    <ul class="text-center">
+                    <ul class="text-left">
                         <li><a href="/products/forex.php"><?php translate('Forex'); ?></a></li>
                         <li><a href="/products/metals.php"><?php translate('Metals'); ?></a></li>
                         <li><a href="/products/shares.php"><?php translate('Shares'); ?></a></li>
@@ -315,7 +319,7 @@
                     </ul>
                 </li>
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/platforms.php"><?php translate('Platforms'); ?></a>
-                    <ul class="text-center">
+                    <ul class="text-left">
                         <li><a href="/platforms/compare-platforms.php"><?php translate('Compare Platforms'); ?></a></li>
                         <li><a href="/platforms/ecn-pro.php"><?php translate('ECN Pro'); ?></a></li>
                         <li><a href="/platforms/multibank-pro.php"><?php translate('MultiBank Pro'); ?></a></li>
@@ -326,7 +330,7 @@
                     </ul>
                 </li>
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/account.php"><?php translate('Accounts'); ?></a>
-                    <ul class="text-center">
+                    <ul class="text-left">
                         <li><a href="/account/live-account.php"><?php translate('Live Account'); ?></a></li>
                         <li><a href="/demo-competition.php"><?php translate('Demo Account'); ?></a></li>
                         <li><a href="/account/islamic-account.php"><?php translate('Islamic Account'); ?></a></li>
@@ -337,7 +341,7 @@
                     </ul>
                 </li>
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/tools.php"><?php translate('Tools'); ?></a>
-                    <ul class="text-center">
+                    <ul class="text-left">
                         <li><a href="/tools/trading-tools.php"><?php translate('Trading Tools'); ?></a></li>
                         <li><a href="/tools/trading-conditions.php"><?php translate('Trading Conditions'); ?></a></li>
                         <li><a href="/tools/holiday-hours-notices.php"><?php translate('Trading Hours & Holiday Notice'); ?></a></li>
@@ -347,7 +351,7 @@
                     </ul>
                 </li>
                 <li class="nav-menu-mobile-section py-1 mx-4"><a href="/investor-relations.php"><?php translate('Partnership'); ?></a>
-                    <ul class="text-center">
+                    <ul class="text-left">
                         <li><a href="/partnership/introducing-brokers.php"><?php translate('Introducing Brokers'); ?></a></li>
                         <li><a href="/partnership/franchise-program.php"><?php translate('Franchise Program'); ?></a></li>
                         <li><a href="/partnership/white-label.php"><?php translate('White Label'); ?></a></li>
@@ -355,9 +359,9 @@
                         <li><a href="/partnership/cpa-affiliate-program.php"><?php translate('CPA Affiliate Program'); ?></a></li>
                     </ul>
                 </li>
-                <li class="nav-menu-mobile-section py-1 px-4 lang-mobile-menu" style="border-top: 1px solid #ccc;">
+                <li class="nav-menu-mobile-section py-1 px-4 lang-mobile-menu" style="border-top: 1px solid #363D6B;">
                     English
-                    <ul class="text-center">
+                    <ul class="left">
                         <li><a href="https://es.multibankfx.com">Español</a></li>
                         <li><a href="?lang=">EN</a></li>
                         <li><a href="https://ru.multibankfx.com">русский</a></li>
@@ -373,3 +377,5 @@
         </div>
     </div>
 </div>
+
+

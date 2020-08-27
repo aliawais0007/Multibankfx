@@ -1,0 +1,30 @@
+<svg id="icon-fx" xmlns="http://www.w3.org/2000/svg" width="106" height="106" viewBox="0 0 106 106">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #1e32a3;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(17.723 33.89)">
+    <path id="Path_9" data-name="Path 9" class="cls-1" d="M158.789,164.895q3.486-4.79,15.3-4.792l12.243-.054V166.7H173.4q-5.056.1-7.424,2.182t-2.635,7.186l23-.055v6.6h-23v15.648H155.3V180.7Q155.3,169.683,158.789,164.895Z" transform="translate(-155.302 -160.049)"/>
+    <path id="Path_10" data-name="Path 10" class="cls-1" d="M198.519,160.049h9.368l7.88,12.085,7.824-12.085h9.263l-12.3,18.578,13.2,19.642h-9.633l-8.039-13.308-8.517,13.308h-9.475L211.4,179.162Z" transform="translate(-163.202 -160.049)"/>
+  </g>
+  <g id="Ellipse_39" data-name="Ellipse 39" class="cls-2">
+    <circle class="cls-3" cx="53" cy="53" r="53"/>
+    <circle class="cls-4" cx="53" cy="53" r="52"/>
+  </g>
+</svg>
