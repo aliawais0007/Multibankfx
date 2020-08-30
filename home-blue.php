@@ -164,7 +164,7 @@
                             <div class="col-12 d-flex flex-none justify-content-center demo-btn-custom ">
                                 <div class="row justify-content-center align-items-center flex-column flex-md-row button-action" style="height:100%">
                                     <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase"><span>CLAIM YOUR FREE $100</span><span class="banner-btn">Click Here To Open A Live Account</span></a>
-                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase"><span>TRY SIMULATED TRADING</span><span class="banner-btn">$100K Virtual Balance, Real Conditions</span></a>
+                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase"><span>TRY DEMO TRADING</span><span class="banner-btn">$100K Virtual Balance, Real Conditions</span></a>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                             <div class="col-12 d-flex flex-none justify-content-center demo-btn-custom ">
                                 <div class="row justify-content-center align-items-center flex-column flex-md-row button-action" style="height:100%">
                                     <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">CLAIM YOUR FREE $100<br><span class="banner-btn">Click Here To Open A Live Account</span></a>
-                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">TRY SIMULATED TRADING<br><span class="banner-btn">$100K Virtual Balance, Real Conditions</span></a>
+                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">TRY DEMO TRADING<br><span class="banner-btn">$100K Virtual Balance, Real Conditions</span></a>
                                 </div>
                             </div>
                         </div>
@@ -194,8 +194,8 @@
                             </div>
                             <div class="col-12 d-flex justify-content-center demo-btn-custom ">
                                 <div class="row justify-content-center align-items-center flex-column flex-md-row button-action" style="height:100%">
-                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Claim Bonus<br><span class="banner-btn">For MT4 & MT5 Platforms</span></a>
-                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">TRY Simulated Trading<br><span class="banner-btn">$100K Virtual Balance, Real Conditions</span></a>
+                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase claim-bonus">Claim Bonus<br><span class="banner-btn">For MT4 & MT5 Platforms</span></a>
+                                    <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">TRY DEMO Trading<br><span class="banner-btn">$100K Virtual Balance, Real Conditions</span></a>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                             </div>
                             <div class="col-12 d-flex justify-content-center demo-btn-custom ">
                                 <div class="row justify-content-center align-items-center flex-column flex-md-row button-action" style="height:100%">
-                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase">Claim Bonus<br><span class="banner-btn">For MT4 & MT5 Platforms</span></a>
+                                    <a href="/account/live-account.php" class="home-banner-btn2 text-uppercase claim-bonus">Claim Bonus<br><span class="banner-btn">For MT4 & MT5 Platforms</span></a>
                                     <a href="/account/demo-account.php" class="home-banner-btn1 text-uppercase">Learn More<br><span class="banner-btn">Everything You Need To Know</span></a>
                                 </div>
                             </div>
@@ -1538,7 +1538,7 @@
                 <div class="col-12 col-md-12 col-xl-6 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/introducing-brokers">
-                            <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-introducing-brokers.jpg">
+                            <img alt="Introducing Brokers" class=" card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-introducing-brokers.jpg">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 Introducing Brokers
@@ -1558,7 +1558,7 @@
                 <div class="col-12 col-md-12 col-xl-6 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/franchise-program.php">
-                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-franchise-program.jpg" alt="Franchise Program">
+                            <img class=" card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-franchise-program.jpg" alt="Franchise Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                 Franchise Program </div>
@@ -1577,7 +1577,7 @@
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/white-label.php">
-                            <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-white-label.jpg">
+                            <img alt="White Label" class=" card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-white-label.jpg">
 
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
@@ -1598,7 +1598,7 @@
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/prime-of-primes.php">
-                            <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-prime-of-primes.jpg">
+                            <img alt="Prime of Primes" class=" card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-prime-of-primes.jpg">
                             <div class="card-content text-left">
                                 <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
                                 PRIME OF PRIMES </div>
@@ -1616,7 +1616,7 @@
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-30 d-none d-md-block partnerships-div">
                     <section class="mex-card-cover box-animate">
                         <a href="/partnership/cpa-affiliate-program.php">
-                            <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-cpa-affiliate-program.jpg" alt="CPA Affiliate Program">
+                            <img class=" card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-cpa-affiliate-program.jpg" alt="CPA Affiliate Program">
                             <div class="card-content text-left">
                                 <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                 CPA AFFILIATE PROGRAM </div>
@@ -1638,7 +1638,7 @@
             <div class="row d-block d-md-none">
                 <div class="col-12 col-md-12 col-xl-8 mex-m-b-10 custom-card-img">
                     <div class="card">
-                        <img alt="Introducing Brokers" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-introducing-brokers.jpg">
+                        <img alt="Introducing Brokers" class=" card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-introducing-brokers.jpg">
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-clamp-1 mex-m-b-5 font-type-cap uppercase text-fff">
                                 Introducing Brokers </div>
@@ -1650,7 +1650,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
                     <div class="card">
-                        <img class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-franchise-program.jpg" alt="Franchise Program">
+                        <img class=" card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-franchise-program.jpg" alt="Franchise Program">
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                 Franchise Program </div>
@@ -1661,7 +1661,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img">
                     <div class="card">
-                        <img alt="White Label" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-prime-of-primes.jpg">
+                        <img alt="White Label" class=" card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/partnerships-prime-of-primes.jpg">
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34 mex-m-b-5 font-type-cap uppercase text-fff">
                                 White Label </div>
@@ -1673,7 +1673,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-4 mex-m-b-10 custom-card-img d-none">
                     <div class="card">
-                        <img alt="Prime of Primes" class="lower-brightness card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
+                        <img alt="Prime of Primes" class=" card-img mex-img-cover lazyloadXXX" src="/public_files/images/partnership/home_partnership_prime_of_primes@2x.png">
                         <div class="card-img-overlay text-center d-flex flex-column justify-content-center">
                             <div class="font-34  mex-m-b-5 font-type-cap uppercase text-fff">
                                 Prime of Primes </div>
@@ -2524,7 +2524,7 @@
                 <div class="footer_pa">
                     <div class="container">
                         <div class="row">
-                            <img class="w-100 h-auto d-block d-lg-none d-md-none" src="/public_files/images/common/icons/payment-options.jpg">
+                            <img class="w-100 h-auto d-block d-lg-none d-md-none" src="/public_files/images/common/icons/payment-options.png">
                             <div class="footer-icon-list d-lg-block d-md-block d-none">
                                 <img class="footer-icon" alt="nab" src="/public_files/images/common/icons/logo_footer_nab_dark.png" style="width: auto; height: 30px;">
                                 <img class="footer-icon" alt="neteller" src="/public_files/images/common/icons/logo_footer_neteller.png" style="width: auto; height: 20px;">
@@ -2826,7 +2826,7 @@
             },
             loop: true,
             autoplay: {
-                delay: 3000
+                delay: 5000
             },
             updateOnImagesReady: true,
             paginationClickable: true,
@@ -2855,9 +2855,9 @@
             }
         })
     </script>
-    <script type="text/javascript" src="/public_files/static_js/app.js"></script>
     <script type="text/javascript" src="/public_files/static_js/app_home.js"></script>
     <script src="/public_files/static_js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/public_files/static_js/app.js"></script>
     <script type="text/javascript" src="js/home.js"></script>
 
 

@@ -1,7 +1,6 @@
 <?php include_from_root('website_template/contact_us_footer.php'); ?>
 
 <section>
-<button  id="test-btn">Click me to test</button>
     <div class="container">
         <div class="col-lg-12 footer">
             <div class="row justify-content-between" style="padding-bottom: 25px; border-bottom: 1px solid #808080;">
@@ -96,7 +95,7 @@
             <div class="footer_pa">
                 <div class="container">
                     <div class="row">
-                        <img class="w-100 h-auto d-block d-lg-none" src="/public_files/images/common/icons/payment_partners-201906.jpg">
+                        <img class="w-100 h-auto d-block d-lg-none" src="/public_files/images/common/icons/payment-options.png">
                         <div class="footer-icon-list d-none d-lg-block">
                             <img class="footer-icon" alt="nab" src="" style="width: auto; height: 30px;">
                             <img class="footer-icon" alt="neteller" src="/public_files/images/common/icons/logo_footer_neteller.png" style="width: auto; height: 20px;">

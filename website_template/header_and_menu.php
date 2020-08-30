@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-6 col-12 header-top-right-menu text-nowrap header-top-parent-right">
                 <a class="d-none top-btn-1 btn btn-sm mr-1 header-mb-btn align-items-center" href="/account/live-account.php"><i class="ti-user">&nbsp;</i><?php translate('Live Trading'); ?></a>
-                <a class="d-none top-btn-2 btn btn-sm hide-768 mr-1 align-items-center" href="/demo-competition.php"><i class="ti-desktop">&nbsp;</i><?php translate('Simulated Trading') ?></a>
+                <a class="d-none top-btn-2 btn btn-sm hide-768 mr-1 align-items-center" href="/demo-competition.php"><i class="ti-desktop">&nbsp;</i><?php translate('Demo Trading') ?></a>
                 <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1 d-flex align-items-center" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"><img alt="" data-entity-type="" data-entity-uuid="" height="12px" src="/public_files/images/common/icons/mymultibank_ico.png" width="auto;" /> </span>&nbsp;<?php translate('MyMultibank'); ?></a>
                 <!-- <a class="btn btn-sm btn-grey hide-768 mr-1 d-flex align-items-center" href="/partnership/introducing-brokers.php"><i style="font-family: 'icomoon' !important; font-size:9px; font-style: normal; margin-right: 5px;">&nbsp;&#xe920;</i><?php translate('IB Registration'); ?></a> -->
             </div>
@@ -68,12 +68,13 @@
                         <img alt="" src="/public_files/images/common/icons/btn_mymex_icon.png" />
                     </a>
                     <div class="nav-menu-hamburger">
-                    <button class="custom-navbar navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false">
+                        <button class="custom-navbar navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false">
 
-                    <span> </span>
-                    <span> </span>
-                    <span> </span>
-                    </button>                    </div>
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                        </button>                    
+                    </div>
                 </div>
             </div>
             <ul class="nav-menu py-3">
@@ -280,100 +281,93 @@
                     </div>
                 </li>
             </ul>
+            
             <ul class="collapse navbar-collapse nav-menu-mobile text-uppercase" id="navbarNavDropdown">
-                <!-- <li style="margin:0 1rem">
-                    <a>
-                        <div class="theme-switch-wrapper d-flex justify-content-between">
-                            <span id="darkmode-text">Enable Dark Mode</span>
-                            <label class="theme-switch" for="checkbox">
-                                <input type="checkbox" id="checkbox" class="checkbox-m" />
-                                <div class="slider round"></div>
-                            </label>
+          
+        
+                    <li class="nav-menu-mobile-section py-1 mx-4"><a href="/about.php"><?php translate('About'); ?></a>
+                        <ul class="text-left custom-ul">
 
-                        </div>
-                    </a>
-                </li> -->
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/about.php"><?php translate('About'); ?></a>
-                    <ul class="text-left">
+                            <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
+                            <li><a href="/about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
+                            <li><a href="/mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
+                            <li><a href="/about/security-of-funds.php"><?php translate('Security of Funds'); ?></a></li>
+                            <li><a href="/article/milestones.php"><?php translate('Milestones'); ?></a></li>
+                            <li><a href="/about/management.php"><?php translate('Management'); ?></a></li>
+                            <li><a href="/about/awards.php"><?php translate('Awards'); ?></a></li>
+                            <li><a href="/about/sponsorship.php"><?php translate('Sponsorship'); ?></a></li>
+                            <li><a href="/article/company-news.php"><?php translate('Company News'); ?></a></li>
+                            <li><a href="/article/hiring-now-cyprus.php"><?php translate('Career'); ?></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu-mobile-section py-1 mx-4"><a href="/products.php"><?php translate('Products'); ?></a>
+                        <ul class="text-left custom-ul">
+                            <li><a href="/products/forex.php"><?php translate('Forex'); ?></a></li>
+                            <li><a href="/products/metals.php"><?php translate('Metals'); ?></a></li>
+                            <li><a href="/products/shares.php"><?php translate('Shares'); ?></a></li>
+                            <li><a href="/products/indices.php"><?php translate('Indices'); ?></a></li>
+                            <li><a href="/products/commodities.php"><?php translate('Commodities'); ?></a></li>
 
-                        <li><a href="/about/why-multibank-group.php"><?php translate('Why Multibank'); ?></a></li>
-                        <li><a href="/about/global-presence.php"><?php translate('Global Presence'); ?></a></li>
-                        <li><a href="/mfx/v1/about/regulations.php"><?php translate('Regulations'); ?></a></li>
-                        <li><a href="/about/security-of-funds.php"><?php translate('Security of Funds'); ?></a></li>
-                        <li><a href="/article/milestones.php"><?php translate('Milestones'); ?></a></li>
-                        <li><a href="/about/management.php"><?php translate('Management'); ?></a></li>
-                        <li><a href="/about/awards.php"><?php translate('Awards'); ?></a></li>
-                        <li><a href="/about/sponsorship.php"><?php translate('Sponsorship'); ?></a></li>
-                        <li><a href="/article/company-news.php"><?php translate('Company News'); ?></a></li>
-                        <li><a href="/article/hiring-now-cyprus.php"><?php translate('Career'); ?></a></li>
-                    </ul>
-                </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/products.php"><?php translate('Products'); ?></a>
-                    <ul class="text-left">
-                        <li><a href="/products/forex.php"><?php translate('Forex'); ?></a></li>
-                        <li><a href="/products/metals.php"><?php translate('Metals'); ?></a></li>
-                        <li><a href="/products/shares.php"><?php translate('Shares'); ?></a></li>
-                        <li><a href="/products/indices.php"><?php translate('Indices'); ?></a></li>
-                        <li><a href="/products/commodities.php"><?php translate('Commodities'); ?></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu-mobile-section py-1 mx-4"><a href="/platforms.php"><?php translate('Platforms'); ?></a>
+                        <ul class="text-left custom-ul">
+                            <li><a href="/platforms/compare-platforms.php"><?php translate('Compare Platforms'); ?></a></li>
+                            <li><a href="/platforms/ecn-pro.php"><?php translate('ECN Pro'); ?></a></li>
+                            <li><a href="/platforms/multibank-pro.php"><?php translate('MultiBank Pro'); ?></a></li>
+                            <li><a href="/platforms/maximus.php"><?php translate('Maximus'); ?></a></li>
+                            <li><a href="/platforms/mt5-platform.php"><?php translate('MT5 Platform'); ?></a></li>
+                            <li><a href="/platforms/social-trading.php"><?php translate('Social Trading'); ?></a></li>
+                            <li><a href="/platforms/download-center.php"><?php translate('Download Center'); ?></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu-mobile-section py-1 mx-4"><a href="/account.php"><?php translate('Accounts'); ?></a>
+                        <ul class="text-left custom-ul">
+                            <li><a href="/account/live-account.php"><?php translate('Live Account'); ?></a></li>
+                            <li><a href="/demo-competition.php"><?php translate('Demo Account'); ?></a></li>
+                            <li><a href="/account/islamic-account.php"><?php translate('Islamic Account'); ?></a></li>
+                            <li><a href="/account/account-funding.php"><?php translate('Account Funding'); ?></a></li>
+                            <li><a href="/account/withdrawals.php"><?php translate('Withdrawals'); ?></a></li>
+                            <li><a href="/account/account-forms.php"><?php translate('Account Forms'); ?></a></li>
+                            <li><a href="/account/bonus.php"><?php translate('Bonuses'); ?></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu-mobile-section py-1 mx-4"><a href="/tools.php"><?php translate('Tools'); ?></a>
+                        <ul class="text-left custom-ul">
+                            <li><a href="/tools/trading-tools.php"><?php translate('Trading Tools'); ?></a></li>
+                            <li><a href="/tools/trading-conditions.php"><?php translate('Trading Conditions'); ?></a></li>
+                            <li><a href="/tools/holiday-hours-notices.php"><?php translate('Trading Hours & Holiday Notice'); ?></a></li>
+                            <li><a href="/cfd-expiration-dates.php"><?php translate('CFD Expiration Dates'); ?></a></li>
 
-                    </ul>
-                </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/platforms.php"><?php translate('Platforms'); ?></a>
-                    <ul class="text-left">
-                        <li><a href="/platforms/compare-platforms.php"><?php translate('Compare Platforms'); ?></a></li>
-                        <li><a href="/platforms/ecn-pro.php"><?php translate('ECN Pro'); ?></a></li>
-                        <li><a href="/platforms/multibank-pro.php"><?php translate('MultiBank Pro'); ?></a></li>
-                        <li><a href="/platforms/maximus.php"><?php translate('Maximus'); ?></a></li>
-                        <li><a href="/platforms/mt5-platform.php"><?php translate('MT5 Platform'); ?></a></li>
-                        <li><a href="/platforms/social-trading.php"><?php translate('Social Trading'); ?></a></li>
-                        <li><a href="/platforms/download-center.php"><?php translate('Download Center'); ?></a></li>
-                    </ul>
-                </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/account.php"><?php translate('Accounts'); ?></a>
-                    <ul class="text-left">
-                        <li><a href="/account/live-account.php"><?php translate('Live Account'); ?></a></li>
-                        <li><a href="/demo-competition.php"><?php translate('Demo Account'); ?></a></li>
-                        <li><a href="/account/islamic-account.php"><?php translate('Islamic Account'); ?></a></li>
-                        <li><a href="/account/account-funding.php"><?php translate('Account Funding'); ?></a></li>
-                        <li><a href="/account/withdrawals.php"><?php translate('Withdrawals'); ?></a></li>
-                        <li><a href="/account/account-forms.php"><?php translate('Account Forms'); ?></a></li>
-                        <li><a href="/account/bonus.php"><?php translate('Bonuses'); ?></a></li>
-                    </ul>
-                </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/tools.php"><?php translate('Tools'); ?></a>
-                    <ul class="text-left">
-                        <li><a href="/tools/trading-tools.php"><?php translate('Trading Tools'); ?></a></li>
-                        <li><a href="/tools/trading-conditions.php"><?php translate('Trading Conditions'); ?></a></li>
-                        <li><a href="/tools/holiday-hours-notices.php"><?php translate('Trading Hours & Holiday Notice'); ?></a></li>
-                        <li><a href="/cfd-expiration-dates.php"><?php translate('CFD Expiration Dates'); ?></a></li>
-
-                        <li><a href="/scalping-policy.php"><?php translate('Scalping Policy'); ?></a></li>
-                    </ul>
-                </li>
-                <li class="nav-menu-mobile-section py-1 mx-4"><a href="/investor-relations.php"><?php translate('Partnership'); ?></a>
-                    <ul class="text-left">
-                        <li><a href="/partnership/introducing-brokers.php"><?php translate('Introducing Brokers'); ?></a></li>
-                        <li><a href="/partnership/franchise-program.php"><?php translate('Franchise Program'); ?></a></li>
-                        <li><a href="/partnership/white-label.php"><?php translate('White Label'); ?></a></li>
-                        <li><a href="/partnership/prime-of-primes.php"><?php translate('Prime of Primes'); ?></a></li>
-                        <li><a href="/partnership/cpa-affiliate-program.php"><?php translate('CPA Affiliate Program'); ?></a></li>
-                    </ul>
-                </li>
-                <li class="nav-menu-mobile-section py-1 px-4 lang-mobile-menu" style="border-top: 1px solid #363D6B;">
-                    English
-                    <ul class="left">
-                        <li><a href="https://es.multibankfx.com">Español</a></li>
-                        <li><a href="?lang=">EN</a></li>
-                        <li><a href="https://ru.multibankfx.com">русский</a></li>
-                        <li><a href="https://ae.multibankfx.com?lang=arabic">العربية</a></li>
-                        <li><a href="https://vn.multibankfx.com">Việt Nam</a></li>
-                        <li><a href="https://id.multibankfx.com">Bahasa Indonesia</a></li>
-                        <li><a href="https://mys.multibankfx.com">Bahasa Melayu</a></li>
-                        <li><a href="https://ph.multibankfx.com">Tagalog</a></li>
-                        <li><a href="https://fr.multibankfx.com">Français</a></li>
-                    </ul>
-                </li>
-            </ul>
+                            <li><a href="/scalping-policy.php"><?php translate('Scalping Policy'); ?></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu-mobile-section py-1 mx-4"><a href="/investor-relations.php"><?php translate('Partnership'); ?></a>
+                        <ul class="text-left custom-ul">
+                            <li><a href="/partnership/introducing-brokers.php"><?php translate('Introducing Brokers'); ?></a></li>
+                            <li><a href="/partnership/franchise-program.php"><?php translate('Franchise Program'); ?></a></li>
+                            <li><a href="/partnership/white-label.php"><?php translate('White Label'); ?></a></li>
+                            <li><a href="/partnership/prime-of-primes.php"><?php translate('Prime of Primes'); ?></a></li>
+                            <li><a href="/partnership/cpa-affiliate-program.php"><?php translate('CPA Affiliate Program'); ?></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu-mobile-section py-1 px-4 lang-mobile-menu" style="border-top: 1px solid #363D6B;">
+                        English
+                        <ul class="left custom-ul">
+                            <li><a href="https://es.multibankfx.com">Español</a></li>
+                            <li><a href="?lang=">EN</a></li>
+                            <li><a href="https://ru.multibankfx.com">русский</a></li>
+                            <li><a href="https://ae.multibankfx.com?lang=arabic">العربية</a></li>
+                            <li><a href="https://vn.multibankfx.com">Việt Nam</a></li>
+                            <li><a href="https://id.multibankfx.com">Bahasa Indonesia</a></li>
+                            <li><a href="https://mys.multibankfx.com">Bahasa Melayu</a></li>
+                            <li><a href="https://ph.multibankfx.com">Tagalog</a></li>
+                            <li><a href="https://fr.multibankfx.com">Français</a></li>
+                        </ul>
+                    </li>
+      </ul>
+           
+          
         </div>
     </div>
 </div>
